@@ -1322,7 +1322,7 @@ def main():
     else:
         conf['dns']['enhanced-mode'] = 'fake-ip'
     with open("list.yml", 'w', encoding="utf-8") as f:
-        f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
+        f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d\n'))  //modify by yaka 200251105
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies}, allow_unicode=True).replace('!!str ',''))
@@ -1348,7 +1348,7 @@ def main():
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
-        f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
+        f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d\n')) //modify by yaka 200251105
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_meta}, allow_unicode=True).replace('!!str ',''))
