@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
+  port: '80'
   server: 141.101.121.250
   tls: false
   type: vmess
@@ -36,15 +36,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 美国|@ripaojiedian
-  network: tcp
-  password: e4e262d453466988575c397a30562337
-  port: 4553
-  server: 117.172.176.23
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - client-fingerprint: chrome
   name: 美国2|@ripaojiedian
   network: tcp
