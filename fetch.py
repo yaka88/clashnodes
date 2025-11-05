@@ -503,6 +503,7 @@ class Node:
             if '.' not in self.data['server']: return True
             if self.data['server'] in FAKE_IPS: return True
             if int(str(self.data['port'])) < 20: return True
+            if 'cipher' in self.data and self.data['cipher'] == 'ss': return True   #add by yaka 20251103
             for domain in FAKE_DOMAINS:
                 if self.data['server'] == domain.lstrip('.'): return True
                 if self.data['server'].endswith(domain): return True
@@ -619,11 +620,22 @@ class Node:
             else: ret += f"flow={flow}-udp443&"
         if 'client-fingerprint' in data:
             ret += f"fp={data['client-fingerprint']}&"
-        if data.get('tls'):
-            ret += f"security=tls&"
-        elif 'reality-opts' in data:
+        if 'reality-opts' in data:         #modify by yaka 20251103
             opts: Dict[str, str] = data['reality-opts']
             ret += f"security=reality&pbk={opts.get('public-key','')}&sid={opts.get('short-id','')}&"
+        elif 'tls' in data and data['tls']:
+            ret += f"security=tls&"
+        if 'network' in data:
+            if data['network'] == 'grpc':
+                ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+            elif data['network'] == 'ws':
+                ret += f"type=ws&"
+                if 'ws-opts' in data:
+                    try:
+                        ret += f"host={data['ws-opts']['headers']['Host']}&"
+                    except KeyError: pass
+                    if 'path' in data['ws-opts']:
+                        ret += f"path={data['ws-opts']['path']}"
         ret = ret.rstrip('&')+'#'+name
         return ret
 
