@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: 141.101.121.250
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - name: 'Channel id: @ShadowProxy66🇺🇸'
   password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
   port: 443
@@ -41,25 +55,41 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 9269
-  server: 36.150.215.245
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: US_speednode_0019
-  port: 443
-  reality-opts:
-    public-key: 9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns
-    short-id: '!!str c7f3cc'
-  server: usa32.clearorbitllc.com
-  servername: usa32.clearorbitllc.com
+  name: US_speednode_0045
+  port: 17597
+  server: usvless.yydzx.xyz
+  servername: usvless.yydzx.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c
+  uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+- name: US_speednode_0048
+  network: ws
+  port: 2095
+  server: linux.do
+  servername: fangbinxingnmsl.pusytroller.cf
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
+    path: /
+- name: US_speednode_0049
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: fangbinxingnmsl.pusytroller.cf
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
+    path: /
