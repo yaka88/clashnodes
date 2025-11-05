@@ -599,20 +599,6 @@ class Node:
             ret += f"sni={data['servername']}&"
         if 'alpn' in data:
             ret += f"alpn={quote(','.join(data['alpn']))}&"
-        if 'network' in data:
-            if data['network'] == 'grpc':
-                ret += f"type=grpc&"
-                try:
-                    ret += f"serviceName={data['grpc-opts']['grpc-service-name']}&"
-                except KeyError: pass
-            elif data['network'] == 'ws':
-                ret += f"type=ws&"
-                if 'ws-opts' in data:
-                    try:
-                        ret += f"host={data['ws-opts']['headers']['Host']}&"
-                    except KeyError: pass
-                    if 'path' in data['ws-opts']:
-                        ret += f"path={data['ws-opts']['path']}"
         if 'flow' in data:
             flow: str = data['flow']
             if flow.endswith('!'):
@@ -623,7 +609,7 @@ class Node:
         if 'reality-opts' in data:         #modify by yaka 20251103
             opts: Dict[str, str] = data['reality-opts']
             ret += f"security=reality&pbk={opts.get('public-key','')}&sid={opts.get('short-id','')}&"
-        elif 'tls' in data and data['tls']:
+        elif data.get('tls'):
             ret += f"security=tls&"
         if 'network' in data:
             if data['network'] == 'grpc':
