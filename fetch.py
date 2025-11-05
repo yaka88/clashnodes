@@ -621,7 +621,7 @@ class Node:
                         ret += f"host={data['ws-opts']['headers']['Host']}&"
                     except KeyError: pass
                     if 'path' in data['ws-opts']:
-                        ret += f"path={quote(data['ws-opts']['path'], safe='')}"  #modify by yaka 20251105
+                        ret += f"path={data['ws-opts']['path']}"
         ret = ret.rstrip('&')+'#'+name
         return ret
 
