@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
+  port: '80'
   server: 141.101.121.3
   tls: false
   type: vmess
