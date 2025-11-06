@@ -10,5 +10,5 @@ proxies:
   uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
   ws-opts:
     headers:
-      Host: node-59-175-206-86.speedtest.cn
+      Host: ''
     path: /download

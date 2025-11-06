@@ -1,9 +1,13 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 香港 Cloudie数据中心
+  network: tcp
+  port: '10086'
+  server: 103.243.26.209
+  tls: false
+  type: vmess
+  uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
