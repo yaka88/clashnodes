@@ -4,14 +4,28 @@ proxies:
   name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: 141.101.120.130
+  server: 141.101.121.250
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
   ws-opts:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1/?ed=2560
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '80'
+  server: 141.101.121.3
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - name: 'Channel id: @ShadowProxy66🇺🇸'
   password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
   port: 443
@@ -35,6 +49,15 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 美国|@ripaojiedian
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 4553
+  server: 117.172.176.23
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - client-fingerprint: chrome
   name: 美国2|@ripaojiedian
   network: tcp
