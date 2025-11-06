@@ -3,16 +3,15 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '80'
-  server: 141.101.121.3
-  tls: false
+  port: 443
+  server: cf.090227.xyz
+  tls: true
   type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      Host: sgal.dagrate.eu.org
+    path: /
 - name: 'Channel id: @ShadowProxy66🇺🇸'
   password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
   port: 443
