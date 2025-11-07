@@ -1,4 +1,26 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 香港 Cloudie数据中心
+  network: tcp
+  port: '10086'
+  server: 103.243.26.209
+  tls: false
+  type: vmess
+  uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
+- alterId: 2
+  cipher: auto
+  name: 香港 电讯盈科
+  network: ws
+  port: 30807
+  server: v10.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
@@ -9,28 +31,26 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 香港7|@ripaojiedian
-  network: tcp
-  port: '49509'
-  server: 36.150.27.76
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
-- alterId: 0
-  cipher: auto
-  name: 瑞典 V2CROSS.COM
+  name: 新加坡 亚马逊(Amazon)公司数据中心
   network: ws
-  port: '80'
-  server: 185.146.173.24
+  port: 8080
+  server: hk3.nodea6a6.skynode.me
   tls: false
   type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      Host: node-59-175-206-86.speedtest.cn
+    path: /download?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 西班牙 V2CROSS.COM
+  network: tcp
+  port: 50475
+  server: 164.138.202.55
+  tls: false
+  type: vmess
+  uuid: b3bfb11c-43ff-41f3-9ba7-18b615baa134
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -45,15 +65,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 香港 Cloudie数据中心
-  network: tcp
-  port: '8080'
-  server: 103.243.26.209
-  tls: false
-  type: vmess
-  uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -80,6 +91,16 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
+- alterId: 0
+  cipher: auto
+  name: 香港7|@ripaojiedian
+  network: tcp
+  port: '49509'
+  server: 36.150.27.76
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
