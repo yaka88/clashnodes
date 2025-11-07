@@ -653,7 +653,7 @@ class Node:
             part += ':' + data['password']
         if part: part += '@'
         name = quote(data['name'])
-        return f"{tp}://{part}{data['server']}:{data['port']#{name}}"
+        return f"{tp}://{part}{data['server']}:{data['port']}#{name}"  #modify by yaka 20251103
 
     _url_http = _url__legacy
     _url_https = _url__legacy
