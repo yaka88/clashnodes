@@ -3,8 +3,8 @@ proxies:
   cipher: auto
   name: 瑞典 V2CROSS.COM
   network: ws
-  port: '80'
-  server: 185.146.173.24
+  port: 80
+  server: 185.146.173.16
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
