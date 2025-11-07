@@ -652,7 +652,8 @@ class Node:
         if 'password' in data:
             part += ':' + data['password']
         if part: part += '@'
-        return f"{tp}://{part}{data['server']}:{data['port']}"
+        name = quote(data['name'])
+        return f"{tp}://{part}{data['server']}:{data['port']#{name}}"
 
     _url_http = _url__legacy
     _url_https = _url__legacy
