@@ -1,4 +1,45 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 香港 电讯盈科
+  network: ws
+  port: '30807'
+  server: v10.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: 141.101.121.250
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '80'
+  server: 104.18.240.238
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
   name: 香港 Cloudie数据中心
@@ -8,49 +49,20 @@ proxies:
   tls: false
   type: vmess
   uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
-- alterId: 2
-  cipher: auto
-  name: 香港 电讯盈科
-  network: ws
-  port: 30807
-  server: v10.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- name: 香港3|@ripaojiedian
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 443
-  server: 203.198.122.194
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 新加坡 亚马逊(Amazon)公司数据中心
+  name: 瑞典 V2CROSS.COM
   network: ws
-  port: 8080
-  server: hk3.nodea6a6.skynode.me
+  port: '80'
+  server: 185.146.173.117
   tls: false
   type: vmess
-  uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
   ws-opts:
     headers:
-      Host: node-59-175-206-86.speedtest.cn
-    path: /download?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 西班牙 V2CROSS.COM
-  network: tcp
-  port: 50475
-  server: 164.138.202.55
-  tls: false
-  type: vmess
-  uuid: b3bfb11c-43ff-41f3-9ba7-18b615baa134
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -65,6 +77,13 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 443
+  server: 203.198.122.194
+  sni: www.nintendogames.net
+  type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
