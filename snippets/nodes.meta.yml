@@ -27,109 +27,94 @@ proxies:
   up: 1000
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 香港 Cloudie数据中心
+  network: tcp
+  port: '8080'
+  server: 103.243.26.209
+  tls: false
+  type: vmess
+  uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 443
+  server: 203.198.122.194
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 瑞典 V2CROSS.COM
   network: ws
   port: '80'
-  server: 141.101.120.130
+  server: 185.146.173.16
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
   ws-opts:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1/?ed=2560
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: 德国 V2CROSS.COM
   network: ws
-  port: 12889
-  server: gtm1.ktmwan.net
+  port: '80'
+  server: 77.37.33.227
   tls: false
   type: vmess
-  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
   ws-opts:
     headers:
-      Host: v1.pstatp.com
-    path: /
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  type: trojan
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 台湾省 道法法律事务所
   network: ws
-  port: '12891'
-  server: gtm1.ktmwan.net
+  port: 54693
+  server: 103.127.218.91
   tls: false
   type: vmess
-  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  uuid: 1cef03ad-6343-408c-8121-cbd1fda2ee9d
   ws-opts:
     headers:
-      Host: v1.pstatp.com
-    path: /
+      Host: ''
+    path: /1cef03ad
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #2'
+  name: 香港 阿里云
   network: ws
-  port: 12897
-  server: gtm1.ktmwan.net
+  port: 14044
+  server: 47.86.85.95
   tls: false
   type: vmess
-  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  uuid: 74475bf0-0267-4a04-b431-54752e31994b
   ws-opts:
     headers:
-      Host: v1.pstatp.com
-    path: /
+      Host: ''
+    path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: tcp
-  port: 55568
-  server: q8vj6.4m4ow5.no8u9m8.vm331.cn
-  tls: false
-  type: vmess
-  uuid: 0e05355a-dd6c-4d3a-8106-8e1e2c4927bd
-- alterId: 2
-  cipher: auto
-  name: 香港 电讯盈科有限公司
+  name: '瑞典 V2CROSS.COM #1'
   network: ws
-  port: 30807
-  server: v10.heduian.link
+  port: '80'
+  server: 185.146.173.117
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #3'
-  network: ws
-  port: 12898
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
-  ws-opts:
-    headers:
-      Host: v1.pstatp.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #4'
-  network: ws
-  port: 12885
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
-  ws-opts:
-    headers:
-      Host: v1.pstatp.com
-    path: /
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - name: '🇳🇱 - NL - @freeOnlineVPN #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -223,33 +208,6 @@ proxies:
   server: 31.57.241.25
   skip-cert-verify: true
   sni: d.eans.top
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal2
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: 4VDmo53kWX
-  port: 18865
-  server: 185.219.81.33
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: 4VDmo53kWX
-  port: 20675
-  server: 185.219.81.33
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal3
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: 4VDmo53kWX
-  port: 50757
-  server: 185.219.81.33
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: All-@V2rayAlpha--3
@@ -531,82 +489,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: v2raybluecrystal2-ger
-  obfs: salamander
-  obfs-password: v2raybluecrystal2
-  password: F6HtMurQGt
-  port: 16666
-  server: 185.211.101.15
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal-ger
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: F6HtMurQGt
-  port: 20358
-  server: 185.211.101.15
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal3-ger
-  obfs: salamander
-  obfs-password: v2raybluecrystal3
-  password: F6HtMurQGt
-  port: 48233
-  server: 185.211.101.15
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: rema2
-  obfs: salamander
-  obfs-password: telegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystal
-  password: IZ3V4BlqjL
-  port: 23398
-  server: rema.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: rema
-  obfs: salamander
-  obfs-password: telegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystal
-  password: IZ3V4BlqjL
-  port: 48979
-  server: rema.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '@Daily_Configs'
   password: JOh7tQHdp8
   port: 48361
   server: 191.96.11.107
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal2-la
-  obfs: salamander
-  obfs-password: v2raybluecrystal2
-  password: Jj0FrgSd85
-  port: 17083
-  server: 165.140.166.78
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal3-la
-  obfs: salamander
-  obfs-password: v2raybluecrystal3
-  password: Jj0FrgSd85
-  port: 41003
-  server: 165.140.166.78
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal-la
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: Jj0FrgSd85
-  port: 50163
-  server: 165.140.166.78
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -638,33 +524,6 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: v2raybluecrystal3-hou
-  obfs: salamander
-  obfs-password: v2raybluecrystal3
-  password: UnYCJJ9AQy
-  port: 24803
-  server: 146.19.56.21
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal-hou
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: UnYCJJ9AQy
-  port: 28165
-  server: 146.19.56.21
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal2-hou
-  obfs: salamander
-  obfs-password: v2raybluecrystal2
-  password: UnYCJJ9AQy
-  port: 57418
-  server: 146.19.56.21
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '🇳🇱@FreakConfig #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -693,33 +552,6 @@ proxies:
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: 'v2raybluecrystal2 #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: Ys1Z1iA996
-  port: 22527
-  server: 78.138.118.228
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 'v2raybluecrystal3 #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: Ys1Z1iA996
-  port: 33113
-  server: 78.138.118.228
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 'v2raybluecrystal #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: Ys1Z1iA996
-  port: 37804
-  server: 78.138.118.228
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 🇬🇧@FreakConfig
@@ -855,42 +687,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: v2raybluecrystal4-tur
-  obfs: salamander
-  obfs-password: xfvg@FFG
-  password: e2QEtNgU9v
-  port: 13222
-  server: 5.133.102.59
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '@GVgg#v2raybluecrystal3-tur'
-  obfs: salamander
-  obfs-password: FF
-  password: e2QEtNgU9v
-  port: 28958
-  server: 5.133.102.59
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal-tur
-  obfs: salamander
-  obfs-password: xfvgb@ssV
-  password: e2QEtNgU9v
-  port: 30062
-  server: 5.133.102.59
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal2-tur
-  obfs: salamander
-  obfs-password: vbn@ffFF
-  password: e2QEtNgU9v
-  port: 41250
-  server: 5.133.102.59
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 'telegram-@ISVvpn #2'
   password: f872db91-57c2-41c7-aad0-561b4cb674bf
   port: 25684
@@ -956,33 +752,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: v2raybluecrystal-ind
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: fzgdaH0cJ7
-  port: 11282
-  server: 160.191.183.244
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal2-ind
-  obfs: salamander
-  obfs-password: v2raybluecrystal2
-  password: fzgdaH0cJ7
-  port: 14849
-  server: 160.191.183.244
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: v2raybluecrystal3-ind
-  obfs: salamander
-  obfs-password: v2raybluecrystal3
-  password: fzgdaH0cJ7
-  port: 48004
-  server: 160.191.183.244
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '@sunflowerplato🌻 #5'
   password: miaoge110
   port: 40112
@@ -1039,14 +808,6 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: 香港3|@ripaojiedian
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 443
-  server: 203.198.122.194
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
