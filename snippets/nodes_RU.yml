@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 V2CROSS.COM
+  network: tcp
+  port: 55568
+  server: q8vj6.4m4ow5.no8u9m8.vm331.cn
+  tls: false
+  type: vmess
+  uuid: 0e05355a-dd6c-4d3a-8106-8e1e2c4927bd

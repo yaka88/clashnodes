@@ -1,11 +1,66 @@
 proxies:
-- name: '🇬🇧 - GB - @freeOnlineVPN #1'
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  sni: kotlet.arshiacomplus.dpdns.org
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: ws
+  port: 12889
+  server: gtm1.ktmwan.net
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: ws
+  port: '12891'
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #2'
+  network: ws
+  port: 12897
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #3'
+  network: ws
+  port: 12898
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #4'
+  network: ws
+  port: 12885
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /

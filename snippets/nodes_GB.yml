@@ -1,1 +1,66 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: ws
+  port: 12889
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: ws
+  port: '12891'
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #2'
+  network: ws
+  port: 12897
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #3'
+  network: ws
+  port: 12898
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #4'
+  network: ws
+  port: 12885
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
