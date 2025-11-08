@@ -1,12 +1,4 @@
 proxies:
-- name: US_speednode_0018
-  port: 47387
-  server: 198.186.131.216
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
@@ -21,20 +13,13 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
     path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
       TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: 104.18.240.238
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 373
+  server: 117.172.176.22
+  sni: www.nintendogames.net
+  type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
@@ -43,3 +28,19 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 25891
+  server: 36.151.251.38
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_speednode_0018
+  port: 47387
+  server: 198.186.131.216
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
