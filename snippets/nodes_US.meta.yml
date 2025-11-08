@@ -1,18 +1,19 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
-  port: '80'
-  server: 104.18.240.238
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  port: 443
+  server: ef87bb2b.meti-e9q.pages.dev
+  servername: ef87bb2b.meti-e9q.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 923509aa-bfb0-4758-a5a1-a6c2d0468169
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      Host: ef87bb2b.meti-e9q.pages.dev
+    path: /ck2vlelfdajoybac?ed=2560fp=chrome
 - name: 美国|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
