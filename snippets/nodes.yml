@@ -1,70 +1,11 @@
 proxies:
-- name: 江苏省+移动
-  password: BxceQaOe
-  port: 4492
-  server: 36.150.215.248
-  sni: t.me%252Fripaojiedian
+- name: 广东省广州市+电信
+  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+  port: 20021
+  server: oss-cn-shanghai.letssepub.com
+  skip-cert-verify: false
+  sni: dingding-doc.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 瑞典 V2CROSS.COM
-  network: ws
-  port: '80'
-  server: 185.146.173.16
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: 奥地利 V2CROSS.COM
-  network: tcp
-  port: 22947
-  server: 46.29.34.205
-  tls: false
-  type: vmess
-  uuid: d7291fc4-1702-4826-8fe1-ab301b1c8f82
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '80'
-  server: 141.101.121.250
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: '奥地利 V2CROSS.COM #1'
-  network: tcp
-  port: 59956
-  server: 46.29.34.205
-  tls: false
-  type: vmess
-  uuid: ca0c9937-58a6-44ea-9111-a6abac267d0f
-- alterId: 0
-  cipher: auto
-  name: '瑞典 V2CROSS.COM #1'
-  network: ws
-  port: '80'
-  server: 185.146.173.24
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -79,13 +20,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- name: 香港3|@ripaojiedian
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 443
-  server: 203.198.122.194
-  sni: www.nintendogames.net
-  type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -93,6 +27,59 @@ proxies:
   server: 58.152.30.26
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 瑞典 V2CROSS.COM
+  network: ws
+  port: '80'
+  server: 185.146.173.24
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.129
+  skip-cert-verify: false
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '香港+电讯盈科有限公司 #2'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  type: trojan
+- name: 江苏省+移动
+  password: BxceQaOe
+  port: 4492
+  server: 36.150.215.248
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: 104.18.240.238
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 443
+  server: 203.198.122.194
+  sni: www.nintendogames.net
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
@@ -179,3 +166,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: CN_speednode_0003
+  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: HK_speednode_0013
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
