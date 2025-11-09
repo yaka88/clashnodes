@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 广东省广州市 移动
-  network: tcp
-  port: '38637'
-  server: tkcmi.5tk.top
-  tls: false
-  type: vmess
-  uuid: 93058ab5-bb29-44d4-c309-d224c0967732
 - name: CN_speednode_0009
   password: BxceQaOe
   port: 38799

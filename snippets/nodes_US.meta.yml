@@ -1,40 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国加利福尼亚州洛杉矶 Cloudinnovation数据中...
-  network: none
-  port: 46100
-  server: 156.238.226.207
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: 104.18.240.238
   tls: false
   type: vmess
-  uuid: 71dbcca9-1116-4bb0-c641-12f50b9ce41e
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
-  name: '美国加利福尼亚州洛杉矶 Cloudinnovation数据中... #1'
-  network: none
-  port: 46100
-  server: www.liuye.space
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '80'
+  server: 141.101.121.120
   tls: false
   type: vmess
-  uuid: 71dbcca9-1116-4bb0-c641-12f50b9ce41e
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: 43966
-  server: 209.54.104.219
-  tls: false
-  type: vmess
-  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: none
-  port: 31053
-  server: 154.12.20.181
-  tls: false
-  type: vmess
-  uuid: 3a07f4e2-4772-4b7e-dd94-1a34e3165f1c
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - name: 美国|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
