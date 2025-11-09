@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 3841
+  server: 221.128.195.12
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 韩国|@ripaojiedian
+  network: tcp
+  port: '11215'
+  server: 8.148.248.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c74f0304-5b43-3772-852a-2b108c423d23
+- name: CN_speednode_0003
+  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
