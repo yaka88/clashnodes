@@ -1,8 +1,8 @@
 proxies:
-- name: 新加坡2|@ripaojiedian
+- name: 日本2|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 2173
+  port: 1334
   server: 117.172.176.22
   skip-cert-verify: false
   sni: www.nintendogames.net
@@ -15,20 +15,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 1334
-  server: 117.172.176.22
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 瑞典 V2CROSS.COM
   network: ws
   port: '80'
-  server: 185.146.173.24
+  server: 185.146.173.117
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
@@ -37,34 +29,12 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
     path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
       TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 38799
-  server: 36.151.251.38
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: '80'
   server: 104.18.240.238
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: '瑞典 V2CROSS.COM #1'
-  network: ws
-  port: '80'
-  server: 185.146.173.126
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
@@ -81,6 +51,15 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 香港 Cloudie数据中心
+  network: tcp
+  port: '10086'
+  server: 103.243.26.209
+  tls: false
+  type: vmess
+  uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -152,6 +131,13 @@ proxies:
   server: 117.172.176.22
   sni: www.nintendogames.net
   type: trojan
+- name: 新加坡2|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 2173
+  server: 117.172.176.22
+  sni: www.nintendogames.net
+  type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -168,19 +154,36 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: CN_speednode_0003
-  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
-  port: 13007
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+- name: CN_speednode_0012
+  network: tcp
+  password: BxceQaOe
+  port: 38799
+  server: 36.151.251.38
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: HK_speednode_0013
+- name: CN_speednode_0009
+  password: BxceQaOe
+  port: 38799
+  server: 36.151.251.38
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK_speednode_0023
   password: BxceQaOe
   port: 443
-  server: 58.152.46.98
+  server: 203.198.122.129
   skip-cert-verify: true
-  sni: 58.152.46.98
+  sni: 203.198.122.129
+  type: trojan
+  udp: true
+- name: US_speednode_0028
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.45.27.162
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
