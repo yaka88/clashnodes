@@ -1,13 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 香港 Cloudie数据中心
-  network: tcp
-  port: '10086'
-  server: 103.243.26.209
+  name: 香港 阿里云
+  network: ws
+  port: 28653
+  server: 47.76.136.178
   tls: false
   type: vmess
-  uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
+  uuid: 836bf0ea-d6db-4d2e-c4b1-4ab28b6fdee6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.186
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -28,14 +40,6 @@ proxies:
   port: 3841
   server: 221.128.195.12
   sni: www.nintendogames.net
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.186
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto

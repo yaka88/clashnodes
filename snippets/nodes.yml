@@ -1,20 +1,56 @@
 proxies:
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 1334
-  server: 117.172.176.22
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1251
-  server: 36.150.215.247
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '法国 国际航空电讯集团公司(SITA) #2'
+  network: ws
+  port: 443
+  server: 57.129.59.199
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 台湾省 道法法律事务所
+  network: ws
+  port: 54693
+  server: 103.127.218.91
+  tls: false
+  type: vmess
+  uuid: 1cef03ad-6343-408c-8121-cbd1fda2ee9d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1cef03ad
+- alterId: 0
+  cipher: auto
+  name: 挪威 V2CROSS.COM
+  network: ws
+  port: 443
+  server: 146.59.118.250
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 德国 法尔肯施泰因HETZNER
+  network: ws
+  port: 2052
+  server: 176.9.178.52
+  tls: false
+  type: vmess
+  uuid: 94452e78-daad-490f-f14e-5a143e752bf8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 瑞典 V2CROSS.COM
@@ -27,39 +63,103 @@ proxies:
   ws-opts:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '80'
-  server: 104.18.240.238
+  name: 俄罗斯 V2CROSS.COM
+  network: ''
+  port: 2083
+  server: nl-v2ray.freevmess.com
+  tls: true
+  type: vmess
+  uuid: c3d066bc-4170-4006-a95c-0012367e8f13
+- alterId: 0
+  cipher: auto
+  name: 广东省广州市 移动
+  network: tcp
+  port: '38637'
+  server: tkcmi.5tk.top
   tls: false
   type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- name: 美国|@ripaojiedian
+  uuid: 93058ab5-bb29-44d4-c309-d224c0967732
+- alterId: 0
+  cipher: auto
+  name: 美国加利福尼亚州洛杉矶 Cloudinnovation数据中...
+  network: none
+  port: 46100
+  server: 156.238.226.207
+  tls: false
+  type: vmess
+  uuid: 71dbcca9-1116-4bb0-c641-12f50b9ce41e
+- alterId: 0
+  cipher: auto
+  name: '美国加利福尼亚州洛杉矶 Cloudinnovation数据中... #1'
+  network: none
+  port: 46100
+  server: www.liuye.space
+  tls: false
+  type: vmess
+  uuid: 71dbcca9-1116-4bb0-c641-12f50b9ce41e
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: none
+  port: 43966
+  server: 209.54.104.219
+  tls: false
+  type: vmess
+  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: none
+  port: 31053
+  server: 154.12.20.181
+  tls: false
+  type: vmess
+  uuid: 3a07f4e2-4772-4b7e-dd94-1a34e3165f1c
+- name: 香港4|@ripaojiedian
   network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 1328
-  server: 153.121.44.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  password: BxceQaOe
+  port: 1251
+  server: 36.150.215.247
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 香港 Cloudie数据中心
-  network: tcp
-  port: '10086'
-  server: 103.243.26.209
+  name: 香港 阿里云
+  network: ws
+  port: 28653
+  server: 47.76.136.178
   tls: false
   type: vmess
-  uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
+  uuid: 836bf0ea-d6db-4d2e-c4b1-4ab28b6fdee6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 国际航空电讯集团公司(SITA) #1'
+  network: ws
+  port: 443
+  server: 57.129.25.23
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: linkvws
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.186
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -81,14 +181,6 @@ proxies:
   server: 221.128.195.12
   sni: www.nintendogames.net
   type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.186
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港6|@ripaojiedian
@@ -106,6 +198,13 @@ proxies:
   server: 36.150.215.248
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 日本2|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 1334
+  server: 117.172.176.22
+  sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
@@ -145,6 +244,13 @@ proxies:
   server: 36.150.215.248
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 1328
+  server: 153.121.44.99
+  sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
