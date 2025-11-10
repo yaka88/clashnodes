@@ -1,14 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: 180628eb-a18b-4096-9b81-268f32f6a020
-  ws-opts:
-    headers:
-      Host: 481e9db24fc371b854d98245ce8ffb64.mobgslb.tbcache.com
-    path: /
+proxies: []

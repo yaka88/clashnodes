@@ -1,31 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: 141.101.121.120
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.186
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: 104.18.240.238
+  server: 141.101.121.250
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
@@ -36,31 +15,51 @@ proxies:
       TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: tcp
-  port: '2083'
-  server: nl-v2ray.freevmess.com
-  tls: true
+  name: 德国 黑森州法兰克福23media数据中心
+  network: none
+  port: 46668
+  server: 62.113.200.175
+  tls: false
   type: vmess
-  uuid: c3d066bc-4170-4006-a95c-0012367e8f13
+  uuid: 680f3f4d-a13a-4869-ada6-894683cf2ffe
+- alterId: 0
+  cipher: auto
+  name: '德国 黑森州法兰克福23media数据中心 #2'
+  network: none
+  port: 44749
+  server: 62.113.200.175
+  tls: false
+  type: vmess
+  uuid: ba1d9a12-7fb5-495e-a547-c87264db41ea
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.186
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
   server: 58.152.46.98
+  skip-cert-verify: false
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
+  name: '德国 黑森州法兰克福23media数据中心 #3'
+  network: none
+  port: 27576
+  server: 62.113.200.175
   tls: false
   type: vmess
-  uuid: 180628eb-a18b-4096-9b81-268f32f6a020
-  ws-opts:
-    headers:
-      Host: 481e9db24fc371b854d98245ce8ffb64.mobgslb.tbcache.com
-    path: /
+  uuid: 09c3c665-981e-40b9-d6c7-96259f1175e8
+- name: '香港+电讯盈科有限公司 #2'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.26
+  sni: t.me%25252Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
