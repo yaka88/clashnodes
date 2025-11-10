@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # 表达式生成 https://crontab.guru/
-    - cron: '28 4,8,12,20,23 * * *'
+    - cron: '38 3,7,11,20,23 * * *'
   push:
     paths:
       - 'sources.list'
