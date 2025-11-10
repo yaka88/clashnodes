@@ -9,12 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.26
-  sni: t.me%25252Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
