@@ -1,19 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 阿里云
-  network: none
-  port: 56536
-  server: 47.245.106.193
-  tls: false
-  type: vmess
-  uuid: 42a7444d-39b0-4549-88d6-c4bbf290af18
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
+  name: '美国 CloudFlare节点 #2'
   network: ws
   port: '80'
-  server: 141.101.121.250
+  server: 141.101.121.120
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '80'
+  server: 104.18.240.238
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
