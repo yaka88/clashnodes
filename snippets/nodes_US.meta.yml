@@ -3,16 +3,15 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '80'
-  server: 141.101.121.250
-  tls: false
+  port: '443'
+  server: test.yucdncdn.me
+  tls: true
   type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  uuid: b837aca5-fc36-4180-80a8-18d405a53e5a
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      Host: test.yucdncdn.me
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
