@@ -1,23 +1,4 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  type: trojan
-- name: HK_speednode_0023
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  sni: 203.198.122.129
-  type: trojan
-  udp: true
-- name: '香港+电讯盈科有限公司 #2'
-  password: BxceQaOe
-  port: 4569
-  server: 116.49.237.130
-  sni: t.me%25252Fripaojiedian
-  type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -25,6 +6,11 @@ proxies:
   server: 203.198.122.97
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
   type: trojan
 - alterId: 2
   cipher: auto
@@ -55,3 +41,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: HK_speednode_0023
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.129
+  skip-cert-verify: true
+  sni: 203.198.122.129
+  type: trojan
+  udp: true

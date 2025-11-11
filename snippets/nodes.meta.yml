@@ -11,66 +11,12 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- alterId: 0
-  cipher: auto
-  name: 中国 阿里云
-  network: ws
-  port: 20522
-  server: 8.217.92.110
-  tls: false
-  type: vmess
-  uuid: 31e1f90f-0218-4097-91f9-a42df9b3334a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /telegram_@sswia
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: 141.101.120.130
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1/?ed=2560
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  type: trojan
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 5156
-  server: 36.150.215.246
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 4666
-  server: 36.150.215.147
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: HK_speednode_0023
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  sni: 203.198.122.129
-  type: trojan
-  udp: true
-- name: '香港+电讯盈科有限公司 #2'
-  password: BxceQaOe
-  port: 4569
-  server: 116.49.237.130
-  sni: t.me%25252Fripaojiedian
+- name: 广东省广州市+移动
+  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+  port: 20021
+  server: oss-cn-shanghai.letssepub.com
+  skip-cert-verify: false
+  sni: dingding-doc.com
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
@@ -79,6 +25,25 @@ proxies:
   server: 203.198.122.97
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 瑞典 V2CROSS.COM
+  network: ws
+  port: '80'
+  server: 185.146.173.126
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
   type: trojan
 - name: '🇳🇱 - NL - @freeOnlineVPN #5'
   obfs: salamander
@@ -786,6 +751,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 5156
+  server: 36.150.215.246
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
@@ -823,6 +796,14 @@ proxies:
   port: 2173
   server: 160.16.138.24
   sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4666
+  server: 36.150.215.147
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
@@ -1099,6 +1080,14 @@ proxies:
   type: vless
   udp: true
   uuid: d6afdc56-8c96-43e5-9164-43f504d8793f
+- name: HK_speednode_0023
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.129
+  skip-cert-verify: true
+  sni: 203.198.122.129
+  type: trojan
+  udp: true
 - flow: xtls-rprx-vision
   name: NL_speednode_0025
   port: 31603
