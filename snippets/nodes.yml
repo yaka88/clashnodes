@@ -1,29 +1,44 @@
 proxies:
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 518
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 瑞典 V2CROSS.COM
+  network: ws
+  port: 80
+  server: 185.146.173.82
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: '瑞典 V2CROSS.COM #1'
+  network: ws
+  port: 80
+  server: 185.146.173.24
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- name: 广东省广州市+移动
+  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+  port: 20021
+  server: oss-cn-shanghai.letssepub.com
+  skip-cert-verify: false
+  sni: dingding-doc.com
   type: trojan
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  type: trojan
-- name: '香港+电讯盈科有限公司 #2'
+- name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
   server: 219.77.239.35
-  type: trojan
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 4011
-  server: 36.150.215.246
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  skip-cert-verify: false
   type: trojan
 - alterId: 2
   cipher: auto
@@ -62,6 +77,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4011
+  server: 36.150.215.246
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
@@ -89,6 +112,14 @@ proxies:
   port: 127
   server: 160.16.106.144
   sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 518
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
