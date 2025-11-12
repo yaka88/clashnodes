@@ -1,23 +1,16 @@
 proxies:
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 518
+  server: 116.49.237.130
+  sni: t.me%25252Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: 141.101.120.130
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: 瑞典 V2CROSS.COM
   network: ws
   port: '80'
-  server: 141.101.121.250
+  server: 185.146.173.82
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
@@ -26,17 +19,16 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
     path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
       TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- name: 江苏省+移动
+- name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
-  port: 5156
-  server: 36.150.215.246
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 2173
+  port: 4569
   server: 116.49.237.130
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '香港+电讯盈科有限公司 #2'
+  password: BxceQaOe
+  port: 443
+  server: 219.77.239.35
   sni: t.me%25252Fripaojiedian
   type: trojan
 - alterId: 2
