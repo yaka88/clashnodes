@@ -1,19 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 乌克兰 V2CROSS.COM
-  network: none
-  port: '19365'
-  server: 2.59.62.63
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: 141.101.121.120
   tls: false
   type: vmess
-  uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.77.239.35
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 瑞典 V2CROSS.COM
   network: ws
   port: '80'
-  server: 185.146.173.82
+  server: 185.146.173.24
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
@@ -22,19 +34,6 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
     path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
       TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '80'
-  server: 141.101.121.26
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -61,14 +60,6 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 203.198.122.97
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.77.239.35
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
