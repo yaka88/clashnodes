@@ -1,8 +1,9 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
+- name: 伊朗+V2CROSS.COM
+  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
+  port: 3443
+  server: 151.242.165.233
+  sni: origin-a.akamaihd.net
   type: trojan
 - alterId: 0
   cipher: auto
@@ -16,27 +17,28 @@ proxies:
   uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - alterId: 0
   cipher: auto
-  name: 韩国|@ripaojiedian
-  network: tcp
-  port: '47093'
-  server: 114.98.183.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
-- alterId: 0
-  cipher: auto
   name: 瑞典 V2CROSS.COM
   network: ws
-  port: '80'
-  server: 185.146.173.24
+  port: 80
+  server: 185.146.173.82
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
   ws-opts:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: 香港7|@ripaojiedian
+  network: tcp
+  port: '25007'
+  server: onecat-jp.03ezhg0qsa.download
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 69749298-6821-3358-b6d3-1d18d8642cba
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -74,16 +76,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 香港7|@ripaojiedian
-  network: tcp
-  port: '25007'
-  server: onecat-jp.03ezhg0qsa.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 69749298-6821-3358-b6d3-1d18d8642cba
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -106,6 +98,16 @@ proxies:
   server: 160.16.196.59
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 韩国|@ripaojiedian
+  network: tcp
+  port: '47093'
+  server: 114.98.183.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
