@@ -1,31 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: 141.101.121.26
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: 38141
-  server: 45.136.12.37
-  tls: false
-  type: vmess
-  uuid: fd291be6-b48d-43a1-da38-66c7f80e2f80
 - name: 美国|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
-  port: 2890
-  server: 160.16.68.250
+  port: 4211
+  server: 160.16.107.37
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
@@ -39,22 +17,36 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 19220
-  server: 36.150.215.243
+  port: 4094
+  server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_speednode_0025
-  network: ws
-  port: 2052
-  server: br.pouriau.com
-  servername: rosiassn.digikala.com.snnapfood.ir.varzesh3.com.shobb.ir.kdvhgkri558rvhnfjrdghriuygfkrdhihifjdfjssiedhfgjung2.bonyadedocker.ir.2.xziba.com.
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0050
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: '!!str 4c02bbbfa833b3b6'
+  server: autos.jykvpn.com
+  servername: cdnjs.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: bc4ee22b-87f5-4bc0-b0f5-3cd802d716e2
-  ws-opts:
-    headers:
-      Host: rosiassn.digikala.com.snnapfood.ir.varzesh3.com.shobb.ir.kdvhgkri558rvhnfjrdghriuygfkrdhihifjdfjssiedhfgjung2.bonyadedocker.ir.2.xziba.com.
-    path: /---ping---www.speedtest.net?ed=2080
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0055
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: '!!str c2a0b2d60a7fc300'
+  server: fis.jykvpn.com
+  servername: cdnjs.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
