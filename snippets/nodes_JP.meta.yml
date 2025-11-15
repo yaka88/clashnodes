@@ -1,18 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 东京rackip.com
-  network: none
-  port: 20297
-  server: 137.220.150.40
-  tls: false
-  type: vmess
-  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4011
-  server: 36.150.215.246
+  port: 1924
+  server: 160.16.227.93
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -20,26 +11,16 @@ proxies:
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 1334
-  server: 160.16.132.158
+  server: 160.16.57.238
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 3169
-  server: 160.16.196.59
+  server: 202.181.103.235
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 日本4|@ripaojiedian
-  network: tcp
-  port: '47083'
-  server: 114.98.183.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: JP_speednode_0032
