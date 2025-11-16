@@ -11,41 +11,15 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 伊朗+V2CROSS.COM
-  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
-  port: 3443
-  server: 151.242.165.233
-  sni: origin-a.akamaihd.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 瑞典 V2CROSS.COM
+- name: HK_speednode_0003
   network: tcp
-  port: 5228
-  server: dd.openaccessnode.com
-  tls: false
-  type: vmess
-  uuid: 6202ab99-7f57-0a6a-180a-e980b41f5789
-- alterId: 0
-  cipher: auto
-  name: '瑞典 V2CROSS.COM #1'
-  network: ws
-  port: '80'
-  server: 185.146.173.16
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
-- name: '伊朗+V2CROSS.COM #1'
-  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
-  port: 3443
-  server: 151.242.164.127
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
   skip-cert-verify: true
-  sni: steampipe.akamaized.net
+  sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
@@ -59,6 +33,15 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
     path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: '瑞典 V2CROSS.COM #1'
+  network: tcp
+  port: 5228
+  server: dir.lightnright.com
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: '@NoForcedheaven'
   obfs: salamander
   obfs-password: 9242a8bf
@@ -1979,15 +1962,6 @@ proxies:
   server: 58.152.110.216
   sni: www.nintendogames.net
   type: trojan
-- name: HK_speednode_0003
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.26.173
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
