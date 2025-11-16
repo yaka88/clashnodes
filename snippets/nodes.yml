@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 瑞典 V2CROSS.COM
+  name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: 185.146.173.82
+  server: 141.101.121.250
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
@@ -14,7 +14,7 @@ proxies:
     path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
-  name: '瑞典 V2CROSS.COM #1'
+  name: 瑞典 V2CROSS.COM
   network: tcp
   port: 5228
   server: dd.openaccessnode.com
@@ -23,10 +23,10 @@ proxies:
   uuid: 6202ab99-7f57-0a6a-180a-e980b41f5789
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '80'
-  server: 141.101.121.250
+  port: 80
+  server: 141.101.121.120
   tls: false
   type: vmess
   uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
