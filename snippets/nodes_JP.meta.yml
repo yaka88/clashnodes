@@ -1,4 +1,22 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 日本 东京Amazon数据中心
+  network: tcp
+  port: 53231
+  server: cgroup.node1.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+- alterId: 0
+  cipher: auto
+  name: '日本 V2CROSS.COM #1'
+  network: none
+  port: 24351
+  server: 43.164.131.70
+  tls: false
+  type: vmess
+  uuid: 4db20d82-0a65-432b-c16b-d2aacfe88073
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
