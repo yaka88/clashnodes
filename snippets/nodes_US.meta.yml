@@ -1,13 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公...
-  network: none
-  port: 28306
-  server: 172.245.59.239
-  tls: false
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 60834747-f332-4118-fc16-7d0aff2cf110
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxpol.fovi.tk
+    path: /eisasqa
 - name: All--@IRAN_V2RAY1🇺🇸
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
