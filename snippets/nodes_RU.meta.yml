@@ -1,5 +1,13 @@
 proxies:
-- name: RU_speednode_0013
+- name: CH_speednode_0001
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 194.87.18.124
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: RU_speednode_0012
   network: ws
   port: 1443
   server: 81.161.98.228

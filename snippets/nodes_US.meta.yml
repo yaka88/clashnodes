@@ -1,11 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: none
+  port: 27092
+  server: 208.76.223.218
+  tls: false
+  type: vmess
+  uuid: a0596ba6-72a3-4366-8992-77088da65bd8
+- alterId: 0
+  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 443
+  port: '443'
   server: cf.fovi.tk
-  servername: ''
   tls: true
   type: vmess
   uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
@@ -13,19 +21,6 @@ proxies:
     headers:
       Host: foxpol.fovi.tk
     path: /eisasqa
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '443'
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
 - name: All--@IRAN_V2RAY1🇺🇸
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
@@ -89,3 +84,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_speednode_0013
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 108.165.255.5
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: US_speednode_0014
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 96.126.190.132
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
