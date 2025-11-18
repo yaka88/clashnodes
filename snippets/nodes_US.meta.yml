@@ -1,4 +1,31 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxpol.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '443'
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
 - name: All--@IRAN_V2RAY1🇺🇸
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
@@ -53,4 +80,12 @@ proxies:
   server: 160.16.70.180
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2569
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
