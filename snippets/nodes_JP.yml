@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: none
-  port: '24351'
-  server: 43.164.131.70
-  tls: false
-  type: vmess
-  uuid: 4db20d82-0a65-432b-c16b-d2aacfe88073
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
