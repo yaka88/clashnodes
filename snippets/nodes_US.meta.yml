@@ -1,26 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '美国 华盛顿Cogent通信公司 #1'
-  network: ''
-  port: 1036
-  server: th0603-1.ysds168.shop
-  tls: true
-  type: vmess
-  uuid: 5893c6cd-c14f-4e99-a9ae-6c2ca7456584
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '443'
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
 - name: All--@IRAN_V2RAY1🇺🇸
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
@@ -84,19 +62,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_speednode_0013
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 108.165.255.5
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: US_speednode_0014
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 96.126.190.132
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
