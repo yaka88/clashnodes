@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: none
+  port: 57283
+  server: 216.238.89.53
+  tls: false
+  type: vmess
+  uuid: 1a5aafc0-6482-451d-fe76-6875b7818579
 - name: All--@IRAN_V2RAY1🇺🇸
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
