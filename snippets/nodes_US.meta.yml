@@ -1,4 +1,26 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: 4bb6-B667-f88608d19Fd5.664.QZz.iO
+  tls: false
+  type: vmess
+  uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
+  ws-opts:
+    headers:
+      Host: 4Bb6-B667-f88608D19Fd5.664.QzZ.Io
+    path: /pyyY4ZVTyJV3vr9noOhn
+- alterId: 0
+  cipher: auto
+  name: 美国 新泽西州(Merck公司)
+  network: tcp
+  port: 8312
+  server: cgroup.node4.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
 - name: All--@IRAN_V2RAY1🇺🇸
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
