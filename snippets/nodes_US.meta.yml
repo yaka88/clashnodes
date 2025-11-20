@@ -1,16 +1,4 @@
 proxies:
-- name: 美国加利福尼亚州洛杉矶+Zenlayer
-  password: fg20mtCFHy
-  port: 5684
-  server: uspoc.southbyte.xyz
-  sni: uspoc.southbyte.xyz
-  type: trojan
-- name: 美国+加州
-  password: fg20mtCFHy
-  port: 5710
-  server: usygh.zippydeal.xyz
-  sni: usygh.zippydeal.xyz
-  type: trojan
 - name: 'All--@IRAN_V2RAY1🇺🇸 #2'
   password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
   port: 443
