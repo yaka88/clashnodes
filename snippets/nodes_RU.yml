@@ -1,6 +1,1 @@
-proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: eLpjAXg6pM
-  port: 5060
-  server: sv1.ahsg.top
-  type: trojan
+proxies: []
