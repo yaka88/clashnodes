@@ -1,4 +1,16 @@
 proxies:
+- name: 美国加利福尼亚州洛杉矶+Zenlayer
+  password: fg20mtCFHy
+  port: 5684
+  server: uspoc.southbyte.xyz
+  sni: uspoc.southbyte.xyz
+  type: trojan
+- name: 美国+加州
+  password: fg20mtCFHy
+  port: 5710
+  server: usygh.zippydeal.xyz
+  sni: usygh.zippydeal.xyz
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
