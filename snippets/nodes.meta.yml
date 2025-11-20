@@ -15,52 +15,21 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 219.79.165.55
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '乌克兰 V2CROSS.COM #1'
-  network: none
-  port: 19365
-  server: 2.59.62.63
-  tls: false
-  type: vmess
-  uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
-- alterId: 0
-  cipher: auto
-  name: 香港 阿里云
-  network: ws
-  port: 443
-  server: n1744453320.lie5d.cyou
-  tls: true
-  type: vmess
-  uuid: 8889a08a-09f8-4c97-bed2-df31b62fcf23
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '香港 阿里云 #1'
-  network: ws
-  port: '443'
-  server: n1744453320.lie5d.cyou
-  tls: true
-  type: vmess
-  uuid: 8889a08a-09f8-4c97-bed2-df31b62fcf23
-  ws-opts:
-    headers:
-      Host: n1744453320.lie5d.cyou
-    path: /
-- name: HK_speednode_0013
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
+- name: 俄罗斯+V2CROSS.COM
+  password: eLpjAXg6pM
+  port: 5060
+  server: sv1.ahsg.top
+  type: trojan
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.241
+  skip-cert-verify: false
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: '@NoForcedheaven'
   obfs: salamander
   obfs-password: 9242a8bf
@@ -289,7 +258,7 @@ proxies:
   sni: mumbai-4.nezhasu.com
   tls: false
   type: hysteria2
-- name: All-@V2rayAlpha--37
+- name: telegram @MTMVPN 10
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: phoenix-1.nezhasu.com
@@ -321,14 +290,14 @@ proxies:
   sni: d.eans.top
   tls: false
   type: hysteria2
-- name: r♡ya
+- name: 'r♡ya #1'
   password: 338ce171-d764-4610-8fd5-6688b0d321f0
   port: 30102
   server: 132.226.162.10
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 'r♡ya #1'
+- name: 'r♡ya #2'
   password: 338ce171-d764-4610-8fd5-6688b0d321f0
   port: 30102
   server: 140.238.137.165
@@ -428,7 +397,7 @@ proxies:
   sni: us11.588878.xyz
   tls: false
   type: hysteria2
-- name: 'r♡ya #3'
+- name: 'r♡ya #5'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
   password: 5ea499f5c73554214870e187a55f4d71
@@ -591,7 +560,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'r♡ya #4'
+- name: 'r♡ya #6'
   obfs: salamander
   obfs-password: QqvCBoJpDEflbOYm
   password: 7ae1a8a7-b025-4bac-8949-9b1e45926a9a
@@ -600,7 +569,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 'r♡ya #5'
+- name: 'r♡ya #7'
   obfs: salamander
   obfs-password: DAnBPK1GxOdklGbv
   password: 7ae1a8a7-b025-4bac-8949-9b1e45926a9a
@@ -609,7 +578,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 'r♡ya #6'
+- name: 'r♡ya #8'
   obfs: salamander
   obfs-password: EH2tIccMXNSql76y
   password: 7ae1a8a7-b025-4bac-8949-9b1e45926a9a
@@ -618,7 +587,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '@meli_proxyy #23'
+- name: '@meli_proxyy #12'
   password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859
   port: 30000
   server: 94.249.197.95
@@ -689,7 +658,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '@meli_proxyy #27'
+- name: '@meli_proxyy #13'
   obfs: salamander
   obfs-password: 09fdd186-3d5b-482a-a7b6-285cc88a38c8
   password: 91bf574a-4a2f-42eb-bfa9-5824317f541c
@@ -1020,7 +989,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #18'
+- name: '🇳🇱@FreakConfig #4'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1038,7 +1007,7 @@ proxies:
   sni: fus01.mistea.top
   tls: false
   type: hysteria2
-- name: MCI-IR--@V2rayAlpha-9
+- name: telegram @MTMVPN 9
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23899
   server: 193.142.59.41
@@ -1078,7 +1047,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 'r♡ya #7'
+- name: 'r♡ya #10'
   password: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
   port: 13805
   server: 132.145.96.111
@@ -1188,6 +1157,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: HK_speednode_0013
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.241
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
