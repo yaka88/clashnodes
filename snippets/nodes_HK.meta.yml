@@ -1,24 +1,16 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 219.79.165.55
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港4|@ripaojiedian
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.18.95
+  server: 58.152.25.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '香港+电讯盈科有限公司 #2'
+- name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
-  server: 58.152.25.241
-  sni: t.me%252Fripaojiedian
+  server: 58.152.18.95
   type: trojan
 - alterId: 2
   cipher: auto
@@ -41,12 +33,19 @@ proxies:
   server: 58.152.18.124
   sni: www.nintendogames.net
   type: trojan
-- name: HK_speednode_0013
+- name: 香港4|@ripaojiedian
   network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: HK_speednode_0021
   password: BxceQaOe
   port: 443
   server: 58.152.25.241
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
