@@ -1,8 +1,8 @@
-trojan://BxceQaOe@58.152.53.22:443?sni=t.me%252Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lit5Zu9IOmYv+mHjOS6kSIsICJhZGQiOiAibjE3NDQ0NTQ1MDMuNHU5bWEuaWN1IiwgInBvcnQiOiAiNDQzIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICJ0bHMiLCAiaWQiOiAiNjMxOWMzYTQtZDI3ZS00MjNlLThhNDYtZjYzYzI0YTk5NTE5IiwgInNuaSI6ICJuMTc0NDQ1NDUwMy40dTltYS5pY3UiLCAicGF0aCI6ICIvIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9NHxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsICJzbmkiOiAiIn0=
+trojan://BxceQaOe@219.79.165.55:443?sni=t.me%252Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me/ripaojiedian#HK_speednode_0021
 vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IE1pY3Jvc29mdOaVsOaNruS4reW/gyIsICJhZGQiOiAid2VzdF9hLmdhb2dyb3VwLmJpZCIsICJwb3J0IjogNDQzLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICJlZjAwNGNmYS1iNDYzLTQ0NzMtOTdkZi00ZjBkYTQ0NzNhZTAiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIvY3R6eHZ3cyJ9
-trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%231
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5pel5pysIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI0My4xNjMuMjAzLjI0IiwgInBvcnQiOiA2NjAwLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiNDk0NWNmODUtYTlhYS00MzNmLWI4NDUtNGMwNmVkYTg0ZTBhIn0=
 hysteria2://a2678c97b8d79059@46.62.152.236:443?insecure=1&obfs=salamander&obfs-password=9242a8bf#%40NoForcedheaven
 hysteria2://05fd3f79-dca0-4358-a803-c8d4711c17a3@lsyd1.lansecs.top:58338?insecure=1&sni=lsyd1.lansecs.top#MCI-IR--%40V2rayAlpha-16
 hysteria2://09cc2935-0eb4-469a-9d67-2037c68440ca@speedhk1.jiasujd.top:24955?insecure=0&obfs=salamander&obfs-password=Ey8WkRLz34SadllK#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20MTMVPN%40
@@ -182,7 +182,6 @@ trojan://Fn9TZuYXiFYhsyp65T@os-2.rise-fuji.com:443?allowInsecure=1&sni=os-2.rise
 trojan://5c8c8b61-9b24-4c5a-b6ad-f6560df2e9d3@89.28.236.243:443?allowInsecure=0&sni=joss.gpj1.web.id&type=ws&host=joss.gpj1.web.id&path=/Free-VPN-CF-Geo-Project/89.28.236.243=443#DK_speednode_0013
 trojan://3208e968-b862-4e2e-ad90-2b49e7ce7afb@37.252.5.75:443?allowInsecure=0&sni=joss.gpj1.web.id&type=ws&host=joss.gpj1.web.id&path=/Free-VPN-CF-Geo-Project/37.252.5.75=443#EE_speednode_0014
 trojan://e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098@51.15.210.1:443?allowInsecure=0&sni=joss.gpj1.web.id&type=ws&host=joss.gpj1.web.id&path=/Free-VPN-CF-Geo-Project/51.15.210.1=443#FR_speednode_0017
-trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me/ripaojiedian#HK_speednode_0021
 trojan://2302eb2b-9401-4176-a4da-b41d4cd55756@185.247.184.186:8443?allowInsecure=0&sni=joss.gpj1.web.id&type=ws&host=joss.gpj1.web.id&path=/Free-VPN-CF-Geo-Project/185.247.184.186=8443#IT_speednode_0023
 https://test:test.+@testkr3.ssv.vc:30446#KR_speednode_0093
 vless://40d7798a-6c76-4298-a9d4-9e6181cd2dd7@nld26.luckernld.org:443?allowInsecure=0&sni=www.cybo.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=reality&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&sid=#NL_speednode_0096
