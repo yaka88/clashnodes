@@ -1,17 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 Microsoft数据中心
+  name: 美国 CloudFlare节点
   network: ws
   port: 443
-  server: west_a.gaogroup.bid
+  server: sy4.620720.xyz
   tls: true
   type: vmess
-  uuid: ef004cfa-b463-4473-97df-4f0da4473ae0
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
       Host: ''
-    path: /ctzxvws
+    path: /
 - name: All-@V2rayAlpha--46
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
@@ -67,17 +80,31 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_speednode_0121
-  network: ws
-  port: 2082
-  server: www.speedtest.net
-  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0051
+  port: 443
+  reality-opts:
+    public-key: uI6NV8Mkk7kf864izhLcAnk6nVDH6cE-_5HRJwMQGXs
+    short-id: '!!str 0ea9a621ae03e231'
+  server: 62.60.177.167
+  servername: st.ozone.ru
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: d52ecc10-1c89-4d95-d12a-61bc48c4024c
+  uuid: 6670529b-265a-4ee9-b944-bdaee2638ef2
+- name: US_speednode_0052
+  network: ws
+  port: 8443
+  server: 104.16.53.11
+  servername: hetzner-9.cfuk.name.ng
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
   ws-opts:
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+      Host: hetzner-9.cfuk.name.ng
+    path: /?ed=2048
