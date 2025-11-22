@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: tcp
+  port: 6600
+  server: 43.163.203.24
+  tls: false
+  type: vmess
+  uuid: 4945cf85-a9aa-433f-b845-4c06eda84e0a
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

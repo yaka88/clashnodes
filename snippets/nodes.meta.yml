@@ -13,6 +13,26 @@ proxies:
   up: 11 Mbps
 - alterId: 0
   cipher: auto
+  name: 美国 Microsoft数据中心
+  network: ws
+  port: '443'
+  server: west_a.gaogroup.bid
+  tls: true
+  type: vmess
+  uuid: ef004cfa-b463-4473-97df-4f0da4473ae0
+  ws-opts:
+    headers:
+      Host: west_a.gaogroup.bid
+    path: /ctzxvws
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.241
+  skip-cert-verify: false
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
   name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
@@ -23,43 +43,27 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: sy4.620720.xyz
-  tls: true
+  name: 日本 V2CROSS.COM
+  network: tcp
+  port: 6600
+  server: 43.163.203.24
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: sy4.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '德国 V2CROSS.COM #1'
-  network: ws
+  uuid: 4945cf85-a9aa-433f-b845-4c06eda84e0a
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
   port: 443
-  server: node4.rtxconfigz.com
-  tls: true
-  type: vmess
-  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-  ws-opts:
-    headers:
-      Host: node4.rtxconfigz.com
-    path: /@Malinda6104
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
+  server: 58.152.18.95
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
   port: 443
-  server: sy4.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  server: 58.152.53.22
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: '@NoForcedheaven'
   obfs: salamander
   obfs-password: 9242a8bf
@@ -75,15 +79,6 @@ proxies:
   server: lsyd1.lansecs.top
   skip-cert-verify: true
   sni: lsyd1.lansecs.top
-  tls: false
-  type: hysteria2
-- name: کانال تلگرام MTMVPN@
-  obfs: salamander
-  obfs-password: Ey8WkRLz34SadllK
-  password: 09cc2935-0eb4-469a-9d67-2037c68440ca
-  port: 24955
-  server: speedhk1.jiasujd.top
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '@V2rayNG3'
@@ -787,6 +782,16 @@ proxies:
 - name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #2'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
+  password: ByBeTp5j5C
+  port: 2053
+  server: 83.147.253.96
+  skip-cert-verify: true
+  sni: webservice-admin.tgju.org
+  tls: false
+  type: hysteria2
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #3'
+  obfs: salamander
+  obfs-password: MiracleV2RayyNGvpnfreeconf
   password: CA6haTDbz3
   port: 2053
   server: 83.147.253.96
@@ -804,7 +809,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #3'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: Eb38tgzoKH
@@ -814,7 +819,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #4'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: EvKTg4KCrv
@@ -834,7 +839,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #6'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: GZb2tDucUY
@@ -901,7 +906,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #6'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: MaylSzuBEK
@@ -911,7 +916,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #8'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: MmKPeSinVL
@@ -959,7 +964,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #10'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: UXDYE6VRUZ
@@ -969,7 +974,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇩🇪 - DE - @freeOnlineVPN #2'
+- name: '🇩🇪 - DE - @freeOnlineVPN #3'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: VPcKd5VGwx
@@ -1159,7 +1164,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '🇩🇪 - DE - @freeOnlineVPN #3'
+- name: '🇩🇪 - DE - @freeOnlineVPN #4'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1169,7 +1174,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '🇩🇪 - DE - @freeOnlineVPN #5'
+- name: '🇩🇪 - DE - @freeOnlineVPN #6'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1269,7 +1274,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #10'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: dy9wtUUTs1
@@ -1340,7 +1345,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: gRpbBBxlvu
@@ -1350,7 +1355,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #13'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: iKVjRIc5Mm
@@ -1360,7 +1365,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #13'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: ihYxYCiGwv
@@ -1380,7 +1385,7 @@ proxies:
   sni: cdnjs.cloudflare.com
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #14'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #15'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: n70AvqlNnq
@@ -1390,7 +1395,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #15'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #16'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: sKztXL5kZB
@@ -1400,7 +1405,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #16'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #17'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: vrhh6FbEdi
@@ -1420,7 +1425,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #17'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #18'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: zZLCcbcZIl
@@ -1456,14 +1461,6 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.18.95
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.22
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
