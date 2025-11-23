@@ -21,26 +21,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: sy4.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: sy4.620720.xyz
-    path: /
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.241
-  skip-cert-verify: false
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
   name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
@@ -66,58 +46,12 @@ proxies:
   sni: lsyd1.lansecs.top
   tls: false
   type: hysteria2
-- name: 🔷🆔@v2ray_configs_pool🔷
-  password: 10e80038-9671-4dcf-878d-a8a231a99edb
-  port: 20301
-  server: hg.kunlun01.com
-  skip-cert-verify: true
-  sni: hg.kunlun01.com
-  tls: false
-  type: hysteria2
 - name: '@V2rayNG3'
   password: '123456'
   port: 443
   server: 192.3.85.237
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #1'
-  password: 14FD150A-579E-42A1-8212-9D2F6510A70C
-  port: 13954
-  server: jp7.dexlos.com
-  skip-cert-verify: false
-  sni: jp7.dexlos.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #2'
-  password: 14FD150A-579E-42A1-8212-9D2F6510A70C
-  port: 15213
-  server: jp8.dexlos.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #3'
-  password: 14FD150A-579E-42A1-8212-9D2F6510A70C
-  port: 15213
-  server: jp8.dexlos.com
-  skip-cert-verify: false
-  sni: jp8.dexlos.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #4'
-  password: 14FD150A-579E-42A1-8212-9D2F6510A70C
-  port: 17052
-  server: jp9.dexlos.com
-  skip-cert-verify: false
-  sni: jp9.dexlos.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #5'
-  password: 14FD150A-579E-42A1-8212-9D2F6510A70C
-  port: 1470
-  server: tw1.dexlos.com
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '@V2rayNG3 #1'
@@ -136,7 +70,7 @@ proxies:
   sni: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
   tls: false
   type: hysteria2
-- name: 🇺🇸@FreakConfig
+- name: '@V2ray_confing33'
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
   server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
@@ -150,62 +84,6 @@ proxies:
   server: 204.44.110.129
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #6'
-  password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
-  port: 21050
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #7'
-  password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
-  port: 21635
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #8'
-  password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
-  port: 21530
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #9'
-  password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
-  port: 21894
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #10'
-  password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
-  port: 21098
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #11'
-  password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
-  port: 21861
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #12'
-  password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
-  port: 21854
-  server: vn.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #13'
-  password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
-  port: 21901
-  server: vn.xn--9kqv66eehg.site
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '@V2rayNG3 #2'
@@ -256,14 +134,6 @@ proxies:
   server: batam3.nezhasu.com
   skip-cert-verify: true
   sni: batam3.nezhasu.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #14'
-  password: 2b195c17-5ff5-4b0d-a809-210b92212394
-  port: 443
-  server: chuncheon-2.nezhasu.com
-  skip-cert-verify: true
-  sni: chuncheon-2.nezhasu.com
   tls: false
   type: hysteria2
 - name: MCI-IR--@V2rayAlpha-14
@@ -370,7 +240,7 @@ proxies:
   sni: mumbai-4.nezhasu.com
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #15'
+- name: telegram @MTMVPN 10
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: phoenix-1.nezhasu.com
@@ -386,52 +256,12 @@ proxies:
   sni: SanJose.nezhasu.com
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #16'
-  password: 2b195c17-5ff5-4b0d-a809-210b92212394
-  port: 443
-  server: tokyo.nezhasu.com
-  skip-cert-verify: true
-  sni: Tokyo.nezhasu.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #17'
-  password: 2b195c17-5ff5-4b0d-a809-210b92212394
-  port: 443
-  server: valparaiso-1.nezhasu.cn
-  skip-cert-verify: true
-  sni: Valparaiso-1.nezhasu.cn
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #18'
-  password: 2b195c17-5ff5-4b0d-a809-210b92212394
-  port: 443
-  server: valparaiso-3.nezhasu.cn
-  skip-cert-verify: true
-  sni: Valparaiso-3.nezhasu.cn
-  tls: false
-  type: hysteria2
 - name: MCI-IR--@V2rayAlpha-11
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: yn2.nezhasu.com
   skip-cert-verify: true
   sni: yn2.nezhasu.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #19'
-  password: 3071d260-0125-461b-af95-73b0c161152c
-  port: 20301
-  server: hg.kunlun01.com
-  skip-cert-verify: true
-  sni: hg.kunlun01.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #20'
-  password: 3071d260-0125-461b-af95-73b0c161152c
-  port: 20301
-  server: xg.kunlun01.com
-  skip-cert-verify: true
-  sni: xg.kunlun01.com
   tls: false
   type: hysteria2
 - name: https://t.me/Selinc
@@ -485,118 +315,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #21'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21021
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #22'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21277
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #23'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21479
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #24'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21796
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #25'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21022
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #26'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21058
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #27'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21506
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #28'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21646
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #29'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21058
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #30'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21102
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #31'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21585
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #32'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21862
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #33'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21147
-  server: vn.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #34'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21275
-  server: vn.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #35'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21654
-  server: vn.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #36'
-  password: 34c684c5-b4fc-4a37-8125-690e6535eccf
-  port: 21680
-  server: vn.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: 🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه...
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
@@ -612,30 +330,6 @@ proxies:
   port: 443
   server: hk.xn--9kqw1xbnu.shop
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #37'
-  password: 4a4a80f7-1cf3-4d66-8441-dc083a269b3a
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #38'
-  password: 4e4e8b1c-b201-4422-a111-5faa042a5999
-  port: 20301
-  server: hg.kunlun01.com
-  skip-cert-verify: true
-  sni: hg.kunlun01.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #39'
-  password: 4e4e8b1c-b201-4422-a111-5faa042a5999
-  port: 20301
-  server: tg.kunlun01.com
-  skip-cert-verify: true
-  sni: tg.kunlun01.com
   tls: false
   type: hysteria2
 - name: All-@V2rayAlpha--6
@@ -678,32 +372,6 @@ proxies:
   server: us11.588878.xyz
   skip-cert-verify: true
   sni: us11.588878.xyz
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #40'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 59fd10f7-6b90-4976-90ff-7dcd339c0168
-  port: 40000
-  server: dg.jgpyjc.top
-  skip-cert-verify: false
-  sni: dg.jgpyjc.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #41'
-  password: 59fd10f7-6b90-4976-90ff-7dcd339c0168
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #42'
-  password: 5de1f9fb-398e-4460-af74-f2b45055d016
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
 - name: MCi--@IRAN_V2RAY1
@@ -761,14 +429,6 @@ proxies:
   sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #43'
-  password: 642cb137-5d10-473d-a9a1-6fde389b22ee
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
-  tls: false
-  type: hysteria2
 - name: All-@V2rayAlpha--7
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -811,22 +471,6 @@ proxies:
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #44'
-  password: 6aba8345-ddc6-412d-860c-df01fcc4fd3c
-  port: 58338
-  server: lsus3.lansecs.top
-  skip-cert-verify: true
-  sni: lsus3.lansecs.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #45'
-  password: 6aba8345-ddc6-412d-860c-df01fcc4fd3c
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
 - name: 🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
@@ -903,14 +547,6 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '@meli_proxyy #6'
-  password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859
-  port: 30000
-  server: 94.249.197.95
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: All--@V2rayAlpha--6
   obfs: salamander
   obfs-password: U1wBrYQyFm
@@ -929,14 +565,6 @@ proxies:
   server: drhystuichdfy.samanidempire.org
   skip-cert-verify: true
   sni: drhystuichdfy.samanidempire.org
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #46'
-  password: 81f9c8ba-2053-4aac-8438-9c3c1c236050
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
 - name: All-@V2rayAlpha--44
@@ -967,70 +595,6 @@ proxies:
   sni: net2025.afsharidempire.uk
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #47'
-  password: 89451f48-2b2e-4f8b-8f64-edef856ba484
-  port: 50000
-  server: hk1.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #48'
-  password: 89451f48-2b2e-4f8b-8f64-edef856ba484
-  port: 50000
-  server: hk2.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #49'
-  password: 89451f48-2b2e-4f8b-8f64-edef856ba484
-  port: 50000
-  server: hk3.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #50'
-  password: 89451f48-2b2e-4f8b-8f64-edef856ba484
-  port: 30000
-  server: jp3.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #51'
-  password: 89451f48-2b2e-4f8b-8f64-edef856ba484
-  port: 30000
-  server: jp4.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #52'
-  password: 89451f48-2b2e-4f8b-8f64-edef856ba484
-  port: 30000
-  server: kr3.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #53'
-  password: 89451f48-2b2e-4f8b-8f64-edef856ba484
-  port: 30000
-  server: kr4.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #54'
-  password: 89451f48-2b2e-4f8b-8f64-edef856ba484
-  port: 30000
-  server: tw2.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
@@ -1048,22 +612,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '@Selinc #4'
+- name: '@Selinc #5'
   password: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
   port: 44001
   server: 85.208.9.189
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '@meli_proxyy #7'
-  obfs: salamander
-  obfs-password: 09fdd186-3d5b-482a-a7b6-285cc88a38c8
-  password: 91bf574a-4a2f-42eb-bfa9-5824317f541c
-  port: 28132
-  server: node.waifly.com
-  skip-cert-verify: true
-  sni: example.com
   tls: false
   type: hysteria2
 - name: 'All--@IRAN_V2RAY1🇺🇸 #2'
@@ -1103,14 +657,6 @@ proxies:
   port: 33333
   server: 135.148.82.248
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #55'
-  password: 9ed33d35-3151-44a0-9160-247b1b6707d5
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
 - name: '@V2rayNG3 #10'
@@ -1494,7 +1040,7 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #56'
+- name: 🇩🇪@FreakConfig
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -1502,7 +1048,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '@Selinc #8'
+- name: '@Selinc #10'
   password: ab858115-e0ab-4cb7-8e65-0804c35e52d5
   port: 30000
   server: nl2.oomz.ru
@@ -1510,22 +1056,12 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '@Selinc #9'
+- name: '@Selinc #11'
   password: ab858115-e0ab-4cb7-8e65-0804c35e52d5
   port: 30000
   server: us4.oomz.ru
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #57'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: af543945-f5f2-4d1b-8b06-683d1c4d552a
-  port: 40000
-  server: dg.jgpyjc.top
-  skip-cert-verify: false
-  sni: dg.jgpyjc.top
   tls: false
   type: hysteria2
 - name: '🏴‍☠️@FreakConfig #2'
@@ -1595,7 +1131,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #59'
+- name: '🇳🇱 - NL - @freeOnlineVPN #14'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1603,40 +1139,6 @@ proxies:
   server: dir.cybsecguru.com
   skip-cert-verify: true
   sni: jnir.pichondan.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #58'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: dir.cybsecguru.com
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #60'
-  password: b65dc212-c070-4fdb-8a94-bf4d8696d810
-  port: 20301
-  server: hg.kunlun01.com
-  skip-cert-verify: true
-  sni: hg.kunlun01.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #61'
-  password: b65dc212-c070-4fdb-8a94-bf4d8696d810
-  port: 20301
-  server: mg.kunlun01.com
-  skip-cert-verify: true
-  sni: mg.kunlun01.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #62'
-  password: b65dc212-c070-4fdb-8a94-bf4d8696d810
-  port: 20301
-  server: tg.kunlun01.com
-  skip-cert-verify: true
-  sni: tg.kunlun01.com
   tls: false
   type: hysteria2
 - name: '@sunflowerplato🌻 #2'
@@ -1663,14 +1165,6 @@ proxies:
   sni: fus02.mistea.top
   tls: false
   type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #63'
-  password: c3b498c4-88c6-44af-af23-789cb3a98729
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
-  tls: false
-  type: hysteria2
 - name: All-@V2ray_Alpha--9
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
@@ -1693,69 +1187,6 @@ proxies:
   server: sb2.oomz.ru
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #64'
-  password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-  port: 21253
-  server: hk.xn--gmq00sc0nuve.shop
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #65'
-  password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-  port: 21168
-  server: my.xn--gmq00sc0nuve.shop
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #66'
-  password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-  port: 21404
-  server: my.xn--gmq00sc0nuve.shop
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #67'
-  password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-  port: 21812
-  server: my.xn--gmq00sc0nuve.shop
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #68'
-  password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-  port: 21935
-  server: my.xn--gmq00sc0nuve.shop
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #69'
-  password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-  port: 21456
-  server: sg.xn--gmq00sc0nuve.shop
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #70'
-  password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-  port: 21514
-  server: sg.xn--gmq00sc0nuve.shop
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #71'
-  password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-  port: 21772
-  server: sg.xn--gmq00sc0nuve.shop
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #72'
-  password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-  port: 21975
-  server: sg.xn--gmq00sc0nuve.shop
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '🇺🇸@FreakConfig #2'
@@ -1798,119 +1229,6 @@ proxies:
   server: 83.147.253.96
   skip-cert-verify: true
   sni: webservice-admin.tgju.org
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #73'
-  password: e0a4aeff-c9cb-43e7-b549-5c2339950dfa
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #74'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21224
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #75'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21451
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #76'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21685
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #77'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21975
-  server: hk.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #78'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21254
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #79'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21319
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #80'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21498
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #81'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21902
-  server: jp.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #82'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21093
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #83'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21559
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #84'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21790
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #85'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21889
-  server: kr.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #86'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21141
-  server: vn.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #87'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21351
-  server: vn.xn--9kqv66eehg.site
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '🔷🆔@v2ray_configs_pool🔷 #88'
-  password: e1b910ae-0efa-4926-b883-619e5aacf787
-  port: 21900
-  server: vn.xn--9kqv66eehg.site
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
@@ -2054,6 +1372,16 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: yrBnLOzhOi
+  port: 443
+  server: 91.99.225.11
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
 - name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #18'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
@@ -2078,13 +1406,15 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- name: 香港3|@ripaojiedian
+- name: HK_speednode_0019
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 443
   server: 58.152.110.92
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -2160,140 +1490,105 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- flow: xtls-rprx-vision
-  name: AU_speednode_0001
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '6ba85179e30d4fc2'
-  server: de2.srv.oplcdn.link
-  servername: ign.com
+- name: CA_speednode_0001
+  network: ws
+  password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6
+  port: 443
+  server: 69.28.82.253
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
+- name: CZ_speednode_0004
+  network: ws
+  port: 443
+  server: 193.124.18.13
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-- name: BE_speednode_0002
-  network: ws
-  password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
-  port: 443
-  server: 34.22.190.30
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   ws-opts:
     headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- name: BE_speednode_0003
-  network: ws
-  password: 0a477acf-1f95-47cb-b4a5-a627b4c57de3
-  port: 443
-  server: 34.22.190.30
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- flow: xtls-rprx-vision
-  name: CA_speednode_0004
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '6ba85179e30d4fc2'
-  server: fi3.srv.oplcdn.link
-  servername: ign.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-- flow: xtls-rprx-vision
-  name: DE_speednode_0008
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '6ba85179e30d4fc2'
-  server: nl3.srv.oplcdn.link
-  servername: ign.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-- name: DK_speednode_0009
-  network: ws
-  password: 5c8c8b61-9b24-4c5a-b6ad-f6560df2e9d3
-  port: 443
-  server: 89.28.236.243
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
-- name: DK_speednode_0010
-  network: ws
-  password: e9249478-ea4e-432f-a918-e84c1ce143c6
-  port: 443
-  server: 89.28.236.243
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
-- name: EE_speednode_0011
-  network: ws
-  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
-  port: 443
-  server: 37.252.5.75
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
-- flow: xtls-rprx-vision
-  name: FI_speednode_0012
-  port: 443
-  reality-opts:
-    public-key: _A94OkOy0oIRFQCQbEWkF1BJXHu1mwgOroq9ZvgbTHQ
-    short-id: '797266d9ff91c8c7'
-  server: 176.124.206.205
-  servername: web.max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ced94cb-7df6-44e5-b0c9-2cb2d7ec1688
-- name: FR_speednode_0013
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.39.169.16
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: FR_speednode_0014
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: DE_speednode_0005
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.39.169.16
+  server: 52.57.38.0
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: FR_speednode_0017
+- name: DE_speednode_0006
+  network: ws
+  port: 443
+  server: 80.76.32.12
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: DE_speednode_0007
+  password: telegram-id-directvpn
+  port: 22223
+  server: 52.57.38.0
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: DE_speednode_0008
+  network: ws
+  port: 2053
+  server: 185.103.252.54
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: DE_speednode_0009
+  network: ws
+  port: 443
+  server: 77.221.157.32
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: ES_speednode_0010
+  network: ws
+  password: 9ccc3e1d-3df5-4348-aa05-738310149cc3
+  port: 443
+  server: 45.86.229.28
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/45.86.229.28=443
+- name: FR_speednode_0012
   network: ws
   password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
   port: 443
@@ -2306,65 +1601,118 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
-- name: FR_speednode_0018
+- name: GB_speednode_0016
   network: ws
-  password: c2de1269-17cb-41f6-ab97-f8c11a6f0f4f
-  port: 8443
-  server: 158.178.206.197
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/158.178.206.197=8443
-- name: GB_speednode_0020
-  network: ws
-  password: d69e725c-7c7e-4c75-9786-4859b4e0bbc6
   port: 443
-  server: 109.169.76.23
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/109.169.76.23=443
-- name: HK_speednode_0024
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.241
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: IN_speednode_0028
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '6ba85179e30d4fc2'
-  server: nl4.srv.oplcdn.link
-  servername: ign.com
+  server: 206.189.25.65
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-- name: IR_speednode_0030
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: GB_speednode_0017
   network: ws
-  port: 80
-  server: 185.97.119.25
+  port: 443
+  server: 167.99.86.115
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 34155f4a-b42f-4961-9268-df5069fca1ff
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: GB_speednode_0018
+  network: ws
+  port: 2053
+  server: 5.144.182.111
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: IT_speednode_0020
+  network: ws
+  password: e04af4a8-ce76-4026-8480-82d0e35dd239
+  port: 8443
+  server: 94.177.199.119
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
+- name: JP_speednode_0026
+  network: ws
+  port: 443
+  server: 18.183.89.240
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- flow: xtls-rprx-vision
+  name: JP_speednode_0028
+  port: 12378
+  reality-opts:
+    public-key: LWbiUFGdrri1ZmImDbU1BrnBTT7rjSkvr5tkwE9uFXw
+  server: 23.249.25.53
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: abcca489-d0ad-4d77-a6ce-5b633118b9ad
+- name: JP_speednode_0030
+  network: ws
+  port: 443
+  server: 54.249.169.40
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: JP_speednode_0031
+  network: ws
+  port: 443
+  server: 52.68.194.189
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: JP_speednode_0036
+  name: JP_speednode_0032
   port: 443
   reality-opts:
     public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
@@ -2377,18 +1725,19 @@ proxies:
   udp: true
   uuid: 9936ae5c-91cd-4c8a-80e9-5118a209a7e4
 - flow: xtls-rprx-vision
-  name: NL_speednode_0037
+  name: JP_speednode_0033
   port: 443
   reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: nld26.luckernld.org
-  servername: www.cybo.com
+    public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
+    short-id: '73d3fec4'
+  server: 188.253.21.106
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 40d7798a-6c76-4298-a9d4-9e6181cd2dd7
-- name: NL_speednode_0038
+  uuid: 247a22e1-0795-4852-9bdd-a65ac1078034
+- name: NL_speednode_0035
   network: ws
   password: ee339912-0c35-4fac-8d85-180b65bcd49c
   port: 443
@@ -2401,11 +1750,11 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/81.22.132.183=443
-- name: NL_speednode_0039
+- name: NL_speednode_0036
   network: ws
-  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+  password: 35f8e682-54bd-42c7-b537-94a8e4c84bcd
   port: 443
-  server: 138.124.30.8
+  server: 89.110.120.197
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -2413,122 +1762,135 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
-- name: RU_speednode_0040
+    path: /Free-VPN-CF-Geo-Project/89.110.120.197=443
+- name: PL_speednode_0037
   network: ws
-  port: 1443
-  server: 81.161.98.228
-  servername: cdn.filterai.ru
+  port: 8443
+  server: 89.19.211.109
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   ws-opts:
     headers:
-      Host: cdn.filterai.ru
-    path: /websocketpl
-- flow: xtls-rprx-vision
-  name: RU_speednode_0041
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '6ba85179e30d4fc2'
-  server: spb.ru.srv.oplcdn.link
-  servername: ign.com
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: PL_speednode_0038
+  network: ws
+  port: 2053
+  server: 85.193.92.242
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-- flow: xtls-rprx-vision
-  name: RU_speednode_0042
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: PL_speednode_0039
+  network: ws
   port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '6ba85179e30d4fc2'
-  server: 193.233.244.196
-  servername: ign.com
+  server: 85.193.95.220
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-- flow: xtls-rprx-vision
-  name: RU_speednode_0043
-  port: 8443
-  reality-opts:
-    public-key: 8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ
-    short-id: '5540e44a53c3d01c'
-  server: 2-germany.geodema.network
-  servername: eh.vk.com
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: PL_speednode_0040
+  network: ws
+  port: 2053
+  server: 85.193.95.220
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: PL_speednode_0041
+  network: ws
+  port: 443
+  server: 91.149.253.249
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: RU_speednode_0042
+  network: ws
+  port: 2053
+  server: 80.90.187.190
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: RU_speednode_0043
+  network: ws
+  port: 2053
+  server: 194.35.119.49
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
 - name: RU_speednode_0044
   network: ws
-  password: d78d48df-b788-4a95-9e9f-77c9b2f69822
-  port: 8443
-  server: 193.233.114.58
+  port: 2053
+  server: 194.35.119.135
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   ws-opts:
     headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/193.233.114.58=8443
-- flow: xtls-rprx-vision
-  name: SE_speednode_0045
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '6ba85179e30d4fc2'
-  server: se.srv.oplcdn.link
-  servername: ign.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-- name: SE_speednode_0046
-  port: 13369
-  reality-opts:
-    public-key: U1VfZuybGyl0BnG82ZJKUnXsZQdUxDkZVm67RZB8C34
-    short-id: 'd868e6'
-  server: 70.34.214.175
-  servername: cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 70ec317d-d66d-4f9d-955a-fcd58678ce4c
-- flow: xtls-rprx-vision
-  name: US_speednode_0051
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: US_speednode_0045
+  network: ws
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: uI6NV8Mkk7kf864izhLcAnk6nVDH6cE-_5HRJwMQGXs
-    short-id: '0ea9a621ae03e231'
-  server: 62.60.177.167
-  servername: st.ozone.ru
-  skip-cert-verify: false
+    public-key: Bq_RQyPwxp7zTYywC37jLxmcjV9npNN6H6_1d_R6GT0
+    short-id: 'c9916730'
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 6670529b-265a-4ee9-b944-bdaee2638ef2
-- name: US_speednode_0052
-  network: ws
-  port: 8443
-  server: 104.16.53.11
-  servername: hetzner-9.cfuk.name.ng
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  uuid: 312d3555-d7a3-4674-869a-0e5b7ee03a35
   ws-opts:
     headers:
-      Host: hetzner-9.cfuk.name.ng
-    path: /?ed=2048
+      Host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
