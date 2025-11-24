@@ -1,10 +1,39 @@
 proxies:
+- name: 俄罗斯+V2CROSS.COM
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  sni: m.vk.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
   server: 58.152.25.241
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 弗吉尼亚州斯特灵阿里云
+  network: ws
+  port: 443
+  server: n1749032902.xlxzzx.com
+  tls: true
+  type: vmess
+  uuid: 6f932d64-1eb4-4160-bc8d-6085cfd4d37d
+  ws-opts:
+    headers:
+      Host: n1749032902.xlxzzx.com
+    path: ''
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -109,16 +138,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: CA_speednode_0001
   network: ws
   password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6

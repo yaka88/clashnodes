@@ -1,4 +1,7 @@
+trojan://Qzy7tgpRhu@37.18.14.33:443?sni=m.vk.com#%E4%BF%84%E7%BD%97%E6%96%AF%2BV2CROSS.COM
+vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9NHxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsICJzbmkiOiAiIn0=
 trojan://BxceQaOe@58.152.25.241:443?sni=t.me%252Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IOW8l+WQieWwvOS6muW3nuaWr+eJueeBtemYv+mHjOS6kSIsICJhZGQiOiAibjE3NDkwMzI5MDIueGx4enp4LmNvbSIsICJwb3J0IjogNDQzLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI2ZjkzMmQ2NC0xZWI0LTQxNjAtYmM4ZC02MDg1Y2ZkNGQzN2QiLCAiaG9zdCI6ICJuMTc0OTAzMjkwMi54bHh6enguY29tIiwgInBhdGgiOiAiIn0=
 trojan://BxceQaOe@58.152.53.22:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
 hysteria2://a2678c97b8d79059@46.62.152.236:443?insecure=1&obfs=salamander&obfs-password=9242a8bf#%40NoForcedheaven
 hysteria2://05fd3f79-dca0-4358-a803-c8d4711c17a3@lsyd1.lansecs.top:58338?insecure=1&sni=lsyd1.lansecs.top#MCI-IR--%40V2rayAlpha-16
@@ -165,7 +168,6 @@ trojan://BxceQaOe@116.49.237.130:1691?allowInsecure=1&sni=t.me%2Fripaojiedian#%E
 trojan://2cf6d686799e6fa95316394064f26c0a@3.113.21.213:2890?sni=www.nintendogames.net#%E7%BE%8E%E5%9B%BD%7C%40ripaojiedian
 trojan://2cf6d686799e6fa95316394064f26c0a@160.16.63.16:4054?allowInsecure=1&sni=www.nintendogames.net#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
 trojan://BxceQaOe@18.162.97.46:2569?allowInsecure=1&sni=t.me%2Fripaojiedian#%E7%BE%8E%E5%9B%BD3%7C%40ripaojiedian
-vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9NHxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsICJzbmkiOiAiIn0=
 trojan://8001fbf7-4b59-4415-a4bd-8bfded02c9c6@69.28.82.253:443?allowInsecure=0&sni=joss.gpj1.web.id&type=ws&host=joss.gpj1.web.id&path=/Free-VPN-CF-Geo-Project/69.28.82.253=443#CA_speednode_0001
 vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@193.124.18.13:443?allowInsecure=0&sni=kuangbao.xiejiang.dpdns.org&security=tls&type=ws&host=kuangbao.xiejiang.dpdns.org&path=/?ed=2560#CZ_speednode_0004
 trojan://telegram-id-privatevpns@52.57.38.0:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#DE_speednode_0005
