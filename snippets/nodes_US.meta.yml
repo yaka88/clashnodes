@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 Alabanza
-  network: ws
-  port: 2053
-  server: free.best-antiaging-reviews.com
-  tls: true
-  type: vmess
-  uuid: 095ee315-a14c-4bf7-8bcb-568392415e26
-  ws-opts:
-    headers:
-      Host: free.best-antiaging-reviews.com
-    path: /
 - name: All-@V2rayAlpha--46
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
