@@ -1,65 +1,46 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: none
-  port: '53825'
-  server: 91.228.186.242
+  name: 英国 Technicolor SA
+  network: ws
+  port: 13820
+  server: 141.11.182.195
   tls: false
   type: vmess
-  uuid: ee0093c0-39f5-4736-fa81-2f4f07a224b8
+  uuid: c5d59774-80bb-4be3-a990-f59b0d0b181b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.22
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: 443
-  server: 00yin6.keeoomboom.de
+  server: sy4.620720.xyz
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: 00yin6.keeoomboom.de
-    path: ''
-- name: RU_speednode_0030
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: m.vk.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: none
-  port: 36796
-  server: 91.228.186.242
-  tls: false
-  type: vmess
-  uuid: 8e81dd6a-4175-4c68-b4da-2a265ecec015
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #2'
-  network: none
-  port: '53858'
-  server: 91.228.186.242
-  tls: false
-  type: vmess
-  uuid: 17c6ee92-0c6d-43be-851b-ff5415a0b067
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: okl5i3.zeeoomboom.de
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /video/pmi58yp5.m3u8
+      Host: sy4.620720.xyz
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -164,16 +145,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: BE_speednode_0001
   network: ws
   password: 29ca24a5-e8aa-4cbd-9bcb-f96aba1d6f15
@@ -252,6 +223,14 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
+- name: RU_speednode_0030
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
 - name: US_speednode_0043
   password: telegram-id-privatevpns
   port: 22222
