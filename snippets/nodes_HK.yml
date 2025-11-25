@@ -1,10 +1,21 @@
 proxies:
-- name: 香港+电讯盈科有限公司
+- name: 香港5|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.53.22
-  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 香港 V2CROSS.COM
+  network: none
+  port: '36673'
+  server: 154.219.119.183
+  tls: false
+  type: vmess
+  uuid: a84406ac-275d-4dd8-ddda-67c019845a37
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -31,14 +42,6 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.18.95
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.22
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

@@ -1,23 +1,35 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: installshield
-  port: 8443
-  server: 38.180.249.177
-  sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 华盛顿Cogent通信公司
+  network: none
+  port: 53487
+  server: 38.84.201.21
+  tls: false
+  type: vmess
+  uuid: c3c1ec05-df2c-4975-9b42-e9b007564eb1
+- alterId: 0
+  cipher: auto
+  name: 美国 科罗拉多州NTT(美国)通信公司
+  network: none
+  port: '44805'
+  server: 216.167.107.61
+  tls: false
+  type: vmess
+  uuid: f7d62526-9e06-455e-82bd-241d368002e8
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 8443
-  server: t1.620720.xyz
+  port: 443
+  server: 00yin6.keeoomboom.de
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: t1.620720.xyz
-    path: /
+      Host: 00yin6.keeoomboom.de
+    path: ''
 - name: 美国|@ripaojiedian
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
