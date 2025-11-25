@@ -1,44 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '英国 V2CROSS.COM #1'
   network: none
-  port: 53825
+  port: 31167
   server: 91.228.186.242
   tls: false
   type: vmess
-  uuid: ee0093c0-39f5-4736-fa81-2f4f07a224b8
+  uuid: 74a3b3ea-b5f9-438f-d885-1a193d2ead4f
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: '英国 V2CROSS.COM #2'
+  network: none
+  port: 36796
+  server: 91.228.186.242
+  tls: false
+  type: vmess
+  uuid: 8e81dd6a-4175-4c68-b4da-2a265ecec015
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #3'
   network: none
   port: 53858
   server: 91.228.186.242
   tls: false
   type: vmess
   uuid: 17c6ee92-0c6d-43be-851b-ff5415a0b067
-- alterId: 0
-  cipher: auto
-  name: 英国 Technicolor SA
-  network: ws
-  port: 13820
-  server: 141.11.182.195
-  tls: false
-  type: vmess
-  uuid: c5d59774-80bb-4be3-a990-f59b0d0b181b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #2'
-  network: none
-  port: 15639
-  server: 91.228.186.242
-  tls: false
-  type: vmess
-  uuid: e7516690-ce2a-4647-9013-d47eec6e71eb
 - name: GB_speednode_0013
   network: ws
   port: 443

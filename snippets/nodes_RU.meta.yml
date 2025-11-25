@@ -1,26 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: ws
-  port: 15745
-  server: 62.192.173.86
-  tls: false
-  type: vmess
-  uuid: b564b504-17bf-4ff3-fe42-17569844e526
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '俄罗斯 V2CROSS.COM #1'
-  network: none
-  port: 28831
-  server: 62.192.173.86
-  tls: false
-  type: vmess
-  uuid: ee86541f-0fa5-4dc7-d573-671d80764cb3
 - name: RU_speednode_0030
   password: Qzy7tgpRhu
   port: 443

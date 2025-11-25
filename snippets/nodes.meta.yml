@@ -13,123 +13,40 @@ proxies:
   up: 11 Mbps
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: none
-  port: 53825
-  server: 91.228.186.242
-  tls: false
-  type: vmess
-  uuid: ee0093c0-39f5-4736-fa81-2f4f07a224b8
-- alterId: 0
-  cipher: auto
-  name: 美国 华盛顿Cogent通信公司
-  network: none
-  port: 53487
-  server: 38.84.201.21
-  tls: false
-  type: vmess
-  uuid: c3c1ec05-df2c-4975-9b42-e9b007564eb1
-- alterId: 0
-  cipher: auto
   name: '英国 V2CROSS.COM #1'
   network: none
-  port: 53858
+  port: 31167
   server: 91.228.186.242
   tls: false
   type: vmess
-  uuid: 17c6ee92-0c6d-43be-851b-ff5415a0b067
+  uuid: 74a3b3ea-b5f9-438f-d885-1a193d2ead4f
 - alterId: 0
   cipher: auto
-  name: 英国 Technicolor SA
-  network: ws
-  port: 13820
-  server: 141.11.182.195
-  tls: false
-  type: vmess
-  uuid: c5d59774-80bb-4be3-a990-f59b0d0b181b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: ws
-  port: 15745
-  server: 62.192.173.86
-  tls: false
-  type: vmess
-  uuid: b564b504-17bf-4ff3-fe42-17569844e526
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 荷兰 V2CROSS.COM
+  name: '美国 科罗拉多州NTT(美国)通信公司 #1'
   network: none
-  port: 33562
-  server: 195.86.215.217
-  tls: false
-  type: vmess
-  uuid: 89ebce60-e821-4c14-bff8-ba5f21963bcc
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.22
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 科罗拉多州NTT(美国)通信公司
-  network: none
-  port: '44805'
+  port: 44805
   server: 216.167.107.61
   tls: false
   type: vmess
   uuid: f7d62526-9e06-455e-82bd-241d368002e8
 - alterId: 0
   cipher: auto
-  name: 香港 V2CROSS.COM
-  network: none
-  port: '36673'
-  server: 154.219.119.183
-  tls: false
-  type: vmess
-  uuid: a84406ac-275d-4dd8-ddda-67c019845a37
-- alterId: 0
-  cipher: auto
   name: '英国 V2CROSS.COM #2'
   network: none
-  port: 15639
+  port: 36796
   server: 91.228.186.242
   tls: false
   type: vmess
-  uuid: e7516690-ce2a-4647-9013-d47eec6e71eb
+  uuid: 8e81dd6a-4175-4c68-b4da-2a265ecec015
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: 00yin6.keeoomboom.de
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 00yin6.keeoomboom.de
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '俄罗斯 V2CROSS.COM #1'
+  name: '英国 V2CROSS.COM #3'
   network: none
-  port: 28831
-  server: 62.192.173.86
+  port: 53858
+  server: 91.228.186.242
   tls: false
   type: vmess
-  uuid: ee86541f-0fa5-4dc7-d573-671d80764cb3
+  uuid: 17c6ee92-0c6d-43be-851b-ff5415a0b067
 - name: '@NoForcedheaven'
   obfs: salamander
   obfs-password: 9242a8bf
@@ -365,7 +282,7 @@ proxies:
   sni: d.eans.top
   tls: false
   type: hysteria2
-- name: 🏴‍☠️@FreakConfig
+- name: All-@V2ray_Alpha--30
   password: 338ce171-d764-4610-8fd5-6688b0d321f0
   port: 30102
   server: 140.245.68.133
@@ -449,7 +366,7 @@ proxies:
   sni: hsdg.huasuan666.top
   tls: false
   type: hysteria2
-- name: 'All-@V2rayAlpha--3 #1'
+- name: All-@V2ray_Alpha--39
   password: 571ec94e-613c-430a-93de-397d3d237475
   port: 22157
   server: hshl.huasuan666.top
@@ -1074,7 +991,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #5'
+- name: 'All--@IRAN_V2RAY1 #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -1084,7 +1001,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #7'
+- name: '🇳🇱 - NL - @freeOnlineVPN #6'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -1158,14 +1075,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '🏴‍☠️@FreakConfig #2'
+- name: 'telegram @mtmvpn #2'
   password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6
   port: 21325
   server: tr.xn--9kqx4sc0n.shop
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #10'
+- name: '🇳🇱 - NL - @freeOnlineVPN #9'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1175,7 +1092,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #13'
+- name: '🇳🇱 - NL - @freeOnlineVPN #12'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1185,7 +1102,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #14'
+- name: '🇳🇱 - NL - @freeOnlineVPN #13'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1519,6 +1436,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.18.95
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.22
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
