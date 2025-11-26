@@ -1,12 +1,4 @@
 proxies:
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.179
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -33,6 +25,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
