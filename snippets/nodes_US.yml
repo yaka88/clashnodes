@@ -1,26 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: 40433
-  server: 208.76.223.218
-  tls: false
-  type: vmess
-  uuid: d8fd8955-78db-49ba-d86f-3e4729f6ac4d
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 443
+  port: '443'
   server: cf.fovi.tk
-  servername: ''
   tls: true
   type: vmess
   uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   ws-opts:
     headers:
-      Host: foxlux.fovi.tk
+      Host: foxpol.fovi.tk
     path: /eisasqa
 - name: 美国|@ripaojiedian
   network: tcp
