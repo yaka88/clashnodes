@@ -1,10 +1,4 @@
 proxies:
-- name: 日本+东京SAKURA数据中心
-  password: BxceQaOe
-  port: 5156
-  server: 153.121.65.212
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
