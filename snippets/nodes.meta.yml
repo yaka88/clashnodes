@@ -13,19 +13,24 @@ proxies:
   up: 11 Mbps
 - alterId: 0
   cipher: auto
-  name: '俄罗斯 莫斯科JustHost #1'
-  network: tcp
-  port: 49934
-  server: 45.136.244.201
-  tls: false
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: 37934
+  server: 74.117.196.232
+  tls: true
   type: vmess
-  uuid: 90afa47d-341a-497d-ae25-1d81258804d5
+  uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001
+  ws-opts:
+    headers:
+      Host: ''
+    path: /speedtest
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '443'
+  port: 443
   server: cf.fovi.tk
+  servername: ''
   tls: true
   type: vmess
   uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
@@ -33,43 +38,22 @@ proxies:
     headers:
       Host: foxlux.fovi.tk
     path: /eisasqa
-- name: 卢森堡+V2CROSS.COM
-  network: tcp
-  password: .+QAJot50sDi6mvb
-  port: 11790
-  server: 5.188.108.13
-  skip-cert-verify: true
-  sni: runningshoes.purpletornado.click
-  type: trojan
-- name: 加拿大多伦多+V2CROSS.COM
-  network: tcp
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  sni: diningtable.electricbanana.click
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  skip-cert-verify: false
+  sni: shoppingmall.electricbanana.click
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本 V2CROSS.COM
-  network: ws
-  port: 443
-  server: seoul02.zgjok.com
-  tls: true
-  type: vmess
-  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
-  ws-opts:
-    headers:
-      Host: seoul02.zgjok.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 华盛顿Cogent通信公司
+  name: 中国 V2CROSS.COM
   network: tcp
-  port: 59807
-  server: 38.14.99.163
+  port: '30812'
+  server: 144.48.180.187
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '🇳🇱@FreakConfig #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -393,7 +377,7 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: All--@V2rayAlpha--9
+- name: '@Hddify'
   password: 571ec94e-613c-430a-93de-397d3d237475
   port: 22155
   server: 213.108.198.123
@@ -401,7 +385,7 @@ proxies:
   sni: hsdg.huasuan666.top
   tls: false
   type: hysteria2
-- name: All--@V2rayAlpha--7
+- name: All--@V2rayAlpha--5
   password: 571ec94e-613c-430a-93de-397d3d237475
   port: 22155
   server: hsdg.huasuan666.top
@@ -409,7 +393,7 @@ proxies:
   sni: hsdg.huasuan666.top
   tls: false
   type: hysteria2
-- name: All-@V2ray_Alpha--39
+- name: 'All-@V2rayAlpha--3 #1'
   password: 571ec94e-613c-430a-93de-397d3d237475
   port: 22157
   server: hshl.huasuan666.top
@@ -582,7 +566,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: All--@V2rayAlpha--6
+- name: All--@IRAN_V2RAY1
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -592,7 +576,7 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
-- name: 'All--@V2rayAlpha--5 #1'
+- name: 'All--@IRAN_V2RAY1 #1'
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -1386,7 +1370,17 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+- name: '🇩🇪 - DE - @freeOnlineVPN #8'
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: wXh99oRDIt
+  port: 443
+  server: 91.99.225.11
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: yPUN7h9I8E
@@ -1396,7 +1390,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: yrBnLOzhOi
