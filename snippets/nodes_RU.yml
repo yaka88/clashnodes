@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '俄罗斯 莫斯科JustHost #1'
+  network: tcp
+  port: 49934
+  server: 45.136.244.201
+  tls: false
+  type: vmess
+  uuid: 90afa47d-341a-497d-ae25-1d81258804d5
 - name: RU_speednode_0030
   password: Qzy7tgpRhu
   port: 443
