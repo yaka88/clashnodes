@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
-  network: tcp
+  network: ''
   port: 180
   server: 82.198.246.97
   tls: false

@@ -1,11 +1,4 @@
 proxies:
-- name: 加拿大多伦多+V2CROSS.COM
-  network: tcp
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  sni: diningtable.electricbanana.click
-  type: trojan
 - name: CA_speednode_0003
   network: ws
   password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6
