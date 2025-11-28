@@ -1,22 +1,33 @@
 proxies:
+- name: 卢森堡+V2CROSS.COM
+  network: tcp
+  password: .+QAJot50sDi6mvb
+  port: 11790
+  server: 5.188.108.13
+  skip-cert-verify: true
+  sni: runningshoes.purpletornado.click
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: ''
-  port: 180
-  server: 82.198.246.97
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港+电讯盈科有限公司
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 香港4|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.18.95
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
-  server: 58.152.53.8
+  server: 58.152.18.95
   type: trojan
 - alterId: 2
   cipher: auto
@@ -38,14 +49,6 @@ proxies:
   port: 443
   server: 58.152.18.55
   sni: www.nintendogames.net
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
