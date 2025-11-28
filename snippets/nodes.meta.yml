@@ -11,20 +11,6 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 卢森堡+V2CROSS.COM
-  network: tcp
-  password: .+QAJot50sDi6mvb
-  port: 11790
-  server: 5.188.108.13
-  skip-cert-verify: true
-  sni: runningshoes.purpletornado.click
-  type: trojan
-- name: 日本+东京Sakura樱花云数据中心
-  password: BxceQaOe
-  port: 2145
-  server: 160.16.151.9
-  sni: t.me%25252Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
@@ -34,6 +20,21 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 加拿大多伦多+V2CROSS.COM
+  network: tcp
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  sni: diningtable.electricbanana.click
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 🇯🇵b@oneclickvpnkeys
   password: 14FD150A-579E-42A1-8212-9D2F6510A70C
   port: 443
@@ -1645,14 +1646,6 @@ proxies:
   port: 443
   server: 58.152.18.55
   sni: www.nintendogames.net
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp

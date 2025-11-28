@@ -1,10 +1,4 @@
 proxies:
-- name: 日本+东京Sakura樱花云数据中心
-  password: BxceQaOe
-  port: 2145
-  server: 160.16.151.9
-  sni: t.me%25252Fripaojiedian
-  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
