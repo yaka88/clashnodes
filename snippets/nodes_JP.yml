@@ -1,20 +1,4 @@
 proxies:
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1196
-  server: 43.199.161.175
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 43.198.99.56
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
