@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 V2CROSS.COM
+  network: tcp
+  port: '100'
+  server: cpanel.navar1.ir
+  tls: false
+  type: vmess
+  uuid: 26402bc7-7895-4dd0-ae6e-151a00c71145
 - name: RU_speednode_0030
   password: Qzy7tgpRhu
   port: 443
