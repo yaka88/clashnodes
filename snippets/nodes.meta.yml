@@ -11,40 +11,48 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- alterId: 0
-  cipher: auto
-  name: 法国 OVH SAS
-  network: ws
-  port: '443'
-  server: 91.134.8.101
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 219.79.165.186
+  server: 112.118.116.66
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: 37934
+  server: 74.117.196.232
+  tls: true
+  type: vmess
+  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /speedtest
+- name: 日本东京+Amazon数据中心
   password: BxceQaOe
   port: 2752
   server: 52.199.129.13
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 新加坡4|@ripaojiedian
@@ -55,14 +63,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.118.116.66
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: ws
+  port: 37934
+  server: 74.117.196.232
+  tls: true
+  type: vmess
+  uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001
+  ws-opts:
+    headers:
+      Host: ''
+    path: /speedtest
 - name: 🇳🇱 - NL - @freeOnlineVPN
   password: 2408982813-20241210
   port: 443
@@ -192,7 +205,7 @@ proxies:
   sni: dd.ircybersec.org
   tls: false
   type: hysteria2
-- name: WiFi-@V2rayAlpha--2
+- name: 🇷🇺@FreakConfig
   password: SNItest
   port: 443
   server: 37.18.14.169
@@ -287,7 +300,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '🇩🇪 - DE - @freeOnlineVPN #5'
+- name: '🇩🇪 - DE - @freeOnlineVPN #6'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -884,7 +897,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
+- name: '🇩🇪 - DE - @freeOnlineVPN #3'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: 7vsrTEAyOw
@@ -912,6 +925,16 @@ proxies:
   server: drhystuichdfy.samanidempire.org
   skip-cert-verify: true
   sni: drhystuichdfy.samanidempire.org
+  tls: false
+  type: hysteria2
+- name: '@meli_proxyy #4'
+  obfs: salamander
+  obfs-password: 2wsx
+  password: 83ee741e-4357-4e7c-bfdd-b259c8d1b981
+  port: 4431
+  server: blogtest.ghazatehran.ir
+  skip-cert-verify: true
+  sni: blogtest.ghazatehran.ir
   tls: false
   type: hysteria2
 - name: All-@V2rayAlpha--44
@@ -947,14 +970,6 @@ proxies:
   port: 44001
   server: 141.147.52.24
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '@Selinc #5'
-  password: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
-  port: 44001
-  server: 85.208.9.189
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 'All--@IRAN_V2RAY1🇺🇸 #2'
@@ -1093,7 +1108,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇩🇪 - DE - @freeOnlineVPN #3'
+- name: '🇩🇪 - DE - @freeOnlineVPN #4'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: EKLeRwhlYy
@@ -1336,22 +1351,6 @@ proxies:
   server: 81.168.83.89
   skip-cert-verify: true
   sni: kotlet.arshiacomplus.dpdns.org
-  tls: false
-  type: hysteria2
-- name: '@Selinc #11'
-  password: ab858115-e0ab-4cb7-8e65-0804c35e52d5
-  port: 30000
-  server: nl2.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '@Selinc #12'
-  password: ab858115-e0ab-4cb7-8e65-0804c35e52d5
-  port: 30000
-  server: us4.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
   tls: false
   type: hysteria2
 - name: 'All-@V2ray_Alpha--6 #1'
@@ -1616,6 +1615,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.165.186
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1651,6 +1658,14 @@ proxies:
   port: 2760
   server: 160.16.136.130
   sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2752
+  server: 52.199.129.13
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
