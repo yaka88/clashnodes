@@ -15,7 +15,7 @@ proxies:
   cipher: auto
   name: 法国 OVH SAS
   network: ws
-  port: '443'
+  port: 443
   server: 91.134.8.101
   tls: true
   type: vmess
