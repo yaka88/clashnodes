@@ -1,36 +1,22 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 华盛顿Cogent通信公司
+  network: none
+  port: 2052
+  server: 38.54.98.110
+  tls: true
+  type: vmess
+  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
 - alterId: 0
   cipher: auto
   name: 美国 V2CROSS.COM
-  network: ws
-  port: 37934
-  server: 74.117.196.232
-  tls: true
+  network: none
+  port: 38141
+  server: 45.136.12.37
+  tls: false
   type: vmess
-  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
-  ws-opts:
-    headers:
-      Host: ''
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: ws
-  port: 37934
-  server: 74.117.196.232
-  tls: true
-  type: vmess
-  uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001
-  ws-opts:
-    headers:
-      Host: ''
-    path: /speedtest
+  uuid: fd291be6-b48d-43a1-da38-66c7f80e2f80
 - name: All-@V2rayAlpha--46
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
