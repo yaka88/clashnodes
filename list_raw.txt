@@ -1,11 +1,8 @@
-trojan://BxceQaOe@58.152.30.175:443?sni=t.me%25252Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
-trojan://Fn9TZuYXiFYhsyp65T@os-2.rise-fuji.com:443?sni=os-2.rise-fuji.com#%E5%BE%B7%E5%9B%BD%E7%BE%8E%E5%9B%A0%E6%B2%B3%E7%95%94%E6%B3%95%E5%85%B0%E5%85%8B%E7%A6%8F%2BxTom/AS3214
-trojan://BxceQaOe@58.152.18.95:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%231
-trojan://BxceQaOe@58.152.25.20:443?sni=t.me%25252Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%232
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IOWNjuebm+mhv0NvZ2VudOmAmuS/oeWFrOWPuCAjMSIsICJhZGQiOiAiMzguNTQuOTguMTEwIiwgInBvcnQiOiAyMDUyLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJub25lIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjY2NWQ5YjhmLTE1M2QtNDkwNy1hZGFjLWRlMTJhZmQ5Yzg1MSJ9
 trojan://BxceQaOe@95.40.76.44:2673?sni=t.me%25252Fripaojiedian#%E6%B3%A2%E5%85%B0%2BV2CROSS.COM
-trojan://BxceQaOe@52.195.176.26:2145?sni=t.me%25252Fripaojiedian#%E7%BE%8E%E5%9B%BD%2B%E5%8D%8E%E7%9B%9B%E9%A1%BF%E5%B7%9E%E8%A5%BF%E9%9B%85%E5%9B%BE%E5%B8%82%E4%BA%9A%E9%A9%AC%E9%80%8A%28Amazon%29%E5%85%AC%E5%8F%B8%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
-vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IOWNjuebm+mhv0NvZ2VudOmAmuS/oeWFrOWPuCIsICJhZGQiOiAiMzguNTQuOTguMTEwIiwgInBvcnQiOiAiMjA1MiIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIm5vbmUiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICJ0bHMiLCAiaWQiOiAiNjY1ZDliOGYtMTUzZC00OTA3LWFkYWMtZGUxMmFmZDljODUxIn0=
+trojan://BxceQaOe@58.152.25.20:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
+vmess://eyJ2IjogIjIiLCAicHMiOiAi6KW/54+t54mZIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIxODUuMjIxLjIzLjI1MSIsICJwb3J0IjogMjk0MzEsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIm5vbmUiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiOGI3ODM2M2UtM2MzYS00NGFiLWYwZDgtZjEzZDk1MGM4NTcyIn0=
+trojan://.ie4rghJuMkcf0oF@38.96.254.102:18509?sni=shoppingmall.electricbanana.click#%E7%BE%8E%E5%9B%BD%2B%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8
 hysteria2://2408982813-20241210@genshin-v4-oracle-amd.damaoooo.com:443?insecure=0#%40meli_proxyy%20%231
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@ylsl.nezhasu.com:443?insecure=1&sni=ylsl.nezhasu.com#%F0%9F%8E%B549%40oneclickvpnkeys
 hysteria2://2cUfzeGOZG@91.99.225.11:443?insecure=1&sni=refersion.com&obfs=salamander&obfs-password=Jsbdksj@V2RayyNGvpn$Miracle#%F0%9F%87%A9%F0%9F%87%AA%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%D9%87%D9%85%D9%87%20%D8%A7%D9%88%D9%BE%D8%B1%D8%A7%D8%AA%D9%88%D8%B1%20%D9%87...
@@ -179,7 +176,6 @@ hysteria2://yPUN7h9I8E@83.147.253.96:2053?insecure=1&sni=webservice-admin.tgju.o
 hysteria2://yrBnLOzhOi@91.99.225.11:443?insecure=1&sni=refersion.com&obfs=salamander&obfs-password=Jsbdksj@V2RayyNGvpn$Miracle#%F0%9F%87%A9%F0%9F%87%AA%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%D9%87%D9%85%D9%87%20%D8%A7%D9%88%D9%BE%D8%B1%D8%A7%D8%AA%D9%88%D8%B1%20%D9%87...%20%2321
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://79314e99f0a473fe86efc7827942ad00@58.152.18.192:443?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
-trojan://BxceQaOe@58.152.25.20:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
 trojan://BxceQaOe@58.152.30.175:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivNnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICI0Ny4yNDMuNjkuMTI2IiwgInBvcnQiOiAiMzE5MDQiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiMjI1NTBiNzQtM2ViZi00OWI1LWVhMzYtMzA3OGI1ZDQ3ZWQ5IiwgInNuaSI6ICIifQ==
 trojan://BxceQaOe@52.195.176.26:2145?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian

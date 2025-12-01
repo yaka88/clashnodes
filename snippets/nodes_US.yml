@@ -1,25 +1,19 @@
 proxies:
-- name: 德国美因河畔法兰克福+xTom/AS3214
-  password: Fn9TZuYXiFYhsyp65T
-  port: 443
-  server: os-2.rise-fuji.com
-  sni: os-2.rise-fuji.com
-  type: trojan
-- name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
-  password: BxceQaOe
-  port: 2145
-  server: 52.195.176.26
-  sni: t.me%25252Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 华盛顿Cogent通信公司
+  name: '美国 华盛顿Cogent通信公司 #1'
   network: none
-  port: '2052'
+  port: 2052
   server: 38.54.98.110
   tls: true
   type: vmess
   uuid: 665d9b8f-153d-4907-adac-de12afd9c851
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
