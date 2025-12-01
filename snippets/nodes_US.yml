@@ -1,17 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '美国 华盛顿Cogent通信公司 #1'
-  network: none
-  port: 2052
-  server: 38.54.98.110
-  tls: true
-  type: vmess
-  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
 - name: 美国+华盛顿Cogent通信公司
   password: .ie4rghJuMkcf0oF
   port: 18509
   server: 38.96.254.102
+  skip-cert-verify: false
   sni: shoppingmall.electricbanana.click
   type: trojan
 - name: 美国|@ripaojiedian

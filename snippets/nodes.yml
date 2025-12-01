@@ -1,41 +1,54 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '美国 华盛顿Cogent通信公司 #1'
-  network: none
-  port: 2052
-  server: 38.54.98.110
-  tls: true
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
   type: vmess
-  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
-- name: 波兰+V2CROSS.COM
-  password: BxceQaOe
-  port: 2673
-  server: 95.40.76.44
-  sni: t.me%25252Fripaojiedian
-  type: trojan
-- name: 香港4|@ripaojiedian
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.20
+  server: 58.152.30.175
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 西班牙 V2CROSS.COM
-  network: none
-  port: 29431
-  server: 185.221.23.251
-  tls: false
-  type: vmess
-  uuid: 8b78363e-3c3a-44ab-f0d8-f13d950c8572
 - name: 美国+华盛顿Cogent通信公司
   password: .ie4rghJuMkcf0oF
   port: 18509
   server: 38.96.254.102
+  skip-cert-verify: false
   sni: shoppingmall.electricbanana.click
+  type: trojan
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  type: trojan
+- name: 俄罗斯+V2CROSS.COM
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: ''
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 伊朗+V2CROSS.COM
+  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+  port: 25010
+  server: 37.202.200.19
+  sni: 37.202.200.19
   type: trojan
 - alterId: 2
   cipher: auto
@@ -54,11 +67,11 @@ proxies:
   server: 58.152.18.192
   sni: www.nintendogames.net
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.30.175
+  server: 58.152.25.20
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
