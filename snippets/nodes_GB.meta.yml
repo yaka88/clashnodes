@@ -2,12 +2,16 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
+  network: ws
+  port: 16645
+  server: m.cnmjin.net
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 77439561-dcef-4e45-803a-743cfa7d20c2
+  ws-opts:
+    headers:
+      Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
+    path: /
 - name: All--@IRAN_V2RAY1🇬🇧
   obfs: salamander
   obfs-password: khameniiko@smad@ret
@@ -18,3 +22,17 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
+- name: GB_speednode_0007
+  network: ws
+  port: 443
+  server: 206.189.25.65
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
