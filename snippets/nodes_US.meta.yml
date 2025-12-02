@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: ws
+  port: 37934
+  server: 74.117.196.232
+  tls: true
+  type: vmess
+  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /speedtest
 - name: All-@V2rayAlpha--46
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743

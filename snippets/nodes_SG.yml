@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 新加坡 V2CROSS.COM
-  network: ws
-  port: 58607
-  server: 68.183.178.131
-  tls: true
-  type: vmess
-  uuid: c11c32cb-27b3-4afa-c0f3-fb250aa4959e
-  ws-opts:
-    headers:
-      Host: www.12333.monster
-    path: ''
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
@@ -25,4 +12,12 @@ proxies:
   port: 2760
   server: 160.16.81.84
   sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1196
+  server: 52.199.79.149
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
