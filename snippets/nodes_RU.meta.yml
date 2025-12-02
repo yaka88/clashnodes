@@ -1,10 +1,4 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  sni: m.vk.com
-  type: trojan
 - name: RU_speednode_0052
   network: ws
   port: 2053

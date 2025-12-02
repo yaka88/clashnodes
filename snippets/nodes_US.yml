@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
-  port: 37934
-  server: 74.117.196.232
-  tls: true
-  type: vmess
-  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
-  ws-opts:
-    headers:
-      Host: ''
-    path: /speedtest
-- alterId: 0
-  cipher: auto
   name: '美国 科罗拉多州NTT(美国)通信公司 #1'
   network: none
   port: 36108
@@ -25,14 +12,14 @@ proxies:
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 4054
-  server: 18.162.142.242
+  server: 160.16.236.32
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 4054
-  server: 160.16.214.6
+  server: 160.16.81.84
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
