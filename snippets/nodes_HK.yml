@@ -1,21 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 香港 阿里云
-  network: ws
-  port: 31813
-  server: 47.242.162.148
-  tls: false
-  type: vmess
-  uuid: 00308f3b-747a-4710-b2cb-32c8de9785a1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- name: 香港+电讯盈科有限公司
+- name: 香港5|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.53.8
+  server: 58.152.30.175
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
@@ -39,14 +29,6 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.175
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

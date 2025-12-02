@@ -1,12 +1,10 @@
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwgInBvcnQiOiAxODAsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IOenkee9l+aLieWkmuW3nk5UVCjnvo7lm70p6YCa5L+h5YWs5Y+4ICMxIiwgImFkZCI6ICIyMTYuMTY3LjQ5LjE1NyIsICJwb3J0IjogMzYxMDgsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIm5vbmUiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiYWM5MzQwYzEtNjFkNy00N2JkLWM1YTItOWI4ODg4NTdkZWM2In0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5pel5pysIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI0My4xNjUuMTgwLjEwMiIsICJwb3J0IjogIjE4ODE4IiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICI2Y2UwNGQyZi1mZWI0LTQ2MjAtZTEwOC00ODlhMzQzYTgxMDcifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivIOmYv+mHjOS6kSIsICJhZGQiOiAiNDcuMjQyLjE2Mi4xNDgiLCAicG9ydCI6IDMxODEzLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICIwMDMwOGYzYi03NDdhLTQ3MTAtYjJjYi0zMmM4ZGU5Nzg1YTEiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIvYXJraT9lZD0yMDQ4In0=
-trojan://.%2BQAJot50sDi6mvb@5.188.108.13:11790?allowInsecure=1&sni=runningshoes.purpletornado.click#%E5%8D%A2%E6%A3%AE%E5%A0%A1%2BV2CROSS.COM
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5LyK5pyXIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIzMS41Ni4xMTcuNzMiLCAicG9ydCI6ICIyODU3MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIm5vbmUiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiYWE1MjE4MzctNmJmYi00N2RkLWM4N2MtZWM3MzBhOTc0MDIwIn0=
-trojan://BxceQaOe@58.152.53.8:443?#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lit5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICJ2MTIuaGRhY2QuY29tIiwgInBvcnQiOiAiMzA4MTIiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lit5Zu9IOmYv+mHjOS6kSIsICJhZGQiOiAiOC4yMTguMTcuMTM2IiwgInBvcnQiOiA1Mjk4NiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICI3MzYzZDQ3ZS1hYzhiLTRmZTAtZDIzZS05OTA3Nzk5OWE3MGQifQ==
+trojan://BxceQaOe@52.199.79.149:1196?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%96%B0%E5%8A%A0%E5%9D%A13%7C%40ripaojiedian
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5paw5Yqg5Z2hIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI2OC4xODMuMTc4LjEzMSIsICJwb3J0IjogNTg2MDcsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogImMxMWMzMmNiLTI3YjMtNGFmYS1jMGYzLWZiMjUwYWE0OTU5ZSIsICJob3N0IjogInd3dy4xMjMzMy5tb25zdGVyIiwgInBhdGgiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5LyK5pyXIFYyQ1JPU1MuQ09NICMyIiwgImFkZCI6ICIzMS41Ni4xMTcuNzMiLCAicG9ydCI6IDI4NTczLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJub25lIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImFhNTIxODM3LTZiZmItNDdkZC1jODdjLWVjNzMwYTk3NDAyMCJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lit5Zu9IOmYv+mHjOS6kSIsICJhZGQiOiAiOC4yMTcuMTc2LjEwOCIsICJwb3J0IjogIjMzMTg1IiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJlYmI1YTVkYi1jMGRjLTQ4N2EtYzQxZi0wNzIxOWM5YTBkZGMifQ==
+trojan://BxceQaOe@58.152.30.175:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
+trojan://6pRjKQJ0CWyFtG.9@198.57.27.27:12990?#%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%9A%E4%BC%A6%E5%A4%9A%2BV2CROSS.COM
+vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
 hysteria2://0abd5d38-fdf1-11ed-bade-f23c91369f2d@1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com:443?insecure=1&sni=1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com#All-%23V2rayAlpha--19
 hysteria2://0da8651e-e1f6-11ec-bd7c-f23c913c8d2b@a033d21f-t6ngg0-tcinla-hrtf.us.hyhuawei.com:443?insecure=1&sni=a033d21f-t6ngg0-tcinla-hrtf.us.hyhuawei.com#%F0%9F%8E%B694%40oneclickvpnkeys
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@ylsl.nezhasu.com:443?insecure=1&sni=ylsl.nezhasu.com#%F0%9F%8E%B549%40oneclickvpnkeys
@@ -189,7 +187,6 @@ hysteria2://yrBnLOzhOi@91.99.225.11:443?insecure=1&sni=refersion.com&obfs=salama
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://79314e99f0a473fe86efc7827942ad00@58.152.18.192:443?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@58.152.25.20:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
-trojan://BxceQaOe@58.152.30.175:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivNnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICI0Ny4yNDMuNjkuMTI2IiwgInBvcnQiOiAiMzE5MDQiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiMjI1NTBiNzQtM2ViZi00OWI1LWVhMzYtMzA3OGI1ZDQ3ZWQ5IiwgInNuaSI6ICIifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivN3xAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICJhNDhiMGU3Yi10Nm5nZzAtdDh0c3AwLTFzem1pLmhrMy5wNXB2LmNvbSIsICJwb3J0IjogIjgwIiwgImFpZCI6IDIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiYmExNTE2MjgtYjNhMi0xMWVmLWJkYjktZjIzYzkxY2ZiYmM5IiwgInNuaSI6ICIiLCAiaG9zdCI6ICJicm9hZGNhc3Rsdi5jaGF0LmJpbGliaWxpLmNvbSIsICJwYXRoIjogIi8ifQ==
 trojan://BxceQaOe@52.195.176.26:5156?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
@@ -197,7 +194,6 @@ trojan://79314e99f0a473fe86efc7827942ad00@160.16.236.32:3093?sni=www.nintendogam
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.138.24:1331?sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC3%7C%40ripaojiedian
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.124.55:2760?sni=www.nintendogames.net#%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%40ripaojiedian
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.81.84:2760?sni=www.nintendogames.net#%E6%96%B0%E5%8A%A0%E5%9D%A12%7C%40ripaojiedian
-trojan://BxceQaOe@52.199.79.149:1196?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%96%B0%E5%8A%A0%E5%9D%A13%7C%40ripaojiedian
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.236.32:4054?sni=www.nintendogames.net#%E7%BE%8E%E5%9B%BD%7C%40ripaojiedian
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.81.84:4054?allowInsecure=1&sni=www.nintendogames.net#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
 trojan://BxceQaOe@116.49.237.130:1112?allowInsecure=1&sni=t.me%2Fripaojiedian#%E7%BE%8E%E5%9B%BD3%7C%40ripaojiedian
@@ -255,5 +251,5 @@ vless://ef352efe-2758-4093-a14d-f860c61ed578@www.speedtest.net:80?allowInsecure=
 vless://224629c2-342b-4e54-bb75-b56cb7dabf30@zorox-net.senu-zer.online:443?allowInsecure=0&sni=zorox-net.senu-zer.online&security=tls#US_speednode_0080
 vless://90c9c25c-df6c-4438-83d3-ef97166a9184@72.56.74.74:443?allowInsecure=0&sni=sun6-22.userapi.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=reality&pbk=yP1V_oAX1Sehc_102nMHuQgTOYk7T9KbJQmTlK4maVE&sid=a9d7905eeee12d56#US_speednode_0081
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@60.249.14.96:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Ddb5fe62%3A193531#%E5%8F%B0%E6%B9%BE%7C%40ripaojiedian
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@172.237.6.53:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3De2322f9%3A87491#%E6%97%A5%E6%9C%AC4%7C%40ripaojiedian
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@60.249.14.96:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Ddb5fe62%3A193531#%E5%8F%B0%E6%B9%BE%7C%40ripaojiedian

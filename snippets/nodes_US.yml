@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '美国 科罗拉多州NTT(美国)通信公司 #1'
-  network: none
-  port: 36108
-  server: 216.167.49.157
-  tls: false
-  type: vmess
-  uuid: ac9340c1-61d7-47bd-c5a2-9b888857dec6
 - name: 美国|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
