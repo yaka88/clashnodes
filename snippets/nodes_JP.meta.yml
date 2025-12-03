@@ -3,21 +3,21 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 5156
-  server: 52.195.176.26
+  server: 13.115.187.38
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
-  port: 3093
-  server: 160.16.236.32
+  port: 3169
+  server: 153.121.51.29
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
-  port: 1331
-  server: 160.16.138.24
+  port: 3093
+  server: 160.16.236.32
   sni: www.nintendogames.net
   type: trojan
