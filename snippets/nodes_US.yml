@@ -1,26 +1,4 @@
 proxies:
-- name: 美国+惠普HP
-  password: BxceQaOe
-  port: 2752
-  server: 16.163.138.120
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: 27092
-  server: 208.76.223.218
-  tls: false
-  type: vmess
-  uuid: a0596ba6-72a3-4366-8992-77088da65bd8
 - name: 美国|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
