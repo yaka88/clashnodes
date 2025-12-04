@@ -11,56 +11,35 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 香港+电讯盈科有限公司
+- name: HK_speednode_0008
   password: BxceQaOe
   port: 443
-  server: 58.152.25.20
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: HK_speednode_0009
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.175
+  server: 112.118.116.66
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '11133'
-  server: 198.181.34.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 29b25bdf-9a83-4dde-90c7-77c51cd23724
 - name: 加拿大多伦多+V2CROSS.COM
-  network: tcp
   password: 6pRjKQJ0CWyFtG.9
   port: 12990
   server: 198.57.27.27
-  sni: diningtable.electricbanana.click
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 中国 V2CROSS.COM
+  name: 英国 V2CROSS.COM
   network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  servername: ''
+  port: '180'
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 卢森堡+V2CROSS.COM
+  password: .+QAJot50sDi6mvb
+  port: 11790
+  server: 5.188.108.13
+  skip-cert-verify: true
+  sni: runningshoes.purpletornado.click
+  type: trojan
 - name: 🪝55@oneclickvpnkeys
   password: 0114339c-488d-11ee-8792-f23c9164ca5d
   port: 443
@@ -2114,6 +2093,23 @@ proxies:
   server: 203.198.122.13
   sni: www.nintendogames.net
   type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: HK_speednode_0009
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.175
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -2181,6 +2177,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '11133'
+  server: 198.181.34.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 29b25bdf-9a83-4dde-90c7-77c51cd23724
 - alterId: 2
   cipher: auto
   name: 香港6|@ripaojiedian
@@ -2266,14 +2272,6 @@ proxies:
     headers:
       Host: kuangbao.xiejiang.dpdns.org
     path: /?ed=2560
-- name: HK_speednode_0008
-  password: BxceQaOe
-  port: 443
-  server: 112.118.116.66
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: LU_speednode_0010
   network: ws
   password: f42d1b0d-c398-43cb-be37-d739b1477a5d
