@@ -13,23 +13,6 @@ proxies:
   up: 11 Mbps
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: HK_speednode_0008
-  password: BxceQaOe
-  port: 443
-  server: 112.118.116.66
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 中国 V2CROSS.COM
   network: tcp
   port: '30812'
@@ -37,6 +20,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - name: 加拿大多伦多+V2CROSS.COM
   network: tcp
   password: 6pRjKQJ0CWyFtG.9
@@ -44,6 +33,15 @@ proxies:
   server: 198.57.27.27
   sni: diningtable.electricbanana.click
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 🪝55@oneclickvpnkeys
   password: 0114339c-488d-11ee-8792-f23c9164ca5d
   port: 443
@@ -137,6 +135,14 @@ proxies:
   server: 9a5d3b4a-t57ls0-t7hmka-1plv4.us.hyhuawei.com
   skip-cert-verify: true
   sni: 9a5d3b4a-t57ls0-t7hmka-1plv4.us.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 🟢9@oneclickvpnkeys
+  password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+  port: 47974
+  server: 75.127.13.83
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 🪝82@oneclickvpnkeys
@@ -315,6 +321,14 @@ proxies:
   server: dd.openaccessnode.com
   skip-cert-verify: true
   sni: dd.ircybersec.org
+  tls: false
+  type: hysteria2
+- name: 🟢14@oneclickvpnkeys
+  password: 79d73809-f5ed-4099-8588-ba77578def1d
+  port: 35789
+  server: iij.mggl.wang
+  skip-cert-verify: true
+  sni: iij.mggl.wang
   tls: false
   type: hysteria2
 - name: telegram » mainv𝟮ray³
@@ -542,6 +556,14 @@ proxies:
   server: ef72d68d-t6ngg0-tc9wl2-py5w.us.hyhuawei.com
   skip-cert-verify: true
   sni: ef72d68d-t6ngg0-tc9wl2-py5w.us.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 🟢23@oneclickvpnkeys
+  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  port: 24591
+  server: hk1.shiyuandian.shop
+  skip-cert-verify: true
+  sni: hk1.shiyuandian.shop
   tls: false
   type: hysteria2
 - name: '🇳🇱 - NL - @freeOnlineVPN #9'
@@ -816,6 +838,14 @@ proxies:
   server: 208.87.243.187
   skip-cert-verify: true
   sni: 🔒
+  tls: false
+  type: hysteria2
+- name: '@V2rayNG3 #17'
+  password: dongtaiwang.com
+  port: 5355
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 🪝50@oneclickvpnkeys
@@ -1345,14 +1375,6 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '@V2ray1_Ng #1'
-  password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859
-  port: 30000
-  server: 94.249.197.95
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
@@ -1570,7 +1592,7 @@ proxies:
 - name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: J9MCnSyy8y
+  password: I5RKPsSYiP
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -1578,6 +1600,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: J9MCnSyy8y
+  port: 443
+  server: 91.99.225.11
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: KWodTw4Y06
@@ -1634,16 +1666,6 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5'
-  obfs: salamander
-  obfs-password: MiracleV2RayyNGvpnfreeconf
-  password: MmKPeSinVL
-  port: 2053
-  server: 83.147.253.96
-  skip-cert-verify: true
-  sni: webservice-admin.tgju.org
-  tls: false
-  type: hysteria2
 - name: All-@V2rayAlpha--2
   password: MxiGoEDnLJELZicwCXwsADPdF4
   port: 29609
@@ -1652,7 +1674,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: RZjK7qHG15
@@ -1662,7 +1684,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #6'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #5'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: UUa5hFByN9
@@ -1672,7 +1694,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #6'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: UXDYE6VRUZ
@@ -1682,7 +1704,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: VPcKd5VGwx
@@ -1692,7 +1714,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: VaKHp6TQN6
@@ -1702,7 +1724,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: XnD9ETrM9w
@@ -1712,7 +1734,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: YW97PxmYTj
@@ -1910,14 +1932,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '@V2rayNG3 #17'
-  password: dongtaiwang.com
-  port: 5355
-  server: 51.159.111.32
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '@Daily_Configs #3'
   password: f62dcdd4-a8f8-440e-8cc7-f5bb2f762375
   port: 443
@@ -1944,7 +1958,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: fYUHtSSorp
@@ -1970,7 +1984,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #8'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #7'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: gRpbBBxlvu
@@ -1980,7 +1994,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #8'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: ihYxYCiGwv
@@ -1990,7 +2004,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #10'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #9'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: n70AvqlNnq
@@ -2000,7 +2014,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: oivSVs1Wgz
@@ -2010,7 +2024,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #10'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: p1zskFmlFN
@@ -2020,7 +2034,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #11'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: sKztXL5kZB
@@ -2040,7 +2054,7 @@ proxies:
   sni: ghasem.kotlet.org
   tls: false
   type: hysteria2
-- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #13'
+- name: '🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #12'
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: vrhh6FbEdi
@@ -2050,7 +2064,7 @@ proxies:
   sni: webservice-admin.tgju.org
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: wXh99oRDIt
@@ -2060,7 +2074,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: wkAHoJxpH6
@@ -2070,7 +2084,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: yrBnLOzhOi
@@ -2105,7 +2119,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: HK_speednode_0009
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -2113,7 +2127,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -2205,260 +2218,61 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: AT_speednode_0001
-  port: 48304
-  reality-opts:
-    public-key: MNx941owoV6_Yq6rcdBXUhi3M4dnmwcZBNcOO7beDAM
-    short-id: '34190dfe6f034c30'
-  server: 195.133.88.114
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91e41591-8eda-4407-abed-8f69474254d9
-- name: CZ_speednode_0004
-  network: ws
-  port: 443
-  server: 193.124.18.13
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: DE_speednode_0005
-  network: ws
-  port: 443
-  server: 77.221.157.32
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- http-opts:
-    headers:
-      Host:
-      - varzesh3.ir
-    method: GET
-    path:
-    - /
-  name: FI_speednode_0006
-  network: http
-  port: 33801
-  server: m58a.vip784.com
-  servername: varzesh3.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d69b7f2d-b1e1-4303-a8da-47f7e38c404c
-- name: GB_speednode_0007
-  network: ws
-  port: 443
-  server: 206.189.25.65
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: LU_speednode_0010
-  network: ws
-  password: f42d1b0d-c398-43cb-be37-d739b1477a5d
-  port: 443
-  server: 107.189.3.96
-  skip-cert-verify: false
-  sni: joss.gpj4.web.id
+- name: FR_speednode_0001
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.39.61.165
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj4.web.id
-    path: /Free-VPN-CF-Geo-Project/107.189.3.96=443
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: MD_speednode_0011
-  port: 8443
+- flow: xtls-rprx-vision
+  name: IR_speednode_0005
+  port: 443
   reality-opts:
     public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI
-  server: pl.atlanta-internet.ru
+  server: 151.243.171.156
   servername: pingless.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 669be00c-67b4-4b87-b08f-311c45abced2
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: MD_speednode_0012
-  port: 8443
-  reality-opts:
-    public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI
-  server: 94.103.0.94
-  servername: pingless.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 669be00c-67b4-4b87-b08f-311c45abced2
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: MD_speednode_0013
-  port: 8443
-  reality-opts:
-    public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI
-  server: 94.103.2.81
-  servername: pingless.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 669be00c-67b4-4b87-b08f-311c45abced2
-- name: PL_speednode_0014
+- client-fingerprint: random
+  name: SG_speednode_0006
   network: ws
-  port: 2053
-  server: 85.193.92.242
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: PL_speednode_0015
-  network: ws
-  port: 2053
-  server: 81.200.154.2
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: PL_speednode_0016
-  network: ws
-  port: 8443
-  server: 85.193.95.23
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: PT_speednode_0017
-  network: ws
-  password: 6c7d536e-1ecf-448d-83c1-3044dd89ceac
   port: 443
-  server: 5.182.39.57
+  server: 20.247.137.183
+  servername: ak.suoni.nyc.mn
   skip-cert-verify: false
-  sni: joss.gpj4.web.id
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
+  ws-opts:
+    headers:
+      Host: ak.suoni.nyc.mn
+    path: /proxyip=sjc.o00o.ooo
+- name: US_speednode_0008
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.181.49.45
+  skip-cert-verify: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj4.web.id
-    path: /Free-VPN-CF-Geo-Project/5.182.39.57=443
-- flow: xtls-rprx-vision
-  name: RU_speednode_0018
-  port: 2243
-  reality-opts:
-    public-key: _ee-ouMazAzx7Q4_cYhWbu6pw53-8VVpt7tuBuCXziU
-    short-id: 'e3cbc70477'
-  server: 45.92.176.55
-  servername: rontgen.fasssst.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7e2c1ec-b2ba-4a4c-a73a-c08f5bd7923b
-- flow: xtls-rprx-vision
-  name: RU_speednode_0019
-  port: 1243
-  reality-opts:
-    public-key: jcJeCbLo5JtfveFIQLV6WNm1148XzxDc0Rzy336hXy0
-    short-id: 'ff3cef7cdcf9'
-  server: 45.92.176.55
-  servername: rontgen.fasssst.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d29bde62-daa4-4804-9c69-6e23a4150006
-- flow: xtls-rprx-vision
-  name: RU_speednode_0020
-  port: 2243
-  reality-opts:
-    public-key: _ee-ouMazAzx7Q4_cYhWbu6pw53-8VVpt7tuBuCXziU
-    short-id: 'ce6b34d5db15db'
-  server: rontgen.fasssst.ru
-  servername: rontgen.fasssst.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7e2c1ec-b2ba-4a4c-a73a-c08f5bd7923b
-- flow: xtls-rprx-vision
-  name: RU_speednode_0021
-  port: 5343
-  reality-opts:
-    public-key: fmBHlPC9Fmxx3aMQnV-Hw9wAZpe7WJROiGa11lLXRjc
-    short-id: 'e207433b2a'
-  server: rontgen.fasssst.ru
-  servername: rontgen.fasssst.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 74053bef-bd35-4654-b45b-a79f75a60637
-- name: SE_speednode_0022
-  network: ws
-  port: 2052
-  server: 185.146.173.185
-  servername: fggvggvvgv.fggghbvhh-ghvghggg-fgvg-mahdi-net-irancel.BLOG
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: a3f9da0b-c1fb-4647-b978-9ee9d4c160bc
-  ws-opts:
-    headers:
-      Host: fggvggvvgv.fggghbvhh-ghvghggg-fgvg-mahdi-net-irancel.BLOG
-    path: /Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-
-- name: US_speednode_0023
-  network: ws
-  password: 034299f4-a5d4-4bdd-a6b0-a2a308ffe6be
-  port: 8443
-  server: 192.227.138.249
-  skip-cert-verify: false
-  sni: joss.gpj4.web.id
+- name: US_speednode_0009
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.181.49.45
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj4.web.id
-    path: /Free-VPN-CF-Geo-Project/192.227.138.249=8443
+- name: US_speednode_0012
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.180.93.12
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
