@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: HK_speednode_0008
   password: BxceQaOe
   port: 443
@@ -7,26 +16,21 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 加拿大多伦多+V2CROSS.COM
+  network: tcp
   password: 6pRjKQJ0CWyFtG.9
   port: 12990
   server: 198.57.27.27
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 卢森堡+V2CROSS.COM
-  password: .+QAJot50sDi6mvb
-  port: 11790
-  server: 5.188.108.13
-  skip-cert-verify: true
-  sni: runningshoes.purpletornado.click
+  sni: diningtable.electricbanana.click
   type: trojan
 - alterId: 2
   cipher: auto
