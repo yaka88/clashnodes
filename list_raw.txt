@@ -1,7 +1,6 @@
-trojan://.ie4rghJuMkcf0oF@38.96.254.102:18509?sni=shoppingmall.electricbanana.click#%E7%BE%8E%E5%9B%BD%2B%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8
-trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
-trojan://BxceQaOe@58.152.18.95:443?sni=t.me%252Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%231
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
+trojan://BxceQaOe@58.152.30.120:443?sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lit5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICJ2MTIuaGRhY2QuY29tIiwgInBvcnQiOiAiMzA4MTIiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NICMxIiwgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwgInBvcnQiOiAxODAsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIifQ==
 hysteria2://0114339c-488d-11ee-8792-f23c9164ca5d@00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com:443?insecure=1&sni=00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com#%F0%9F%AA%9D55%40oneclickvpnkeys
 hysteria2://0720c874-35e8-11ef-aa88-f23c913c8d2b@71deac1b-t6ngg0-t8xyf4-1l0qa.us.hyhuawei.com:443?insecure=1&sni=71deac1b-t6ngg0-t8xyf4-1l0qa.us.hyhuawei.com#%F0%9F%AA%9D76%40oneclickvpnkeys
 hysteria2://0abd5d38-fdf1-11ed-bade-f23c91369f2d@1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com:443?insecure=1&sni=1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com#All-%23V2rayAlpha--19
@@ -247,6 +246,7 @@ hysteria2://wkAHoJxpH6@91.99.225.11:443?insecure=1&sni=refersion.com&obfs=salama
 hysteria2://yrBnLOzhOi@91.99.225.11:443?insecure=1&sni=refersion.com&obfs=salamander&obfs-password=Jsbdksj@V2RayyNGvpn$Miracle#%F0%9F%87%A9%F0%9F%87%AA%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%D9%87%D9%85%D9%87%20%D8%A7%D9%88%D9%BE%D8%B1%D8%A7%D8%AA%D9%88%D8%B1%20%D9%87...%20%2323
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://79314e99f0a473fe86efc7827942ad00@58.152.18.78:443?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
+trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
 trojan://BxceQaOe@58.152.25.242:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivNnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICJmZTNhOTQzMi1zdjB4czAtc3l3a2hpLTFvNGt2LmhrMy5wNXB2LmNvbSIsICJwb3J0IjogIjgwIiwgImFpZCI6IDIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiODdiMzFhMDItMTcyZS0xMWVlLWExMWYtZjIzYzkxM2M4ZDJiIiwgInNuaSI6ICIiLCAiaG9zdCI6ICJmZTNhOTQzMi1zdjB4czAtc3l3a2hpLTFvNGt2LmhrMy5wNXB2LmNvbSIsICJwYXRoIjogIi8ifQ==
 trojan://BxceQaOe@jp.baidu.com:26378?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian

@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: CN_speednode_0003
   password: 13eb9352-7d04-4523-af91-4d7e84066a95
   port: 12210

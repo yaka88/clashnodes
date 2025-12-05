@@ -11,32 +11,26 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
+- name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
+  server: 58.152.30.120
   sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: 中国 V2CROSS.COM
   network: tcp
-  port: '180'
+  port: '30812'
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
@@ -2130,6 +2124,14 @@ proxies:
   port: 443
   server: 58.152.18.78
   sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
