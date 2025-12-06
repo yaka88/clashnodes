@@ -11,46 +11,29 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 美国+Alabanza
-  network: tcp
-  port: 23940
-  server: 65.109.215.51
-  tls: false
-  type: vless
-  uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 中国 V2CROSS.COM
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港4|@ripaojiedian
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 219.79.186.107
+  server: 58.152.25.242
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
-  server: 58.152.30.120
+  server: 58.152.53.8
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 🔴67@oneclickvpnkeys
   password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
   port: 443
@@ -1697,11 +1680,11 @@ proxies:
   server: 58.152.110.154
   sni: www.nintendogames.net
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.242
+  server: 219.79.186.107
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

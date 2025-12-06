@@ -1,11 +1,4 @@
 proxies:
-- name: 美国+Alabanza
-  network: tcp
-  port: 23940
-  server: 65.109.215.51
-  tls: false
-  type: vless
-  uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
 - name: 🇺🇸h@oneclickvpnkeys
   password: dongtaiwang.com
   port: 22222
