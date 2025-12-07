@@ -11,15 +11,6 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- alterId: 0
-  cipher: auto
-  name: 中国 V2CROSS.COM
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 卢森堡+V2CROSS.COM
   password: .+QAJot50sDi6mvb
   port: 11790
@@ -36,6 +27,25 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  sni: diningtable.electricbanana.click
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  type: trojan
 - name: 🔴67@oneclickvpnkeys
   password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
   port: 443
@@ -1981,14 +1991,6 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
