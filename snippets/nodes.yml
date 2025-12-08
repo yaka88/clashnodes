@@ -1,33 +1,79 @@
 proxies:
-- name: 卢森堡+V2CROSS.COM
-  password: .+QAJot50sDi6mvb
-  port: 11790
-  server: 5.188.108.13
-  sni: runningshoes.purpletornado.click
+- alterId: 0
+  cipher: auto
+  name: 香港 阿里云
+  network: none
+  port: 18063
+  server: 8.210.255.93
+  tls: false
+  type: vmess
+  uuid: 492a4c84-c62b-4a7d-dd01-30f3e5bb2c73
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: false
+  sni: t.me%25252Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
+  name: '上海市 电信 #1'
+  network: none
+  port: 24538
+  server: 123.253.35.202
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港4|@ripaojiedian
+  uuid: 8ea547a9-5141-4af7-fc95-062ffe43a63d
+- name: 香港5|@ripaojiedian
   network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
   server: 58.152.25.242
-  sni: t.me%25252Fripaojiedian
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '上海市 电信 #2'
+  network: none
+  port: 31216
+  server: 123.253.35.202
+  tls: false
+  type: vmess
+  uuid: d7b44476-c8b8-4e63-c8ea-577ea189335f
+- alterId: 0
+  cipher: auto
+  name: '上海市 电信 #3'
+  network: none
+  port: 16782
+  server: 123.253.35.202
+  tls: false
+  type: vmess
+  uuid: cf3a9e3c-503d-4405-dbe4-7a52dd8b5291
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: none
+  port: 20297
+  server: 210.87.110.16
+  tls: false
+  type: vmess
+  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
+- name: '香港+电讯盈科有限公司 #2'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  sni: t.me/ripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -45,11 +91,11 @@ proxies:
   server: 58.152.110.154
   sni: www.nintendogames.net
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.242
+  server: 219.79.186.107
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
