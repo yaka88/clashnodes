@@ -1,37 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '上海市 电信 #1'
+  name: 上海市 电信
   network: none
-  port: 24538
+  port: 21708
   server: 123.253.35.202
   tls: false
   type: vmess
-  uuid: 8ea547a9-5141-4af7-fc95-062ffe43a63d
+  uuid: c4f7f8e9-a3bb-465c-c0d3-c7a6e9d26e9f
 - alterId: 0
   cipher: auto
-  name: '上海市 电信 #2'
+  name: '上海市 电信 #1'
   network: none
   port: 31216
   server: 123.253.35.202
   tls: false
   type: vmess
   uuid: d7b44476-c8b8-4e63-c8ea-577ea189335f
-- alterId: 0
-  cipher: auto
-  name: '上海市 电信 #3'
-  network: none
-  port: 16782
-  server: 123.253.35.202
-  tls: false
-  type: vmess
-  uuid: cf3a9e3c-503d-4405-dbe4-7a52dd8b5291
-- alterId: 0
-  cipher: auto
-  name: 中国 V2CROSS.COM
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

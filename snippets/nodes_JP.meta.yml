@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 日本 V2CROSS.COM
   network: none
-  port: 20297
+  port: '20297'
   server: 210.87.110.16
   tls: false
   type: vmess
