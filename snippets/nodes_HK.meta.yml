@@ -1,10 +1,4 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  skip-cert-verify: false
-  type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -13,11 +7,10 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '香港+电讯盈科有限公司 #2'
+- name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
   server: 58.152.25.242
-  skip-cert-verify: false
   sni: t.me%25252Fripaojiedian
   type: trojan
 - name: 香港

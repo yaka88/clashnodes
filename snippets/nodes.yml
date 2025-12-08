@@ -1,17 +1,19 @@
 proxies:
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  skip-cert-verify: false
-  sni: diningtable.electricbanana.click
+- name: 卢森堡+V2CROSS.COM
+  password: .+QAJot50sDi6mvb
+  port: 11790
+  server: 5.188.108.13
+  sni: runningshoes.purpletornado.click
   type: trojan
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  skip-cert-verify: false
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -20,11 +22,10 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '香港+电讯盈科有限公司 #2'
+- name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
   server: 58.152.25.242
-  skip-cert-verify: false
   sni: t.me%25252Fripaojiedian
   type: trojan
 - alterId: 2
