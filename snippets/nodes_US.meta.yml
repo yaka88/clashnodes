@@ -1,10 +1,4 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
 - name: All-@V2ray_Alpha--8
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
