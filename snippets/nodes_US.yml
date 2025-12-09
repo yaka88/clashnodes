@@ -1,10 +1,13 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: none
+  port: 38141
+  server: 45.136.12.37
+  tls: false
+  type: vmess
+  uuid: fd291be6-b48d-43a1-da38-66c7f80e2f80
 - name: 美国|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a

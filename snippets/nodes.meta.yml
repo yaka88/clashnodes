@@ -11,24 +11,15 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  sni: diningtable.electricbanana.click
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: none
+  port: 20297
+  server: 210.87.110.16
+  tls: false
+  type: vmess
+  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
 - alterId: 0
   cipher: auto
   name: 中国 V2CROSS.COM
@@ -38,10 +29,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '香港+电讯盈科有限公司 #1'
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: none
+  port: 38141
+  server: 45.136.12.37
+  tls: false
+  type: vmess
+  uuid: fd291be6-b48d-43a1-da38-66c7f80e2f80
+- name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 58.152.25.20
+  server: 58.152.25.242
   skip-cert-verify: false
   sni: t.me%25252Fripaojiedian
   type: trojan
@@ -357,14 +357,6 @@ proxies:
   server: 47.239.220.214
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 🔵62@oneclickvpnkeys
-  password: SNItest
-  port: 443
-  server: 46.243.232.105
-  skip-cert-verify: true
-  sni: raiffeisen.ru
   tls: false
   type: hysteria2
 - name: 🇷🇺 - RU - @freeOnlineVPN

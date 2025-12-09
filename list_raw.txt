@@ -1,8 +1,7 @@
-trojan://BxceQaOe@58.152.18.95:443?sni=t.me/ripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
-trojan://6pRjKQJ0CWyFtG.9@198.57.27.27:12990?sni=diningtable.electricbanana.click#%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%9A%E4%BC%A6%E5%A4%9A%2BV2CROSS.COM
-trojan://.ie4rghJuMkcf0oF@38.96.254.102:18509?sni=shoppingmall.electricbanana.click#%E7%BE%8E%E5%9B%BD%2B%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5pel5pysIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIyMTAuODcuMTEwLjE2IiwgInBvcnQiOiAyMDI5NywgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICI2OTJjMTE0MS1mMTk2LTRhYzQtOGFmNi03YTNiNjczMDRiOTAifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lit5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICJ2MTIuaGRhY2QuY29tIiwgInBvcnQiOiAiMzA4MTIiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
-trojan://BxceQaOe@58.152.25.20:443?allowInsecure=0&sni=t.me%25252Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%231
+vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI0NS4xMzYuMTIuMzciLCAicG9ydCI6IDM4MTQxLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJub25lIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImZkMjkxYmU2LWI0OGQtNDNhMS1kYTM4LTY2YzdmODBlMmY4MCJ9
+trojan://BxceQaOe@58.152.25.242:443?allowInsecure=0&sni=t.me%25252Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
 hysteria2://16461a78-363c-457a-92f9-83b0a68edc37@de.eyucdn.xyz:2056?insecure=1&sni=de.eyucdn.xyz#%E6%B3%95%E5%85%B0%E5%85%8B%E7%A6%8F
 hysteria2://16461a78-363c-457a-92f9-83b0a68edc37@hk.eyucdn.xyz:2056?insecure=1&sni=hk.eyucdn.xyz#%E9%A6%99%E6%B8%AF
 hysteria2://16461a78-363c-457a-92f9-83b0a68edc37@sg2.eyucdn.xyz:2056?insecure=1&sni=sg2.eyucdn.xyz#%E6%96%B0%E5%8A%A0%E5%9D%A1
@@ -43,7 +42,6 @@ hysteria2://97f8e11a-683a-493d-839a-3340a7bc63fb@dg1.xiaohuolongjc.top:37771?sni
 hysteria2://KYIFgW1don6L8TaDBJHynafxZ0@47.237.23.83:4763?insecure=1&sni=bing.com#%F0%9F%87%B8%F0%9F%87%ACSG
 hysteria2://L60nS04NhsoMpN2DDGbnMqLP8DY@47.76.83.25:11243?insecure=1&sni=bing.com#HK
 hysteria2://NjEkAYYNqFKUbrksyW1COBtdpU@47.239.220.214:2428?insecure=1&sni=bing.com#HK%20%231
-hysteria2://SNItest@46.243.232.105:443?insecure=1&sni=raiffeisen.ru#%F0%9F%94%B562%40oneclickvpnkeys
 hysteria2://SNItest@46.243.235.119:443?insecure=1&sni=gazprombank.ru#%F0%9F%87%B7%F0%9F%87%BA%20-%20RU%20-%20%40freeOnlineVPN
 hysteria2://Telegram--%3E%40Ln2Ray@gavazn.lnmarketplace.net:45000?insecure=1&sni=gavazn.55994421.xyz&obfs=salamander&obfs-password=Telegram-->@Ln2Ray#%40Daily_Configs
 hysteria2://XON4wZ0sXe1YaqFY2FeM7uZY4@122.248.205.111:15221?insecure=1&sni=bing.com#SG%20%235
