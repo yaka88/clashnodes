@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: none
-  port: 20297
-  server: 210.87.110.16
-  tls: false
-  type: vmess
-  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
 - name: 东京
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056

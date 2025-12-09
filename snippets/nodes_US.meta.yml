@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: 38141
-  server: 45.136.12.37
-  tls: false
-  type: vmess
-  uuid: fd291be6-b48d-43a1-da38-66c7f80e2f80
 - name: All-@V2ray_Alpha--8
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056

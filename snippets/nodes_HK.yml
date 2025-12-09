@@ -2,8 +2,20 @@ proxies:
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 58.152.25.242
+  server: 58.152.25.20
   skip-cert-verify: false
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  sni: t.me/ripaojiedian
+  type: trojan
+- name: '香港+电讯盈科有限公司 #2'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
   sni: t.me%25252Fripaojiedian
   type: trojan
 - alterId: 2
