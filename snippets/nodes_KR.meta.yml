@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 韩国 V2CROSS.COM
-  network: ws
-  port: 16629
-  server: 49.128.204.85
-  tls: false
-  type: vmess
-  uuid: 2c78877c-6472-45da-ae89-9b9d6e3ec5e6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /sfgjmero45
 - name: KR
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -20,3 +7,8 @@ proxies:
   sni: cc1.mangshe.xyz
   tls: false
   type: hysteria2
+- name: KR_speednode_0024
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
