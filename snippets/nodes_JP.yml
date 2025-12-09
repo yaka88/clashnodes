@@ -8,11 +8,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
+- alterId: 0
+  cipher: auto
+  name: 日本 东京Amazon数据中心
+  network: tcp
+  port: 53231
+  server: cgroup.node1.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4012
-  server: 52.68.48.114
+  port: 2145
+  server: 54.95.4.90
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -20,13 +29,13 @@ proxies:
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
   port: 1331
-  server: 13.231.156.35
+  server: 160.16.242.183
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 3093
-  server: 160.16.117.182
+  port: 1331
+  server: 153.121.73.102
   sni: www.nintendogames.net
   type: trojan
