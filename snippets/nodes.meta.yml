@@ -11,38 +11,29 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 中国 V2CROSS.COM
+  name: '英国 V2CROSS.COM #1'
   network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 西班牙 V2CROSS.COM
+  network: none
+  port: 29431
+  server: 185.221.23.251
+  tls: false
+  type: vmess
+  uuid: 8b78363e-3c3a-44ab-f0d8-f13d950c8572
 - name: All--@V2rayAlpha--17
   password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
   port: 443
@@ -1838,6 +1829,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
