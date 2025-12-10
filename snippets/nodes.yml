@@ -1,26 +1,34 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 美国+华盛顿Cogent通信公司
   password: .ie4rghJuMkcf0oF
   port: 18509
   server: 38.96.254.102
-  skip-cert-verify: false
   sni: shoppingmall.electricbanana.click
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 西班牙 V2CROSS.COM
-  network: none
-  port: 29431
-  server: 185.221.23.251
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: 8b78363e-3c3a-44ab-f0d8-f13d950c8572
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -31,13 +39,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
+- name: HK_speednode_0004
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
   port: 443
   server: 58.152.110.82
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe

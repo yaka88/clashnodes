@@ -3,7 +3,6 @@ proxies:
   password: .ie4rghJuMkcf0oF
   port: 18509
   server: 38.96.254.102
-  skip-cert-verify: false
   sni: shoppingmall.electricbanana.click
   type: trojan
 - name: 美国|@ripaojiedian
