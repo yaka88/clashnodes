@@ -1,31 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 新泽西州(Merck公司)
-  network: tcp
-  port: 8312
-  server: cgroup.node4.v.nodelist-airport.com
-  tls: false
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '2083'
+  server: hgtrojan.zabc.net
+  tls: true
   type: vmess
-  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: 40433
-  server: 208.76.223.218
-  tls: false
-  type: vmess
-  uuid: d8fd8955-78db-49ba-d86f-3e4729f6ac4d
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #2'
-  network: none
-  port: '27092'
-  server: 208.76.223.218
-  tls: false
-  type: vmess
-  uuid: a0596ba6-72a3-4366-8992-77088da65bd8
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  ws-opts:
+    headers:
+      Host: hgtrojan.zabc.net
+    path: /e6395c20
 - name: 美国
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
