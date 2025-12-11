@@ -24,13 +24,3 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: All--@IRAN_V2RAY1🇬🇧
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  sni: kotlet.arshiacomplus.dpdns.org
-  tls: false
-  type: hysteria2

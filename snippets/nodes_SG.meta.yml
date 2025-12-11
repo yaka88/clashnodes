@@ -55,7 +55,7 @@ proxies:
   sni: xjp1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 'All-@V2ray_Alpha--4 #1'
+- name: '新加坡 #2'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2060
   server: xjp2.mangshe.xyz
@@ -99,21 +99,21 @@ proxies:
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
   port: 507
-  server: 13.231.220.185
+  server: 52.197.139.174
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
   port: 3145
-  server: 13.231.220.185
+  server: 52.197.139.174
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 43.206.220.221
+  port: 2673
+  server: 43.198.206.171
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
