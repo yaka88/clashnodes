@@ -11,12 +11,27 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
+- name: 卢森堡+V2CROSS.COM
+  password: .+QAJot50sDi6mvb
+  port: 11790
+  server: 5.188.108.13
+  sni: runningshoes.purpletornado.click
   type: trojan
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  sni: diningtable.electricbanana.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 中国 V2CROSS.COM
@@ -26,21 +41,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  sni: diningtable.electricbanana.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '中国 V2CROSS.COM #1'
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
+- name: ⚙️19@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 01537f15-1251-4345-a9fb-d152274bac2e
+  port: 7896
+  server: fr.axcc.top
+  skip-cert-verify: true
   tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: hysteria2
 - name: ⚛️40@oneclickvpnkeys
   password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
   port: 443
@@ -95,21 +104,6 @@ proxies:
   server: zp1.eyucdn.xyz
   skip-cert-verify: true
   sni: zp1.eyujichang.xyz
-  tls: false
-  type: hysteria2
-- name: ♾️5@oneclickvpnkeys
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  port: 443
-  server: 795ef51b-t6pb40-tbicd9-1go3q.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 795ef51b-t6pb40-tbicd9-1go3q.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: ♾️3@oneclickvpnkeys
-  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-  port: 443
-  server: 9b13ea8f-t70f40-t7t5pe-1s0a7.hk1.hyhuawei.com
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: ⚛️76@oneclickvpnkeys
@@ -184,21 +178,6 @@ proxies:
   sni: 2185b8c5-t48f40-t6v6ki-1phla.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: ♾️1@oneclickvpnkeys
-  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  port: 443
-  server: 76f6e3ac-t6pb40-tcq5zn-19qpt.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 76f6e3ac-t6pb40-tcq5zn-19qpt.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: ♾️7@oneclickvpnkeys
-  password: 4fb15f9c-f078-11ed-814b-f23c91369f2d
-  port: 443
-  server: 22480a39-t70f40-tnjsrz-h8vf.hk1.hyhuawei.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 💠84@oneclickvpnkeys
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
@@ -220,13 +199,6 @@ proxies:
   server: 52.221.210.182
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: ♾️11@oneclickvpnkeys
-  password: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
-  port: 443
-  server: 8bea65f2-t70f40-tk30wc-eyem.hk1.hyhuawei.com
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: ⚛️74@oneclickvpnkeys
@@ -398,6 +370,16 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: ⚙️77@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: KevinZakarian
+  password: '@KevinZakarian'
+  port: 22002
+  server: kevin.vpny.online
+  skip-cert-verify: true
+  sni: kevin.vpny.online
+  tls: false
+  type: hysteria2
 - name: 🇸🇬SG
   password: KYIFgW1don6L8TaDBJHynafxZ0
   port: 4763
@@ -564,13 +546,6 @@ proxies:
   sni: 75b4f9c3-t48f40-t7eqjm-m0b9.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: ♾️6@oneclickvpnkeys
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  port: 443
-  server: ad72fc1d-t70f40-tb016b-1m7l4.hk1.hyhuawei.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: ⚛️88@oneclickvpnkeys
   password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
   port: 443
@@ -593,20 +568,6 @@ proxies:
   server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
   skip-cert-verify: true
   sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: ♾️4@oneclickvpnkeys
-  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  port: 443
-  server: 74d13b27-t70f40-t7fz1r-8rja.hk1.hyhuawei.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: ♾️2@oneclickvpnkeys
-  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: 4a8146b5-t70f40-tlpfci-1jdha.hk1.hyhuawei.com
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 🇭🇰香港
@@ -879,15 +840,7 @@ proxies:
     headers:
       Host: hk.nbee.pp.ua
     path: /aa
-- name: HK_speednode_0004
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 58.152.110.82
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: IL_speednode_0005
+- name: IL_speednode_0006
   port: 24170
   reality-opts:
     public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
@@ -899,44 +852,47 @@ proxies:
   type: vless
   udp: true
   uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+- name: KR_speednode_0007
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+- name: KR_speednode_0008
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
 - flow: xtls-rprx-vision
-  name: RU_speednode_0006
-  port: 4443
+  name: RU_speednode_0010
+  port: 443
   reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: 'aa7e96542880027a'
-  server: 80.90.186.91
-  servername: github.com
+    public-key: lJscl0GgEiVZtTVrMVI6O0-zSJTgmug9Cs-KJqpxWw0
+    short-id: 'f6fb0261a102c0c8'
+  server: 89.23.101.203
+  servername: www.vk.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3121850a-24aa-41f9-936d-dbdf10a3b31f
-- name: RU_speednode_0007
-  port: 52900
+  uuid: d5f7970e-121f-4e6f-9acf-250effc0715b
+- flow: xtls-rprx-vision
+  name: RU_speednode_0011
+  port: 443
   reality-opts:
-    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
-    short-id: '1fbc'
-  server: 62.113.42.65
-  servername: ozon.ru
+    public-key: i3AAHIiAZOk2-3BFfQlPN5eRBfBpLt53M3p0JKuE0Cw
+    short-id: '0d680ba281cb229b'
+  server: 85.192.24.131
+  servername: web.max.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
-- name: RU_speednode_0008
-  port: 52900
-  reality-opts:
-    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
-    short-id: '1fbc'
-  server: wolfy.ufavpn.ru
-  servername: ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
-- name: RU_speednode_0009
+  uuid: 07e0d9f5-6ed1-4bfb-8c19-311a312cba7d
+- name: RU_speednode_0012
   port: 35728
   reality-opts:
     public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
