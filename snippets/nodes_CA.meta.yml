@@ -3,5 +3,5 @@ proxies:
   password: 6pRjKQJ0CWyFtG.9
   port: 12990
   server: 198.57.27.27
-  skip-cert-verify: false
+  sni: diningtable.electricbanana.click
   type: trojan

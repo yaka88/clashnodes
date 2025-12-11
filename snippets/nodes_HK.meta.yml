@@ -1,16 +1,4 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  sni: t.me%25252Fripaojiedian
-  type: trojan
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 香港
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
@@ -49,6 +37,13 @@ proxies:
   server: 47.239.220.214
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 🇭🇰 HK
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 🇭🇰香港
