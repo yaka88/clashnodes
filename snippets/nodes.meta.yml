@@ -11,52 +11,32 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 219.78.209.224
-  sni: t.me%252Fripaojiedian
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '2083'
-  server: hgtrojan.zabc.net
-  tls: true
-  type: vmess
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-  ws-opts:
-    headers:
-      Host: hgtrojan.zabc.net
-    path: /e6395c20
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 广东省东莞市 联通
-  network: ws
-  port: 51515
-  server: aflzzul.meiquankongjian.com
-  tls: false
-  type: vmess
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  sni: t.me%25252Fripaojiedian
+  type: trojan
 - name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
-  server: 58.152.25.20
-  sni: t.me%25252Fripaojiedian
+  server: 58.152.30.120
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: ⚛️40@oneclickvpnkeys
   password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
