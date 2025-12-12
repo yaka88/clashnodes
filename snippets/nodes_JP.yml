@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 尼日利亚 V2CROSS.COM
+  network: none
+  port: '36334'
+  server: 160.119.196.92
+  tls: false
+  type: vmess
+  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
