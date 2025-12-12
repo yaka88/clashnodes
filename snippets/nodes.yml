@@ -1,19 +1,91 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 南非豪登省约翰内斯堡 Cloudinnovation数据中心
+  network: none
+  port: 17342
+  server: 156.245.232.15
+  tls: false
+  type: vmess
+  uuid: e8542c10-8d09-46e6-db55-da8954d36470
+- alterId: 0
+  cipher: auto
+  name: 英国 伦敦Choopa数据中心
+  network: ws
+  port: 51205
+  server: 108.61.197.235
+  tls: false
+  type: vmess
+  uuid: cc0e6914-ca7a-44c0-8a1d-dd2d36df44c4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cc0e6914-ca7a-44c0-8a1d-dd2d36df44c4
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: none
+  port: 27502
+  server: 216.238.87.47
+  tls: false
+  type: vmess
+  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+- alterId: 0
+  cipher: auto
+  name: '南非豪登省约翰内斯堡 Cloudinnovation数据中心 #2'
+  network: none
+  port: 28985
+  server: 156.245.232.15
+  tls: false
+  type: vmess
+  uuid: cbe408ad-cc35-4e4e-efca-ac5c095bb99d
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '南非豪登省约翰内斯堡 Cloudinnovation数据中心 #3'
+  network: none
+  port: 42640
+  server: 156.245.232.15
+  tls: false
+  type: vmess
+  uuid: 48a33a1b-a6fb-4d6a-94c5-c6808f1c4b1f
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: none
+  port: 32077
+  server: 209.38.31.133
+  tls: false
+  type: vmess
+  uuid: 412b22ec-e9d9-4ec6-d3ab-6a59537398bf
+- alterId: 0
+  cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  sni: diningtable.electricbanana.click
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

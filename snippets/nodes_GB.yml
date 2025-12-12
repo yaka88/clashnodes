@@ -1,9 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 英国 伦敦Choopa数据中心
+  network: ws
+  port: 51205
+  server: 108.61.197.235
+  tls: false
+  type: vmess
+  uuid: cc0e6914-ca7a-44c0-8a1d-dd2d36df44c4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cc0e6914-ca7a-44c0-8a1d-dd2d36df44c4
+- alterId: 0
+  cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess

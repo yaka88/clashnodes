@@ -1,4 +1,42 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: none
+  port: 27502
+  server: 216.238.87.47
+  tls: false
+  type: vmess
+  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: none
+  port: 32077
+  server: 209.38.31.133
+  tls: false
+  type: vmess
+  uuid: 412b22ec-e9d9-4ec6-d3ab-6a59537398bf
 - name: 美国
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -54,3 +92,80 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_speednode_0044
+  network: ws
+  port: 80
+  server: www.visa.com
+  servername: shomal-g74f3znf-v2.shomal-321.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a0af2643-a236-463c-8056-3f71d05eed53
+  ws-opts:
+    headers:
+      Host: shomal-g74f3znf-v2.shomal-321.workers.dev
+    path: /?ed=2560
+- name: US_speednode_0046
+  network: ws
+  port: 80
+  server: 104.24.231.82
+  servername: red-morning-7c21.daheg47484.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7df49a25-5785-41e0-a6ae-2369d68bfea3
+  ws-opts:
+    headers:
+      Host: red-morning-7c21.daheg47484.workers.dev
+    path: /?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_speednode_0047
+  network: ws
+  port: 2083
+  server: www.speedtest.net
+  servername: golestan.hajalwi.ir.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94a64eb4-b438-4088-b2bd-6f3ac279c418
+  ws-opts:
+    headers:
+      Host: golestan.hajalwi.ir.
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+- client-fingerprint: chrome
+  name: US_speednode_0048
+  port: 10001
+  reality-opts:
+    public-key: ip65cPljcoLAJwWfjL3SbikfdRHI2bhVpODh8mxbMmw
+    short-id: '!!str 1a24af87'
+  server: 172.233.171.226
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f1b978a-e1ea-4bcd-84fa-16d77cdc5b6a
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_speednode_0049
+  network: ws
+  port: 2083
+  server: www.speedtest.net
+  servername: golestan.hajalwi.ir.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a47338c5-c793-4da3-acd8-c583fb6f344d
+  ws-opts:
+    headers:
+      Host: golestan.hajalwi.ir.
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
