@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 V2CROSS.COM
+  network: tcp
+  port: 100
+  server: cpanel.navar1.ir
+  tls: false
+  type: vmess
+  uuid: 95c6f6f0-84f7-4443-8a50-a59f8e66f5ee
 - name: 🇷🇺 - RU - @freeOnlineVPN
   password: SNItest
   port: 443
