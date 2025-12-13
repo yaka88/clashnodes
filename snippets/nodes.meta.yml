@@ -3,26 +3,24 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   down: 55 Mbps
-  name: France_None_hysteria_71
-  port: 50011
+  name: France_None_hysteria_81
+  port: 26691
   protocol: udp
-  server: 62.210.10.186
+  server: 62.210.196.68
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 日本+V2CROSS.COM
-  password: BxceQaOe
-  port: 4569
-  server: 43.198.243.183
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 新加坡4|@ripaojiedian
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -30,6 +28,18 @@ proxies:
   server: 58.152.53.174
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  sni: diningtable.electricbanana.click
   type: trojan
 - name: ⚙️19@oneclickvpnkeys
   obfs: salamander
@@ -767,16 +777,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 新加坡4|@ripaojiedian
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a

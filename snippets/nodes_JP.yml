@@ -1,10 +1,4 @@
 proxies:
-- name: 日本+V2CROSS.COM
-  password: BxceQaOe
-  port: 4569
-  server: 43.198.243.183
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
