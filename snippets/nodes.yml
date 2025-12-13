@@ -7,17 +7,45 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 卢森堡+V2CROSS.COM
+  password: .+QAJot50sDi6mvb
+  port: 11790
+  server: 5.188.108.13
+  sni: runningshoes.purpletornado.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 广东省东莞市 联通
+  network: ws
+  port: 52512
+  server: aflzzul.meiquankongjian.com
+  tls: false
+  type: vmess
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+- alterId: 0
+  cipher: auto
+  name: 尼日利亚 V2CROSS.COM
+  network: none
+  port: 36334
+  server: 160.119.196.92
+  tls: false
+  type: vmess
+  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
 - name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
   server: 58.152.30.120
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  sni: diningtable.electricbanana.click
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
   type: trojan
 - alterId: 2
   cipher: auto
