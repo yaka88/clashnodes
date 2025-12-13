@@ -1,19 +1,4 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: tcp
-  port: 100
-  server: cpanel.navar1.ir
-  tls: false
-  type: vmess
-  uuid: 95c6f6f0-84f7-4443-8a50-a59f8e66f5ee
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -22,11 +7,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '香港+电讯盈科有限公司 #2'
+- name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
-  server: 58.152.53.174
-  sni: t.me%252Fripaojiedian
+  server: 58.152.30.120
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  sni: diningtable.electricbanana.click
   type: trojan
 - alterId: 2
   cipher: auto
