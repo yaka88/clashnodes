@@ -1,13 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '美国 科罗拉多州NTT(美国)通信公司 #1'
-  network: none
-  port: 36108
-  server: 216.167.49.157
-  tls: false
-  type: vmess
-  uuid: ac9340c1-61d7-47bd-c5a2-9b888857dec6
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  skip-cert-verify: false
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - name: 美国
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056

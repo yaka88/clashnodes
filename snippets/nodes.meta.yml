@@ -13,26 +13,30 @@ proxies:
   up: 11 Mbps
 - alterId: 0
   cipher: auto
-  name: '美国 科罗拉多州NTT(美国)通信公司 #1'
-  network: none
-  port: 36108
-  server: 216.167.49.157
+  name: 新加坡4|@ripaojiedian
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: ac9340c1-61d7-47bd-c5a2-9b888857dec6
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 广东省广州市 电信
-  network: ws
-  port: '41315'
-  server: xiaoniu.andcdn.bid
+  name: '香港 特别行政区 #1'
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
   tls: false
   type: vmess
-  uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59
-  ws-opts:
-    headers:
-      Host: img14.360buyimg.com
-    path: /obj
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  skip-cert-verify: false
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
@@ -549,16 +553,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 新加坡4|@ripaojiedian
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
