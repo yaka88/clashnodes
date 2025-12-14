@@ -11,6 +11,33 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: 美国+惠普HP
+  password: BxceQaOe
+  port: 804
+  server: 16.162.21.116
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '香港+电讯盈科有限公司 #2'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: false
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -18,46 +45,6 @@ proxies:
   server: 219.78.209.224
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 卢森堡+V2CROSS.COM
-  password: .+QAJot50sDi6mvb
-  port: 11790
-  server: 5.188.108.13
-  sni: runningshoes.purpletornado.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 广东省东莞市 联通
-  network: ws
-  port: 52512
-  server: aflzzul.meiquankongjian.com
-  tls: false
-  type: vmess
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-- alterId: 0
-  cipher: auto
-  name: 尼日利亚 V2CROSS.COM
-  network: none
-  port: 36334
-  server: 160.119.196.92
-  tls: false
-  type: vmess
-  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
   type: trojan
 - name: ⚙️19@oneclickvpnkeys
   obfs: salamander
@@ -315,22 +302,6 @@ proxies:
   server: 47.239.220.214
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 🇷🇺 - RU - @freeOnlineVPN
-  password: SNItest
-  port: 443
-  server: 37.18.14.169
-  skip-cert-verify: true
-  sni: megafon.ru
-  tls: false
-  type: hysteria2
-- name: '🇷🇺 - RU - @freeOnlineVPN #1'
-  password: SNItest
-  port: 443
-  server: 46.243.235.119
-  skip-cert-verify: true
-  sni: gazprombank.ru
   tls: false
   type: hysteria2
 - name: 'SG #5'

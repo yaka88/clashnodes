@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 尼日利亚 V2CROSS.COM
-  network: none
-  port: 36334
-  server: 160.119.196.92
-  tls: false
-  type: vmess
-  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
 - name: 东京
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
