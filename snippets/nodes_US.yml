@@ -1,11 +1,4 @@
 proxies:
-- name: 美国+惠普HP
-  password: BxceQaOe
-  port: 804
-  server: 16.162.21.116
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
