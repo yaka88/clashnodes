@@ -1,11 +1,9 @@
 proxies:
-- name: 香港5|@ripaojiedian
-  network: tcp
+- name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 219.78.209.224
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  server: 58.152.53.174
+  sni: t.me%25252Fripaojiedian
   type: trojan
 - name: 香港
   password: 16461a78-363c-457a-92f9-83b0a68edc37
@@ -94,6 +92,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.53.174
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.78.209.224
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
