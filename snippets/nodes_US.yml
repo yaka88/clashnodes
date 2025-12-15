@@ -1,22 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心
+  name: 美国 NTT通信公司
   network: none
-  port: 44329
-  server: 156.233.232.192
+  port: 42277
+  server: 192.204.47.79
   tls: false
   type: vmess
-  uuid: 1ba1fb56-e235-419e-c193-1c291adad4a7
-- alterId: 0
-  cipher: auto
-  name: '美国加利福尼亚州洛杉矶 FREEBEST数据中心 #2'
-  network: none
-  port: 24004
-  server: 156.233.232.192
-  tls: false
-  type: vmess
-  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
+  uuid: aee61b21-e85a-484b-f203-b245f1451cff
 - name: 美国|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
