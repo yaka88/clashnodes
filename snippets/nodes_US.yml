@@ -1,23 +1,16 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  skip-cert-verify: false
-  sni: shoppingmall.electricbanana.click
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
-  password: 76d630f2af6619c4a5de0ef953df3c6a
+  password: e2722c0fb503f8a592436c12bce0509a
   port: 4054
-  server: 160.16.151.196
+  server: 160.16.57.238
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 4054
-  server: 160.16.81.84
+  password: e2722c0fb503f8a592436c12bce0509a
+  port: 2890
+  server: 160.16.204.136
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -25,7 +18,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4569
-  server: 43.198.243.183
+  server: 43.199.188.28
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
