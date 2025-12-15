@@ -1,10 +1,22 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心
+  network: none
+  port: 44329
+  server: 156.233.232.192
+  tls: false
+  type: vmess
+  uuid: 1ba1fb56-e235-419e-c193-1c291adad4a7
+- alterId: 0
+  cipher: auto
+  name: '美国加利福尼亚州洛杉矶 FREEBEST数据中心 #2'
+  network: none
+  port: 24004
+  server: 156.233.232.192
+  tls: false
+  type: vmess
+  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
 - name: 美国
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056

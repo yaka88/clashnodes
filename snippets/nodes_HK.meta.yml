@@ -4,17 +4,8 @@ proxies:
   port: 443
   server: 58.152.25.242
   skip-cert-verify: false
-  sni: t.me%25252Fripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 香港 Amazon数据中心
-  network: tcp
-  port: 8312
-  server: cgroup.node4.v.nodelist-airport.com
-  tls: false
-  type: vmess
-  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
 - name: 香港
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
