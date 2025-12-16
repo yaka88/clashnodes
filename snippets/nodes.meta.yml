@@ -11,6 +11,12 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
@@ -20,21 +26,20 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: HK_speednode_0009
-  network: tcp
-  password: BxceQaOe
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
   port: 443
-  server: 58.152.25.89
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+  server: cf.fovi.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
 - name: 法兰克福
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
@@ -235,16 +240,6 @@ proxies:
   sni: dg1.xiaohuolongjc.top
   tls: false
   type: hysteria2
-- name: ⚙️77@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: KevinZakarian
-  password: '@KevinZakarian'
-  port: 22002
-  server: kevin.vpny.online
-  skip-cert-verify: true
-  sni: kevin.vpny.online
-  tls: false
-  type: hysteria2
 - name: 🇸🇬SG
   password: KYIFgW1don6L8TaDBJHynafxZ0
   port: 4763
@@ -375,7 +370,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: ⚛️3@oneclickvpnkeys
+- name: 🔶15@oneclickvpnkeys
   password: dongtaiwang.com
   port: 33880
   server: 195.154.206.231
@@ -463,6 +458,15 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 219.79.214.159
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: HK_speednode_0009
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.89
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
