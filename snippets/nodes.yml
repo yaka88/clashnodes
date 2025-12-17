@@ -3,74 +3,20 @@ proxies:
   cipher: auto
   name: 尼日利亚 V2CROSS.COM
   network: none
-  port: '36334'
+  port: 36334
   server: 160.119.196.92
   tls: false
   type: vmess
   uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-- alterId: 0
-  cipher: auto
-  name: 中国 V2CROSS.COM
+- name: HK_speednode_0005
   network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '2052'
-  server: yx1.xn--11x.org
-  tls: false
-  type: vmess
-  uuid: 705a4b47-c2d7-4c0e-8963-e52a18a4070b
-  ws-opts:
-    headers:
-      Host: 2112136940.online.video.downloader.0123456789ru.xn--11x.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  sni: t.me%25252Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 加州
-  network: none
-  port: 10678
-  server: 64.69.40.135
-  tls: false
-  type: vmess
-  uuid: c5aec222-3b11-4af8-f01f-f9145b0caabb
-- name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
   server: 219.79.214.159
-  sni: t.me%25252Fripaojiedian
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -88,15 +34,6 @@ proxies:
   server: 112.118.116.178
   skip-cert-verify: false
   sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: HK_speednode_0005
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.214.159
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - name: 香港5|@ripaojiedian
