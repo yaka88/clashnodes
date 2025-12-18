@@ -11,12 +11,6 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 印度 V2CROSS.COM
@@ -28,22 +22,32 @@ proxies:
   uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
 - alterId: 0
   cipher: auto
-  name: 中国 V2CROSS.COM
+  name: 印度|@ripaojiedian
   network: tcp
-  port: '30830'
-  server: v30.hdacd.com
+  port: '550'
+  server: 103.97.203.220
+  servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 香港 电讯盈科有限公司
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 法兰克福
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
@@ -82,6 +86,16 @@ proxies:
   server: zp1.eyucdn.xyz
   skip-cert-verify: true
   sni: zp1.eyujichang.xyz
+  tls: false
+  type: hysteria2
+- name: 🎨4@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: GyiIHT0mOkKCiq0Q
+  password: 274691f9-e6c0-46ff-82f2-3a9062872a04
+  port: 443
+  server: it1.miyazono-kaori.com
+  skip-cert-verify: true
+  sni: it1.miyazono-kaori.com
   tls: false
   type: hysteria2
 - name: UK
@@ -130,6 +144,12 @@ proxies:
   server: 52.221.210.182
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 🎨2@oneclickvpnkeys
+  password: 693a3ce6-2188-4fe9-82c0-c5c289532534
+  port: 20000
+  server: hl.dabache.top
   tls: false
   type: hysteria2
 - name: KR
@@ -512,16 +532,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 印度|@ripaojiedian
-  network: tcp
-  port: '550'
-  server: 103.97.203.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
 - name: CN_speednode_0003
   port: 8080
   server: 36.110.143.55
