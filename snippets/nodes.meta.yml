@@ -11,25 +11,14 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- alterId: 0
-  cipher: auto
-  name: 印度 V2CROSS.COM
-  network: ''
-  port: 550
-  server: 103.97.203.220
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
-- alterId: 0
-  cipher: auto
-  name: 印度|@ripaojiedian
+- name: 香港5|@ripaojiedian
   network: tcp
-  port: '550'
-  server: 103.97.203.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.31
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
@@ -41,53 +30,31 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 香港 电讯盈科有限公司
+  name: 印度|@ripaojiedian
   network: tcp
-  port: 30830
-  server: v30.hdacd.com
+  port: '550'
+  server: 103.97.203.220
+  servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 法兰克福
-  password: 16461a78-363c-457a-92f9-83b0a68edc37
-  port: 2056
-  server: de.eyucdn.xyz
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.214.159
   skip-cert-verify: true
-  sni: de.eyucdn.xyz
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 尼日利亚 V2CROSS.COM
+  network: none
+  port: 36334
+  server: 160.119.196.92
   tls: false
-  type: hysteria2
-- name: 香港
-  password: 16461a78-363c-457a-92f9-83b0a68edc37
-  port: 2056
-  server: hk.eyucdn.xyz
-  skip-cert-verify: true
-  sni: hk.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: 新加坡
-  password: 16461a78-363c-457a-92f9-83b0a68edc37
-  port: 2056
-  server: sg2.eyucdn.xyz
-  skip-cert-verify: true
-  sni: sg2.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: '新加坡 #1'
-  password: 16461a78-363c-457a-92f9-83b0a68edc37
-  port: 2056
-  server: sg3.eyucdn.xyz
-  skip-cert-verify: true
-  sni: sg3.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: 东京
-  password: 16461a78-363c-457a-92f9-83b0a68edc37
-  port: 2056
-  server: zp1.eyucdn.xyz
-  skip-cert-verify: true
-  sni: zp1.eyujichang.xyz
-  tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
 - name: 🎨4@oneclickvpnkeys
   obfs: salamander
   obfs-password: GyiIHT0mOkKCiq0Q
@@ -98,205 +65,13 @@ proxies:
   sni: it1.miyazono-kaori.com
   tls: false
   type: hysteria2
-- name: UK
-  password: 3C8h8X6kimbOX68joVe3kTERw
-  port: 7197
-  server: 206.189.20.193
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: SG
-  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
-  port: 22509
-  server: 47.129.217.4
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 'SG #1'
-  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
-  port: 22509
-  server: 47.129.224.62
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: FR
-  password: 45b46edb-679b-4ea5-befd-88c05bb94f80
-  port: 2056
-  server: de.eyucdn.xyz
-  skip-cert-verify: true
-  sni: de.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: 'SG #2'
-  password: 5OiuCsPmULZ0lJwts89fegLJE
-  port: 17193
-  server: 47.129.100.149
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 'SG #3'
-  password: 5OiuCsPmULZ0lJwts89fegLJE
-  port: 17193
-  server: 52.221.210.182
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: 🎨2@oneclickvpnkeys
   password: 693a3ce6-2188-4fe9-82c0-c5c289532534
   port: 20000
   server: hl.dabache.top
   tls: false
   type: hysteria2
-- name: KR
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: cc1.mangshe.xyz
-  skip-cert-verify: true
-  sni: cc1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 美国
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: lsj3.mangshe.xyz
-  skip-cert-verify: true
-  sni: lsj3.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '美国 #1'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '香港 #1'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: xg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xg1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 新加坡1
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2055
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '新加坡 #2'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2060
-  server: xjp2.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: UK家宽
-  password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
-  port: 10820
-  server: 158.41.110.234
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: DE
-  password: 7JnRmdeMP4gsvp0nXjYofBNvsdk
-  port: 7414
-  server: 3.75.180.49
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 🇭🇰HK
-  password: 84123645-b62d-4a3b-bd74-d58ea4023c65
-  port: 44507
-  server: hk2.jueduibupao.top
-  skip-cert-verify: true
-  sni: hk2.jueduibupao.top
-  tls: false
-  type: hysteria2
-- name: 🇹🇼TW
-  password: 84123645-b62d-4a3b-bd74-d58ea4023c65
-  port: 30078
-  server: tw2.jueduibupao.top
-  skip-cert-verify: true
-  sni: tw2.jueduibupao.top
-  tls: false
-  type: hysteria2
-- name: 🇯🇵日本
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
-  port: 443
-  server: jpjp.gzcloud.shop
-  skip-cert-verify: true
-  sni: jpjp.gzcloud.shop
-  tls: false
-  type: hysteria2
-- name: 'JP #1'
-  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-  port: 13778
-  server: jp7.dexlos.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 'JP #2'
-  password: 97f8e11a-683a-493d-839a-3340a7bc63fb
-  port: 37771
-  server: dg1.xiaohuolongjc.top
-  sni: dg1.xiaohuolongjc.top
-  tls: false
-  type: hysteria2
-- name: 🇸🇬SG
-  password: KYIFgW1don6L8TaDBJHynafxZ0
-  port: 4763
-  server: 47.237.23.83
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: HK
-  password: L60nS04NhsoMpN2DDGbnMqLP8DY
-  port: 11243
-  server: 47.76.83.25
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 'HK #1'
-  password: NjEkAYYNqFKUbrksyW1COBtdpU
-  port: 2428
-  server: 47.239.220.214
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 'SG #5'
-  password: XON4wZ0sXe1YaqFY2FeM7uZY4
-  port: 15221
-  server: 122.248.205.111
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 🇳🇱 - NL - @freeOnlineVPN
+- name: 🧢1@oneclickvpnkeys
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -306,39 +81,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: HY2
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36600
-  server: yapc-1.adamhayward.co.uk
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: 'DE #1'
-  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
-  port: 2056
-  server: de.eyucdn.xyz
-  skip-cert-verify: true
-  sni: de.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: 🇭🇰 HK
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 🇦🇺澳大利亚
-  password: a52663f7-bd8e-4553-a5de-ff6403a0ccfc
-  port: 443
-  server: 192.9.165.40
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #1'
+- name: 🇳🇱 - NL - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -348,7 +91,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪 - DE - @freeOnlineVPN
+- name: 🔷34@oneclickvpnkeys
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -356,14 +99,6 @@ proxies:
   server: 77.90.41.197
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 🇭🇰香港
-  password: de8854c7-fa17-4266-ae18-50a9732a0c4e
-  port: 3001
-  server: hk1.1010991.xyz
-  skip-cert-verify: true
-  sni: hk1.1010991.xyz
   tls: false
   type: hysteria2
 - name: 🔶15@oneclickvpnkeys
@@ -380,54 +115,6 @@ proxies:
   server: 62.210.99.49
   skip-cert-verify: true
   sni: apple.com
-  tls: false
-  type: hysteria2
-- name: 'SG #6'
-  password: e7965e64-e001-4e8c-8273-39c61ff4a094
-  port: 30000
-  server: sg3.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: TW
-  password: e7965e64-e001-4e8c-8273-39c61ff4a094
-  port: 30000
-  server: tw.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 'SG #7'
-  password: fWydUhyG3woKe4a0kcKKKdx78
-  port: 6467
-  server: 8.219.232.60
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: US
-  password: peEduuHzbExjK7UQHzazXwqgA
-  port: 27704
-  server: 166.88.164.9
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 'JP #3'
-  password: qq4Wc9UakExypzw4Jd00fWqrDTY
-  port: 22712
-  server: 8.209.223.212
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 'JP #4'
-  password: yD0mxkCA18WgPD1uVGd3Eu1dc
-  port: 27789
-  server: 47.245.0.72
-  skip-cert-verify: true
-  sni: bing.com
   tls: false
   type: hysteria2
 - alterId: 2
@@ -447,23 +134,6 @@ proxies:
   server: 112.118.116.8
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.214.159
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: HK_speednode_0012
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -532,109 +202,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: CN_speednode_0003
-  port: 8080
-  server: 36.110.143.55
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- flow: xtls-rprx-vision
-  name: IR_speednode_0015
-  port: 443
-  reality-opts:
-    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
-    short-id: 'ee6f3e8f44b1f0b6'
-  server: 62.60.148.21
-  servername: st.ozone.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
-- http-opts:
-    headers:
-      Host:
-      - Telewebion.com
-    method: GET
-    path:
-    - /
-  name: IR_speednode_0016
-  network: http
-  port: 20532
-  server: 94.182.137.12
-  servername: Telewebion.com
+- name: NL_speednode_0013
+  port: 3001
+  server: 103.90.75.252
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
-- flow: xtls-rprx-vision
-  name: NL_speednode_0024
-  port: 443
-  reality-opts:
-    public-key: XWP3eu958tmcTzF5TvelcQMxfKd632VaNlG6nrqHwRU
-    short-id: '4cd45277ddedbf1f'
-  server: nl.vpnpplvpn.top
-  servername: vpnforppl.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16c0d635-5084-49fa-950a-0d6fc81cfc71
-- name: US_speednode_0028
-  network: ws
-  port: 8080
-  server: 104.21.15.212
-  servername: 201.58vtg99l.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4c9541c7-5fa1-403c-84af-175e3b25a27f
-  ws-opts:
-    headers:
-      Host: 201.58vtg99l.workers.dev
-    path: /
-- name: US_speednode_0029
-  network: ws
-  port: 8880
-  server: Www.speedtest.net
-  servername: mx.mmadvip8563.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6072c15c-99db-4880-99d0-1448a8d43da7
-  ws-opts:
-    headers:
-      Host: mx.mmadvip8563.ir
-    path: /?ed=2048
-- name: US_speednode_0030
-  network: ws
-  port: 8880
-  server: Www.speedtest.net
-  servername: mx.mmadvip8563.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 49aefaed-ad06-4ce9-ad25-b75b6b489b0c
-  ws-opts:
-    headers:
-      Host: mx.mmadvip8563.ir
-    path: /?ed=2048
-- name: US_speednode_0031
-  network: ws
-  port: 80
-  server: 172.67.176.159
-  servername: 3.azadteam.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 41398380-2073-4d85-878a-24194a6f04a3
-  ws-opts:
-    headers:
-      Host: 3.azadteam.workers.dev
-    path: /Sy0HOf5sZffep0QQ?ed=2560
+  uuid: 61757901-3818-46c7-8482-683fa7f6ba10

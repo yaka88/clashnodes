@@ -1,23 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 印度 V2CROSS.COM
-  network: ''
-  port: 550
-  server: 103.97.203.220
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
-- alterId: 0
-  cipher: auto
-  name: 印度|@ripaojiedian
+- name: 香港5|@ripaojiedian
   network: tcp
-  port: '550'
-  server: 103.97.203.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.31
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
@@ -29,13 +18,31 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 香港 电讯盈科有限公司
+  name: 印度|@ripaojiedian
   network: tcp
-  port: 30830
-  server: v30.hdacd.com
+  port: '550'
+  server: 103.97.203.220
+  servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.214.159
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 尼日利亚 V2CROSS.COM
+  network: none
+  port: 36334
+  server: 160.119.196.92
+  tls: false
+  type: vmess
+  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -53,23 +60,6 @@ proxies:
   server: 112.118.116.8
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.214.159
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: HK_speednode_0012
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
