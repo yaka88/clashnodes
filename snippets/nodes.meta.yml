@@ -11,44 +11,38 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 印度|@ripaojiedian
-  network: tcp
-  port: '550'
-  server: 103.97.203.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.214.159
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 尼日利亚 V2CROSS.COM
+  network: tcp
+  port: '36334'
+  server: 160.119.196.92
+  tls: false
+  type: vmess
+  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  type: trojan
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 香港 电讯盈科有限公司
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '尼日利亚 V2CROSS.COM #1'
   network: none
   port: 36334
   server: 160.119.196.92
@@ -134,6 +128,22 @@ proxies:
   server: 112.118.116.8
   sni: www.nintendogames.net
   type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.214.159
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.31
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -202,6 +212,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 印度|@ripaojiedian
+  network: tcp
+  port: '550'
+  server: 103.97.203.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
 - name: NL_speednode_0013
   port: 3001
   server: 103.90.75.252
