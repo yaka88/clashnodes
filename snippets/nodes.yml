@@ -1,4 +1,19 @@
 proxies:
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.31
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 印度 V2CROSS.COM
+  network: ''
+  port: 550
+  server: 103.97.203.220
+  tls: false
+  type: vmess
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
 - alterId: 0
   cipher: auto
   name: 中国 V2CROSS.COM
@@ -17,25 +32,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 印度 V2CROSS.COM
-  network: ''
-  port: 550
-  server: 103.97.203.220
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
-- alterId: 0
-  cipher: auto
-  name: 印度|@ripaojiedian
-  network: tcp
-  port: '550'
-  server: 103.97.203.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -53,7 +49,7 @@ proxies:
   server: 112.118.116.8
   sni: www.nintendogames.net
   type: trojan
-- name: HK_speednode_0005
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -61,8 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- name: 香港5|@ripaojiedian
+- name: HK_speednode_0012
   network: tcp
   password: BxceQaOe
   port: 443
@@ -70,6 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -138,27 +134,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: HK_speednode_0006
-  password: BxceQaOe
-  port: 443
-  server: 219.79.214.159
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: HK_speednode_0009
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.89
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: HK_speednode_0010
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 443
-  server: 112.118.116.178
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 印度|@ripaojiedian
+  network: tcp
+  port: '550'
+  server: 103.97.203.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156

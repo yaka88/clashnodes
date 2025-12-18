@@ -8,3 +8,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: CN_speednode_0003
+  port: 8080
+  server: 36.110.143.55
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
