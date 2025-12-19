@@ -1,30 +1,37 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '2052'
+  server: 104.18.14.55
+  tls: false
+  type: vmess
+  uuid: e6447786-8c85-443c-8017-7feaa673ff45
+  ws-opts:
+    headers:
+      Host: in4.123417.xyz
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2890
-  server: 160.16.106.144
+  server: 160.16.124.55
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 4054
-  server: 160.16.214.6
+  server: 160.16.223.205
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 968
-  server: 18.163.49.31
+  port: 1221
+  server: 54.46.49.15
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

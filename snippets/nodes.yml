@@ -1,42 +1,47 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 尼日利亚 V2CROSS.COM
+  name: 美国4|@ripaojiedian
   network: tcp
-  port: '36334'
-  server: 160.119.196.92
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
-  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 香港 电讯盈科有限公司
+  name: 日本4|@ripaojiedian
   network: tcp
-  port: '30830'
-  server: v30.hdacd.com
+  port: '59515'
+  server: 183.236.97.42
+  servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 900bc795-d8be-4eed-ac47-d1b73dde62a7
 - alterId: 0
   cipher: auto
-  name: '尼日利亚 V2CROSS.COM #1'
-  network: none
-  port: 36334
-  server: 160.119.196.92
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '2052'
+  server: 104.18.14.55
   tls: false
   type: vmess
-  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+  uuid: e6447786-8c85-443c-8017-7feaa673ff45
+  ws-opts:
+    headers:
+      Host: in4.123417.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 印度|@ripaojiedian
+  network: tcp
+  port: '550'
+  server: 103.97.203.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -73,8 +78,8 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3760
-  server: 52.192.101.12
+  port: 4012
+  server: 54.199.251.85
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -82,21 +87,21 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3169
-  server: 160.16.229.223
+  server: 43.206.213.82
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3169
-  server: 18.183.221.194
+  server: 153.121.38.213
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2760
-  server: 160.16.106.144
+  server: 160.16.124.55
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -111,7 +116,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 1196
-  server: 13.113.37.246
+  server: 54.46.49.15
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -119,32 +124,22 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2890
-  server: 160.16.106.144
+  server: 160.16.124.55
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 4054
-  server: 160.16.214.6
+  server: 160.16.223.205
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 968
-  server: 18.163.49.31
+  port: 1221
+  server: 54.46.49.15
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 印度|@ripaojiedian
-  network: tcp
-  port: '550'
-  server: 103.97.203.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
