@@ -1,7 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: 美国 V2CROSS.COM
+  network: none
+  port: 27502
+  server: 216.238.87.47
+  tls: false
+  type: vmess
+  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
   network: ws
   port: 2052
   server: 104.18.14.55
@@ -12,6 +21,21 @@ proxies:
     headers:
       Host: in4.123417.xyz
     path: /
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: none
+  port: 56867
+  server: 130.162.152.253
+  tls: false
+  type: vmess
+  uuid: 5206bb9f-2cbc-44ac-de2a-471439a23707
 - name: 美国|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
@@ -35,13 +59,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
