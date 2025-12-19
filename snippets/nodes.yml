@@ -3,11 +3,24 @@ proxies:
   cipher: auto
   name: 美国 V2CROSS.COM
   network: none
-  port: 27502
-  server: 216.238.87.47
+  port: 34460
+  server: 216.238.86.158
   tls: false
   type: vmess
-  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '2052'
+  server: 104.18.14.55
+  tls: false
+  type: vmess
+  uuid: e6447786-8c85-443c-8017-7feaa673ff45
+  ws-opts:
+    headers:
+      Host: in4.123417.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国4|@ripaojiedian
@@ -18,47 +31,11 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 2052
-  server: 104.18.14.55
-  tls: false
-  type: vmess
-  uuid: e6447786-8c85-443c-8017-7feaa673ff45
-  ws-opts:
-    headers:
-      Host: in4.123417.xyz
-    path: /
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: none
-  port: 56867
-  server: 130.162.152.253
-  tls: false
-  type: vmess
-  uuid: 5206bb9f-2cbc-44ac-de2a-471439a23707
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  skip-cert-verify: false
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
+- name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
   server: 58.152.30.31
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me%25252Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
@@ -82,6 +59,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 219.79.214.159
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.31
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
