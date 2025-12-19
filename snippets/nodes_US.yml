@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '2052'
+  port: 2052
   server: 104.18.14.55
   tls: false
   type: vmess
@@ -35,3 +35,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
