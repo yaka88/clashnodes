@@ -3,11 +3,29 @@ proxies:
   cipher: auto
   name: 美国 V2CROSS.COM
   network: none
-  port: 34460
+  port: '34460'
   server: 216.238.86.158
   tls: false
   type: vmess
   uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #2'
+  network: none
+  port: 27502
+  server: 216.238.87.47
+  tls: false
+  type: vmess
+  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+- alterId: 0
+  cipher: auto
+  name: '香港 电讯盈科有限公司 #1'
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
@@ -21,22 +39,6 @@ proxies:
     headers:
       Host: in4.123417.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  sni: t.me%25252Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -148,6 +150,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 印度|@ripaojiedian

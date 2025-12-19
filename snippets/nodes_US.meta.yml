@@ -3,11 +3,20 @@ proxies:
   cipher: auto
   name: 美国 V2CROSS.COM
   network: none
-  port: 34460
+  port: '34460'
   server: 216.238.86.158
   tls: false
   type: vmess
   uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #2'
+  network: none
+  port: 27502
+  server: 216.238.87.47
+  tls: false
+  type: vmess
+  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
@@ -44,3 +53,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
