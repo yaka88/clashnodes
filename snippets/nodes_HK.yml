@@ -1,17 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 香港 电讯盈科有限公司
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
   server: 58.152.30.31
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.26.107
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
@@ -35,6 +36,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.25.71
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.107
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
