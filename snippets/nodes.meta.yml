@@ -3,47 +3,60 @@ proxies:
   cipher: auto
   name: 台湾省台北市 V2CROSS.COM
   network: tcp
-  port: '20002'
+  port: 20002
   server: 46.3.47.250
   tls: false
   type: vmess
   uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
 - alterId: 0
   cipher: auto
-  name: 香港 电讯盈科有限公司
-  network: tcp
-  port: 30830
-  server: v30.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 英国 V2CROSS.COM
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #2'
-  network: ''
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港+电讯盈科有限公司
+- name: 香港5|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.30.31
+  server: 58.152.26.107
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 日本 东京都亚马逊(Amazon)公司数据中心
+  network: tcp
+  port: 53231
+  server: cgroup.node1.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.71
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🎨4@oneclickvpnkeys
@@ -102,14 +115,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🔶15@oneclickvpnkeys
-  password: dongtaiwang.com
-  port: 33880
-  server: 195.154.206.231
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
 - name: '🇩🇪 - DE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
@@ -141,14 +146,6 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.25.71
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.26.107
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
