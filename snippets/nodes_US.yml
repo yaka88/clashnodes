@@ -1,24 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: '34460'
-  server: 216.238.86.158
-  tls: false
-  type: vmess
-  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #2'
-  network: none
-  port: 27502
-  server: 216.238.87.47
-  tls: false
-  type: vmess
-  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: '2052'
@@ -34,32 +16,22 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2890
-  server: 160.16.124.55
+  server: 153.121.51.29
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 4054
-  server: 160.16.223.205
+  server: 202.181.103.235
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 54.46.49.15
+  port: 968
+  server: 18.163.24.54
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
