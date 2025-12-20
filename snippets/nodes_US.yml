@@ -12,6 +12,12 @@ proxies:
     headers:
       Host: in4.123417.xyz
     path: /
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
