@@ -1,9 +1,11 @@
 proxies:
-- name: 日本+东京Amazon数据中心
-  password: BxceQaOe
-  port: 4569
-  server: 3.112.30.103
-  sni: t.me%25252Fripaojiedian
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  port: 2760
+  server: 160.16.81.84
+  skip-cert-verify: true
+  sni: www.nintendogames.net
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
