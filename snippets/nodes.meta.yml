@@ -2,9 +2,38 @@ proxies:
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 58.152.25.71
+  server: 58.152.30.31
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 台湾省台中市+中华电信
+  password: c80870af-749e-406c-bdbd-7aafa46de71d
+  port: 35502
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 香港 电讯盈科有限公司
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 美国4|@ripaojiedian
@@ -15,43 +44,19 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 台湾省台中市+中华电信
-  password: c80870af-749e-406c-bdbd-7aafa46de71d
-  port: 31103
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 广东省东莞市 电信IDC机房
   network: ws
-  port: 443
-  server: sy4.620720.xyz
-  tls: true
+  port: '41318'
+  server: xiaoniu.andcdn.bid
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  sni: t.me%25252Fripaojiedian
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e
-  port: 31102
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
+      Host: img14.360buyimg.com
+    path: /obj
 - name: 🎨4@oneclickvpnkeys
   obfs: salamander
   obfs-password: GyiIHT0mOkKCiq0Q
