@@ -2,8 +2,8 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 台湾省台北市 V2CROSS.COM
-  network: tcp
-  port: 20002
+  network: ''
+  port: 20022
   server: 46.3.47.250
   tls: false
   type: vmess
@@ -12,7 +12,7 @@ proxies:
   cipher: auto
   name: '台湾省台北市 V2CROSS.COM #1'
   network: tcp
-  port: '20004'
+  port: 20004
   server: 46.3.47.250
   tls: false
   type: vmess

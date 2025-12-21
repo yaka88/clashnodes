@@ -2,8 +2,8 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 台湾省台北市 V2CROSS.COM
-  network: tcp
-  port: 20002
+  network: ''
+  port: 20022
   server: 46.3.47.250
   tls: false
   type: vmess
@@ -12,8 +12,22 @@ proxies:
   cipher: auto
   name: '台湾省台北市 V2CROSS.COM #1'
   network: tcp
-  port: '20004'
+  port: 20004
   server: 46.3.47.250
   tls: false
   type: vmess
   uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+- name: TW_speednode_0019
+  network: ws
+  port: 81
+  server: 210.61.97.241
+  servername: stall.saass.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
+  ws-opts:
+    headers:
+      Host: stall.saass.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo
