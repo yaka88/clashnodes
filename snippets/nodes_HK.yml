@@ -1,15 +1,9 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 香港 电讯盈科有限公司
   network: tcp
-  port: 30830
+  port: '30830'
   server: v30.hdacd.com
   tls: false
   type: vmess
@@ -24,27 +18,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 香港2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- name: 香港3|@ripaojiedian
+- name: HK_speednode_0016
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 443
-  server: 58.152.110.192
+  server: 58.152.110.104
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
