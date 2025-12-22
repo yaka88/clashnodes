@@ -1,44 +1,48 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: ef76d08c-9841-47e8-92a6-5b74df5d58ac
-  port: 34411
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 华盛顿Cogent通信公司 #1'
+  network: tcp
+  port: 59807
+  server: 38.14.99.163
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 58.152.30.31
+  server: 58.152.26.107
   sni: t.me%25252Fripaojiedian
   type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: 3846a29b-57d5-40f2-8acd-13855aa025cd
-  port: 31104
+- name: 台湾省台中市+中华电信
+  password: a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e
+  port: 31102
   server: green2.cdntencentmusic.com
+  skip-cert-verify: false
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.71
-  sni: t.me%252Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 华盛顿Cogent通信公司 #3'
+  network: tcp
+  port: 59807
+  server: 38.14.99.179
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: sy4.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
   network: ws
   port: '443'
   server: sy4.620720.xyz
@@ -49,13 +53,6 @@ proxies:
     headers:
       Host: sy4.620720.xyz
     path: /
-- name: '台湾省台中市+中华电信 #2'
-  password: a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: false
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -160,16 +157,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: RU_speednode_0026
   network: ws
   password: 5a2c16f9
