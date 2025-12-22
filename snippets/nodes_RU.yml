@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 新西伯利亚justhost
+  name: '俄罗斯 新西伯利亚justhost #1'
   network: none
   port: 34895
   server: 2.56.242.210
