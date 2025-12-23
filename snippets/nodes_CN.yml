@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 中国 阿里云
-  network: none
-  port: 52752
-  server: 8.218.105.196
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
   tls: false
   type: vmess
-  uuid: 925bdbf5-72be-4437-bebf-441c61089f6b
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
