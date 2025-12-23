@@ -1,4 +1,13 @@
 proxies:
+- name: '🇩🇪 - DE - @freeOnlineVPN #1'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: e6499c55-5a54-4a2b-a1f8-725a17b4ae85
+  port: 80
+  server: 85.209.53.170
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: DE_speednode_0007
   port: 443
