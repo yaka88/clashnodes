@@ -3,6 +3,5 @@ proxies:
   password: 071a82fd-a46c-4ed5-8ba0-ebf362f102eb
   port: 35502
   server: green2.cdntencentmusic.com
-  skip-cert-verify: false
   sni: green2.cdntencentmusic.com
   type: trojan

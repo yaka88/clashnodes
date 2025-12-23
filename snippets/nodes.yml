@@ -1,39 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '俄罗斯 新西伯利亚justhost #1'
-  network: none
-  port: '34895'
-  server: 2.56.242.210
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
-  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.71
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 8443
-  server: c7.620720.xyz
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   ws-opts:
     headers:
-      Host: c7.620720.xyz
-    path: /
+      Host: foxpol.fovi.tk
+    path: /eisasqa
 - name: 台湾省台中市+中华电信
   password: 071a82fd-a46c-4ed5-8ba0-ebf362f102eb
   port: 35502
   server: green2.cdntencentmusic.com
-  skip-cert-verify: false
   sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 0
@@ -51,14 +44,40 @@ proxies:
     path: /obj
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
+  name: '英国 V2CROSS.COM #2'
+  network: ''
+  port: 180
   server: 82.198.246.97
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: '8443'
+  server: t1.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: t1.620720.xyz
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -89,6 +108,14 @@ proxies:
   port: 443
   server: 112.118.116.8
   sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.71
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
