@@ -1,9 +1,4 @@
 proxies:
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国4|@ripaojiedian
@@ -16,71 +11,68 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '俄罗斯 新西伯利亚justhost #1'
-  network: none
-  port: 34895
-  server: 2.56.242.210
-  tls: false
-  type: vmess
-  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.71
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: 443
-  server: cf.fovi.tk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxpol.fovi.tk
-    path: /eisasqa
-- name: 台湾省台中市+中华电信
-  password: c80870af-749e-406c-bdbd-7aafa46de71d
-  port: 31103
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: cb8fea17-4304-49e0-b0b3-c727a2444904
-  port: 34411
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '443'
   server: sy4.620720.xyz
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: sy4.620720.xyz
+      Host: ''
     path: /
+- name: 台湾省台中市+中华电信
+  password: a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: false
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '台湾省台中市+中华电信 #1'
+  password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a
+  port: 31102
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '台湾省台中市+中华电信 #2'
+  password: a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e
+  port: 34411
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: 8443
-  server: t1.620720.xyz
-  tls: true
+  name: 中国 阿里云
+  network: none
+  port: 52752
+  server: 8.218.105.196
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: t1.620720.xyz
-    path: /
+  uuid: 925bdbf5-72be-4437-bebf-441c61089f6b
+- alterId: 0
+  cipher: auto
+  name: 美国 阿里云
+  network: none
+  port: 12056
+  server: 47.253.197.26
+  tls: false
+  type: vmess
+  uuid: dd7be7f1-38ff-45e6-f1e5-b20c2190f527
+- alterId: 0
+  cipher: auto
+  name: 香港 电讯盈科有限公司
+  network: ''
+  port: 30830
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  type: trojan
 - name: 🇩🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
@@ -119,6 +111,20 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 🎄85@oneclickvpnkeys
+  password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+  port: 443
+  server: 41f54602-t6ngg0-t7m3jq-1rnrp.us.hyhuawei.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 🎄84@oneclickvpnkeys
+  password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
+  port: 443
+  server: 974e2823-t6ngg0-t7j1ub-g3b3.us.hyhuawei.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: ❄️32@oneclickvpnkeys
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
@@ -129,7 +135,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 📡19@oneclickvpnkeys
+- name: 🇳🇱 - NL - @freeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -139,7 +145,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 🇳🇱 - NL - @freeOnlineVPN
+- name: '🇳🇱 - NL - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -149,7 +155,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #1'
+- name: '🇳🇱 - NL - @freeOnlineVPN #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -169,12 +175,26 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 📡15@oneclickvpnkeys
+- name: 🎄80@oneclickvpnkeys
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: a6a24529-t6ngg0-t7fz1r-8rja.us.hyhuawei.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '🇩🇪 - DE - @freeOnlineVPN #2'
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   password: e6499c55-5a54-4a2b-a1f8-725a17b4ae85
   port: 80
   server: 85.209.53.170
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 🎄81@oneclickvpnkeys
+  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 4859e911-t6ngg0-t7hsj2-1gevg.us.hyhuawei.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -198,15 +218,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: HK_speednode_0016
+- alterId: 0
+  cipher: auto
+  name: 香港2|@ripaojiedian
+  network: ws
+  port: '16632'
+  server: 111.47.247.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f93123ed-84e2-4165-aaaa-db46a6eceb69
+  ws-opts:
+    headers:
+      Host: abfba8affeca9988664697aab83c3851.mobgslb.tbcache.com
+    path: /
+- name: 香港3|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 443
-  server: 58.152.110.104
-  skip-cert-verify: false
+  server: 112.118.116.8
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -227,7 +259,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2762
-  server: 3.112.233.197
+  server: 18.177.141.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -235,21 +267,31 @@ proxies:
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3169
-  server: 3.112.16.3
+  server: 160.16.107.37
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3093
-  server: 160.16.242.183
+  server: 160.16.107.37
   sni: www.nintendogames.net
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 日本4|@ripaojiedian
+  network: tcp
+  port: '30806'
+  server: v6.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 153.121.39.240
+  server: 160.16.116.227
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -257,7 +299,7 @@ proxies:
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 160.16.63.16
+  server: 160.16.57.238
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -265,30 +307,30 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 804
-  server: 57.180.15.254
+  server: 57.180.28.48
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 2890
-  server: 160.16.63.16
+  port: 4054
+  server: 160.16.116.227
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 4054
-  server: 153.121.39.240
+  port: 2890
+  server: 160.16.204.136
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 43.206.210.137
+  port: 1112
+  server: 95.40.14.227
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -396,6 +438,14 @@ proxies:
     headers:
       Host: ads.x5.ru
     path: /kmdznvws
+- name: HK_speednode_0016
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  port: 443
+  server: 58.152.110.104
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - flow: xtls-rprx-vision
   name: IL_speednode_0017
   port: 8443
