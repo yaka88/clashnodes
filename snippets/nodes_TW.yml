@@ -1,16 +1,8 @@
 proxies:
 - name: 台湾省台中市+中华电信
-  password: 3e791d86-b43c-46c7-a3a9-dc2d2aff0db2
-  port: 35501
+  password: 9f6256ae-52e7-4954-9a17-445b106bdca7
+  port: 31102
   server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 香港6|@ripaojiedian
-  network: tcp
-  password: cfdf8794-5365-41ac-9e59-573aab964b3e
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: false
   sni: green2.cdntencentmusic.com
   type: trojan
 - name: 台湾|@ripaojiedian

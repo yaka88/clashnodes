@@ -1,10 +1,31 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: 3e791d86-b43c-46c7-a3a9-dc2d2aff0db2
-  port: 35501
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 8443
+  server: t1.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国4|@ripaojiedian
@@ -15,39 +36,55 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港6|@ripaojiedian
-  network: tcp
-  password: cfdf8794-5365-41ac-9e59-573aab964b3e
-  port: 31103
+- alterId: 0
+  cipher: auto
+  name: 澳大利亚 V2CROSS.COM
+  network: ''
+  port: 55919
+  server: xray.kk37005.tk
+  tls: true
+  type: vmess
+  uuid: 2e7548bb-7c5b-4d97-d64d-1b2fe4050089
+- name: 台湾省台中市+中华电信
+  password: 9f6256ae-52e7-4954-9a17-445b106bdca7
+  port: 31102
   server: green2.cdntencentmusic.com
-  skip-cert-verify: false
   sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: '美国 CloudFlare节点 #2'
   network: ws
-  port: 443
-  server: sy4.620720.xyz
+  port: '2083'
+  server: hgtrojan.zabc.net
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: hgtrojan.zabc.net
+    path: /e6395c20
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: 俄罗斯 新西伯利亚justhost
+  network: none
+  port: 34895
+  server: 2.56.242.210
+  tls: false
+  type: vmess
+  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
   network: ws
-  port: 443
-  server: sy4.620720.xyz
+  port: 8443
+  server: c7.620720.xyz
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: sy4.620720.xyz
+      Host: c7.620720.xyz
     path: /
 - alterId: 2
   cipher: auto
@@ -95,6 +132,13 @@ proxies:
   server: 58.152.26.107
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港6|@ripaojiedian
+  network: tcp
+  password: cfdf8794-5365-41ac-9e59-573aab964b3e
+  port: 31103
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
   type: trojan
 - name: 台湾|@ripaojiedian
   network: ws
