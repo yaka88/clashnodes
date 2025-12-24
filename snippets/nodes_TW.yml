@@ -1,4 +1,12 @@
 proxies:
+- name: 香港6|@ripaojiedian
+  network: tcp
+  password: cfdf8794-5365-41ac-9e59-573aab964b3e
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: false
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - name: 台湾|@ripaojiedian
   network: ws
   password: 5a2c16f9
