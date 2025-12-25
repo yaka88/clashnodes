@@ -1,18 +1,15 @@
 proxies:
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 Akamai科技公司CDN网络节点 #1'
-  network: ''
-  port: 14102
-  server: 172.233.229.91
-  tls: false
-  type: vmess
-  uuid: 27ba87fc-583f-4763-9060-83cf0b9264db
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: 美国 CloudFlare节点
   network: ws
-  port: 8443
+  port: '8443'
   server: c7.620720.xyz
   tls: true
   type: vmess

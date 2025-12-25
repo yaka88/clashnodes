@@ -1,4 +1,22 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 德国 V2CROSS.COM
+  network: tcp
+  port: 40878
+  server: 85.195.101.122
+  tls: false
+  type: vmess
+  uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7
+- name: 🇩🇪 - DE - @freeOnlineVPN
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 36097cf0-8f15-4697-8825-b21e6ec9e551
+  port: 443
+  server: 185.181.10.186
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '🇩🇪 - DE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
