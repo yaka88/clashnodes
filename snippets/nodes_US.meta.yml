@@ -3,33 +3,60 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 8443
-  server: c7.620720.xyz
-  tls: true
+  port: '80'
+  server: ZzXxdE.922922.sHOp
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
   ws-opts:
     headers:
-      Host: c7.620720.xyz
-    path: /
+      Host: ZzXxdE.922922.sHOp
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '80'
-  server: bbbbbbbbb.222769.xyz
-  tls: false
+  port: '443'
+  server: 2db-cd68-4374-9E0D-721e694FCA66.457.PP.UA
+  tls: true
   type: vmess
-  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+  uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
   ws-opts:
     headers:
-      Host: bbbbbbbbb.222769.xyz
-    path: /f6taOMcOSZb9TPR
+      Host: 2dB-CD68-4374-9E0d-721e694fca66.457.pp.UA
+    path: /kT5VHYcMrphesqROzSPoHrBo
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
-  port: '2083'
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: '443'
+  server: 4120-bE04-13eF56096989.457.pP.UA
+  tls: true
+  type: vmess
+  uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+  ws-opts:
+    headers:
+      Host: 4120-BE04-13ef56096989.457.PP.ua
+    path: /kT5VHYcMrphesqROzSPoHrBo
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: 2083
   server: hgtrojan.zabc.net
   tls: true
   type: vmess
@@ -38,6 +65,19 @@ proxies:
     headers:
       Host: hgtrojan.zabc.net
     path: /e6395c20
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
+  port: '443'
+  server: 4120-Be04-13EF56096989.457.pp.UA
+  tls: true
+  type: vmess
+  uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
+  ws-opts:
+    headers:
+      Host: 4120-BE04-13EF56096989.457.pp.ua
+    path: /kT5VHYcMrphesqROzSPoHrBo
 - name: 美国|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
