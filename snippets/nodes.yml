@@ -1,31 +1,35 @@
 proxies:
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 443
-  server: cf.fovi.tk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxlux.fovi.tk
-    path: /eisasqa
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 8443
+  port: '8443'
   server: t1.620720.xyz
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: ''
+      Host: t1.620720.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '80'
+  server: bbbbbbbbb.222769.xyz
+  tls: false
+  type: vmess
+  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+  ws-opts:
+    headers:
+      Host: bbbbbbbbb.222769.xyz
+    path: /f6taOMcOSZb9TPR
 - alterId: 0
   cipher: auto
   name: 美国4|@ripaojiedian
@@ -36,21 +40,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 澳大利亚 V2CROSS.COM
-  network: ''
-  port: 55919
-  server: xray.kk37005.tk
-  tls: true
-  type: vmess
-  uuid: 2e7548bb-7c5b-4d97-d64d-1b2fe4050089
-- name: 台湾省台中市+中华电信
-  password: 9f6256ae-52e7-4954-9a17-445b106bdca7
-  port: 31102
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
@@ -66,26 +55,31 @@ proxies:
     path: /e6395c20
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 新西伯利亚justhost
-  network: none
-  port: 34895
-  server: 2.56.242.210
-  tls: false
-  type: vmess
-  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-- alterId: 0
-  cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
-  port: 8443
-  server: c7.620720.xyz
+  port: 443
+  server: cf.fovi.tk
+  servername: ''
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   ws-opts:
     headers:
-      Host: c7.620720.xyz
-    path: /
+      Host: foxlux.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: 2083
+  server: hgtrojan.zabc.net
+  tls: true
+  type: vmess
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  ws-opts:
+    headers:
+      Host: ''
+    path: /e6395c20
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -96,20 +90,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 香港2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 154.38.116.8
-  servername: hk.nbee.pp.ua
-  tls: true
-  type: vmess
-  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
-  ws-opts:
-    headers:
-      Host: hk.nbee.pp.ua
-    path: /aa
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
@@ -140,17 +120,6 @@ proxies:
   server: green2.cdntencentmusic.com
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: 台湾|@ripaojiedian
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: one.cf.cdn.hyli.xyz
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2F'
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -162,22 +131,22 @@ proxies:
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 3093
-  server: 160.16.87.174
+  port: 3169
+  server: 153.121.53.187
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3093
-  server: 13.231.130.241
+  server: 160.16.117.182
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 202.181.103.246
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -185,7 +154,7 @@ proxies:
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 160.16.136.130
+  server: 160.16.138.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -200,15 +169,15 @@ proxies:
 - name: 美国|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 2890
-  server: 160.16.196.59
+  port: 4054
+  server: 160.16.89.176
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 4054
-  server: 160.16.131.243
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
