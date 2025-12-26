@@ -4,82 +4,17 @@ proxies:
   name: 美国 CloudFlare节点
   network: ws
   port: '443'
-  server: d-4beD-b726-2c53a82e4925.664.qZz.io
+  server: ssssssssssssfffffffgh.2032.pp.ua
   tls: true
   type: vmess
-  uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
+  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
   ws-opts:
     headers:
-      Host: D-4bEd-b726-2c53A82E4925.664.qzZ.iO
-    path: /pyyY4ZVTyJV3vr9noOhn
+      Host: ssssssssssssfffffffgh.2032.pp.ua
+    path: /6We3U9Df1WGxgFnoFPw1
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: nnnnnnnnnnnnnn.222769.xyz
-  tls: false
-  type: vmess
-  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
-  ws-opts:
-    headers:
-      Host: nnnnnnnnnnnnnn.222769.xyz
-    path: /f6taOMcOSZb9TPR
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '80'
-  server: dddccvfg.922922.shop
-  tls: false
-  type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: dDdCCVFg.922922.SHOP
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '80'
-  server: dDdCCVFg.922922.SHOP
-  tls: false
-  type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: dDdCCVFg.922922.SHOP
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
-  network: ws
-  port: '80'
-  server: ddDFHhj.922922.Shop
-  tls: false
-  type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: ddDFHhj.922922.Shop
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: '80'
-  server: NnnNNNnNnNNNNN.222769.xYZ
-  tls: false
-  type: vmess
-  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
-  ws-opts:
-    headers:
-      Host: nnnnnnnnnnnnnn.222769.xyz
-    path: /f6taOMcOSZb9TPR
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #6'
   network: ws
   port: '80'
   server: xxxccfrt.922922.shop
@@ -90,6 +25,25 @@ proxies:
     headers:
       Host: XXXccFrt.922922.ShOP
     path: /RkUUbqhA9GJZBROjL3Q5vTymr
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '80'
+  server: NnnNNNnNnNNNNN.222769.xYZ
+  tls: false
+  type: vmess
+  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+  ws-opts:
+    headers:
+      Host: nnnnnnnnnnnnnn.222769.xyz
+    path: /f6taOMcOSZb9TPR
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
@@ -113,3 +67,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
