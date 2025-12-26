@@ -9,17 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 203.198.84.221
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  type: trojan
 - name: 🇩🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
