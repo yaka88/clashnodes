@@ -1,13 +1,1 @@
-proxies:
-- name: 台湾省台中市+中华电信
-  password: c87db6f1-9de1-4dab-badb-b970c723fe52
-  port: 21103
-  server: cdnfire.xiaomispeed.com
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: 9f6256ae-52e7-4954-9a17-445b106bdca7
-  port: 31102
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
+proxies: []

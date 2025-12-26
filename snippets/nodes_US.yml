@@ -3,101 +3,113 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
+  port: '443'
+  server: d-4beD-b726-2c53a82e4925.664.qZz.io
+  tls: true
+  type: vmess
+  uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
+  ws-opts:
+    headers:
+      Host: D-4bEd-b726-2c53A82E4925.664.qzZ.iO
+    path: /pyyY4ZVTyJV3vr9noOhn
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
   port: '80'
-  server: ZzXxdE.922922.sHOp
+  server: nnnnnnnnnnnnnn.222769.xyz
+  tls: false
+  type: vmess
+  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+  ws-opts:
+    headers:
+      Host: nnnnnnnnnnnnnn.222769.xyz
+    path: /f6taOMcOSZb9TPR
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '80'
+  server: dddccvfg.922922.shop
   tls: false
   type: vmess
   uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
   ws-opts:
     headers:
-      Host: ZzXxdE.922922.sHOp
+      Host: dDdCCVFg.922922.SHOP
     path: /RkUUbqhA9GJZBROjL3Q5vTymr
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '443'
-  server: 2db-cd68-4374-9E0D-721e694FCA66.457.PP.UA
-  tls: true
-  type: vmess
-  uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
-  ws-opts:
-    headers:
-      Host: 2dB-CD68-4374-9E0d-721e694fca66.457.pp.UA
-    path: /kT5VHYcMrphesqROzSPoHrBo
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: cf.fovi.tk
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxlux.fovi.tk
-    path: /eisasqa
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
-  port: '443'
-  server: 4120-bE04-13eF56096989.457.pP.UA
-  tls: true
+  port: '80'
+  server: dDdCCVFg.922922.SHOP
+  tls: false
   type: vmess
-  uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
   ws-opts:
     headers:
-      Host: 4120-BE04-13ef56096989.457.PP.ua
-    path: /kT5VHYcMrphesqROzSPoHrBo
+      Host: dDdCCVFg.922922.SHOP
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #4'
   network: ws
-  port: 2083
-  server: hgtrojan.zabc.net
-  tls: true
+  port: '80'
+  server: ddDFHhj.922922.Shop
+  tls: false
   type: vmess
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
   ws-opts:
     headers:
-      Host: hgtrojan.zabc.net
-    path: /e6395c20
+      Host: ddDFHhj.922922.Shop
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #5'
   network: ws
-  port: '443'
-  server: 4120-Be04-13EF56096989.457.pp.UA
-  tls: true
+  port: '80'
+  server: NnnNNNnNnNNNNN.222769.xYZ
+  tls: false
   type: vmess
-  uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
+  uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
   ws-opts:
     headers:
-      Host: 4120-BE04-13EF56096989.457.pp.ua
-    path: /kT5VHYcMrphesqROzSPoHrBo
+      Host: nnnnnnnnnnnnnn.222769.xyz
+    path: /f6taOMcOSZb9TPR
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #6'
+  network: ws
+  port: '80'
+  server: xxxccfrt.922922.shop
+  tls: false
+  type: vmess
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  ws-opts:
+    headers:
+      Host: XXXccFrt.922922.ShOP
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - name: 美国|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 4054
-  server: 160.16.89.176
+  server: 160.16.214.6
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 4054
-  server: 160.16.132.158
+  port: 2890
+  server: 18.166.223.179
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 13.115.1.198
+  port: 1221
+  server: 95.40.81.42
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
