@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '443'
-  server: ssssssssssssfffffffgh.2032.pp.ua
-  tls: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
 - name: 加拿大多伦多+V2CROSS.COM
   password: 6pRjKQJ0CWyFtG.9
   port: 12990
@@ -19,30 +6,39 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: xxxccfrt.922922.shop
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: XXXccFrt.922922.ShOP
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: NnnNNNnNnNNNNN.222769.xYZ
+  server: bbbbbbbbb.222769.xyz
   tls: false
   type: vmess
   uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
   ws-opts:
     headers:
-      Host: nnnnnnnnnnnnnn.222769.xyz
+      Host: bbbbbbbbb.222769.xyz
     path: /f6taOMcOSZb9TPR
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 203.198.84.221
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 美国+华盛顿Cogent通信公司
   password: .ie4rghJuMkcf0oF
   port: 18509
@@ -151,21 +147,59 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: RU_speednode_0018
+- name: CN_speednode_0001
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27043
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: CN_speednode_0002
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27033
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: CN_speednode_0003
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27031
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: CN_speednode_0004
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27044
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: CN_speednode_0005
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27041
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: CN_speednode_0006
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27045
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: RU_speednode_0009
   network: ws
   password: 5a2c16f9
   port: 443
-  server: cf.130519.xyz
+  server: freeyx.cloudflare88.eu.org
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
@@ -174,11 +208,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: RU_speednode_0020
+- name: RU_speednode_0010
   network: ws
   password: 5a2c16f9
   port: 443
-  server: freeyx.cloudflare88.eu.org
+  server: cf.130519.xyz
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
