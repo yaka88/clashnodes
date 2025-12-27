@@ -1,4 +1,10 @@
 proxies:
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 203.198.84.221
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
