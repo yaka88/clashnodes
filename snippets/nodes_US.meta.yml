@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '443'
-  server: sssssssxxxx.2032.pp.ua
-  tls: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      Host: sssssssxxxx.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
 - name: 美国|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
