@@ -21,10 +21,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_speednode_0009
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
