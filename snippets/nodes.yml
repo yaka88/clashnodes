@@ -1,19 +1,21 @@
 proxies:
-- name: 伊朗+V2CROSS.COM
-  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
-  port: 25010
-  server: 37.202.200.19
-  sni: 37.202.200.19
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 香港 Amazon数据中心
+  name: 香港 电讯盈科有限公司
   network: tcp
-  port: 8312
-  server: cgroup.node4.v.nodelist-airport.com
+  port: 30812
+  server: v12.hdacd.com
   tls: false
   type: vmess
-  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.84.221
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -22,25 +24,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 新加坡 Amazon数据中心
-  network: tcp
-  port: 24321
-  server: cgroup.node3.v.nodelist-airport.com
-  tls: false
-  type: vmess
-  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -67,14 +50,6 @@ proxies:
   port: 443
   server: 58.152.18.48
   sni: www.nintendogames.net
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 203.198.84.221
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
@@ -143,6 +118,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: US_speednode_0042
   network: ws
   password: 5a2c16f9
