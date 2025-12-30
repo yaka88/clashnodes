@@ -1,26 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: cf.fovi.tk
-  tls: true
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxpol.fovi.tk
-    path: /eisasqa
-- alterId: 0
-  cipher: auto
-  name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心
-  network: none
-  port: 24004
-  server: 156.233.232.192
-  tls: false
-  type: vmess
-  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
 - name: 美国|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
@@ -43,3 +21,172 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_speednode_0042
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0043
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.167.134
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0044
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.16.246.188
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0045
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0056
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.162.3
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0057
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.82
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0058
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0059
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.33
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0061
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.55.205
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0062
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.2
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0063
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.65
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0064
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.6
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_speednode_0066
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /

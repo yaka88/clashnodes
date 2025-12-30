@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 新加坡 Amazon数据中心
+  network: tcp
+  port: 24321
+  server: cgroup.node3.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
