@@ -1,41 +1,29 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: 7100
-  server: 206.119.191.9
-  tls: false
-  type: vmess
-  uuid: 10853485-26e1-477b-d257-58a3f4873db3
-- alterId: 0
-  cipher: auto
-  name: '美国加利福尼亚州洛杉矶 FREEBEST数据中心 #1'
-  network: none
-  port: 24004
-  server: 156.233.232.177
-  tls: false
-  type: vmess
-  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 1281
-  server: 160.16.150.76
+  server: 160.16.233.76
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 1281
-  server: 160.16.68.250
+  server: 160.16.212.152
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 18.183.82.133
+  port: 2173
+  server: 54.46.50.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
