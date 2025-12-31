@@ -1,79 +1,89 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '美国 加利福尼亚州洛杉矶市SharkTech数据中心 #1'
   network: ws
-  port: 16645
-  server: t.cnmjcn.cyou
-  tls: false
+  port: '443'
+  server: cg1c07.waimaojd.com
+  tls: true
   type: vmess
-  uuid: 4d734227-b47d-4690-ae15-c3126ae5d940
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
   ws-opts:
     headers:
-      Host: 0fd7bb41908af5aee15097d5f58e1c65.mobgslb.tbcache.com
+      Host: cg1c07.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8443'
+  server: t1.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: t1.620720.xyz
     path: /
-- name: 香港4|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 新西伯利亚justhost
   network: tcp
-  password: BxceQaOe
+  port: '34895'
+  server: 2.56.242.210
+  tls: false
+  type: vmess
+  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: ws
   port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  server: w10.luoli.de
+  tls: true
+  type: vmess
+  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
+  ws-opts:
+    headers:
+      Host: w10.luoli.de
+    path: /v2ws
+- alterId: 0
+  cipher: auto
+  name: 香港 电讯盈科有限公司
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
   type: trojan
 - alterId: 0
   cipher: auto
   name: '英国 V2CROSS.COM #1'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 福建省厦门市 电信
+  name: 英国 伦敦DigitalOcean数据中心
   network: ws
-  port: 16644
-  server: m.cnmjcn.com
-  tls: false
-  type: vmess
-  uuid: 4d734227-b47d-4690-ae15-c3126ae5d940
-  ws-opts:
-    headers:
-      Host: 0fd7bb41908af5aee15097d5f58e1c65.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '福建省厦门市 电信 #1'
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: 4d734227-b47d-4690-ae15-c3126ae5d940
-  ws-opts:
-    headers:
-      Host: 0fd7bb41908af5aee15097d5f58e1c65.mobgslb.tbcache.com
-    path: /
-- name: 伊朗+V2CROSS.COM
-  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
-  port: 25010
-  server: 37.202.200.19
-  sni: 37.202.200.19
-  type: trojan
-- name: '伊朗+V2CROSS.COM #1'
-  port: 12241
-  server: 95.38.210.6
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: a4a941bd-fe1f-4e2e-81ad-2244e73da639
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
   port: 443
-  server: 58.152.25.236
-  sni: t.me%252Fripaojiedian
-  type: trojan
+  server: cg1c16.waimaojd.com
+  tls: true
+  type: vmess
+  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
+  ws-opts:
+    headers:
+      Host: cg1c16.waimaojd.com
+    path: /api/v1/graphql
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -90,6 +100,14 @@ proxies:
   port: 443
   server: 58.152.18.48
   sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
