@@ -12,31 +12,12 @@ proxies:
     headers:
       Host: 0fd7bb41908af5aee15097d5f58e1c65.mobgslb.tbcache.com
     path: /
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: GB_speednode_0011
-  port: 443
-  reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    short-id: '!!str d923'
-  server: uk1.miyazono-kaori.com
-  servername: www.bp.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0012
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: '!!str aa7e96542880027a'
-  server: 144.124.228.129
-  servername: github.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ddffda27-8c5f-4f53-8450-4d11a1e0b368
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
