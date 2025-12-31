@@ -1,4 +1,12 @@
 proxies:
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3127
+  server: 54.238.137.20
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

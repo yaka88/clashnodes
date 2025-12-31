@@ -1,33 +1,77 @@
 proxies:
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: tcp
+  port: 45258
+  server: 216.227.168.157
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: ws
+  port: 16645
+  server: t.cnmjcn.cyou
+  tls: false
+  type: vmess
+  uuid: 4d734227-b47d-4690-ae15-c3126ae5d940
+  ws-opts:
+    headers:
+      Host: 0fd7bb41908af5aee15097d5f58e1c65.mobgslb.tbcache.com
+    path: /
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3127
+  server: 54.238.137.20
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
   name: 香港 电讯盈科有限公司
   network: tcp
-  port: 30812
+  port: '30812'
   server: v12.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
+  name: 湖北省 移动(全省通用)
+  network: ws
+  port: 16644
+  server: planb.mojcn.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  sni: t.me%25252Fripaojiedian
-  type: trojan
+  uuid: 4d734227-b47d-4690-ae15-c3126ae5d940
+  ws-opts:
+    headers:
+      Host: 0fd7bb41908af5aee15097d5f58e1c65.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 福建省厦门市 电信
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  tls: false
+  type: vmess
+  uuid: 4d734227-b47d-4690-ae15-c3126ae5d940
+  ws-opts:
+    headers:
+      Host: 0fd7bb41908af5aee15097d5f58e1c65.mobgslb.tbcache.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -44,14 +88,6 @@ proxies:
   port: 443
   server: 58.152.18.48
   sni: www.nintendogames.net
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
@@ -97,14 +133,6 @@ proxies:
   server: 153.121.44.99
   skip-cert-verify: true
   sni: www.nintendogames.net
-  type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3127
-  server: 54.238.137.20
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
