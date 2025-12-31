@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 香港 电讯盈科有限公司
   network: tcp
-  port: '30812'
+  port: 30812
   server: v12.hdacd.com
   tls: false
   type: vmess
