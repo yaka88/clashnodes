@@ -4,16 +4,10 @@ proxies:
   name: 香港 电讯盈科有限公司
   network: tcp
   port: 30812
-  server: 202.85.53.179
+  server: v12.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
