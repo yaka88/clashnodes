@@ -1,37 +1,45 @@
 proxies:
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.236
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 尼日利亚 V2CROSS.COM
+  name: 中国 阿里云
   network: none
-  port: 36334
-  server: 160.119.196.92
+  port: 51000
+  server: 8.217.90.175
   tls: false
   type: vmess
-  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
-  type: trojan
+  uuid: 6c82a994-b6ba-48ca-f2ed-11288fe4913b
 - alterId: 0
   cipher: auto
-  name: '香港 电讯盈科有限公司 #1'
-  network: tcp
-  port: 30812
-  server: 202.85.53.179
+  name: 英国 V2CROSS.COM
+  network: ''
+  port: 180
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 8080
+  server: mugen44.6bnw.top
+  tls: false
+  type: vmess
+  uuid: 784c0fe2-2bdc-4c77-8125-0a21aabed310
+  ws-opts:
+    headers:
+      Host: buyvmus2.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -54,6 +62,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.236
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
