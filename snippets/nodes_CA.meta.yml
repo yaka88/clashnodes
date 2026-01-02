@@ -1,4 +1,9 @@
 proxies:
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  type: trojan
 - name: CA_speednode_0002
   network: ws
   port: 8080

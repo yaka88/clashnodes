@@ -3,15 +3,28 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 8080
-  server: mugen44.6bnw.top
-  tls: false
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
   type: vmess
-  uuid: 784c0fe2-2bdc-4c77-8125-0a21aabed310
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
