@@ -1,7 +1,14 @@
 proxies:
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me%2525252Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '香港 电讯盈科有限公司 #1'
+  name: 香港 电讯盈科有限公司
   network: tcp
   port: 30812
   server: v12.hdacd.com
