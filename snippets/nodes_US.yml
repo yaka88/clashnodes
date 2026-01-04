@@ -1,23 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 8080
-  server: mugen33.6bnw.top
-  tls: false
-  type: vmess
-  uuid: 784c0fe2-2bdc-4c77-8125-0a21aabed310
-  ws-opts:
-    headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
