@@ -1,9 +1,11 @@
 proxies:
-- name: 日本+东京Amazon数据中心
+- name: 日本|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 13.231.188.173
-  sni: t.me%25252Fripaojiedian
+  port: 3760
+  server: 57.180.10.245
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp

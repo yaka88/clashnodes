@@ -1,9 +1,1 @@
-proxies:
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3760
-  server: 57.180.10.245
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+proxies: []
