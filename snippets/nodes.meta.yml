@@ -2,30 +2,46 @@ proxies:
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
-  type: trojan
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.236
-  sni: t.me%25252Fripaojiedian
-  type: trojan
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
+  server: 58.152.25.86
+  sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 尼日利亚 V2CROSS.COM
+  network: none
+  port: 36334
+  server: 160.119.196.92
+  tls: false
+  type: vmess
+  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+- alterId: 0
+  cipher: auto
   name: 香港 电讯盈科有限公司
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '香港 电讯盈科有限公司 #1'
   network: tcp
   port: 30812
   server: 202.85.53.179
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
