@@ -1,16 +1,17 @@
 proxies:
-- name: 香港+电讯盈科有限公司
+- name: 香港4|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.46.60
+  server: 58.152.25.86
   skip-cert-verify: true
-  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20'
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
   name: 香港 电讯盈科有限公司
   network: tcp
-  port: '30812'
+  port: 30812
   server: v12.hdacd.com
   tls: false
   type: vmess
@@ -19,8 +20,8 @@ proxies:
   cipher: auto
   name: '香港 电讯盈科有限公司 #1'
   network: ''
-  port: 30830
-  server: v30.hdacd.com
+  port: 30812
+  server: v12.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -34,20 +35,26 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 443
-  server: 58.152.18.48
+  server: 58.152.110.104
   sni: www.nintendogames.net
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
