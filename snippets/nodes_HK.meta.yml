@@ -2,8 +2,9 @@ proxies:
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 58.152.25.236
-  sni: t.me%252Fripaojiedian
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.io%2Fv2ray-configs%20%7C%20681%20'
   type: trojan
 - alterId: 2
   cipher: auto

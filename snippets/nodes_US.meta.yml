@@ -5,6 +5,7 @@ proxies:
   network: ws
   port: 443
   server: cf.fovi.tk
+  servername: ''
   tls: true
   type: vmess
   uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
