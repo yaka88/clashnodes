@@ -11,8 +11,21 @@ proxies:
   uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   ws-opts:
     headers:
-      Host: foxpol.fovi.tk
+      Host: foxlux.fovi.tk
     path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 8443
+  server: c7.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: c7.620720.xyz
+    path: /
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da

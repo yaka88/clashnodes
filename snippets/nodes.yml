@@ -1,20 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 南非 V2CROSS.COM
+  name: 印度 V2CROSS.COM
   network: none
-  port: 13852
-  server: 45.207.157.29
+  port: 44222
+  server: 103.160.100.86
   tls: false
   type: vmess
-  uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.io%2Fv2ray-configs%20%7C%20681%20'
-  type: trojan
+  uuid: f703b128-2d32-4cdb-9608-f33c2d58abcc
+- alterId: 0
+  cipher: auto
+  name: 巴西 V2CROSS.COM
+  network: none
+  port: 2555
+  server: 189.1.226.131
+  tls: false
+  type: vmess
+  uuid: 417e992f-8f12-4027-bf90-980850234585
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
@@ -27,17 +29,21 @@ proxies:
   uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   ws-opts:
     headers:
-      Host: foxpol.fovi.tk
+      Host: foxlux.fovi.tk
     path: /eisasqa
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 8443
+  server: c7.620720.xyz
+  tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: c7.620720.xyz
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
