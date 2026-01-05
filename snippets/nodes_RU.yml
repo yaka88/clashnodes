@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '俄罗斯 V2CROSS.COM #1'
+  name: 俄罗斯 V2CROSS.COM
   network: none
   port: 18355
   server: 92.246.87.170

@@ -1,7 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '立陶宛 V2CROSS.COM #5'
+  name: 美国 华盛顿Cogent通信公司
+  network: none
+  port: '443'
+  server: 38.76.144.22
+  tls: false
+  type: vmess
+  uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
+- alterId: 0
+  cipher: auto
+  name: '北美地区 V2CROSS.COM #2'
+  network: none
+  port: 42507
+  server: 23.138.148.47
+  tls: false
+  type: vmess
+  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+- alterId: 0
+  cipher: auto
+  name: 立陶宛 V2CROSS.COM
   network: none
   port: 10942
   server: 185.81.166.99
@@ -10,34 +28,31 @@ proxies:
   uuid: 930da05a-607a-4208-ab7b-c4d2a64e77d2
 - alterId: 0
   cipher: auto
-  name: '立陶宛 V2CROSS.COM #1'
+  name: '立陶宛 V2CROSS.COM #2'
   network: none
-  port: 12754
+  port: 59372
   server: 185.81.166.99
   tls: false
   type: vmess
-  uuid: cde3c9d0-fe5c-4684-90d5-14c310af3a97
-- alterId: 0
-  cipher: auto
-  name: 印度 V2CROSS.COM
-  network: none
-  port: 44222
-  server: 103.160.100.86
-  tls: false
-  type: vmess
-  uuid: f703b128-2d32-4cdb-9608-f33c2d58abcc
-- alterId: 0
-  cipher: auto
-  name: 美国 华盛顿Cogent通信公司
-  network: none
+  uuid: 74026bdf-a274-4829-b100-18923462f7fd
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
   port: 443
-  server: 38.76.144.22
-  tls: false
-  type: vmess
-  uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
+  server: 58.152.46.60
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '俄罗斯 V2CROSS.COM #1'
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 V2CROSS.COM
   network: none
   port: 18355
   server: 92.246.87.170
@@ -46,58 +61,13 @@ proxies:
   uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
 - alterId: 0
   cipher: auto
-  name: '立陶宛 V2CROSS.COM #2'
-  network: none
-  port: 10051
-  server: 185.81.166.99
-  tls: false
-  type: vmess
-  uuid: f111b83a-1a45-4a5a-f7f4-8a96aedfd887
-- alterId: 0
-  cipher: auto
   name: '立陶宛 V2CROSS.COM #3'
   network: none
-  port: 55735
+  port: 45888
   server: 185.81.166.99
   tls: false
   type: vmess
-  uuid: 64d1e767-ee4f-4a35-ce61-624fab04fd28
-- alterId: 0
-  cipher: auto
-  name: '立陶宛 V2CROSS.COM #4'
-  network: none
-  port: 14784
-  server: 185.81.166.99
-  tls: false
-  type: vmess
-  uuid: 24a6fa47-7240-435c-9752-e2c968830a0e
-- alterId: 0
-  cipher: auto
-  name: 新加坡 腾讯云
-  network: ws
-  port: 80
-  server: 150.109.11.193
-  tls: false
-  type: vmess
-  uuid: b7118dcc-a234-4784-e487-4064c2920808
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  type: trojan
+  uuid: b95a4817-f9bb-4a27-8a7e-c555d28b1660
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
