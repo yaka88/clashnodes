@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 新加坡 腾讯云
+  network: ws
+  port: 80
+  server: 150.109.11.193
+  tls: false
+  type: vmess
+  uuid: b7118dcc-a234-4784-e487-4064c2920808
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da

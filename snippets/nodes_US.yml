@@ -1,31 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
+  name: 美国 华盛顿Cogent通信公司
+  network: none
   port: 443
-  server: cf.fovi.tk
-  servername: ''
-  tls: true
+  server: 38.76.144.22
+  tls: false
   type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxlux.fovi.tk
-    path: /eisasqa
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 8443
-  server: c7.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: c7.620720.xyz
-    path: /
+  uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da

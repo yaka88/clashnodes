@@ -1,6 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '立陶宛 V2CROSS.COM #5'
+  network: none
+  port: 10942
+  server: 185.81.166.99
+  tls: false
+  type: vmess
+  uuid: 930da05a-607a-4208-ab7b-c4d2a64e77d2
+- alterId: 0
+  cipher: auto
+  name: '立陶宛 V2CROSS.COM #1'
+  network: none
+  port: 12754
+  server: 185.81.166.99
+  tls: false
+  type: vmess
+  uuid: cde3c9d0-fe5c-4684-90d5-14c310af3a97
+- alterId: 0
+  cipher: auto
   name: 印度 V2CROSS.COM
   network: none
   port: 44222
@@ -10,40 +28,76 @@ proxies:
   uuid: f703b128-2d32-4cdb-9608-f33c2d58abcc
 - alterId: 0
   cipher: auto
-  name: 巴西 V2CROSS.COM
+  name: 美国 华盛顿Cogent通信公司
   network: none
-  port: 2555
-  server: 189.1.226.131
+  port: 443
+  server: 38.76.144.22
   tls: false
   type: vmess
-  uuid: 417e992f-8f12-4027-bf90-980850234585
+  uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: cf.fovi.tk
-  servername: ''
-  tls: true
+  name: '俄罗斯 V2CROSS.COM #1'
+  network: none
+  port: 18355
+  server: 92.246.87.170
+  tls: false
   type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxlux.fovi.tk
-    path: /eisasqa
+  uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 8443
-  server: c7.620720.xyz
-  tls: true
+  name: '立陶宛 V2CROSS.COM #2'
+  network: none
+  port: 10051
+  server: 185.81.166.99
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: f111b83a-1a45-4a5a-f7f4-8a96aedfd887
+- alterId: 0
+  cipher: auto
+  name: '立陶宛 V2CROSS.COM #3'
+  network: none
+  port: 55735
+  server: 185.81.166.99
+  tls: false
+  type: vmess
+  uuid: 64d1e767-ee4f-4a35-ce61-624fab04fd28
+- alterId: 0
+  cipher: auto
+  name: '立陶宛 V2CROSS.COM #4'
+  network: none
+  port: 14784
+  server: 185.81.166.99
+  tls: false
+  type: vmess
+  uuid: 24a6fa47-7240-435c-9752-e2c968830a0e
+- alterId: 0
+  cipher: auto
+  name: 新加坡 腾讯云
+  network: ws
+  port: 80
+  server: 150.109.11.193
+  tls: false
+  type: vmess
+  uuid: b7118dcc-a234-4784-e487-4064c2920808
   ws-opts:
     headers:
-      Host: c7.620720.xyz
+      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
