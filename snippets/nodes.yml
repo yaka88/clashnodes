@@ -1,79 +1,61 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 华盛顿Cogent通信公司
-  network: none
-  port: '443'
-  server: 38.76.144.22
-  tls: false
-  type: vmess
-  uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
-- alterId: 0
-  cipher: auto
-  name: '北美地区 V2CROSS.COM #2'
-  network: none
-  port: 42507
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-- alterId: 0
-  cipher: auto
   name: 立陶宛 V2CROSS.COM
   network: none
-  port: 10942
+  port: 38095
   server: 185.81.166.99
   tls: false
   type: vmess
-  uuid: 930da05a-607a-4208-ab7b-c4d2a64e77d2
+  uuid: 98172427-54d4-47be-be97-f6fbd937594d
 - alterId: 0
   cipher: auto
-  name: '立陶宛 V2CROSS.COM #2'
-  network: none
-  port: 59372
-  server: 185.81.166.99
-  tls: false
-  type: vmess
-  uuid: 74026bdf-a274-4829-b100-18923462f7fd
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '英国 V2CROSS.COM #2'
   network: tcp
   port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 V2CROSS.COM
+  name: '立陶宛 V2CROSS.COM #1'
   network: none
-  port: 18355
-  server: 92.246.87.170
-  tls: false
-  type: vmess
-  uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
-- alterId: 0
-  cipher: auto
-  name: '立陶宛 V2CROSS.COM #3'
-  network: none
-  port: 45888
+  port: '54740'
   server: 185.81.166.99
   tls: false
   type: vmess
-  uuid: b95a4817-f9bb-4a27-8a7e-c555d28b1660
+  uuid: cf760744-420b-4935-f19f-25620678290d
+- alterId: 0
+  cipher: auto
+  name: 北美地区 V2CROSS.COM
+  network: none
+  port: 42507
+  server: 23.138.148.47
+  tls: false
+  type: vmess
+  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 香港2|@ripaojiedian
+  network: tcp
+  port: '30809'
+  server: v9.hdacd.com
   servername: ''
   tls: false
   type: vmess
@@ -106,8 +88,8 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3194
-  server: 54.199.226.29
+  port: 2595
+  server: 13.114.175.199
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -115,44 +97,58 @@ proxies:
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 4006
-  server: 202.181.103.246
+  server: 160.16.196.59
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1933
-  server: 202.181.103.246
+  server: 160.16.196.59
+  sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 3901
+  server: 160.16.196.59
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 202.181.103.246
+  server: 160.16.63.16
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 43.199.187.111
+  port: 804
+  server: 95.40.73.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 1281
+  server: 160.16.196.59
+  sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 202.181.103.246
+  server: 160.16.63.16
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 18.177.146.37
+  port: 2173
+  server: 16.163.98.169
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
