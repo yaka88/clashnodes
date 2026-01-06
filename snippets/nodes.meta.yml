@@ -1,37 +1,32 @@
 proxies:
+- name: 台湾省台中市+中华电信
+  password: 6684ea42-8983-447a-bc76-2b894540cb11
+  port: 31102
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '台湾省台中市+中华电信 #1'
+  password: ba91a84a-6b81-4aef-be19-a76f64a790d1
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: false
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  sni: t.me%25252Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: 7100
-  server: 206.119.191.9
-  tls: false
-  type: vmess
-  uuid: 10853485-26e1-477b-d257-58a3f4873db3
-- alterId: 0
-  cipher: auto
-  name: 香港 阿里云
-  network: none
-  port: 43425
-  server: 8.210.248.133
-  tls: false
-  type: vmess
-  uuid: aa10afb0-f913-4343-9c69-bc797fcba2db
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 英国 V2CROSS.COM
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
