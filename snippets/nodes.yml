@@ -1,45 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 立陶宛 V2CROSS.COM
+  name: 美国 V2CROSS.COM
   network: none
-  port: 38095
-  server: 185.81.166.99
+  port: 7100
+  server: 206.119.191.9
   tls: false
   type: vmess
-  uuid: 98172427-54d4-47be-be97-f6fbd937594d
+  uuid: 10853485-26e1-477b-d257-58a3f4873db3
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #2'
+  name: 香港 阿里云
+  network: none
+  port: 43425
+  server: 8.210.248.133
+  tls: false
+  type: vmess
+  uuid: aa10afb0-f913-4343-9c69-bc797fcba2db
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '立陶宛 V2CROSS.COM #1'
-  network: none
-  port: '54740'
-  server: 185.81.166.99
-  tls: false
-  type: vmess
-  uuid: cf760744-420b-4935-f19f-25620678290d
-- alterId: 0
-  cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: none
-  port: 42507
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
