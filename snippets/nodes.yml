@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -7,6 +16,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  skip-cert-verify: false
+  type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -14,33 +29,6 @@ proxies:
   server: 58.152.25.236
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: none
-  port: '42507'
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-- name: '香港+电讯盈科有限公司 #2'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  sni: t.me%25252525252Fripaojiedian
-  type: trojan
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  skip-cert-verify: false
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
   type: trojan
 - alterId: 2
   cipher: auto
@@ -136,49 +124,73 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: HK_speednode_0004
-  network: http
-  port: 43307
-  server: 8.210.248.133
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: FR_speednode_0003
+  password: hzxQofNAcTk2xo2drzxpIE
+  port: 17477
+  server: 91.239.208.204
+  type: ss
   udp: true
-  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - parsabr.com
-    method: GET
-    path:
-    - /api/register/new/name/dav/response/cmV0aXJlZCBoZWxsbyBob3cgYXJlIHlvdSB0aGlzIGlzIG15IG5ldyBoZWFkZXIgd
-  name: IR_speednode_0008
-  network: http
-  port: 2021
-  server: 81.12.33.182
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0004
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
   udp: true
-  uuid: f7d1dacf-c50b-4983-ba53-c07884fae0a3
-- name: SG_speednode_0024
-  network: ws
-  password: 97e79a62-f686-4b91-87a7-be39c9e57658
-  port: 443
-  server: 34.143.159.175
-  skip-cert-verify: false
-  sni: page.anjue39.qzz.io
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0005
+  password: 91d0b4a53447dcc8
+  port: 26602
+  server: 149.102.144.88
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: JO_speednode_0008
+  password: be5ee3c62f0aae96
+  port: 11201
+  server: 91.106.109.73
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: JP_speednode_0009
+  password: nGSRvZ5IsYcRNDpDtNVrkV
+  port: 47345
+  server: 178.130.46.148
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: KR_speednode_0011
+  password: qwerREWQ@@
+  port: 18590
+  server: 125.141.31.100
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: KR_speednode_0016
+  password: qwerREWQ@@
+  port: 61417
+  server: 121.170.203.147
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: KR_speednode_0018
+  password: qwerREWQ@@
+  port: 19307
+  server: 211.201.169.70
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: LU_speednode_0019
+  password: 01dc0d7cbb650bc3
+  port: 11201
+  server: 109.61.39.150
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_speednode_0031
+  password: e8a01a3fc07cde14
+  port: 10011
+  server: 209.126.8.72
+  type: ss
+  udp: true

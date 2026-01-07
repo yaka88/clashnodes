@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0004
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB_speednode_0005
+  password: 91d0b4a53447dcc8
+  port: 26602
+  server: 149.102.144.88
+  type: ss
+  udp: true
