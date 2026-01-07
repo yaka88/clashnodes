@@ -1,13 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 香港 阿里云
-  network: none
-  port: 43425
-  server: 8.210.248.133
-  tls: false
-  type: vmess
-  uuid: aa10afb0-f913-4343-9c69-bc797fcba2db
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.236
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -43,11 +42,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.236
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: HK_speednode_0004
+  network: http
+  port: 43307
+  server: 8.210.248.133
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
