@@ -1,45 +1,11 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: '北美地区 V2CROSS.COM #1'
-  network: none
-  port: 42507
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: ws
-  port: 443
-  server: seoul02.zgjok.com
-  tls: true
-  type: vmess
-  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
-  ws-opts:
-    headers:
-      Host: seoul02.zgjok.com
-    path: /
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: false
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
+  cipher: chacha20-poly1305
   name: 美国 CloudFlare节点
   network: ws
   port: '8080'
   server: zula.ir
+  servername: ''
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -56,13 +22,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  type: trojan
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
   type: trojan
 - alterId: 2
   cipher: auto
@@ -90,6 +59,14 @@ proxies:
   port: 443
   server: 58.152.110.104
   sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
@@ -166,13 +143,29 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: DE_speednode_0002
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.66.94.128
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: DE_speednode_0003
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.66.94.128
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /使用此节点需要先沐浴焚香然后给群主磕800个响头(ಡωಡ)
-  name: HK_speednode_0007
+  name: HK_speednode_0004
   network: http
   port: 53947
   server: 156.245.232.15
@@ -181,123 +174,3 @@ proxies:
   type: vmess
   udp: true
   uuid: 8cb243df-fa82-472c-be25-b00acd4fcd3f
-- cipher: chacha20-ietf-poly1305
-  name: JO_speednode_0012
-  password: 11bf054dcc0342cd
-  port: 11201
-  server: 91.106.109.74
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: KR_speednode_0016
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: KR_speednode_0018
-  password: qwerREWQ@@
-  port: 3733
-  server: 27.255.82.135
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: KR_speednode_0020
-  network: ws
-  port: 2096
-  server: dv4.789900.xyz
-  servername: dv4.789900.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
-  ws-opts:
-    headers:
-      Host: dv4.789900.xyz
-    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
-- cipher: aes-256-cfb
-  name: TW_speednode_0054
-  password: qwerREWQ@@
-  port: 39272
-  server: 185.189.160.105
-  type: ss
-  udp: true
-- name: US_speednode_0080
-  network: ws
-  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
-  port: 2096
-  server: www.shopify.com
-  skip-cert-verify: true
-  sni: ts888.yumige.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ts888.yumige.dpdns.org
-    path: /http://45.32.19.198:30005
-- cipher: aes-256-cfb
-  name: VN_speednode_0081
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.58
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0082
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.116
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0083
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.196
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0084
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.230
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0085
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.30
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0086
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.185
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0087
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.81
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0088
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.79
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0089
-  password: qwerREWQ@@
-  port: 6123
-  server: 103.238.214.82
-  type: ss
-  udp: true
