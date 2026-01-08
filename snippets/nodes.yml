@@ -1,20 +1,54 @@
 proxies:
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3194
+  server: 54.250.239.2
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '香港 Amazon数据中心 #1'
+  name: 英国 V2CROSS.COM
   network: tcp
-  port: 8312
-  server: cgroup.node4.v.nodelist-airport.com
+  port: 180
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  skip-cert-verify: false
+  type: trojan
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: false
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - alterId: 0
-  cipher: chacha20-poly1305
+  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: '8080'
   server: zula.ir
-  servername: ''
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -49,14 +83,6 @@ proxies:
   server: 58.152.110.104
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -64,14 +90,6 @@ proxies:
   server: 58.152.18.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3194
-  server: 54.250.239.2
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
