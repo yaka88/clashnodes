@@ -1,47 +1,38 @@
 proxies:
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3194
-  server: 54.250.239.2
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
+  name: '北美地区 V2CROSS.COM #1'
+  network: none
+  port: 42507
+  server: 23.138.148.47
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
+  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: ws
+  port: 443
+  server: seoul02.zgjok.com
+  tls: true
+  type: vmess
+  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
+  ws-opts:
+    headers:
+      Host: seoul02.zgjok.com
+    path: /
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: false
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 加拿大多伦多+V2CROSS.COM
   password: 6pRjKQJ0CWyFtG.9
   port: 12990
   server: 198.57.27.27
   skip-cert-verify: false
-  type: trojan
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: false
-  sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
@@ -56,6 +47,23 @@ proxies:
     headers:
       Host: nasnet-511952424.mcitel.co
     path: /nasnet/cdn?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -90,6 +98,14 @@ proxies:
   server: 58.152.18.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3194
+  server: 54.250.239.2
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
