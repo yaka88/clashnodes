@@ -1,26 +1,13 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 美国3|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: '香港 Amazon数据中心 #1'
   network: tcp
-  password: BxceQaOe
-  port: 1112
-  server: 18.162.123.56
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  port: 8312
+  server: cgroup.node4.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -47,6 +34,14 @@ proxies:
   port: 443
   server: 58.152.110.104
   sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp

@@ -1,10 +1,4 @@
 proxies:
-- name: 日本+东京都亚马逊(Amazon)公司数据中心
-  password: BxceQaOe
-  port: 3194
-  server: 54.250.239.2
-  sni: t.me%2525252Fripaojiedian
-  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
