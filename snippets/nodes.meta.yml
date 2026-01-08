@@ -1,38 +1,13 @@
 proxies:
 - alterId: 0
-  cipher: chacha20-poly1305
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '8080'
-  server: zula.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn?ed=2560
-- alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
+  name: 北美地区 V2CROSS.COM
+  network: none
+  port: 42507
+  server: 23.138.148.47
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
