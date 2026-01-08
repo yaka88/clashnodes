@@ -1,33 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 新加坡 Amazon数据中心
-  network: tcp
-  port: 24321
-  server: cgroup.node3.v.nodelist-airport.com
-  tls: false
-  type: vmess
-  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 160.16.116.227
+  server: 160.16.68.250
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 160.16.144.208
+  server: 160.16.138.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2673
-  server: 43.199.160.78
+  port: 381
+  server: 95.40.79.104
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

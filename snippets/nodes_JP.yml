@@ -1,9 +1,15 @@
 proxies:
+- name: 日本+东京都亚马逊(Amazon)公司数据中心
+  password: BxceQaOe
+  port: 3194
+  server: 54.250.239.2
+  sni: t.me%2525252Fripaojiedian
+  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3194
-  server: 3.112.45.28
+  server: 54.250.239.2
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -11,20 +17,13 @@ proxies:
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 4006
-  server: 160.16.144.208
+  server: 160.16.138.24
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1933
-  server: 160.16.144.208
+  server: 160.16.138.24
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: JP_speednode_0009
-  password: nGSRvZ5IsYcRNDpDtNVrkV
-  port: 47345
-  server: 178.130.46.148
-  type: ss
-  udp: true
