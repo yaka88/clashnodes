@@ -1,30 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 科罗拉多州NTT(美国)通信公司
-  network: none
-  port: 34128
-  server: 216.167.26.220
-  tls: false
-  type: vmess
-  uuid: 4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: none
-  port: 42507
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: '8080'
