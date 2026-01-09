@@ -1,13 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 华盛顿Cogent通信公司
-  network: none
-  port: 2052
-  server: 38.54.98.110
-  tls: true
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: zula.ir
+  tls: false
   type: vmess
-  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn?ed=2560
 - name: 美国|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad

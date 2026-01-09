@@ -1,13 +1,31 @@
 proxies:
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.149
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 华盛顿Cogent通信公司
-  network: none
-  port: 2052
-  server: 38.54.98.110
-  tls: true
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: zula.ir
+  tls: false
   type: vmess
-  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn?ed=2560
 - name: 加拿大多伦多+V2CROSS.COM
   password: 6pRjKQJ0CWyFtG.9
   port: 12990
@@ -29,14 +47,6 @@ proxies:
   port: 443
   server: 112.118.116.123
   sni: www.nintendogames.net
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.149
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
