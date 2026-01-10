@@ -1,13 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
+  type: trojan
 - name: 台湾省台中市+中华电信
   password: 459850f0-b409-4f18-95e2-440d4ebea0cd
   port: 31103
@@ -22,15 +19,6 @@ proxies:
   skip-cert-verify: false
   sni: green2.cdntencentmusic.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: 34460
-  server: 216.238.86.158
-  tls: false
-  type: vmess
-  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
