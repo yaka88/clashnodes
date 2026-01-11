@@ -1,44 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.io%2Fv2ray-configs%20%7C%2088%20'
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 以色列 V2CROSS.COM
   network: none
-  port: 40741
-  server: 149.88.95.217
-  tls: false
-  type: vmess
-  uuid: 1b8a751b-4909-4fec-f019-907d92e6c47f
-- alterId: 0
-  cipher: auto
-  name: '以色列 V2CROSS.COM #1'
-  network: none
-  port: 18937
-  server: 149.88.95.217
-  tls: false
-  type: vmess
-  uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
-- alterId: 0
-  cipher: auto
-  name: '以色列 V2CROSS.COM #2'
-  network: none
-  port: 35760
-  server: 149.88.95.217
+  port: '35760'
+  server: 149.88.95.94
   tls: false
   type: vmess
   uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
+- name: 美国+华盛顿Cogent通信公司
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  sni: shoppingmall.electricbanana.click
   type: trojan
 - alterId: 2
   cipher: auto
@@ -50,6 +31,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
@@ -61,52 +56,52 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.30.149
+  server: 58.152.25.220
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2762
-  server: 3.112.71.26
+  port: 2053
+  server: 43.207.232.58
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
-  port: 4006
-  server: 153.121.51.29
+  port: 1933
+  server: 153.121.38.213
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 1933
-  server: 153.121.51.29
+  server: 160.16.130.66
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
-  port: 544
-  server: 160.16.70.180
+  port: 3901
+  server: 153.121.38.213
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
-  port: 544
-  server: 160.16.150.76
+  port: 3076
+  server: 153.121.38.213
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 3.112.254.143
+  port: 2673
+  server: 95.40.111.8
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -114,21 +109,21 @@ proxies:
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 5076
-  server: 160.16.57.238
+  server: 160.16.81.84
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 1281
-  server: 160.16.72.33
+  server: 153.121.38.213
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 43.199.60.168
+  port: 2173
+  server: 43.198.151.117
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

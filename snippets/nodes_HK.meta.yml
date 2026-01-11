@@ -1,4 +1,11 @@
 proxies:
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.io%2Fv2ray-configs%20%7C%2088%20'
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -9,6 +16,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
@@ -20,7 +41,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.30.149
+  server: 58.152.25.220
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
