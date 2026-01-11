@@ -1,7 +1,32 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 广东省湛江市 移动
+  network: tcp
+  port: '47083'
+  server: tunnel2.qqa678.com
+  tls: false
+  type: vmess
+  uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.io%2Fv2ray-configs%2B%7C%2B160%2B'
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 香港 电讯盈科有限公司
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 台湾省台中市+中华电信
-  password: 2683d8cb-6c64-4749-9cb9-24dfe71a5fdb
-  port: 31101
+  password: df682bf0-81ae-41ea-bab3-be7075a7f1ab
+  port: 31103
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
@@ -14,24 +39,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心
-  network: none
-  port: '24004'
-  server: 156.233.232.177
-  tls: false
-  type: vmess
-  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
-- alterId: 0
-  cipher: auto
-  name: '美国加利福尼亚州洛杉矶 FREEBEST数据中心 #1'
-  network: none
-  port: 24004
-  server: 156.233.232.192
-  tls: false
-  type: vmess
-  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

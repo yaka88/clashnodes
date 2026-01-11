@@ -1,22 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心
-  network: none
-  port: '24004'
-  server: 156.233.232.177
-  tls: false
-  type: vmess
-  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
-- alterId: 0
-  cipher: auto
-  name: '美国加利福尼亚州洛杉矶 FREEBEST数据中心 #1'
-  network: none
-  port: 24004
-  server: 156.233.232.192
-  tls: false
-  type: vmess
-  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
 - name: 美国|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
