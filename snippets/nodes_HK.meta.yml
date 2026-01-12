@@ -1,11 +1,4 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%2520%2520%2520%2520%2520%2520%2520%255BBy%2520DukeMehdi%255D%2520b2n.io%252Fv2ray-configs%2520'
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
