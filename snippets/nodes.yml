@@ -1,22 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 香港 电讯盈科有限公司
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
+  name: 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+  network: none
+  port: 27641
+  server: 192.227.249.227
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 3b134252-e7c2-43df-98b7-da204104aa79
 - alterId: 0
   cipher: auto
   name: 广东省湛江市 移动
@@ -26,9 +17,25 @@ proxies:
   tls: false
   type: vmess
   uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+- alterId: 0
+  cipher: auto
+  name: 香港 阿里云
+  network: none
+  port: 52190
+  server: 47.242.192.233
+  tls: false
+  type: vmess
+  uuid: 98689724-deb2-4a3d-b83b-602221995baf
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.io%2Fv2ray-configs%2B%7C%2B83%2B'
+  type: trojan
 - name: 台湾省台中市+中华电信
-  password: a77233e9-abe2-4246-972e-48802c4c04fa
-  port: 31103
+  password: 9450ab5e-f86f-40c1-89b0-92dfa6679553
+  port: 35502
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com

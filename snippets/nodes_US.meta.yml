@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+  network: none
+  port: 27641
+  server: 192.227.249.227
+  tls: false
+  type: vmess
+  uuid: 3b134252-e7c2-43df-98b7-da204104aa79
 - name: 美国|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
