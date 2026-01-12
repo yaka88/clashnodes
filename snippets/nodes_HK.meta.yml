@@ -1,20 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 香港 阿里云
-  network: none
-  port: 52190
-  server: 47.242.192.233
-  tls: false
-  type: vmess
-  uuid: 98689724-deb2-4a3d-b83b-602221995baf
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.io%2Fv2ray-configs%2B%7C%2B83%2B'
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
