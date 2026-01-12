@@ -1,10 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 广东省湛江市 移动
-  network: tcp
-  port: '47083'
-  server: tunnel2.qqa678.com
-  tls: false
-  type: vmess
-  uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+proxies: []
