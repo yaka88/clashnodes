@@ -1,10 +1,13 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 广东省湛江市 移动
+  network: tcp
+  port: '47084'
+  server: tunnel1.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
 - alterId: 0
   cipher: auto
   name: '英国 V2CROSS.COM #1'
@@ -14,11 +17,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 加拿大多伦多+V2CROSS.COM
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  type: trojan
 - name: 台湾省台中市+中华电信
   password: f7bac556-837a-4301-a50f-ae649bf06023
   port: 31101
