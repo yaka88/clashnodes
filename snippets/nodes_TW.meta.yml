@@ -1,8 +1,9 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: f7bac556-837a-4301-a50f-ae649bf06023
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
+- name: TW_speednode_0034
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
