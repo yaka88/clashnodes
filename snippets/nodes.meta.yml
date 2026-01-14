@@ -1,21 +1,19 @@
 proxies:
+- name: 加拿大多伦多+V2CROSS.COM
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  skip-cert-verify: false
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '英国 V2CROSS.COM #1'
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: TR_speednode_0027
-  port: 2053
-  server: 92.60.70.36
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 08c7f096-d057-4d53-82fd-c739d372887b
 - alterId: 0
   cipher: auto
   name: 广东省湛江市 移动
@@ -25,20 +23,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
-- alterId: 0
-  cipher: auto
-  name: 香港 CDN520加速节点(BGP)数据中心
-  network: ws
-  port: '443'
-  server: sv2.wy888.us
-  servername: sv2.wy888.us
-  tls: true
-  type: vmess
-  uuid: cda69512-ad1b-4f85-b547-b1d545e7cc90
-  ws-opts:
-    headers:
-      Host: sv2.wy888.us
-    path: /vmess
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -406,6 +390,14 @@ proxies:
   type: vless
   udp: true
   uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+- name: TR_speednode_0027
+  port: 2053
+  server: 92.60.70.36
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 08c7f096-d057-4d53-82fd-c739d372887b
 - name: TW_speednode_0028
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
