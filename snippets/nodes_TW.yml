@@ -1,7 +1,9 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: 9f879bc7-3ac6-4ddd-8f7d-18d9f431f6a3
-  port: 31103
+- name: TW_speednode_0057
+  password: e7b70a75-f4f1-4e1e-ab1e-4c76d96eb257
+  port: 31101
   server: green2.cdntencentmusic.com
+  skip-cert-verify: false
   sni: green2.cdntencentmusic.com
   type: trojan
+  udp: true

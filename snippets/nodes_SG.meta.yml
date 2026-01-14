@@ -14,3 +14,25 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1196
+  server: 18.163.206.7
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: SG_speednode_0050
+  port: 52800
+  reality-opts:
+    public-key: m1nbh-ENgK8K1buwwZlmdVl-G39XIQChmy9ZhfWcuSk
+    short-id: '!!str 9b5677e8'
+  server: sgclaw.lycoreco.eu.org
+  servername: www.paypal.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: beddd73b-ed90-4e76-8a30-492384220878

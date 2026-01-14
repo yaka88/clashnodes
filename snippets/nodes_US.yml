@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '美国 阿里云 #1'
+  network: none
+  port: 12056
+  server: 47.253.197.26
+  tls: false
+  type: vmess
+  uuid: dd7be7f1-38ff-45e6-f1e5-b20c2190f527
 - name: 美国|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
@@ -21,3 +30,40 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0061
+  port: 12056
+  server: 47.253.197.26
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd7be7f1-38ff-45e6-f1e5-b20c2190f527
+- name: US_speednode_0071
+  network: ws
+  password: k52nemqqdx9e
+  port: 8443
+  server: 172.64.145.38
+  skip-cert-verify: true
+  sni: 8end0fr.zjde5.de5.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 8end0fr.zjde5.de5.net
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: US_speednode_0073
+  password: f1584199f4cb3ca6
+  port: 11201
+  server: 163.171.115.28
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_speednode_0074
+  password: 98f7aedd8adda6fe
+  port: 45995
+  server: 207.244.226.239
+  type: ss
+  udp: true

@@ -1,51 +1,49 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: 9f879bc7-3ac6-4ddd-8f7d-18d9f431f6a3
-  port: 31103
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1196
-  server: 18.163.206.7
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 中国 阿里云
-  network: none
-  port: 52752
-  server: 8.218.105.196
+  name: 广东省湛江市 移动
+  network: tcp
+  port: '47081'
+  server: tunnel2.qqa678.com
   tls: false
   type: vmess
-  uuid: 925bdbf5-72be-4437-bebf-441c61089f6b
+  uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 香港 阿里云
+  network: none
+  port: 43425
+  server: 8.210.248.133
+  tls: false
+  type: vmess
+  uuid: aa10afb0-f913-4343-9c69-bc797fcba2db
+- alterId: 0
+  cipher: auto
+  name: '广东省湛江市 移动 #1'
   network: tcp
-  port: 180
+  port: '47081'
+  server: oss-4.qqa678.com
+  tls: false
+  type: vmess
+  uuid: e49b8721-f124-4999-814a-fc777c0ae190
+- alterId: 0
+  cipher: auto
+  name: '美国 阿里云 #1'
+  network: none
+  port: 12056
+  server: 47.253.197.26
+  tls: false
+  type: vmess
+  uuid: dd7be7f1-38ff-45e6-f1e5-b20c2190f527
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '俄罗斯 V2CROSS.COM #1'
-  network: none
-  port: 18355
-  server: 92.246.87.170
-  tls: false
-  type: vmess
-  uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.130
-  sni: t.me%25252Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -71,7 +69,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: HK_speednode_0017
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -79,7 +77,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -117,6 +114,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1196
+  server: 18.163.206.7
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
@@ -139,84 +144,191 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0002
-  port: 47081
-  server: oss-4.qqa678.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0005
+  password: aed6e687-58a9-4836-ba62-7d8184c94df4
+  port: 32061
+  server: hk13.network-cdn-gw-yd.net
+  type: ss
   udp: true
-  uuid: e49b8721-f124-4999-814a-fc777c0ae190
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0011
+  password: aed6e687-58a9-4836-ba62-7d8184c94df4
+  port: 48816
+  server: hkp6.network-cdn-gw-yd.net
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: CN_speednode_0003
+  name: CN_speednode_0012
   password: b637f2e47b7827b308ebf399008075d2
   port: 47116
   server: 223.95.183.132
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0013
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 25819
+  server: 223.95.183.132
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0014
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 26334
+  server: 223.95.183.132
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0015
+  password: bdd108a0-bbda-4950-bd34-e5d30df94d0e
+  port: 13048
+  server: 120.232.235.202
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0017
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 53596
+  server: 223.95.183.132
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: KR_speednode_0019
-  network: http
-  port: 80
-  server: 152.70.92.69
+  name: CN_speednode_0020
+  port: 47084
+  server: tunnel1.qqa678.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
 - cipher: chacha20-ietf-poly1305
-  name: KW_speednode_0021
-  password: bddd79c7386646d6
+  name: SA_speednode_0049
+  password: 7bc8eeffd0325141
   port: 11201
-  server: 163.171.181.29
+  server: 154.205.134.251
+  type: ss
+  udp: true
+- name: TW_speednode_0057
+  password: e7b70a75-f4f1-4e1e-ab1e-4c76d96eb257
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: false
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0061
+  port: 12056
+  server: 47.253.197.26
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd7be7f1-38ff-45e6-f1e5-b20c2190f527
+- name: US_speednode_0071
+  network: ws
+  password: k52nemqqdx9e
+  port: 8443
+  server: 172.64.145.38
+  skip-cert-verify: true
+  sni: 8end0fr.zjde5.de5.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 8end0fr.zjde5.de5.net
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: US_speednode_0073
+  password: f1584199f4cb3ca6
+  port: 11201
+  server: 163.171.115.28
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_speednode_0074
+  password: 98f7aedd8adda6fe
+  port: 45995
+  server: 207.244.226.239
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: SE_speednode_0031
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 121.127.46.147
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0045
+  name: VN_speednode_0077
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.195
+  server: 103.186.155.221
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_speednode_0046
+  name: VN_speednode_0078
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.29
+  server: 103.186.154.28
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_speednode_0047
+  name: VN_speednode_0079
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.101
+  server: 103.186.155.3
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_speednode_0048
+  name: VN_speednode_0080
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.55
+  server: 103.186.155.70
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: VN_speednode_0049
+  name: VN_speednode_0081
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.52
+  server: 103.186.155.5
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0082
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.35
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0083
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0084
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.78
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0085
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.132
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0086
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.205
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0087
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.71
   type: ss
   udp: true

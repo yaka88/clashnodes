@@ -1,27 +1,78 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 中国 阿里云
-  network: none
-  port: 52752
-  server: 8.218.105.196
+  name: 广东省湛江市 移动
+  network: tcp
+  port: '47081'
+  server: tunnel2.qqa678.com
   tls: false
   type: vmess
-  uuid: 925bdbf5-72be-4437-bebf-441c61089f6b
+  uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0002
-  port: 47081
+  name: '广东省湛江市 移动 #1'
+  network: tcp
+  port: '47081'
   server: oss-4.qqa678.com
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: e49b8721-f124-4999-814a-fc777c0ae190
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0005
+  password: aed6e687-58a9-4836-ba62-7d8184c94df4
+  port: 32061
+  server: hk13.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0011
+  password: aed6e687-58a9-4836-ba62-7d8184c94df4
+  port: 48816
+  server: hkp6.network-cdn-gw-yd.net
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: CN_speednode_0003
+  name: CN_speednode_0012
   password: b637f2e47b7827b308ebf399008075d2
   port: 47116
   server: 223.95.183.132
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0013
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 25819
+  server: 223.95.183.132
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0014
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 26334
+  server: 223.95.183.132
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CN_speednode_0015
+  password: bdd108a0-bbda-4950-bd34-e5d30df94d0e
+  port: 13048
+  server: 120.232.235.202
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CN_speednode_0017
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 53596
+  server: 223.95.183.132
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0020
+  port: 47084
+  server: tunnel1.qqa678.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
