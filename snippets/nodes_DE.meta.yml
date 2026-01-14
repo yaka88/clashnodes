@@ -1,5 +1,5 @@
 proxies:
-- name: DE_speednode_0022
+- name: DE_speednode_0008
   network: ws
   port: 2087
   server: api.dark-coffe.com

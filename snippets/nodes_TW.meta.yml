@@ -1,5 +1,5 @@
 proxies:
-- name: TW_speednode_0055
+- name: TW_speednode_0028
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -8,7 +8,7 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: TW_speednode_0056
+- name: TW_speednode_0029
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -16,11 +16,3 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: TW_speednode_0057
-  password: e7b70a75-f4f1-4e1e-ab1e-4c76d96eb257
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: false
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
