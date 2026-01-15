@@ -1,26 +1,36 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
+- name: 香港5|@ripaojiedian
   network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 韩国 首尔Oracle云计算数据中心
+  name: '香港 CDN520加速节点(BGP)数据中心 #1'
   network: ws
-  port: 2087
-  server: lv4.789900.xyz
+  port: '443'
+  server: sv2.wy888.us
+  servername: sv2.wy888.us
   tls: true
   type: vmess
-  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+  uuid: cda69512-ad1b-4f85-b547-b1d545e7cc90
   ws-opts:
     headers:
-      Host: lv4.789900.xyz
-    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+      Host: sv2.wy888.us
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 香港6|@ripaojiedian
+  network: tcp
+  port: '47081'
+  server: oss-4.qqa678.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e49b8721-f124-4999-814a-fc777c0ae190
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -46,24 +56,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.219
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 香港6|@ripaojiedian
-  network: tcp
-  port: '47081'
-  server: oss-4.qqa678.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e49b8721-f124-4999-814a-fc777c0ae190
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
