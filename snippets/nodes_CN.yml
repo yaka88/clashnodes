@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 香港6|@ripaojiedian
-  network: tcp
-  port: '47081'
-  server: oss-4.qqa678.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e49b8721-f124-4999-814a-fc777c0ae190
 - cipher: chacha20-ietf-poly1305
   name: CN_speednode_0001
   password: aed6e687-58a9-4836-ba62-7d8184c94df4
