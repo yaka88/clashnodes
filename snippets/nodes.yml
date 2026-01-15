@@ -1,31 +1,78 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '香港 CDN520加速节点(BGP)数据中心 #1'
+  name: 英国 V2CROSS.COM
   network: ws
-  port: 443
-  server: sv2.wy888.us
-  servername: sv2.wy888.us
-  tls: true
+  port: 12887
+  server: gtm1.ktmwan.net
+  tls: false
   type: vmess
-  uuid: cda69512-ad1b-4f85-b547-b1d545e7cc90
+  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
   ws-opts:
     headers:
-      Host: sv2.wy888.us
-    path: /vmess
+      Host: baidu.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 澳大利亚 V2CROSS.COM
+  name: '英国 V2CROSS.COM #1'
   network: ws
-  port: 2096
-  server: dv4.789900.xyz
-  tls: true
+  port: 12889
+  server: gtm1.ktmwan.net
+  tls: false
   type: vmess
-  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
   ws-opts:
     headers:
-      Host: dv4.789900.xyz
-    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #2'
+  network: ws
+  port: 12890
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #3'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #4'
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #5'
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 1ec49aaf-2990-4c7b-a45c-d190e6ea5438
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
