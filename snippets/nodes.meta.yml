@@ -1,29 +1,45 @@
 proxies:
-- name: 美国+新泽西州(Merck公司)
-  password: BxceQaOe
-  port: 3579
-  server: 54.46.50.46
-  sni: t.me%2525252Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '美国 华盛顿Cogent通信公司 #1'
+  network: none
+  port: 2052
+  server: 38.54.98.110
+  tls: true
+  type: vmess
+  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
+- alterId: 0
+  cipher: auto
+  name: 广东省湛江市 移动
+  network: tcp
+  port: '47081'
+  server: oss-4.qqa678.com
+  tls: false
+  type: vmess
+  uuid: e49b8721-f124-4999-814a-fc777c0ae190
+- alterId: 0
+  cipher: auto
+  name: '广东省湛江市 移动 #1'
+  network: tcp
+  port: '47084'
+  server: tunnel1.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
   server: 58.152.53.219
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 甘肃省兰州市+移动
-  password: ab9273cc-c5a1-4624-8244-04501ea41dec
-  port: 49214
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-- name: 波兰+V2CROSS.COM
-  password: BxceQaOe
-  port: 3830
-  server: 95.40.93.39
-  sni: t.me%25252Fripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
