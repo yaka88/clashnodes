@@ -4,6 +4,15 @@ proxies:
   name: 广东省湛江市 移动
   network: tcp
   port: '47084'
+  server: 120.198.71.161
+  tls: false
+  type: vmess
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+- alterId: 0
+  cipher: auto
+  name: '广东省湛江市 移动 #1'
+  network: tcp
+  port: '47084'
   server: tunnel1.qqa678.com
   tls: false
   type: vmess

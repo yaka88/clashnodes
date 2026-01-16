@@ -1,28 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #2'
+  name: 广东省湛江市 移动
   network: tcp
-  port: '180'
+  port: '47084'
+  server: 120.198.71.161
+  tls: false
+  type: vmess
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 台湾省台中市+中华电信
+  password: 688abcd9-0ff0-49f8-baa1-6a23403bd0e7
+  port: 25501
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 广东省湛江市 移动
+  name: '广东省湛江市 移动 #1'
   network: tcp
   port: '47084'
   server: tunnel1.qqa678.com
   tls: false
   type: vmess
   uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.219
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

@@ -1,4 +1,11 @@
 proxies:
+- name: 台湾省台中市+中华电信
+  password: 688abcd9-0ff0-49f8-baa1-6a23403bd0e7
+  port: 25501
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
 - name: TW_speednode_0034
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
