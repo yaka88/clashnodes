@@ -1,8 +1,8 @@
 proxies:
 - name: 台湾省台中市+中华电信
-  password: 688abcd9-0ff0-49f8-baa1-6a23403bd0e7
-  port: 25501
-  server: cdnfire.xiaomispeed.com
+  password: c91410bb-b777-4daf-988b-d5445d143e6b
+  port: 31101
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
+  sni: green2.cdntencentmusic.com
   type: trojan
