@@ -1,31 +1,31 @@
 proxies:
+- name: 台湾省台中市+中华电信
+  password: af9b7bde-5b98-4bae-b35d-81637d99848f
+  port: 35501
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '台湾省台中市+中华电信 #1'
+  password: c91410bb-b777-4daf-988b-d5445d143e6b
+  port: 31103
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: none
-  port: 34460
-  server: 216.238.86.158
-  tls: false
-  type: vmess
-  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 英国 V2CROSS.COM
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: HK_speednode_0014
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.110.50
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+- name: '台湾省台中市+中华电信 #2'
+  password: f363c8b4-45cc-463b-959d-9ff613cbe2cd
+  port: 31102
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -51,6 +51,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: HK_speednode_0014
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.110.50
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
