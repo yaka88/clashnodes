@@ -1,38 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 香港 电讯盈科有限公司
-  network: ''
-  port: 30812
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 台湾省台中市+中华电信
-  password: c91410bb-b777-4daf-988b-d5445d143e6b
-  port: 31101
+  password: 3b6608c7-2217-4643-a387-f0937a9972ed
+  port: 31102
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 广东省湛江市 移动
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  sni: t.me%2525252Fripaojiedian
+  type: trojan
+- name: 香港3|@ripaojiedian
   network: tcp
-  port: '47084'
-  server: 120.198.71.161
-  tls: false
-  type: vmess
-  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+  password: 4843e94d205f3893f588255a591abe94
+  port: 443
+  server: 58.152.18.147
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -43,26 +30,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
-  network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.18.147
-  sni: www.nintendogames.net
-  type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3830
-  server: 95.40.93.39
+  port: 4329
+  server: 13.115.134.113
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3830
-  server: 95.40.53.47
+  port: 443
+  server: 58.152.110.50
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -70,7 +50,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2053
-  server: 13.115.245.96
+  server: 52.195.185.240
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -78,59 +58,58 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 1933
-  server: 160.16.130.21
+  server: 160.16.87.174
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 4006
-  server: 160.16.105.192
+  server: 160.16.87.174
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 3901
-  server: 160.16.85.33
+  port: 3076
+  server: 160.16.87.174
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 544
-  server: 160.16.130.21
+  port: 3901
+  server: 160.16.72.33
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: US_speednode_0036
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3579
-  server: 54.46.50.46
+  server: 57.180.49.42
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: 美国|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.105.192
+  server: 160.16.72.33
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.85.33
+  server: 160.16.87.174
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 54.199.172.151
+  port: 4569
+  server: 18.162.188.208
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -172,6 +151,14 @@ proxies:
   port: 30312
   server: 195.58.49.100
   type: ss
+  udp: true
+- name: US_speednode_0036
+  password: BxceQaOe
+  port: 3579
+  server: 54.46.50.46
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
   udp: true
 - name: US_speednode_0047
   network: ws
