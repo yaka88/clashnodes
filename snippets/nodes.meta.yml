@@ -1,37 +1,40 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 以色列 V2CROSS.COM
-  network: none
-  port: 18937
-  server: 149.88.95.94
-  tls: false
-  type: vmess
-  uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
   server: 58.152.46.246
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 台湾省台中市+中华电信
+  password: 6e2a34fc-574f-45d3-8584-2b7d87623bd2
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '台湾省台中市+中华电信 #1'
+  password: 505ab478-a7c5-413b-ac56-7cef17584a7c
+  port: 31102
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '以色列 V2CROSS.COM #1'
+  name: 以色列 V2CROSS.COM
   network: none
-  port: 35760
+  port: 40741
   server: 149.88.95.94
   tls: false
   type: vmess
-  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
+  uuid: 1b8a751b-4909-4fec-f019-907d92e6c47f
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.110.50
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -54,14 +57,6 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.46.246
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.110.50
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
