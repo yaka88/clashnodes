@@ -11,11 +11,3 @@ proxies:
   server: green2.cdntencentmusic.com
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: TW
-  password: e7965e64-e001-4e8c-8273-39c61ff4a094
-  port: 30000
-  server: tw.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
