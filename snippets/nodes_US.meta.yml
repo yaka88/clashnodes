@@ -1,27 +1,39 @@
 proxies:
+- name: 美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.72.33
+  server: 153.121.51.29
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.87.174
+  server: 160.16.150.76
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4569
-  server: 18.162.188.208
+  server: 13.114.104.131
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_speednode_0024
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0024
   network: ws
   port: 443
   server: 154.17.10.237
@@ -29,14 +41,17 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
   ws-opts:
     headers:
       Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- client-fingerprint: chrome
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
   name: US_speednode_0025
+  network: tcp
   port: 443
   reality-opts:
     public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
@@ -44,12 +59,15 @@ proxies:
   server: 136.175.178.165
   servername: navi.bankrate.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  udp: true
   uuid: 147ccf68-ca08-4ce9-a507-b0f0d5af119c
-- client-fingerprint: chrome
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
   name: US_speednode_0026
+  network: tcp
   port: 443
   reality-opts:
     public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
@@ -57,12 +75,15 @@ proxies:
   server: 136.175.178.165
   servername: navi.bankrate.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  udp: true
   uuid: 355a8145-f4a5-4877-a8f3-31137530db3d
-- client-fingerprint: chrome
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
   name: US_speednode_0027
+  network: tcp
   port: 443
   reality-opts:
     public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
@@ -70,7 +91,6 @@ proxies:
   server: 136.175.178.165
   servername: navi.bankrate.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  udp: true
   uuid: 28a825dd-81d7-47a9-93fa-d7ff003241f6

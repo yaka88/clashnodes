@@ -6,14 +6,8 @@ proxies:
   sni: green2.cdntencentmusic.com
   type: trojan
 - name: '台湾省台中市+中华电信 #1'
-  password: c91410bb-b777-4daf-988b-d5445d143e6b
-  port: 31103
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '台湾省台中市+中华电信 #2'
-  password: f363c8b4-45cc-463b-959d-9ff613cbe2cd
-  port: 31102
+  password: 3b95536d-2620-4734-aace-5b3fc671fe54
+  port: 31101
   server: green2.cdntencentmusic.com
   sni: green2.cdntencentmusic.com
   type: trojan

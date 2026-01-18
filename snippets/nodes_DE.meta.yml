@@ -1,7 +1,18 @@
 proxies:
-- client-fingerprint: chrome
+- name: DE
+  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
+  port: 2056
+  server: de.eyucdn.xyz
+  skip-cert-verify: true
+  sni: de.eyucdn.xyz
+  tls: false
+  type: hysteria2
+- alpn:
+  - ''
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: DE_speednode_0004
+  network: tcp
   port: 443
   reality-opts:
     public-key: THd83pRAiz68QKKNCzCdj3hvVq9Wy7NIFeIk1WjRJ1c
@@ -9,11 +20,14 @@ proxies:
   server: 196.240.57.74
   servername: desrv.fasti.win
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  udp: true
   uuid: 7005f499-036f-4570-a2a1-29761cfbbd9e
-- name: DE_speednode_0005
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: DE_speednode_0005
   network: ws
   port: 2087
   server: api.dark-coffe.com
@@ -21,9 +35,8 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
     headers:
       Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-    path: /?ed=2048
+    path: '%2F%3Fed%3D2048'

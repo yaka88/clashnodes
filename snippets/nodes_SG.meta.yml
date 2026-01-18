@@ -1,28 +1,48 @@
 proxies:
+- name: 新加坡1
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: SG
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: sg3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 3076
-  server: 160.16.87.174
+  port: 3901
+  server: 160.16.150.76
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 3901
-  server: 160.16.72.33
+  port: 544
+  server: 160.16.150.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 57.180.49.42
+  port: 804
+  server: 52.196.143.203
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: SG_speednode_0021
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: SG_speednode_0021
   network: ws
   port: 443
   server: 34.143.159.175
@@ -30,13 +50,16 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
   ws-opts:
     headers:
       Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- name: SG_speednode_0022
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: SG_speednode_0022
   network: ws
   port: 443
   server: 217.142.185.111
@@ -44,9 +67,8 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
   ws-opts:
     headers:
       Host: sni.meibidi.pp.ua
-    path: /?ed=2560
+    path: '%2F%3Fed%3D2560'
