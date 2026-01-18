@@ -1,39 +1,31 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.246
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 台湾省台中市+中华电信
-  password: 6e2a34fc-574f-45d3-8584-2b7d87623bd2
-  port: 35501
+  password: 637d3df8-69f7-4ce0-9625-830eb609364f
+  port: 31103
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
 - name: '台湾省台中市+中华电信 #1'
   password: 505ab478-a7c5-413b-ac56-7cef17584a7c
-  port: 31102
+  port: 31101
   server: green2.cdntencentmusic.com
   sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 以色列 V2CROSS.COM
-  network: none
-  port: 40741
-  server: 149.88.95.94
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: 1b8a751b-4909-4fec-f019-907d92e6c47f
-- name: 香港5|@ripaojiedian
-  network: tcp
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 58.152.110.50
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  server: 58.152.53.219
+  sni: t.me%25252Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
@@ -57,6 +49,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.46.246
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.110.50
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
