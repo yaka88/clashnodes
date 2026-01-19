@@ -1,29 +1,43 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: ws
-  port: 51649
-  server: 91.107.252.110
+  name: '美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公... #2'
+  network: none
+  port: '27641'
+  server: 192.227.249.227
   tls: false
   type: vmess
-  uuid: 6507fcbd-9fb0-4470-8ec4-22f2df436047
+  uuid: 3b134252-e7c2-43df-98b7-da204104aa79
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '伊朗+V2CROSS.COM #1'
+  network: tcp
+  port: 2024
+  server: 85.133.204.131
+  tls: false
+  type: vless
+  uuid: efdd92c0-c32d-4039-a564-374abaa5d8ce
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: 172.67.204.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- name: 香港+电讯盈科有限公司
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.18.124
-  sni: www.nintendogames.net
-  type: trojan
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.219
-  sni: t.me%25252Fripaojiedian
-  type: trojan
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
