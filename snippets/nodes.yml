@@ -1,35 +1,24 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 V2CROSS.COM
+  network: ws
+  port: 51649
+  server: 91.107.252.110
+  tls: false
+  type: vmess
+  uuid: 6507fcbd-9fb0-4470-8ec4-22f2df436047
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - name: 香港+电讯盈科有限公司
   password: 4843e94d205f3893f588255a591abe94
   port: 443
   server: 58.152.18.124
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #3'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.246
-  sni: t.me%25252Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: none
-  port: 42507
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-- name: '香港+电讯盈科有限公司 #2'
   password: BxceQaOe
   port: 443
   server: 58.152.53.219

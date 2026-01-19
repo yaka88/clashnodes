@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 V2CROSS.COM
+  network: ws
+  port: 51649
+  server: 91.107.252.110
+  tls: false
+  type: vmess
+  uuid: 6507fcbd-9fb0-4470-8ec4-22f2df436047
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
