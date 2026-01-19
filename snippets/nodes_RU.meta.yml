@@ -1,6 +1,19 @@
 proxies:
 - alpn:
   - ''
+  client-fingerprint: ''
+  flow: ''
+  name: NL_speednode_0019
+  network: tcp
+  port: 2584
+  server: 212.113.109.101
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 038a50c3-229c-41ef-a7ef-7abb504e4f33
+- alpn:
+  - ''
   client-fingerprint: chrome
   flow: ''
   name: RU_speednode_0020

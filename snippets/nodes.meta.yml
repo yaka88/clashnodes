@@ -1,55 +1,52 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: 9d23ec89-a50a-4634-b09e-37330ce09b37
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 新加坡3|@ripaojiedian
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: NL_speednode_0019
   network: tcp
-  password: BxceQaOe
-  port: 2673
-  server: 16.162.252.227
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+  port: 2584
+  server: 212.113.109.101
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 038a50c3-229c-41ef-a7ef-7abb504e4f33
 - name: 香港+电讯盈科有限公司
-  password: BxceQaOe
+  password: 4843e94d205f3893f588255a591abe94
   port: 443
-  server: 58.152.53.219
-  sni: t.me%252Fripaojiedian
+  server: 58.152.18.124
+  sni: www.nintendogames.net
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: '英国 V2CROSS.COM #3'
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 香港 电讯盈科有限公司
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '香港+电讯盈科有限公司 #1'
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.18.124
-  sni: www.nintendogames.net
-  type: trojan
-- name: '香港+电讯盈科有限公司 #2'
   password: BxceQaOe
   port: 443
   server: 58.152.46.246
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 北美地区 V2CROSS.COM
+  network: none
+  port: 42507
+  server: 23.138.148.47
+  tls: false
+  type: vmess
+  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+- name: '香港+电讯盈科有限公司 #2'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  sni: t.me%25252Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
@@ -120,6 +117,14 @@ proxies:
   server: 153.121.38.213
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2673
+  server: 16.162.252.227
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
@@ -342,19 +347,6 @@ proxies:
   tls: false
   type: vless
   uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: NL_speednode_0019
-  network: tcp
-  port: 2584
-  server: 212.113.109.101
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 038a50c3-229c-41ef-a7ef-7abb504e4f33
 - alpn:
   - ''
   flow: ''
