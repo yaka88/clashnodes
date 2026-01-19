@@ -14,19 +14,11 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2673
-  server: 16.162.252.227
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: SG_speednode_0021
+  name: SG_speednode_0022
   network: ws
   port: 443
   server: 34.143.159.175
@@ -43,7 +35,7 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: SG_speednode_0022
+  name: SG_speednode_0023
   network: ws
   port: 443
   server: 217.142.185.111

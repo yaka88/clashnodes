@@ -1,13 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: none
-  port: 42507
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2673
+  server: 16.162.252.227
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94

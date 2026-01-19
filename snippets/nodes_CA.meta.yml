@@ -1,11 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  name: CA_speednode_0001
-  network: tcp
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 443
-  server: tuntro006.instconn.com
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
+proxies: []

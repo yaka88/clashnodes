@@ -1,20 +1,4 @@
 proxies:
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3830
-  server: 54.95.183.161
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2266
-  server: 54.238.101.170
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -40,16 +24,17 @@ proxies:
 - alpn:
   - ''
   client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: JP_speednode_0018
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KX1PfrASrflF1Ra1TcjujnOAK-4sPiEVDSfAPS1DAl8
-    short-id: '!!str e33013f4'
-  server: 188.253.16.31
-  servername: yahoo.com
+  flow: ''
+  name: JP_speednode_0017
+  network: ws
+  port: 10086
+  server: 103.232.213.136
+  servername: zybs.worker.ddns-ip.net
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 43135731-165e-4064-872e-7e9447fbebfb
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: zybs.worker.ddns-ip.net
+    path: '%2F%40Marisa_kristi'
