@@ -1,37 +1,17 @@
 proxies:
-- flow: ''
-  name: 意大利+V2CROSS.COM
-  network: tcp
-  port: 2053
-  server: 92.60.70.36
-  tls: false
-  type: vless
-  uuid: 08c7f096-d057-4d53-82fd-c739d372887b
-- name: 台湾省台中市+中华电信
-  password: 9d23ec89-a50a-4634-b09e-37330ce09b37
-  port: 31101
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '俄罗斯+V2CROSS.COM #1'
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  skip-cert-verify: true
-  sni: ya.ru
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: '443'
-  server: 6b-4f68-8d87-7c4aadd12ab9.664.qzz.io
+  server: 4D41-b510-Fc35f2D7ECd7.664.qzz.io
+  servername: 4D41-b510-fC35f2d7ecd7.664.qZz.io
   tls: true
   type: vmess
   uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
   ws-opts:
     headers:
-      Host: 6B-4F68-8D87-7c4aaDd12ab9.664.QZz.iO
+      Host: 4D41-b510-fC35f2d7ecd7.664.qZz.io
     path: /pyyY4ZVTyJV3vr9noOhn
 - name: 德国+黑森州法兰克福Choopa数据中心
   network: tcp
@@ -40,13 +20,34 @@ proxies:
   server: 45.32.158.138
   sni: ads.x5.ru
   type: trojan
-- name: 伊朗+V2CROSS.COM
+- name: 台湾省台中市+中华电信
+  password: 9d23ec89-a50a-4634-b09e-37330ce09b37
+  port: 31101
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 西班牙+V2CROSS.COM
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: true
+  type: trojan
+- name: 加拿大+V2CROSS.COM
   network: tcp
-  port: 2024
-  server: 85.133.204.131
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.228
+  skip-cert-verify: true
+  sni: web.max
+  type: trojan
+- flow: ''
+  name: 意大利+V2CROSS.COM
+  network: tcp
+  port: 2053
+  server: 92.60.70.36
   tls: false
   type: vless
-  uuid: efdd92c0-c32d-4039-a564-374abaa5d8ce
+  uuid: 08c7f096-d057-4d53-82fd-c739d372887b
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
