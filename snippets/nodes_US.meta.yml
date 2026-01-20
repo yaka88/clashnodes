@@ -1,13 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: tcp
-  port: '42507'
-  server: 23.138.148.47
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: 172.67.204.84
+  servername: ''
   tls: false
   type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - name: 美国|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94

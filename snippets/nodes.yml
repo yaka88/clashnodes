@@ -1,17 +1,31 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: 9d23ec89-a50a-4634-b09e-37330ce09b37
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
+- name: 香港+电讯盈科有限公司
+  password: 4843e94d205f3893f588255a591abe94
+  port: 443
+  server: 58.152.18.124
+  sni: www.nintendogames.net
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: 172.67.204.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -21,39 +35,12 @@ proxies:
   server: 167.17.185.172
   sni: web.max.ru
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0002
-  network: tcp
-  port: 47081
-  server: tunnel2.qqa678.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
-- name: '台湾省台中市+中华电信 #1'
-  password: 1f86e372-1ee6-47eb-8c33-72bfc310dee6
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
+- name: 德国+黑森州法兰克福Choopa数据中心
+  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
+  port: 20994
+  server: 45.32.158.138
+  sni: ads.x5.ru
   type: trojan
-- name: 西班牙+V2CROSS.COM
-  network: tcp
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: tcp
-  port: '42507'
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -163,6 +150,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0002
+  network: tcp
+  port: 47081
+  server: tunnel2.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
 - alterId: 0
   cipher: auto
   name: TH_speednode_0018
