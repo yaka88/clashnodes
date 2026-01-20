@@ -1,18 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '443'
-  server: 4D41-b510-Fc35f2D7ECd7.664.qzz.io
-  servername: 4D41-b510-fC35f2d7ecd7.664.qZz.io
-  tls: true
+  name: 北美地区 V2CROSS.COM
+  network: tcp
+  port: '42507'
+  server: 23.138.148.47
+  tls: false
   type: vmess
-  uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
-  ws-opts:
-    headers:
-      Host: 4D41-b510-fC35f2d7ecd7.664.qZz.io
-    path: /pyyY4ZVTyJV3vr9noOhn
+  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
 - name: 美国|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
