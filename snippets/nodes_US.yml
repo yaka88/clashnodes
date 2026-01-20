@@ -3,38 +3,14 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8080'
-  server: 172.67.204.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: none
-  port: '42507'
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
   port: '443'
-  server: 4D41-b510-Fc35f2D7ECd7.664.qzz.io
-  servername: 4D41-b510-Fc35f2D7ECd7.664.qzz.io
+  server: 6b-4f68-8d87-7c4aadd12ab9.664.qzz.io
   tls: true
   type: vmess
   uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
   ws-opts:
     headers:
-      Host: 4D41-b510-fC35f2d7ecd7.664.qZz.io
+      Host: 6B-4F68-8D87-7c4aaDd12ab9.664.QZz.iO
     path: /pyyY4ZVTyJV3vr9noOhn
 - name: 美国|@ripaojiedian
   network: tcp

@@ -1,19 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: GB_speednode_0008
+  name: GB_speednode_0004
   network: ws
   port: 2053
   server: 25.129.199.205
@@ -30,6 +20,57 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
+  name: GB_speednode_0005
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: KhAmeneI.DPdNs.OrG
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  ws-opts:
+    headers:
+      Host: KhAmeneI.DPdNs.OrG
+    path: '%2FeyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: GB_speednode_0007
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: khamenei.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  ws-opts:
+    headers:
+      Host: khamenei.dpdns.org
+    path: '%2FeyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: GB_speednode_0011
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: khamenei.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  ws-opts:
+    headers:
+      Host: khamenei.dpdns.org
+    path: '%2FeyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
   name: GB_speednode_0009
   network: ws
   port: 2053
@@ -42,49 +83,15 @@ proxies:
   ws-opts:
     headers:
       Host: KhAmeneI.DPdNs.OrG
-    path: '%2FeyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0011
-  network: ws
-  port: 2053
-  server: 25.129.197.138
-  servername: KhAmeneI.DPdNs.OrG
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  ws-opts:
-    headers:
-      Host: khamenei.dpdns.org
-    path: '%2FeyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0014
-  network: ws
-  port: 2053
-  server: 25.129.197.138
-  servername: KhAmeneI.DPdNs.OrG
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  ws-opts:
-    headers:
-      Host: khamenei.dpdns.org
     path: '%2FeyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119'
 - alpn:
   - ''
-  client-fingerprint: ''
+  client-fingerprint: chrome
   flow: ''
-  name: GB_speednode_0013
+  name: GB_speednode_0010
   network: ws
   port: 2053
-  server: 25.129.197.138
+  server: 25.129.199.205
   servername: KhAmeneI.DPdNs.OrG
   skip-cert-verify: false
   tls: true
@@ -92,13 +99,13 @@ proxies:
   uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
   ws-opts:
     headers:
-      Host: KhAmeneI.DPdNs.OrG
+      Host: khamenei.dpdns.org
     path: '%2FeyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119'
 - alpn:
   - ''
   client-fingerprint: firefox
   flow: ''
-  name: GB_speednode_0015
+  name: GB_speednode_0012
   network: tcp
   port: 587
   reality-opts:
