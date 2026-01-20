@@ -2,8 +2,8 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 26378
-  server: 13.114.104.131
+  port: 2595
+  server: 52.195.11.229
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -11,30 +11,46 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 3423
-  server: 153.121.38.213
+  server: 153.121.45.139
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 4006
-  server: 153.121.38.213
+  server: 153.121.39.240
   sni: www.nintendogames.net
   type: trojan
 - alpn:
   - ''
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: JP_speednode_0018
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+    short-id: '!!str 7cad5040'
+  server: 85.208.108.136
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+- alpn:
+  - ''
+  client-fingerprint: ''
   flow: ''
-  name: JP_speednode_0017
+  name: JP_speednode_0019
   network: ws
-  port: 10086
-  server: 103.232.213.136
-  servername: zybs.worker.ddns-ip.net
+  port: 443
+  server: 188.253.23.98
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   ws-opts:
     headers:
-      Host: zybs.worker.ddns-ip.net
-    path: '%2F%40Marisa_kristi'
+      Host: kuangbao.xiejiang.dpdns.org
+    path: '%2F%3Fed%3D2560'
