@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 V2CROSS.COM
+  network: none
+  port: 18355
+  server: 92.246.87.170
+  tls: false
+  type: vmess
+  uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42

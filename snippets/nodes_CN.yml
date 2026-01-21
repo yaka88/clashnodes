@@ -1,26 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0002
-  network: tcp
-  port: 47081
-  server: tunnel2.qqa678.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
-- alterId: 0
-  cipher: auto
-  name: '广东省湛江市 移动 #1'
-  network: tcp
-  port: '47081'
-  server: tunnel1.qqa678.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
-- alterId: 0
-  cipher: auto
   name: CN_speednode_0001
   network: tcp
   port: 47081
@@ -28,3 +8,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0002
+  network: tcp
+  port: 47081
+  server: tunnel2.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
