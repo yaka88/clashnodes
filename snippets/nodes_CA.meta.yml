@@ -3,5 +3,6 @@ proxies:
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   port: 10889
   server: 167.17.185.172
+  skip-cert-verify: true
   sni: web.max.ru
   type: trojan
