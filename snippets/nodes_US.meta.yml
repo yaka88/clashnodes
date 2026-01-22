@@ -3,15 +3,16 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8443'
-  server: t1.620720.xyz
-  tls: true
+  port: '8080'
+  server: 172.67.204.84
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: t1.620720.xyz
-    path: /
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - name: 美国|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
