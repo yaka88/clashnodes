@@ -1,6 +1,16 @@
 proxies:
 - alpn:
   - ''
+  name: DE_speednode_0004
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.155.223
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: DE_speednode_0003
