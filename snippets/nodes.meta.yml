@@ -1,33 +1,52 @@
 proxies:
+- name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  skip-cert-verify: true
+  sni: www.semanticstaplegun.click
+  type: trojan
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.172
+  skip-cert-verify: false
+  sni: web.max.ru
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8443'
-  server: 162.159.152.4
-  servername: gbt.panzerh.com
-  tls: true
+  port: '8080'
+  server: 172.67.204.84
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 688f45e0-9d72-46cf-9ccd-b6395e9d71de
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: gbt.panzerh.com
-    path: /panzerh.com
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.130
-  sni: t.me%252Fripaojiedian
-  type: trojan
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国 得克萨斯州达拉斯Cloudflare Warp节点
   network: ws
-  port: 8443
-  server: t1.620720.xyz
+  port: '2053'
+  server: 8.6.112.0
+  servername: aliyedast.gwkaqq.lol
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 8b23a6c9-0ca6-4134-83f2-39d42da0d648
   ws-opts:
     headers:
       Host: ''
