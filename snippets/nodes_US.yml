@@ -3,26 +3,24 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8080'
-  server: 172.67.204.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: 美国 得克萨斯州达拉斯Cloudflare Warp节点
-  network: ws
-  port: '2053'
-  server: 8.6.112.0
-  servername: aliyedast.gwkaqq.lol
+  port: '443'
+  server: sy4.620720.xyz
   tls: true
   type: vmess
-  uuid: 8b23a6c9-0ca6-4134-83f2-39d42da0d648
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 8443
+  server: t1.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
       Host: ''
