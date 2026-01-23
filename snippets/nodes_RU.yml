@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  name: RU_speednode_0019
+  network: tcp
+  password: Pe_dQrCQ4QbnntuVrqHN3dsKhCBpqvxr
+  port: 443
+  server: fi2.nnvpn.io
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
