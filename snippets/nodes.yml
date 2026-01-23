@@ -1,6 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 中国 阿里云
+  network: ws
+  port: '443'
+  server: n1761214910.74qxv.top
+  servername: n1761214910.74qxv.top
+  tls: true
+  type: vmess
+  uuid: 011c4670-cdde-44fb-b9be-8a1e27af26c9
+  ws-opts:
+    headers:
+      Host: n1761214910.74qxv.top
+    path: /
+- name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
+  type: trojan
+- name: 台湾省台中市+中华电信
+  password: dec43cf3-32b5-4cad-bc3e-f1b905cc9dc6
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
   name: 美国 得克萨斯州达拉斯Cloudflare Warp节点
   network: ws
   port: '2053'
@@ -13,57 +41,37 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 西班牙+V2CROSS.COM
+- alterId: 0
+  cipher: auto
+  name: 香港 电讯盈科有限公司
   network: tcp
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.172
-  sni: web.max.ru
-  type: trojan
+  port: 30830
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '8443'
-  server: t1.620720.xyz
-  tls: true
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: t1.620720.xyz
-    path: /
-- name: 德国+黑森州法兰克福Choopa数据中心
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 45.32.158.138
-  sni: ads.x5.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: sy4.620720.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: sy4.620720.xyz
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
   server: 58.152.25.130
-  sni: t.me/ripaojiedian
+  skip-cert-verify: true
+  sni: 58.152.25.130
+  type: trojan
+- name: '台湾省台中市+中华电信 #1'
+  password: 655a3e72-788e-41c1-8c23-6032490c64a0
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 2
   cipher: auto
@@ -165,13 +173,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: AT_speednode_0003
+  network: ws
+  port: 14080
+  server: ssr-de-152.rosena.ggff.net
+  servername: ssr-de-152.rosena.ggff.net
+  tls: true
+  type: vmess
+  uuid: fe793ec6-b7a9-4f30-b623-d3c9ca6eb37c
+  ws-opts:
+    headers:
+      Host: ssr-de-152.rosena.ggff.net
+    path: /fxnz
 - alpn:
   - ''
-  name: RU_speednode_0019
+  name: AT_speednode_0004
   network: tcp
-  password: Pe_dQrCQ4QbnntuVrqHN3dsKhCBpqvxr
+  password: fe793ec6-b7a9-4f30-b623-d3c9ca6eb37c
+  port: 19233
+  server: ssr-de-152.rosena.ggff.net
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: GB_speednode_0006
+  network: tcp
+  password: 6087d8e3-ea9e-48eb-8217-6050ff752f56
   port: 443
-  server: fi2.nnvpn.io
-  skip-cert-verify: false
+  server: il.mjt000.com
+  skip-cert-verify: true
   sni: ''
   type: trojan
