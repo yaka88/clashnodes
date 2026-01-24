@@ -3,15 +3,15 @@ proxies:
   cipher: auto
   name: 日本 V2CROSS.COM
   network: ws
-  port: 443
-  server: n1747624271.lie5d.cyou
-  servername: null
+  port: '443'
+  server: n1747624282.lie5d.cyou
+  servername: n1747624282.lie5d.cyou
   tls: true
   type: vmess
-  uuid: a231ba8b-8871-416c-813b-e2240bc66bb2
+  uuid: 30109222-8c53-41bc-9781-a01cdeb68e4c
   ws-opts:
     headers:
-      Host: n1747624271.lie5d.cyou
+      Host: n1747624282.lie5d.cyou
     path: /
 - name: 日本|@ripaojiedian
   network: tcp
@@ -35,3 +35,20 @@ proxies:
   server: 160.16.105.192
   sni: www.nintendogames.net
   type: trojan
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: JP_speednode_0031
+  network: ws
+  port: 34606
+  server: 45.143.235.209
+  servername: ccffllyy.1412.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 76636b35-e926-4b10-8336-c0d0c48a42b8
+  ws-opts:
+    headers:
+      Host: ccffllyy.1412.me
+    path: '%2F%3Fed%3D2048'

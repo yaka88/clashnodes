@@ -1,20 +1,34 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
-  name: GB_speednode_0006
-  network: tcp
-  password: 6087d8e3-ea9e-48eb-8217-6050ff752f56
+  client-fingerprint: chrome
+  flow: ''
+  name: GB_speednode_0020
+  network: ws
   port: 443
-  server: il.mjt000.com
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
+  server: 132.145.29.208
+  servername: ccffllyy.1412.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 76636b35-e926-4b10-8336-c0d0c48a42b8
+  ws-opts:
+    headers:
+      Host: ccffllyy.1412.me
+    path: '%2F%3Fed%3D2048'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0021
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: '!!str feedbacc'
+  server: gb.fasti.win
+  servername: uk.fasti.win
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 3d0b6533-d3ba-4a0d-a46e-27c258ca5c3e

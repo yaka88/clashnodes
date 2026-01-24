@@ -1,24 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 香港 阿里云
-  network: ws
-  port: '443'
-  server: n1761214904.wpg27.xyz
-  servername: n1761214904.wpg27.xyz
-  tls: true
-  type: vmess
-  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
-  ws-opts:
-    headers:
-      Host: n1761214904.wpg27.xyz
-    path: /
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.130
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -51,4 +31,48 @@ proxies:
   server: 219.76.135.98
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: ''
+  name: HK_speednode_0025
+  network: ws
+  port: 443
+  server: 154.211.8.18
+  servername: snip.zrfs.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+  ws-opts:
+    headers:
+      Host: snip.zrfs.indevs.in
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: ''
+  name: HK_speednode_0026
+  network: ws
+  port: 443
+  server: 154.211.8.18
+  servername: snip.zrf.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+  ws-opts:
+    headers:
+      Host: snip.zrf.hidns.co
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: HK_speednode_0027
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: ''
   type: trojan
