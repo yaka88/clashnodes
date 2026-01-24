@@ -17,6 +17,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
+- alterId: 64
+  cipher: auto
+  name: CN_speednode_0005
+  network: tcp
+  port: 59952
+  server: 103.181.165.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: CN_speednode_0006
