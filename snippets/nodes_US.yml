@@ -3,35 +3,35 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8080'
-  server: 172.67.204.84
-  servername: ''
-  tls: false
+  port: 8443
+  server: c7.620720.xyz
+  servername: c7.620720.xyz
+  tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
+      Host: c7.620720.xyz
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
-  server: 160.16.89.176
+  server: 160.16.130.21
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
-  server: 160.16.81.84
+  server: 160.16.85.33
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2173
-  server: 16.162.252.227
+  server: 18.167.42.188
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
