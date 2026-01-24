@@ -1,31 +1,71 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 加拿大+V2CROSS.COM
+  network: tcp
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.228
+  skip-cert-verify: true
+  sni: web.max
+  type: trojan
+- name: '加拿大+V2CROSS.COM #1'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.172
+  sni: web.max.ru
+  type: trojan
 - name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0006
+  network: tcp
+  port: 47084
+  server: tunnel2.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
+  type: trojan
+- name: 德国+黑森州法兰克福Choopa数据中心
+  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
+  port: 20994
+  server: 45.32.158.138
+  skip-cert-verify: false
+  sni: ads.x5.ru
+  type: trojan
+- name: '西班牙+V2CROSS.COM #1'
   network: tcp
   password: wp9IsiY82uQhcmgNC1eoBM
   port: 12420
   server: 80.173.231.254
   sni: www.semanticstaplegun.click
   type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.172
-  sni: web.max.ru
-  type: trojan
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '8080'
-  server: 172.67.204.84
-  servername: ''
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '31332'
+  server: 103.181.165.237
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -153,15 +193,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0006
-  network: tcp
-  port: 47084
-  server: tunnel2.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
 - alterId: 0
   cipher: auto
   name: CN_speednode_0007

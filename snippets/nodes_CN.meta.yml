@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: CN_speednode_0006
+  network: tcp
+  port: 47084
+  server: tunnel2.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- alterId: 0
+  cipher: auto
   name: CN_speednode_0003
   network: tcp
   port: 47083
@@ -26,15 +35,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0006
-  network: tcp
-  port: 47084
-  server: tunnel2.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
 - alterId: 0
   cipher: auto
   name: CN_speednode_0007
