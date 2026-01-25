@@ -1,36 +1,44 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  sni: t.me%252Fripaojiedian
+- name: 挪威+V2CROSS.COM
+  password: RPyW62_b9aH.ztJKeArou
+  port: 18581
+  server: 83.143.87.9
   type: trojan
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 德国+黑森州法兰克福Choopa数据中心
   password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
   port: 20994
   server: 45.32.158.138
-  sni: ads.x5.ru
+  sni: ''
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 得克萨斯州达拉斯Cloudflare Warp节点
+  name: 德国 V2CROSS.COM
   network: ws
-  port: '2053'
-  server: 8.6.112.0
-  servername: aliyedast.gwkaqq.lol
+  port: 36859
+  server: 5.83.150.108
+  servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 8b23a6c9-0ca6-4134-83f2-39d42da0d648
+  uuid: 9631096d-3032-4942-9446-bdf12665682b
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: imafake.locker
+    path: /speedtest
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
@@ -47,13 +55,35 @@ proxies:
     path: /nasnet/cdn
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: 美国 V2CROSS.COM
   network: tcp
-  port: '180'
-  server: 82.198.246.97
+  port: '110'
+  server: 216.75.145.237
+  servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: a5a25715-1553-4586-949d-3bb0fb87cbcd
+- name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
+  type: trojan
+- name: '西班牙+V2CROSS.COM #1'
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 广东省湛江市 移动
+  network: tcp
+  port: '47084'
+  server: tunnel2.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -154,76 +184,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0003
-  network: tcp
-  port: 47083
-  server: tunnel1.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0004
-  network: tcp
-  port: 37086
-  server: tunnel1.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
-- alterId: 64
-  cipher: auto
-  name: CN_speednode_0005
-  network: tcp
-  port: 59952
-  server: 103.181.165.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0006
-  network: tcp
-  port: 47084
-  server: tunnel2.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0007
-  network: tcp
-  port: 43528
-  server: faq1.lieerr222.cn
-  tls: false
-  type: vmess
-  uuid: ab35a23e-80e6-4530-99cf-e29041acdcfa
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0008
-  network: tcp
-  port: 49312
-  server: cees.owwoedu.com
-  tls: false
-  type: vmess
-  uuid: cc456650-706c-44d5-bae3-ececade04140
-- alpn:
-  - ''
-  name: HK_speednode_0027
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: TH_speednode_0072
-  network: tcp
-  port: 8080
-  server: m.modzard.com
-  tls: false
-  type: vmess
-  uuid: f2e17b4d-22fd-44a4-90db-40649717be8e

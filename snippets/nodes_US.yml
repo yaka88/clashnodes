@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 得克萨斯州达拉斯Cloudflare Warp节点
-  network: ws
-  port: '2053'
-  server: 8.6.112.0
-  servername: aliyedast.gwkaqq.lol
-  tls: true
-  type: vmess
-  uuid: 8b23a6c9-0ca6-4134-83f2-39d42da0d648
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: '8080'
@@ -27,6 +13,16 @@ proxies:
     headers:
       Host: nasnet-511952424.mcitel.co
     path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: tcp
+  port: '110'
+  server: 216.75.145.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a5a25715-1553-4586-949d-3bb0fb87cbcd
 - name: 美国|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
