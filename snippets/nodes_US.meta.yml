@@ -1,22 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '110'
-  server: 216.75.145.237
-  servername: ''
-  tls: false
+  name: 美国 得克萨斯州达拉斯Cloudflare Warp节点
+  network: ws
+  port: '2053'
+  server: 8.6.112.0
+  servername: aliyedast.gwkaqq.lol
+  tls: true
   type: vmess
-  uuid: a5a25715-1553-4586-949d-3bb0fb87cbcd
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 140.82.35.244
-  skip-cert-verify: true
-  sni: ads.x5.ru
-  type: trojan
+  uuid: 8b23a6c9-0ca6-4134-83f2-39d42da0d648
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
