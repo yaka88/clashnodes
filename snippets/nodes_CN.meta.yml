@@ -1,13 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0006
-  network: tcp
-  port: 47084
-  server: tunnel2.qqa678.com
+  name: 中国 阿里云
+  network: none
+  port: 51000
+  server: 8.217.90.175
   tls: false
   type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+  uuid: 6c82a994-b6ba-48ca-f2ed-11288fe4913b
 - alterId: 0
   cipher: auto
   name: CN_speednode_0003
@@ -35,6 +35,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0006
+  network: tcp
+  port: 47084
+  server: tunnel2.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
 - alterId: 0
   cipher: auto
   name: CN_speednode_0007
