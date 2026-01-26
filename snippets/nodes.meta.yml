@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: cf-proxy.202507.xyz
-  tls: true
-  type: vmess
-  uuid: fa8c811b-7bd3-4c04-b9dd-c701698f1efd
-  ws-opts:
-    headers:
-      Host: gb.202507.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: '英国 V2CROSS.COM #1'
   network: tcp
   port: 180
@@ -21,11 +8,25 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+V2CROSS.COM
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 140.82.35.244
-  sni: ads.x5.ru
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: d-4beD-b726-2c53a82e4925.664.qZz.io
+  servername: d-4beD-b726-2c53a82e4925.664.qZz.io
+  tls: true
+  type: vmess
+  uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
+  ws-opts:
+    headers:
+      Host: D-4bEd-b726-2c53A82E4925.664.qzZ.iO
+    path: /pyyY4ZVTyJV3vr9noOhn
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
   type: trojan
 - alterId: 0
   cipher: auto
@@ -33,6 +34,7 @@ proxies:
   network: ws
   port: '8080'
   server: 172.67.204.84
+  servername: ''
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -40,39 +42,19 @@ proxies:
     headers:
       Host: nasnet-511952424.mcitel.co
     path: /nasnet/cdn
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.45
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
-  port: '443'
-  server: sy4.620720.xyz
-  tls: true
+  port: '8080'
+  server: 104.21.69.44
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: sy4.620720.xyz
-    path: /
-- name: '香港+电讯盈科有限公司 #1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.130
-  sni: 58.152.25.130
-  type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.172
-  skip-cert-verify: false
-  sni: web.max.ru
-  type: trojan
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
