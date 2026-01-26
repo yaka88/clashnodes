@@ -1,48 +1,53 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '8443'
-  server: 162.159.152.4
-  servername: frsys.fl-dl.com
-  tls: true
-  type: vmess
-  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
-  ws-opts:
-    headers:
-      Host: frsys.fl-dl.com
-    path: /gbt
-- name: 美国+V2CROSS.COM
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 140.82.35.244
-  sni: ads.x5.ru
-  type: trojan
-- name: 挪威+V2CROSS.COM
-  password: RPyW62_b9aH.ztJKeArou
-  port: 18581
-  server: 83.143.87.9
-  type: trojan
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
+- name: 台湾省台中市+中华电信
+  password: 157db8b8-45bb-46dd-9d27-13e9b2b5ab91
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
   type: trojan
 - name: 加拿大+V2CROSS.COM
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   port: 10889
-  server: 167.17.185.228
-  sni: web.max
+  server: 167.17.185.172
+  sni: web.max.ru
   type: trojan
-- name: 德国+黑森州法兰克福Choopa数据中心
-  network: tcp
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 45.32.158.138
+- name: '台湾省台中市+中华电信 #1'
+  password: b5e3e3b9-de0a-4e47-9baa-2cde1d8405ff
+  port: 35501
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: ads.x5.ru
+  sni: green2.cdntencentmusic.com
   type: trojan
+- name: '台湾省台中市+中华电信 #2'
+  password: 741add2a-b04d-48a1-9507-2a728dc4f428
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '南非 V2CROSS.COM #1'
+  network: none
+  port: 13852
+  server: 45.207.157.29
+  tls: false
+  type: vmess
+  uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: 172.67.204.84
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
