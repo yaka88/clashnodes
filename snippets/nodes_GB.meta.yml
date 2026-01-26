@@ -1,10 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '英国 V2CROSS.COM #1'
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0012
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HerZfkes2tFtduXTu7Ybx2aBjxVm_xoiDU4E-kMWpxw
+    short-id: '!!str '
+  server: 8.208.27.141
+  servername: static.cloud.coveo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: a5e872dd-8d1d-4d89-83ac-ac1e13d38912
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: GB_speednode_0013
+  network: tcp
+  port: 42536
+  server: uk.aparat-movies-download.ir
+  servername: excoino.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: bfcb732f-87ab-4879-bcb7-357c4129acb3

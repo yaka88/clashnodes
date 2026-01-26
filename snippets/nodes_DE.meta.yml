@@ -1,15 +1,33 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 德国 V2CROSS.COM
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: DE_speednode_0008
+  network: tcp
+  port: 443
+  server: 152.53.33.43
+  servername: www.speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 057b649c-54b1-4f68-86b1-90381637a2cf
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: ''
+  name: DE_speednode_0010
   network: ws
-  port: 36859
-  server: 5.83.150.108
-  servername: imafake.locker
+  port: 8443
+  server: 80.66.85.115
+  servername: page.anjue39.qzz.io
+  skip-cert-verify: false
   tls: true
-  type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
+  type: vless
+  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
   ws-opts:
     headers:
-      Host: imafake.locker
-    path: /speedtest
+      Host: page.anjue39.qzz.io
+    path: '%2F%3Fed%3D2048'

@@ -1,15 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 德国 V2CROSS.COM
-  network: ws
-  port: 36859
-  server: 5.83.150.108
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
+proxies: []

@@ -1,14 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: FR_speednode_0003
-  network: tcp
-  port: 25178
-  server: 46.8.225.78
-  servername: excoino.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7bd19c7d-8e36-4c85-9757-3066cf65046e
+proxies: []
