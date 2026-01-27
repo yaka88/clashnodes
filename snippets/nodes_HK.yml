@@ -24,11 +24,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1867
-  server: 18.179.118.202
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan

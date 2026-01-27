@@ -1,1 +1,49 @@
-proxies: []
+proxies:
+- name: 台湾省台中市+中华电信
+  password: 4897a9ac-1a9e-4f1a-bc44-fd54d5bc480b
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '台湾省台中市+中华电信 #1'
+  password: 1ca5a034-3dfb-4424-aaba-8b12d7279095
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: TW_speednode_0022
+  network: ws
+  port: 43
+  server: 220.128.110.108
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: TW_speednode_0023
+  network: ws
+  port: 51443
+  server: 114.32.9.249
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: '%2F%3Fed%3D2560'

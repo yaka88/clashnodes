@@ -1,37 +1,26 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '8080'
-  server: 172.67.204.84
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2595
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 美国+V2CROSS.COM
   password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
   port: 20994
   server: 140.82.35.244
   sni: ads.x5.ru
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: 104.21.69.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
 - name: 美国|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
@@ -46,11 +35,63 @@ proxies:
   server: 52.195.170.6
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0024
   network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 13.158.129.83
+  port: 33651
+  server: 23.27.28.125
+  tls: false
+  type: vmess
+  uuid: 2ef740c4-08ed-4924-a8d8-7517fc987a8a
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0028
+  network: tcp
+  port: 14032
+  server: 155.254.20.102
+  tls: false
+  type: vmess
+  uuid: ecdd9300-5c08-4e76-d7dd-c41ea03f1ec7
+- alpn:
+  - ''
+  name: US_speednode_0034
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 208.103.161.231
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: ''
   type: trojan
+  ws-opts:
+    headers:
+      Host: gzjx.dpdns.org
+    path: '%2F51.91.253.83%3D8443'
+- alpn:
+  - ''
+  name: US_speednode_0054
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 8443
+  server: 176.105.253.102
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0057
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 54443
+  server: 173.249.201.109
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: '%2F%3Fed%3D2560'

@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  name: GB_speednode_0010
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 31687
+  server: 185.245.83.41
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: '%2F%3Fed%3D2560'
