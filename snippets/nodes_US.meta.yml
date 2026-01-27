@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+  network: none
+  port: '27641'
+  server: 192.227.249.227
+  tls: false
+  type: vmess
+  uuid: 3b134252-e7c2-43df-98b7-da204104aa79
 - name: 美国+V2CROSS.COM
   password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
   port: 20994
@@ -9,21 +18,21 @@ proxies:
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
-  server: 160.16.132.38
+  server: 18.179.118.202
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 5076
-  server: 160.16.72.33
+  port: 491
+  server: 52.195.170.6
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 54.250.244.16
+  port: 2173
+  server: 13.158.129.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
