@@ -1,11 +1,11 @@
 proxies:
-- name: 香港5|@ripaojiedian
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1867
-  server: 18.179.118.202
+  port: 2595
+  server: 13.158.129.83
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp

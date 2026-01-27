@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 广东省广州市 移动
-  network: tcp
-  port: '43528'
-  server: faq1.lieerr222.cn
-  tls: false
-  type: vmess
-  uuid: fb1348c8-c0c0-48a0-bb0a-753f0e7ba7da
 - alpn:
   - ''
   name: CN_speednode_0001

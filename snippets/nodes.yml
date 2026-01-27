@@ -1,47 +1,23 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: 4897a9ac-1a9e-4f1a-bc44-fd54d5bc480b
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - name: 西班牙+V2CROSS.COM
   password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
   port: 26279
   server: 80.173.230.196
-  skip-cert-verify: false
   type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: 1ca5a034-3dfb-4424-aaba-8b12d7279095
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 日本|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
   network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 香港+电讯盈科有限公司
   password: BxceQaOe
-  port: 2595
-  server: 13.158.129.83
-  skip-cert-verify: true
+  port: 443
+  server: 203.198.122.187
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 13.158.129.83
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1867
-  server: 18.179.118.202
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 美国+V2CROSS.COM
   password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
@@ -49,24 +25,19 @@ proxies:
   server: 140.82.35.244
   sni: ads.x5.ru
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 广东省广州市 移动
-  network: tcp
-  port: '43528'
-  server: faq1.lieerr222.cn
-  tls: false
-  type: vmess
-  uuid: fb1348c8-c0c0-48a0-bb0a-753f0e7ba7da
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '香港+电讯盈科有限公司 #1'
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: 219.76.135.98
+  type: trojan
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.228
+  sni: web.max
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -91,6 +62,22 @@ proxies:
   server: 203.198.122.187
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1867
+  server: 18.179.118.202
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2595
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
@@ -142,6 +129,14 @@ proxies:
   port: 491
   server: 52.195.170.6
   sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alpn:
   - ''

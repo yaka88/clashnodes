@@ -1,20 +1,4 @@
 proxies:
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2595
-  server: 13.158.129.83
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 13.158.129.83
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 美国+V2CROSS.COM
   password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
   port: 20994
@@ -34,6 +18,14 @@ proxies:
   port: 491
   server: 52.195.170.6
   sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
