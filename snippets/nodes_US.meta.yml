@@ -1,19 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+  name: '美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公... #1'
   network: none
-  port: '27641'
+  port: 27641
   server: 192.227.249.227
   tls: false
   type: vmess
   uuid: 3b134252-e7c2-43df-98b7-da204104aa79
-- name: 美国+V2CROSS.COM
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 140.82.35.244
-  sni: ads.x5.ru
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: 172.67.204.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - name: 美国|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
