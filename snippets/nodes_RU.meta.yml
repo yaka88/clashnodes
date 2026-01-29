@@ -3,22 +3,5 @@ proxies:
   password: ZblhWr0mqMakCPg.N
   port: 36158
   server: 212.193.18.144
-  skip-cert-verify: false
   sni: ya.ru
   type: trojan
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0020
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 4b523a98e1bbd15b'
-  server: 217.12.40.76
-  servername: sun9-38.userapi.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: c38e6142-9223-47ef-84ce-2a84a308cafb
