@@ -1,71 +1,43 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  sni: t.me%25252Fripaojiedian
+- name: 美国+V2CROSS.COM
+  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
+  port: 20994
+  server: 140.82.35.244
+  sni: ads.x5.ru
+  type: trojan
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
+  type: trojan
+- name: 台湾省台中市+中华电信
+  password: 0500c7b4-083f-4746-a98a-abfbdc755da9
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 挪威+V2CROSS.COM
+  password: RPyW62_b9aH.ztJKeArou
+  port: 18581
+  server: 83.143.87.9
+  sni: 83.143.87.9
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 伊朗 V2CROSS.COM
-  network: ws
-  port: 40956
-  server: 95.81.123.15
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 甘肃省兰州市 移动
+  name: 广东省湛江市 移动
   network: tcp
   port: '47083'
   server: tunnel1.qqa678.com
   tls: false
   type: vmess
   uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-- alterId: 0
-  cipher: auto
-  name: 湖南省长沙市 移动
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0002
-  network: tcp
-  port: 47081
-  server: oss-4.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-- alterId: 0
-  cipher: auto
-  name: '广东省湛江市 移动 #1'
-  network: tcp
-  port: '47084'
-  server: tunnel2.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  type: trojan
-- name: 台湾省台中市+中华电信
-  password: 37a9bc53-bf36-4c42-9127-34d0b6515b39
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.228
+  sni: web.max
   type: trojan
 - alterId: 2
   cipher: auto
@@ -177,3 +149,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0002
+  network: tcp
+  port: 47081
+  server: oss-4.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
