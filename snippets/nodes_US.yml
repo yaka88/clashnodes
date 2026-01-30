@@ -1,10 +1,4 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 140.82.35.244
-  sni: ads.x5.ru
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b

@@ -1,8 +1,1 @@
-proxies:
-- name: 台湾省台中市+中华电信
-  password: 0500c7b4-083f-4746-a98a-abfbdc755da9
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
+proxies: []

@@ -1,29 +1,4 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 140.82.35.244
-  sni: ads.x5.ru
-  type: trojan
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
-- name: 台湾省台中市+中华电信
-  password: 0500c7b4-083f-4746-a98a-abfbdc755da9
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 挪威+V2CROSS.COM
-  password: RPyW62_b9aH.ztJKeArou
-  port: 18581
-  server: 83.143.87.9
-  sni: 83.143.87.9
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 广东省湛江市 移动
@@ -33,11 +8,50 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '广东省湛江市 移动 #1'
+  network: tcp
+  port: '47084'
+  server: tunnel2.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- name: 挪威+V2CROSS.COM
+  password: RPyW62_b9aH.ztJKeArou
+  port: 18581
+  server: 83.143.87.9
+  sni: 83.143.87.9
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: tcp
+  port: '58623'
+  server: 160.191.245.48
+  tls: false
+  type: vmess
+  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
 - name: 加拿大+V2CROSS.COM
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   port: 10889
   server: 167.17.185.228
   sni: web.max
+  type: trojan
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  sni: t.me%25252Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
