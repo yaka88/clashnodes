@@ -1,31 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
+  name: 美国 CloudFlare节点
   network: ws
-  port: 443
-  server: frankfurt02.zgjok.com
-  tls: true
-  type: vmess
-  uuid: 90d50c62-13b4-4f9c-b5d8-0168d30b423a
-  ws-opts:
-    headers:
-      Host: frankfurt02.zgjok.com
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 美国 Cloudinnovation数据中心
-  network: ws
-  port: '2086'
-  server: 154.83.2.156
+  port: '8080'
+  server: 172.67.204.84
   servername: ''
   tls: false
   type: vmess
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: v205.19740822.xyz
-    path: /
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '8080'
+  server: tgju.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    path: /nasnet/cdn?ed=2560
 - name: 美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
