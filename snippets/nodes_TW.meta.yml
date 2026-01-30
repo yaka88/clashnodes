@@ -1,4 +1,11 @@
 proxies:
+- name: 台湾省台中市+中华电信
+  password: 37a9bc53-bf36-4c42-9127-34d0b6515b39
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alpn:
   - ''
   client-fingerprint: chrome
