@@ -1,57 +1,95 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 广东省湛江市 移动
-  network: tcp
-  port: '47083'
-  server: tunnel1.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '广东省湛江市 移动 #1'
-  network: tcp
-  port: '47084'
-  server: tunnel2.qqa678.com
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-- name: 挪威+V2CROSS.COM
-  password: RPyW62_b9aH.ztJKeArou
-  port: 18581
-  server: 83.143.87.9
-  sni: 83.143.87.9
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: tcp
-  port: '58623'
-  server: 160.191.245.48
-  tls: false
-  type: vmess
-  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
 - name: 加拿大+V2CROSS.COM
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   port: 10889
   server: 167.17.185.228
   sni: web.max
   type: trojan
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 广东省湛江市 移动
+  network: tcp
+  port: '47084'
+  server: tunnel2.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- name: 德国+黑森州法兰克福Choopa数据中心
+  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
+  port: 20994
+  server: 45.32.158.138
+  sni: ads.x5.ru
+  type: trojan
+- name: 台湾省台中市+中华电信
+  password: b2e4b979-b198-47e5-8c6c-f4b919e34eb4
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
   port: 443
-  server: 58.152.53.45
-  sni: t.me%25252Fripaojiedian
+  server: frankfurt02.zgjok.com
+  tls: true
+  type: vmess
+  uuid: 90d50c62-13b4-4f9c-b5d8-0168d30b423a
+  ws-opts:
+    headers:
+      Host: frankfurt02.zgjok.com
+    path: ''
+- name: '台湾省台中市+中华电信 #1'
+  password: 0500c7b4-083f-4746-a98a-abfbdc755da9
+  port: 31103
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 伊朗+V2CROSS.COM
+  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+  port: 25010
+  server: 37.202.200.19
+  sni: 37.202.200.19
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 Cloudinnovation数据中心
+  network: ws
+  port: '2086'
+  server: 154.83.2.156
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 英国 伦敦Virgin Media
+  network: tcp
+  port: '6533'
+  server: de.zarasite.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7fea7538-e321-41de-a395-3afcbd7ec27c
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
   type: trojan
 - alterId: 2
   cipher: auto
