@@ -1,7 +1,84 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国 加利福尼亚州旧金山DigitalOcean数据中心
+  network: ws
+  port: 443
+  server: cg1c14.waimaojd.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c14.waimaojd.com
+    path: /api/v1/graphql
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: ws
+  port: 443
+  server: n1747624267.4u9ma.icu
+  servername: n1747624267.4u9ma.icu
+  tls: true
+  type: vmess
+  uuid: 8c5d150c-b046-4440-8230-e84506a065a3
+  ws-opts:
+    headers:
+      Host: n1747624267.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #2'
+  network: ws
+  port: 443
+  server: singapore02.zgjok.com
+  tls: true
+  type: vmess
+  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: dddffgthyu.922922.shop
+  servername: null
+  tls: false
+  type: vmess
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  ws-opts:
+    headers:
+      Host: dDdFfGTHYU.922922.SHOP
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.228
+  sni: web.max
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
   network: ws
   port: '8080'
   server: tgju.org
@@ -13,49 +90,31 @@ proxies:
     headers:
       Host: nasnet-571296497.iranpress.co
     path: /nasnet/cdn?ed=2560
-- name: 伊朗+V2CROSS.COM
-  network: tcp
-  port: 8880
-  server: alphacase.mainonline.link
-  tls: false
-  type: vless
-  uuid: ba36d60c-5f74-43e6-a94d-ed2ee3789f71
 - name: 美国+V2CROSS.COM
   password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
   port: 20994
   server: 140.82.35.244
   sni: ads.x5.ru
   type: trojan
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.45
-  sni: t.me%25252Fripaojiedian
+- name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  type: trojan
+- name: 挪威+V2CROSS.COM
+  password: RPyW62_b9aH.ztJKeArou
+  port: 18581
+  server: 83.143.87.9
+  skip-cert-verify: false
+  sni: 83.143.87.9
   type: trojan
 - name: 德国+黑森州法兰克福Choopa数据中心
   password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
   port: 20994
   server: 45.32.158.138
+  sni: ads.x5.ru
   type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: ddDFHhj.922922.Shop
-  tls: false
-  type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: ddDFHhj.922922.Shop
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

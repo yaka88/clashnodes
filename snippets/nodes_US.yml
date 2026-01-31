@@ -1,7 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 美国 加利福尼亚州旧金山DigitalOcean数据中心
+  network: ws
+  port: 443
+  server: cg1c14.waimaojd.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c14.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
   name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: dddffgthyu.922922.shop
+  servername: null
+  tls: false
+  type: vmess
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  ws-opts:
+    headers:
+      Host: dDdFfGTHYU.922922.SHOP
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
   network: ws
   port: '8080'
   server: tgju.org
@@ -19,19 +47,6 @@ proxies:
   server: 140.82.35.244
   sni: ads.x5.ru
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: ddDFHhj.922922.Shop
-  tls: false
-  type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: ddDFHhj.922922.Shop
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - name: 美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
