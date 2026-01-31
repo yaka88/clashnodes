@@ -13,19 +13,6 @@ proxies:
     headers:
       Host: sgal.dagrate.eu.org
     path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: ddDFHhj.922922.Shop
-  tls: false
-  type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: ddDFHhj.922922.Shop
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - name: 美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
