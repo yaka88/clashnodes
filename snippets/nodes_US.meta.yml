@@ -3,30 +3,29 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8080'
-  server: 172.67.204.84
-  servername: ''
-  tls: false
+  port: 443
+  server: cf.090227.xyz
+  servername: sgal.dagrate.eu.org
+  tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
   ws-opts:
     headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
+      Host: sgal.dagrate.eu.org
+    path: /
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '8080'
-  server: tgju.org
-  servername: ''
+  port: '80'
+  server: ddDFHhj.922922.Shop
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
   ws-opts:
     headers:
-      Host: nasnet-571296497.iranpress.co
-    path: /nasnet/cdn?ed=2560
+      Host: ddDFHhj.922922.Shop
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - name: 美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
@@ -44,8 +43,8 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 52.195.175.115
+  port: 2173
+  server: 95.40.115.216
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
