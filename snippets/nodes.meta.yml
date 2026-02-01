@@ -1,48 +1,36 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 140.82.35.244
-  sni: ads.x5.ru
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 Cloudinnovation数据中心 #1'
+  name: 美国 CloudFlare节点
   network: ws
-  port: 2086
-  server: 154.83.2.156
-  servername: ''
+  port: '8080'
+  server: digitalocean.com
   tls: false
   type: vmess
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: v205.19740822.xyz
-    path: /
-- name: 伊朗+V2CROSS.COM
-  port: 1050
-  server: arya.zaravds.cfd
-  tls: false
-  type: vless
-  uuid: 4ef2801b-c828-4de9-bd8e-a9b516e05dd2
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
-  type: trojan
-- name: '加拿大+V2CROSS.COM #1'
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.172
-  sni: web.max.ru
-  type: trojan
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn?ed=2560
 - name: 台湾省台中市+中华电信
-  password: 14f7a5c0-e8ae-40a7-884c-41555730e3b6
-  port: 31101
+  password: 5f4142b3-b20f-43f1-bc09-41c0e00662f9
+  port: 31102
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
+  type: trojan
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 挪威+V2CROSS.COM
   password: RPyW62_b9aH.ztJKeArou
@@ -51,6 +39,36 @@ proxies:
   skip-cert-verify: false
   sni: 83.143.87.9
   type: trojan
+- name: 西班牙+V2CROSS.COM
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: false
+  type: trojan
+- name: '西班牙+V2CROSS.COM #1'
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -163,138 +181,39 @@ proxies:
   uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
 - alpn:
   - ''
-  flow: ''
-  name: AU_speednode_0001
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: DbZWMfQTZQQrOJDgnWetu1ChTlXISZWKt4Kn_G0YyUI
-    short-id: ''
-  server: 43.250.54.175
-  servername: fonts.gstatic.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f04b96a6-0c53-4204-815a-9808fd7e4e0a
-- alpn:
-  - ''
-  flow: ''
-  name: BG_speednode_0002
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-    short-id: '3ca620a7ed5f3196'
-  server: est.prod.n7.homes
-  servername: sun6-21.userapi.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
-- alpn:
-  - ''
-  name: CN_speednode_0004
-  network: tcp
-  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  flow: ''
-  name: DE_speednode_0005
-  network: tcp
-  port: 7008
-  reality-opts:
-    public-key: OYuAdC90TNjvXbmJJyCsP0i9RXjdR1g8nBcjk421Aws
-    short-id: 'de5765'
-  server: 142.93.101.216
-  servername: bebem.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: a3ea154c-2827-4ceb-aae7-0fe743ce9f73
-- alpn:
-  - ''
-  client-fingerprint: random
   flow: xtls-rprx-vision
-  name: FI_speednode_0006
+  name: DE_speednode_0001
   network: tcp
-  port: 8443
+  port: 350
   reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: '58c512b4422e2517'
-  server: 78.153.139.68
-  servername: images.apple.com
+    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+    short-id: 'fd1dff03520d8f56'
+  server: iar.blackhoster.com
+  servername: excoino.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  uuid: 79a48cba-4a44-4a5c-bfa9-64a53379df2c
 - alpn:
   - ''
   flow: xtls-rprx-vision
-  name: FR_speednode_0007
+  name: GR_speednode_0002
   network: tcp
   port: 443
   reality-opts:
-    public-key: R5Vu-2P24vBQMHBZdYj176gneqfGu65xwy1uzEn22Bs
-    short-id: '50a51d5a4bfda8'
-  server: fr2.miyazono-kaori.com
-  servername: www.edf.fr
+    public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
+    short-id: 'b5e0cd9ca194c0a5'
+  server: 185.234.57.207
+  servername: teamdocs.su
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: FR_speednode_0008
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '175d'
-  server: 195.154.190.119
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: GB_speednode_0009
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cacOGNK9K0JXGCsI1R9Pnbg6oW0s9qR2IV_TZEOjlDE
-    short-id: ''
-  server: pl1-1.node.getvpn4you.ru
-  servername: pingless.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: deaf028b-5c47-4b6b-ad7d-2534ba0782e5
+  uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: IQ_speednode_0010
-  network: tcp
-  port: 443
-  server: decdn3.suio.me
-  servername: decdn3.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: IR_speednode_0011
+  name: IR_speednode_0003
   network: tcp
   port: 10468
   server: 185.113.10.198
@@ -305,116 +224,53 @@ proxies:
   uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
 - alpn:
   - ''
-  client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: IT_speednode_0012
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mFaXixrKl1vEgNUwYzoBk2cZ8YyPYUa61fNALv05i3g
-    short-id: '115fcfff5573'
-  server: it1.miyazono-kaori.com
-  servername: www.eni.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
-- alpn:
-  - ''
-  flow: ''
-  name: LV_speednode_0013
+  name: KZ_speednode_0004
   network: tcp
   port: 8443
   reality-opts:
-    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-    short-id: '3ca620a7ed5f3196'
-  server: lv.prod.n7.homes
-  servername: sun6-21.userapi.com
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 'f4b4a6365558ea2e'
+  server: 212.233.73.212
+  servername: m.vk.ru
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
-- alpn:
-  - ''
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: MD_speednode_0014
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 94.103.1.230
-  servername: sun6-21.userapi.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
+  uuid: 0ff8dbfb-d7ee-4a19-b22d-b652a8b52e22
 - alpn:
   - ''
   flow: xtls-rprx-vision
-  name: NL_speednode_0015
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 45ui5TpjfPf6HmRyT4M53XnR9tOXjpcLRLmaRyhlPiQ
-    short-id: 'd7325e33'
-  server: 79.133.180.45
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 6b1c3308-9bb4-45bc-8387-25c969a8c8f9
-- alpn:
-  - ''
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: NL_speednode_0016
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Ax50I4wgBCS5ejrqH-QGRL28oyr5-ocbBw6U7rHFzXI
-    short-id: '883d8dad940eb1'
-  server: nl2.miyazono-kaori.com
-  servername: www.philips.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: RU_speednode_0017
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE
-    short-id: 'd1d42381ba35'
-  server: 84.201.167.199
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d26a9be3-023a-557a-a41e-b3d3841c4018
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: RU_speednode_0018
+  name: RU_speednode_0005
   network: tcp
   port: 8443
   reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '205748bc0f24a747'
-  server: 89.169.162.214
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: '887c0d72e771a934'
+  server: 158.160.221.132
   servername: yandex.ru
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
 - alpn:
   - ''
   flow: xtls-rprx-vision
-  name: RU_speednode_0019
+  name: RU_speednode_0006
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: '04bf0403f96e5b4b'
+  server: 84.252.143.25
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1e4649f5-f5d6-4896-9be0-4c6725d4106e
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: RU_speednode_0007
   network: tcp
   port: 443
   reality-opts:
@@ -429,137 +285,100 @@ proxies:
 - alpn:
   - ''
   flow: xtls-rprx-vision
-  name: SC_speednode_0020
+  name: RU_speednode_0008
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: PEMF0zJRT97z18eQUFk5jT5sBk1bYZ-Q2PxeFkfEKTQ
-    short-id: 'ffffffffff'
-  server: 185.214.74.184
-  servername: apple.com
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '205748bc0f24a747'
+  server: 89.169.162.214
+  servername: yandex.ru
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 2275661d-a9b7-522d-99e6-a4d42cb04fa0
+  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
 - alpn:
   - ''
-  flow: xtls-rprx-vision
-  name: SG_speednode_0021
+  client-fingerprint: ''
+  flow: ''
+  name: SE_speednode_0009
   network: tcp
   port: 443
-  reality-opts:
-    public-key: iOmM3Jbv9gtQd5XLbPDioqVmyxKehF5rHaRnji46V0k
-    short-id: '29192a87641c'
-  server: sg2.miyazono-kaori.com
-  servername: floenergy.sg
-  skip-cert-verify: false
-  tls: false
+  server: secdn13.suio.me
+  servername: secdn13.suio.me
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
+  uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
 - alpn:
   - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: US_speednode_0022
+  client-fingerprint: ''
+  flow: ''
+  name: SE_speednode_0010
   network: tcp
   port: 443
-  reality-opts:
-    public-key: 1vMO86Bpz3FJNbtRPaGVOee9ZdEcXGY6WcQblDLpqWA
-    short-id: 'd46670db1e'
-  server: us3.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: false
+  server: secdn11.suio.me
+  servername: secdn11.suio.me
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
 - alpn:
   - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: US_speednode_0023
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HU0XwQRJ0oZh88krUesOhRt6HRdT4pmX2HDunaOS4To
-    short-id: 'bb76de71'
-  server: hk6.miyazono-kaori.com
-  servername: www.maxims.com.hk
+  client-fingerprint: ''
+  flow: ''
+  name: SG_speednode_0011
+  network: ws
+  port: 2053
+  server: 206.238.237.207
+  servername: vw.badomzamini.uk
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
+  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  ws-opts:
+    headers:
+      Host: vw.badomzamini.uk
+    path: '%2Flatest%3Fed%3D2560'
 - alpn:
   - ''
   flow: ''
-  name: US_speednode_0024
+  name: US_speednode_0012
   network: tcp
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: false
+  server: 144.31.1.125
+  servername: plcdn11.suio.me
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: fdf3bd07-b310-487e-ada8-538e19e835f5
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
 - alpn:
   - ''
+  client-fingerprint: ''
   flow: ''
-  name: US_speednode_0025
+  name: US_speednode_0014
   network: tcp
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: false
+  server: plcdn11.suio.me
+  servername: plcdn11.suio.me
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: ba21b656-2355-44b5-829d-639cbc0e92b7
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
 - alpn:
   - ''
+  client-fingerprint: ''
   flow: ''
-  name: US_speednode_0027
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
+  name: US_speednode_0015
+  network: ws
+  port: 2053
+  server: 50.62.195.9
+  servername: vw.badomzamini.uk
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 174711b1-013d-4ec6-9f69-485ff008d50f
-- alpn:
-  - ''
-  flow: ''
-  name: US_speednode_0028
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 10155e8d-e052-4b50-b8b6-2ae2d418b311
-- alpn:
-  - ''
-  flow: ''
-  name: US_speednode_0029
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e12e60f8-f955-4b46-905d-fd99692e19d7
+  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  ws-opts:
+    headers:
+      Host: vw.badomzamini.uk
+    path: '%2Flatest%3Fed%3D2560'

@@ -1,41 +1,47 @@
 proxies:
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
+  type: trojan
 - alpn:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0017
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE
-    short-id: '!!str d1d42381ba35'
-  server: 84.201.167.199
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d26a9be3-023a-557a-a41e-b3d3841c4018
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0018
+  name: RU_speednode_0005
   network: tcp
   port: 8443
   reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '!!str 205748bc0f24a747'
-  server: 89.169.162.214
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: '!!str 887c0d72e771a934'
+  server: 158.160.221.132
   servername: yandex.ru
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
 - alpn:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0019
+  name: RU_speednode_0006
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: '!!str 04bf0403f96e5b4b'
+  server: 84.252.143.25
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1e4649f5-f5d6-4896-9be0-4c6725d4106e
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0007
   network: tcp
   port: 443
   reality-opts:
@@ -47,3 +53,19 @@ proxies:
   tls: false
   type: vless
   uuid: 15d5ef21-f4cd-4812-bb30-f998051c5dc1
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0008
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str 205748bc0f24a747'
+  server: 89.169.162.214
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8

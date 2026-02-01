@@ -1,24 +1,17 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 140.82.35.244
-  sni: ads.x5.ru
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 Cloudinnovation数据中心 #1'
+  name: 美国 CloudFlare节点
   network: ws
-  port: 2086
-  server: 154.83.2.156
-  servername: ''
+  port: '8080'
+  server: digitalocean.com
   tls: false
   type: vmess
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: v205.19740822.xyz
-    path: /
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn?ed=2560
 - name: 美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
@@ -43,113 +36,44 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: US_speednode_0022
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1vMO86Bpz3FJNbtRPaGVOee9ZdEcXGY6WcQblDLpqWA
-    short-id: '!!str d46670db1e'
-  server: us3.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
-- alpn:
-  - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: US_speednode_0023
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HU0XwQRJ0oZh88krUesOhRt6HRdT4pmX2HDunaOS4To
-    short-id: '!!str bb76de71'
-  server: hk6.miyazono-kaori.com
-  servername: www.maxims.com.hk
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
-- alpn:
-  - ''
   client-fingerprint: chrome
   flow: ''
-  name: US_speednode_0024
+  name: US_speednode_0012
   network: tcp
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: false
+  server: 144.31.1.125
+  servername: plcdn11.suio.me
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: fdf3bd07-b310-487e-ada8-538e19e835f5
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
 - alpn:
   - ''
-  client-fingerprint: chrome
+  client-fingerprint: ''
   flow: ''
-  name: US_speednode_0025
+  name: US_speednode_0014
   network: tcp
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: false
+  server: plcdn11.suio.me
+  servername: plcdn11.suio.me
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: ba21b656-2355-44b5-829d-639cbc0e92b7
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
 - alpn:
   - ''
-  client-fingerprint: chrome
+  client-fingerprint: ''
   flow: ''
-  name: US_speednode_0027
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
+  name: US_speednode_0015
+  network: ws
+  port: 2053
+  server: 50.62.195.9
+  servername: vw.badomzamini.uk
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 174711b1-013d-4ec6-9f69-485ff008d50f
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0028
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 10155e8d-e052-4b50-b8b6-2ae2d418b311
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0029
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e12e60f8-f955-4b46-905d-fd99692e19d7
+  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  ws-opts:
+    headers:
+      Host: vw.badomzamini.uk
+    path: '%2Flatest%3Fed%3D2560'

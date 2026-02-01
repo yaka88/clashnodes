@@ -1,24 +1,17 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
-  port: 20994
-  server: 140.82.35.244
-  sni: ads.x5.ru
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 Cloudinnovation数据中心 #1'
+  name: 美国 CloudFlare节点
   network: ws
-  port: 2086
-  server: 154.83.2.156
-  servername: ''
+  port: '8080'
+  server: digitalocean.com
   tls: false
   type: vmess
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: v205.19740822.xyz
-    path: /
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn?ed=2560
 - name: 美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
