@@ -1,43 +1,23 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: tcp
-  port: '58623'
-  server: 160.191.245.48
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3760
-  server: 54.178.100.75
+  port: 26378
+  server: 54.199.5.138
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3423
-  server: 160.16.68.250
+  port: 1933
+  server: 160.16.105.192
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3423
-  server: 153.121.38.213
+  port: 1933
+  server: 54.199.5.138
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 日本4|@ripaojiedian
-  network: tcp
-  port: '47083'
-  server: tunnel1.qqa678.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
