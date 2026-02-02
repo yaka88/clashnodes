@@ -3,28 +3,30 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '80'
-  server: ZzXxdE.922922.sHOp
-  tls: false
+  port: '443'
+  server: 4D41-b510-Fc35f2D7ECd7.664.qzz.io
+  servername: 4d41-B510-FC35F2d7eCD7.664.QZz.io
+  tls: true
   type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
   ws-opts:
     headers:
-      Host: ZzXxdE.922922.sHOp
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
+      Host: 4D41-b510-fC35f2d7ecd7.664.qZz.io
+    path: /pyyY4ZVTyJV3vr9noOhn
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: 美国 Cloudinnovation数据中心
   network: ws
-  port: '80'
-  server: dddffgthyu.922922.shop
+  port: 2086
+  server: 154.83.2.156
+  servername: ''
   tls: false
   type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
   ws-opts:
     headers:
-      Host: dDdFfGTHYU.922922.SHOP
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
+      Host: v205.19740822.xyz
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b

@@ -1,62 +1,66 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '80'
-  server: ZzXxdE.922922.sHOp
+  name: '日本 V2CROSS.COM #1'
+  network: tcp
+  port: 58623
+  server: 160.191.245.48
+  servername: ''
   tls: false
   type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
+- name: 挪威+V2CROSS.COM
+  password: RPyW62_b9aH.ztJKeArou
+  port: 18581
+  server: 83.143.87.9
+  sni: 83.143.87.9
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: 4D41-b510-Fc35f2D7ECd7.664.qzz.io
+  servername: 4d41-B510-FC35F2d7eCD7.664.QZz.io
+  tls: true
+  type: vmess
+  uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
   ws-opts:
     headers:
-      Host: ZzXxdE.922922.sHOp
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
+      Host: 4D41-b510-fC35f2d7ecd7.664.qZz.io
+    path: /pyyY4ZVTyJV3vr9noOhn
+- name: 台湾省台中市+中华电信
+  password: 5f4142b3-b20f-43f1-bc09-41c0e00662f9
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 Cloudinnovation数据中心
+  network: ws
+  port: 2086
+  server: 154.83.2.156
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
 - name: 西班牙+V2CROSS.COM
   password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
   port: 26279
   server: 80.173.230.196
   skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  sni: 219.76.135.98
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: dddffgthyu.922922.shop
-  tls: false
-  type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: dDdFfGTHYU.922922.SHOP
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
-  type: trojan
-- name: 台湾省台中市+中华电信
-  password: 3692ef88-4d16-4848-a01b-b646f9448b11
-  port: 35501
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
+- name: 德国+黑森州法兰克福Choopa数据中心
+  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
+  port: 20994
+  server: 45.32.158.138
+  sni: ads.x5.ru
   type: trojan
 - alterId: 2
   cipher: auto
