@@ -1,4 +1,11 @@
 proxies:
+- name: 法国+OVH机房SAS硬盘BGP主机
+  network: tcp
+  port: 443
+  server: 5.135.29.36
+  tls: false
+  type: vless
+  uuid: e0124a45-0438-4b15-be70-8c91e714e568
 - alpn:
   - ''
   client-fingerprint: chrome
