@@ -4,73 +4,28 @@ proxies:
   name: 美国 CloudFlare节点
   network: ws
   port: '8080'
-  server: digitalocean.com
+  server: 104.21.69.44
   servername: ''
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn?ed=2560
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: tgju.org
+  name: 美国 Microsoft数据中心
+  network: tcp
+  port: '15834'
+  server: 20.193.153.19
   servername: ''
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    path: /nasnet/cdn?ed=2560
+  uuid: 39a8c374-76b1-4e90-ab85-85cd9a42ded2
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '443'
-  server: 104.18.32.47
-  servername: vmess.lionandsunflag.com
-  tls: true
-  type: vmess
-  uuid: 2502de49-9f51-40a4-8b1a-a41aa9e8d19d
-  ws-opts:
-    headers:
-      Host: vmess.lionandsunflag.com
-    path: /3/device/
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '443'
-  server: sy4.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: sy4.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
-  network: ws
-  port: 80
-  server: ZzXxdE.922922.sHOp
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: ZzXxdE.922922.sHOp
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
-- alterId: 0
-  cipher: auto
-  name: 美国 Cloudinnovation数据中心
+  name: '美国 Cloudinnovation数据中心 #1'
   network: ws
   port: '2086'
   server: 154.83.2.156
@@ -81,25 +36,39 @@ proxies:
     headers:
       Host: v205.19740822.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: dddffgthyu.922922.shop
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  ws-opts:
+    headers:
+      Host: dDdFfGTHYU.922922.SHOP
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
 - name: 美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 491
-  server: 113.230.22.2
+  port: 443
+  server: 38.180.137.196
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 5076
-  server: 46.51.237.24
+  port: 443
+  server: 38.180.193.194
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1221
-  server: 43.199.77.22
+  server: 3.112.197.3
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
