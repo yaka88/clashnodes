@@ -3,13 +3,13 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0005
+  name: RU_speednode_0026
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
     public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: '!!str 887c0d72e771a934'
-  server: 158.160.221.132
+    short-id: '!!str 1929ef620e9b34f5'
+  server: 158.160.105.121
   servername: yandex.ru
   skip-cert-verify: false
   tls: false
@@ -19,13 +19,45 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0006
+  name: RU_speednode_0027
+  network: tcp
+  port: 50652
+  reality-opts:
+    public-key: NXo5uRsVEmNtYWahGbEjr-y2IloJTgBc3WQmq60F2T8
+    short-id: '!!str 78781cd4b7f0'
+  server: 5.188.35.49
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e2efcdb7-7d9b-4b29-8a0e-e6b1b6e10037
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0028
   network: tcp
   port: 8443
   reality-opts:
     public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: '!!str 04bf0403f96e5b4b'
-  server: 84.252.143.25
+    short-id: '!!str 48fccabc158a4c22'
+  server: 37.139.34.145
+  servername: m.vk.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1e4649f5-f5d6-4896-9be0-4c6725d4106e
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0029
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: '!!str 48fccabc158a4c22'
+  server: 158.160.223.36
   servername: yandex.ru
   skip-cert-verify: false
   tls: false
@@ -35,7 +67,55 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0007
+  name: RU_speednode_0030
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: '!!str 887c0d72e771a934'
+  server: 158.160.105.121
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0031
+  network: tcp
+  port: 51102
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: '!!str 887c0d72e771a934'
+  server: 158.160.105.121
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0032
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str 205748bc0f24a747'
+  server: 89.169.162.214
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0033
   network: tcp
   port: 443
   reality-opts:
@@ -51,9 +131,9 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0008
+  name: RU_speednode_0034
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
     public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
     short-id: '!!str 205748bc0f24a747'

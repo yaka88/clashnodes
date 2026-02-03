@@ -1,10 +1,24 @@
 proxies:
+- name: 台湾省台中市+中华电信
+  password: 14f7a5c0-e8ae-40a7-884c-41555730e3b6
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 德国+黑森州法兰克福Choopa数据中心
+  password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s
+  port: 20994
+  server: 45.32.158.138
+  sni: ads.x5.ru
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: '8080'
   server: digitalocean.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -14,51 +28,18 @@ proxies:
     path: /NASNET/cdn?ed=2560
 - alterId: 0
   cipher: auto
-  name: '法国 OVH SAS #2'
+  name: 巴西圣保罗 CloudFlare节点
   network: ws
-  port: 443
-  server: 91.134.8.101
+  port: '8080'
+  server: 188.114.98.0
   servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 美国 Cloudinnovation数据中心
-  network: ws
-  port: '2086'
-  server: 154.83.2.156
   tls: false
   type: vmess
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: v205.19740822.xyz
-    path: /
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.236
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '法国 OVH SAS #1'
-  network: ws
-  port: 443
-  server: 91.134.8.101
-  servername: fapeng.org
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: fapeng.org
-    path: linkvws
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
@@ -73,20 +54,82 @@ proxies:
     headers:
       Host: nasnet-571296497.iranpress.co
     path: /nasnet/cdn?ed=2560
-- name: '香港+电讯盈科有限公司 #1'
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '443'
+  server: 104.18.32.47
+  servername: vmess.lionandsunflag.com
+  tls: true
+  type: vmess
+  uuid: 2502de49-9f51-40a4-8b1a-a41aa9e8d19d
+  ws-opts:
+    headers:
+      Host: vmess.lionandsunflag.com
+    path: /3/device/
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0013
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- name: '台湾省台中市+中华电信 #1'
+  password: 3692ef88-4d16-4848-a01b-b646f9448b11
+  port: 35501
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 香港+电讯盈科有限公司
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
-- name: 台湾省台中市+中华电信
-  password: 14f7a5c0-e8ae-40a7-884c-41555730e3b6
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: 80
+  server: ZzXxdE.922922.sHOp
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  ws-opts:
+    headers:
+      Host: ZzXxdE.922922.sHOp
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
+- alterId: 0
+  cipher: auto
+  name: 美国 Cloudinnovation数据中心
+  network: ws
+  port: '2086'
+  server: 154.83.2.156
+  tls: false
+  type: vmess
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -187,3 +230,49 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: HK_speednode_0019
+  network: tcp
+  port: 54732
+  server: 8.217.13.74
+  tls: false
+  type: vmess
+  uuid: d7c8da9f-d9ff-4198-8543-3983a6bfe5e6
+- alterId: 0
+  cipher: auto
+  name: HK_speednode_0020
+  network: tcp
+  port: 32975
+  server: 47.242.225.0
+  tls: false
+  type: vmess
+  uuid: ebaad525-e2cf-4c18-8ae9-41af29ac4b9c
+- alterId: 0
+  cipher: auto
+  name: HK_speednode_0021
+  network: tcp
+  port: 25351
+  server: 8.218.1.23
+  tls: false
+  type: vmess
+  uuid: a6dbf509-5293-4005-b86c-c0fca609a1af
+- alpn:
+  - ''
+  name: IN_speednode_0022
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: amanm.wsone.icu
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: KR_speednode_0023
+  network: tcp
+  port: 52850
+  server: 49.128.219.21
+  tls: false
+  type: vmess
+  uuid: 8dc4a51e-9c44-48a5-9e21-ff65a9343c8f

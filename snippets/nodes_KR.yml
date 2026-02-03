@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: KR_speednode_0023
+  network: tcp
+  port: 52850
+  server: 49.128.219.21
+  tls: false
+  type: vmess
+  uuid: 8dc4a51e-9c44-48a5-9e21-ff65a9343c8f
