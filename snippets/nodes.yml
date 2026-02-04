@@ -1,71 +1,80 @@
 proxies:
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.172
-  sni: web.max.ru
-  type: trojan
-- name: 俄罗斯+V2CROSS.COM
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  skip-cert-verify: false
-  sni: ya.ru
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 伊朗 V2CROSS.COM
+  network: ws
+  port: 40956
+  server: 95.81.123.15
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 4ec66d81-9565-4d8e-ae58-2bacfde95f48
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: tcp
+  port: '58623'
+  server: 160.191.245.48
+  tls: false
+  type: vmess
+  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
 - alterId: 0
   cipher: auto
   name: 美国 华盛顿Cogent通信公司
   network: none
-  port: 40357
+  port: 27493
   server: 38.180.190.4
   tls: false
   type: vmess
-  uuid: 24c7746d-982c-4c08-b6f4-f127cde15aeb
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: ''
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0013
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 保加利亚 V2CROSS.COM
-  network: none
-  port: 24804
-  server: 130.185.251.109
-  tls: false
-  type: vmess
-  uuid: 8fd82834-1355-4bf0-e393-d2592b4fad50
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 华盛顿Cogent通信公司 #1'
-  network: none
-  port: 46127
-  server: 38.180.190.4
-  tls: false
-  type: vmess
-  uuid: d8f4e4e1-263f-40c7-aa4a-a50aa0ba3494
+  uuid: 3462f294-4731-4eb0-86a9-d09e91be420c
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: digitalocean.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '8080'
+  server: tgju.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    path: /nasnet/cdn?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
   network: ws
   port: '8080'
   server: 172.64.149.182
@@ -79,22 +88,38 @@ proxies:
     path: /nasnet/cdn?ed=2560
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: '伊朗 V2CROSS.COM #1'
   network: ws
-  port: 8080
-  server: 104.21.69.44
-  tls: false
+  port: 40956
+  server: 95.81.123.15
+  servername: imafake.locker
+  tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
   ws-opts:
     headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
-- name: 冰岛+V2CROSS.COM
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  port: 28099
-  server: 37.235.49.209
-  sni: celestialcorset.crystalhamster.click
+      Host: imafake.locker
+    path: /speedtest
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.172
+  sni: web.max.ru
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: ''
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 台湾省台中市+中华电信
+  password: f3582fb3-6a0e-482b-a560-8c19dd40cce9
+  port: 31101
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 2
   cipher: auto
@@ -196,6 +221,15 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0013
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: HK_speednode_0019
