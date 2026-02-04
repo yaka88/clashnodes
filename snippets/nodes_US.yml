@@ -1,23 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: '美国 Cloudinnovation数据中心 #1'
   network: ws
-  port: '443'
-  server: www.visa.com.hk
-  servername: choice-poetry-mug-bluetooth.trycloudflare.com
-  tls: true
+  port: 2086
+  server: 154.83.2.156
+  tls: false
   type: vmess
-  uuid: 95037be4-a578-4d31-a0a0-951cb09c746f
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
   ws-opts:
     headers:
-      Host: choice-poetry-mug-bluetooth.trycloudflare.com
-    path: /95037be4-a578-4d31-a0a0-951cb09c746f-vm
+      Host: v205.19740822.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国 V2CROSS.COM
   network: none
-  port: '10010'
+  port: 10010
   server: 68.167.181.220
   tls: false
   type: vmess

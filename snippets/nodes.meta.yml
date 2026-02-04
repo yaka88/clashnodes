@@ -1,36 +1,42 @@
 proxies:
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
-  type: trojan
-- name: 冰岛+V2CROSS.COM
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  port: 28099
-  server: 37.235.49.209
-  skip-cert-verify: true
-  sni: celestialcorset.crystalhamster.click
-  type: trojan
-- name: 法国+OVH机房SAS硬盘BGP主机
-  network: tcp
-  port: 443
-  server: 5.135.29.36
+- alterId: 0
+  cipher: auto
+  name: '美国 Cloudinnovation数据中心 #1'
+  network: ws
+  port: 2086
+  server: 154.83.2.156
   tls: false
-  type: vless
-  uuid: e0124a45-0438-4b15-be70-8c91e714e568
-- name: '加拿大+V2CROSS.COM #1'
-  network: tcp
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.169
-  skip-cert-verify: true
-  sni: ya.ru
-  type: trojan
+  type: vmess
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
 - name: 台湾省台中市+中华电信
-  password: fe04888f-970d-44c8-8b56-26a74ea26d3c
-  port: 31102
+  password: 63dbd122-6932-43ea-9c0e-06ed91f0d3d3
+  port: 35501
   server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.45
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: none
+  port: 10010
+  server: 68.167.181.220
+  tls: false
+  type: vmess
+  uuid: b4f7c326-5c4f-4e19-83d5-bfa43b461002
+- name: '台湾省台中市+中华电信 #1'
+  password: 223c2f69-6b95-4555-9f68-14b14d72b7ea
+  port: 35501
+  server: 220.130.58.136
   sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 0
@@ -42,44 +48,18 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '加拿大+V2CROSS.COM #2'
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.172
-  sni: web.max.ru
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: tcp
-  port: '58623'
-  server: 160.191.245.48
-  tls: false
-  type: vmess
-  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '443'
-  server: www.visa.com.hk
-  servername: choice-poetry-mug-bluetooth.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 95037be4-a578-4d31-a0a0-951cb09c746f
-  ws-opts:
-    headers:
-      Host: choice-poetry-mug-bluetooth.trycloudflare.com
-    path: /95037be4-a578-4d31-a0a0-951cb09c746f-vm
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: none
-  port: '10010'
-  server: 68.167.181.220
-  tls: false
-  type: vmess
-  uuid: b4f7c326-5c4f-4e19-83d5-bfa43b461002
+- name: '西班牙+V2CROSS.COM #1'
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: false
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
