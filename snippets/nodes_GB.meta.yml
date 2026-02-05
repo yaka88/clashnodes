@@ -1,90 +1,18 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0013
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0014
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ
-    short-id: '!!str '
-  server: mskhost.outlinekeys.net
-  servername: mskhost.outlinekeys.net
+  flow: ''
+  name: GB_speednode_0007
+  network: ws
+  port: 2096
+  server: 25.26.27.238
+  servername: sni.jpmj.dev
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 59edf6dc-b1f7-4017-8107-aae4f61a173c
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0015
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
-    short-id: '!!str 8bcfe256cf216fd8'
-  server: 185.21.14.199
-  servername: apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: a44e0875-210f-4941-9062-89b6361a14c6
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0016
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QxhDed0WtuJv9Gv5ilv4QdvaLDnCXJs_Q40O0DdBF20
-    short-id: '!!str 7f76d724ba84'
-  server: g4vpnx.online
-  servername: g4vpnx.online
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: ac37b554-11df-4cc9-bdf4-e551fc43ce39
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0017
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
-    short-id: '!!str 8bcfe256cf216fd8'
-  server: 91.84.112.93
-  servername: apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: a44e0875-210f-4941-9062-89b6361a14c6
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0018
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ
-    short-id: '!!str '
-  server: 77.239.124.88
-  servername: mskhost.outlinekeys.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: ce7f5e28-d72d-4006-8d70-f428a4721910
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: '%2F%3Fed%3D2560'

@@ -1,58 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 美国 Cloudinnovation数据中心
   network: ws
-  port: '80'
-  server: rrrgt.2030.pp.ua
+  port: '2086'
+  server: 154.83.2.156
   tls: false
   type: vmess
-  uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
   ws-opts:
     headers:
-      Host: rrrgt.2030.pp.ua
-    path: /eszjp4nTT8TxDHFepMpfNkCk8
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: digitalocean.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: sgal.dagrate.eu.org
-  tls: true
-  type: vmess
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  ws-opts:
-    headers:
-      Host: sgal.dagrate.eu.org
+      Host: v205.19740822.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #3'
+  name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: HHhjki.TAIwaN2028.indEvS.in
+  server: gggnnjui.191292.xyz
   tls: false
   type: vmess
-  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
+  uuid: b9bb332d-5e0d-41af-adac-49362dde8661
   ws-opts:
     headers:
-      Host: hHHJkI.taiwAn2028.iNDEVs.in
-    path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd
+      Host: gggnnjui.191292.xyz
+    path: /iqjxVCqiIAaLCt5Q2GkKGWRMg
+- alpn:
+  - http/1.1
+  name: 美国+Amazon数据中心
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.170.83
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
