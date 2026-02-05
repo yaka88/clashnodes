@@ -1,18 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 8443
-  server: 162.159.152.4
-  servername: frsys.fl-dl.com
-  tls: true
+  name: GB_speednode_0013
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
   type: vmess
-  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
-  ws-opts:
-    headers:
-      Host: ''
-    path: /gbt
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 俄罗斯+V2CROSS.COM
   password: ZblhWr0mqMakCPg.N
   port: 36158
@@ -21,17 +16,80 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: rrrgt.2030.pp.ua
+  tls: false
+  type: vmess
+  uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
+  ws-opts:
+    headers:
+      Host: rrrgt.2030.pp.ua
+    path: /eszjp4nTT8TxDHFepMpfNkCk8
+- alterId: 0
+  cipher: auto
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
   port: '8080'
-  server: 172.64.149.182
+  server: digitalocean.com
   servername: ''
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: nasnet-5712964102.sharghdaily.co
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: sgal.dagrate.eu.org
+  tls: true
+  type: vmess
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  ws-opts:
+    headers:
+      Host: sgal.dagrate.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 香港 阿里云
+  network: ws
+  port: '443'
+  server: n1761214906.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: c28a6258-7baa-40fc-8a51-87f59c847cd7
+  ws-opts:
+    headers:
+      Host: n1761214906.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 巴西圣保罗 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: 188.114.98.0
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn?ed=2560
 - name: 西班牙+V2CROSS.COM
   password: wp9IsiY82uQhcmgNC1eoBM
@@ -41,92 +99,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '443'
-  server: jjjmki.930.pp.ua
-  tls: true
-  type: vmess
-  uuid: b9bb332d-5e0d-41af-adac-49362dde8661
-  ws-opts:
-    headers:
-      Host: jjjmki.930.pp.ua
-    path: /iqjxVCqiIAaLCt5Q2GkKGWRMg
-- alterId: 0
-  cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
   port: '80'
-  server: gggnnjui.191292.xyz
-  tls: false
-  type: vmess
-  uuid: b9bb332d-5e0d-41af-adac-49362dde8661
-  ws-opts:
-    headers:
-      Host: gggnnjui.191292.xyz
-    path: /iqjxVCqiIAaLCt5Q2GkKGWRMg
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0013
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
-  network: ws
-  port: '80'
-  server: hhhhhhhhj.191266.xyz
-  tls: false
-  type: vmess
-  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
-  ws-opts:
-    headers:
-      Host: hhhhhhhhj.191266.xyz
-    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: '443'
-  server: Hhhjjkio.huaNGshanG.OnliNe
-  tls: true
-  type: vmess
-  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
-  ws-opts:
-    headers:
-      Host: HhhjjKIo.huanGSHAng.OnLINE
-    path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #6'
-  network: ws
-  port: '8080'
-  server: 104.21.69.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #7'
-  network: ws
-  port: '80'
-  server: mmmki.890634.xYZ
+  server: HHhjki.TAIwaN2028.indEvS.in
   tls: false
   type: vmess
   uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
   ws-opts:
     headers:
-      Host: Mmmki.890634.XYz
+      Host: hHHJkI.taiwAn2028.iNDEVs.in
     path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd
 - alterId: 2
   cipher: auto
