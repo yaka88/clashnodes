@@ -3,31 +3,99 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8443'
-  server: t1.620720.xyz
-  tls: true
+  port: '80'
+  server: nnnmko.0890604.xyz
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
   ws-opts:
     headers:
-      Host: t1.620720.xyz
-    path: /
+      Host: nnnmko.0890604.xyz
+    path: /HISLfofvqzd3a3izxYyZXOF
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '80'
-  server: nnmjkio.taipei101.indevs.in
+  port: '8080'
+  server: 172.67.204.84
+  servername: ''
   tls: false
   type: vmess
-  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: NnMJkIO.tAIpEI101.INDevs.in
-    path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '8080'
+  server: digitalocean.com
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 80
+  server: vVVbNHj.191288.xYz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
+  ws-opts:
+    headers:
+      Host: VvVBnHj.191288.XYZ
+    path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: '80'
+  server: rrrgt.2030.pp.ua
+  tls: false
+  type: vmess
+  uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
+  ws-opts:
+    headers:
+      Host: rrrgt.2030.pp.ua
+    path: /eszjp4nTT8TxDHFepMpfNkCk8
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
+  port: '443'
+  server: tttyu.2030.pp.ua
+  tls: true
+  type: vmess
+  uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
+  ws-opts:
+    headers:
+      Host: tttyu.2030.pp.ua
+    path: /eszjp4nTT8TxDHFepMpfNkCk8
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #6'
+  network: ws
+  port: '8080'
+  server: 172.64.149.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #7'
   network: ws
   port: '8080'
   server: 104.21.69.44
@@ -41,59 +109,32 @@ proxies:
     path: /nasnet/cdn
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: 8443
-  server: t1.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
-  network: ws
-  port: 8443
-  server: c7.620720.xyz
-  servername: c7.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: c7.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
+  name: '美国 CloudFlare节点 #8'
   network: ws
   port: 443
-  server: sy4.620720.xyz
+  server: jjjk.191268.xyz
   servername: ''
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
   ws-opts:
     headers:
-      Host: sy4.620720.xyz
-    path: /
+      Host: jjjk.191268.xyz
+    path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd
 - alterId: 0
   cipher: auto
-  name: 美国 Cloudinnovation数据中心
+  name: '美国 CloudFlare节点 #9'
   network: ws
-  port: 2086
-  server: 154.83.2.156
+  port: 443
+  server: NmK.288288.SHop
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
   ws-opts:
     headers:
-      Host: v205.19740822.xyz
-    path: /
+      Host: NMk.288288.shoP
+    path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd
 - name: 美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
