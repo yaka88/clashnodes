@@ -4,102 +4,113 @@ proxies:
   name: 美国 CloudFlare节点
   network: ws
   port: '8080'
-  server: 104.21.69.44
+  server: digitalocean.com
   servername: ''
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn?ed=2560
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '80'
-  server: rrrgt.2030.pp.ua
-  tls: false
+  port: 8443
+  server: 172.64.152.23
+  servername: frsys.fl-dl.com
+  tls: true
   type: vmess
-  uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
+  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
   ws-opts:
     headers:
-      Host: rrrgt.2030.pp.ua
-    path: /eszjp4nTT8TxDHFepMpfNkCk8
+      Host: frsys.fl-dl.com
+    path: /gbt
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
-  port: '8080'
-  server: 172.67.204.84
-  servername: ''
+  port: '80'
+  server: fffffg.890602.pp.ua
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 4a7baca1-8048-4a91-8316-595b36657a54
   ws-opts:
     headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: 美国 Cloudinnovation数据中心
-  network: ws
-  port: 2086
-  server: 154.83.2.156
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-  ws-opts:
-    headers:
-      Host: v205.19740822.xyz
-    path: /
+      Host: fffffg.890602.pp.ua
+    path: /TaBvkrUbsyvsvinsGGg
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
   port: '80'
-  server: gggnnjui.191292.xyz
+  server: CCCVFffF.191288.Xyz
   tls: false
   type: vmess
-  uuid: b9bb332d-5e0d-41af-adac-49362dde8661
+  uuid: 4a7baca1-8048-4a91-8316-595b36657a54
   ws-opts:
     headers:
-      Host: gggnnjui.191292.xyz
-    path: /iqjxVCqiIAaLCt5Q2GkKGWRMg
+      Host: cCCVfffF.191288.xyZ
+    path: /TaBvkrUbsyvsvinsGGg
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #4'
   network: ws
+  port: '80'
+  server: nnmjkio.taipei101.indevs.in
+  tls: false
+  type: vmess
+  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  ws-opts:
+    headers:
+      Host: NnMJkIO.tAIpEI101.INDevs.in
+    path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
   port: '8080'
-  server: 172.64.149.182
-  servername: ''
+  server: tgju.org
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: nasnet-5712964102.sharghdaily.co
+      Host: nasnet-571296497.iranpress.co
     path: /nasnet/cdn?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #6'
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 443
-  server: 38.180.190.13
+  port: 1276
+  server: 160.16.231.103
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 443
-  server: 38.180.107.76
+  port: 2760
+  server: 160.16.231.103
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 52.194.248.81
+  port: 3159
+  server: 18.181.177.51
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
