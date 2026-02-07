@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  name: FR_speednode_0021
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 135.125.232.253
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
