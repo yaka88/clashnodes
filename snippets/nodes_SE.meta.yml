@@ -1,5 +1,6 @@
 proxies:
-- name: 瑞典+V2CROSS.COM
+- flow: ''
+  name: 瑞典+V2CROSS.COM
   network: tcp
   port: 50
   server: dd.openaccessnode.com
