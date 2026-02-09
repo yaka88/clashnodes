@@ -1,18 +1,4 @@
 proxies:
-- name: 冰岛+V2CROSS.COM
-  network: tcp
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  port: 28099
-  server: 37.235.49.209
-  skip-cert-verify: true
-  sni: celestialcorset.crystalhamster.click
-  type: trojan
-- name: 俄罗斯+V2CROSS.COM
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  sni: ya.ru
-  type: trojan
 - alterId: 0
   cipher: auto
   name: US_speednode_0082
@@ -27,21 +13,107 @@ proxies:
     headers:
       Host: app.hajmyab.ir
     path: /
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
-- name: '西班牙+V2CROSS.COM #1'
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  skip-cert-verify: false
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+  tls: true
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: BbBBBBBh.hUAngsHANg.OnLINe
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  ws-opts:
+    headers:
+      Host: BBBBbbBh.HUangSHaNg.oNline
+    path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '8080'
+  server: 172.67.204.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: 法国 OVH SAS
+  network: ws
+  port: 443
+  server: 91.134.8.101
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- name: '冰岛+V2CROSS.COM #1'
+  network: tcp
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  skip-cert-verify: true
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: '8080'
+  server: 104.24.169.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn#/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: '8080'
+  server: 104.21.69.44
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
   network: ws
   port: 443
   server: 162.159.152.4
@@ -53,27 +125,6 @@ proxies:
     headers:
       Host: ''
     path: /vmessws
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: sgal.dagrate.eu.org
-  tls: true
-  type: vmess
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  ws-opts:
-    headers:
-      Host: sgal.dagrate.eu.org
-    path: /
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
