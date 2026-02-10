@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- name: 瑞典+V2CROSS.COM
+  network: tcp
+  port: 50
+  server: dd.openaccessnode.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: SE_speednode_0035
+  network: ws
+  port: 443
+  server: 77.221.143.154
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: SE_speednode_0036
+  network: ws
+  port: 443
+  server: 77.221.140.170
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fed%3D2560'

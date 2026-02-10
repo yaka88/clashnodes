@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  name: DE_speednode_0014
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.77.68.129
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: DE_speednode_0016
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.195.91.205
+  skip-cert-verify: true
+  sni: ''
+  type: trojan

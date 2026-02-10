@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: tcp
-  port: '58623'
-  server: 160.191.245.48
-  tls: false
-  type: vmess
-  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -30,3 +21,13 @@ proxies:
   server: 160.16.72.33
   sni: www.nintendogames.net
   type: trojan
+- name: JP_speednode_0022
+  obfs: ''
+  obfs-password: ''
+  password: d293e0e7-09e9-4d46-97b7-5b7ec0101f24
+  port: 8463
+  server: hmjp.my169vip.top
+  skip-cert-verify: true
+  sni: hmjp.my169vip.top
+  tls: false
+  type: hysteria2
