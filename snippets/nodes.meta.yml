@@ -1,18 +1,58 @@
 proxies:
+- name: 冰岛+V2CROSS.COM
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- name: 台湾省台中市+中华电信
+  password: b9c65989-f046-476a-b3ca-fe0549787f08
+  port: 35502
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: US_speednode_0082
+  name: 美国 CloudFlare节点
   network: ws
-  port: 2053
-  server: nextmi.hajmyab.ir
-  servername: yakxvtfbyk.hajmyab.ir
+  port: '8443'
+  server: t1.620720.xyz
   tls: true
   type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: app.hajmyab.ir
+      Host: t1.620720.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '8080'
+  server: 172.64.149.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 80
+  server: turk1.net.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
@@ -24,31 +64,29 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: '美国 CloudFlare节点 #3'
   network: ws
-  port: '80'
-  server: turk1.net.net
-  servername: ''
-  tls: false
+  port: '443'
+  server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+  tls: true
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
+      Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: '美国 CloudFlare节点 #4'
   network: ws
   port: '8080'
-  server: 104.24.169.183
+  server: digitalocean.com
   servername: ''
   tls: false
   type: vmess
@@ -56,49 +94,7 @@ proxies:
   ws-opts:
     headers:
       Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn#/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-- name: 台湾省台中市+中华电信
-  password: b17cb30b-8379-471b-861e-c5fbf218a8fd
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.152
-  sni: ozon.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '8080'
-  server: tgju.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    path: /nasnet/cdn
-- flow: ''
-  name: 瑞典+V2CROSS.COM
-  network: tcp
-  port: 50
-  server: dd.openaccessnode.com
-  tls: false
-  type: vless
-  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
-- name: '台湾省台中市+中华电信 #1'
-  password: 4df6304c-39f9-4cc2-9d64-e7cba3fc12e4
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
+    path: /NASNET/cdn?ed=2560
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -1453,6 +1449,20 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0082
+  network: ws
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
 - alpn:
   - ''
   client-fingerprint: ''
