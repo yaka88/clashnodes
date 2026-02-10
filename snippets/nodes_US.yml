@@ -1,21 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: US_speednode_0082
   network: ws
-  port: '8080'
-  server: 172.67.204.84
-  servername: ''
-  tls: false
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
+  tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
   ws-opts:
     headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
+      Host: app.hajmyab.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '80'
+  server: turk1.net.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
   network: ws
   port: '8080'
   server: 104.24.169.183
@@ -29,31 +43,18 @@ proxies:
     path: /NASNET/cdn#/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: '美国 CloudFlare节点 #3'
   network: ws
   port: '8080'
-  server: 104.21.69.44
+  server: tgju.org
   servername: ''
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: nasnet-511952424.mcitel.co
+      Host: nasnet-571296497.iranpress.co
     path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '443'
-  server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
-  tls: true
-  type: vmess
-  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
-  ws-opts:
-    headers:
-      Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
-    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
 - name: 美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
@@ -90,17 +91,3 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0082
-  network: ws
-  port: 2053
-  server: nextmi.hajmyab.ir
-  servername: yakxvtfbyk.hajmyab.ir
-  tls: true
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  ws-opts:
-    headers:
-      Host: app.hajmyab.ir
-    path: /
