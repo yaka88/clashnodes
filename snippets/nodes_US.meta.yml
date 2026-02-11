@@ -1,48 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: turk1.net.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: 104.21.69.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '8080'
-  server: 172.64.149.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn?ed=2560
-- alterId: 0
-  cipher: auto
   name: 美国 V2CROSS.COM
   network: ws
   port: 2053
@@ -57,10 +15,79 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #3'
+  name: 美国 CloudFlare节点
   network: ws
   port: '8080'
   server: 172.67.204.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '80'
+  server: mk.tc0.ccwu.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  ws-opts:
+    headers:
+      Host: mk.tc0.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: '443'
+  server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+  tls: true
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
+  port: '80'
+  server: turk1.net.net
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #6'
+  network: ws
+  port: '8080'
+  server: 104.21.69.44
   servername: ''
   tls: false
   type: vmess
