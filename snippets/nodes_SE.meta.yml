@@ -1,4 +1,12 @@
 proxies:
+- flow: ''
+  name: 瑞典+V2CROSS.COM
+  network: tcp
+  port: 50
+  server: dd.openaccessnode.com
+  tls: false
+  type: vless
+  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
 - alpn:
   - ''
   client-fingerprint: chrome
