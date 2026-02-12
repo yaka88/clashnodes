@@ -21,13 +21,19 @@ proxies:
   server: 160.16.105.192
   sni: www.nintendogames.net
   type: trojan
-- name: JP_speednode_0022
-  obfs: ''
-  obfs-password: ''
-  password: d293e0e7-09e9-4d46-97b7-5b7ec0101f24
-  port: 8463
-  server: hmjp.my169vip.top
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: JP_speednode_0004
+  network: tcp
+  port: 48816
+  reality-opts:
+    public-key: fk4uHkIWXJ5MbcsFASbAhKlC5gV9m-XovXftmIDSuxo
+    short-id: '!!str 21280d81'
+  server: 38.207.130.145
+  servername: www.python.org
   skip-cert-verify: true
-  sni: hmjp.my169vip.top
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 570d1a03-6acf-40ca-819e-1049906235d9

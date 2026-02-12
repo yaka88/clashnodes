@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '80'
+  port: 80
   server: yhj.tc1.ccwu.cc
   servername: ''
   tls: false
@@ -17,75 +17,61 @@ proxies:
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 80
-  server: bbnj.wc9.ccwu.cc
-  servername: ''
+  port: '80'
+  server: mk.tc0.ccwu.cc
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: bbnj.wc9.ccwu.cc
+      Host: mk.tc0.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
   port: '80'
-  server: mmkio.tc6.ccwu.cc
-  servername: ''
+  server: nmj.wc8.ccwu.cc
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: mmkio.tc6.ccwu.cc
+      Host: nmj.wc8.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
-  port: '2053'
-  server: nextmi.hajmyab.ir
-  servername: yakxvtfbyk.hajmyab.ir
-  tls: true
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  ws-opts:
-    headers:
-      Host: app.hajmyab.ir
-    path: /
+- name: 美国+Amazon数据中心
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.185.255
+  type: trojan
 - name: 台湾省台中市+中华电信
-  password: e4b2b196-92cb-4977-ab48-429c533fd97c
-  port: 31102
+  password: 15ee69de-6235-47b5-a28d-7f746424ea57
+  port: 31103
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
+- name: 西班牙+V2CROSS.COM
   network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
-  port: 80
-  server: nju.bb4.indevs.in
-  servername: ''
-  tls: false
+  port: '443'
+  server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+  tls: true
   type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
   ws-opts:
     headers:
-      Host: nju.bb4.indevs.in
-    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-- name: 西班牙+V2CROSS.COM
+      Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- name: '西班牙+V2CROSS.COM #1'
   password: wp9IsiY82uQhcmgNC1eoBM
   port: 12420
   server: 80.173.231.254
@@ -96,15 +82,57 @@ proxies:
   name: '美国 CloudFlare节点 #4'
   network: ws
   port: '80'
-  server: nmj.wc8.ccwu.cc
-  servername: ''
+  server: mmko.tt0.ccwu.cc
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: nmj.wc8.ccwu.cc
+      Host: mmko.tt0.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
+  port: '80'
+  server: turk1.net.net
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '台湾省台中市+中华电信 #1'
+  password: 6a97aa88-eb91-4ea5-a305-d1a4838c1875
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #6'
+  network: ws
+  port: '80'
+  server: nju.bb4.indevs.in
+  tls: false
+  type: vmess
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  ws-opts:
+    headers:
+      Host: nju.bb4.indevs.in
+    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -206,65 +234,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0007
-  network: ws
-  port: 16626
-  server: 103.181.165.104
-  tls: false
-  type: vmess
-  uuid: 23f4d251-d346-43f8-a59f-5ea41c454a0b
-  ws-opts:
-    headers:
-      Host: a2c9b05f120d7e6a27ed8a027731604d.mobgslb.tbcache.com
-    path: /
-- alpn:
-  - ''
-  name: DE_speednode_0014
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.77.68.129
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: DE_speednode_0016
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.195.91.205
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: FR_speednode_0017
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.180.72.19
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: ID_speednode_0019
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: qfdfsg.wsone.icu
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: KR_speednode_0023
-  network: tcp
-  port: 52838
-  server: 49.128.219.75
-  tls: false
-  type: vmess
-  uuid: 77bc10e1-65b0-443c-8a6d-e0a08506e056
