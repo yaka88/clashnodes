@@ -3,7 +3,20 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8080'
+  port: '80'
+  server: bbbnmki.kk7.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  ws-opts:
+    headers:
+      Host: bbbnmki.kk7.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 8080
   server: 172.64.149.182
   servername: ''
   tls: false
@@ -12,67 +25,41 @@ proxies:
   ws-opts:
     headers:
       Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn?ed=2560
+    path: /nasnet/cdn
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: mmko.tt0.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: mmko.tt0.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: '美国 CloudFlare节点 #6'
   network: ws
   port: 80
-  server: mmkio.wc5.ccwu.cc
+  server: bnmj.wc6.ccwu.cc
   servername: ''
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: mmkio.wc5.ccwu.cc
+      Host: bnmj.wc6.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
-  port: '443'
-  server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
-  tls: true
+  port: '80'
+  server: mmkio.tc6.ccwu.cc
+  tls: false
   type: vmess
-  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
-    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
-  port: '8443'
-  server: dll.avaaaal.ir
-  servername: cdge.avaaaal.ir
-  tls: true
-  type: vmess
-  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+      Host: mmkio.tc6.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #4'
   network: ws
-  port: '80'
+  port: 80
   server: nju.bb4.indevs.in
+  servername: ''
   tls: false
   type: vmess
   uuid: b020865b-7404-4894-ba65-a7414b10cda3
@@ -85,13 +72,13 @@ proxies:
   name: '美国 CloudFlare节点 #5'
   network: ws
   port: '80'
-  server: bnmj.wc6.ccwu.cc
+  server: mmko.tt0.ccwu.cc
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: bnmj.wc6.ccwu.cc
+      Host: mmko.tt0.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
 - name: 美国|@ripaojiedian
   network: tcp
