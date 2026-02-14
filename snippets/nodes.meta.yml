@@ -1,18 +1,88 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: ws
-  port: 47790
-  server: 36.50.90.241
-  servername: sg.dalxy.eu.org
-  tls: true
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
   type: vmess
-  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: tcp
+  port: '58623'
+  server: 160.191.245.48
+  tls: false
+  type: vmess
+  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
+  type: trojan
+- name: '西班牙+V2CROSS.COM #1'
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: 172.67.204.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: sg.dalxy.eu.org
-    path: /a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: turk1.net.net
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: '2053'
+  server: nextmi.hajmyab.ir
+  servername: nextmi.hajmyab.ir
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 8080
+  server: 172.64.149.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    path: /nasnet/cdn
 - name: 伊朗+V2CROSS.COM
   network: ws
   password: pYIoKUPGpWeTYXEx3HjR7s97B
@@ -27,79 +97,32 @@ proxies:
     path: '%2Ff2fc2a1f'
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: nju.bb4.indevs.in
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  ws-opts:
-    headers:
-      Host: nju.bb4.indevs.in
-    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: mmko.tt0.ccwu.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: mmko.tt0.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- name: 俄罗斯+V2CROSS.COM
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  sni: ya.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: 8080
-  server: 104.19.174.68
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn
-- name: 台湾省台中市+中华电信
-  password: 15ee69de-6235-47b5-a28d-7f746424ea57
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 0
-  cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
   port: '80'
-  server: bnmj.wc6.ccwu.cc
+  server: yhj.tc1.ccwu.cc
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: bnmj.wc6.ccwu.cc
+      Host: yhj.tc1.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #4'
   network: ws
-  port: 80
+  port: '80'
   server: mmkio.tc6.ccwu.cc
-  servername: ''
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
@@ -109,42 +132,23 @@ proxies:
     path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #5'
+  name: '美国 CloudFlare节点 #7'
   network: ws
   port: '80'
-  server: bbnj.wc9.ccwu.cc
+  server: bnmj.wc6.ccwu.cc
+  servername: ''
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: bbnj.wc9.ccwu.cc
+      Host: bnmj.wc6.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
-  port: 2053
-  server: nextmi.hajmyab.ir
-  servername: yakxvtfbyk.hajmyab.ir
-  tls: true
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  ws-opts:
-    headers:
-      Host: app.hajmyab.ir
-    path: /
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #6'
   network: ws
-  port: 8080
+  port: '8080'
   server: 172.64.149.182
   servername: ''
   tls: false
@@ -153,44 +157,7 @@ proxies:
   ws-opts:
     headers:
       Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #7'
-  network: ws
-  port: '8080'
-  server: 104.24.169.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn#/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #8'
-  network: ws
-  port: 80
-  server: nmj.wc8.ccwu.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: nmj.wc8.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
+    path: /nasnet/cdn?ed=2560
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
