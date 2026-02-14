@@ -3,21 +3,36 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '80'
-  server: mmkio.tc6.ccwu.cc
+  port: 80
+  server: nju.bb4.indevs.in
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  ws-opts:
+    headers:
+      Host: nju.bb4.indevs.in
+    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: mmko.tt0.ccwu.cc
+  servername: ''
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: mmkio.tc6.ccwu.cc
+      Host: mmko.tt0.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: '美国 CloudFlare节点 #2'
   network: ws
   port: 8080
-  server: 104.19.173.68
+  server: 104.19.174.68
   servername: ''
   tls: false
   type: vmess
@@ -28,34 +43,34 @@ proxies:
     path: /NASNET/cdn
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
+  name: '美国 CloudFlare节点 #3'
   network: ws
-  port: '2053'
-  server: nextmi.hajmyab.ir
-  tls: true
+  port: '80'
+  server: bnmj.wc6.ccwu.cc
+  tls: false
   type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: app.hajmyab.ir
-    path: /
+      Host: bnmj.wc6.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: '美国 CloudFlare节点 #4'
   network: ws
-  port: '8080'
-  server: 104.24.169.183
+  port: 80
+  server: mmkio.tc6.ccwu.cc
   servername: ''
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn#/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      Host: mmkio.tc6.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #3'
+  name: '美国 CloudFlare节点 #5'
   network: ws
   port: '80'
   server: bbnj.wc9.ccwu.cc
@@ -68,7 +83,21 @@ proxies:
     path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #4'
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #6'
   network: ws
   port: 8080
   server: 172.64.149.182
@@ -82,24 +111,25 @@ proxies:
     path: /nasnet/cdn
 - alterId: 0
   cipher: auto
-  name: 美国 Akamai科技公司CDN网络节点
+  name: '美国 CloudFlare节点 #7'
   network: ws
-  port: 443
-  server: 172.236.154.50
-  servername: sg.dalxy.eu.org
-  tls: true
+  port: '8080'
+  server: 104.24.169.183
+  servername: ''
+  tls: false
   type: vmess
-  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: sg.dalxy.eu.org
-    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn#/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #5'
+  name: '美国 CloudFlare节点 #8'
   network: ws
-  port: '80'
+  port: 80
   server: nmj.wc8.ccwu.cc
+  servername: ''
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
@@ -107,38 +137,25 @@ proxies:
     headers:
       Host: nmj.wc8.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #6'
-  network: ws
-  port: '80'
-  server: bnmj.wc6.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: bnmj.wc6.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
 - name: 美国|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 40548
-  server: 160.16.57.238
+  port: 2890
+  server: 54.64.61.41
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 2890
-  server: 57.180.14.50
+  port: 1281
+  server: 160.16.236.32
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3159
-  server: 43.207.89.113
+  port: 28680
+  server: 18.162.45.213
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
