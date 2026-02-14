@@ -4,17 +4,71 @@ proxies:
   name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: bbbnmki.kk7.ccwu.cc
+  server: mmkio.tc6.ccwu.cc
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: bbbnmki.kk7.ccwu.cc
+      Host: mmkio.tc6.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 8080
+  server: 104.19.173.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: '2053'
+  server: nextmi.hajmyab.ir
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '8080'
+  server: 104.24.169.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn#/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: '80'
+  server: bbnj.wc9.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  ws-opts:
+    headers:
+      Host: bbnj.wc9.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
   network: ws
   port: 8080
   server: 172.64.149.182
@@ -28,57 +82,43 @@ proxies:
     path: /nasnet/cdn
 - alterId: 0
   cipher: auto
+  name: 美国 Akamai科技公司CDN网络节点
+  network: ws
+  port: 443
+  server: 172.236.154.50
+  servername: sg.dalxy.eu.org
+  tls: true
+  type: vmess
+  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+  ws-opts:
+    headers:
+      Host: sg.dalxy.eu.org
+    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
+  port: '80'
+  server: nmj.wc8.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  ws-opts:
+    headers:
+      Host: nmj.wc8.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
+- alterId: 0
+  cipher: auto
   name: '美国 CloudFlare节点 #6'
   network: ws
-  port: 80
+  port: '80'
   server: bnmj.wc6.ccwu.cc
-  servername: ''
   tls: false
   type: vmess
   uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
       Host: bnmj.wc6.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '80'
-  server: mmkio.tc6.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: mmkio.tc6.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
-  network: ws
-  port: 80
-  server: nju.bb4.indevs.in
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  ws-opts:
-    headers:
-      Host: nju.bb4.indevs.in
-    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: '80'
-  server: mmko.tt0.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: mmko.tt0.ccwu.cc
     path: /kFK9O5cl8ZycyrxcJWNVFC21
 - name: 美国|@ripaojiedian
   network: tcp
