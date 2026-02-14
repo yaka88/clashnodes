@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: ws
+  port: '443'
+  server: n1747624282.lie5d.cyou
+  servername: n1747624282.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 30109222-8c53-41bc-9781-a01cdeb68e4c
+  ws-opts:
+    headers:
+      Host: n1747624282.lie5d.cyou
+    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
