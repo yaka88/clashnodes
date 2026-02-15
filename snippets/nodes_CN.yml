@@ -1,8 +1,1 @@
-proxies:
-- name: 广东省广州市+移动
-  network: tcp
-  password: a8f3baf4-0694-4f73-bebc-9e7f3ea01b95
-  port: 30003
-  server: jp10.jsyjiedian8.com
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
+proxies: []

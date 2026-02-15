@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: n1747624282.lie5d.cyou
-  servername: n1747624282.lie5d.cyou
-  tls: true
-  type: vmess
-  uuid: 30109222-8c53-41bc-9781-a01cdeb68e4c
-  ws-opts:
-    headers:
-      Host: n1747624282.lie5d.cyou
-    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -25,14 +11,14 @@ proxies:
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3423
-  server: 57.180.43.205
+  server: 52.195.215.231
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 193
-  server: 160.16.132.38
+  port: 3423
+  server: 35.77.86.187
   sni: www.nintendogames.net
   type: trojan
 - alpn:
