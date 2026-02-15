@@ -3,47 +3,19 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8080'
-  server: 104.24.169.183
+  port: 80
+  server: bbbnmki.kk7.ccwu.cc
   servername: ''
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   ws-opts:
     headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn#/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      Host: bbbnmki.kk7.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: digitalocean.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 192.200.160.173
-  servername: app.hajmyab.ir
-  tls: true
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
   network: ws
   port: 80
   server: turk1.net.net
@@ -57,38 +29,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: 80
-  server: bnmj.wc6.ccwu.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: bnmj.wc6.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
   name: '美国 CloudFlare节点 #4'
   network: ws
-  port: '80'
-  server: nju.bb4.indevs.in
+  port: 8080
+  server: 104.19.173.68
   servername: ''
-  tls: false
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  ws-opts:
-    headers:
-      Host: nju.bb4.indevs.in
-    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: '8080'
-  server: 104.19.37.10
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -96,14 +41,48 @@ proxies:
     headers:
       Host: nasnet-571299667.rahavard365.co
     path: /NASNET/cdn?ed=2560
-- flow: ''
-  name: 北美地区+V2CROSS.COM
-  network: tcp
-  port: 34816
-  server: 104.128.134.181
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 8080
+  server: 104.19.173.68
+  servername: ''
   tls: false
-  type: vless
-  uuid: fd058cd3-55fa-43ce-a634-1920b7d12c45
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
+  port: 8443
+  server: c7.620720.xyz
+  servername: c7.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: c7.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #6'
+  network: ws
+  port: '8080'
+  server: 104.21.69.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - name: 美国|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
