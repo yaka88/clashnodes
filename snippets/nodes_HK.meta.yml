@@ -3,8 +3,7 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.25.208
-  skip-cert-verify: true
-  sni: 58.152.25.208
+  sni: t.me/ripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto

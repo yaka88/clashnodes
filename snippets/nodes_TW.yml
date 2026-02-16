@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 台湾省台中市+中华电信
+  password: 302f7690-aae0-449c-bfe0-0c3ac869dbb2
+  port: 31101
+  server: 220.130.58.136
+  sni: green2.cdntencentmusic.com
+  type: trojan
