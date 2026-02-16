@@ -1,8 +1,1 @@
-proxies:
-- name: 法国+V2CROSS.COM
-  network: tcp
-  port: 80
-  server: 194.5.205.229
-  tls: false
-  type: vless
-  uuid: fac24178-0629-41ea-a0f3-54030f594dec
+proxies: []
