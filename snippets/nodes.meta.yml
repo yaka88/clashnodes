@@ -1,127 +1,81 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 伊朗 V2CROSS.COM
+  name: 中国 V2CROSS.COM
   network: tcp
-  port: '17356'
-  server: freedom.vipgsmteam.info
-  servername: ''
+  port: '30830'
+  server: v30.hdacd.com
   tls: false
   type: vmess
-  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  type: trojan
 - name: 台湾省台中市+中华电信
-  password: 302f7690-aae0-449c-bfe0-0c3ac869dbb2
+  password: 04e5b584-1850-483d-a844-9ad624a4ca8e
   port: 31101
   server: 220.130.58.136
   sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: 2053
+  server: 192.200.160.173
+  servername: app.hajmyab.ir
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: ws
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: yhj.tc1.ccwu.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: yhj.tc1.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: turk1.net.net
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /
-- flow: ''
-  name: 北美地区+V2CROSS.COM
-  network: tcp
-  port: 34816
-  server: 104.128.134.181
-  tls: false
-  type: vless
-  uuid: fd058cd3-55fa-43ce-a634-1920b7d12c45
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '8080'
-  server: tgju.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    path: /nasnet/cdn?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 中国 V2CROSS.COM
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '8080'
-  server: 172.64.149.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
-  network: ws
-  port: '80'
-  server: njui.ae1autumn.indevs.in
-  servername: njui.ae1autumn.indevs.in
+  server: gt6.ae1.us.ci
+  servername: gt6.ae1.us.ci
   tls: false
   type: vmess
   uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
   ws-opts:
     headers:
-      Host: njui.ae1autumn.indevs.in
+      Host: gt6.ae1.us.ci
     path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: '80'
-  server: jjki.ae1autumn.us.ci
-  servername: jjki.ae1autumn.us.ci
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  ws-opts:
-    headers:
-      Host: jjki.ae1autumn.us.ci
-    path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.208
-  sni: t.me/ripaojiedian
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '台湾省台中市+中华电信 #1'
+  password: 852a0251-7fbd-4a07-a365-352695af950c
+  port: 31103
+  server: 220.130.58.136
+  sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 2
   cipher: auto

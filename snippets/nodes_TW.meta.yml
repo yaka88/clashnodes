@@ -1,7 +1,13 @@
 proxies:
 - name: 台湾省台中市+中华电信
-  password: 302f7690-aae0-449c-bfe0-0c3ac869dbb2
+  password: 04e5b584-1850-483d-a844-9ad624a4ca8e
   port: 31101
+  server: 220.130.58.136
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '台湾省台中市+中华电信 #1'
+  password: 852a0251-7fbd-4a07-a365-352695af950c
+  port: 31103
   server: 220.130.58.136
   sni: green2.cdntencentmusic.com
   type: trojan

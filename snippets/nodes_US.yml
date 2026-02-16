@@ -1,87 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 美国 V2CROSS.COM
   network: ws
-  port: '80'
-  server: yhj.tc1.ccwu.cc
-  servername: ''
-  tls: false
+  port: 2053
+  server: 192.200.160.173
+  servername: app.hajmyab.ir
+  tls: true
   type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
   ws-opts:
     headers:
-      Host: yhj.tc1.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: turk1.net.net
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: '美国 V2CROSS.COM #1'
   network: ws
-  port: '8080'
-  server: tgju.org
+  port: 2053
+  server: nextmi.hajmyab.ir
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
   ws-opts:
     headers:
-      Host: nasnet-571296497.iranpress.co
-    path: /nasnet/cdn?ed=2560
+      Host: app.hajmyab.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '8080'
-  server: 172.64.149.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
+  name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: njui.ae1autumn.indevs.in
-  servername: njui.ae1autumn.indevs.in
+  server: gt6.ae1.us.ci
+  servername: gt6.ae1.us.ci
   tls: false
   type: vmess
   uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
   ws-opts:
     headers:
-      Host: njui.ae1autumn.indevs.in
-    path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: '80'
-  server: jjki.ae1autumn.us.ci
-  servername: jjki.ae1autumn.us.ci
-  tls: false
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  ws-opts:
-    headers:
-      Host: jjki.ae1autumn.us.ci
+      Host: gt6.ae1.us.ci
     path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
 - name: 美国|@ripaojiedian
   network: tcp
