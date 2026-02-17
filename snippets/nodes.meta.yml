@@ -1,60 +1,77 @@
 proxies:
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #4'
+  name: 美国 CloudFlare节点
   network: ws
-  port: 80
-  server: turk1.net.net
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
-  tls: false
+  port: 443
+  server: jjki.ae1autumn.us.ci
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com.
-    path: /
+      Host: jjki.ae1autumn.us.ci
+    path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 8080
-  server: 104.19.173.68
+  port: '8080'
+  server: 172.64.149.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    path: /nasnet/cdn?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 巴西圣保罗 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: 188.114.98.0
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '8080'
+  server: 104.26.14.85
   servername: ''
   tls: false
   type: vmess
   uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
   ws-opts:
     headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn
-- name: 台湾省台中市+中华电信
-  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
-  port: 31102
-  server: 220.130.58.136
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '80'
-  server: jjmk.wc2.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: jjmk.wc2.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: 104.21.76.158
+  servername: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: null
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
   network: ws
   port: 80
   server: jj90.ae1autumn.us.ci
@@ -66,16 +83,9 @@ proxies:
     headers:
       Host: jj90.ae1autumn.us.ci
     path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-- name: 伊朗+V2CROSS.COM
-  network: tcp
-  port: 26480
-  server: s9.daneshvardost.com
-  tls: false
-  type: vless
-  uuid: 6919e588-cff3-4c1b-b7a3-3ca0ada5fb69
-- name: '台湾省台中市+中华电信 #1'
-  password: b2e15b49-6606-4c62-baff-7015390b3c6a
-  port: 31101
+- name: 台湾省台中市+中华电信
+  password: 852a0251-7fbd-4a07-a365-352695af950c
+  port: 31103
   server: 220.130.58.136
   sni: green2.cdntencentmusic.com
   type: trojan
@@ -83,28 +93,16 @@ proxies:
   cipher: auto
   name: '美国 CloudFlare节点 #5'
   network: ws
-  port: '8443'
-  server: t1.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: t1.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #6'
-  network: ws
-  port: '80'
-  server: turk1.net.net
+  port: '8080'
+  server: tgju.org
+  servername: ''
   tls: false
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
