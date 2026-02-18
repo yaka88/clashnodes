@@ -1,37 +1,63 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 美国 V2CROSS.COM
   network: ws
-  port: 443
-  server: 172.67.178.212
-  servername: 67.7777112.xyz
+  port: 8443
+  server: dll.avaaaal.ir
   tls: true
   type: vmess
-  uuid: 2215657e-2af4-405f-b770-4e61b298d5b8
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
   ws-opts:
     headers:
-      Host: 67.7777112.xyz
-    path: /PGsqb2SHJfbCLo
+      Host: cdge.avaaaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: turk1.net.net
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
   port: 80
-  server: bbbnmki.kk7.ccwu.cc
+  server: turk1.net.net
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '8080'
+  server: 104.21.69.44
   servername: ''
   tls: false
   type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: bbbnmki.kk7.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
 - name: 美国|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 1281
-  server: 153.121.38.213
+  server: 43.207.73.82
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
