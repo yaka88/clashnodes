@@ -1,58 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
+  name: 北美地区 V2CROSS.COM
   network: ws
-  port: 8443
-  server: dll.avaaaal.ir
+  port: '443'
+  server: 198.62.62.199
+  servername: ous3.dean52.top
   tls: true
   type: vmess
-  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
   ws-opts:
     headers:
-      Host: cdge.avaaaal.ir
-    path: /
+      Host: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '80'
-  server: turk1.net.net
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: turk1.net.net
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
   port: '8080'
-  server: 104.21.69.44
+  server: digitalocean.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
   ws-opts:
     headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
 - name: 美国|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
