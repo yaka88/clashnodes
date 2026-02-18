@@ -1,46 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 台湾省台中市+中华电信
-  password: b2e15b49-6606-4c62-baff-7015390b3c6a
-  port: 31101
-  server: 220.130.58.136
-  skip-cert-verify: false
-  sni: green2.cdntencentmusic.com
+- name: 冰岛+V2CROSS.COM
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
   type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
-  server: bbnj.wc9.ccwu.cc
-  servername: ''
-  tls: false
+  port: 443
+  server: 172.67.178.212
+  servername: 67.7777112.xyz
+  tls: true
   type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  uuid: 2215657e-2af4-405f-b770-4e61b298d5b8
   ws-opts:
     headers:
-      Host: bbnj.wc9.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: 852a0251-7fbd-4a07-a365-352695af950c
-  port: 31103
-  server: 220.130.58.136
-  sni: green2.cdntencentmusic.com
-  type: trojan
+      Host: 67.7777112.xyz
+    path: /PGsqb2SHJfbCLo
 - alterId: 0
   cipher: auto
   name: 中国 V2CROSS.COM
@@ -50,6 +28,26 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 台湾省台中市+中华电信
+  password: 6f038cee-6ba1-4941-bce5-de1969f37405
+  port: 35502
+  server: 220.130.58.136
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: bbbnmki.kk7.ccwu.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  ws-opts:
+    headers:
+      Host: bbbnmki.kk7.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
