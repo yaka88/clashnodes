@@ -1,11 +1,4 @@
 proxies:
-- name: 德国+阿里云
-  network: tcp
-  port: 10040
-  server: 47.91.94.112
-  tls: false
-  type: vless
-  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
 - alpn:
   - ''
   client-fingerprint: chrome

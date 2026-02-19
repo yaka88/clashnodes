@@ -1,11 +1,4 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: 0a169d7d-a30f-4d90-af1b-55f6ef6afcb7
-  port: 31103
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - name: 台湾|@ripaojiedian
   network: tcp
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
