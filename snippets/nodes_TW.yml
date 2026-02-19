@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- name: 台湾省台中市+中华电信
+  password: 6f038cee-6ba1-4941-bce5-de1969f37405
+  port: 35502
+  server: 220.130.58.136
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 台湾|@ripaojiedian
+  network: tcp
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 3462
+  server: a12.taipeicitygovernment.org.ua
+  skip-cert-verify: true
+  sni: 45.32.28.232
+  type: trojan
