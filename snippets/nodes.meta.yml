@@ -3,9 +3,9 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
+  port: '80'
   server: turk1.net.net
-  servername: ''
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
@@ -15,9 +15,63 @@ proxies:
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
+  name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 8443
+  port: 443
+  server: 104.21.61.154
+  servername: vvvbbnhj.191266.xyz
+  tls: true
+  type: vmess
+  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
+  ws-opts:
+    headers:
+      Host: vvvbbnhj.191266.xyz
+    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
+- name: 冰岛+V2CROSS.COM
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 台湾省台中市+中华电信
+  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
+  port: 31103
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.169
+  sni: ya.ru
+  type: trojan
+- name: 瑞典+V2CROSS.COM
+  network: tcp
+  port: 50
+  server: dd.openaccessnode.com
+  tls: false
+  type: vless
+  uuid: 75193bef-8d8f-e823-41e0-2dd083dc1399
+- name: '加拿大+V2CROSS.COM #1'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.228
+  sni: web.max
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: ws
+  port: '8443'
   server: dll.avaaaal.ir
   servername: ''
   tls: true
@@ -27,95 +81,72 @@ proxies:
     headers:
       Host: cdge.avaaaal.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: 172.64.149.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn?ed=2560
-- name: 台湾省台中市+中华电信
-  password: 92953fc6-f497-43af-9d6d-f3b5589df318
-  port: 35502
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
   type: trojan
 - name: '台湾省台中市+中华电信 #1'
-  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- flow: ''
-  name: 瑞典+V2CROSS.COM
-  network: tcp
-  port: 50
-  server: dd.openaccessnode.com
-  tls: false
-  type: vless
-  uuid: 75193bef-8d8f-e823-41e0-2dd083dc1399
-- alterId: 0
-  cipher: auto
-  name: 香港 阿里云
-  network: ws
-  port: '443'
-  server: 47.243.95.187
-  servername: n1761214906.wpg27.xyz
-  tls: true
-  type: vmess
-  uuid: c28a6258-7baa-40fc-8a51-87f59c847cd7
-  ws-opts:
-    headers:
-      Host: n1761214906.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: 8080
-  server: 172.64.149.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn
-- name: '台湾省台中市+中华电信 #2'
-  password: 8595b855-e4c4-40cd-834d-d34bb65ec928
-  port: 35501
+  password: 6f038cee-6ba1-4941-bce5-de1969f37405
+  port: 35502
   server: 220.130.58.136
   sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 伊朗 V2CROSS.COM
-  network: tcp
-  port: '2087'
-  server: s1.forwardscdn.com
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: nmjk.1hh.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmjk.1hh.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: nhj.1jj.ccwu.cc
+  servername: nhj.1jj.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nhj.1jj.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: 80
+  server: nnmkl.2nn.ccwu.cc
   servername: ''
   tls: false
   type: vmess
-  uuid: 4a09020e-fcab-4b73-b559-9def6db18eb3
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nnmkl.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: '台湾省台中市+中华电信 #2'
+  password: 45d5fe0e-5a37-4881-ace7-df1c9046ba91
+  port: 35502
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '台湾省台中市+中华电信 #3'
+  password: 125f929b-dbde-43b9-b498-695f1cd45d68
+  port: 31101
+  server: 220.130.58.136
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -130,33 +161,32 @@ proxies:
   cipher: auto
   name: 香港2|@ripaojiedian
   network: tcp
-  port: '10001'
-  server: 27.44.141.89
+  port: '9006'
+  server: select-hk.ddnskunlun.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 443
-  server: 58.152.53.227
-  skip-cert-verify: true
+  port: 2255
+  server: 57.180.15.244
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2399
-  server: 13.115.255.16
+  port: 3292
+  server: 43.198.82.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 54548
-  server: 43.207.3.183
+  port: 3292
+  server: 52.195.228.102
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -164,44 +194,44 @@ proxies:
   network: tcp
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   port: 3462
-  server: a12.taipeicitygovernment.org.ua
+  server: a03.taipeicitygovernment.cn.ua
   skip-cert-verify: true
   sni: 45.32.28.232
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3760
-  server: 13.192.184.146
+  port: 26378
+  server: 52.195.228.102
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 3423
-  server: 160.16.72.33
+  port: 400
+  server: 153.121.51.29
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 3423
-  server: 160.15.70.180
+  port: 193
+  server: 160.16.105.192
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
-  server: 160.16.72.205
+  server: 13.231.178.109
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
-  server: 153.121.39.240
+  server: 18.183.98.127
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -213,25 +243,33 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 新加坡4|@ripaojiedian
+  network: tcp
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 443
+  server: sg.singaporenodeserverone.co.ua
+  skip-cert-verify: true
+  sni: 45.32.28.232
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 1281
-  server: 160.16.116.227
+  server: 160.16.106.99
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 1281
-  server: 160.16.236.32
+  server: 160.16.72.205
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9718
-  server: 13.192.185.89
+  port: 38780
+  server: 54.238.211.1
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
