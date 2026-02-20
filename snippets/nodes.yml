@@ -1,7 +1,67 @@
 proxies:
+- name: 西班牙+V2CROSS.COM
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: '8443'
+  server: dll.avaaaal.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
+  ws-opts:
+    headers:
+      Host: cdge.avaaaal.ir
+    path: /
+- name: 台湾省台中市+中华电信
+  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
+  port: 31102
+  server: 220.130.58.136
+  type: trojan
+- name: '台湾省台中市+中华电信 #1'
+  password: 8595b855-e4c4-40cd-834d-d34bb65ec928
+  port: 35501
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: 220.130.58.136
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: gbnh.0nn.ccwu.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: gbnh.0nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: 冰岛+V2CROSS.COM
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
   network: ws
   port: '80'
   server: turk1.net.net
@@ -15,130 +75,55 @@ proxies:
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.21.61.154
-  servername: vvvbbnhj.191266.xyz
-  tls: true
-  type: vmess
-  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
-  ws-opts:
-    headers:
-      Host: vvvbbnhj.191266.xyz
-    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
-- name: 冰岛+V2CROSS.COM
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  port: 28099
-  server: 37.235.49.209
-  sni: celestialcorset.crystalhamster.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 台湾省台中市+中华电信
-  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
-  port: 31103
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.169
-  sni: ya.ru
-  type: trojan
-- name: '加拿大+V2CROSS.COM #1'
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: ws
-  port: '8443'
-  server: dll.avaaaal.ir
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
-  ws-opts:
-    headers:
-      Host: cdge.avaaaal.ir
-    path: /
-- name: 俄罗斯+V2CROSS.COM
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  sni: ya.ru
-  type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: 6f038cee-6ba1-4941-bce5-de1969f37405
-  port: 35502
-  server: 220.130.58.136
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 0
-  cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
   port: 443
-  server: nmjk.1hh.ccwu.cc
+  server: bghy.1x9.indevs.in
   tls: true
   type: vmess
   uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
-      Host: nmjk.1hh.ccwu.cc
+      Host: bghy.1x9.indevs.in
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
-  port: 443
-  server: nhj.1jj.ccwu.cc
-  servername: nhj.1jj.ccwu.cc
-  tls: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: nhj.1jj.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
-  network: ws
   port: 80
-  server: nnmkl.2nn.ccwu.cc
-  servername: ''
+  server: nmju.1jj.ccwu.cc
   tls: false
   type: vmess
   uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
-      Host: nnmkl.2nn.ccwu.cc
+      Host: nmju.1jj.ccwu.cc
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- name: '台湾省台中市+中华电信 #2'
-  password: 45d5fe0e-5a37-4881-ace7-df1c9046ba91
-  port: 35502
-  server: green2.cdntencentmusic.com
+- alterId: 0
+  cipher: auto
+  name: 伊朗 V2CROSS.COM
+  network: tcp
+  port: 17356
+  server: 193.151.146.232
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
+- alterId: 0
+  cipher: auto
+  name: 以色列 V2CROSS.COM
+  network: none
+  port: 35760
+  server: 149.88.95.94
+  tls: false
+  type: vmess
+  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
+- name: 广东省+移动
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 3462
+  server: a12.taipeicitygovernment.org.ua
   skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '台湾省台中市+中华电信 #3'
-  password: 125f929b-dbde-43b9-b498-695f1cd45d68
-  port: 31101
-  server: 220.130.58.136
-  sni: green2.cdntencentmusic.com
+  sni: 45.32.28.232
   type: trojan
 - alterId: 2
   cipher: auto
