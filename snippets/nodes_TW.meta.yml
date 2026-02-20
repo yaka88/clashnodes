@@ -1,11 +1,4 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: 45d5fe0e-5a37-4881-ace7-df1c9046ba91
-  port: 35502
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - name: 台湾|@ripaojiedian
   network: tcp
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
@@ -13,4 +6,10 @@ proxies:
   server: a03.taipeicitygovernment.cn.ua
   skip-cert-verify: true
   sni: 45.32.28.232
+  type: trojan
+- name: 台湾省台中市+中华电信
+  password: 45d5fe0e-5a37-4881-ace7-df1c9046ba91
+  port: 35502
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
   type: trojan
