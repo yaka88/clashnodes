@@ -1,7 +1,1 @@
-proxies:
-- name: 加拿大+魁北克省博阿努瓦OVH数据中心
-  port: 30238
-  server: 144.217.133.97
-  tls: false
-  type: vless
-  uuid: 27b6068a-e1e6-4675-ab14-87143c690390
+proxies: []
