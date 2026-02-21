@@ -1,10 +1,4 @@
 proxies:
-- name: 日本+东京Sakura樱花云数据中心
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 1281
-  server: 160.16.236.32
-  sni: www.nintendogames.net
-  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
