@@ -3,43 +3,43 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
+  port: 80
+  server: bgn.1dd.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bgn.1dd.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
   port: 8080
-  server: 104.26.14.85
+  server: 172.67.73.163
   servername: ''
   tls: false
   type: vmess
   uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
   ws-opts:
     headers:
-      Host: nasnet-571296497.iranpress.co
+      Host: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '443'
-  server: jkiop.dddc.de5.net
-  tls: true
-  type: vmess
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  ws-opts:
-    headers:
-      Host: jkiop.dddc.de5.net
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
-  port: '2083'
-  server: hgtrojan.zabc.net
-  servername: hgtrojan.zabc.net
-  tls: true
+  port: '8080'
+  server: digitalocean.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
   ws-opts:
     headers:
-      Host: hgtrojan.zabc.net
-    path: /e6395c20
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
 - name: 美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
