@@ -1,121 +1,101 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 中国 阿里云
-  network: ws
-  port: '443'
-  server: n1753598445.74qxv.top
-  servername: n1753598445.74qxv.top
-  tls: true
-  type: vmess
-  uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
-  ws-opts:
-    headers:
-      Host: n1753598445.74qxv.top
-    path: /
+- name: 西班牙+V2CROSS.COM
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: true
+  sni: io.ozone.ru
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: 443
-  server: 172.67.140.108
-  servername: BBGTr.7777198.Xyz
+  server: 104.21.50.233
+  servername: NnmjKIo.TaIpei101.iNdevS.iN
   tls: true
   type: vmess
-  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   ws-opts:
     headers:
-      Host: BBGtR.7777198.XyZ
-    path: /GgigazFGDLgFWDItkD5XgXAL
+      Host: NnmjKIo.TaIpei101.iNdevS.iN
+    path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 8443
-  server: 172.64.155.209
-  servername: frsys.fl-dl.com
-  tls: true
+  port: '8080'
+  server: tgju.org
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ''
-    path: /gbt
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560
 - name: 冰岛+V2CROSS.COM
   password: qmBSKnAl6LYi9=z23Rs.Z
   port: 28099
   server: 37.235.49.209
-  skip-cert-verify: true
   sni: celestialcorset.crystalhamster.click
-  type: trojan
-- name: 台湾省台中市+中华电信
-  password: 36325a98-46a4-4770-977a-9a9570e0bcc6
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
   type: trojan
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
-  port: 443
-  server: bgn.1dd.ccwu.cc
-  tls: true
+  port: 80
+  server: 104.26.14.137
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
+  tls: false
   type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
-      Host: bgn.1dd.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
   port: 80
-  server: mghnnbj.1yy.ccwu.cc
+  server: 104.26.15.137
   servername: ''
   tls: false
   type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
-      Host: mghnnbj.1yy.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+- name: 台湾省台中市+中华电信
+  password: 47d9af53-24a8-4593-a439-a73b88ad53ae
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: '台湾省台中市+中华电信 #1'
+  password: 11cfbea5-eae4-4654-8aa9-a9481f38dc42
+  port: 31103
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #4'
+  name: 北美地区 V2CROSS.COM
   network: ws
   port: 443
-  server: dffgg.2no.ccwu.cc
-  servername: ''
+  server: 198.62.62.199
+  servername: ous3.dean52.top
   tls: true
   type: vmess
-  uuid: 2215657e-2af4-405f-b770-4e61b298d5b8
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
   ws-opts:
     headers:
-      Host: dffgg.2no.ccwu.cc
-    path: /PGsqb2SHJfbCLo
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: 80
-  server: vfgty6.2nn.ccwu.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: vfgty6.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+      Host: ''
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
