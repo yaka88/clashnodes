@@ -1,21 +1,9 @@
 proxies:
-- name: 台湾省+中华电信(HiNet)数据中心
-  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  port: 3462
-  server: a03.taipeicitygovernment.cn.ua
-  sni: 45.32.28.232
-  type: trojan
 - name: 台湾省台中市+中华电信
-  password: 04e5b584-1850-483d-a844-9ad624a4ca8e
-  port: 31101
-  server: 220.130.58.136
-  skip-cert-verify: false
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: 8595b855-e4c4-40cd-834d-d34bb65ec928
+  password: 36325a98-46a4-4770-977a-9a9570e0bcc6
   port: 35501
-  server: 220.130.58.136
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 0
