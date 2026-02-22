@@ -1,51 +1,10 @@
 proxies:
-- name: 台湾省台中市+中华电信
-  password: 92953fc6-f497-43af-9d6d-f3b5589df318
-  port: 35501
-  server: 220.130.58.136
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
-  port: 31101
-  server: 220.130.58.136
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
-  server: bgn.1dd.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bgn.1dd.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- name: '伊朗+V2CROSS.COM #1'
-  password: pYIoKUPGpWeTYXEx3HjR7s97B
-  port: 443
-  server: free-de-2.undef.network
-  skip-cert-verify: true
-  sni: free-de-2.undef.network
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
   port: 8080
-  server: 172.67.73.163
+  server: 104.26.14.85
   servername: ''
   tls: false
   type: vmess
@@ -56,24 +15,113 @@ proxies:
     path: /nasnet/cdn
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '8080'
-  server: digitalocean.com
-  servername: ''
+  port: 80
+  server: bnhhy.1ll.ccwu.cc
   tls: false
   type: vmess
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn
+      Host: bnhhy.1ll.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: 台湾省台中市+中华电信
+  password: 6f038cee-6ba1-4941-bce5-de1969f37405
+  port: 35502
+  server: 220.130.58.136
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 广东省+移动
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 3462
+  server: a12.taipeicitygovernment.org.ua
+  sni: 45.32.28.232
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '80'
+  server: turk1.net.net
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - name: 加拿大+V2CROSS.COM
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   port: 10889
-  server: 167.17.185.172
-  sni: web.max.ru
+  server: 167.17.185.152
+  sni: ozon.ru
   type: trojan
+- name: 伊朗+V2CROSS.COM
+  password: pYIoKUPGpWeTYXEx3HjR7s97B
+  port: 443
+  server: free-de-2.undef.network
+  skip-cert-verify: true
+  sni: free-de-2.undef.network
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 80
+  server: 104.21.23.132
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  ws-opts:
+    headers:
+      Host: bnmj.wc6.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
+- name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: true
+  sni: io.ozone.ru
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: 80
+  server: yyhju.1x6.indevs.in
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: yyhju.1x6.indevs.in
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: 冰岛+V2CROSS.COM
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  skip-cert-verify: false
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
+  port: '443'
+  server: frc.teamv.ir
+  servername: frc.teamv.ir
+  tls: true
+  type: vmess
+  uuid: 3ccdd2af-37ea-4439-a35c-70416ff34211
+  ws-opts:
+    headers:
+      Host: frc.teamv.ir
+    path: /6MByUo6MYuosAGOCfsv4W
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
