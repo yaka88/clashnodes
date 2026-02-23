@@ -1,27 +1,81 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
+- name: 伊朗+V2CROSS.COM
+  password: pYIoKUPGpWeTYXEx3HjR7s97B
   port: 443
-  server: 209.46.30.199
-  servername: ous3.dean52.top
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+  server: free-de-2.undef.network
+  skip-cert-verify: true
+  sni: free-de-2.undef.network
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '伊朗 V2CROSS.COM #2'
   network: tcp
-  port: '180'
-  server: 82.198.246.97
+  port: 17356
+  server: 193.151.146.232
+  servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
+- name: 冰岛+V2CROSS.COM
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 8080
+  server: digitalocean.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: jnm.1x2.indevs.in
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: jnm.1x2.indevs.in
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 80
+  server: turk1.net.net
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 8080
+  server: 104.19.174.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
 - name: 西班牙+V2CROSS.COM
   network: tcp
   password: wp9IsiY82uQhcmgNC1eoBM
@@ -32,77 +86,24 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: '美国 CloudFlare节点 #4'
   network: ws
-  port: '8443'
-  server: c7.620720.xyz
+  port: '443'
+  server: hj.huangshang.qzz.io
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
   ws-opts:
     headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: 104.19.174.68
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn
-- name: 伊朗+V2CROSS.COM
-  password: pYIoKUPGpWeTYXEx3HjR7s97B
-  port: 443
-  server: free-de-2.undef.network
-  skip-cert-verify: true
-  sni: free-de-2.undef.network
-  type: trojan
-- name: '西班牙+V2CROSS.COM #1'
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  sni: io.ozone.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: 80
-  server: 104.26.15.137
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+      Host: hj.huangshang.qzz.io
+    path: /LDTpW8UIEnTAiN9LMya
 - name: 台湾省台中市+中华电信
-  password: fdeb5068-b9c7-486c-8ccf-8d2b744bd839
-  port: 31103
+  password: 45d5fe0e-5a37-4881-ace7-df1c9046ba91
+  port: 31101
   server: green2.cdntencentmusic.com
+  skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: 80
-  server: 104.26.14.137
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -231,3 +232,12 @@ proxies:
   skip-cert-verify: true
   sni: 45.32.28.232
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: BG_speednode_0001
+  network: tcp
+  port: 2086
+  server: 87.120.219.124
+  tls: false
+  type: vmess
+  uuid: e6a866ca-1756-44ed-9866-a9949f2bad38

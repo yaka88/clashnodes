@@ -1,37 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
-  port: 443
-  server: 209.46.30.199
-  servername: ous3.dean52.top
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8443'
-  server: c7.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: 104.19.174.68
+  port: 8080
+  server: digitalocean.com
   servername: ''
   tls: false
   type: vmess
@@ -42,11 +15,23 @@ proxies:
     path: /NASNET/cdn
 - alterId: 0
   cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: jnm.1x2.indevs.in
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: jnm.1x2.indevs.in
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
   port: 80
-  server: 104.26.15.137
-  servername: ''
+  server: turk1.net.net
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
@@ -58,15 +43,29 @@ proxies:
   cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
-  port: 80
-  server: 104.26.14.137
+  port: 8080
+  server: 104.19.174.68
+  servername: ''
   tls: false
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com.
-    path: /
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: '443'
+  server: hj.huangshang.qzz.io
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: hj.huangshang.qzz.io
+    path: /LDTpW8UIEnTAiN9LMya
 - name: 美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
@@ -91,49 +90,35 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: US_speednode_0013
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU
-    short-id: '!!str fd26d49a'
-  server: 203.10.96.138
-  servername: cdn-dynmedia-1.microsoft.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: c6977f74-e620-4748-a2d3-4351a588c659
-- alpn:
-  - ''
-  client-fingerprint: chrome
+  client-fingerprint: ''
   flow: ''
-  name: US_speednode_0014
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
-    short-id: '!!str efd29b2d25'
-  server: 64.188.64.59
-  servername: yandex.ru
+  name: US_speednode_0015
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  servername: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
+  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+  ws-opts:
+    headers:
+      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0015
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: C7H4Nh55F4B8iHaVHWY6VK562RI6p_t8H7lrX_O8SnQ
-    short-id: '!!str '
-  server: pl2.jugsenkeys4pays.su
-  servername: pl2.jugsenkeys4pays.su
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0016
+  network: ws
+  port: 80
+  server: 104.20.1.252
+  servername: bright-organizationauhuddhesz.sportland.company.
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: b183589d-5e32-4141-a39a-6cb747964c67
+  uuid: 7d4a519b-d270-434e-a42d-d39624577a92
+  ws-opts:
+    headers:
+      Host: bright-organizationauhuddhesz.sportland.company.
+    path: '%2F'

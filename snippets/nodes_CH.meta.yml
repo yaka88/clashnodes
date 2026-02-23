@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: CH_speednode_0002
+  network: tcp
+  port: 3130
+  reality-opts:
+    public-key: dQYahYS6055ghu03hkvNxv9geHCJHqASFVbXs3v1jDw
+    short-id: '!!str e99768d076c05ab2'
+  server: ir.grbr.private-link.lornanet.ir
+  servername: rEfErSion.Com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: bb255691-e0f9-ec71-9876-a8b9c9e9fac0
