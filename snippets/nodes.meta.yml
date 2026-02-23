@@ -1,31 +1,56 @@
 proxies:
 - name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
+  network: tcp
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
   skip-cert-verify: true
-  sni: io.ozone.ru
+  sni: www.semanticstaplegun.click
+  type: trojan
+- name: 日本4|@ripaojiedian
+  network: tcp
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 2053
+  server: 05.tokyometropolis.kiev.ua
+  skip-cert-verify: true
+  sni: 45.32.28.232
   type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 443
-  server: 104.21.50.233
-  servername: NnmjKIo.TaIpei101.iNdevS.iN
-  tls: true
+  port: '8080'
+  server: 104.19.37.10
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
   ws-opts:
     headers:
-      Host: NnmjKIo.TaIpei101.iNdevS.iN
-    path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 台湾省台中市+中华电信
+  password: 11cfbea5-eae4-4654-8aa9-a9481f38dc42
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '8080'
-  server: tgju.org
+  port: 8080
+  server: 104.26.15.85
   servername: ''
   tls: false
   type: vmess
@@ -34,11 +59,11 @@ proxies:
     headers:
       Host: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn?ed=2560
-- name: 冰岛+V2CROSS.COM
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  port: 28099
-  server: 37.235.49.209
-  sni: celestialcorset.crystalhamster.click
+- name: 台湾省+中华电信
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 3462
+  server: a03.taipeicitygovernment.cn.ua
+  sni: 45.32.28.232
   type: trojan
 - alterId: 0
   cipher: auto
@@ -46,56 +71,13 @@ proxies:
   network: ws
   port: 80
   server: 104.26.14.137
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
       Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: 80
-  server: 104.26.15.137
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- name: 台湾省台中市+中华电信
-  password: 47d9af53-24a8-4593-a439-a73b88ad53ae
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: '台湾省台中市+中华电信 #1'
-  password: 11cfbea5-eae4-4654-8aa9-a9481f38dc42
-  port: 31103
-  server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: ws
-  port: 443
-  server: 198.62.62.199
-  servername: ous3.dean52.top
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -195,14 +177,6 @@ proxies:
   server: 16.163.143.47
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 日本4|@ripaojiedian
-  network: tcp
-  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  port: 2053
-  server: 05.tokyometropolis.kiev.ua
-  skip-cert-verify: true
-  sni: 45.32.28.232
   type: trojan
 - alterId: 0
   cipher: auto

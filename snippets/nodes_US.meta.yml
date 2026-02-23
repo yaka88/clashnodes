@@ -3,22 +3,22 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 443
-  server: 104.21.50.233
-  servername: NnmjKIo.TaIpei101.iNdevS.iN
-  tls: true
+  port: '8080'
+  server: 104.19.37.10
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
   ws-opts:
     headers:
-      Host: NnmjKIo.TaIpei101.iNdevS.iN
-    path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '8080'
-  server: tgju.org
+  port: 8080
+  server: 104.26.15.85
   servername: ''
   tls: false
   type: vmess
@@ -33,42 +33,13 @@ proxies:
   network: ws
   port: 80
   server: 104.26.14.137
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
       Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: 80
-  server: 104.26.15.137
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- alterId: 0
-  cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: ws
-  port: 443
-  server: 198.62.62.199
-  servername: ous3.dean52.top
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
