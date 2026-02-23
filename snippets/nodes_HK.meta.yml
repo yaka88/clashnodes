@@ -1,11 +1,4 @@
 proxies:
-- name: 香港+特别行政区
-  network: tcp
-  port: 2020
-  server: fredii.ichimokutrader.org
-  tls: false
-  type: vless
-  uuid: e4bd3863-ef9f-4e39-9478-2003575d3380
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
