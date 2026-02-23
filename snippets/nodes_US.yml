@@ -3,35 +3,9 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 8080
-  server: digitalocean.com
+  port: 80
+  server: 104.26.15.137
   servername: ''
-  tls: false
-  type: vmess
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: jnm.1x2.indevs.in
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: jnm.1x2.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: 80
-  server: turk1.net.net
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
@@ -41,31 +15,45 @@ proxies:
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #3'
+  name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 8080
-  server: 104.19.174.68
-  servername: ''
+  port: 80
+  server: 104.26.14.137
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
   type: vmess
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #4'
+  name: '美国 CloudFlare节点 #2'
   network: ws
-  port: '443'
-  server: hj.huangshang.qzz.io
+  port: 443
+  server: gbnh.1oo.ccwu.cc
   tls: true
   type: vmess
-  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
-      Host: hj.huangshang.qzz.io
-    path: /LDTpW8UIEnTAiN9LMya
+      Host: gbnh.1oo.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: njk.222560.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: njk.222560.xyz
+    path: /YsmRouA9ZbxgW4
 - name: 美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
