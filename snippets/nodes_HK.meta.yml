@@ -32,3 +32,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: HK_speednode_0012
+  network: ws
+  port: 1004
+  server: 8.210.197.138
+  tls: false
+  type: vmess
+  uuid: a13d3f6b-b961-4512-fc8a-9f1d908937b8
+  ws-opts:
+    headers:
+      Host: 8.210.197.138
+    path: /

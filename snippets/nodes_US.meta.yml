@@ -4,46 +4,35 @@ proxies:
   name: 美国 CloudFlare节点
   network: ws
   port: 80
-  server: 104.26.14.137
+  server: 104.21.16.211
+  servername: ''
   tls: false
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+      Host: yyynm.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
   port: 80
   server: turk1.net.net
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
       Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+    path: /
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
   port: '80'
-  server: t67.zem.indevs.in
-  tls: false
-  type: vmess
-  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
-  ws-opts:
-    headers:
-      Host: T67.zeM.INdevs.IN
-    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '80'
-  server: 104.26.14.137
+  server: 104.26.15.137
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
@@ -87,33 +76,61 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0015
+  name: US_speednode_0021
   network: ws
-  port: 80
-  server: 104.18.32.47
-  servername: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+  port: 443
+  server: 209.102.207.120
+  servername: sni.111000.v6.navy
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
-    path: '%2F'
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0022
+  network: ws
+  port: 37952
+  server: 156.236.76.45
+  tls: false
+  type: vmess
+  uuid: b8304f18-9a28-427c-b1fe-d92ee1757c0b
+  ws-opts:
+    headers:
+      Host: 156.236.76.45
+    path: /arki
 - alpn:
   - ''
-  client-fingerprint: ''
+  client-fingerprint: chrome
   flow: ''
-  name: US_speednode_0016
-  network: ws
-  port: 80
-  server: 104.20.1.252
-  servername: bright-organizationauhuddhesz.sportland.company.
+  name: US_speednode_0023
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: '!!str 3ca620a7ed5f3196'
+  server: 130.49.177.161
+  servername: sun6-21.userapi.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 7d4a519b-d270-434e-a42d-d39624577a92
-  ws-opts:
-    headers:
-      Host: bright-organizationauhuddhesz.sportland.company.
-    path: '%2F'
+  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: US_speednode_0024
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
+    short-id: '!!str 2f2a'
+  server: 66.179.82.126
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
