@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '57449'
-  server: 157.173.206.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4f6d0ce6-0406-447c-f307-21a6aa7fe6b2
 - alpn:
   - ''
   client-fingerprint: chrome

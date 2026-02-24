@@ -2,6 +2,12 @@ proxies:
 - name: 加拿大+V2CROSS.COM
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   port: 10889
-  server: 167.17.185.228
-  sni: web.max
+  server: 167.17.185.152
+  sni: ozon.ru
+  type: trojan
+- name: '加拿大+V2CROSS.COM #1'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.172
+  sni: web.max.ru
   type: trojan
