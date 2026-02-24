@@ -1,68 +1,60 @@
 proxies:
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '57449'
+  server: 157.173.206.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4f6d0ce6-0406-447c-f307-21a6aa7fe6b2
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: 80
-  server: 104.26.15.137
-  servername: ''
+  server: turk1.net.net
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
       Host: tr1-smart.adelping.com.
-    path: /?de=2560
-- alterId: 0
-  cipher: auto
-  name: 伊朗 V2CROSS.COM
+    path: /
+- name: 乌克兰+V2CROSS.COM
+  password: Tn2Bf0iRwJkJQgDk6gX6x81RB
+  port: 443
+  server: hl-freedom-2.undef.network
+  sni: ''
+  type: trojan
+- name: 伊朗+V2CROSS.COM
   network: tcp
-  port: 17356
-  server: 193.151.146.232
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
+  password: pYIoKUPGpWeTYXEx3HjR7s97B
+  port: 443
+  server: free-de-2.undef.network
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '80'
-  server: TM_AZARBAYJAB1.SERV.9.pagES.DEV
+  port: '443'
+  server: yhj.huangshang2026.indevs.in
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- name: 瑞典+V2CROSS.COM
-  port: 50
-  server: dd.openaccessnode.com
-  tls: false
-  type: vless
-  uuid: 75193bef-8d8f-e823-41e0-2dd083dc1399
-- alpn:
-  - http/1.1
-  name: 法国+巴黎Amazon数据中心
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 15.188.162.245
-  sni: trojan.burgerip.co.uk
-  type: trojan
+      Host: yhj.huangshang2026.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
-  port: 80
+  port: '80'
   server: 104.26.14.137
   tls: false
   type: vmess
@@ -70,16 +62,78 @@ proxies:
   ws-opts:
     headers:
       Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+    path: /
+- name: 日本4|@ripaojiedian
+  network: tcp
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 2053
+  server: 05.tokyometropolis.kiev.ua
+  skip-cert-verify: true
+  sni: 45.32.28.232
+  type: trojan
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.228
+  sni: web.max
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '伊朗 V2CROSS.COM #1'
+  name: 伊朗 V2CROSS.COM
   network: tcp
   port: '17356'
   server: freedom.vipgsmteam.info
   tls: false
   type: vmess
   uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 8080
+  server: tgju.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    path: /nasnet/cdn
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  skip-cert-verify: true
+  sni: www.semanticstaplegun.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: 80
+  server: 104.26.15.137
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /
+- name: 瑞典+V2CROSS.COM
+  network: tcp
+  port: 50
+  server: dd.openaccessnode.com
+  tls: false
+  type: vless
+  uuid: 75193bef-8d8f-e823-41e0-2dd083dc1399
+- name: '伊朗+V2CROSS.COM #1'
+  network: tcp
+  port: 15717
+  server: 37.32.43.252
+  tls: false
+  type: vless
+  uuid: 665b51bb-b60b-4653-dab5-cc7fc3125380
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -200,14 +254,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- name: 日本4|@ripaojiedian
-  network: tcp
-  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  port: 2053
-  server: 05.tokyometropolis.kiev.ua
-  skip-cert-verify: true
-  sni: 45.32.28.232
-  type: trojan
 - alterId: 0
   cipher: auto
   name: BG_speednode_0001

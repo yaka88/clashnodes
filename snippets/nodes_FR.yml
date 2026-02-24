@@ -1,10 +1,1 @@
-proxies:
-- alpn:
-  - http/1.1
-  name: 法国+巴黎Amazon数据中心
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22223
-  server: 15.188.162.245
-  sni: trojan.burgerip.co.uk
-  type: trojan
+proxies: []
