@@ -3,75 +3,37 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
-  server: 104.21.16.211
-  servername: ''
-  tls: false
+  port: 8443
+  server: t1.620720.xyz
+  tls: true
   type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: yyynm.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: turk1.net.net
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '80'
-  server: 104.26.15.137
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
+      Host: ''
     path: /
 - name: 美国|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 4920
-  server: 54.150.231.83
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 1281
+  server: 160.16.68.250
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 1281
-  server: 54.238.209.205
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 4920
+  server: 13.231.123.180
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50446
-  server: 43.198.227.190
+  port: 45285
+  server: 16.162.118.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '9028'
-  server: select-us.ddnskunlun.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alpn:
   - ''
   client-fingerprint: ''
