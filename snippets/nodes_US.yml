@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: '美国 CloudFlare节点 #3'
   network: ws
   port: 80
   server: 104.26.15.137
@@ -17,8 +17,35 @@ proxies:
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
+  port: 443
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '8443'
+  server: t1.620720.xyz
+  servername: t1.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: t1.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
   port: 80
-  server: 172.67.74.2
+  server: turk1.net.net
   servername: ''
   tls: false
   type: vmess
@@ -27,19 +54,6 @@ proxies:
     headers:
       Host: tr1-smart.adelping.com.
     path: /?de=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '8443'
-  server: c7.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - name: 美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
@@ -64,14 +78,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_speednode_0022
-  network: ws
-  port: 37952
-  server: 156.236.76.45
+  name: US_speednode_0023
+  network: tcp
+  port: 443
+  server: 47.84.126.255
   tls: false
   type: vmess
-  uuid: b8304f18-9a28-427c-b1fe-d92ee1757c0b
-  ws-opts:
-    headers:
-      Host: 156.236.76.45
-    path: /arki
+  uuid: 32285564-1664-485c-f4db-daa776321a52
