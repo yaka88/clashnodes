@@ -4,24 +4,22 @@ proxies:
   name: 美国 CloudFlare节点
   network: ws
   port: 80
-  server: turk1.net.net
-  servername: ''
+  server: 172.67.74.2
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
       Host: tr1-smart.adelping.com.
-    path: /?de=2560
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: none
-  port: 18355
-  server: 92.246.87.170
-  tls: false
-  type: vmess
-  uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
+    path: /
+- name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  skip-cert-verify: true
+  sni: '🔒 [By EbraSha] '
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
@@ -36,58 +34,56 @@ proxies:
     headers:
       Host: tr1-smart.adelping.com.
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- name: 台湾省台中市+中华电信
-  network: tcp
-  password: 6790a94c-4ea8-4a1e-979e-31716839427a
-  port: 31101
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
-  port: 80
-  server: 104.26.15.137
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '443'
-  server: ert.859885.xyz
-  servername: ert.859885.xyz
-  tls: true
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  ws-opts:
-    headers:
-      Host: ert.859885.xyz
-    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-- alterId: 0
-  cipher: auto
-  name: 巴西圣保罗 CloudFlare节点
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  servername: sy4.620720.xyz
+  port: '8443'
+  server: t1.620720.xyz
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: sy4.620720.xyz
+      Host: t1.620720.xyz
     path: /
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 80
+  server: 104.21.75.43
+  servername: null
+  tls: false
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  ws-opts:
+    headers:
+      Host: bbnj.wc9.ccwu.cc
+    path: /kFK9O5cl8ZycyrxcJWNVFC21
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: '443'
+  server: dcvbghy7.12i.ccwu.cc
+  servername: dcvbghy7.12i.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: ae72f958-c1f6-4fc2-a310-1f007af3d11f
+  ws-opts:
+    headers:
+      Host: dcvbghy7.12i.ccwu.cc
+    path: /WcCs2x2YwawFa6Csfk0uFDF
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
   network: ws
   port: '80'
   server: turk1.net.net
@@ -99,6 +95,20 @@ proxies:
     headers:
       Host: tr1-smart.adelping.com.
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #6'
+  network: ws
+  port: '80'
+  server: nmki.1yy.ccwu.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmki.1yy.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
