@@ -1,11 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: turk1.net.net
-  servername: ''
+  server: 104.26.15.137
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
@@ -13,27 +12,36 @@ proxies:
     headers:
       Host: tr1-smart.adelping.com.
     path: /
-- name: '西班牙+V2CROSS.COM #1'
-  network: tcp
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  skip-cert-verify: true
-  sni: www.semanticstaplegun.click
-  type: trojan
-- name: 冰岛+V2CROSS.COM
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  port: 28099
-  server: 37.235.49.209
-  sni: celestialcorset.crystalhamster.click
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 80
+  port: '443'
+  server: ki9i.dddct.us.ci
+  servername: ki9i.dddct.us.ci
+  tls: true
+  type: vmess
+  uuid: 795ef99b-3260-4d18-ac98-5130bba9f168
+  ws-opts:
+    headers:
+      Host: ki9i.dddct.us.ci
+    path: /LtgDLBVt1BfWnGWI7hLRpJ1
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0008
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '80'
   server: 104.26.14.137
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
@@ -41,40 +49,6 @@ proxies:
     headers:
       Host: tr1-smart.adelping.com.
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '443'
-  server: y7.dddc.us.ci
-  servername: y7.dddc.us.ci
-  tls: true
-  type: vmess
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  ws-opts:
-    headers:
-      Host: y7.dddc.us.ci
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
-- name: 台湾省台中市+中华电信
-  password: 6f038cee-6ba1-4941-bce5-de1969f37405
-  port: 31101
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
-  network: ws
-  port: '80'
-  server: bnju.11q.ccwu.cc
-  servername: bnju.11q.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bnju.11q.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -265,15 +239,6 @@ proxies:
   tls: false
   type: vless
   uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0008
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   flow: xtls-rprx-vision
