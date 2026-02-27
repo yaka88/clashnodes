@@ -1,11 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0008
+  name: GB_speednode_0007
   network: tcp
   port: 180
   server: 82.198.246.97
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -13,7 +12,7 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: ''
-  name: GB_speednode_0007
+  name: GB_speednode_0006
   network: tcp
   port: 443
   reality-opts:
@@ -25,3 +24,19 @@ proxies:
   tls: false
   type: vless
   uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0008
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2HWC3TKZmYDORsrGqTTOITNFBp6ANhwgERK6lPcVbic
+    short-id: '!!str ecd1c97d'
+  server: 195.20.17.182
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897

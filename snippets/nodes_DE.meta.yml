@@ -1,11 +1,1 @@
-proxies:
-- name: DE_speednode_0002
-  obfs: ''
-  obfs-password: ''
-  password: b5f85b3e-9211-4989-ae50-5a3fd510f9ba
-  port: 8080
-  server: de.892622.xyz
-  skip-cert-verify: true
-  sni: de.892622.xyz
-  tls: false
-  type: hysteria2
+proxies: []

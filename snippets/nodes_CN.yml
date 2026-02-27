@@ -1,15 +1,17 @@
 proxies:
-- alterId: 0
+- name: 广东省广州市+移动
+  password: 984c7793-1447-4af5-9200-d514ad6fe329
+  port: 40393
+  server: us02.jsyjiedian8.com
+  skip-cert-verify: true
+  sni: jsygouer.weixin-baidu-qq.com
+  type: trojan
+- alterId: 2
   cipher: auto
-  name: 广东省东莞市 联通
-  network: ws
-  port: 52513
-  server: aflzzul.meiquankongjian.com
-  servername: aflzzul.meiquankongjian.com
+  name: CN_speednode_0003
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
   tls: false
   type: vmess
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
