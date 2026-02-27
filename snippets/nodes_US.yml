@@ -4,22 +4,7 @@ proxies:
   name: 美国 CloudFlare节点
   network: ws
   port: '80'
-  server: turk1.net.net
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
-  tls: false
-  type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-  ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: 104.26.14.137
-  servername: ''
+  server: 104.26.15.137
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
@@ -29,10 +14,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 172.67.74.2
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?de=2560
+- alterId: 0
+  cipher: auto
   name: '美国 CloudFlare节点 #2'
   network: ws
-  port: '80'
-  server: 172.67.74.2
+  port: 80
+  server: 104.26.14.137
   servername: ''
   tls: false
   type: vmess
