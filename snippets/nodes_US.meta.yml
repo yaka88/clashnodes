@@ -3,33 +3,33 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
-  server: 104.26.15.137
-  servername: ''
-  tls: false
+  port: '443'
+  server: bbnhju.2xw.ccwu.cc
+  servername: bbnhju.2xw.ccwu.cc
+  tls: true
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 9b354a64-81f6-4a15-a127-337cd17e25ba
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com.
-    path: /
+      Host: bbnhju.2xw.ccwu.cc
+    path: /7t9M6fIZbmR7zklVEUuTu7GKK
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 443
-  server: 104.21.56.168
-  servername: yhj.iran2026.indevs.in
-  tls: true
+  port: '80'
+  server: gbnh.0nn.ccwu.cc
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
-      Host: yhj.iran2026.indevs.in
-    path: /LDTpW8UIEnTAiN9LMya
+      Host: gbnh.0nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: '美国 CloudFlare节点 #3'
   network: ws
   port: 80
   server: 104.26.14.137
@@ -40,7 +40,7 @@ proxies:
   ws-opts:
     headers:
       Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
