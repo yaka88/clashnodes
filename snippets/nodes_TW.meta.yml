@@ -1,18 +1,8 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: TW_speednode_0022
-  network: ws
-  port: 10443
-  server: 114.34.106.124
-  servername: 63.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3e974f9e-f568-4c2a-a4db-e9b666b4ea9e
-  ws-opts:
-    headers:
-      Host: 63.hhhhh.eu.org
-    path: '%2F114.34.106.124%3A10443'
+- name: 台湾省台中市+中华电信
+  network: tcp
+  password: 0a169d7d-a30f-4d90-af1b-55f6ef6afcb7
+  port: 31101
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
