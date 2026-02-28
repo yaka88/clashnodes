@@ -1,94 +1,49 @@
 proxies:
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.172
+  sni: web.max.ru
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 8443
-  server: c7.620720.xyz
-  servername: c7.620720.xyz
-  tls: true
+  port: 80
+  server: 104.26.14.137
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
-      Host: c7.620720.xyz
-    path: /
-- name: 冰岛+V2CROSS.COM
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  port: 28099
-  server: 37.235.49.209
-  sni: celestialcorset.crystalhamster.click
-  type: trojan
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '80'
-  server: v1.dabache.top
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bmk.1xq.indevs.in
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- name: 台湾省台中市+中华电信
-  network: tcp
-  password: 0a169d7d-a30f-4d90-af1b-55f6ef6afcb7
-  port: 31101
-  server: green2.cdntencentmusic.com
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 香港 阿里云
-  network: ws
-  port: 443
-  server: n1761296880.lie5d.cyou
-  servername: n1761296880.lie5d.cyou
-  tls: true
-  type: vmess
-  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
-  ws-opts:
-    headers:
-      Host: n1761296880.lie5d.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '80'
-  server: bnhhy.1ll.ccwu.cc
+  port: 80
+  server: 104.26.14.137
   servername: ''
   tls: false
   type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers:
-      Host: bnhhy.1ll.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  sni: io.ozone.ru
+      Host: tr1-smart.adelping.com.
+    path: /
+- name: '加拿大+V2CROSS.COM #1'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.169
+  sni: ya.ru
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #4'
+  name: '美国 CloudFlare节点 #2'
   network: ws
   port: 80
-  server: bdggh.9jj.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: eed4a583-b20e-4787-bbdb-09018156e53f
-  ws-opts:
-    path: /cI9XtKvjiIyvZXFAbvQEN
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: '80'
   server: turk1.net.net
   servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
@@ -97,13 +52,64 @@ proxies:
   ws-opts:
     headers:
       Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.169
-  sni: ya.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 80
+  server: 104.26.15.137
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /
+- name: 台湾省台中市+中华电信
+  password: c5355528-55a2-45df-b8fd-a48ce3c41413
+  port: 35502
+  server: 220.130.58.136
+  sni: green2.cdntencentmusic.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #4'
+  network: ws
+  port: 443
+  server: 172.67.184.67
+  servername: cdfr.ae1autumn.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: cdfr.ae1autumn.dpdns.org
+    path: /YsmRouA9ZbxgW4
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
