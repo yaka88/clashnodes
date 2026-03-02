@@ -1,7 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: bnhhy.1ll.ccwu.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bnhhy.1ll.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.228
+  sni: web.max
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
   network: ws
   port: 443
   server: sy4.620720.xyz
@@ -14,19 +43,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 伦敦Virgin Media
-  network: none
-  port: 17310
-  server: 82.21.80.224
-  tls: true
-  type: vmess
-  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: '美国 CloudFlare节点 #3'
   network: ws
-  port: '80'
+  port: 80
   server: 104.26.15.137
+  servername: ''
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
@@ -34,12 +55,24 @@ proxies:
     headers:
       Host: tr1-smart.adelping.com.
     path: /
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
+  type: trojan
+- name: 冰岛+V2CROSS.COM
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: '美国 CloudFlare节点 #4'
   network: ws
   port: 80
-  server: turk1.net.net
+  server: 104.26.14.137
   servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
   type: vmess
@@ -48,41 +81,18 @@ proxies:
     headers:
       Host: tr1-smart.adelping.com.
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: 8443
-  server: c7.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: c7.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #4'
-  network: ws
-  port: '80'
-  server: bnhhy.1ll.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: bnhhy.1ll.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '加拿大+V2CROSS.COM #1'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.152
+  sni: ozon.ru
+  type: trojan
+- name: '加拿大+V2CROSS.COM #2'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.172
+  sni: web.max.ru
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
