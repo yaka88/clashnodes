@@ -3,22 +3,21 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
-  server: bnhhy.1ll.ccwu.cc
-  servername: ''
-  tls: false
+  port: '8443'
+  server: t1.620720.xyz
+  tls: true
   type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: bnhhy.1ll.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+      Host: t1.620720.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 443
-  server: sy4.620720.xyz
+  port: 8443
+  server: t1.620720.xyz
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
@@ -28,32 +27,40 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #3'
+  name: '美国 CloudFlare节点 #2'
   network: ws
-  port: 80
-  server: 104.26.15.137
-  servername: ''
-  tls: false
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com.
+      Host: sy4.620720.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #4'
+  name: 美国 华盛顿Cogent通信公司
   network: ws
-  port: 80
-  server: 104.26.14.137
-  servername: TM_AZARBAYJAB1.new.99.workers.dev
-  tls: false
+  port: '443'
+  server: 38.55.194.87
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 美国 加利福尼亚州洛杉矶IT7网络
+  network: tcp
+  port: 31350
+  server: c86s3.portablesubmarines.com
+  tls: false
+  type: vmess
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
 - name: 美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980

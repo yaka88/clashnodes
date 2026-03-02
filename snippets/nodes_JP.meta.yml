@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: ws
+  port: '41079'
+  server: 43.163.6.135
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
