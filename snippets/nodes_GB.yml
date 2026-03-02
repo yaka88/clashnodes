@@ -1,9 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: 英国 伦敦Virgin Media
+  network: none
+  port: 17310
+  server: 82.21.80.224
+  tls: true
+  type: vmess
+  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess

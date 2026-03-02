@@ -1,11 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #3'
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '80'
+  server: 104.26.15.137
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
   network: ws
   port: 80
-  server: 104.26.14.137
-  servername: ''
+  server: turk1.net.net
+  servername: TM_AZARBAYJAB1.new.99.workers.dev
   tls: false
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
@@ -15,55 +41,30 @@ proxies:
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: '美国 CloudFlare节点 #3'
   network: ws
-  port: 80
-  server: 104.26.15.137
-  servername: ''
-  tls: false
+  port: 8443
+  server: c7.620720.xyz
+  tls: true
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: tr1-smart.adelping.com.
+      Host: c7.620720.xyz
     path: /
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #4'
   network: ws
-  port: '8443'
-  server: t1.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: t1.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: '443'
-  server: sy4.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: sy4.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #6'
-  network: ws
-  port: 80
-  server: gbnhju.7no.ccwu.cc
+  port: '80'
+  server: bnhhy.1ll.ccwu.cc
   tls: false
   type: vmess
-  uuid: 9f9b2ba3-77c1-400f-9b72-76b9b0829e51
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
-    path: /5PVvw26jj0Fy6bojk
+    headers:
+      Host: bnhhy.1ll.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - name: 美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
