@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 香港 特别行政区
+  network: ws
+  port: '8443'
+  server: 175.29.23.104
+  servername: mn1ray.jagoanvip.xyz
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

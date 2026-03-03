@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 尼日利亚 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: 83.229.121.113
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
