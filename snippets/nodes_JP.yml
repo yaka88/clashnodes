@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 日本 V2CROSS.COM
+  name: 尼日利亚 V2CROSS.COM
   network: ws
-  port: '41079'
-  server: 43.163.6.135
+  port: '443'
+  server: 83.229.121.113
   servername: mn1ray.jagoanvip.xyz
   tls: true
   type: vmess
