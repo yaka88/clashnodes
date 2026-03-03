@@ -3,9 +3,21 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
+  port: '8443'
+  server: t1.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
   port: 8443
   server: c7.620720.xyz
-  servername: c7.620720.xyz
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
@@ -15,30 +27,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: '美国 CloudFlare节点 #3'
   network: ws
-  port: '443'
-  server: sy4.620720.xyz
+  port: 8443
+  server: t1.620720.xyz
+  servername: ''
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: sy4.620720.xyz
+      Host: t1.620720.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '443'
-  server: dcvfgt67.986986.shop
-  tls: true
-  type: vmess
-  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
-  ws-opts:
-    headers:
-      Host: dcvfgt67.986986.shop
-    path: /YeQPaMoU0eDN02l1D3pAvPtZpEoeO
 - name: 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
