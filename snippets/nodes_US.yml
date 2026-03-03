@@ -1,46 +1,77 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 加利福尼亚州洛杉矶IT7网络
-  network: tcp
-  port: '31350'
-  server: c86s3.portablesubmarines.com
-  tls: false
-  type: vmess
-  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
-  server: rfghnj.0gg.ccwu.cc
-  servername: ''
-  tls: false
+  port: '443'
+  server: nmjy.0m0.ccwu.cc
+  servername: nmjy.0m0.ccwu.cc
+  tls: true
   type: vmess
-  uuid: 8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba
+  uuid: 0617025a-660d-40e3-9108-74611138dde5
   ws-opts:
     headers:
-      Host: rfghnj.0gg.ccwu.cc
-    path: /y3ME81hpTJWwd4RJBAQ5Ah
+      Host: nmjy.0m0.ccwu.cc
+    path: /vd2I8EQzt8xbgTRzxuv6d8
+- alterId: 0
+  cipher: auto
+  name: 北美地区 V2CROSS.COM
+  network: ws
+  port: 443
+  server: 198.62.62.199
+  servername: ous3.dean52.top
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      Host: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
-  password: 262f1d150049457ac1d6e66b020fa980
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
-  server: 160.16.106.99
+  server: 52.68.27.2
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 262f1d150049457ac1d6e66b020fa980
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
-  server: 54.65.39.157
+  server: 13.115.210.7
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 14636
-  server: 18.166.31.170
+  port: 45947
+  server: 18.162.42.52
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
