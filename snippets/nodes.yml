@@ -1,9 +1,66 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '80'
+  server: gbnhju.7no.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 9f9b2ba3-77c1-400f-9b72-76b9b0829e51
+  ws-opts:
+    headers:
+      Host: gbnhju.7no.ccwu.cc
+    path: /5PVvw26jj0Fy6bojk
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
+  type: trojan
+- name: 台湾省台中市+中华电信
+  password: c5355528-55a2-45df-b8fd-a48ce3c41413
+  port: 35502
+  server: 220.130.58.136
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 8443
+  server: c7.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.152
+  sni: ozon.ru
+  type: trojan
+- alterId: 0
+  cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
@@ -16,7 +73,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: '美国 CloudFlare节点 #3'
   network: ws
   port: 8443
   server: t1.620720.xyz
@@ -27,26 +84,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.169
-  sni: ya.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: gbnhju.7no.ccwu.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9f9b2ba3-77c1-400f-9b72-76b9b0829e51
-  ws-opts:
-    headers:
-      Host: gbnhju.7no.ccwu.cc
-    path: /5PVvw26jj0Fy6bojk
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
