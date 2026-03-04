@@ -1,56 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: ws
-  port: 443
-  server: 198.62.62.199
-  servername: ous3.dean52.top
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 80
-  server: gbnhju.7no.ccwu.cc
-  servername: ''
-  tls: false
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
   type: vmess
-  uuid: 9f9b2ba3-77c1-400f-9b72-76b9b0829e51
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: gbnhju.7no.ccwu.cc
-    path: /5PVvw26jj0Fy6bojk
+      Host: sy4.620720.xyz
+    path: /
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.169
+  sni: ya.ru
+  type: trojan
 - name: 台湾省台中市+中华电信
-  password: f976ac58-b52a-4a54-9c8e-3d49fd365232
-  port: 35501
-  server: 220.130.58.136
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 冰岛+V2CROSS.COM
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  port: 28099
-  server: 37.235.49.209
-  skip-cert-verify: false
-  sni: celestialcorset.crystalhamster.click
-  type: trojan
-- name: '台湾省台中市+中华电信 #1'
   password: c5355528-55a2-45df-b8fd-a48ce3c41413
   port: 35502
   server: 220.130.58.136
   sni: green2.cdntencentmusic.com
-  type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
   type: trojan
 - alterId: 0
   cipher: auto
@@ -66,19 +38,34 @@ proxies:
     headers:
       Host: mn1ray.jagoanvip.xyz
     path: /vvip
+- name: 西班牙+V2CROSS.COM
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: false
+  sni: io.ozone.ru
+  type: trojan
+- name: 冰岛+V2CROSS.COM
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 8443
-  server: c7.620720.xyz
-  tls: true
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '加拿大+V2CROSS.COM #1'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.152
+  sni: ozon.ru
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
