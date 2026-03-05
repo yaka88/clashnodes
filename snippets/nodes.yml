@@ -1,64 +1,67 @@
 proxies:
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.169
+  sni: ya.ru
+  type: trojan
 - name: 台湾省台中市+中华电信
-  password: c5355528-55a2-45df-b8fd-a48ce3c41413
-  port: 35502
-  server: 220.130.58.136
+  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
+  port: 31103
+  server: green2.cdntencentmusic.com
   sni: green2.cdntencentmusic.com
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 8443
-  server: c7.620720.xyz
+  port: '443'
+  server: sy4.620720.xyz
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '以色列 V2CROSS.COM #3'
+  network: none
+  port: '40741'
+  server: 149.88.95.217
+  tls: false
+  type: vmess
+  uuid: 1b8a751b-4909-4fec-f019-907d92e6c47f
+- alterId: 0
+  cipher: auto
+  name: '以色列 V2CROSS.COM #1'
+  network: none
+  port: 18937
+  server: 149.88.95.217
+  tls: false
+  type: vmess
+  uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '以色列 V2CROSS.COM #2'
+  network: none
+  port: '35760'
+  server: 149.88.95.217
+  tls: false
+  type: vmess
+  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '443'
-  server: hjk.6no.ccwu.cc
-  servername: hjk.6no.ccwu.cc
-  tls: true
-  type: vmess
-  uuid: 5f6c3f92-7220-4275-b34d-57c04db3f967
-  ws-opts:
-    headers:
-      Host: hjk.6no.ccwu.cc
-    path: /KnuT4XBUucXkOSONBms
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
-  port: '8443'
-  server: t1.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: t1.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #3'
-  network: ws
-  port: '443'
+  port: 443
   server: sy4.620720.xyz
   tls: true
   type: vmess
