@@ -1,39 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: 198.62.62.199
-  servername: ous3.dean52.top
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
-  name: 日本 东京阿里云
-  network: ws
-  port: '443'
-  server: n1753598451.74qxv.top
-  tls: true
-  type: vmess
-  uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  sni: io.ozone.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: 8443
@@ -48,25 +15,59 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 中国 V2CROSS.COM
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  tls: false
+  name: 日本 东京阿里云
+  network: ws
+  port: '443'
+  server: n1753598446.wpg27.xyz
+  servername: n1753598446.wpg27.xyz
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
+  ws-opts:
+    headers:
+      Host: n1753598446.wpg27.xyz
+    path: /
 - name: 台湾省台中市+中华电信
-  password: c5355528-55a2-45df-b8fd-a48ce3c41413
-  port: 35502
-  server: 220.130.58.136
+  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
+  port: 31103
+  server: green2.cdntencentmusic.com
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- flow: ''
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 26403
+  server: 209.17.118.131
+  tls: false
+  type: vless
+  uuid: 2ab6258a-6670-4875-ab65-60999b764f87
+- alterId: 0
+  cipher: auto
+  name: 加拿大 V2CROSS.COM
+  network: ws
+  port: '443'
+  server: 130.250.137.199
+  servername: ous3.dean52.top
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      Host: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

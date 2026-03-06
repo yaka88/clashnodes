@@ -4,14 +4,15 @@ proxies:
   name: 日本 东京阿里云
   network: ws
   port: '443'
-  server: n1753598451.74qxv.top
+  server: n1753598446.wpg27.xyz
+  servername: n1753598446.wpg27.xyz
   tls: true
   type: vmess
-  uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
+  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: n1753598446.wpg27.xyz
+    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

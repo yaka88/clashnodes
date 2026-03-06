@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 北美地区 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: 198.62.62.199
-  servername: ous3.dean52.top
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
   name: 美国 CloudFlare节点
   network: ws
   port: 8443
@@ -27,6 +13,27 @@ proxies:
     headers:
       Host: t1.620720.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- flow: ''
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 26403
+  server: 209.17.118.131
+  tls: false
+  type: vless
+  uuid: 2ab6258a-6670-4875-ab65-60999b764f87
 - name: 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
