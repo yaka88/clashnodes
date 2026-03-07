@@ -21,20 +21,3 @@ proxies:
   server: 153.121.65.107
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: JP_speednode_0020
-  network: ws
-  port: 443
-  server: 188.253.26.128
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3Fed%3D2560'
