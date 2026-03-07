@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 香港 V2CROSS.COM
+  network: none
+  port: 36678
+  server: 154.219.119.183
+  tls: false
+  type: vmess
+  uuid: 728de689-3287-47b7-ad70-4764660e9b90
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

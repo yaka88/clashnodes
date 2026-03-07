@@ -3,28 +3,27 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '80'
-  server: dcvfr546.0ou.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba
-  ws-opts:
-    headers:
-      Host: dcvfr546.0ou.ccwu.cc
-    path: /y3ME81hpTJWwd4RJBAQ5Ah
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
+  port: 80
   server: gbnhju.7no.ccwu.cc
   tls: false
   type: vmess
   uuid: 9f9b2ba3-77c1-400f-9b72-76b9b0829e51
   ws-opts:
-    headers:
-      Host: gbnhju.7no.ccwu.cc
     path: /5PVvw26jj0Fy6bojk
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
