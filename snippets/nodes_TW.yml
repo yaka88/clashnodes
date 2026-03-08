@@ -1,7 +1,1 @@
-proxies:
-- name: 台湾省台中市+中华电信
-  password: dce94ab1-9d72-4b69-af32-184f1ca9fc33
-  port: 25501
-  server: cdnfire.xiaomispeed.com
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
+proxies: []
