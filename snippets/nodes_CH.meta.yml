@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: CH_speednode_0002
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: '!!str 4fa44664f6a566d3'
+  server: estonia.scroogethebest.com
+  servername: estonia.scroogethebest.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e2e1ddaa-1acf-4c4c-a211-92284f6440ed

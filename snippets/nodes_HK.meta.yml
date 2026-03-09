@@ -3,7 +3,6 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.25.253
-  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
@@ -41,18 +40,11 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0007
-  network: ws
+  name: HK_speednode_0015
+  network: tcp
+  password: BxceQaOe
   port: 443
-  server: 83.229.123.173
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: ''
+  type: trojan

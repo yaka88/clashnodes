@@ -1,31 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 北美地区 V2CROSS.COM
   network: ws
   port: '443'
-  server: sy4.620720.xyz
+  server: 198.62.62.199
+  servername: ous3.dean52.top
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
   ws-opts:
     headers:
-      Host: sy4.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: 172.67.183.14
-  servername: null
-  tls: false
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  ws-opts:
-    headers:
-      Host: lop.bb3.indevs.in
-    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
+      Host: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
 - name: 美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
@@ -48,17 +35,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  name: US_speednode_0041
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: '%2F'
