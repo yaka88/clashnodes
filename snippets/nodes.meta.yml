@@ -1,39 +1,18 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '34114'
-  server: 103.181.164.237
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0009
+  name: 中国 V2CROSS.COM
   network: tcp
-  port: 180
-  server: 82.198.246.97
+  port: '30830'
+  server: v30.hdacd.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 俄罗斯+V2CROSS.COM
   password: ZblhWr0mqMakCPg.N
   port: 36158
   server: 212.193.18.144
   sni: ya.ru
-  type: trojan
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
   type: trojan
 - alterId: 0
   cipher: auto
@@ -49,6 +28,48 @@ proxies:
     headers:
       Host: ous3.dean52.top
     path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alpn:
+  - ''
+  name: SC_speednode_0052
+  network: tcp
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0003
+  network: tcp
+  port: 30003
+  server: a.cdn-bilibili.cn
+  tls: false
+  type: vmess
+  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
+- alterId: 64
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '34114'
+  server: 103.181.164.237
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: vfgty6.2nn.ccwu.cc
+  servername: vfgty6.2nn.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: vfgty6.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -179,15 +200,6 @@ proxies:
   tls: false
   type: vless
   uuid: e2e1ddaa-1acf-4c4c-a211-92284f6440ed
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0003
-  network: tcp
-  port: 30003
-  server: a.cdn-bilibili.cn
-  tls: false
-  type: vmess
-  uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
 - alpn:
   - http/1.1
   client-fingerprint: random
@@ -252,6 +264,15 @@ proxies:
   tls: false
   type: vless
   uuid: d6415904-ebd7-43da-a4a0-26a627aa20fb
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0009
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: GB_speednode_0014
@@ -855,16 +876,6 @@ proxies:
   tls: false
   type: vless
   uuid: b3da836c-d6d8-03e8-ba4a-0a7a54491924
-- alpn:
-  - ''
-  name: SC_speednode_0052
-  network: tcp
-  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
-  port: 443
-  server: 8443.golden-cards.me
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
 - alpn:
   - ''
   flow: xtls-rprx-vision

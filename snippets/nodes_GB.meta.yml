@@ -1,4 +1,14 @@
 proxies:
+- alpn:
+  - ''
+  name: SC_speednode_0052
+  network: tcp
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
 - alterId: 0
   cipher: auto
   name: GB_speednode_0009
