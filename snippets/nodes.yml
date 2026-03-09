@@ -1,59 +1,33 @@
 proxies:
-- alpn:
-  - ''
-  name: SC_speednode_0036
-  network: tcp
-  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
-  port: 443
-  server: 8443.golden-cards.me
-  skip-cert-verify: true
-  sni: ''
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.152
+  sni: ozon.ru
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '8443'
-  server: t1.620720.xyz
-  tls: true
+  name: GB_speednode_0006
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: t1.620720.xyz
-    path: /
-- alterId: 0
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 64
   cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 8443
-  server: c7.620720.xyz
-  servername: c7.620720.xyz
-  tls: true
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '34114'
+  server: 103.181.164.237
+  tls: false
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: c7.620720.xyz
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 西班牙+V2CROSS.COM
   password: wp9IsiY82uQhcmgNC1eoBM
   port: 12420
   server: 80.173.231.254
   sni: www.semanticstaplegun.click
-  type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.169
-  sni: ya.ru
-  type: trojan
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: '加拿大+V2CROSS.COM #1'
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
@@ -61,25 +35,40 @@ proxies:
   server: 167.17.185.228
   sni: web.max
   type: trojan
-- name: 俄罗斯+V2CROSS.COM
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  sni: ya.ru
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: 美国 CloudFlare节点
   network: ws
-  port: '8443'
-  server: c7.620720.xyz
+  port: '443'
+  server: sy4.620720.xyz
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: sy4.620720.xyz
+    path: /
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 172.67.183.14
+  servername: null
+  tls: false
+  type: vmess
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  ws-opts:
+    headers:
+      Host: lop.bb3.indevs.in
+    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -188,15 +177,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0006
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   name: KR_speednode_0009
@@ -211,6 +191,16 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: '%2F'
+- alpn:
+  - ''
+  name: SC_speednode_0036
+  network: tcp
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
 - alpn:
   - ''
   name: US_speednode_0041
