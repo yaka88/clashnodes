@@ -1,8 +1,7 @@
-trojan://jJT7gd5O9vwJzL6RiXpxxXIAL@hl-freedom-2.undef.network:443?sni=hl-freedom-2.undef.network&type=ws&host=hl-freedom-2.undef.network&path=/f2fc2a1f#%E4%B9%8C%E5%85%8B%E5%85%B0%2BV2CROSS.COM
+trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.172:10889?sni=web.max.ru#%E5%8A%A0%E6%8B%BF%E5%A4%A7%2BV2CROSS.COM
+trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.169:10889?sni=ya.ru#%E5%8A%A0%E6%8B%BF%E5%A4%A7%2BV2CROSS.COM%20%231
+vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDkiLCAiYWRkIjogIjgyLjE5OC4yNDYuOTciLCAicG9ydCI6IDE4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
 trojan://wp9IsiY82uQhcmgNC1eoBM@80.173.231.254:12420?sni=www.semanticstaplegun.click#%E8%A5%BF%E7%8F%AD%E7%89%99%2BV2CROSS.COM
-trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.228:10889?sni=web.max#%E5%8A%A0%E6%8B%BF%E5%A4%A7%2BV2CROSS.COM
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lit5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICJ2MTIuaGRhY2QuY29tIiwgInBvcnQiOiAiMzA4MTIiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMTQiLCAiYWRkIjogIjg1LjIxMS4yNDIuODUiLCAicG9ydCI6IDEyODg5LCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICIzN2M2N2E1ZS0yYjJhLTQ5YjItYTE5Ny04ODllODBiMjhiZWUiLCAiaG9zdCI6ICJiYWlkdS5jb20iLCAicGF0aCI6ICIvIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://f389ed926e512e15f382dc3804029474@58.152.18.2:443?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@16.163.107.16:5823?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
@@ -24,7 +23,7 @@ vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@106.54.236.100:18000?allowInsecure=
 vless://c8181481-8544-49da-b4dd-46a3ddb27cae@78.47.172.250:433?allowInsecure=0&sni=www.microsoft.com&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=Bz2HLyFLCOrdtrxIgBPFIIb7BJFfLpnqJ1u-pw0Gpwo&sid=374dc2#DE_speednode_0006
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@91.149.232.164:39738?allowInsecure=0&sni=snippet.gfw.nn.kg&alpn=http/1.1&flow=&fp=random&security=tls&type=ws&host=snippet.gfw.nn.kg&path=%2Fdanfeng#DE_speednode_0007
 vless://d6415904-ebd7-43da-a4a0-26a627aa20fb@madrid-meow.nethcloud.top:8443?allowInsecure=0&sni=wikihow.com&alpn=&flow=&fp=chrome&security=reality&pbk=1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ&sid=8bd29483ded126b4#ES_speednode_0008
-vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDkiLCAiYWRkIjogIjgyLjE5OC4yNDYuOTciLCAicG9ydCI6IDE4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMTQiLCAiYWRkIjogIjg1LjIxMS4yNDIuODUiLCAicG9ydCI6IDEyODg5LCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICIzN2M2N2E1ZS0yYjJhLTQ5YjItYTE5Ny04ODllODBiMjhiZWUiLCAiaG9zdCI6ICJiYWlkdS5jb20iLCAicGF0aCI6ICIvIn0=
 trojan://BxceQaOe@58.152.25.253:443?allowInsecure=1&sni=&alpn=#HK_speednode_0015
 vless://a774f61d-a518-4c61-902f-807797da6caf@scvad1tel-ru.golden-cards.me:443?allowInsecure=0&sni=avatars.mds.yandex.net&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=whYmACpNNY4B3Yv8iBJ9AmxokZL2Tb7O210utmzvGSo&sid=6ba85179e30d4fc2#IQ_speednode_0017
 vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@112.167.47.83:23297?allowInsecure=0&sni=ylnhh.cc.cd&alpn=&flow=&fp=&security=tls&type=ws&host=ylnhh.cc.cd&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2#KR_speednode_0018

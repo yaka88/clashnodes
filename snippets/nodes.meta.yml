@@ -1,49 +1,31 @@
 proxies:
-- name: 乌克兰+V2CROSS.COM
-  network: ws
-  password: jJT7gd5O9vwJzL6RiXpxxXIAL
-  port: 443
-  server: hl-freedom-2.undef.network
-  sni: hl-freedom-2.undef.network
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.172
+  sni: web.max.ru
   type: trojan
-  ws-opts:
-    headers:
-      Host: hl-freedom-2.undef.network
-    path: /f2fc2a1f
+- name: '加拿大+V2CROSS.COM #1'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.169
+  sni: ya.ru
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0009
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 西班牙+V2CROSS.COM
   password: wp9IsiY82uQhcmgNC1eoBM
   port: 12420
   server: 80.173.231.254
   sni: www.semanticstaplegun.click
   type: trojan
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 中国 V2CROSS.COM
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0014
-  network: ws
-  port: 12889
-  server: 85.211.242.85
-  tls: false
-  type: vmess
-  uuid: 37c67a5e-2b2a-49b2-a197-889e80b28bee
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -263,13 +245,17 @@ proxies:
   uuid: d6415904-ebd7-43da-a4a0-26a627aa20fb
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0009
-  network: tcp
-  port: 180
-  server: 82.198.246.97
+  name: GB_speednode_0014
+  network: ws
+  port: 12889
+  server: 85.211.242.85
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 37c67a5e-2b2a-49b2-a197-889e80b28bee
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - alpn:
   - ''
   name: HK_speednode_0015
