@@ -1,17 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 美国 V2CROSS.COM
   network: ws
-  port: 8443
-  server: zdqbk.cmvvb.online
-  servername: zdqbk.cmvvb.online
-  tls: true
+  port: '8443'
+  server: 143.14.105.140
+  tls: false
   type: vmess
-  uuid: a2852e93-7255-4aae-9412-38273fdacd31
+  uuid: 62d5f178-daec-44f7-d7ed-d40b6c786d6d
   ws-opts:
     headers:
-      Host: zdqbk.cmvvb.online
+      Host: ''
     path: /
 - name: 美国|@ripaojiedian
   network: tcp
