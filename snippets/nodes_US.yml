@@ -13,39 +13,25 @@ proxies:
     headers:
       Host: ous3.dean52.top
     path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: vfgty6.2nn.ccwu.cc
-  servername: vfgty6.2nn.ccwu.cc
-  tls: false
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: vfgty6.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - name: 美国|@ripaojiedian
   network: tcp
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4019
-  server: 160.16.70.180
+  password: f389ed926e512e15f382dc3804029474
+  port: 3057
+  server: 160.16.72.205
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  password: f389ed926e512e15f382dc3804029474
   port: 3057
-  server: 160.16.70.180
+  server: 160.16.106.99
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9718
-  server: 18.162.42.82
+  port: 4864
+  server: 16.163.149.149
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
