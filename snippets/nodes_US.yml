@@ -1,36 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 V2CROSS.COM
+  name: 美国 CloudFlare节点
   network: ws
-  port: '8443'
-  server: 143.14.105.140
-  tls: false
+  port: 8443
+  server: kwtgm.cmvvb.online
+  servername: kwtgm.cmvvb.online
+  tls: true
   type: vmess
-  uuid: 62d5f178-daec-44f7-d7ed-d40b6c786d6d
+  uuid: 9fc9b94d-6b44-4029-bc41-09e4ac92e508
   ws-opts:
     headers:
-      Host: ''
+      Host: kwtgm.cmvvb.online
     path: /
-- name: 美国|@ripaojiedian
-  network: tcp
-  password: f389ed926e512e15f382dc3804029474
-  port: 3057
-  server: 160.16.72.205
-  sni: www.nintendogames.net
-  type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 3057
-  server: 160.16.106.99
+  server: 160.16.214.104
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4864
-  server: 16.163.149.149
+  port: 5390
+  server: 18.163.80.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
