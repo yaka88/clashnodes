@@ -1,18 +1,26 @@
 proxies:
-- alterId: 64
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  skip-cert-verify: false
+  sni: www.semanticstaplegun.click
+  type: trojan
+- alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
+  name: GB_speednode_0009
   network: tcp
-  port: '34114'
-  server: 103.181.164.237
+  port: 180
+  server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.172
-  sni: web.max.ru
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '西班牙+V2CROSS.COM #1'
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  sni: io.ozone.ru
   type: trojan
 - alterId: 0
   cipher: auto
@@ -124,15 +132,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0009
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: GB_speednode_0014
