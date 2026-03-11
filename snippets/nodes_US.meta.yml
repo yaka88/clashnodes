@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: none
+  port: 34460
+  server: 216.238.86.158
+  tls: false
+  type: vmess
+  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
@@ -18,7 +27,7 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0053
+  name: US_speednode_0023
   network: tcp
   port: 443
   reality-opts:
@@ -32,42 +41,9 @@ proxies:
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - alpn:
   - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0054
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: '%2Flove'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0055
-  network: tcp
-  port: 43643
-  reality-opts:
-    public-key: U_AczMjOIM-_AgDZrEtTBrInB4lcZxXpGB5CCNeqSCs
-    short-id: '!!str 0708e917'
-  server: 204.197.163.238
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: ff111801-768c-4d23-8f46-e90ef677c80d
-- alpn:
-  - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0056
+  name: US_speednode_0024
   network: ws
   port: 443
   server: 68.64.179.96
@@ -80,52 +56,114 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
+- name: US_speednode_0025
+  obfs: ''
+  obfs-password: ''
+  password: hysteria2_fastlane_81uqqeagr
+  port: 443
+  server: 150.241.78.128
+  skip-cert-verify: true
+  sni: de3.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: US_speednode_0026
+  obfs: ''
+  obfs-password: ''
+  password: hysteria2_fastlane_e4139zxuu
+  port: 443
+  server: 144.31.63.58
+  skip-cert-verify: true
+  sni: de4.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0027
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: '!!str feedbacc'
+  server: 144.31.2.248
+  servername: pl.fasti.win
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0028
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CwmIRtPbbb0VDHYxHTiDxF1xtVDG4Jr90RJZvCKQzXQ
+    short-id: '!!str '
+  server: proxy.darknet.run
+  servername: proxy.darknet.run
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 420a0e21-08c6-4e94-a965-41226b38b674
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0029
+  network: tcp
+  port: 4546
+  reality-opts:
+    public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
+    short-id: '!!str '
+  server: 144.31.234.7
+  servername: enterprise.api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0030
+  network: tcp
+  port: 4546
+  reality-opts:
+    public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
+    short-id: '!!str '
+  server: 144.31.234.7
+  servername: enterprise.api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b52989b9-09dc-4ca0-b722-e6fe3e8a0313
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0057
+  name: US_speednode_0031
   network: ws
   port: 443
-  server: 68.64.179.243
-  servername: ylnhh.cc.cd
+  server: 192.0.63.91
+  servername: snippet.fgfw.indevs.in
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: ylnhh.cc.cd
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0058
-  network: tcp
-  port: 8081
-  reality-opts:
-    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
-    short-id: '!!str 425ba80cd1a821a8'
-  server: 64.188.64.63
-  servername: www.vk.com
-  skip-cert-verify: false
+      Host: snippet.fgfw.indevs.in
+    path: '%2Fdanfeng'
+- name: US_speednode_0032
+  obfs: ''
+  obfs-password: ''
+  password: df1236a0-6caa-4078-96f2-88cd071c3970
+  port: 21619
+  server: us.xn--ehqa22b.site
+  skip-cert-verify: true
+  sni: ''
   tls: false
-  type: vless
-  uuid: b8e03ade-a2a1-4cbb-b002-5e1148049735
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0059
-  network: tcp
-  port: 8081
-  reality-opts:
-    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
-    short-id: '!!str 425ba80cd1a821a8'
-  server: gfm.vpnhub.shop
-  servername: www.vk.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b8e03ade-a2a1-4cbb-b002-5e1148049735
+  type: hysteria2

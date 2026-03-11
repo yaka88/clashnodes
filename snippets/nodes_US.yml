@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: none
+  port: 34460
+  server: 216.238.86.158
+  tls: false
+  type: vmess
+  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
