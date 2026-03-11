@@ -1,45 +1,28 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '34114'
+  server: 103.181.164.237
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 加拿大+V2CROSS.COM
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   port: 10889
-  server: 167.17.185.169
-  sni: ya.ru
+  server: 167.17.185.172
+  sni: web.max.ru
   type: trojan
 - alterId: 0
   cipher: auto
   name: 中国 V2CROSS.COM
   network: tcp
-  port: '30830'
-  server: v30.hdacd.com
+  port: '30812'
+  server: v12.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  sni: io.ozone.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 8443
-  server: kwtgm.cmvvb.online
-  servername: kwtgm.cmvvb.online
-  tls: true
-  type: vmess
-  uuid: 9fc9b94d-6b44-4029-bc41-09e4ac92e508
-  ws-opts:
-    headers:
-      Host: kwtgm.cmvvb.online
-    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
