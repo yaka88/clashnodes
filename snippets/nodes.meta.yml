@@ -1,16 +1,4 @@
 proxies:
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.169
-  sni: ya.ru
-  type: trojan
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  sni: io.ozone.ru
-  type: trojan
 - alterId: 64
   cipher: auto
   name: 亚太地区 V2CROSS.COM
@@ -20,28 +8,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.228
+  sni: web.max
+  type: trojan
+- name: 西班牙+V2CROSS.COM
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  sni: io.ozone.ru
+  type: trojan
+- name: '加拿大+V2CROSS.COM #1'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.172
+  sni: web.max.ru
+  type: trojan
 - name: 保加利亚+V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259
   server: 78.159.131.12
   skip-cert-verify: true
   sni: ads.x5.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 中国 V2CROSS.COM
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '加拿大+V2CROSS.COM #1'
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.228
-  sni: web.max
   type: trojan
 - alterId: 2
   cipher: auto
