@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 浙江省台州市 台州世通网络
   network: ''
-  port: 64003
+  port: 64097
   server: pub.ap20260228.com
   tls: false
   type: vmess
