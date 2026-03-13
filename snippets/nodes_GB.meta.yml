@@ -1,4 +1,31 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  tls: false
+  type: vmess
+  uuid: 38207de1-de96-4f78-867b-7be6b41ef1dd
+  ws-opts:
+    headers:
+      Host: 3dfc06a29f8ae09dec34988159d21bee.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: ws
+  port: 12885
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bbd785de-9793-4453-be40-6a3fdc418203
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - alpn:
   - ''
   client-fingerprint: chrome

@@ -1,18 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 美国 华盛顿Cogent通信公司
   network: ws
-  port: 8443
-  server: zdqbk.cmvvb.online
-  servername: zdqbk.cmvvb.online
+  port: '443'
+  server: 38.55.194.138
+  servername: mn1ray.jagoanvip.xyz
   tls: true
   type: vmess
-  uuid: a2852e93-7255-4aae-9412-38273fdacd31
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
   ws-opts:
     headers:
-      Host: zdqbk.cmvvb.online
-    path: /
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
 - name: 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474

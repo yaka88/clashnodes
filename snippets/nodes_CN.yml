@@ -1,28 +1,4 @@
 proxies:
-- name: 广东省广州市+移动
-  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
-  port: 35203
-  server: jp05.stimaysmhy8.com
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 广东省广州市 电信
-  network: ''
-  port: 64097
-  server: pub.ap20260228.com
-  tls: false
-  type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-- alterId: 0
-  cipher: auto
-  name: '广东省广州市 电信 #1'
-  network: ''
-  port: 64018
-  server: pub.ap20260228.com
-  tls: false
-  type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
 - alterId: 0
   cipher: auto
   name: CN_speednode_0001
