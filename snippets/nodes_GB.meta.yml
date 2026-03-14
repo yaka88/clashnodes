@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 英国 V2CROSS.COM
   network: ws
-  port: 16617
+  port: 16632
   server: t.cnmjcn.cyou
   tls: false
   type: vmess
@@ -15,17 +15,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '英国 V2CROSS.COM #1'
-  network: ws
-  port: 12885
-  server: gtm1.ktmwan.net
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
   servername: ''
   tls: false
   type: vmess
-  uuid: bbd785de-9793-4453-be40-6a3fdc418203
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: chrome

@@ -1,9 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '日本 东京阿里云 #2'
+  network: ws
+  port: 443
+  server: 47.245.42.92
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+  ws-opts:
+    headers:
+      Host: n1753598452.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 东京阿里云 #1'
+  network: ws
+  port: 443
+  server: n1753598452.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+  ws-opts:
+    headers:
+      Host: n1753598452.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 英国 V2CROSS.COM
   network: ws
-  port: 16617
+  port: 16632
   server: t.cnmjcn.cyou
   tls: false
   type: vmess
@@ -12,46 +39,23 @@ proxies:
     headers:
       Host: 3dfc06a29f8ae09dec34988159d21bee.mobgslb.tbcache.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 保加利亚+V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259
   server: 78.159.131.12
+  skip-cert-verify: true
   sni: ads.x5.ru
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: ws
-  port: 12885
-  server: gtm1.ktmwan.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bbd785de-9793-4453-be40-6a3fdc418203
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: 加拿大+V2CROSS.COM
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  port: 10889
-  server: 167.17.185.172
-  sni: web.max.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 华盛顿Cogent通信公司
-  network: ws
-  port: '443'
-  server: 38.55.194.138
-  servername: mn1ray.jagoanvip.xyz
-  tls: true
-  type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  ws-opts:
-    headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
