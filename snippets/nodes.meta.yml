@@ -1,28 +1,42 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '52283'
-  server: 103.181.164.237
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 保加利亚+V2CROSS.COM
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  sni: ads.x5.ru
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 英国 V2CROSS.COM
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 保加利亚+V2CROSS.COM
+  password: MeaDiUmPlkWbZJ2BON8tz
+  port: 28259
+  server: 78.159.131.12
+  skip-cert-verify: true
+  sni: ads.x5.ru
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '34114'
+  server: 103.181.164.237
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 西班牙+V2CROSS.COM
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: false
+  sni: io.ozone.ru
+  type: trojan
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.152
+  sni: ozon.ru
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
