@@ -1,18 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '443'
-  server: nqzkb.cmvvb.online
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5017f929-00f3-4244-abb6-c7295ebf0ac3
-  ws-opts:
-    headers:
-      Host: nqzkb.cmvvb.online
-    path: /
+- name: 美国+Amazon数据中心
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.144.105
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
