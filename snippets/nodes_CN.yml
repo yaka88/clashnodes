@@ -1,18 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 广东省 移动
+  name: 广东省东莞市 联通
   network: tcp
-  port: 6003
+  port: 6029
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省 移动 #1'
+  name: '广东省东莞市 联通 #1'
   network: tcp
-  port: 6029
+  port: 6019
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
