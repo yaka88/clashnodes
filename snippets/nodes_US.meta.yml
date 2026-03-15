@@ -3,21 +3,21 @@ proxies:
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4019
-  server: 52.68.61.114
+  server: 153.121.65.107
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 4920
-  server: 18.181.152.121
+  port: 4019
+  server: 160.16.130.21
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45947
-  server: 95.40.28.8
+  port: 50446
+  server: 95.40.46.74
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -25,7 +25,7 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0023
+  name: US_speednode_0041
   network: tcp
   port: 443
   reality-opts:
@@ -39,9 +39,84 @@ proxies:
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - alpn:
   - ''
+  name: US_speednode_0042
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0043
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0044
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: US_speednode_0045
+  network: tcp
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: '!!str d557c6895d014075'
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+- alpn:
+  - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0024
+  name: US_speednode_0046
+  network: ws
+  port: 443
+  server: 68.64.179.243
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0047
   network: ws
   port: 443
   server: 68.64.179.96
@@ -54,114 +129,273 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- name: US_speednode_0025
-  obfs: ''
-  obfs-password: ''
-  password: hysteria2_fastlane_81uqqeagr
-  port: 443
-  server: 150.241.78.128
-  skip-cert-verify: true
-  sni: de3.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: US_speednode_0026
-  obfs: ''
-  obfs-password: ''
-  password: hysteria2_fastlane_e4139zxuu
-  port: 443
-  server: 144.31.63.58
-  skip-cert-verify: true
-  sni: de4.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0027
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-    short-id: '!!str feedbacc'
-  server: 144.31.2.248
-  servername: pl.fasti.win
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0028
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CwmIRtPbbb0VDHYxHTiDxF1xtVDG4Jr90RJZvCKQzXQ
-    short-id: '!!str '
-  server: proxy.darknet.run
-  servername: proxy.darknet.run
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 420a0e21-08c6-4e94-a965-41226b38b674
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0029
-  network: tcp
-  port: 4546
-  reality-opts:
-    public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
-    short-id: '!!str '
-  server: 144.31.234.7
-  servername: enterprise.api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0030
-  network: tcp
-  port: 4546
-  reality-opts:
-    public-key: 3DLDFzq0NAYBMrhDOaMM04A_Ictohao2yWOY1NdrJCk
-    short-id: '!!str '
-  server: 144.31.234.7
-  servername: enterprise.api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b52989b9-09dc-4ca0-b722-e6fe3e8a0313
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0031
+  name: US_speednode_0048
+  network: ws
+  port: 444
+  server: 206.245.157.134
+  servername: jmc9f8ao6n5xq.saghv.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: jmc9f8ao6n5xq.saghv.filegear-sg.me
+    path: '%2F%40Marisa_kristi'
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  flow: ''
+  name: US_speednode_0049
   network: ws
   port: 443
-  server: 192.0.63.91
-  servername: snippet.fgfw.indevs.in
+  server: 192.0.54.250
+  servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.fgfw.indevs.in
+      Host: snippet.danfeng.theworkpc.com
     path: '%2Fdanfeng'
-- name: US_speednode_0032
-  obfs: ''
-  obfs-password: ''
-  password: df1236a0-6caa-4078-96f2-88cd071c3970
-  port: 21619
-  server: us.xn--ehqa22b.site
-  skip-cert-verify: true
-  sni: ''
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  flow: ''
+  name: US_speednode_0050
+  network: ws
+  port: 7000
+  server: 23.137.255.63
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng'
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  flow: ''
+  name: US_speednode_0051
+  network: ws
+  port: 443
+  server: 192.0.54.130
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng'
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  flow: ''
+  name: US_speednode_0052
+  network: ws
+  port: 443
+  server: 192.0.63.76
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng'
+- alpn:
+  - ''
+  client-fingerprint: safari
+  flow: ''
+  name: US_speednode_0053
+  network: ws
+  port: 443
+  server: 63.141.128.188
+  servername: d2-jp1.djwstlsweb.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
+  ws-opts:
+    headers:
+      Host: d2-jp1.djwstlsweb.top
+    path: '%2Fdjjc%2Fjp1'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0054
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
+    short-id: '!!str '
+  server: usadt01.jumperservice.com
+  servername: www.speedtest.org
+  skip-cert-verify: false
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: b5be8e3f-a17d-479c-ebdb-9c3265c2cab7
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_speednode_0055
+  network: tcp
+  port: 19001
+  reality-opts:
+    public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
+    short-id: '!!str '
+  server: usadt01.jumperservice.com
+  servername: www.speedtest.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 719b17cb-004b-4029-b3fb-e98fafdb0271
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0056
+  network: ws
+  port: 30001
+  server: 144.31.75.246
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0057
+  network: ws
+  port: 443
+  server: 192.0.63.49
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0058
+  network: ws
+  port: 443
+  server: 192.0.63.216
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0059
+  network: ws
+  port: 443
+  server: 192.0.63.115
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0060
+  network: ws
+  port: 443
+  server: 192.0.63.216
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0061
+  network: ws
+  port: 443
+  server: 192.0.63.76
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0062
+  network: ws
+  port: 443
+  server: 192.0.54.250
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ios
+  flow: ''
+  name: US_speednode_0063
+  network: ws
+  port: 443
+  server: 63.141.128.188
+  servername: d2-us4.djwstlsweb.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
+  ws-opts:
+    headers:
+      Host: d2-us4.djwstlsweb.top
+    path: '%2Fdjjc%2Fus4'

@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 广东省东莞市 联通
-  network: tcp
-  port: 6029
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - name: 西班牙+V2CROSS.COM
   password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
   port: 26279
@@ -16,29 +7,53 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '广东省东莞市 联通 #1'
+  name: CN_speednode_0007
   network: tcp
-  port: 6019
+  port: 6004
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- name: '西班牙+V2CROSS.COM #1'
-  network: tcp
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: GB_speednode_0013
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 加拿大+V2CROSS.COM
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.152
+  skip-cert-verify: false
+  sni: ozon.ru
+  type: trojan
+- name: '加拿大+V2CROSS.COM #1'
+  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
+  port: 10889
+  server: 167.17.185.172
+  sni: web.max.ru
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0010
+  network: tcp
+  port: 6029
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0006
+  network: tcp
+  port: 6001
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -52,31 +67,31 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 921
-  server: 54.249.53.157
+  port: 6196
+  server: 54.238.7.116
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 16.163.150.32
+  port: 50495
+  server: 18.163.114.142
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 52.194.190.150
+  port: 50495
+  server: 18.162.133.174
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 52.196.224.76
+  port: 21508
+  server: 54.238.7.116
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -84,35 +99,35 @@ proxies:
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4937
-  server: 52.68.61.114
+  server: 3.112.213.118
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 4937
-  server: 160.16.132.38
+  port: 34818
+  server: 57.181.29.108
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4674
-  server: 160.16.132.38
+  port: 3419
+  server: 3.112.213.118
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 3419
-  server: 160.16.132.38
+  port: 4674
+  server: 3.112.213.118
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29666
-  server: 43.199.43.18
+  port: 25343
+  server: 54.238.89.170
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -120,67 +135,136 @@ proxies:
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4019
-  server: 52.68.61.114
+  server: 153.121.65.107
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 4920
-  server: 18.181.152.121
+  port: 4019
+  server: 160.16.130.21
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45947
-  server: 95.40.28.8
+  port: 50446
+  server: 95.40.46.74
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0001
-  network: tcp
-  port: 64021
-  server: pub.ap20260228.com
-  tls: false
-  type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0002
-  network: tcp
-  port: 64018
-  server: pub.ap20260228.com
-  tls: false
-  type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0003
-  network: tcp
-  port: 64003
-  server: pub.ap20260228.com
-  tls: false
-  type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-- alterId: 0
+- alpn:
+  - ''
+  name: AT_speednode_0002
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.167
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: '%2F'
+- alterId: 2
   cipher: auto
   name: CN_speednode_0004
   network: tcp
-  port: 64097
-  server: pub.ap20260228.com
+  port: 30809
+  server: v9.hdacd.com
   tls: false
   type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0008
+  network: tcp
+  port: 6003
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0009
+  network: tcp
+  port: 6043
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0011
+  network: tcp
+  port: 6019
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: HK_speednode_0015
+  network: ws
+  port: 443
+  server: n1761214907.74qxv.top
+  tls: true
+  type: vmess
+  uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3
+  ws-opts:
+    headers:
+      Host: n1761214907.74qxv.top
+    path: /
 - alpn:
   - ''
-  name: CN_speednode_0005
+  name: HK_speednode_0017
   network: tcp
-  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
-  port: 35902
-  server: sg03.stimaysmhy8.com
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
   skip-cert-verify: true
   sni: ''
   type: trojan
+- alpn:
+  - ''
+  name: US_speednode_0042
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0043
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0044
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: '%2F%3Fed%3D2560'

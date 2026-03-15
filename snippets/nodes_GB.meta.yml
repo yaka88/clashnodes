@@ -1,26 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: GB_speednode_0013
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: GB_speednode_0006
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qrnqrRbyJ3KLRDdvO0Ed2ewMvTn1i5XWyF07q_4eunk
-    short-id: '!!str 8cb5caf3547681c1'
-  server: 185.191.118.144
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7a37a4a1-0750-4311-a355-ff7d499c6797
