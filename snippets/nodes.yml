@@ -3,9 +3,8 @@ proxies:
   cipher: auto
   name: 广东省东莞市 电信IDC机房
   network: tcp
-  port: '6047'
+  port: '6045'
   server: cn02.365cloud5878.com
-  servername: ''
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
@@ -13,35 +12,55 @@ proxies:
   cipher: auto
   name: '广东省东莞市 电信IDC机房 #1'
   network: tcp
-  port: '6035'
+  port: '6034'
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省东莞市 电信IDC机房 #2'
-  network: tcp
-  port: '6010'
-  server: cn02.365cloud5878.com
-  tls: false
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: cdfr.ae1autumn.dpdns.org
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: cdfr.ae1autumn.dpdns.org
+    path: /YsmRouA9ZbxgW4
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
   name: GB_speednode_0013
   network: tcp
   port: 180
   server: 82.198.246.97
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '广东省东莞市 电信IDC机房 #3'
+  name: '广东省东莞市 电信IDC机房 #2'
   network: tcp
-  port: '6027'
+  port: '6014'
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0011
+  network: tcp
+  port: 6019
   server: cn02.365cloud5878.com
   servername: ''
   tls: false
@@ -49,9 +68,9 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0006
+  name: CN_speednode_0009
   network: tcp
-  port: 6001
+  port: 6043
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
@@ -60,7 +79,7 @@ proxies:
   cipher: auto
   name: '广东省东莞市 电信IDC机房 #5'
   network: tcp
-  port: '6009'
+  port: '6044'
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
@@ -69,17 +88,36 @@ proxies:
   cipher: auto
   name: '广东省东莞市 电信IDC机房 #6'
   network: tcp
-  port: '6052'
+  port: '6039'
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0007
+  name: '广东省东莞市 电信IDC机房 #7'
   network: tcp
-  port: 6004
+  port: '6042'
   server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 广东省 移动
+  network: tcp
+  port: '6002'
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '广东省 移动 #1'
+  network: tcp
+  port: '6030'
+  server: cn02.365cloud5878.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
@@ -87,40 +125,11 @@ proxies:
   cipher: auto
   name: '广东省东莞市 电信IDC机房 #8'
   network: tcp
-  port: '6030'
+  port: '6024'
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #9'
-  network: tcp
-  port: '6022'
-  server: cn02.365cloud5878.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #10'
-  network: tcp
-  port: '6026'
-  server: cn02.365cloud5878.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 64
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -245,6 +254,24 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
+  name: CN_speednode_0006
+  network: tcp
+  port: 6001
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0007
+  network: tcp
+  port: 6004
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
   name: CN_speednode_0008
   network: tcp
   port: 6003
@@ -254,27 +281,9 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0009
-  network: tcp
-  port: 6043
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
   name: CN_speednode_0010
   network: tcp
   port: 6029
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0011
-  network: tcp
-  port: 6019
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
