@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 广东省深圳市 移动
+  name: 广东省东莞市 电信IDC机房
   network: tcp
-  port: '6010'
+  port: '6047'
   server: cn02.365cloud5878.com
   servername: ''
   tls: false
@@ -11,39 +11,19 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: 中国 V2CROSS.COM
+  name: '广东省东莞市 电信IDC机房 #1'
   network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 64
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '中国 V2CROSS.COM #1'
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '广东省深圳市 移动 #1'
-  network: tcp
-  port: '6005'
+  port: '6035'
   server: cn02.365cloud5878.com
-  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '广东省东莞市 电信IDC机房 #2'
+  network: tcp
+  port: '6010'
+  server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
@@ -57,17 +37,11 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  sni: io.ozone.ru
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '广东省深圳市 移动 #2'
+  name: '广东省东莞市 电信IDC机房 #3'
   network: tcp
-  port: '6021'
+  port: '6027'
   server: cn02.365cloud5878.com
   servername: ''
   tls: false
@@ -75,9 +49,27 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省深圳市 移动 #3'
+  name: CN_speednode_0006
   network: tcp
-  port: '6031'
+  port: 6001
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '广东省东莞市 电信IDC机房 #5'
+  network: tcp
+  port: '6009'
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '广东省东莞市 电信IDC机房 #6'
+  network: tcp
+  port: '6052'
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
@@ -93,18 +85,18 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省深圳市 移动 #5'
+  name: '广东省东莞市 电信IDC机房 #8'
   network: tcp
-  port: '6016'
+  port: '6030'
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省深圳市 移动 #6'
+  name: '广东省东莞市 电信IDC机房 #9'
   network: tcp
-  port: '6018'
+  port: '6022'
   server: cn02.365cloud5878.com
   servername: ''
   tls: false
@@ -112,14 +104,23 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0006
+  name: '广东省东莞市 电信IDC机房 #10'
   network: tcp
-  port: 6001
+  port: '6026'
   server: cn02.365cloud5878.com
   servername: ''
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 64
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
