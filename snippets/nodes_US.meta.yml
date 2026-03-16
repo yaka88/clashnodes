@@ -1,9 +1,17 @@
 proxies:
-- name: 美国+Amazon数据中心
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.38.144.105
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8443'
+  server: hwtqcp.uhomdex.shop
+  tls: true
+  type: vmess
+  uuid: eddebc92-b9f7-4019-8a11-0d733bfe665d
+  ws-opts:
+    headers:
+      Host: hwtqcp.uhomdex.shop
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
