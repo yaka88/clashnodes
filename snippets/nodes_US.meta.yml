@@ -3,16 +3,16 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 443
-  server: cdfr.ae1autumn.dpdns.org
-  servername: ''
-  tls: true
+  port: '80'
+  server: dvgt.zem.indevs.in
+  servername: dvgt.zem.indevs.in
+  tls: false
   type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
   ws-opts:
     headers:
-      Host: cdfr.ae1autumn.dpdns.org
-    path: /YsmRouA9ZbxgW4
+      Host: dvgt.zem.indevs.in
+    path: /7sOz0p4SzU1D6XNC0BXGtJ
 - name: 美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
