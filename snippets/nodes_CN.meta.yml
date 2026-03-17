@@ -1,18 +1,64 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 广东省 移动
+  name: CN_speednode_0009
   network: tcp
-  port: '6018'
+  port: 6043
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省 移动 #1'
+  name: '广东省东莞市 电信IDC机房 #1'
   network: tcp
-  port: '6050'
+  port: '6005'
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '广东省东莞市 电信IDC机房 #2'
+  network: tcp
+  port: '6046'
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '广东省东莞市 电信IDC机房 #3'
+  network: tcp
+  port: '6036'
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '广东省东莞市 电信IDC机房 #4'
+  network: tcp
+  port: '6022'
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0011
+  network: tcp
+  port: 6019
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '广东省东莞市 电信IDC机房 #6'
+  network: tcp
+  port: '6052'
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
@@ -28,62 +74,25 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省 移动 #3'
+  name: '广东省东莞市 电信IDC机房 #8'
   network: tcp
-  port: '6041'
-  server: cn02.365cloud5878.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省 移动 #4'
-  network: tcp
-  port: '6046'
+  port: '6035'
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省 移动 #5'
+  name: '广东省东莞市 电信IDC机房 #9'
   network: tcp
-  port: '6022'
+  port: '6007'
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省 移动 #6'
-  network: tcp
-  port: '6020'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0009
-  network: tcp
-  port: 6043
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省 移动 #8'
-  network: tcp
-  port: '6036'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省 移动 #9'
+  name: '广东省东莞市 电信IDC机房 #10'
   network: tcp
   port: '6014'
   server: cn02.365cloud5878.com
@@ -92,9 +101,18 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: '广东省 移动 #10'
+  name: '广东省东莞市 电信IDC机房 #11'
   network: tcp
-  port: '6016'
+  port: '6024'
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0006
+  network: tcp
+  port: 6001
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
@@ -110,15 +128,6 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0006
-  network: tcp
-  port: 6001
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
   name: CN_speednode_0007
   network: tcp
   port: 6004
@@ -131,15 +140,6 @@ proxies:
   name: CN_speednode_0008
   network: tcp
   port: 6003
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0011
-  network: tcp
-  port: 6019
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
