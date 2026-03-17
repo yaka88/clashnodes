@@ -1,31 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0013
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
-- name: 冰岛+V2CROSS.COM
-  password: qmBSKnAl6LYi9=z23Rs.Z
-  port: 28099
-  server: 37.235.49.209
-  sni: celestialcorset.crystalhamster.click
-  type: trojan
-- name: 保加利亚+V2CROSS.COM
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  skip-cert-verify: false
-  sni: ads.x5.ru
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
@@ -33,10 +11,36 @@ proxies:
   network: tcp
   port: '30812'
   server: v12.hdacd.com
-  servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0007
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 64
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '34114'
+  server: 103.181.164.237
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #1'
+  network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -136,23 +140,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  name: AT_speednode_0002
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.167
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: '%2F'
 - alterId: 2
   cipher: auto
-  name: CN_speednode_0004
+  name: CN_speednode_0001
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0002
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -161,120 +160,42 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0006
-  network: tcp
-  port: 6001
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0007
-  network: tcp
-  port: 6004
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0008
-  network: tcp
-  port: 6003
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0009
-  network: tcp
-  port: 6043
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0010
-  network: tcp
-  port: 6029
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0011
-  network: tcp
-  port: 6019
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: HK_speednode_0015
+  name: CN_speednode_0003
   network: ws
-  port: 443
-  server: n1761214907.74qxv.top
-  tls: true
+  port: 16626
+  server: planb.mojcn.com
+  tls: false
   type: vmess
-  uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3
+  uuid: 40449518-c836-4aa7-b6a1-429f6e221eed
   ws-opts:
     headers:
-      Host: n1761214907.74qxv.top
+      Host: 74e46cd6105a36ab9d31c4451aa68c4a.mobgslb.tbcache.com
     path: /
 - alpn:
   - ''
-  name: HK_speednode_0017
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
+  name: KR_speednode_0011
+  network: ws
+  password: trojan
+  port: 11434
+  server: 114.207.99.233
   skip-cert-verify: true
   sni: ''
   type: trojan
-- alpn:
-  - ''
-  name: US_speednode_0042
-  network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
   ws-opts:
     headers:
-      Host: nodes.830901.xyz
+      Host: jflsjlaf.pages.dev
     path: '%2F'
 - alpn:
   - ''
-  name: US_speednode_0043
+  name: US_speednode_0021
   network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
   sni: ''
   type: trojan
   ws-opts:
     headers:
-      Host: epge.muarua.filegear-sg.me
+      Host: jflsjlaf.pages.dev
     path: '%2F'
-- alpn:
-  - ''
-  name: US_speednode_0044
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: '%2F%3Fed%3D2560'

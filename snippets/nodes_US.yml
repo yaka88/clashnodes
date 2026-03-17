@@ -23,43 +23,15 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: US_speednode_0042
+  name: US_speednode_0021
   network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: false
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
   sni: ''
   type: trojan
   ws-opts:
     headers:
-      Host: nodes.830901.xyz
+      Host: jflsjlaf.pages.dev
     path: '%2F'
-- alpn:
-  - ''
-  name: US_speednode_0043
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: '%2F'
-- alpn:
-  - ''
-  name: US_speednode_0044
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: '%2F%3Fed%3D2560'

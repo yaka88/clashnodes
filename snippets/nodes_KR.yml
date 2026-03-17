@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  name: KR_speednode_0011
+  network: ws
+  password: trojan
+  port: 11434
+  server: 114.207.99.233
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: '%2F'

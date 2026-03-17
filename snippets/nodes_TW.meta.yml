@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  flow: ''
+  name: TW_speednode_0019
+  network: ws
+  port: 2083
+  server: 125.227.233.197
+  servername: snippet.danfeng.casacam.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.casacam.net
+    path: '%2Fdanfeng'
