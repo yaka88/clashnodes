@@ -1,122 +1,42 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0009
+  name: GB_speednode_0013
   network: tcp
-  port: 6043
-  server: cn02.365cloud5878.com
+  port: 180
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
+  type: trojan
+- name: 冰岛+V2CROSS.COM
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- name: 保加利亚+V2CROSS.COM
+  password: MeaDiUmPlkWbZJ2BON8tz
+  port: 28259
+  server: 78.159.131.12
+  skip-cert-verify: false
+  sni: ads.x5.ru
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '广东省东莞市 电信IDC机房 #1'
+  name: 中国 V2CROSS.COM
   network: tcp
-  port: '6005'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #2'
-  network: tcp
-  port: '6046'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #3'
-  network: tcp
-  port: '6036'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #4'
-  network: tcp
-  port: '6022'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0011
-  network: tcp
-  port: 6019
-  server: cn02.365cloud5878.com
+  port: '30812'
+  server: v12.hdacd.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #6'
-  network: tcp
-  port: '6052'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0010
-  network: tcp
-  port: 6029
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #8'
-  network: tcp
-  port: '6035'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #9'
-  network: tcp
-  port: '6007'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #10'
-  network: tcp
-  port: '6014'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: '广东省东莞市 电信IDC机房 #11'
-  network: tcp
-  port: '6024'
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0006
-  network: tcp
-  port: 6001
-  server: cn02.365cloud5878.com
-  tls: false
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -274,6 +194,15 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
+  name: CN_speednode_0006
+  network: tcp
+  port: 6001
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
   name: CN_speednode_0007
   network: tcp
   port: 6004
@@ -286,6 +215,33 @@ proxies:
   name: CN_speednode_0008
   network: tcp
   port: 6003
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0009
+  network: tcp
+  port: 6043
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0010
+  network: tcp
+  port: 6029
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0011
+  network: tcp
+  port: 6019
   server: cn02.365cloud5878.com
   tls: false
   type: vmess
@@ -307,15 +263,6 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0013
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: ''
