@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 8443
+  server: zdqbk.cmvvb.online
+  servername: zdqbk.cmvvb.online
+  tls: true
+  type: vmess
+  uuid: ef46b74c-b3ef-4633-9818-0af6226c4060
+  ws-opts:
+    headers:
+      Host: zdqbk.cmvvb.online
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
