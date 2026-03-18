@@ -1,45 +1,21 @@
 proxies:
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
+- name: 英国+V2CROSS.COM
+  password: IL37892054
+  port: 443
+  server: upright-rhino.rooster465.autos
   skip-cert-verify: false
-  sni: io.ozone.ru
+  sni: upright-rhino.rooster465.autos
   type: trojan
 - alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 8443
-  server: zdqbk.cmvvb.online
-  servername: zdqbk.cmvvb.online
-  tls: true
-  type: vmess
-  uuid: ef46b74c-b3ef-4633-9818-0af6226c4060
-  ws-opts:
-    headers:
-      Host: zdqbk.cmvvb.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0007
+  cipher: aes-128-gcm
+  name: 香港2|@ripaojiedian
   network: tcp
-  port: 180
-  server: 82.198.246.97
+  port: '6001'
+  server: cn01.365cloud8754.com
   servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 中国 V2CROSS.COM
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - name: 冰岛+V2CROSS.COM
   network: tcp
   password: qmBSKnAl6LYi9=z23Rs.Z
@@ -47,6 +23,39 @@ proxies:
   server: 37.235.49.209
   skip-cert-verify: true
   sni: celestialcorset.crystalhamster.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: TW_speednode_0007
+  network: ws
+  port: 80
+  server: abm96f00fby3.jkhkgj.xyz
+  tls: false
+  type: vmess
+  uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /market/jp1
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 罗马尼亚+V2CROSS.COM
+  password: IL37892054
+  port: 443
+  server: apt-magpie.rooster465.autos
+  skip-cert-verify: false
+  sni: apt-magpie.rooster465.autos
+  type: trojan
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
   type: trojan
 - alterId: 2
   cipher: auto
@@ -58,16 +67,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 香港2|@ripaojiedian
-  network: tcp
-  port: '6001'
-  server: cn01.365cloud8754.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
@@ -161,17 +160,17 @@ proxies:
   cipher: auto
   name: CN_speednode_0001
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
+  port: 30833
+  server: v33.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: CN_speednode_0002
   network: tcp
-  port: 30809
-  server: v9.hdacd.com
+  port: 30812
+  server: v12.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -179,199 +178,56 @@ proxies:
   cipher: auto
   name: CN_speednode_0003
   network: ws
-  port: 16626
-  server: planb.mojcn.com
+  port: 16618
+  server: m.cnmjin.net
   tls: false
   type: vmess
-  uuid: 40449518-c836-4aa7-b6a1-429f6e221eed
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
   ws-opts:
     headers:
-      Host: 74e46cd6105a36ab9d31c4451aa68c4a.mobgslb.tbcache.com
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
     path: /
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: DE_speednode_0004
-  network: ws
-  port: 8005
-  server: 45.145.42.170
-  servername: sub.mot.ip-ddns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: '%2F'
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: DE_speednode_0005
+  name: GB_speednode_0004
   network: tcp
+  password: IL37892054
   port: 443
-  reality-opts:
-    public-key: EdEtwDL3a_V9midkIqik19C3xo7VvefseGkDM5jBWGM
-    short-id: 'ba34cbf836e99bf6'
-  server: 89.185.85.107
-  servername: cdnv-img.perekrestok.ru
+  server: upright-rhino.rooster465.autos
   skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 658786e5-f302-48e2-b321-f4dc6da2a398
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: FI_speednode_0006
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-    short-id: '7cad5040'
-  server: 135.181.155.97
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  flow: ''
-  name: HK_speednode_0008
-  network: ws
-  port: 3389
-  server: 203.168.131.110
-  servername: snippet.chinav.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.chinav.eu.cc
-    path: '%2Fdanfeng'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: JP_speednode_0009
-  network: ws
-  port: 443
-  server: 138.2.62.8
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- alpn:
-  - ''
-  flow: ''
-  name: JP_speednode_0010
-  network: tcp
-  port: 45863
-  reality-opts:
-    public-key: LV-5v6aj0hx9D6wn8rFr3R86dcHtvumamPYvyfIzGRw
-    short-id: '23a6bb69'
-  server: 167.88.185.116
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 4dd53a07-5457-4a5a-8242-a9dd98221246
-- alpn:
-  - ''
-  name: KR_speednode_0011
-  network: ws
-  password: trojan
-  port: 11434
-  server: 114.207.99.233
-  skip-cert-verify: true
   sni: ''
   type: trojan
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: KR_speednode_0012
+- alterId: 0
+  cipher: auto
+  name: JP_speednode_0005
   network: ws
-  port: 23297
-  server: 112.167.47.83
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: KR_speednode_0013
-  network: ws
-  port: 11265
-  server: 211.48.77.114
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  flow: ''
-  name: KR_speednode_0014
-  network: ws
-  port: 12473
-  server: 222.113.144.175
-  servername: chinam.sylu.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: chinam.sylu.net
-    path: '%2Fdanfeng'
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: LB_speednode_0015
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: qJHmudCfwVqVt8M5g3JHxeI_IKUUIrfb0PIVFG_NJU4
-    short-id: '60e0c27fcabb'
-  server: sub.himikvpn.online
-  servername: pimg.mycdn.me
-  skip-cert-verify: false
+  port: 16618
+  server: t.cnmjcn.cyou
   tls: false
-  type: vless
-  uuid: f7f18360-fbdf-45b5-93f4-4e47a29e595b
+  type: vmess
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - ''
+  name: LU_speednode_0006
+  network: tcp
+  password: IL37892054
+  port: 443
+  server: apt-magpie.rooster465.autos
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: RU_speednode_0016
+  name: US_speednode_0011
   network: ws
   port: 443
-  server: 193.9.49.65
+  server: 172.64.52.210
   servername: r.icy.de5.net
   skip-cert-verify: false
   tls: true
@@ -381,180 +237,3 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: '%2F%3Fed%3D2560'
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  flow: ''
-  name: TW_speednode_0019
-  network: ws
-  port: 2083
-  server: 125.227.233.197
-  servername: snippet.danfeng.casacam.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.casacam.net
-    path: '%2Fdanfeng'
-- alpn:
-  - ''
-  flow: ''
-  name: US_speednode_0020
-  network: tcp
-  port: 18959
-  reality-opts:
-    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-    short-id: 'd557c6895d014075'
-  server: 157.254.223.44
-  servername: itunes.apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-- alpn:
-  - ''
-  name: US_speednode_0021
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0022
-  network: ws
-  port: 443
-  server: 192.0.54.131
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: US_speednode_0023
-  network: tcp
-  port: 44439
-  reality-opts:
-    public-key: lRUqKrHoHDHOV4kd8bhZ3BID8Nc-wtoTIUTI7COFtTA
-    short-id: '7af883'
-  server: 107.172.67.59
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 0f780c56-a708-44d9-a1a1-7c210b65e44f
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0024
-  network: tcp
-  port: 21876
-  reality-opts:
-    public-key: 4SQmJ_vJw_UhDZ-sHlex6aJlYO0w7LndThtCaUDPYiI
-    short-id: '204673043ea9'
-  server: 9kg.cumotech.com
-  servername: tesla.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7db4a03c-7616-42f1-a1e7-80ec822e1ed0
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0025
-  network: tcp
-  port: 49836
-  reality-opts:
-    public-key: GO5Oj6pvIPmAz3D-c1B5FZy4ZeVpnPQzcX1cZcnS9i0
-    short-id: 'b6d67bd8896d16'
-  server: panda.cumotech.com
-  servername: tesla.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 2b7118d9-04c0-4c2f-8a2d-fe44bef73c7b
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0026
-  network: ws
-  port: 443
-  server: 192.0.54.188
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0027
-  network: ws
-  port: 443
-  server: 192.0.63.56
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0028
-  network: ws
-  port: 443
-  server: 192.0.54.225
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0029
-  network: ws
-  port: 443
-  server: 192.0.63.134
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: '%2Fdanfeng%3Fed%3D2560'

@@ -1,18 +1,14 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  flow: ''
-  name: TW_speednode_0019
+- alterId: 0
+  cipher: auto
+  name: TW_speednode_0007
   network: ws
-  port: 2083
-  server: 125.227.233.197
-  servername: snippet.danfeng.casacam.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  port: 80
+  server: abm96f00fby3.jkhkgj.xyz
+  tls: false
+  type: vmess
+  uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4
   ws-opts:
     headers:
-      Host: snippet.danfeng.casacam.net
-    path: '%2Fdanfeng'
+      Host: tms.dingtalk.com
+    path: /market/jp1
