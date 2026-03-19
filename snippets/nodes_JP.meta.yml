@@ -21,16 +21,3 @@ proxies:
   server: 13.230.3.199
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: JP_speednode_0005
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
-  ws-opts:
-    headers:
-      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
-    path: /
