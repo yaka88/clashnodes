@@ -1,19 +1,29 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: CN_speednode_0001
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: CN_speednode_0002
   network: tcp
   port: 30812
   server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 香港2|@ripaojiedian
+  network: tcp
+  port: '6001'
+  server: cn01.365cloud8754.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
+- alterId: 2
+  cipher: auto
+  name: CN_speednode_0001
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
