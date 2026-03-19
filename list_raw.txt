@@ -1,11 +1,10 @@
-trojan://IL37892054@upright-rhino.rooster465.autos:443?allowInsecure=0&sni=upright-rhino.rooster465.autos#%E8%8B%B1%E5%9B%BD%2BV2CROSS.COM
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivMnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICJjbjAxLjM2NWNsb3VkODc1NC5jb20iLCAicG9ydCI6ICI2MDAxIiwgImFpZCI6IDAsICJzY3kiOiAiYWVzLTEyOC1nY20iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkYjc1YmM5Mi00ZTMyLTQ4ZGQtYjc5Mi1kN2E4YjcwNzYyNmMiLCAic25pIjogIiJ9
+trojan://BxceQaOe@58.152.25.253:443?sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lqa5aSq5Zyw5Yy6IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIxMDMuMTgxLjE2NC4xNDUiLCAicG9ydCI6ICI1NDAyMiIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQifQ==
 trojan://qmBSKnAl6LYi9%3Dz23Rs.Z@37.235.49.209:28099?allowInsecure=1&sni=celestialcorset.crystalhamster.click#%E5%86%B0%E5%B2%9B%2BV2CROSS.COM
-vmess://eyJ2IjogIjIiLCAicHMiOiAiVFdfc3BlZWRub2RlXzAwMDciLCAiYWRkIjogImFibTk2ZjAwZmJ5My5qa2hrZ2oueHl6IiwgInBvcnQiOiA4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiMGY4NjgwMDItNTIzMC00NWZiLWJlMjMtMGZkMGVkOWJiZGM0IiwgImhvc3QiOiAidG1zLmRpbmd0YWxrLmNvbSIsICJwYXRoIjogIi9tYXJrZXQvanAxIn0=
-trojan://BxceQaOe@58.152.25.253:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
-trojan://IL37892054@apt-magpie.rooster465.autos:443?allowInsecure=0&sni=apt-magpie.rooster465.autos#%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A%2BV2CROSS.COM
-trojan://wp9IsiY82uQhcmgNC1eoBM@80.173.231.254:12420?sni=www.semanticstaplegun.click#%E8%A5%BF%E7%8F%AD%E7%89%99%2BV2CROSS.COM
+vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
+trojan://a5inYFE%3DJGV89%2BhjxIqgDp1tcWBd6@80.173.230.196:26279?allowInsecure=0&sni=io.ozone.ru#%E8%A5%BF%E7%8F%AD%E7%89%99%2BV2CROSS.COM
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivMnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICJjbjAxLjM2NWNsb3VkODc1NC5jb20iLCAicG9ydCI6ICI2MDAxIiwgImFpZCI6IDAsICJzY3kiOiAiYWVzLTEyOC1nY20iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkYjc1YmM5Mi00ZTMyLTQ4ZGQtYjc5Mi1kN2E4YjcwNzYyNmMiLCAic25pIjogIiJ9
 trojan://86e150eb21c6faee48e81d496d7f61c2@43.207.153.203:19256?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@58.152.18.123:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
 trojan://BxceQaOe@13.231.159.112:921?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
@@ -24,4 +23,5 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiQ05fc3BlZWRub2RlXzAwMDMiLCAiYWRkIjogIm0uY25tamlu
 trojan://IL37892054@upright-rhino.rooster465.autos:443?allowInsecure=0&sni=&alpn=#GB_speednode_0004
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSlBfc3BlZWRub2RlXzAwMDUiLCAiYWRkIjogInQuY25tamNuLmN5b3UiLCAicG9ydCI6IDE2NjE4LCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkYmUzMTAyYy01ZTI2LTRiNWYtODJlYi00OTNhZTA3ZTc1OGMiLCAiaG9zdCI6ICI0MzdkZmVkOTRjYjc5NDNiYjZmN2Y5M2NjZjAwYTU2MS5tb2Jnc2xiLnRiY2FjaGUuY29tIiwgInBhdGgiOiAiLyJ9
 trojan://IL37892054@apt-magpie.rooster465.autos:443?allowInsecure=0&sni=&alpn=#LU_speednode_0006
+vmess://eyJ2IjogIjIiLCAicHMiOiAiVFdfc3BlZWRub2RlXzAwMDciLCAiYWRkIjogImFibTk2ZjAwZmJ5My5qa2hrZ2oueHl6IiwgInBvcnQiOiA4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiMGY4NjgwMDItNTIzMC00NWZiLWJlMjMtMGZkMGVkOWJiZGM0IiwgImhvc3QiOiAidG1zLmRpbmd0YWxrLmNvbSIsICJwYXRoIjogIi9tYXJrZXQvanAxIn0=
 vless://9e4f36da-8f61-44f8-a9a7-0fd3a8d81234@172.64.52.210:443?allowInsecure=0&sni=r.icy.de5.net&alpn=&flow=&fp=&security=tls&type=ws&host=r.icy.de5.net&path=%2F%3Fed%3D2560#US_speednode_0011

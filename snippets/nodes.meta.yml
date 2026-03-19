@@ -1,21 +1,19 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  password: IL37892054
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
   port: 443
-  server: upright-rhino.rooster465.autos
-  skip-cert-verify: false
-  sni: upright-rhino.rooster465.autos
+  server: 58.152.25.253
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 香港2|@ripaojiedian
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
   network: tcp
-  port: '6001'
-  server: cn01.365cloud8754.com
-  servername: ''
+  port: '54022'
+  server: 103.181.164.145
   tls: false
   type: vmess
-  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 冰岛+V2CROSS.COM
   network: tcp
   password: qmBSKnAl6LYi9=z23Rs.Z
@@ -26,36 +24,19 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: TW_speednode_0007
-  network: ws
-  port: 80
-  server: abm96f00fby3.jkhkgj.xyz
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /market/jp1
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  password: IL37892054
-  port: 443
-  server: apt-magpie.rooster465.autos
-  skip-cert-verify: false
-  sni: apt-magpie.rooster465.autos
-  type: trojan
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: false
+  sni: io.ozone.ru
   type: trojan
 - alterId: 2
   cipher: auto
@@ -67,6 +48,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 香港2|@ripaojiedian
+  network: tcp
+  port: '6001'
+  server: cn01.365cloud8754.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
@@ -220,6 +211,19 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: TW_speednode_0007
+  network: ws
+  port: 80
+  server: abm96f00fby3.jkhkgj.xyz
+  tls: false
+  type: vmess
+  uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /market/jp1
 - alpn:
   - ''
   client-fingerprint: ''
