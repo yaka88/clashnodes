@@ -1,38 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
+  name: '英国 V2CROSS.COM #1'
   network: tcp
-  port: '51556'
-  server: 103.181.164.145
+  port: '180'
+  server: 82.198.246.97
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 64
-  cipher: auto
-  name: '亚太地区 V2CROSS.COM #1'
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '亚太地区 V2CROSS.COM #2'
+  name: CN_speednode_0015
   network: ws
-  port: '16618'
-  server: planb.mojcn.com
+  port: 16617
+  server: m.cnmjin.net
   tls: false
   type: vmess
   uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
@@ -40,21 +22,46 @@ proxies:
     headers:
       Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
     path: /
+- name: 广东省+移动
+  network: tcp
+  port: 8654
+  server: 183.240.252.165
+  tls: false
+  type: vless
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d145
+- name: 保加利亚+V2CROSS.COM
+  password: MeaDiUmPlkWbZJ2BON8tz
+  port: 28259
+  server: 78.159.131.12
+  skip-cert-verify: false
+  sni: ads.x5.ru
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 伊朗 V2CROSS.COM
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
+  name: GB_speednode_0019
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 匈牙利+V2CROSS.COM
-  password: IL37892054
-  port: 443
-  server: outgoing-ladybird.rooster465.autos
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
+- name: 西班牙+V2CROSS.COM
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
   skip-cert-verify: false
-  sni: outgoing-ladybird.rooster465.autos
+  sni: io.ozone.ru
+  type: trojan
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
@@ -323,19 +330,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0015
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: CN_speednode_0016
   network: ws
   port: 16622
@@ -376,19 +370,6 @@ proxies:
   ws-opts:
     headers:
       Host: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0019
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
-  ws-opts:
-    headers:
-      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto

@@ -1,4 +1,11 @@
 proxies:
+- name: 广东省+移动
+  network: tcp
+  port: 8654
+  server: 183.240.252.165
+  tls: false
+  type: vless
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d145
 - alterId: 0
   cipher: auto
   name: CN_speednode_0003
@@ -122,19 +129,6 @@ proxies:
   network: ws
   port: 16626
   server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0015
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
   tls: false
   type: vmess
   uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
