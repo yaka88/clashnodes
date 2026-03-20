@@ -114,6 +114,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: CN_speednode_0015
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: CN_speednode_0016
   network: ws
   port: 16622
