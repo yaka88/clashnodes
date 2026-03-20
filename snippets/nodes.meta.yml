@@ -1,49 +1,44 @@
 proxies:
-- name: 匈牙利+V2CROSS.COM
-  password: IL37892054
-  port: 443
-  server: outgoing-ladybird.rooster465.autos
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
   skip-cert-verify: false
-  sni: outgoing-ladybird.rooster465.autos
+  sni: ya.ru
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
+  servername: cxsfvn.uhomdex.shop
+  tls: true
+  type: vmess
+  uuid: bb6e260e-b80d-4365-b252-9fbe466f1f34
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 乌克兰 V2CROSS.COM
   network: tcp
-  port: '51556'
-  server: 103.181.164.145
+  port: '22324'
+  server: 85.90.217.42
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 西班牙+V2CROSS.COM
-  network: tcp
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '英国 V2CROSS.COM #1'
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 保加利亚+V2CROSS.COM
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  sni: ads.x5.ru
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
