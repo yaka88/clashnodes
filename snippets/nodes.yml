@@ -1,46 +1,74 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 巴西圣保罗 CloudFlare节点
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  servername: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- name: 冰岛+V2CROSS.COM
+  network: tcp
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  skip-cert-verify: true
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: dfg.ae1autumn.cc.cd
+  tls: false
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    path: /YsmRouA9ZbxgW4
+- alterId: 0
+  cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 8443
-  server: t1.620720.xyz
+  port: 443
+  server: sy4.620720.xyz
   servername: ''
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: t1.620720.xyz
+      Host: sy4.620720.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0003
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  tls: false
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '443'
+  server: cdfr.ae1autumn.dpdns.org
+  servername: cdfr.ae1autumn.dpdns.org
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  sni: io.ozone.ru
-  type: trojan
-- name: 俄罗斯+V2CROSS.COM
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  skip-cert-verify: false
-  sni: ya.ru
-  type: trojan
-- name: 保加利亚+V2CROSS.COM
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  sni: ads.x5.ru
-  type: trojan
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: cdfr.ae1autumn.dpdns.org
+    path: /YsmRouA9ZbxgW4
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -52,10 +80,10 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
-  cipher: auto
-  name: CN_speednode_0008
+  cipher: aes-128-gcm
+  name: 香港2|@ripaojiedian
   network: tcp
-  port: 6001
+  port: '6001'
   server: cn01.365cloud8754.com
   servername: ''
   tls: false
@@ -152,190 +180,21 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: AU_speednode_0002
+  name: AU_speednode_0004
   network: tcp
   password: IL37892054
   port: 443
-  server: engaged-ram.rooster465.autos
+  server: enhanced-crayfish.rooster465.autos
   skip-cert-verify: false
   sni: ''
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0005
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
-  ws-opts:
-    headers:
-      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0006
-  network: ws
-  port: 16626
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
-  ws-opts:
-    headers:
-      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0007
-  network: ws
-  port: 16616
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
-  ws-opts:
-    headers:
-      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0009
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
-  ws-opts:
-    headers:
-      Host: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0010
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0011
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0012
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0013
-  network: ws
-  port: 16626
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0015
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0016
-  network: ws
-  port: 16622
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
-  ws-opts:
-    headers:
-      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0018
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
-  ws-opts:
-    headers:
-      Host: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0019
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
-  ws-opts:
-    headers:
-      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0020
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
 - alpn:
   - ''
-  name: KR_speednode_0024
+  name: KR_speednode_0021
   network: ws
   password: trojan
-  port: 11000
-  server: 220.92.22.170
+  port: 20000
+  server: 211.110.32.47
   skip-cert-verify: true
   sni: ''
   type: trojan
@@ -345,11 +204,99 @@ proxies:
     path: '%2F'
 - alpn:
   - ''
-  name: PL_speednode_0026
+  name: KR_speednode_0026
+  network: ws
+  password: trojan
+  port: 11434
+  server: 118.35.208.37
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: MD_speednode_0028
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 89.221.225.71
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: PL_speednode_0032
   network: tcp
   password: IL37892054
   port: 443
   server: outgoing-ladybird.rooster465.autos
   skip-cert-verify: false
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: PL_speednode_0031
+  network: tcp
+  password: IL37892054
+  port: 443
+  server: fluent-stingray.crayfish192.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: SG_speednode_0034
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 185.151.146.40
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: TW_speednode_0036
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 85.237.206.249
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: US_speednode_0039
+  network: ws
+  password: trojan
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0065
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 77.247.126.137
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: US_speednode_0068
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 194.33.45.157
+  skip-cert-verify: true
   sni: ''
   type: trojan

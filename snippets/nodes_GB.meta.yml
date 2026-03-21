@@ -1,40 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0018
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0009
+  network: tcp
+  port: 2443
+  reality-opts:
+    public-key: 498LE1B8NFnfagrOnGGmuh80KqgKXMKiHbgcpxRqBB0
+    short-id: '!!str 2d989d13dba1'
+  server: 152.67.158.177
+  servername: www.cloudflare.com
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
-  ws-opts:
-    headers:
-      Host: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0019
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
-  ws-opts:
-    headers:
-      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0020
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
+  type: vless
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5

@@ -1,16 +1,9 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  skip-cert-verify: false
-  sni: ya.ru
-  type: trojan
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: RU_speednode_0027
+  name: RU_speednode_0033
   network: ws
   port: 443
   server: 193.9.49.65
