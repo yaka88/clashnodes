@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  name: US_speednode_0068
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 194.33.45.157
+  skip-cert-verify: true
+  sni: ''
+  type: trojan

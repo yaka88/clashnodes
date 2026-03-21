@@ -1,9 +1,10 @@
-vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IENsb3VkRmxhcmXoioLngrkgIzMiLCAiYWRkIjogInN5NC42MjA3MjAueHl6IiwgInBvcnQiOiA0NDMsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjUxNmQ4YTdhLTNmMGItNDFkMy1iYWQwLTI0NjExNjM4MTUxNiIsICJzbmkiOiAiIiwgImhvc3QiOiAic3k0LjYyMDcyMC54eXoiLCAicGF0aCI6ICIvIn0=
-trojan://IL37892054@outgoing-ladybird.rooster465.autos:443?allowInsecure=0&sni=&alpn=#PL_speednode_0032
-vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IENsb3VkRmxhcmXoioLngrkgIzEiLCAiYWRkIjogImNkZnIuYWUxYXV0dW1uLmRwZG5zLm9yZyIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjEzYWQzNmU2LWMwOTEtNDNmMi04NTA1LTQ3ZDg2OGRkNTQ0YyIsICJzbmkiOiAiY2Rmci5hZTFhdXR1bW4uZHBkbnMub3JnIiwgImhvc3QiOiAiY2Rmci5hZTFhdXR1bW4uZHBkbnMub3JnIiwgInBhdGgiOiAiL1lzbVJvdUE5WmJ4Z1c0In0=
+trojan://3ac6a6ca99f74941b1eaf892818e2ddb@185.151.146.40:443?allowInsecure=1&sni=&alpn=#SG_speednode_0034
+vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IENsb3VkRmxhcmXoioLngrkiLCAiYWRkIjogInN5NC42MjA3MjAueHl6IiwgInBvcnQiOiA0NDMsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjUxNmQ4YTdhLTNmMGItNDFkMy1iYWQwLTI0NjExNjM4MTUxNiIsICJob3N0IjogInN5NC42MjA3MjAueHl6IiwgInBhdGgiOiAiLyJ9
+trojan://3ac6a6ca99f74941b1eaf892818e2ddb@194.33.45.157:443?allowInsecure=1&sni=&alpn=#US_speednode_0068
+vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IENsb3VkRmxhcmXoioLngrkgIzEiLCAiYWRkIjogInQxLjYyMDcyMC54eXoiLCAicG9ydCI6ICI4NDQzIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICJ0bHMiLCAiaWQiOiAiNTE2ZDhhN2EtM2YwYi00MWQzLWJhZDAtMjQ2MTE2MzgxNTE2IiwgImhvc3QiOiAidDEuNjIwNzIwLnh5eiIsICJwYXRoIjogIi8ifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IENsb3VkRmxhcmXoioLngrkgIzIiLCAiYWRkIjogIm5xemtiLmNtdnZiLm9ubGluZSIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjE2NjA0YjQ4LTc0OTctNDI4Yy1hNmQ0LWIwMTdiM2EzMGNlNCIsICJob3N0IjogIm5xemtiLmNtdnZiLm9ubGluZSIsICJwYXRoIjogIi8ifQ==
+trojan://qmBSKnAl6LYi9%3Dz23Rs.Z@37.235.49.209:28099?allowInsecure=1&sni=celestialcorset.crystalhamster.click#%E5%86%B0%E5%B2%9B%2BV2CROSS.COM
 vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lit5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICJ2MTIuaGRhY2QuY29tIiwgInBvcnQiOiAiMzA4MTIiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IENsb3VkRmxhcmXoioLngrkgIzIiLCAiYWRkIjogInp6cnQudWhvbWRleC5zaG9wIiwgInBvcnQiOiA4NDQzLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICJlZGIzZTk2MS0wYjI4LTRlNTItODQ0Ni0zOTlmM2VmMDNjMDgiLCAic25pIjogInp6cnQudWhvbWRleC5zaG9wIiwgImhvc3QiOiAienpydC51aG9tZGV4LnNob3AiLCAicGF0aCI6ICIvIn0=
-trojan://a5inYFE%3DJGV89%2BhjxIqgDp1tcWBd6@80.173.230.196:26279?sni=io.ozone.ru#%E8%A5%BF%E7%8F%AD%E7%89%99%2BV2CROSS.COM
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivMnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICJjbjAxLjM2NWNsb3VkODc1NC5jb20iLCAicG9ydCI6ICI2MDAxIiwgImFpZCI6IDAsICJzY3kiOiAiYWVzLTEyOC1nY20iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkYjc1YmM5Mi00ZTMyLTQ4ZGQtYjc5Mi1kN2E4YjcwNzYyNmMiLCAic25pIjogIiJ9
 trojan://86e150eb21c6faee48e81d496d7f61c2@43.207.232.176:921?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
@@ -46,9 +47,9 @@ vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@121.152.61.147:11371?allowInsecure=
 trojan://trojan@118.35.208.37:11434?allowInsecure=1&sni=&alpn=&type=ws&host=jflsjlaf.pages.dev&path=%2F#KR_speednode_0026
 vless://48b36b6a-eaa6-4843-9231-0bb8b38b5da5@140.238.11.149:2443?allowInsecure=0&sni=www.cloudflare.com&alpn=&flow=xtls-rprx-vision&fp=qq&security=reality&pbk=BmqEE16ux216I-WcezMLroZxIoV09PfeMS-xhyfWTVs&sid=ff93655f5d#KR_speednode_0027
 trojan://3ac6a6ca99f74941b1eaf892818e2ddb@89.221.225.71:443?allowInsecure=1&sni=&alpn=#MD_speednode_0028
+trojan://IL37892054@outgoing-ladybird.rooster465.autos:443?allowInsecure=0&sni=&alpn=#PL_speednode_0032
 trojan://IL37892054@fluent-stingray.crayfish192.xyz:443?allowInsecure=1&sni=&alpn=#PL_speednode_0031
 vless://9e4f36da-8f61-44f8-a9a7-0fd3a8d81234@193.9.49.65:443?allowInsecure=0&sni=r.icy.de5.net&alpn=&flow=&fp=&security=tls&type=ws&host=r.icy.de5.net&path=%2F%3Fed%3D2560#RU_speednode_0033
-trojan://3ac6a6ca99f74941b1eaf892818e2ddb@185.151.146.40:443?allowInsecure=1&sni=&alpn=#SG_speednode_0034
 trojan://3ac6a6ca99f74941b1eaf892818e2ddb@85.237.206.249:443?allowInsecure=1&sni=&alpn=#TW_speednode_0036
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.npmjs.com:2095?allowInsecure=0&sni=fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev&alpn=&flow=&fp=randomized&type=ws&host=fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev&path=%2F#US_speednode_0037
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.udemy.com:2095?allowInsecure=0&sni=fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev&alpn=&flow=&fp=randomized&type=ws&host=fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev&path=%2F#US_speednode_0038
@@ -81,6 +82,5 @@ vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.134:443?allowInsecure=0&sn
 trojan://3ac6a6ca99f74941b1eaf892818e2ddb@77.247.126.137:443?allowInsecure=1&sni=&alpn=#US_speednode_0065
 vless://d8e5386f-5b56-4a5a-87e2-26fecd735356@node-nl-main.amnesia.pw:443?allowInsecure=0&sni=ozon.ru&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=I69t4VQEvCY-NlQuMVHGggvJ2aNo18gWstkmA-uQWxE&sid=#US_speednode_0066
 vless://d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa@157.254.223.44:18959?allowInsecure=0&sni=itunes.apple.com&alpn=&flow=&fp=chrome&security=reality&pbk=-hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA&sid=d557c6895d014075#US_speednode_0067
-trojan://3ac6a6ca99f74941b1eaf892818e2ddb@194.33.45.157:443?allowInsecure=1&sni=&alpn=#US_speednode_0068
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@143.14.22.98:8443?allowInsecure=0&sni=snippet.chinat.eu.cc&alpn=http/1.1&flow=&fp=random&security=tls&type=ws&host=snippet.chinat.eu.cc&path=%2Fdanfeng#US_speednode_0069
 vless://92b82d0f-d2f8-4f6f-b177-08f681a337e6@192.200.160.20:443?allowInsecure=0&sni=639073677243791121.camry-perma.info&alpn=&flow=&fp=&security=tls&type=ws&host=639073677243791121.camry-perma.info&path=%2Fnjvqoews%3Fed%3D2560#US_speednode_0070
