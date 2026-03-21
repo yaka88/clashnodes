@@ -1,38 +1,42 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  skip-cert-verify: false
-  sni: ya.ru
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 443
-  server: cxsfvn.uhomdex.shop
-  servername: cxsfvn.uhomdex.shop
+  port: '443'
+  server: sy4.620720.xyz
   tls: true
   type: vmess
-  uuid: bb6e260e-b80d-4365-b252-9fbe466f1f34
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: cxsfvn.uhomdex.shop
+      Host: sy4.620720.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 乌克兰 V2CROSS.COM
+  name: CN_speednode_0003
   network: tcp
-  port: '22324'
-  server: 85.90.217.42
-  servername: ''
+  port: 30812
+  server: v12.hdacd.com
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  skip-cert-verify: false
+  sni: www.semanticstaplegun.click
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 英国 V2CROSS.COM
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -158,15 +162,6 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0003
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: CN_speednode_0005
