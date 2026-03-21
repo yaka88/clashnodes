@@ -1,18 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: dfg.ae1autumn.cc.cd
-  tls: false
-  type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  ws-opts:
-    path: /YsmRouA9ZbxgW4
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
+  name: '美国 CloudFlare节点 #3'
   network: ws
   port: 443
   server: sy4.620720.xyz
@@ -26,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: '美国 CloudFlare节点 #1'
   network: ws
   port: '443'
   server: cdfr.ae1autumn.dpdns.org
@@ -38,6 +27,20 @@ proxies:
     headers:
       Host: cdfr.ae1autumn.dpdns.org
     path: /YsmRouA9ZbxgW4
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: 8443
+  server: zzrt.uhomdex.shop
+  servername: zzrt.uhomdex.shop
+  tls: true
+  type: vmess
+  uuid: edb3e961-0b28-4e52-8446-399f3ef03c08
+  ws-opts:
+    headers:
+      Host: zzrt.uhomdex.shop
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
