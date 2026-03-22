@@ -1,35 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #4'
+  name: 美国 CloudFlare节点
   network: ws
-  port: '8443'
-  server: t1.620720.xyz
-  servername: ''
+  port: '443'
+  server: cxsfvn.uhomdex.shop
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: bb6e260e-b80d-4365-b252-9fbe466f1f34
   ws-opts:
     headers:
-      Host: t1.620720.xyz
+      Host: cxsfvn.uhomdex.shop
     path: /
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 8443
-  server: c7.620720.xyz
-  servername: c7.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: c7.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
   network: ws
   port: '8443'
   server: c7.620720.xyz
@@ -42,10 +42,24 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '443'
+  server: nqzkb.cmvvb.online
+  tls: true
+  type: vmess
+  uuid: 16604b48-7497-428c-a6d4-b017b3a30ce4
+  ws-opts:
+    headers:
+      Host: nqzkb.cmvvb.online
+    path: /
+- alterId: 0
+  cipher: auto
   name: '美国 CloudFlare节点 #3'
   network: ws
   port: 443
   server: sy4.620720.xyz
+  servername: ''
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
@@ -53,28 +67,6 @@ proxies:
     headers:
       Host: sy4.620720.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #5'
-  network: ws
-  port: '443'
-  server: sy4.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
