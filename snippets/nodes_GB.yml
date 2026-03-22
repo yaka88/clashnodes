@@ -1,11 +1,10 @@
 proxies:
-- alpn:
-  - ''
-  name: US_speednode_0068
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
   network: tcp
-  password: 3ac6a6ca99f74941b1eaf892818e2ddb
-  port: 443
-  server: 194.33.45.157
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
