@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: '美国 CloudFlare节点 #4'
   network: ws
-  port: 8443
+  port: '8443'
   server: t1.620720.xyz
   servername: ''
   tls: true
@@ -15,18 +15,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: '443'
+  port: 8443
+  server: c7.620720.xyz
+  servername: c7.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: c7.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '8443'
+  server: c7.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 443
   server: sy4.620720.xyz
   tls: true
   type: vmess
@@ -35,38 +53,28 @@ proxies:
     headers:
       Host: sy4.620720.xyz
     path: /
-- alpn:
-  - ''
-  name: SG_speednode_0034
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
   network: tcp
-  password: 3ac6a6ca99f74941b1eaf892818e2ddb
-  port: 443
-  server: 185.151.146.40
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: MD_speednode_0028
-  network: tcp
-  password: 3ac6a6ca99f74941b1eaf892818e2ddb
-  port: 443
-  server: 89.221.225.71
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- name: '俄罗斯+V2CROSS.COM #1'
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  sni: ya.ru
-  type: trojan
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  sni: io.ozone.ru
-  type: trojan
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #5'
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -206,6 +214,16 @@ proxies:
     path: '%2F'
 - alpn:
   - ''
+  name: MD_speednode_0028
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 89.221.225.71
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
   name: PL_speednode_0032
   network: tcp
   password: IL37892054
@@ -221,6 +239,16 @@ proxies:
   password: IL37892054
   port: 443
   server: fluent-stingray.crayfish192.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: SG_speednode_0034
+  network: tcp
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 185.151.146.40
   skip-cert-verify: true
   sni: ''
   type: trojan
