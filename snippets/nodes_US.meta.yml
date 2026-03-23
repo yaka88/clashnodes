@@ -3,48 +3,76 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8443'
-  server: c7.620720.xyz
+  port: 443
+  server: cg1d05.waimaojd.com
+  servername: cg1d05.waimaojd.com
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 6abe3ac8-e1f8-4b24-bb67-191bc23b5fab
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: cg1d05.waimaojd.com
+    path: /api/v1/graphql
 - alterId: 0
   cipher: auto
   name: '美国 CloudFlare节点 #1'
   network: ws
-  port: 8443
-  server: c7.620720.xyz
-  servername: c7.620720.xyz
+  port: 443
+  server: sy4.620720.xyz
+  servername: ''
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: c7.620720.xyz
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #2'
+  network: ws
+  port: '443'
+  server: nqzkb.cmvvb.online
+  tls: true
+  type: vmess
+  uuid: 16604b48-7497-428c-a6d4-b017b3a30ce4
+  ws-opts:
+    headers:
+      Host: nqzkb.cmvvb.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #3'
+  network: ws
+  port: 8443
+  server: t1.620720.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: t1.620720.xyz
     path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4019
-  server: 52.195.220.124
+  port: 4920
+  server: 13.192.234.119
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 3057
-  server: 160.16.85.33
+  port: 4019
+  server: 13.115.190.132
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15407
-  server: 18.167.37.12
+  port: 37223
+  server: 18.167.47.162
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
