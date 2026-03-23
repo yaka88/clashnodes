@@ -1,4 +1,31 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '443'
+  server: nqzkb.cmvvb.online
+  tls: true
+  type: vmess
+  uuid: 16604b48-7497-428c-a6d4-b017b3a30ce4
+  ws-opts:
+    headers:
+      Host: nqzkb.cmvvb.online
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
