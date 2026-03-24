@@ -3,7 +3,7 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.25.253
-  sni: t.me%2Fripaojiedian
+  sni: ''
   type: trojan
 - alterId: 2
   cipher: auto
