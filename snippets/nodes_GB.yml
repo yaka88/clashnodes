@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 英国+V2CROSS.COM
+  password: WF42809561
+  port: 443
+  server: touching-pigeon.rooster465.autos
+  skip-cert-verify: true
+  type: trojan

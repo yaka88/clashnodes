@@ -3,23 +3,8 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: 8443
-  server: zdqbk.cmvvb.online
-  servername: zdqbk.cmvvb.online
-  tls: true
-  type: vmess
-  uuid: ef46b74c-b3ef-4633-9818-0af6226c4060
-  ws-opts:
-    headers:
-      Host: zdqbk.cmvvb.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #2'
-  network: ws
   port: '8443'
   server: t1.620720.xyz
-  servername: ''
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516

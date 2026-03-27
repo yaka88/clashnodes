@@ -1,25 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 8443
-  server: zdqbk.cmvvb.online
-  servername: zdqbk.cmvvb.online
-  tls: true
+  name: 四川省达州市 移动
+  network: tcp
+  port: '30812'
+  server: v12.hdacd.com
+  tls: false
   type: vmess
-  uuid: ef46b74c-b3ef-4633-9818-0af6226c4060
-  ws-opts:
-    headers:
-      Host: zdqbk.cmvvb.online
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 英国+V2CROSS.COM
+  password: WF42809561
+  port: 443
+  server: touching-pigeon.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  sni: www.semanticstaplegun.click
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '美国 CloudFlare节点 #2'
+  name: 美国 CloudFlare节点
   network: ws
   port: '8443'
   server: t1.620720.xyz
-  servername: ''
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
@@ -27,18 +33,19 @@ proxies:
     headers:
       Host: t1.620720.xyz
     path: /
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
+- name: '西班牙+V2CROSS.COM #1'
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  skip-cert-verify: false
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 四川省达州市 移动
+  name: 伊朗 V2CROSS.COM
   network: tcp
-  port: '30812'
-  server: v12.hdacd.com
+  port: '30830'
+  server: v30.hdacd.com
+  servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
