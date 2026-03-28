@@ -1,24 +1,17 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: ZblhWr0mqMakCPg.N
-  port: 36158
-  server: 212.193.18.144
-  sni: ya.ru
-  type: trojan
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: RU_speednode_0033
-  network: ws
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0017
+  network: tcp
   port: 443
-  server: 193.9.49.65
-  servername: r.icy.de5.net
+  reality-opts:
+    public-key: FZbK0E3QBK7QslwVEXimX6vmXC8cb6826lSLJUkIEgU
+    short-id: '!!str '
+  server: 217.114.11.246
+  servername: max.ru
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    headers:
-      Host: r.icy.de5.net
-    path: '%2F%3Fed%3D2560'
+  uuid: 9768f14f-a790-4c78-b1d9-60cc0e9d99a0

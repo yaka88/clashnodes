@@ -1,26 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: GB_speednode_0007
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: GB_speednode_0009
-  network: tcp
-  port: 2443
-  reality-opts:
-    public-key: 498LE1B8NFnfagrOnGGmuh80KqgKXMKiHbgcpxRqBB0
-    short-id: '!!str 2d989d13dba1'
-  server: 152.67.158.177
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5

@@ -1,11 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  name: TW_speednode_0036
-  network: tcp
-  password: 3ac6a6ca99f74941b1eaf892818e2ddb
-  port: 443
-  server: 85.237.206.249
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
+proxies: []

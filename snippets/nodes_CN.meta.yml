@@ -1,1 +1,34 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0003
+  network: ws
+  port: 51254
+  server: hk18.stimaysmhy8.com
+  tls: false
+  type: vmess
+  uuid: 71165393-5252-4fea-ac96-c36b508720c8
+  ws-opts:
+    headers:
+      Host: hk18.stimaysmhy8.com
+    path: /
+- alpn:
+  - ''
+  name: CN_speednode_0004
+  network: tcp
+  password: 71165393-5252-4fea-ac96-c36b508720c8
+  port: 44302
+  server: hk07.jsytongxin.com
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  name: CN_speednode_0005
+  network: tcp
+  password: 71165393-5252-4fea-ac96-c36b508720c8
+  port: 39204
+  server: jp14.jsyjiedian8.com
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
