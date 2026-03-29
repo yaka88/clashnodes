@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: IR_speednode_0008
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
   name: GB_speednode_0007
   network: tcp
   port: 180
@@ -21,22 +12,24 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '8443'
-  server: t1.620720.xyz
+  port: 8443
+  server: c7.620720.xyz
   tls: true
   type: vmess
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: t1.620720.xyz
+      Host: c7.620720.xyz
     path: /
-- name: 西班牙+V2CROSS.COM
+- alterId: 0
+  cipher: auto
+  name: 伊朗 V2CROSS.COM
   network: tcp
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -217,6 +210,15 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: IR_speednode_0008
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - ''
   flow: ''
