@@ -1,5 +1,10 @@
-trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?allowInsecure=0&sni=ads.x5.ru#%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%2BV2CROSS.COM
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5bm/5Lic55yB5Lic6I6e5biCIOiBlOmAmiIsICJhZGQiOiAiYWZsenp1bC5tZWlxdWFua29uZ2ppYW4uY29tIiwgInBvcnQiOiA1MjUxMywgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiMzQyYmFjZmQtMmI4Zi0zZjQ5LWExNmUtNDM5ZGI1YjBiOWQ1IiwgImhvc3QiOiAiYWZsenp1bC5tZWlxdWFua29uZ2ppYW4uY29tIiwgInBhdGgiOiAiLzU2NGRmYTIwLyJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDciLCAiYWRkIjogIjgyLjE5OC4yNDYuOTciLCAicG9ydCI6IDE4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5bm/5Lic55yB5Lic6I6e5biCIOiBlOmAmiAjMSIsICJhZGQiOiAiYWZsenp1bC5tZWlxdWFua29uZ2ppYW4uY29tIiwgInBvcnQiOiA1MjUxMiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiMzQyYmFjZmQtMmI4Zi0zZjQ5LWExNmUtNDM5ZGI1YjBiOWQ1IiwgImhvc3QiOiAiYWZsenp1bC5tZWlxdWFua29uZ2ppYW4uY29tIiwgInBhdGgiOiAiLzU2NGRmYTIwLyJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiSVJfc3BlZWRub2RlXzAwMDgiLCAiYWRkIjogInYxMi5oZGFjZC5jb20iLCAicG9ydCI6IDMwODEyLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
+trojan://ZblhWr0mqMakCPg.N@212.193.18.144:36158?sni=ya.ru#%E4%BF%84%E7%BD%97%E6%96%AF%2BV2CROSS.COM
+trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?allowInsecure=0&sni=ads.x5.ru#%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%2BV2CROSS.COM
+vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IDNDT03lhazlj7jkvIHkuJrnvZEiLCAiYWRkIjogIjE1Mi42Ny44LjIwNSIsICJwb3J0IjogIjgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiOWRiNGM3MDgtYWVmOC00MzU5LTgyMWItMzhlNDc5OTBiZTBkIiwgInNuaSI6ICIiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIvIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://6d29eb2f74293cb01a19b32cf08ad2e9@54.168.243.160:21413?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@18.163.28.243:921?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
@@ -19,7 +24,6 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiQ05fc3BlZWRub2RlXzAwMDMiLCAiYWRkIjogImhrMTguc3Rp
 trojan://71165393-5252-4fea-ac96-c36b508720c8@hk07.jsytongxin.com:44302?allowInsecure=1&sni=&alpn=#CN_speednode_0004
 trojan://71165393-5252-4fea-ac96-c36b508720c8@jp14.jsyjiedian8.com:39204?allowInsecure=1&sni=&alpn=#CN_speednode_0005
 vless://00000000-0000-4000-8000-000000000000@185.94.29.156:4001?allowInsecure=1&sni=sub.mot.ip-ddns.com&alpn=&flow=&fp=&security=tls&type=ws&host=sub.mot.ip-ddns.com&path=%2F#DE_speednode_0006
-vmess://eyJ2IjogIjIiLCAicHMiOiAiSVJfc3BlZWRub2RlXzAwMDgiLCAiYWRkIjogInYxMi5oZGFjZC5jb20iLCAicG9ydCI6IDMwODEyLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
 vless://00000000-0000-4000-8000-000000000000@106.255.89.151:30035?allowInsecure=0&sni=sub.mot.ip-ddns.com&alpn=&flow=&fp=chrome&security=tls&type=ws&host=sub.mot.ip-ddns.com&path=%2F#KR_speednode_0011
 trojan://strong-secret-pass-777@103.231.73.181:4443?allowInsecure=1&sni=&alpn=#MD_speednode_0012
 trojan://trojan@136.244.105.89:82?allowInsecure=1&sni=&alpn=&type=ws&host=jflsjlaf.pages.dev&path=%2F#NL_speednode_0013
@@ -34,6 +38,6 @@ vless://96a1cd77-d7f8-42b6-86c1-29a2e2e85ea0@194.36.39.84:8443?allowInsecure=0&s
 trojan://trojan@38.83.41.89:28080?allowInsecure=1&sni=&alpn=&type=ws&host=jflsjlaf.pages.dev&path=%2F#US_speednode_0026
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.74.155:443?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F#US_speednode_0027
 vless://96a1cd77-d7f8-42b6-86c1-29a2e2e85ea0@braskivo.ru:8443?allowInsecure=0&sni=rbc.ru&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0&sid=f1071c148a5aefc4#US_speednode_0028
-ss://bm9uZTozZTk2ZWY3ZC04NjM3LTQyYzItYWM3My03NTE4MjE5NmU3NTU=@store.ubi.com:443?Plugin=v2ray-plugin;tls;mode=websocket;host=mfvpn.fuchen.indevs.in;path=/3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560#US_speednode_0020
 socks://MjAuODMuMTU0Ljc5OjcwNzA=#US_speednode_0021
+ss://bm9uZTozZTk2ZWY3ZC04NjM3LTQyYzItYWM3My03NTE4MjE5NmU3NTU=@store.ubi.com:443?Plugin=v2ray-plugin;tls;mode=websocket;host=mfvpn.fuchen.indevs.in;path=/3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560#US_speednode_0020
 socks://MTIxLjE2OS40Ni4xMTY6MTA5MA==#KR_speednode_0009
