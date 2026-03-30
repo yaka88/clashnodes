@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0007
+  name: GB_speednode_0006
   network: tcp
   port: 180
   server: 82.198.246.97
