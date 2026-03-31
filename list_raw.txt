@@ -1,7 +1,7 @@
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI4Mi4xOTguMjQ2LjQ2IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5LyK5pyXIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICJ2MTIuaGRhY2QuY29tIiwgInBvcnQiOiAzMDgxMiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCJ9
+trojan://ZblhWr0mqMakCPg.N@212.193.18.144:36158?sni=ya.ru#%E4%BF%84%E7%BD%97%E6%96%AF%2BV2CROSS.COM
 vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDYiLCAiYWRkIjogIjgyLjE5OC4yNDYuOTciLCAicG9ydCI6IDE4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
-trojan://a5inYFE%3DJGV89%2BhjxIqgDp1tcWBd6@80.173.230.196:26279?#%E8%A5%BF%E7%8F%AD%E7%89%99%2BV2CROSS.COM
-trojan://BxceQaOe@58.152.25.253:443?allowInsecure=1#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IOS8puaVplZpcmdpbiBNZWRpYSIsICJhZGQiOiAiODIuMjEuODAuMjI0IiwgInBvcnQiOiAxNzMxMCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI2NTY5MjBkYy1lZDA1LTRmNDEtOGM0OS1iZGZmNDFlMzgzYTkifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://9f7d5cb76d1645101994d9b25891e3b7@52.192.141.223:921?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@43.199.33.41:22075?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
@@ -43,5 +43,5 @@ vless://bb7d8763-4afa-465f-b066-35786781ced2@216.236.26.19:43229?allowInsecure=0
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.49:443?allowInsecure=0&sni=snippet.danfeng.theworkpc.com&alpn=&flow=&fp=&security=tls&type=ws&host=snippet.danfeng.theworkpc.com&path=%2Fdanfeng%3Fed%3D2560#US_speednode_0030
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.115:443?allowInsecure=0&sni=snippet.danfeng.theworkpc.com&alpn=&flow=&fp=&security=tls&type=ws&host=snippet.danfeng.theworkpc.com&path=%2Fdanfeng%3Fed%3D2560#US_speednode_0031
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@166.117.33.104:443?allowInsecure=0&sni=snippet.danfeng.theworkpc.com&alpn=&flow=&fp=&security=tls&type=ws&host=snippet.danfeng.theworkpc.com&path=%2Fdanfeng%3Fed%3D2560#US_speednode_0032
-ss://bm9uZTozZTk2ZWY3ZC04NjM3LTQyYzItYWM3My03NTE4MjE5NmU3NTU=@store.ubi.com:443?Plugin=v2ray-plugin;tls;mode=websocket;host=mfvpn.fuchen.indevs.in;path=/3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560#US_speednode_0026
 socks://MTIxLjE2OS40Ni4xMTY6MTA5MA==#KR_speednode_0010
+ss://bm9uZTozZTk2ZWY3ZC04NjM3LTQyYzItYWM3My03NTE4MjE5NmU3NTU=@store.ubi.com:443?Plugin=v2ray-plugin;tls;mode=websocket;host=mfvpn.fuchen.indevs.in;path=/3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560#US_speednode_0026
