@@ -1,18 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: CN_speednode_0002
-  network: ws
-  port: 1234
-  server: 223.72.61.78
-  servername: snippet.danfeng.gleeze.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    path: '%2Fdanfeng%3Fed%3D2560'
+proxies: []
