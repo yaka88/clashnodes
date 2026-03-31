@@ -8,12 +8,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国 伦敦Virgin Media
-  network: none
-  port: 17310
-  server: 82.21.80.224
-  tls: true
-  type: vmess
-  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
