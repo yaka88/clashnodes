@@ -1,10 +1,18 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: UNWA6USASAb6=uAAZeZMFd+2uKB4.d5KOm
-  port: 26650
-  server: 166.88.197.60
+- name: 美国+得克萨斯州
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: hyfuuf6.wsone.icu
   skip-cert-verify: true
-  sni: sea9.firewallcontract.click
+  sni: hyfuuf6.wsone.icu
+  type: trojan
+- name: 美国+V2CROSS.COM
+  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
+  port: 26593
+  server: 216.238.102.254
+  skip-cert-verify: true
+  sni: sao2.cdn-graph.click
   type: trojan
 - name: 美国+Choopa公司数据中心
   password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
@@ -13,6 +21,20 @@ proxies:
   skip-cert-verify: true
   sni: ord2.edge-command.click
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
+  servername: cxsfvn.uhomdex.shop
+  tls: true
+  type: vmess
+  uuid: bb6e260e-b80d-4365-b252-9fbe466f1f34
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
