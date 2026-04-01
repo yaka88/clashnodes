@@ -1,4 +1,20 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  password: UNWA6USASAb6=uAAZeZMFd+2uKB4.d5KOm
+  port: 26650
+  server: 166.88.197.60
+  skip-cert-verify: true
+  sni: sea9.firewallcontract.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: IR_speednode_0017
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 保加利亚+V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259
@@ -6,28 +22,48 @@ proxies:
   skip-cert-verify: false
   sni: ads.x5.ru
   type: trojan
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  skip-cert-verify: false
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  sni: 58.152.25.253
+  type: trojan
+- name: 俄罗斯+V2CROSS.COM
+  password: ZblhWr0mqMakCPg.N
+  port: 36158
+  server: 212.193.18.144
+  sni: ya.ru
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 英国 V2CROSS.COM
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.46
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 英国+伦敦Virgin+Media
+- alpn:
+  - ''
+  name: NL_speednode_0030
   network: tcp
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.20
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
   skip-cert-verify: true
-  sni: fra35.chasem2026sud.com
+  sni: ''
+  type: trojan
+- name: 西班牙+V2CROSS.COM
+  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
+  port: 26279
+  server: 80.173.230.196
+  type: trojan
+- name: 美国+Choopa公司数据中心
+  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
+  port: 13109
+  server: 104.238.162.6
+  skip-cert-verify: true
+  sni: ord2.edge-command.click
   type: trojan
 - alterId: 2
   cipher: auto
@@ -161,22 +197,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
-- alterId: 0
-  cipher: auto
-  name: IR_speednode_0017
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  name: NL_speednode_0030
-  network: tcp
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
