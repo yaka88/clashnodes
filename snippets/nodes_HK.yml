@@ -3,6 +3,7 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.25.253
+  skip-cert-verify: false
   sni: 58.152.25.253
   type: trojan
 - alterId: 2
