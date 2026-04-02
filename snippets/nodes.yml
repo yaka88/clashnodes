@@ -1,20 +1,30 @@
 proxies:
-- alpn:
-  - ''
-  name: NL_speednode_0030
-  network: tcp
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
+- name: 西班牙+V2CROSS.COM
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
   skip-cert-verify: true
-  sni: ''
+  sni: www.semanticstaplegun.click
   type: trojan
-- alterId: 64
+- name: 保加利亚+V2CROSS.COM
+  password: MeaDiUmPlkWbZJ2BON8tz
+  port: 28259
+  server: 78.159.131.12
+  sni: ads.x5.ru
+  type: trojan
+- name: 美国+V2CROSS.COM
+  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
+  port: 26593
+  server: 216.238.102.254
+  sni: sao2.cdn-graph.click
+  type: trojan
+- alterId: 0
   cipher: auto
   name: 亚太地区 V2CROSS.COM
   network: tcp
-  port: '54022'
+  port: '51556'
   server: 103.181.164.145
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -29,13 +39,20 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: GB_speednode_0007
   network: tcp
   port: 180
-  server: 82.198.246.46
+  server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  sni: t.me/ripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -151,15 +168,6 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0007
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: GB_speednode_0008
   network: tcp
   port: 17310
@@ -168,3 +176,13 @@ proxies:
   tls: true
   type: vmess
   uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+- alpn:
+  - ''
+  name: NL_speednode_0030
+  network: tcp
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
