@@ -1,10 +1,4 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
-  port: 26593
-  server: 216.238.102.254
-  sni: sao2.cdn-graph.click
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
