@@ -1,4 +1,11 @@
 proxies:
+- name: 美国+Choopa公司数据中心
+  network: tcp
+  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
+  port: 13109
+  server: 104.238.162.6
+  sni: ord2.edge-command.click
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
