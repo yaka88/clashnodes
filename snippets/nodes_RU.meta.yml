@@ -3,7 +3,7 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0031
+  name: RU_speednode_0063
   network: tcp
   port: 443
   reality-opts:
