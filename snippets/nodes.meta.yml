@@ -1,64 +1,68 @@
 proxies:
-- name: 保加利亚+V2CROSS.COM
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  skip-cert-verify: false
-  sni: ads.x5.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 伊朗 V2CROSS.COM
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 俄罗斯+V2CROSS.COM
-  password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg
-  port: 23357
-  server: 194.87.10.31
-  sni: sgp9.node-resource.click
-  type: trojan
-- name: 瑞士+V2CROSS.COM
-  network: tcp
-  password: hCjWaBe5vTkewfiljOL=9FS9DYg0c09c.t
-  port: 18390
-  server: 81.29.149.201
-  sni: osl7.solidly.click
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '伊朗 V2CROSS.COM #1'
-  network: ws
-  port: '20772'
-  server: 31.59.58.232
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d69007f9-b038-4156-d27f-f81f18094ecf
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ray
 - name: 乌克兰+V2CROSS.COM
   password: strong-secret-pass-777
   port: 4443
   server: 94.131.105.125
   skip-cert-verify: true
   sni: 94.131.105.125
+  type: trojan
+- name: 英国+伦敦Virgin+Media
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.20
+  skip-cert-verify: true
+  sni: fra35.chasem2026sud.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 秘鲁 科研网
+  network: tcp
+  port: '443'
+  server: pe1.bctuo.top
+  tls: false
+  type: vmess
+  uuid: 31801968-9877-4ef5-be87-56503c34a69d
+- alterId: 0
+  cipher: auto
+  name: IR_speednode_0059
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 美国+Choopa公司数据中心
+  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
+  port: 13109
+  server: 104.238.162.6
+  sni: ord2.edge-command.click
+  type: trojan
+- name: 美国+V2CROSS.COM
+  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
+  port: 26593
+  server: 216.238.102.254
+  sni: sao2.cdn-graph.click
+  type: trojan
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  sni: t.me/ripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '英国+伦敦Virgin+Media #1'
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.3
+  sni: fra34.chasem2026sud.com
   type: trojan
 - alterId: 2
   cipher: auto
@@ -583,15 +587,6 @@ proxies:
   skip-cert-verify: true
   sni: ''
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: IR_speednode_0059
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - ''
   name: NL_speednode_0062
