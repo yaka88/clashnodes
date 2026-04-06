@@ -33,325 +33,36 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - alpn:
-  - ''
-  client-fingerprint: ''
+  - http/1.1
+  client-fingerprint: random
   flow: ''
-  name: HK_speednode_0039
+  name: HK_speednode_0004
   network: ws
-  port: 7443
-  server: 222.167.202.52
-  servername: 2026.hhhhh.eu.org
+  port: 3389
+  server: 203.168.131.110
+  servername: snippet.chinav.eu.cc
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.52%3A7443'
+      Host: snippet.chinav.eu.cc
+    path: '%2Fdanfeng'
 - alpn:
-  - ''
-  client-fingerprint: ''
+  - http/1.1
+  client-fingerprint: random
   flow: ''
-  name: HK_speednode_0040
+  name: HK_speednode_0005
   network: ws
-  port: 7443
-  server: 222.167.202.23
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.23%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0041
-  network: ws
-  port: 7443
-  server: 222.167.202.21
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.21%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0042
-  network: ws
-  port: 7443
-  server: 222.167.202.16
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.16%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0043
-  network: ws
-  port: 7443
-  server: 222.167.202.6
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.6%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0044
-  network: ws
-  port: 7443
-  server: 222.167.202.14
-  servername: 2026.hhhhh.eu.org
+  port: 3389
+  server: 203.168.131.110
+  servername: snippet.chinav.eu.cc
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.14%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0045
-  network: ws
-  port: 7443
-  server: 222.167.202.2
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.2%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0046
-  network: ws
-  port: 7443
-  server: 222.167.202.45
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.45%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0047
-  network: ws
-  port: 7443
-  server: 222.167.202.70
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.70%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0048
-  network: ws
-  port: 7443
-  server: 222.167.202.47
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.47%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0049
-  network: ws
-  port: 7443
-  server: 222.167.202.31
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.31%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0050
-  network: ws
-  port: 7443
-  server: 222.167.202.32
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.32%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0051
-  network: ws
-  port: 7443
-  server: 222.167.202.35
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.35%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0052
-  network: ws
-  port: 7443
-  server: 222.167.202.33
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.33%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0053
-  network: ws
-  port: 7443
-  server: 222.167.202.10
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.10%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0054
-  network: ws
-  port: 7443
-  server: 222.167.202.4
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.4%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0055
-  network: ws
-  port: 7443
-  server: 222.167.202.22
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.22%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0056
-  network: ws
-  port: 7443
-  server: 222.167.202.60
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.60%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0057
-  network: ws
-  port: 7443
-  server: 222.167.202.50
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.50%3A7443'
+      Host: snippet.chinav.eu.cc
+    path: '%2Fdanfengfp%3Drandom'
