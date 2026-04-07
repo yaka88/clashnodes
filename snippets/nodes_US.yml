@@ -1,9 +1,9 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: UNWA6USASAb6=uAAZeZMFd+2uKB4.d5KOm
-  port: 26650
-  server: 166.88.197.60
-  sni: sea9.firewallcontract.click
+- name: 美国+Choopa公司数据中心
+  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
+  port: 13109
+  server: 104.238.162.6
+  sni: ord2.edge-command.click
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
