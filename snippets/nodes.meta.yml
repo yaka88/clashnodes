@@ -1,9 +1,61 @@
 proxies:
-- name: 西班牙+V2CROSS.COM
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
+- alterId: 0
+  cipher: auto
+  name: 伊朗 V2CROSS.COM
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - ''
+  name: NL_speednode_0009
+  network: tcp
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '伊朗 V2CROSS.COM #1'
+  network: tcp
+  port: '30812'
+  server: 151.242.180.91
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 美国+Choopa公司数据中心
+  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
+  port: 13109
+  server: 104.238.162.6
+  sni: ord2.edge-command.click
+  type: trojan
+- name: 沙特阿拉伯+V2CROSS.COM
+  network: tcp
+  port: 26946
+  server: 77.110.122.205
+  tls: false
+  type: vless
+  uuid: 99f06929-4311-489c-91cc-ef1c582e5dfa
+- name: 香港+电讯盈科有限公司
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  sni: t.me/ripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
@@ -14,18 +66,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 美国+Choopa公司数据中心
-  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
-  port: 13109
-  server: 104.238.162.6
-  sni: ord2.edge-command.click
-  type: trojan
-- name: 瑞士+V2CROSS.COM
-  password: hCjWaBe5vTkewfiljOL=9FS9DYg0c09c.t
-  port: 18390
-  server: 81.29.149.201
-  sni: osl7.solidly.click
-  type: trojan
 - name: 英国+伦敦Virgin+Media
   password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
   port: 10369
@@ -35,42 +75,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
+  name: '英国 V2CROSS.COM #1'
   network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '亚太地区 V2CROSS.COM #1'
-  network: tcp
-  port: '51556'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  sni: t.me/ripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '伊朗 V2CROSS.COM #1'
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.97
   tls: false
   type: vmess
@@ -290,16 +297,6 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  name: NL_speednode_0009
-  network: tcp
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
 - alpn:
   - ''
   client-fingerprint: ''
