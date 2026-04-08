@@ -1,4 +1,10 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
+  port: 26593
+  server: 216.238.102.254
+  sni: sao2.cdn-graph.click
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
@@ -23,99 +29,35 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: US_speednode_0011
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0043
   network: ws
-  password: trojan
-  port: 8025
-  server: 54.46.72.234
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
+  port: 443
+  server: 135.84.74.155
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: jflsjlaf.pages.dev
+      Host: sni.111000.v6.navy
     path: '%2F'
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0012
+  name: US_speednode_0044
   network: ws
   port: 443
-  server: 192.0.54.131
-  servername: snippet.danfeng.kozow.com
+  server: 94.131.101.135
+  servername: sni.111000.v6.navy
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snippet.danfeng.kozow.com
-    path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0013
-  network: ws
-  port: 443
-  server: 192.0.63.230
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0014
-  network: ws
-  port: 443
-  server: 192.0.63.56
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0016
-  network: ws
-  port: 443
-  server: 192.0.63.49
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0017
-  network: tcp
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: '!!str e8ab71d0'
-  server: 64.23.143.23
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560'
