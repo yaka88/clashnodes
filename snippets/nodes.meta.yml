@@ -1,11 +1,12 @@
 proxies:
-- name: 沙特阿拉伯+V2CROSS.COM
+- name: 英国+伦敦Virgin+Media
   network: tcp
-  port: 26946
-  server: 77.110.122.205
-  tls: false
-  type: vless
-  uuid: 99f06929-4311-489c-91cc-ef1c582e5dfa
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.121
+  skip-cert-verify: true
+  sni: fra33.chasem2026sud.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
@@ -15,6 +16,19 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '英国+伦敦Virgin+Media #1'
+  network: tcp
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.199
+  sni: fra4.chasem2026sud.com
+  type: trojan
+- name: 香港+电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  sni: t.me/ripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '英国 V2CROSS.COM #1'
@@ -24,43 +38,24 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+V2CROSS.COM
-  password: UNWA6USASAb6=uAAZeZMFd+2uKB4.d5KOm
-  port: 26650
-  server: 166.88.197.60
-  sni: sea9.firewallcontract.click
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: IR_speednode_0006
+  name: 伊朗 V2CROSS.COM
   network: tcp
-  port: 30812
-  server: v12.hdacd.com
+  port: '30812'
+  server: 151.242.180.91
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 英国+伦敦Virgin+Media
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.199
-  skip-cert-verify: true
-  sni: fra4.chasem2026sud.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '伊朗 V2CROSS.COM #1'
+  name: '英国 V2CROSS.COM #2'
   network: tcp
-  port: '30830'
-  server: v30.hdacd.com
+  port: '180'
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  sni: t.me/ripaojiedian
-  type: trojan
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -243,6 +238,15 @@ proxies:
     headers:
       Host: snippet.chinav.eu.cc
     path: '%2Fdanfengfp%3Drandom'
+- alterId: 0
+  cipher: auto
+  name: IR_speednode_0006
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - http/1.1
   client-fingerprint: random
