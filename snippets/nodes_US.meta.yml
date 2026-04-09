@@ -5,25 +5,31 @@ proxies:
   server: 216.238.102.254
   sni: sao2.cdn-graph.click
   type: trojan
+- name: '美国+V2CROSS.COM #1'
+  password: UNWA6USASAb6=uAAZeZMFd+2uKB4.d5KOm
+  port: 26650
+  server: 166.88.197.60
+  sni: sea9.firewallcontract.click
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
-  port: 4019
-  server: 160.16.85.33
+  port: 3057
+  server: 160.16.124.17
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4019
-  server: 3.112.47.136
+  server: 160.16.124.17
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49534
-  server: 43.199.190.147
+  port: 23255
+  server: 95.40.120.247
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
