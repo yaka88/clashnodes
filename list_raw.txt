@@ -1,11 +1,10 @@
-trojan://n5ix4FcMQYENMQPL%2BYKbvyJ8nZ84%2BbNTsj@82.26.155.237:10369?allowInsecure=1&sni=fra5.chasem2026sud.com#%E8%8B%B1%E5%9B%BD%2B%E4%BC%A6%E6%95%A6Virgin%2BMedia
-trojan://n5ix4FcMQYENMQPL%2BYKbvyJ8nZ84%2BbNTsj@82.26.155.20:10369?allowInsecure=1&sni=fra35.chasem2026sud.com#%E8%8B%B1%E5%9B%BD%2B%E4%BC%A6%E6%95%A6Virgin%2BMedia%20%231
-trojan://WwipNOSqUh49CEapMmIrv6m6AZLf-EC0%2BT@104.238.162.6:13109?sni=ord2.edge-command.click#%E7%BE%8E%E5%9B%BD%2BChoopa%E5%85%AC%E5%8F%B8%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lqa5aSq5Zyw5Yy6IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIxMDMuMTgxLjE2NC4xNDUiLCAicG9ydCI6ICI1NDAyMiIsICJhaWQiOiA2NCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0In0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5LyK5pyXIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIxNTEuMjQyLjE4MC45MSIsICJwb3J0IjogIjMwODEyIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCJ9
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI4Mi4xOTguMjQ2LjI1MCIsICJwb3J0IjogIjE4MCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIifQ==
-trojan://strong-secret-pass-777@94.131.105.125:4443?allowInsecure=1&sni=&alpn=#NL_speednode_0040
+vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NICMyIiwgImFkZCI6ICI4Mi4xOTguMjQ2LjQ2IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NICMxIiwgImFkZCI6ICJtLmNubWppbi5uZXQiLCAicG9ydCI6IDE2NjE2LCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJiNjg4Y2UwZi05MjAxLTRlOGUtYTY3YS1mM2JlMmM2YWEyMDEiLCAic25pIjogIiIsICJob3N0IjogIjdhMjk3OTY0YTJiMzFkYWZkMzUyOWVmNGQxNDU3NGI5Lm1vYmdzbGIudGJjYWNoZS5jb20iLCAicGF0aCI6ICIvIn0=
 trojan://BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK@216.238.102.254:26593?sni=sao2.cdn-graph.click#%E7%BE%8E%E5%9B%BD%2BV2CROSS.COM
+trojan://n5ix4FcMQYENMQPL%2BYKbvyJ8nZ84%2BbNTsj@82.26.155.237:10369?sni=fra5.chasem2026sud.com#%E8%8B%B1%E5%9B%BD%2B%E4%BC%A6%E6%95%A6Virgin%2BMedia
+trojan://WwipNOSqUh49CEapMmIrv6m6AZLf-EC0%2BT@104.238.162.6:13109?allowInsecure=0&sni=ord2.edge-command.click#%E7%BE%8E%E5%9B%BD%2BChoopa%E5%85%AC%E5%8F%B8%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5LyK5pyXIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIxNTEuMjQyLjE4MC45MSIsICJwb3J0IjogIjMwODEyIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5LyK5pyXIFYyQ1JPU1MuQ09NICMxIiwgImFkZCI6ICJ2MzAuaGRhY2QuY29tIiwgInBvcnQiOiAiMzA4MzAiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://187dda4498be9ac4f28db939d5940185@43.198.80.240:21413?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@57.180.66.105:9211?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
@@ -56,6 +55,7 @@ vless://6eeb820e-89ef-4b60-9060-ddcaea0580f0@krp01.jumperservice.com:19001?allow
 vless://455fc271-3ee2-493b-8c75-9324b4851e2f@krp01.jumperservice.com:19001?allowInsecure=0&sni=addons.mozilla.org&alpn=&flow=xtls-rprx-vision&fp=firefox&security=reality&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&sid=#KR_speednode_0037
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.128.32.98:443?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F%3Fed%3D2560#LV_speednode_0038
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.243.112.61:2053?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F%3Fed%3D2560#NL_speednode_0039
+trojan://strong-secret-pass-777@94.131.105.125:4443?allowInsecure=1&sni=&alpn=#NL_speednode_0040
 vless://9768f14f-a790-4c78-b1d9-60cc0e9d99a0@217.114.11.246:443?allowInsecure=0&sni=max.ru&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=FZbK0E3QBK7QslwVEXimX6vmXC8cb6826lSLJUkIEgU&sid=#RU_speednode_0041
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.74.155:443?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F#US_speednode_0043
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@94.131.101.135:443?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F%3Fed%3D2560#US_speednode_0044

@@ -1,33 +1,46 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #2'
+  network: tcp
+  port: '180'
+  server: 82.198.246.46
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+  ws-opts:
+    headers:
+      Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
+    path: /
+- name: 美国+V2CROSS.COM
+  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
+  port: 26593
+  server: 216.238.102.254
+  sni: sao2.cdn-graph.click
+  type: trojan
 - name: 英国+伦敦Virgin+Media
   password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
   port: 10369
   server: 82.26.155.237
-  skip-cert-verify: true
   sni: fra5.chasem2026sud.com
-  type: trojan
-- name: '英国+伦敦Virgin+Media #1'
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.20
-  skip-cert-verify: true
-  sni: fra35.chasem2026sud.com
   type: trojan
 - name: 美国+Choopa公司数据中心
   password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
   port: 13109
   server: 104.238.162.6
+  skip-cert-verify: false
   sni: ord2.edge-command.click
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 伊朗 V2CROSS.COM
@@ -39,30 +52,13 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '伊朗 V2CROSS.COM #1'
   network: tcp
-  port: '180'
-  server: 82.198.246.250
+  port: '30830'
+  server: v30.hdacd.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  name: NL_speednode_0040
-  network: tcp
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- name: 美国+V2CROSS.COM
-  network: raw
-  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
-  port: 26593
-  server: 216.238.102.254
-  sni: sao2.cdn-graph.click
-  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -679,6 +675,16 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: NL_speednode_0040
+  network: tcp
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
 - alpn:
   - ''
   flow: xtls-rprx-vision
