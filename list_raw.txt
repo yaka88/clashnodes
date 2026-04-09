@@ -1,9 +1,10 @@
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NICMyIiwgImFkZCI6ICI4Mi4xOTguMjQ2LjQ2IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
-trojan://fQmMJwOLMlqHednu2SVED8gi-%2BH-db9kbg@194.87.10.31:23357?sni=sgp9.node-resource.click#%E4%BF%84%E7%BD%97%E6%96%AF%2BV2CROSS.COM
-trojan://n5ix4FcMQYENMQPL%2BYKbvyJ8nZ84%2BbNTsj@82.26.155.3:10369?allowInsecure=1&sni=fra34.chasem2026sud.com#%E8%8B%B1%E5%9B%BD%2B%E4%BC%A6%E6%95%A6Virgin%2BMedia
 trojan://hCjWaBe5vTkewfiljOL%3D9FS9DYg0c09c.t@81.29.149.212:18390?sni=osl8.solidly.click#%E7%91%9E%E5%A3%AB%2BV2CROSS.COM
+vmess://eyJ2IjogIjIiLCAicHMiOiAiSVJfc3BlZWRub2RlXzAwMzQiLCAiYWRkIjogInYxMi5oZGFjZC5jb20iLCAicG9ydCI6IDMwODEyLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
+trojan://n5ix4FcMQYENMQPL%2BYKbvyJ8nZ84%2BbNTsj@82.26.155.20:10369?allowInsecure=1&sni=fra35.chasem2026sud.com#%E8%8B%B1%E5%9B%BD%2B%E4%BC%A6%E6%95%A6Virgin%2BMedia
 vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDkiLCAiYWRkIjogIjgyLjE5OC4yNDYuOTciLCAicG9ydCI6IDE4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5LyK5pyXIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICJ2MzAuaGRhY2QuY29tIiwgInBvcnQiOiAiMzA4MzAiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5bm/5Lic55yB5bm/5bee5biCIOenu+WKqCIsICJhZGQiOiAiYWZsenp1bC5tZWlxdWFua29uZ2ppYW4uY29tIiwgInBvcnQiOiAiNTI1MTIiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICIzNDJiYWNmZC0yYjhmLTNmNDktYTE2ZS00MzlkYjViMGI5ZDUiLCAiaG9zdCI6ICJhZmx6enVsLm1laXF1YW5rb25namlhbi5jb20iLCAicGF0aCI6ICIvNTY0ZGZhMjAvIn0=
+trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?allowInsecure=0&sni=ads.x5.ru#%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%2BV2CROSS.COM
+trojan://strong-secret-pass-777@94.131.105.125:4443?allowInsecure=1&sni=94.131.105.125#%E4%B9%8C%E5%85%8B%E5%85%B0%2BV2CROSS.COM
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://187dda4498be9ac4f28db939d5940185@43.198.80.240:21413?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@57.180.66.105:9211?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
@@ -47,7 +48,6 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiSEtfc3BlZWRub2RlXzAwMzAiLCAiYWRkIjogIjU4NGE3OWQ2
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSEtfc3BlZWRub2RlXzAwMzEiLCAiYWRkIjogImhrdC5nb3RvY2hpbmF0b3duLm5ldCIsICJwb3J0IjogODAsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImY2MDlhYmI0LWVkMTctMTFlZS05ZmEyLWYyM2M5MTY0Y2E1ZCIsICJob3N0IjogImhrdC5nb3RvY2hpbmF0b3duLm5ldCIsICJwYXRoIjogIi8ifQ==
 trojan://M7v%25w11Se%2A@qfdfsg.wsone.icu:443?allowInsecure=1&sni=&alpn=#ID_speednode_0032
 vless://f3a1017d-1ebf-11f1-8cae-c3845d39d2de@202.155.11.137:8443?allowInsecure=0&sni=www.apple.com&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc&sid=a1b2c3d4e5f6#ID_speednode_0033
-vmess://eyJ2IjogIjIiLCAicHMiOiAiSVJfc3BlZWRub2RlXzAwMzQiLCAiYWRkIjogInYxMi5oZGFjZC5jb20iLCAicG9ydCI6IDMwODEyLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
 trojan://trojan@217.142.250.195:587?allowInsecure=1&sni=&alpn=&type=ws&host=jflsjlaf.pages.dev&path=%2F#JP_speednode_0035
 vless://6eeb820e-89ef-4b60-9060-ddcaea0580f0@krp01.jumperservice.com:19001?allowInsecure=0&sni=addons.mozilla.org&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&sid=#KR_speednode_0036
 vless://455fc271-3ee2-493b-8c75-9324b4851e2f@krp01.jumperservice.com:19001?allowInsecure=0&sni=addons.mozilla.org&alpn=&flow=xtls-rprx-vision&fp=firefox&security=reality&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&sid=#KR_speednode_0037
