@@ -1,8 +1,10 @@
-trojan://UNWA6USASAb6%3DuAAZeZMFd%2B2uKB4.d5KOm@166.88.197.60:26650?sni=sea9.firewallcontract.click#%E7%BE%8E%E5%9B%BD%2BV2CROSS.COM
-trojan://n5ix4FcMQYENMQPL%2BYKbvyJ8nZ84%2BbNTsj@82.26.155.3:10369?sni=fra34.chasem2026sud.com#%E8%8B%B1%E5%9B%BD%2B%E4%BC%A6%E6%95%A6Virgin%2BMedia
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NICMzIiwgImFkZCI6ICJtLmNubWppbi5uZXQiLCAicG9ydCI6IDE2NjE2LCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJiNjg4Y2UwZi05MjAxLTRlOGUtYTY3YS1mM2JlMmM2YWEyMDEiLCAic25pIjogIiIsICJob3N0IjogIjdhMjk3OTY0YTJiMzFkYWZkMzUyOWVmNGQxNDU3NGI5Lm1vYmdzbGIudGJjYWNoZS5jb20iLCAicGF0aCI6ICIvIn0=
-trojan://WwipNOSqUh49CEapMmIrv6m6AZLf-EC0%2BT@104.238.162.6:13109?sni=ord2.edge-command.click#%E7%BE%8E%E5%9B%BD%2BChoopa%E5%85%AC%E5%8F%B8%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NICMyIiwgImFkZCI6ICI4Mi4xOTguMjQ2LjI1MCIsICJwb3J0IjogMTgwLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NICMyIiwgImFkZCI6ICI4Mi4xOTguMjQ2LjI1MCIsICJwb3J0IjogIjE4MCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIifQ==
+trojan://a5inYFE%3DJGV89%2BhjxIqgDp1tcWBd6@80.173.230.196:26279?#%E8%A5%BF%E7%8F%AD%E7%89%99%2BV2CROSS.COM
+trojan://BxceQaOe@58.152.25.253:443?sni=#%E9%A6%99%E6%B8%AF%2B%E7%94%B5%E8%AE%AF%E7%9B%88%E7%A7%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDkiLCAiYWRkIjogIjgyLjE5OC4yNDYuOTciLCAicG9ydCI6IDE4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
+trojan://strong-secret-pass-777@94.131.105.125:4443?allowInsecure=1&sni=&alpn=#NL_speednode_0040
+trojan://WwipNOSqUh49CEapMmIrv6m6AZLf-EC0%2BT@104.238.162.6:13109?allowInsecure=0&sni=ord2.edge-command.click#%E7%BE%8E%E5%9B%BD%2BChoopa%E5%85%AC%E5%8F%B8%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
+trojan://413fdb10-a596-4e7c-b081-54243d252894@85.211.192.237:13388?sni=www.baidu.com#%E8%8B%B1%E5%9B%BD%2BV2CROSS.COM
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://187dda4498be9ac4f28db939d5940185@57.180.63.46:21413?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@95.40.86.174:4972?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
@@ -22,7 +24,6 @@ vless://00000000-0000-4000-8000-000000000000@138.226.240.199:4433?allowInsecure=
 vless://00000000-0000-4000-8000-000000000000@185.94.29.156:4001?allowInsecure=1&sni=sub.mot.ip-ddns.com&alpn=&flow=&fp=&security=tls&type=ws&host=sub.mot.ip-ddns.com&path=%2F#DE_speednode_0006
 vless://00000000-0000-4000-8000-000000000000@37.114.50.157:4002?allowInsecure=0&sni=sub.mot.ip-ddns.com&alpn=&flow=&fp=&security=tls&type=ws&host=sub.mot.ip-ddns.com&path=%2F#DE_speednode_0007
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@51.210.151.165:8443?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F%3Fed%3D2560#FR_speednode_0008
-vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDkiLCAiYWRkIjogIjgyLjE5OC4yNDYuOTciLCAicG9ydCI6IDE4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSEtfc3BlZWRub2RlXzAwMTAiLCAiYWRkIjogImQ5MjhhNmY4LXQ5enRzMC10Y2M5dXEtMXJucnAuaGt0LmdvdG9jaGluYXRvd24ubmV0IiwgInBvcnQiOiA4MCwgImFpZCI6IDIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiOTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5IiwgImhvc3QiOiAiYnJvYWRjYXN0bHYuY2hhdC5iaWxpYmlsaS5jb20iLCAicGF0aCI6ICIvIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSEtfc3BlZWRub2RlXzAwMTEiLCAiYWRkIjogIjEzODkzMDZlLXQ5dzRnMC10Y3IyMmQtMXJzdXcuaGt0LmdvdG9jaGluYXRvd24ubmV0IiwgInBvcnQiOiA4MCwgImFpZCI6IDIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiMGRlMzdjZGMtYWJmZi0xMWVmLWI3YzYtZjIzYzkxM2M4ZDJiIiwgImhvc3QiOiAiYnJvYWRjYXN0bHYuY2hhdC5iaWxpYmlsaS5jb20iLCAicGF0aCI6ICIvIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSEtfc3BlZWRub2RlXzAwMTIiLCAiYWRkIjogImhrdC5nb3RvY2hpbmF0b3duLm5ldCIsICJwb3J0IjogODAsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImEyYjBmZDJiLTcxNmYtMGRmOC1kNGUyLTAzYTFjMDBlNWYxYSIsICJob3N0IjogImhrdC5nb3RvY2hpbmF0b3duLm5ldCIsICJwYXRoIjogIi8ifQ==
@@ -52,7 +53,6 @@ vless://6eeb820e-89ef-4b60-9060-ddcaea0580f0@krp01.jumperservice.com:19001?allow
 vless://455fc271-3ee2-493b-8c75-9324b4851e2f@krp01.jumperservice.com:19001?allowInsecure=0&sni=addons.mozilla.org&alpn=&flow=xtls-rprx-vision&fp=firefox&security=reality&pbk=UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM&sid=#KR_speednode_0037
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.128.32.98:443?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F%3Fed%3D2560#LV_speednode_0038
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.243.112.61:2053?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F%3Fed%3D2560#NL_speednode_0039
-trojan://strong-secret-pass-777@94.131.105.125:4443?allowInsecure=1&sni=&alpn=#NL_speednode_0040
 vless://9768f14f-a790-4c78-b1d9-60cc0e9d99a0@217.114.11.246:443?allowInsecure=0&sni=max.ru&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=FZbK0E3QBK7QslwVEXimX6vmXC8cb6826lSLJUkIEgU&sid=#RU_speednode_0041
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.74.155:443?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F#US_speednode_0043
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@94.131.101.135:443?allowInsecure=0&sni=sni.111000.v6.navy&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.navy&path=%2F%3Fed%3D2560#US_speednode_0044
