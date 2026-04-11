@@ -3,45 +3,100 @@ proxies:
   cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.250
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #2'
+  network: tcp
+  port: '180'
+  server: 82.198.246.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #3'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 英国+伦敦Virgin+Media
   password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
   port: 10369
-  server: 82.26.155.105
-  sni: fra32.chasem2026sud.com
+  server: 82.26.155.237
+  sni: fra5.chasem2026sud.com
   type: trojan
-- name: '英国+伦敦Virgin+Media #1'
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.3
-  sni: fra34.chasem2026sud.com
-  type: trojan
-- name: 英国+V2CROSS.COM
-  password: 413fdb10-a596-4e7c-b081-54243d252894
-  port: 5784
-  server: 85.211.192.237
-  skip-cert-verify: false
-  sni: www.baidu.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: '180'
-  server: 82.198.246.46
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
   name: GB_speednode_0009
+  network: ws
+  port: 8443
+  server: 91.84.101.164
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0010
   network: tcp
-  port: 180
-  server: 82.198.246.97
+  port: 443
+  reality-opts:
+    public-key: 0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M
+    short-id: '!!str aabbccdd'
+  server: 79.141.171.133
+  servername: apple.com
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  type: vless
+  uuid: 4c3fe585-ac09-41df-b284-888818888188
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: GB_speednode_0011
+  network: ws
+  port: 2053
+  server: 45.43.76.184
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0012
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
+    short-id: '!!str 41427aa565e28984'
+  server: 86.54.82.239
+  servername: store.steampowered.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8

@@ -1,62 +1,52 @@
 proxies:
+- name: 俄罗斯+V2CROSS.COM
+  password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg
+  port: 23357
+  server: 194.87.10.31
+  skip-cert-verify: false
+  sni: sgp9.node-resource.click
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.250
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 香港+电讯盈科有限公司
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 英国+伦敦Virgin+Media
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.105
-  sni: fra32.chasem2026sud.com
-  type: trojan
-- name: 西班牙+V2CROSS.COM
-  password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
-  port: 26279
-  server: 80.173.230.196
-  skip-cert-verify: false
-  type: trojan
-- name: '英国+伦敦Virgin+Media #1'
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.3
-  sni: fra34.chasem2026sud.com
-  type: trojan
-- name: 英国+V2CROSS.COM
-  password: 413fdb10-a596-4e7c-b081-54243d252894
-  port: 5784
-  server: 85.211.192.237
-  skip-cert-verify: false
-  sni: www.baidu.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: '英国 V2CROSS.COM #2'
   network: tcp
   port: '180'
   server: 82.198.246.46
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 乌克兰+V2CROSS.COM
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  sni: 94.131.105.125
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 伊朗 V2CROSS.COM
+  name: '英国 V2CROSS.COM #3'
   network: tcp
-  port: '30812'
-  server: 151.242.180.91
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 英国+伦敦Virgin+Media
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.237
+  sni: fra5.chasem2026sud.com
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -156,339 +146,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  name: AT_speednode_0001
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.167
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: '%2F'
-- alpn:
-  - ''
-  name: AT_speednode_0002
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.98
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: '%2F'
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0009
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0010
+  name: CN_speednode_0003
   network: ws
-  port: 80
-  server: d928a6f8-t9zts0-tcc9uq-1rnrp.hkt.gotochinatown.net
+  port: 16622
+  server: planb.mojcn.com
   tls: false
   type: vmess
-  uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+  uuid: 9c57c421-1d87-475b-8ec1-5595a304b19d
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0011
-  network: ws
-  port: 80
-  server: 1389306e-t9w4g0-tcr22d-1rsuw.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0012
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0018
-  network: ws
-  port: 80
-  server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0015
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0016
-  network: ws
-  port: 80
-  server: ff61e176-t9u9s0-tsjk4v-1atkp.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0017
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0019
-  network: ws
-  port: 80
-  server: 1808992d-t9mv40-tcmken-19les.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0020
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0021
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0022
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0023
-  network: ws
-  port: 80
-  server: 9c402b0d-t70f40-tfeciy-1iddy.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 9c402b0d-t70f40-tfeciy-1iddy.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0024
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0025
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0026
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0027
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0028
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0029
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0030
-  network: ws
-  port: 80
-  server: 584a79d6-t9w4g0-tb5rbt-1kcpe.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: HK_speednode_0031
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
+      Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
     path: /
 - alpn:
   - ''
-  name: ID_speednode_0032
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: qfdfsg.wsone.icu
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: IR_speednode_0034
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  name: JP_speednode_0035
-  network: ws
-  password: trojan
-  port: 587
-  server: 217.142.250.195
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: '%2F'
-- alpn:
-  - ''
-  name: NL_speednode_0040
+  name: NL_speednode_0027
   network: tcp
   password: strong-secret-pass-777
   port: 4443
@@ -496,3 +169,17 @@ proxies:
   skip-cert-verify: true
   sni: ''
   type: trojan
+- alpn:
+  - ''
+  name: US_speednode_0033
+  network: ws
+  password: trojan
+  port: 50000
+  server: 38.60.89.136
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: '%2F'
