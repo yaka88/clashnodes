@@ -1,5 +1,5 @@
 proxies:
-- name: 香港+电讯盈科有限公司
+- name: '香港+电讯盈科有限公司 #1'
   password: BxceQaOe
   port: 443
   server: 58.152.25.253

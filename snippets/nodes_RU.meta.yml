@@ -1,4 +1,10 @@
 proxies:
+- name: 俄罗斯+V2CROSS.COM
+  password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg
+  port: 23357
+  server: 194.87.10.31
+  sni: sgp9.node-resource.click
+  type: trojan
 - alpn:
   - ''
   client-fingerprint: chrome

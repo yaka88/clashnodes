@@ -1,19 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 加利福尼亚州洛杉矶IDC.Net
-  network: tcp
-  port: '22379'
-  server: 98.159.108.13
-  tls: false
-  type: vmess
-  uuid: 0f15e38d-3bdf-4dc0-aeb4-01085838d7b3
-- name: 美国+V2CROSS.COM
-  password: UNWA6USASAb6=uAAZeZMFd+2uKB4.d5KOm
-  port: 26650
-  server: 166.88.197.60
-  sni: sea9.firewallcontract.click
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
