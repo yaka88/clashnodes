@@ -23,12 +23,12 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: US_speednode_0033
+  name: US_speednode_0023
   network: ws
   password: trojan
-  port: 50000
-  server: 38.60.89.136
-  skip-cert-verify: false
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
   sni: ''
   type: trojan
   ws-opts:

@@ -23,48 +23,15 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0031
-  network: ws
-  port: 443
-  server: 135.84.74.155
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F'
-- alpn:
-  - ''
-  name: US_speednode_0033
+  name: US_speednode_0023
   network: ws
   password: trojan
-  port: 50000
-  server: 38.60.89.136
-  skip-cert-verify: false
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
   sni: ''
   type: trojan
   ws-opts:
     headers:
       Host: jflsjlaf.pages.dev
     path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0034
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: H6i2nA8Pm4b5Wb9UxP3GOQ_1WAEdlqUg5WDCBDdxtFo
-    short-id: '!!str '
-  server: 107.197.181.148
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 39c72576-8e0a-4249-ab37-0c89ce6a8e93

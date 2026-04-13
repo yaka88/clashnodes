@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0003
+  name: CN_speednode_0001
   network: ws
   port: 16622
   server: planb.mojcn.com
