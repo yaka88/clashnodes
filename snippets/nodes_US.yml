@@ -1,10 +1,4 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: UNWA6USASAb6=uAAZeZMFd+2uKB4.d5KOm
-  port: 26650
-  server: 166.88.197.60
-  sni: sea9.firewallcontract.click
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
