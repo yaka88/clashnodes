@@ -1,13 +1,31 @@
 proxies:
-- name: 英国+伦敦Virgin+Media
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.237
-  sni: fra5.chasem2026sud.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '英国 V2CROSS.COM #2'
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 俄罗斯+V2CROSS.COM
+  password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg
+  port: 23357
+  server: 194.87.10.31
+  sni: sgp9.node-resource.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #3'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -16,28 +34,13 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: '英国 V2CROSS.COM #4'
   network: tcp
   port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '51556'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '英国+伦敦Virgin+Media #1'
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.121
-  sni: fra33.chasem2026sud.com
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -165,293 +168,86 @@ proxies:
     headers:
       Host: ws248_2.baidu.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0001
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: 9c57c421-1d87-475b-8ec1-5595a304b19d
-  ws-opts:
-    headers:
-      Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
-    path: /
 - alpn:
   - ''
   flow: xtls-rprx-vision
-  name: GB_speednode_0002
+  name: CY_speednode_0001
   network: tcp
-  port: 443
+  port: 6443
   reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-    short-id: ''
-  server: 138.124.186.202
-  servername: www.fh-aachen.de
+    public-key: x-VSf_bBIC1iELDvaoM4SKMTK2YAAnUlVkhAWBbvpSc
+    short-id: 'b9605803fb4b'
+  server: gbr1.frostbot.ru
+  servername: gbr1.frostbot.ru
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  uuid: 5b77fb18-cece-4759-9a81-571f1be53e0c
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0003
-  network: ws
-  port: 7443
-  server: 222.167.202.21
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
+  flow: xtls-rprx-vision
+  name: CY_speednode_0002
+  network: tcp
+  port: 46110
+  reality-opts:
+    public-key: 7q3_m65wkw4AlZ0tk2SGw5PQePvYPh2kaU-UCkHUb2g
+    short-id: '5e'
+  server: 185.153.181.118
+  servername: www.deepl.com
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.21%3A7443'
+  uuid: 6ec3c298-1058-43bd-81e3-54b155c4ae21
 - alpn:
   - ''
-  client-fingerprint: ''
   flow: ''
   name: HK_speednode_0004
   network: ws
-  port: 7443
-  server: 222.167.202.23
-  servername: 2026.hhhhh.eu.org
+  port: 3389
+  server: 203.168.131.105
+  servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.23%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0005
-  network: ws
-  port: 7443
-  server: 222.167.202.10
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.10%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0006
-  network: ws
-  port: 7443
-  server: 222.167.202.14
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.14%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0007
-  network: ws
-  port: 7443
-  server: 222.167.202.16
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.16%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0008
-  network: ws
-  port: 7443
-  server: 222.167.202.47
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.47%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0009
-  network: ws
-  port: 7443
-  server: 222.167.202.6
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.6%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0010
-  network: ws
-  port: 7443
-  server: 222.167.202.15
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.15%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0011
-  network: ws
-  port: 7443
-  server: 222.167.202.22
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.22%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0012
-  network: ws
-  port: 7443
-  server: 222.167.202.50
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.50%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0013
-  network: ws
-  port: 7443
-  server: 222.167.202.52
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.52%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0014
-  network: ws
-  port: 7443
-  server: 222.167.202.45
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.45%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0015
-  network: ws
-  port: 7443
-  server: 222.167.202.36
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.36%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0016
-  network: ws
-  port: 7443
-  server: 222.167.202.2
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.2%3A7443'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: HK_speednode_0017
-  network: ws
-  port: 7443
-  server: 222.167.202.32
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.32%3A7443'
+      Host: q40ivxuck.danfeng.qzz.io
+    path: '%2Fdanfeng'
 - alpn:
   - ''
   flow: xtls-rprx-vision
-  name: RO_speednode_0018
+  name: HK_speednode_0006
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _t05V9DbgwyxSJOgRBhWYHt8d4Xt-qFfUXONotbUnCE
+    short-id: 'f37fb7531c60780d'
+  server: polands.stardevs.top
+  servername: polands.stardevs.top
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: NL_speednode_0008
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: 'd82fb387'
+  server: 45.43.92.20
+  servername: chat.deepseek.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: RO_speednode_0009
   network: tcp
   port: 443
   reality-opts:
@@ -465,46 +261,112 @@ proxies:
   uuid: 43488128-319e-f480-64ea-0acdc712e2a8
 - alpn:
   - ''
-  flow: xtls-rprx-vision
-  name: SC_speednode_0020
-  network: tcp
-  port: 52000
-  reality-opts:
-    public-key: dUMRGt4pHvNO-YjS6lWsEZhoiHe6DH1Dw92nqVAx_T0
-    short-id: 'f1002d6b'
-  server: direct.illusion-vpn.ru
-  servername: ozon.ru
+  flow: ''
+  name: SG_speednode_0011
+  network: ws
+  port: 443
+  server: 43.168.16.112
+  servername: q40ivxuck.danfeng.qzz.io
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: bf263367-bb63-4663-b4a1-34946107a72e
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: '%2Fdanfeng'
+- alpn:
+  - h2
+  - http/1.1
+  flow: ''
+  name: US_speednode_0012
+  network: ws
+  port: 443
+  server: 18.245.54.3
+  servername: d2241b25w3zftf.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+  ws-opts:
+    headers:
+      Host: d2241b25w3zftf.cloudfront.net
+    path: '%2F'
+- alpn:
+  - http/1.1
+  flow: ''
+  name: US_speednode_0013
+  network: ws
+  port: 25557
+  server: 69.63.208.141
+  servername: snippet.gfw.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.qzz.io
+    path: '%2Fdanfeng'
 - alpn:
   - ''
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: TR_speednode_0021
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc
-    short-id: '6ea3daaac3d6bede'
-  server: 188.132.184.148
-  servername: greenpepper.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a
-- alpn:
-  - ''
-  name: US_speednode_0023
+  name: US_speednode_0014
   network: ws
   password: trojan
-  port: 8025
-  server: 54.46.72.234
-  skip-cert-verify: true
+  port: 54321
+  server: 154.12.53.125
+  skip-cert-verify: false
   sni: ''
   type: trojan
   ws-opts:
     headers:
       Host: jflsjlaf.pages.dev
     path: '%2F'
+- alpn:
+  - ''
+  flow: ''
+  name: US_speednode_0015
+  network: ws
+  port: 443
+  server: 74.120.174.180
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: '%2Fdanfeng'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0021
+  network: ws
+  port: 8443
+  server: 162.159.45.202
+  servername: zoro.jakesolo.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: dcda262b-0d36-4032-edd9-da4fd2d53711
+  ws-opts:
+    headers:
+      Host: zoro.jakesolo.eu.org
+    path: '%2Fws'
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: US_speednode_0022
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: 'd82fb387'
+  server: 144.31.122.171
+  servername: chat.deepseek.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
