@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 纽约(Prudential)
+  name: 美国 东北部七州电讯网
   network: tcp
   port: '30812'
   server: v12.hdacd.com
@@ -11,22 +11,22 @@ proxies:
 - name: 美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4019
-  server: 43.207.115.26
+  port: 3057
+  server: 13.114.50.40
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 3057
-  server: 13.231.134.78
+  port: 4019
+  server: 54.199.47.118
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 16.162.122.123
+  port: 44386
+  server: 16.162.191.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
