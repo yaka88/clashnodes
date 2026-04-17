@@ -1,1 +1,34 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: KR_speednode_0009
+  network: ws
+  port: 18889
+  server: 218.144.49.230
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    path: '%2Fdanfeng'
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: KR_speednode_0010
+  network: tcp
+  port: 50911
+  reality-opts:
+    public-key: RGQRcZVfFRt6ioLDvH7HOicOXJcwonHFVqOgbix2w3w
+    short-id: '!!str '
+  server: 144.24.74.102
+  servername: www.iij.ad.jp
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 820409af-997a-41c4-9e51-46f373951a39

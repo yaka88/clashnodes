@@ -1,8 +1,17 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg
-  port: 23357
-  server: 194.87.10.31
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0013
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+    short-id: '!!str 4fa44664f6a566d3'
+  server: 171.22.181.107
+  servername: uk.milas.click
   skip-cert-verify: false
-  sni: sgp9.node-resource.click
-  type: trojan
+  tls: false
+  type: vless
+  uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
