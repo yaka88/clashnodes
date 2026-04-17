@@ -1,9 +1,6 @@
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NICMxIiwgImFkZCI6ICI4Mi4xOTguMjQ2LjQ2IiwgInBvcnQiOiAiMTgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
-trojan://UNWA6USASAb6%3DuAAZeZMFd%2B2uKB4.d5KOm@166.88.197.60:26650?sni=sea9.firewallcontract.click#%E7%BE%8E%E5%9B%BD%2BV2CROSS.COM
-trojan://fQmMJwOLMlqHednu2SVED8gi-%2BH-db9kbg@194.87.10.31:23357?allowInsecure=0&sni=sgp9.node-resource.click#%E4%BF%84%E7%BD%97%E6%96%AF%2BV2CROSS.COM
-trojan://n5ix4FcMQYENMQPL%2BYKbvyJ8nZ84%2BbNTsj@82.26.155.20:10369?sni=fra35.chasem2026sud.com#%E8%8B%B1%E5%9B%BD%2B%E4%BC%A6%E6%95%A6Virgin%2BMedia
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivIOeUteiur+ebiOenkeaciemZkOWFrOWPuCIsICJhZGQiOiAiZWZhbi5kbnNlZmFuMDQ4ODEuY29tIiwgInBvcnQiOiAiNzc1NCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICIwMDllNTU4ZC0zY2Y0LTQ5ZDgtYjVlNC04MmM5ZTE0ZmUxYTQifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAi6Iux5Zu9IFYyQ1JPU1MuQ09NICMyIiwgImFkZCI6ICJ2MzAuaGRhY2QuY29tIiwgInBvcnQiOiAiMzA4MzAiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
+trojan://a5inYFE%3DJGV89%2BhjxIqgDp1tcWBd6@80.173.230.196:26279?allowInsecure=1#%E8%A5%BF%E7%8F%AD%E7%89%99%2BV2CROSS.COM
+trojan://n5ix4FcMQYENMQPL%2BYKbvyJ8nZ84%2BbNTsj@82.26.155.105:10369?allowInsecure=1&sni=fra32.chasem2026sud.com#%E8%8B%B1%E5%9B%BD%2B%E4%BC%A6%E6%95%A6Virgin%2BMedia
+vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDUiLCAiYWRkIjogIjgyLjE5OC4yNDYuMjUwIiwgInBvcnQiOiAxODAsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://868ecdaf6aed618ec98cf78585672b2b@16.162.188.94:52687?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@16.163.144.91:11097?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
@@ -21,7 +18,6 @@ trojan://trojan@152.53.45.251:8888?allowInsecure=0&sni=&alpn=&type=ws&host=jflsj
 trojan://trojan@152.53.200.167:8444?allowInsecure=0&sni=&alpn=&type=ws&host=jflsjlaf.pages.dev&path=%2F#AT_speednode_0002
 vless://fadab0a4-861d-4ebf-89ac-c9b34aef631a@130.162.220.137:443?allowInsecure=0&sni=www.lamer.com&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8&sid=66ed2fdd#DE_speednode_0003
 vless://72eb4de8-5eca-420d-8876-173ef58d82e8@92.119.166.90:7443?allowInsecure=0&sni=chat.deepseek.com&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&sid=d82fb387#DE_speednode_0004
-vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDUiLCAiYWRkIjogIjgyLjE5OC4yNDYuMjUwIiwgInBvcnQiOiAxODAsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDYiLCAiYWRkIjogInYxMi5oZGFjZC5jb20iLCAicG9ydCI6IDMwODEyLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiR0Jfc3BlZWRub2RlXzAwMDciLCAiYWRkIjogIjgyLjE5OC4yNDYuOTciLCAicG9ydCI6IDE4MCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiJ9
 vless://43488128-319e-f480-64ea-0acdc712e2a8@86.54.82.239:443?allowInsecure=0&sni=store.steampowered.com&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U&sid=41427aa565e28984#GB_speednode_0008
@@ -44,7 +40,7 @@ vless://73c0a723-c0ab-4ad8-8f25-799b9bd54e36@216.57.105.74:443?allowInsecure=0&s
 vless://f10367b9-5b67-40fa-a4aa-675eee3e0530@sqt.gtimg.cn.e791.com:443?allowInsecure=0&sni=cdn.download.7602.org&alpn=&flow=xtls-rprx-vision&fp=chrome&security=tls#US_speednode_0030
 vless://d46056cf-da4e-4426-a3e4-39fcbfefa112@129.153.71.226:443?allowInsecure=0&sni=iosapps.itunes.apple.com&alpn=&flow=xtls-rprx-vision&fp=ios&security=reality&pbk=qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o&sid=aac4df9d05a5ba8f#US_speednode_0031
 ss://bm9uZToxNGIwMmUyYS04OTMwLTRhZmItODQxMi1lYTRhNDk1NGNhNWI=@198.12.144.16:443?Plugin=v2ray-plugin;tls;mode=websocket;host=ylnhh.us.ci;path=/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560#US_speednode_0023
-ss://bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=@cf.130519.xyz:443?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560#US_speednode_0026
-ss://bm9uZTozZTk2ZWY3ZC04NjM3LTQyYzItYWM3My03NTE4MjE5NmU3NTU=@47.57.182.141:443?Plugin=v2ray-plugin;tls;mode=websocket;host=mfvpn.fuchen.indevs.in;path=3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560#HK_speednode_0011
 ss://bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=@162.159.45.127:443?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560#US_speednode_0027
+ss://bm9uZTozZTk2ZWY3ZC04NjM3LTQyYzItYWM3My03NTE4MjE5NmU3NTU=@47.57.182.141:443?Plugin=v2ray-plugin;tls;mode=websocket;host=mfvpn.fuchen.indevs.in;path=3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560#HK_speednode_0011
 ss://bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=@198.41.211.222:443?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560#US_speednode_0025
+ss://bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=@cf.130519.xyz:443?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560#US_speednode_0026
