@@ -5,6 +5,15 @@ proxies:
   server: 166.88.197.60
   sni: sea9.firewallcontract.click
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 东北部七州电讯网
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
