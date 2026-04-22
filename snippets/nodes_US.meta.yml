@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 北美地区 V2CROSS.COM
+  network: ws
+  port: 443
+  server: 107.175.91.118
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001
+  ws-opts:
+    headers:
+      Host: ''
+    path: /v2ray-wisp
 - name: 美国|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
