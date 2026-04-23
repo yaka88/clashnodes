@@ -21,19 +21,13 @@ proxies:
   server: 43.199.32.10
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: JP_speednode_0010
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  server: 176.97.73.155
-  servername: navi.bankrate.com
-  skip-cert-verify: false
+- name: JP_speednode_0106
+  obfs: ''
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: A537EA13-778F-4967-953F-EE29617B8E55
+  port: 20039
+  server: jp1.dexlos.com
+  skip-cert-verify: true
+  sni: jp1.dexlos.com
   tls: false
-  type: vless
-  uuid: 0b277abf-e0d6-44d8-85c6-f6c7afc0aec5
+  type: hysteria2

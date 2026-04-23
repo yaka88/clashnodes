@@ -1,52 +1,18 @@
 proxies:
 - alpn:
   - ''
-  client-fingerprint: chrome
+  client-fingerprint: ''
   flow: ''
-  name: KR_speednode_0013
+  name: KR_speednode_0108
   network: ws
-  port: 10000
-  server: 210.178.81.61
-  servername: s3vz.user-service.chinav.indevs.in
+  port: 58337
+  server: 152.67.211.114
+  servername: sni.111000.v6.rocks
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: '%2Fdanfeng'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: KR_speednode_0014
-  network: ws
-  port: 37810
-  server: 222.97.154.26
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: '%2Fdanfeng'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: KR_speednode_0015
-  network: ws
-  port: 12000
-  server: 59.11.151.238
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: '%2Fdanfeng'
+      Host: sni.111000.v6.rocks
+    path: '%2F%3Fed%3D2560'

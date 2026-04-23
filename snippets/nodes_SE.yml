@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  name: SE_speednode_0125
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 194.87.77.2
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: SE_speednode_0126
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 194.87.77.91
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: SE_speednode_0127
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 194.87.77.2
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'

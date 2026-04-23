@@ -1,4 +1,22 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 香港 电讯盈科有限公司
+  network: tcp
+  port: '7754'
+  server: vm51544542.dns8656815.com
+  tls: false
+  type: vmess
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+- alterId: 0
+  cipher: auto
+  name: '香港 电讯盈科有限公司 #1'
+  network: tcp
+  port: '7754'
+  server: efan.dnsefan04881.com
+  tls: false
+  type: vmess
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -34,49 +52,51 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  client-fingerprint: chrome
+  client-fingerprint: ''
   flow: ''
-  name: HK_speednode_0006
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: '!!str '
-  server: 47.242.64.181
-  servername: cms.suse.net
+  name: HK_speednode_0097
+  network: ws
+  port: 8443
+  server: 47.90.8.168
+  servername: sni.111000.v6.rocks
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+    path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
   client-fingerprint: chrome
-  flow: ''
-  name: HK_speednode_0007
+  flow: xtls-rprx-vision
+  name: HK_speednode_0098
   network: tcp
   port: 443
   reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: '!!str '
-  server: 8.218.121.213
-  servername: siteintercept.qualtrics.com
+    public-key: _t05V9DbgwyxSJOgRBhWYHt8d4Xt-qFfUXONotbUnCE
+    short-id: '!!str f37fb7531c60780d'
+  server: polands.stardevs.top
+  servername: polands.stardevs.top
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
 - alpn:
   - ''
-  client-fingerprint: chrome
+  client-fingerprint: ''
   flow: ''
-  name: HK_speednode_0008
-  network: tcp
+  name: HK_speednode_0099
+  network: ws
   port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: '!!str '
-  server: 8.217.49.16
-  servername: wwwimages2.adobe.com
+  server: 91.186.219.15
+  servername: sni.111000.v6.rocks
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+    path: '%2F%3Fed%3D2560'
