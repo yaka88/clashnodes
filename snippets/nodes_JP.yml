@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 Gaditek数据中心
-  network: ws
-  port: '80'
-  server: 172.111.146.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
