@@ -1,13 +1,4 @@
 proxies:
-- alterId: 1
-  cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: tcp
-  port: '22324'
-  server: 5.188.190.252
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alpn:
   - ''
   client-fingerprint: chrome
