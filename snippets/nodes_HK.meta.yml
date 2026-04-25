@@ -3,9 +3,8 @@ proxies:
   cipher: auto
   name: 香港 电讯盈科有限公司
   network: tcp
-  port: 7754
+  port: '7754'
   server: efan.dnsefan04881.com
-  servername: ''
   tls: false
   type: vmess
   uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
@@ -23,22 +22,22 @@ proxies:
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 52687
-  server: 18.162.152.196
+  server: 13.230.190.29
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 54.238.64.8
+  port: 9211
+  server: 43.199.78.220
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22075
-  server: 43.199.67.80
+  port: 4886
+  server: 43.199.206.175
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
