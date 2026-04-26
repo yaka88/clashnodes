@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: none
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8443'
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - name: 美国|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
@@ -23,63 +37,7 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: US_speednode_0137
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 95.164.123.131
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: US_speednode_0138
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.118.170
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: US_speednode_0139
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 64.188.70.233
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: US_speednode_0140
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.116.8
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: US_speednode_0142
+  name: US_speednode_0097
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -93,7 +51,7 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  name: US_speednode_0144
+  name: US_speednode_0099
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -107,21 +65,35 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  name: US_speednode_0145
+  name: US_speednode_0100
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 64.188.70.233
+  server: 144.31.116.8
   skip-cert-verify: false
   sni: ''
   type: trojan
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: '%2F'
+    path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  name: US_speednode_0146
+  name: US_speednode_0101
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.118.170
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0102
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -135,11 +107,25 @@ proxies:
     path: '%2F'
 - alpn:
   - ''
-  name: US_speednode_0152
+  name: US_speednode_0103
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 144.31.98.216
+  server: 64.188.70.233
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0104
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.70.233
   skip-cert-verify: false
   sni: ''
   type: trojan
@@ -149,35 +135,7 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  name: US_speednode_0159
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.216.160
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: US_speednode_0160
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.218.10
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: US_speednode_0163
+  name: US_speednode_0107
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -191,11 +149,11 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  name: US_speednode_0164
+  name: US_speednode_0108
   network: ws
   password: '!!str 1234567890'
-  port: 8443
-  server: 144.31.213.59
+  port: 443
+  server: 144.31.216.160
   skip-cert-verify: false
   sni: ''
   type: trojan
@@ -205,7 +163,119 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  name: US_speednode_0165
+  name: US_speednode_0109
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.218.10
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0111
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.118.193
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0114
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.85.72
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0115
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.89.147
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0116
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.116.8
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0117
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.139.103
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0118
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.105.7
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0119
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.138.127
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0120
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -217,3 +287,73 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0122
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.216.160
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0123
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.115.82
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0125
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.188.6
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0126
+  network: ws
+  password: '!!str 1234567890'
+  port: 8443
+  server: 64.188.89.147
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: US_speednode_0127
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 104.128.139.68
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'

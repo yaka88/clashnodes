@@ -21,13 +21,3 @@ proxies:
   server: 18.183.73.62
   sni: www.nintendogames.net
   type: trojan
-- name: JP_speednode_0106
-  obfs: ''
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: A537EA13-778F-4967-953F-EE29617B8E55
-  port: 20039
-  server: jp1.dexlos.com
-  skip-cert-verify: true
-  sni: jp1.dexlos.com
-  tls: false
-  type: hysteria2

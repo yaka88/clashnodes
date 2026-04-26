@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - ''
-  name: RU_speednode_0118
+  name: RU_speednode_0087
   network: ws
   password: '!!str 1234567890'
   port: 2053
@@ -13,3 +13,17 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: RU_speednode_0088
+  network: ws
+  password: '!!str 1234567890'
+  port: 2053
+  server: 89.169.9.177
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'

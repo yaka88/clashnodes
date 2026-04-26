@@ -1,14 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0051
+  name: 广东省广州市 电信IDC机房
+  network: ws
+  port: 20010
+  server: 76c3.earthdraft.onezz.top
+  tls: false
+  type: vmess
+  uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
+  ws-opts:
+    headers:
+      Host: ithome.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0026
   network: ws
   port: 16632
   server: planb.mojcn.com
   tls: false
   type: vmess
-  uuid: 7b18c750-bf0a-415d-9f22-5c1c6e1bd4b9
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
   ws-opts:
     headers:
-      Host: 7742af127c04571e3e3953165a8bc157.mobgslb.tbcache.com
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0028
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  tls: false
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /

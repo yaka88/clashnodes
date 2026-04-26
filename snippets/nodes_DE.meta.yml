@@ -1,40 +1,9 @@
 proxies:
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: DE_speednode_0058
-  network: ws
-  port: 8443
-  server: 193.23.219.205
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: DE_speednode_0059
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 193.23.218.192
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: DE_speednode_0060
+  name: DE_speednode_0035
   network: tcp
   port: 443
   reality-opts:
@@ -48,45 +17,25 @@ proxies:
   uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: DE_speednode_0061
-  network: ws
-  port: 443
-  server: 193.23.200.38
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: DE_speednode_0062
-  network: ws
-  port: 44406
-  server: 194.107.126.20
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: DE_speednode_0063
+  name: DE_speednode_0036
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 87.251.88.215
+  server: 193.23.218.192
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: DE_speednode_0037
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 193.23.218.192
   skip-cert-verify: false
   sni: ''
   type: trojan
@@ -96,11 +45,11 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  name: DE_speednode_0064
+  name: DE_speednode_0038
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 185.65.202.222
+  server: 185.219.84.221
   skip-cert-verify: false
   sni: ''
   type: trojan
@@ -110,7 +59,7 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  name: DE_speednode_0065
+  name: DE_speednode_0039
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -122,3 +71,76 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: DE_speednode_0040
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 202.61.195.167
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: DE_speednode_0041
+  network: ws
+  password: '!!str 1234567890'
+  port: 8443
+  server: 194.164.198.156
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  name: DE_speednode_0042
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 185.219.84.221
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
+- alpn:
+  - ''
+  name: DE_speednode_0043
+  network: ws
+  password: '!!str 1234567890'
+  port: 2053
+  server: 202.61.226.121
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: DE_speednode_0044
+  network: ws
+  port: 443
+  server: srv190.towersflowerss.com
+  servername: srv190.towersflowerss.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+  ws-opts:
+    headers:
+      Host: srv190.towersflowerss.com
+    path: '%2F'

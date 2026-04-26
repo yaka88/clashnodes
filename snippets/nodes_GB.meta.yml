@@ -3,35 +3,11 @@ proxies:
   cipher: auto
   name: '英国 V2CROSS.COM #3'
   network: tcp
-  port: '180'
-  server: 82.198.246.214
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #4'
-  network: tcp
   port: 180
   server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 英国+伦敦Virgin+Media
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.121
-  sni: fra33.chasem2026sud.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '英国 V2CROSS.COM #5'
@@ -41,7 +17,17 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '英国+伦敦Virgin+Media #1'
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #2'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 英国+伦敦Virgin+Media
+  network: tcp
   password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
   port: 10369
   server: 82.26.155.3
@@ -49,73 +35,49 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0073
-  network: ws
-  port: 12888
-  server: gtm1.ktmwan.net
+  name: '英国 V2CROSS.COM #4'
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
   tls: false
   type: vmess
-  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0075
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0077
-  network: ws
-  port: 12889
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0078
-  network: ws
-  port: 12885
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alpn:
-  - ''
-  name: GB_speednode_0079
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 82.21.117.137
-  skip-cert-verify: false
-  sni: ''
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '英国+伦敦Virgin+Media #1'
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.237
+  skip-cert-verify: true
+  sni: fra5.chasem2026sud.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0050
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0051
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
 - alpn:
   - ''
-  name: GB_speednode_0080
+  name: GB_speednode_0052
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -127,70 +89,49 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0081
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0053
   network: ws
-  port: 443
-  server: 68.168.31.169
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 16618
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: '%2F%3Fed%3D2560'
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0054
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  tls: false
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
 - alpn:
   - ''
-  name: GB_speednode_0082
+  name: GB_speednode_0055
   network: ws
   password: '!!str 1234567890'
-  port: 8443
-  server: 2.27.120.108
+  port: 443
+  server: 148.253.210.141
   skip-cert-verify: false
   sni: ''
   type: trojan
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0083
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: 8d95151d-d626-4ed2-83ac-29631f44085b
-  ws-opts:
-    headers:
-      Host: d26bc33c22885694ea3e533bfbf33059.mobgslb.tbcache.com
-    path: /
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0084
-  network: ws
-  port: 443
-  server: 91.108.242.85
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: GB_speednode_0085
+  name: GB_speednode_0056
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -204,24 +145,24 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0086
+  name: GB_speednode_0057
   network: ws
-  port: 16645
-  server: m.cnmjin.net
+  port: 16616
+  server: t.cnmjcn.cyou
   tls: false
   type: vmess
-  uuid: 5a6ef8db-3f3f-4fb9-920f-4344f41e6011
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
   ws-opts:
     headers:
-      Host: ab1d7fef2d0ea7c2a3be280ef8bc04fd.mobgslb.tbcache.com
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
 - alpn:
   - ''
-  name: GB_speednode_0087
+  name: GB_speednode_0058
   network: ws
   password: '!!str 1234567890'
-  port: 443
-  server: 148.253.215.61
+  port: 8443
+  server: 2.27.35.199
   skip-cert-verify: false
   sni: ''
   type: trojan
@@ -231,41 +172,21 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0088
+  name: GB_speednode_0059
   network: ws
+  password: '!!str 1234567890'
   port: 443
-  server: 91.193.58.74
-  servername: sni.111000.v6.rocks
+  server: 77.239.127.77
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  sni: ''
+  type: trojan
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: '%2F%3Fed%3D2560'
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0089
-  network: ws
-  port: 443
-  server: 91.193.58.49
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: GB_speednode_0090
+  name: GB_speednode_0060
   network: ws
   password: '!!str 1234567890'
   port: 8443
@@ -279,103 +200,59 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0091
+  name: GB_speednode_0061
   network: ws
+  password: '!!str 1234567890'
   port: 443
-  server: 91.193.58.246
-  servername: sni.111000.v6.rocks
+  server: 148.253.215.61
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  sni: ''
+  type: trojan
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: '%2F%3Fed%3D2560'
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0092
+  name: GB_speednode_0062
   network: ws
+  password: '!!str 1234567890'
   port: 443
-  server: 91.193.58.200
-  servername: sni.111000.v6.rocks
+  server: 148.253.215.61
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  sni: ''
+  type: trojan
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: '%2F%3Fed%3D2560'
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0093
+  name: GB_speednode_0063
   network: ws
-  port: 443
-  server: 45.43.79.225
-  servername: sni.111000.v6.rocks
+  password: '!!str 1234567890'
+  port: 8443
+  server: 185.170.153.115
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  sni: ''
+  type: trojan
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: '%2F%3Fed%3D2560'
+      Host: kfm-bn0.pages.dev
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0094
-  network: ws
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0064
+  network: tcp
   port: 443
-  server: 45.43.79.130
-  servername: sni.111000.v6.rocks
+  reality-opts:
+    public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
+    short-id: '!!str 41427aa565e28984'
+  server: 86.54.82.239
+  servername: store.steampowered.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0095
-  network: ws
-  port: 443
-  server: 148.253.211.49
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0096
-  network: ws
-  port: 443
-  server: 91.193.58.247
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: '%2F%3Fed%3D2560'
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8

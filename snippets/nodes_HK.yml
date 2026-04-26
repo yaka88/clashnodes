@@ -39,3 +39,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: HK_speednode_0065
+  network: tcp
+  port: 15079
+  server: 38.22.93.20
+  tls: false
+  type: vmess
+  uuid: 66e12acd-4f93-4e35-e229-5f93e2f379e1
