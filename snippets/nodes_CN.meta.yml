@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 广东省广州市 电信IDC机房
   network: ws
-  port: 22013
+  port: '20010'
   server: 76c3.earthdraft.onezz.top
   tls: false
   type: vmess
