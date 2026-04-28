@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 东北部七州电讯网
+  name: 美国 加利福尼亚州旧金山市Dropbox公司
   network: tcp
   port: '30830'
   server: v30.hdacd.com
