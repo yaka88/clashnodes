@@ -1,210 +1,50 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #2'
+  name: GB_speednode_0006
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #4'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #5'
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0007
   network: tcp
   port: 180
   server: 82.198.246.214
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: GB_speednode_0009
   network: tcp
   port: 180
-  server: 82.198.246.233
+  server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0050
-  network: ws
-  port: 16622
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0051
-  network: ws
-  port: 16616
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alpn:
-  - ''
-  name: GB_speednode_0052
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 148.253.210.141
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0053
-  network: ws
-  port: 16618
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0054
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alpn:
-  - ''
-  name: GB_speednode_0055
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 148.253.210.141
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F'
-- alpn:
-  - ''
-  name: GB_speednode_0056
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 77.239.127.77
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0057
-  network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alpn:
-  - ''
-  name: GB_speednode_0058
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 2.27.35.199
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: GB_speednode_0059
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 77.239.127.77
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F'
-- alpn:
-  - ''
-  name: GB_speednode_0060
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 185.170.153.115
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: GB_speednode_0061
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 148.253.215.61
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  name: GB_speednode_0062
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 148.253.215.61
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F'
-- alpn:
-  - ''
-  name: GB_speednode_0063
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 185.170.153.115
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: '%2F'

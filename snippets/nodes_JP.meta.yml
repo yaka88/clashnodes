@@ -21,3 +21,20 @@ proxies:
   server: 57.180.240.230
   sni: www.nintendogames.net
   type: trojan
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: ''
+  name: JP_speednode_0010
+  network: ws
+  port: 443
+  server: 45.32.17.67
+  servername: subsources.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: subsources.pages.dev
+    path: '%2F%3Fed%3D2560'

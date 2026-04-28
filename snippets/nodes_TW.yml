@@ -1,10 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: TW_speednode_0096
-  network: tcp
-  port: 53229
-  server: 103.127.243.54
-  tls: false
-  type: vmess
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+proxies: []
