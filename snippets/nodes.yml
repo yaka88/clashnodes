@@ -1,10 +1,24 @@
 proxies:
 - alterId: 0
+  cipher: none
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '8443'
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '英国 V2CROSS.COM #2'
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -14,39 +28,6 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.233
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 保加利亚+V2CROSS.COM
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  sni: ads.x5.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #2'
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #3'
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #4'
-  network: tcp
-  port: 180
-  server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
