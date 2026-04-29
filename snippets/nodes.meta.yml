@@ -1,27 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0006
+  name: GB_speednode_0007
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '英国 V2CROSS.COM #4'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '亚太地区 V2CROSS.COM #2'
+  name: '亚太地区 V2CROSS.COM #3'
   network: tcp
   port: 54022
   server: 103.181.164.145
@@ -31,9 +21,27 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #5'
+  name: GB_speednode_0009
   network: tcp
   port: 180
+  server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #2'
+  network: tcp
+  port: '180'
+  server: 82.198.246.233
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
   server: 82.198.246.250
   servername: ''
   tls: false
@@ -41,9 +49,9 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '亚太地区 V2CROSS.COM #3'
+  name: '亚太地区 V2CROSS.COM #4'
   network: tcp
-  port: '51556'
+  port: 51556
   server: 103.181.164.145
   servername: ''
   tls: false
@@ -51,10 +59,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0007
+  name: GB_speednode_0006
   network: tcp
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.9
   servername: ''
   tls: false
   type: vmess
@@ -72,15 +80,15 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 52687
-  server: 54.249.198.171
+  port: 2008
+  server: 13.193.224.0
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4327
-  server: 54.250.34.119
+  port: 9211
+  server: 52.194.227.165
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -95,8 +103,8 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1951
-  server: 54.249.198.171
+  port: 16919
+  server: 18.183.180.142
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -104,14 +112,14 @@ proxies:
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 4380
-  server: 52.197.180.134
+  server: 18.162.50.11
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 4380
-  server: 57.180.240.230
+  port: 9201
+  server: 3.112.1.63
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
@@ -131,8 +139,8 @@ proxies:
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4203
-  server: 95.40.28.234
+  port: 7337
+  server: 16.163.157.130
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -146,15 +154,15 @@ proxies:
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 4019
-  server: 43.198.79.128
+  port: 3057
+  server: 3.112.237.226
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38692
-  server: 18.163.114.38
+  port: 49534
+  server: 95.40.22.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -254,15 +262,6 @@ proxies:
   tls: false
   type: vless
   uuid: bf263367-bb63-4663-b4a1-34946107a72e
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0009
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: random
