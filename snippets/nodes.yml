@@ -1,14 +1,33 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
   name: 亚太地区 V2CROSS.COM
   network: tcp
-  port: 51556
+  port: '54022'
   server: 103.181.164.145
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #11'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #7'
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: GB_speednode_0007
@@ -25,28 +44,56 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.9
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #4'
+  name: GB_speednode_0009
   network: tcp
   port: 180
-  server: 82.198.246.97
+  server: 82.198.246.37
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #1'
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  tls: false
+  type: vmess
+  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+  ws-opts:
+    headers:
+      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #2'
+  network: ws
+  port: 16616
+  server: planb.mojcn.com
+  tls: false
+  type: vmess
+  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+  ws-opts:
+    headers:
+      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #3'
+  network: tcp
+  port: 51556
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 保加利亚+V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259
@@ -55,14 +102,26 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #7'
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  servername: ''
+  name: '亚太地区 V2CROSS.COM #4'
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+  ws-opts:
+    headers:
+      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #12'
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -164,10 +223,11 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0009
+  name: 美国4|@ripaojiedian
   network: tcp
-  port: 180
-  server: 82.198.246.37
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
