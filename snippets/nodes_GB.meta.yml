@@ -1,20 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #11'
+  name: GB_speednode_0006
   network: tcp
   port: 180
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #7'
-  network: tcp
-  port: 180
-  server: 82.198.246.233
+  server: 82.198.246.9
   servername: ''
   tls: false
   type: vmess
@@ -31,10 +21,10 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0006
+  name: '英国 V2CROSS.COM #5'
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.97
   servername: ''
   tls: false
   type: vmess
@@ -51,13 +41,14 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #12'
+  name: 美国5|@ripaojiedian
   network: tcp
-  port: '30830'
-  server: v30.hdacd.com
+  port: '180'
+  server: 82.198.246.233
+  servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: chrome
