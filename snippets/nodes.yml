@@ -1,30 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '亚太地区 V2CROSS.COM #3'
-  network: tcp
-  port: 51556
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0007
+  name: '英国 V2CROSS.COM #10'
   network: tcp
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.97
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #4'
+  name: '英国 V2CROSS.COM #1'
   network: tcp
-  port: 180
-  server: 82.198.246.97
+  port: '30830'
+  server: v30.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
@@ -39,21 +39,13 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 64
-  cipher: auto
-  name: '亚太地区 V2CROSS.COM #1'
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0006
+  name: GB_speednode_0007
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.214
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -67,6 +59,15 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -154,11 +155,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
+  name: GB_speednode_0006
   network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
+  port: 180
+  server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
