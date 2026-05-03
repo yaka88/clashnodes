@@ -1,13 +1,20 @@
 proxies:
+- name: 乌克兰+V2CROSS.COM
+  password: JaFKnqNcvnBT63t3rquidGsln
+  port: 443
+  server: hl-freedom-1.undef.network
+  skip-cert-verify: false
+  sni: HL-FREEDOM-1.UNDEF.NETWORK
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
+  name: GB_speednode_0009
   network: tcp
-  port: 51556
-  server: 103.181.164.145
+  port: 180
+  server: 82.198.246.37
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国5|@ripaojiedian
@@ -18,30 +25,31 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 64
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0006
+  name: '英国 V2CROSS.COM #3'
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0007
+  name: 美国4|@ripaojiedian
   network: tcp
-  port: 180
-  server: 82.198.246.214
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0009
-  network: tcp
-  port: 180
-  server: 82.198.246.37
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -118,16 +126,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: ''
@@ -209,6 +207,24 @@ proxies:
   tls: false
   type: vless
   uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0006
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0007
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   flow: xtls-rprx-vision
