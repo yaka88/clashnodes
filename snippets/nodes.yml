@@ -1,16 +1,7 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '亚太地区 V2CROSS.COM #1'
+  name: 亚太地区 V2CROSS.COM
   network: tcp
   port: 51556
   server: 103.181.164.145
@@ -19,10 +10,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0007
+  name: 美国5|@ripaojiedian
   network: tcp
-  port: 180
-  server: 82.198.246.214
+  port: '180'
+  server: 82.198.246.233
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -32,6 +24,15 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0007
+  network: tcp
+  port: 180
+  server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -123,16 +124,6 @@ proxies:
   network: tcp
   port: '180'
   server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美国5|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
