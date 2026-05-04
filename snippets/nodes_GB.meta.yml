@@ -1,29 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0006
+  name: GB_speednode_0009
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 美国5|@ripaojiedian
+  name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
-  server: 82.198.246.233
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #6'
+  name: GB_speednode_0006
   network: tcp
-  port: '180'
-  server: 82.198.246.97
+  port: 180
+  server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -52,12 +52,3 @@ proxies:
   tls: false
   type: vless
   uuid: bf263367-bb63-4663-b4a1-34946107a72e
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0009
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

@@ -1,41 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0006
+  name: GB_speednode_0009
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 美国5|@ripaojiedian
+  name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
-  server: 82.198.246.233
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '英国 V2CROSS.COM #6'
+  name: 亚太地区 V2CROSS.COM
   network: tcp
-  port: '180'
-  server: 82.198.246.97
+  port: '54022'
+  server: 103.181.164.145
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0007
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -111,10 +102,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
+  name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
@@ -200,6 +191,24 @@ proxies:
   tls: false
   type: vless
   uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0006
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0007
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   flow: xtls-rprx-vision
@@ -215,15 +224,6 @@ proxies:
   tls: false
   type: vless
   uuid: bf263367-bb63-4663-b4a1-34946107a72e
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0009
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: random
