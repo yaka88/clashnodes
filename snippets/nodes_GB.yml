@@ -1,19 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: '英国 V2CROSS.COM #5'
   network: tcp
   port: 180
-  server: 82.198.246.97
+  server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: '英国 V2CROSS.COM #2'
   network: tcp
   port: 180
   server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国5|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #4'
+  network: tcp
+  port: 180
+  server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
