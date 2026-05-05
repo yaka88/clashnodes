@@ -3,61 +3,51 @@ proxies:
   cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0007
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美国5|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0006
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0008
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: I-ltGSV73Fd08VfuP_XZ-mAAb2ZE3Ag4a_8ftaX0bz0
-    short-id: '!!str fe28038a'
-  server: gr-1.illusion-proxy.ru
-  servername: gr-1.illusion-proxy.ru
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: bf263367-bb63-4663-b4a1-34946107a72e
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0009
+  name: '英国 V2CROSS.COM #1'
   network: tcp
   port: 180
   server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: ''
+  name: GB_speednode_0009
+  network: ws
+  port: 2083
+  server: 161.35.37.231
+  servername: py7k82mu.api-node-02.gfw.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: '%2Fdanfeng%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: ''
+  name: GB_speednode_0010
+  network: ws
+  port: 443
+  server: 178.62.111.180
+  servername: py7k82mu.api-node-02.gfw.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: '%2Fdanfeng%3Fed%3D2560'
