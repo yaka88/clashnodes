@@ -3,15 +3,16 @@ proxies:
   cipher: auto
   name: 美国 CloudFlare节点
   network: ws
-  port: '80'
-  server: www.shopify.com
-  tls: false
+  port: '443'
+  server: cf.scpnb.top
+  servername: samba-fri-labs-contain.trycloudflare.com
+  tls: true
   type: vmess
-  uuid: 3171ac5c-d746-4298-82e0-d46f2f5aa51f
+  uuid: bee9e6f4-5731-43dc-a826-0c14e0c7111b
   ws-opts:
     headers:
-      Host: de.gfw.hidns.co
-    path: /danfeng
+      Host: samba-fri-labs-contain.trycloudflare.com
+    path: /bee9e6f4-5731-43dc-a826-0c14e0c7111b-vm
 - name: 美国|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
