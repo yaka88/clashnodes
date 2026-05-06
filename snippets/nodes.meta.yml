@@ -1,42 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
+  name: '英国 V2CROSS.COM #4'
   network: tcp
-  port: '51556'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 美国 Akamai科技公司CDN网络节点
   network: ws
-  port: '80'
-  server: www.shopify.com
-  tls: false
+  port: '2053'
+  server: usaapp2.jisuyun.top
+  servername: usaapp2.jisuyun.top
+  tls: true
   type: vmess
-  uuid: 3171ac5c-d746-4298-82e0-d46f2f5aa51f
+  uuid: 95dd45fb-8e36-4ff2-fa9e-24b68a34f3cd
   ws-opts:
     headers:
-      Host: de.gfw.hidns.co
-    path: /danfeng
+      Host: usaapp2.jisuyun.top
+    path: /usavm
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
+  name: GB_speednode_0013
   network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
+  port: 180
+  server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -155,6 +146,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: ''
@@ -253,15 +254,6 @@ proxies:
     headers:
       Host: sni.latonyamadeline.ndjp.net
     path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0013
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: GB_speednode_0015

@@ -1,17 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
+  name: 美国 Akamai科技公司CDN网络节点
   network: ws
-  port: '80'
-  server: www.shopify.com
-  tls: false
+  port: '2053'
+  server: usaapp2.jisuyun.top
+  servername: usaapp2.jisuyun.top
+  tls: true
   type: vmess
-  uuid: 3171ac5c-d746-4298-82e0-d46f2f5aa51f
+  uuid: 95dd45fb-8e36-4ff2-fa9e-24b68a34f3cd
   ws-opts:
     headers:
-      Host: de.gfw.hidns.co
-    path: /danfeng
+      Host: usaapp2.jisuyun.top
+    path: /usavm
 - name: 美国|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
@@ -35,6 +36,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: randomized
