@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- alterId: 2
+  cipher: auto
+  name: TW_speednode_0074
+  network: tcp
+  port: 30811
+  server: v11.zgtfqs.click
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: TW_speednode_0075
+  network: tcp
+  port: 30811
+  server: 218.173.203.171
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

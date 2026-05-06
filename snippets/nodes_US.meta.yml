@@ -12,20 +12,6 @@ proxies:
     headers:
       Host: de.gfw.hidns.co
     path: /danfeng
-- alterId: 0
-  cipher: auto
-  name: '美国 CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: sgal.dagrate.eu.org
-  tls: true
-  type: vmess
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  ws-opts:
-    headers:
-      Host: sgal.dagrate.eu.org
-    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
@@ -49,150 +35,283 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0077
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美国5|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0078
+  network: ws
+  port: 2095
+  server: www.wto.org
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  client-fingerprint: firefox
-  flow: ''
-  name: US_speednode_0023
-  network: ws
-  port: 443
-  server: 70.39.206.3
-  servername: py7k82mu.api-node-02.gfw.hidns.co
-  skip-cert-verify: false
-  tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: '%2Fdanfeng%3Fed%3D2560'
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: firefox
+  client-fingerprint: randomized
   flow: ''
-  name: US_speednode_0025
+  name: US_speednode_0079
   network: ws
-  port: 443
-  server: 38.55.194.187
-  servername: py7k82mu.api-node-02.gfw.hidns.co
+  port: 2095
+  server: cloudflare-dns.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: '%2Fdanfeng%3Fed%3D2560'
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: firefox
+  client-fingerprint: randomized
   flow: ''
-  name: US_speednode_0026
+  name: US_speednode_0080
   network: ws
-  port: 443
-  server: 69.63.212.105
-  servername: py7k82mu.api-node-02.gfw.hidns.co
+  port: 2095
+  server: www.shopify.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: '%2Fdanfeng%3Fed%3D2560'
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: firefox
+  client-fingerprint: randomized
   flow: ''
-  name: US_speednode_0027
+  name: US_speednode_0081
   network: ws
-  port: 443
-  server: 146.190.174.67
-  servername: py7k82mu.api-node-02.gfw.hidns.co
+  port: 2095
+  server: support.cloudflare.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: '%2Fdanfeng%3Fed%3D2560'
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: firefox
+  client-fingerprint: randomized
   flow: ''
-  name: US_speednode_0028
+  name: US_speednode_0082
   network: ws
-  port: 8443
-  server: 45.202.113.123
-  servername: py7k82mu.api-node-02.gfw.hidns.co
+  port: 2095
+  server: www.epicgames.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: '%2Fdanfeng%3Fed%3D2560'
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: firefox
+  client-fingerprint: randomized
   flow: ''
-  name: US_speednode_0029
+  name: US_speednode_0083
   network: ws
-  port: 443
-  server: 198.52.244.111
-  servername: py7k82mu.api-node-02.gfw.hidns.co
+  port: 2095
+  server: blog.cloudflare.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: '%2Fdanfeng%3Fed%3D2560'
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: firefox
+  client-fingerprint: randomized
   flow: ''
-  name: US_speednode_0030
+  name: US_speednode_0084
   network: ws
-  port: 1112
-  server: 155.248.200.6
-  servername: py7k82mu.api-node-02.gfw.hidns.co
+  port: 2095
+  server: cf.090227.xyz
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: '%2Fdanfeng%3Fed%3D2560'
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0085
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0086
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0087
+  network: ws
+  port: 2095
+  server: cdnjs.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0088
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0089
+  network: ws
+  port: 2095
+  server: openai.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0090
+  network: ws
+  port: 2095
+  server: www.whatismyip.net
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0091
+  network: ws
+  port: 2095
+  server: www.temu.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0092
+  network: ws
+  port: 2095
+  server: www.udemy.com
+  servername: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
+    path: '%2F'
 - alpn:
   - ''
   client-fingerprint: chrome
   flow: ''
-  name: US_speednode_0032
+  name: US_speednode_0093
   network: tcp
   port: 30779
   reality-opts:
@@ -204,3 +323,71 @@ proxies:
   tls: false
   type: vless
   uuid: 0cd15d1b-b117-4f34-9aa1-c14fc5bcdd83
+- alpn:
+  - ''
+  name: US_speednode_0094
+  network: tcp
+  password: BxceQaOe
+  port: 11233
+  server: bb.bejkn.cn
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0096
+  network: tcp
+  port: 443
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0097
+  network: tcp
+  port: 443
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0135
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '!!str 2344766a270a6298'
+  server: 144.31.5.23
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0136
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '!!str 2344766a270a6298'
+  server: 144.31.90.75
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f

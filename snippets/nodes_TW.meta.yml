@@ -1,35 +1,19 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: firefox
-  flow: ''
-  name: TW_speednode_0021
-  network: ws
-  port: 10443
-  server: 114.34.106.124
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: '%2Fdanfeng%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: firefox
-  flow: ''
-  name: TW_speednode_0022
-  network: ws
-  port: 2087
-  server: 220.135.92.105
-  servername: py7k82mu.api-node-02.gfw.hidns.co
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: '%2Fdanfeng%3Fed%3D2560'
+- alterId: 2
+  cipher: auto
+  name: TW_speednode_0074
+  network: tcp
+  port: 30811
+  server: v11.zgtfqs.click
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: TW_speednode_0075
+  network: tcp
+  port: 30811
+  server: 218.173.203.171
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
