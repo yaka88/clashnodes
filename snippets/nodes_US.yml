@@ -1,4 +1,19 @@
 proxies:
+- name: 美国+新泽西州(Merck公司)
+  password: BxceQaOe
+  port: 11233
+  server: bb.bejkn.cn
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+惠普公司
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.224.29.207
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
@@ -25,7 +40,7 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: US_speednode_0094
+  name: US_speednode_0081
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -33,3 +48,16 @@ proxies:
   skip-cert-verify: true
   sni: ''
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0124
+  network: ws
+  port: 3438
+  server: 216.167.43.29
+  tls: false
+  type: vmess
+  uuid: 01d3482e-27f5-4eac-ab5e-906787bb32ef
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

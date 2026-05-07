@@ -23,3 +23,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: SG_speednode_0069
+  network: ws
+  port: 443
+  server: 43.106.102.56
+  servername: gogo9.kmj.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo9.kmj.qzz.io
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: SG_speednode_0072
+  network: ws
+  port: 443
+  server: 139.180.216.166
+  servername: gogo4.kmj.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo4.kmj.qzz.io
+    path: '%2F'

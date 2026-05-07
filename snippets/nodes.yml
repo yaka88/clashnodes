@@ -1,44 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '英国 V2CROSS.COM #5'
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.250
   servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 保加利亚+V2CROSS.COM
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  sni: ads.x5.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0016
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0013
-  network: tcp
-  port: 180
-  server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -48,6 +25,51 @@ proxies:
   network: tcp
   port: '180'
   server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 美国+新泽西州(Merck公司)
+  password: BxceQaOe
+  port: 11233
+  server: bb.bejkn.cn
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #2'
+  network: tcp
+  port: 51556
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #4'
+  network: tcp
+  port: 54022
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alpn:
+  - http/1.1
+  name: 美国+惠普公司
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.224.29.207
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0020
+  network: tcp
+  port: 180
+  server: 82.198.246.9
   servername: ''
   tls: false
   type: vmess
@@ -158,45 +180,45 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: GB_speednode_0015
+  name: GB_speednode_0018
   network: tcp
-  port: 30809
-  server: v9.hdacd.com
+  port: 180
+  server: 82.198.246.97
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: ID_speednode_0028
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: TW_speednode_0074
+  name: TW_speednode_0077
   network: tcp
   port: 30811
   server: v11.zgtfqs.click
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: TW_speednode_0075
+  name: TW_speednode_0078
   network: tcp
-  port: 30811
-  server: 218.173.203.171
+  port: 56738
+  server: 103.127.243.59
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+- alterId: 0
+  cipher: auto
+  name: TW_speednode_0080
+  network: tcp
+  port: 54291
+  server: 103.127.243.66
+  tls: false
+  type: vmess
+  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - alpn:
   - ''
-  name: US_speednode_0094
+  name: US_speednode_0081
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -204,3 +226,16 @@ proxies:
   skip-cert-verify: true
   sni: ''
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0124
+  network: ws
+  port: 3438
+  server: 216.167.43.29
+  tls: false
+  type: vmess
+  uuid: 01d3482e-27f5-4eac-ab5e-906787bb32ef
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
