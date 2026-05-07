@@ -1,47 +1,34 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 Akamai科技公司CDN网络节点
-  network: ws
-  port: '2053'
-  server: usaapp2.jisuyun.top
-  servername: usaapp2.jisuyun.top
-  tls: true
-  type: vmess
-  uuid: 95dd45fb-8e36-4ff2-fa9e-24b68a34f3cd
-  ws-opts:
-    headers:
-      Host: usaapp2.jisuyun.top
-    path: /usavm
 - name: 美国|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 52249
-  server: 54.238.186.83
+  server: 18.179.108.192
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 52249
-  server: 54.46.2.55
+  server: 13.231.106.216
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 54.178.47.5
+  port: 18334
+  server: 18.181.180.183
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
+  name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
