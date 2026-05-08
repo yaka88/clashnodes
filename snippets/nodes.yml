@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '英国 V2CROSS.COM #7'
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
@@ -11,65 +21,15 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #7'
+  name: GB_speednode_0020
   network: tcp
   port: 180
-  server: 82.198.246.37
+  server: 82.198.246.9
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #4'
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 西班牙+V2CROSS.COM
-  password: 7aXwJPnpAJ
-  port: 50824
-  server: yespaintstudio.rav-kraski.ru
-  sni: yespaintstudio.rav-kraski.ru
-  type: trojan
-- name: 日本+V2CROSS.COM
-  password: BxceQaOe
-  port: 11233
-  server: bb.bejkn.cn
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 保加利亚+V2CROSS.COM
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  skip-cert-verify: true
-  sni: ads.x5.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: 51556
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
   cipher: auto
   name: '亚太地区 V2CROSS.COM #1'
   network: tcp
@@ -79,6 +39,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: 7aXwJPnpAJ
+  port: 50824
+  server: yespaintstudio.rav-kraski.ru
+  sni: yespaintstudio.rav-kraski.ru
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -186,19 +153,20 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0018
+  name: 美国4|@ripaojiedian
   network: tcp
-  port: 180
-  server: 82.198.246.97
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0020
+  name: GB_speednode_0018
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
