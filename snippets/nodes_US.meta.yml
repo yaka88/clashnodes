@@ -1,41 +1,45 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 得克萨斯州
-  network: ws
-  port: 443
-  server: node33.ourfast.asia
-  tls: true
-  type: vmess
-  uuid: 360470f4-8c38-4934-b690-4458c0834604
-  ws-opts:
-    headers:
-      Host: node33.ourfast.asia
-    path: /
+- name: 北美地区+V2CROSS.COM
+  network: tcp
+  password: 7c9fea7c-8def-3dd5-853a-5844f9b04146
+  port: 21777
+  server: ikuai.bot.nu
+  sni: windows11.dpdns.org
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 6604
-  server: 16.162.192.117
+  password: 7ebc402f3383366fe4f554abd8625439
+  port: 52249
+  server: 16.162.191.171
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 52249
-  server: 43.198.85.13
+  password: 7ebc402f3383366fe4f554abd8625439
+  port: 6604
+  server: 16.162.87.210
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 43.207.42.56
+  port: 50606
+  server: 54.178.153.235
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   name: US_speednode_0081
