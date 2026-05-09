@@ -1,17 +1,49 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.214
   tls: false
   type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0020
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0018
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #4'
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国5|@ripaojiedian
@@ -22,43 +54,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: ws
-  port: 16616
-  server: planb.mojcn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- name: 西班牙+V2CROSS.COM
-  password: 7aXwJPnpAJ
-  port: 50824
-  server: yespaintstudio.rav-kraski.ru
-  skip-cert-verify: false
-  sni: yespaintstudio.rav-kraski.ru
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0018
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 北美地区+V2CROSS.COM
-  network: tcp
-  password: 7c9fea7c-8def-3dd5-853a-5844f9b04146
-  port: 21777
-  server: ikuai.bot.nu
-  sni: windows11.dpdns.org
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -164,15 +159,6 @@ proxies:
   port: '180'
   server: 82.198.246.250
   servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0020
-  network: tcp
-  port: 180
-  server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

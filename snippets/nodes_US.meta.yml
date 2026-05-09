@@ -1,11 +1,4 @@
 proxies:
-- name: 北美地区+V2CROSS.COM
-  network: tcp
-  password: 7c9fea7c-8def-3dd5-853a-5844f9b04146
-  port: 21777
-  server: ikuai.bot.nu
-  sni: windows11.dpdns.org
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439

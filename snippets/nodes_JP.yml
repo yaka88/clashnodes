@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: ws
-  port: 16616
-  server: planb.mojcn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
