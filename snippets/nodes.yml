@@ -9,8 +9,8 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  cipher: aes-128-gcm
+  name: GB_speednode_0018
   network: tcp
   port: 180
   server: 82.198.246.214
@@ -18,10 +18,10 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #2'
+  cipher: aes-128-gcm
+  name: GB_speednode_0017
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.37
   tls: false
   type: vmess
@@ -37,8 +37,8 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
-  name: GB_speednode_0020
+  cipher: aes-128-gcm
+  name: GB_speednode_0013
   network: tcp
   port: 180
   server: 82.198.246.9
@@ -161,62 +161,21 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0018
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: TW_speednode_0077
+  name: GB_speednode_0020
   network: tcp
-  port: 30811
-  server: v11.zgtfqs.click
+  port: 30806
+  server: v6.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: TW_speednode_0078
+  name: HK_speednode_0021
   network: tcp
-  port: 56738
-  server: 103.127.243.59
+  port: 56972
+  server: 154.37.223.19
   tls: false
   type: vmess
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-- alterId: 0
-  cipher: auto
-  name: TW_speednode_0080
-  network: tcp
-  port: 54291
-  server: 103.127.243.66
-  tls: false
-  type: vmess
-  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
-- alpn:
-  - ''
-  name: US_speednode_0081
-  network: tcp
-  password: BxceQaOe
-  port: 11233
-  server: bb.bejkn.cn
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0124
-  network: ws
-  port: 3438
-  server: 216.167.43.29
-  tls: false
-  type: vmess
-  uuid: 01d3482e-27f5-4eac-ab5e-906787bb32ef
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee

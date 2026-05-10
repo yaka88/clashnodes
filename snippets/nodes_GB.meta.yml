@@ -9,8 +9,8 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  cipher: aes-128-gcm
+  name: GB_speednode_0018
   network: tcp
   port: 180
   server: 82.198.246.214
@@ -18,10 +18,10 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #2'
+  cipher: aes-128-gcm
+  name: GB_speednode_0017
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.37
   tls: false
   type: vmess
@@ -37,54 +37,20 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
-  name: GB_speednode_0020
+  cipher: aes-128-gcm
+  name: GB_speednode_0013
   network: tcp
   port: 180
   server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: GB_speednode_0018
+  name: GB_speednode_0020
   network: tcp
-  port: 180
-  server: 82.198.246.97
+  port: 30806
+  server: v6.hdacd.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0021
-  network: ws
-  port: 2083
-  server: 134.209.27.216
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: GB_speednode_0022
-  network: ws
-  port: 20205
-  server: 169.150.210.147
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: '%2F%3Fed%3D2560'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
