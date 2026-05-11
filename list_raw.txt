@@ -70,5 +70,5 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cdnjs.com:2095?allowInsecure=0&sni=
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@144.31.237.162:2053?allowInsecure=0&sni=sni.111000.v6.army&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.army&path=%2F#US_speednode_0069
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@130.49.176.227:8443?allowInsecure=0&sni=sni.111000.v6.army&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.army&path=%2F#US_speednode_0070
 ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI=@59.11.151.238:12000?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560#KR_speednode_0035
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI=@175.196.178.94:11310?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560#KR_speednode_0032
 socks://VDJjbE0wUWxNMFE2QDEyMS4xNjkuNDYuMTE2OjEwOTA=#KR_speednode_0034
+ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI=@175.196.178.94:11310?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560#KR_speednode_0032
