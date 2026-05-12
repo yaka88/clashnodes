@@ -1,62 +1,46 @@
 proxies:
+- name: 保加利亚+V2CROSS.COM
+  network: tcp
+  password: MeaDiUmPlkWbZJ2BON8tz
+  port: 28259
+  server: 78.159.131.12
+  skip-cert-verify: true
+  sni: 78.159.131.12
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0013
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美国 东北部七州电讯网
-  network: tcp
-  port: '30830'
-  server: v30.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: 美国+Amazon数据中心
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.38.154.94
-  sni: trojan.burgerip.co.uk
-  type: trojan
 - alterId: 0
   cipher: aes-128-gcm
   name: GB_speednode_0018
   network: tcp
   port: 180
   server: 82.198.246.214
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+Amazon+EC2服务器
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.65.55.47
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #4'
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -160,11 +144,20 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国5|@ripaojiedian
+  name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
-  server: 82.198.246.233
+  server: 82.198.246.250
   servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0013
+  network: tcp
+  port: 180
+  server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
