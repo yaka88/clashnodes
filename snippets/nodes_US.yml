@@ -1,4 +1,16 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: cf.scpnb.top
+  servername: partition-shepherd-vic-behalf.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69
+  ws-opts:
+    path: /b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69-vm
 - name: 美国|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439

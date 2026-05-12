@@ -1,10 +1,20 @@
 proxies:
 - alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
   cipher: aes-128-gcm
-  name: GB_speednode_0018
+  name: GB_speednode_0013
   network: tcp
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -19,12 +29,11 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
+  cipher: aes-128-gcm
+  name: GB_speednode_0018
   network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
+  port: 180
+  server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -34,15 +43,6 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0013
-  network: tcp
-  port: 180
-  server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
