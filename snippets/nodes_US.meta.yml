@@ -1,4 +1,27 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 东北部七州电讯网
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  name: 美国+Amazon数据中心
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.154.94
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 美国+Amazon+EC2服务器
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.65.55.47
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
@@ -25,10 +48,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
+  name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
