@@ -1,10 +1,7 @@
-trojan://8r%3C%5B9%27l6hAO%238ZQi@143.20.204.5:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&path=/trTelegram🇨🇳 @WangCai2#%E6%AF%94%E5%88%A9%E6%97%B6%2BV2CROSS.COM
-trojan://humanity@v1.dabache.top:443?sni=www.multiplydose.com&type=ws&host=www.multiplydose.com&path=/assignment#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9
-trojan://8r%3C%5B9%27l6hAO%238ZQi@154.197.108.253:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#%E5%8D%97%E9%9D%9E%2BV2CROSS.COM
-trojan://8r%3C%5B9%27l6hAO%238ZQi@165.227.26.242:2096?sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#%E7%BE%8E%E5%9B%BD%2B%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E%E6%97%A7%E9%87%91%E5%B1%B1DigitalOcean%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
-trojan://8r%3C%5B9%27l6hAO%238ZQi@94.183.185.28:2053?sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#%E4%BC%8A%E6%9C%97%2BV2CROSS.COM
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.10.218:443?sni=sni.111000.v6.army&security=tls&type=ws&host=sni.111000.v6.army&path=%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9%20%231
-trojan://8r%3C%5B9%27l6hAO%238ZQi@31.58.50.110:8443?sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#%E4%BC%8A%E6%9C%97%2BV2CROSS.COM%20%231
+trojan://8r%3C%5B9%27l6hAO%238ZQi@43.153.206.239:27015?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&path=/trTelegram🇨🇳 @WangCai2#%E6%96%B0%E5%8A%A0%E5%9D%A1%2B%E8%85%BE%E8%AE%AF%E4%BA%91
+trojan://8r%3C%5B9%27l6hAO%238ZQi@8.223.63.189:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#%E4%B8%AD%E5%9B%BD%2B%E9%98%BF%E9%87%8C%E4%BA%91
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@57.129.47.11:2053?allowInsecure=1&sni=sni.111000.indevs.in&security=tls&type=ws&host=sni.111000.indevs.in&path=%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D#%E6%B3%95%E5%9B%BD%2B%E5%9B%BD%E9%99%85%E8%88%AA%E7%A9%BA%E7%94%B5%E8%AE%AF%E9%9B%86%E5%9B%A2%E5%85%AC%E5%8F%B8%28SITA%29
+trojan://8r%3C%5B9%27l6hAO%238ZQi@45.40.148.253:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#%E7%BE%8E%E5%9B%BD%2BV2CROSS.COM
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://7ebc402f3383366fe4f554abd8625439@54.248.28.2:2008?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@54.64.143.245:5823?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
@@ -76,5 +73,5 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cdnjs.com:2095?allowInsecure=0&sni=
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@144.31.237.162:2053?allowInsecure=0&sni=sni.111000.v6.army&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.army&path=%2F#US_speednode_0069
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@130.49.176.227:8443?allowInsecure=0&sni=sni.111000.v6.army&alpn=&flow=&fp=&security=tls&type=ws&host=sni.111000.v6.army&path=%2F#US_speednode_0070
 ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI=@175.196.178.94:11310?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560#KR_speednode_0032
-ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI=@59.11.151.238:12000?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560#KR_speednode_0035
 socks://VDJjbE0wUWxNMFE2QDEyMS4xNjkuNDYuMTE2OjEwOTA=#KR_speednode_0034
+ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI=@59.11.151.238:12000?Plugin=v2ray-plugin;tls;mode=websocket;host=woshinidie-et3.pages.dev;path=/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560#KR_speednode_0035
