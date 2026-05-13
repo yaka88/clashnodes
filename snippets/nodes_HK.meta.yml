@@ -24,12 +24,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: HK_speednode_0021
-  network: tcp
-  port: 56972
-  server: 154.37.223.19
-  tls: false
-  type: vmess
-  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: HK_speednode_0004
+  network: ws
+  port: 587
+  server: 47.239.7.163
+  servername: pagescm.freen21.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen21.cc.cd
+    path: '%2Falbums%2Fout.html'

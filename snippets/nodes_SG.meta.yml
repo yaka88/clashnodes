@@ -1,14 +1,4 @@
 proxies:
-- name: 新加坡+腾讯云
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 27015
-  server: 43.153.206.239
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
@@ -35,18 +25,18 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  client-fingerprint: ''
+  client-fingerprint: chrome
   flow: ''
-  name: SG_speednode_0049
+  name: SG_speednode_0010
   network: ws
-  port: 36089
-  server: 83.147.254.4
-  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  port: 443
+  server: 34.143.213.202
+  servername: gogo.wknm.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
-    path: '%2F%40Marisa_kristi'
+      Host: gogo.wknm.dpdns.org
+    path: '%2F'
