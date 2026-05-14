@@ -1,14 +1,16 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 香港 互联通有限公司
-  network: tcp
-  port: '57460'
-  server: 117.18.125.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8c99e6bf-a701-4534-cdde-abecd1d6826f
+- name: 香港+ThinkDream数据中心
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 27.50.48.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

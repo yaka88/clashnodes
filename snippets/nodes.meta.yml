@@ -2,20 +2,20 @@ proxies:
 - name: 美国+V2CROSS.COM
   network: ws
   port: 443
-  server: 135.84.73.245
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
+  server: 167.68.5.191
+  servername: sni.my111000.tech
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.dynv6.net
-- name: 日本+东京Digital+VM
+      Host: sni.my111000.tech
+    path: '%2F'
+- name: 香港+ThinkDream数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 44004
-  server: 45.11.1.118
+  port: 443
+  server: 27.50.48.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -23,87 +23,76 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: ''
-  flow: xtls-rprx-vision
-  name: 挪威+V2CROSS.COM
-  network: tcp
+- name: 美国+佛罗里达州迈阿密市
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
+  server: 72.56.115.44
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 2096
+  server: 167.68.5.191
+  servername: sni.my111000.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16957
+  server: 150.230.214.172
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+纽约市DigitalOcean云公司
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.197.194.78
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- flow: xtls-rprx-vision
+  name: 法国+ONLINE+S.A.S.数据中心
+  network: tcp
+  port: 23576
   reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: 138.124.186.100
-  servername: www.fh-aachen.de
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 62.210.91.2
+  servername: fuck.rkn
   tls: false
   type: vless
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
 - name: 美国+CloudFlare节点
   network: ws
   port: 2052
-  server: www.visa.com.sg
+  server: 104.20.6.134
   tls: false
   type: vless
-  uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: chosenflyesqt-q3y28ipf-v3.chosen-fly-esqt.workers.dev
-    path: '%2F'
-- name: 伊朗+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 31.58.50.202
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+新泽西州皮斯卡特维vultr数据中心
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 207.246.94.121
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 日本+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 103.13.19.227
-  servername: 1-aym.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 1-aym.pages.dev
-    path: '%2Ffp%3Dchrome'
-- alterId: 0
-  cipher: auto
-  name: 香港 互联通有限公司
-  network: tcp
-  port: '57460'
-  server: 117.18.125.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8c99e6bf-a701-4534-cdde-abecd1d6826f
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 135.84.64.157
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
+      Host: index.0x14.workers.dev
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
