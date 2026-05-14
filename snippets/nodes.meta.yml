@@ -1,9 +1,21 @@
 proxies:
 - name: 美国+V2CROSS.COM
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 45.40.148.253
+  server: 135.84.73.245
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 日本+东京Digital+VM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 44004
+  server: 45.11.1.118
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -11,58 +23,87 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: ''
+  flow: xtls-rprx-vision
+  name: 挪威+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: 138.124.186.100
+  servername: www.fh-aachen.de
+  tls: false
+  type: vless
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 2052
+  server: www.visa.com.sg
+  tls: false
+  type: vless
+  uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
+  ws-opts:
+    headers:
+      Host: chosenflyesqt-q3y28ipf-v3.chosen-fly-esqt.workers.dev
+    path: '%2F'
+- name: 伊朗+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 31.58.50.202
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+新泽西州皮斯卡特维vultr数据中心
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 207.246.94.121
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 103.13.19.227
+  servername: 1-aym.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-aym.pages.dev
+    path: '%2Ffp%3Dchrome'
+- alterId: 0
+  cipher: auto
+  name: 香港 互联通有限公司
+  network: tcp
+  port: '57460'
+  server: 117.18.125.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8c99e6bf-a701-4534-cdde-abecd1d6826f
 - name: '美国+V2CROSS.COM #1'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 144.31.104.3
+  server: 135.84.64.157
+  servername: sni.111000.v6.navy
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 欧盟+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 45.9.116.82
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 乌克兰+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 188.239.21.47
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 希腊+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 92.119.127.156
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 🇮🇳IN_1|1.5MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-in-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-in-001.fastervpn.world
-  tls: false
-  type: hysteria2
+      Host: sni.111000.v6.navy
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -76,15 +117,16 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 2008
-  server: 54.248.28.2
+  port: 53018
+  server: 54.238.212.30
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 5823
-  server: 54.64.143.245
+  server: 18.183.247.220
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -92,47 +134,47 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4633
-  server: 54.65.160.192
+  server: 18.183.7.25
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 24184
-  server: 35.75.5.164
+  port: 11541
+  server: 16.162.100.5
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 11541
-  server: 95.40.68.153
+  port: 8066
+  server: 3.112.61.186
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 1180
-  server: 54.248.28.2
+  port: 2511
+  server: 54.238.212.30
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 2511
-  server: 18.167.12.44
+  port: 1180
+  server: 16.163.139.177
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 33763
-  server: 54.46.30.4
+  port: 5159
+  server: 18.163.28.128
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -140,7 +182,7 @@ proxies:
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 6604
-  server: 54.248.28.2
+  server: 54.238.212.30
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -148,15 +190,15 @@ proxies:
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 6604
-  server: 35.75.5.164
+  server: 16.163.139.177
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 14919
-  server: 3.115.10.179
+  port: 44386
+  server: 35.76.116.18
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
