@@ -1,33 +1,85 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: GB_speednode_0001
+  cipher: aes-128-gcm
+  name: GB_speednode_0015
   network: tcp
   port: 180
   server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇬🇧GB_1|2.2MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-uk-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-uk-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0009
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
+    short-id: '!!str ad8c7a6ace2f'
+  server: 2.26.123.64
+  servername: download.spectrum.vu
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_speednode_0002
+  name: GB_speednode_0012
   network: tcp
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0003
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: GB_speednode_0014
   network: ws
   port: 443
-  server: free-v7-09.elbrusway.online
-  servername: free-v7-09.elbrusway.online
+  server: 217.180.14.212
+  servername: sni.111000.dns.army
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: b4bc8fcd-739e-4525-8bed-20d10e850988
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: free-v7-09.elbrusway.online
-    path: /vmess-balkar
+      Host: sni.111000.dns.army
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0016
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
+    short-id: '!!str ad8c7a6ace2f'
+  server: 2.27.63.99
+  servername: download.spectrum.vu
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+- alterId: 2
+  cipher: auto
+  name: GB_speednode_0017
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

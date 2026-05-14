@@ -1,9 +1,96 @@
 proxies:
+- name: 新加坡+腾讯云
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.133.61.219
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0015
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 205.172.57.218
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 美国+教育网
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 140.245.62.90
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+加利福尼亚州洛杉矶Mzima网络公司
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 68.64.176.135
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本+东京Digital+VM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 44004
+  server: 45.11.1.118
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+加利福尼亚
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.176.36.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 挪威+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 138.124.60.93
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
 - name: 伊朗+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.253.124
+  port: 8443
+  server: 83.147.255.67
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -11,27 +98,25 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 日本大阪+xTom/AS4785
+- name: 新加坡+Linode数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 50888
-  server: 103.150.8.160
+  port: 443
+  server: 139.162.61.34
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 日本+东京Choopa数据中心
+- name: 日本东京+Oracle+Cloud
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 167.179.76.8
+  port: 21044
+  server: 138.2.23.80
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
@@ -133,9 +218,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
+  name: GB_speednode_0013
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.250
   servername: ''
   tls: false
@@ -153,33 +238,50 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0001
+  name: CN_speednode_0005
   network: tcp
-  port: 180
-  server: 82.198.246.9
+  port: 9046
+  server: select-hk.ddnskunlun.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_speednode_0002
+  name: GB_speednode_0012
   network: tcp
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 2
+  cipher: auto
+  name: GB_speednode_0017
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0003
+  name: HK_speednode_0019
   network: ws
-  port: 443
-  server: free-v7-09.elbrusway.online
-  servername: free-v7-09.elbrusway.online
-  tls: true
+  port: 53213
+  server: bgroup.node4.v.nodelist-airport.com
+  tls: false
   type: vmess
-  uuid: b4bc8fcd-739e-4525-8bed-20d10e850988
+  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
   ws-opts:
     headers:
-      Host: free-v7-09.elbrusway.online
-    path: /vmess-balkar
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: SG_speednode_0051
+  network: tcp
+  port: 28641
+  server: bgroup.node3.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46

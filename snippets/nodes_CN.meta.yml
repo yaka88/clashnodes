@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0005
+  network: tcp
+  port: 9046
+  server: select-hk.ddnskunlun.com
+  tls: false
+  type: vmess
+  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
