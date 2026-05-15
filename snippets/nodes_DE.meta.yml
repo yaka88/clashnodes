@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: 德国+V2CROSS.COM
+  network: ws
+  port: 2053
+  server: 195.226.194.222
+  servername: sni.111000.dns.army
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
