@@ -1,21 +1,21 @@
 proxies:
 - name: 美国+V2CROSS.COM
   network: ws
-  port: 2096
-  server: 159.246.55.238
-  servername: sni.jpmj.dev
+  port: 2083
+  server: 209.38.100.127
+  servername: sni.111000.dns.army
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.jpmj.dev
-- name: 美国加利福尼亚州洛杉矶+Zenlayer
+      Host: sni.111000.dns.army
+- name: 北美地区+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 128.1.190.67
+  server: 107.175.206.50
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -23,34 +23,42 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '美国+V2CROSS.COM #1'
+- name: 加拿大+TELUS
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 205.172.57.218
+  port: 443
+  server: 74.48.140.177
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 美国+加利福尼亚州洛杉矶Mzima网络公司
-  network: ws
-  port: 443
-  server: 68.64.182.39
-  servername: gogo.wknm.dpdns.org
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.dpdns.org
-    path: /fp=chrome
+    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
 - name: 美国+纽约市DigitalOcean云公司
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 138.197.194.78
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+Digital+Ocean
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 157.245.178.181
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 美国+加州奥兰治县拉哈布拉市Add2Net-LunarPag...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 74.50.11.24
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -58,35 +66,35 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+新泽西州皮特卡维Choopa数据中心
+- name: '北美地区+V2CROSS.COM #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 104.238.129.93
+  server: 104.207.145.249
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #2'
-  network: tcp
+- name: '美国+V2CROSS.COM #1'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: vl5WQd9UDA3DvLxPPS1yF9ivUipxkxoxhaBRHpnyLho
-    short-id: '!!str 67fb'
-  server: 45.140.204.119
-  servername: yahoo.com
-  tls: false
+  server: 206.168.212.162
+  servername: sni.111000.dns.army
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 30143e07-b734-4bd6-867c-7daf4782cccb
-- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+    path: '%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
+- name: '美国+V2CROSS.COM #2'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 184.168.47.253
-  skip-cert-verify: true
+  port: 2053
+  server: 198.204.227.171
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -117,16 +125,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0013
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国5|@ripaojiedian
@@ -298,19 +296,6 @@ proxies:
     headers:
       Host: gogo.vks.dpdns.org
     path: '%2Ffp%3Dchromefp%3Dchromefp%3Dchromefp%3Dchrome'
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: US_speednode_0069
-  network: tcp
-  port: 443
-  server: it-bridge.sbrf-cdn342.ru
-  servername: sub.sbrf-cdn342.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7bd29cac-f692-48a3-88d1-505f7e55f0d0
 - alpn:
   - ''
   client-fingerprint: chrome
