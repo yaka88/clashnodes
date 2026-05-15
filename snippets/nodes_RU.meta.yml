@@ -1,1 +1,40 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: NO_speednode_0045
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: nv01.myxavpn.com
+  servername: nv01.myxavpn.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 6a09b684-1a73-4d4b-9dd7-7da5caf6cfd2
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 193.56.3.178
+  servername: sni.111000.v6.rocks
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+    path: /?https://t.me/WangCai2🇨🇳=
+- name: '俄罗斯+V2CROSS.COM #2'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 147.45.156.244
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
