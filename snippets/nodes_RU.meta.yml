@@ -1,13 +1,1 @@
-proxies:
-- name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 31.128.32.98
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
+proxies: []

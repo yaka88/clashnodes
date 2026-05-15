@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: NL_speednode_0042
+  network: tcp
+  port: 443
+  server: uae.sbrf-cdn342.ru
+  servername: sub.sbrf-cdn342.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7bd29cac-f692-48a3-88d1-505f7e55f0d0
