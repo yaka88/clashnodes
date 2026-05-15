@@ -1,13 +1,4 @@
 proxies:
-- name: 新加坡+DigitalOcean数据中心
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 159.89.205.195
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
@@ -32,80 +23,83 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: SG_speednode_0047
-  network: ws
-  port: 443
-  server: 34.143.213.202
-  servername: gogo.wknm.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.dpdns.org
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: SG_speednode_0048
-  network: ws
-  port: 443
-  server: 172.188.241.82
-  servername: gogo.wknm.dpdns.org
+- name: SG_speednode_0026
+  obfs: ''
+  obfs-password: ''
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: sg17.352343.cc
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.dpdns.org
-    path: '%2Ffp%3Dchrome'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: SG_speednode_0049
-  network: ws
-  port: 443
-  server: 43.168.16.112
-  servername: sni.111000.dns.army
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: SG_speednode_0050
-  network: ws
-  port: 443
-  server: 43.160.207.175
-  servername: sni.111000.dns.army
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-    path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: SG_speednode_0051
-  network: tcp
-  port: 28641
-  server: bgroup.node3.v.nodelist-airport.com
+  sni: sg17.352343.cc
   tls: false
-  type: vmess
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  type: hysteria2
+- name: SG_speednode_0027
+  obfs: ''
+  obfs-password: ''
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: sg15.476579.xyz
+  skip-cert-verify: true
+  sni: sg15.476579.xyz
+  tls: false
+  type: hysteria2
+- name: SG_speednode_0028
+  obfs: ''
+  obfs-password: ''
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: hkmax06.767887.xyz
+  skip-cert-verify: true
+  sni: hkmax06.767887.xyz
+  tls: false
+  type: hysteria2
+- name: SG_speednode_0029
+  obfs: ''
+  obfs-password: ''
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: sg12.352343.cc
+  skip-cert-verify: true
+  sni: sg12.352343.cc
+  tls: false
+  type: hysteria2
+- name: SG_speednode_0030
+  obfs: ''
+  obfs-password: ''
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: sg03.344233.cc
+  skip-cert-verify: true
+  sni: sg03.344233.cc
+  tls: false
+  type: hysteria2
+- name: SG_speednode_0031
+  obfs: ''
+  obfs-password: ''
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: hkmax02.352343.cc
+  skip-cert-verify: true
+  sni: hkmax02.352343.cc
+  tls: false
+  type: hysteria2
+- name: SG_speednode_0032
+  obfs: ''
+  obfs-password: ''
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: sg06.453521.xyz
+  skip-cert-verify: true
+  sni: sg06.453521.xyz
+  tls: false
+  type: hysteria2
+- name: SG_speednode_0033
+  obfs: ''
+  obfs-password: ''
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: sg04.352343.cc
+  skip-cert-verify: true
+  sni: sg04.352343.cc
+  tls: false
+  type: hysteria2

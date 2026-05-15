@@ -25,16 +25,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: HK_speednode_0019
-  network: ws
-  port: 53213
-  server: bgroup.node4.v.nodelist-airport.com
-  tls: false
-  type: vmess
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  ws-opts:
-    headers:
-      Host: ''
-    path: /

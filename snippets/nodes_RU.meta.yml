@@ -1,33 +1,5 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: NO_speednode_0045
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: nv01.myxavpn.com
-  servername: nv01.myxavpn.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 6a09b684-1a73-4d4b-9dd7-7da5caf6cfd2
-- name: '俄罗斯+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 193.56.3.178
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?https://t.me/WangCai2🇨🇳=
-- name: '俄罗斯+V2CROSS.COM #2'
+- name: 俄罗斯+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -38,3 +10,32 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: RU_speednode_0024
+  network: tcp
+  port: 443
+  server: yt-noads.sbrf-cdn342.ru
+  servername: sub.sbrf-cdn342.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0025
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
+    short-id: '!!str 3c6fc84d'
+  server: 194.226.169.189
+  servername: stats.vk-portal.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 701bab46-9453-41e6-ad47-009aa3df47e9

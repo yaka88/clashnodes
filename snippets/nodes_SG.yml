@@ -1,13 +1,4 @@
 proxies:
-- name: 新加坡+DigitalOcean数据中心
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 159.89.205.195
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
@@ -32,12 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: SG_speednode_0051
-  network: tcp
-  port: 28641
-  server: bgroup.node3.v.nodelist-airport.com
-  tls: false
-  type: vmess
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46

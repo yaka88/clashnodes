@@ -1,25 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0013
+  name: 英国 V2CROSS.COM
   network: tcp
-  port: 180
+  port: '180'
+  server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国5|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
   server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0015
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
+  cipher: auto
   name: GB_speednode_0012
   network: tcp
   port: 180
@@ -27,12 +37,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: GB_speednode_0017
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
+  name: GB_speednode_0014
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  ws-opts:
+    headers:
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
+    path: /

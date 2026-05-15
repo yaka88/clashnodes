@@ -1,5 +1,5 @@
 proxies:
-- name: '俄罗斯+V2CROSS.COM #2'
+- name: 俄罗斯+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
