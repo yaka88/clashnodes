@@ -1,4 +1,28 @@
 proxies:
+- name: 香港+特别行政区
+  network: ws
+  port: 2087
+  server: 62.60.235.102
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
+- name: 香港+ThinkDream数据中心
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 27.50.48.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -11,17 +35,17 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
-  password: 7ebc402f3383366fe4f554abd8625439
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 53018
-  server: 35.74.68.72
+  server: 35.72.163.56
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 18.181.229.56
+  port: 11233
+  server: 18.162.145.230
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
