@@ -1,4 +1,29 @@
 proxies:
+- client-fingerprint: ''
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 20567
+  reality-opts:
+    public-key: 1WOtQYIQ-3sJtbrhSA1LW6gAnO-wG0Z5aCnlL_zoiXQ
+    short-id: '!!str b82d7208fe23'
+  server: fr.gryaz-vpn.com
+  servername: cloudflare.com
+  tls: false
+  type: vless
+  uuid: 40bf709c-4353-4552-ba26-406d2bf7821d
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 31.128.32.98
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
 - alpn:
   - http/1.1
   client-fingerprint: qq
