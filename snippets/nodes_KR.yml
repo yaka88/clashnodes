@@ -2,8 +2,19 @@ proxies:
 - name: 韩国+KT电信
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
-  port: 18889
-  server: 14.40.27.140
+  port: 38699
+  server: 121.154.97.193
+  sni: vpn1.rnmcnm.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn1.rnmcnm.com
+    path: '%2Ftrj-ws'
+- name: '韩国+KT电信 #1'
+  network: ws
+  password: GKHWMe2R4qwNcNxu6l3KMkdd
+  port: 11371
+  server: 125.141.32.222
   sni: vpn1.rnmcnm.com
   type: trojan
   ws-opts:
