@@ -1,13 +1,12 @@
 proxies:
-- name: 韩国+V2CROSS.COM
+- name: 韩国+KT电信
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 19461
-  server: 123.99.111.135
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  password: GKHWMe2R4qwNcNxu6l3KMkdd
+  port: 18889
+  server: 14.40.27.140
+  sni: vpn1.rnmcnm.com
   type: trojan
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: vpn1.rnmcnm.com
+    path: '%2Ftrj-ws'
