@@ -1,27 +1,23 @@
 proxies:
-- name: 新加坡+OVH
+- name: 新加坡+Digital+Ocean数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 139.99.124.165
+  server: 165.22.248.134
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - name: 新加坡+DigitalOcean数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 174.138.20.108
+  server: 209.97.170.177
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - name: 新加坡|@ripaojiedian
   network: tcp
