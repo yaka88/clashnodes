@@ -1,32 +1,9 @@
 proxies:
-- name: 美国+V2CROSS.COM
+- name: 新加坡+OVH
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 184.174.80.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr+|+免费机场TG@proxyshareCN+|+
-- name: 伊朗+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 217.60.39.42
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 美国+花旗集团
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 192.193.104.25
+  server: 139.99.124.165
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -34,11 +11,22 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+3COM公司企业网
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 152.67.225.124
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+亚利桑那州凤凰城Oracle云计算数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 199.68.156.253
+  server: 129.146.46.164
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -46,22 +34,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 韩国+KT电信
-  network: ws
-  password: GKHWMe2R4qwNcNxu6l3KMkdd
-  port: 12300
-  server: 59.2.63.17
-  sni: vpn1.rnmcnm.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vpn1.rnmcnm.com
-    path: '%2Ftrj-ws'
-- name: 美国+纽约DigitalOcean数据中心
+- name: 日本东京+Oracle+Cloud
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 167.99.49.60
+  port: 21044
+  server: 138.2.23.80
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -69,53 +46,32 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 法国+V2CROSS.COM
+- name: 美国+路易斯安那州巴吞鲁日Smartrove公司
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 51.89.22.80
+  port: 443
+  server: 66.135.5.63
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 165.232.54.102
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 澳大利亚+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.83.50.165
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
-- name: '韩国+KT电信 #1'
-  network: ws
-  password: GKHWMe2R4qwNcNxu6l3KMkdd
-  port: 37215
-  server: 222.98.185.243
-  sni: vpn1.rnmcnm.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vpn1.rnmcnm.com
-    path: '%2Ftrj-ws'
-- name: 美国+佛罗里达州迈阿密市
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 新加坡+DigitalOcean数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 72.56.21.49
+  server: 174.138.20.108
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan

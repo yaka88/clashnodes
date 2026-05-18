@@ -1,31 +1,44 @@
 proxies:
-- name: 美国+V2CROSS.COM
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+华盛顿Cogent通信公司
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 38.114.103.54
+  servername: yandex.net
+  tls: false
+  type: vless
+  uuid: b27ab9aa-a525-4deb-a1fd-6d16c9614612
+- name: 美国+3COM公司企业网
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 184.174.80.253
-  skip-cert-verify: true
+  port: 2096
+  server: 152.67.225.124
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /tr+|+免费机场TG@proxyshareCN+|+
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 美国+CloudFlare节点
   network: ws
-  port: 2052
+  port: 443
   server: 104.20.6.134
-  tls: false
+  servername: y6-3cj.PAgES.DEV
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
   ws-opts:
     headers:
-      Host: index.0x14.workers.dev
-- name: 美国+花旗集团
+      Host: y6-3cj.PAgES.DEV
+- name: 美国+亚利桑那州凤凰城Oracle云计算数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 192.193.104.25
+  server: 129.146.46.164
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -35,51 +48,41 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - name: '美国+V2CROSS.COM #1'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 199.68.156.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 80
+  server: 45.131.4.192
+  tls: false
+  type: vless
+  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+纽约DigitalOcean数据中心
+      Host: silent-paper-fa57.fipiyag989.workers.dev
+    path: '%2F'
+- name: 美国+马里兰州洛克维尔Zenimax+Media公司
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 167.99.49.60
+  server: 199.107.164.165
+  servername: sni.111000.dynv6.net
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '美国+V2CROSS.COM #2'
+      Host: sni.111000.dynv6.net
+    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 165.232.54.102
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 美国+佛罗里达州迈阿密市
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 72.56.21.49
+  port: 2083
+  server: ciallo-egb.pages.dev
+  servername: cIAllO-EGB.pAGES.dev
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: cIAllO-EGB.pAGES.dev
+    path: '%2F%25252F'
 - name: 美国|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc

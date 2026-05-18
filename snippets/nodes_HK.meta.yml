@@ -1,4 +1,12 @@
 proxies:
+- name: '🇭🇰HK_2|2.4MB/s | 福利姬: https://...'
+  password: 2545ab46-6306-4f2b-badd-5531f384d55f
+  port: 4433
+  server: 212.192.13.242
+  skip-cert-verify: true
+  sni: hk1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
