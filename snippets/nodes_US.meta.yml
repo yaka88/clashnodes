@@ -1,18 +1,6 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
-  password: humanity
-  port: 443
-  server: v3.dabache.top
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
   port: 8443
   server: 104.20.6.134
   servername: sni.111000.dynv6.net
@@ -23,137 +11,119 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: '%2F%3FTelegram+%40v2rayngzendegimamad'
-- name: '美国+CloudFlare节点 #2'
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 80
-  server: 172.64.146.27
-  tls: false
+  port: 8443
+  server: ciallo-egb.pages.dev
+  servername: CiallO-eGb.pAGEs.Dev
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: tt.andishehparenting.com
-    path: '%2F'
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
+      Host: CiallO-eGb.pAGEs.Dev
+    path: '%2F%25252F'
+- name: 美国+V2CROSS.COM
   network: ws
   port: 2096
-  server: 167.68.42.238
-  servername: sni.jpmj.dev
+  server: 167.68.11.138
+  servername: sni.111000.indevs.in
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.jpmj.dev
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: mybb.com
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  ws-opts:
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-    path: /?ed%3D2560
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 2086
-  server: 104.20.6.134
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: index.0x15.workers.dev
-    path: '%2FPdgTMW8NBNZYo6L23v'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 80
-  server: 172.64.146.102
-  tls: false
-  type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  ws-opts:
-    headers:
-      Host: tt.andishehparenting.com
+      Host: sni.111000.indevs.in
     path: '%2F'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  port: 80
-  server: 104.20.6.134
-  tls: false
-  type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  ws-opts:
-    headers:
-      Host: vip.yaml7.ggff.net
-    path: '%2F+%40ProxyVPN11'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 443
-  server: openai.com
-  servername: 2-1ng.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 2-1ng.pages.dev
-    path: '%2F'
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 135.84.74.20
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  port: 443
-  server: 104.17.120.41
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #9'
-  network: ws
-  port: 443
-  server: 104.18.16.56
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2'
-- name: '美国+CloudFlare节点 #10'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.11.110
-  skip-cert-verify: false
+  server: v1.dabache.top
   sni: www.multiplydose.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.multiplydose.com
     path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  server: bestcf.030101.xyz
+  skip-cert-verify: true
+  sni: sni.111000.dynv6.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fproxyip%3Dip.111000.de5.net%253A443'
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 55301
+  reality-opts:
+    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+    short-id: '!!str 4bcbc85d'
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  tls: false
+  type: vless
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 154.17.8.126
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 美国+马里兰州洛克维尔Zenimax+Media公司
+  network: ws
+  port: 443
+  server: 199.107.164.217
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 2096
+  server: 162.159.153.231
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  server: 104.20.6.134
+  sni: sni.111000.dynv6.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fproxyip%3Dip.111000.de5.net%3A443'
 - name: 美国|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
@@ -178,26 +148,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美国5|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: US_speednode_0035
   obfs: ''
   obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==

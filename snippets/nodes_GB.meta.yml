@@ -1,17 +1,24 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+South+Cheshire+College
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
-    short-id: '!!str 5d'
-  server: 194.238.57.104
-  servername: www.icloud.com
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
   tls: false
-  type: vless
-  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美国5|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: GB_speednode_0012
