@@ -1,14 +1,1 @@
-proxies:
-- name: 德国+V2CROSS.COM
-  network: ws
-  port: 2096
-  server: 31.185.108.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F'
+proxies: []

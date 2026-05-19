@@ -1,18 +1,28 @@
 proxies:
+- name: '🇹🇼TW_1|1.6MB/s | 更多节点: https:/...'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 160.187.100.109
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  tls: false
+  type: hysteria2
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: TW_speednode_0034
-  network: ws
-  port: 17820
-  server: s5.db-link.in
-  servername: 48afa0c5c9.shopify.com
+  name: TW_speednode_0028
+  network: tcp
+  password: e5c22f63-e473-496a-beff-fdc5655008c1
+  port: 2096
+  server: tvhinet.lajichang.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
-  ws-opts:
-    headers:
-      Host: 48afa0c5c9.shopify.com
-    path: '%2Fdb102448afa0c5c9fp%3Dchrome'
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: TW_speednode_0029
+  network: tcp
+  port: 53229
+  server: 103.127.243.54
+  tls: false
+  type: vmess
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
