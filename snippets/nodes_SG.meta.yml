@@ -1,12 +1,4 @@
 proxies:
-- name: '🇸🇬SG_1|1.2MB/s | 网盘搜宝: https:/...'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-003.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc

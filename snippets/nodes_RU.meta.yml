@@ -1,4 +1,29 @@
 proxies:
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 2040
+  reality-opts:
+    public-key: b6DZwkKAeXf3wjXrL6iV6dTt1Crpv2o88LRDJRgFglE
+    short-id: '!!str b589db8f02882bae'
+  server: 109.172.54.70
+  servername: eh.vk.com
+  tls: false
+  type: vless
+  uuid: aef7716a-d0a5-4a85-9cb0-fda41d9f34b0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
+    short-id: '!!str b3a1cc510a2001c6'
+  server: 194.58.41.60
+  servername: eh.vk.com
+  tls: false
+  type: vless
+  uuid: 26e4d8b5-ee98-4a8d-88c9-7f81b7be3379
 - alpn:
   - http/1.1
   client-fingerprint: qq
