@@ -1,129 +1,118 @@
 proxies:
-- name: 美国+CloudFlare节点
+- flow: ''
+  name: 美国+CloudFlare节点
   network: ws
-  port: 8443
-  server: 104.20.6.134
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram+%40v2rayngzendegimamad'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 8443
-  server: ciallo-egb.pages.dev
-  servername: CiallO-eGb.pAGEs.Dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: CiallO-eGb.pAGEs.Dev
-    path: '%2F%25252F'
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 2096
-  server: 167.68.11.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: v1.dabache.top
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  port: 443
-  server: bestcf.030101.xyz
-  skip-cert-verify: true
-  sni: sni.111000.dynv6.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3Fproxyip%3Dip.111000.de5.net%253A443'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 55301
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: '!!str 4bcbc85d'
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
+  port: 80
+  server: 172.64.149.54
   tls: false
   type: vless
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- name: '美国+V2CROSS.COM #2'
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: '%2F%20%40ProxyVPN11'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 104.18.251.45
+  servername: sni.latonyamadeline.ndjp.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 172.64.152.100
+  servername: hio-awx.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  ws-opts:
+    headers:
+      Host: hio-awx.pages.dev
+    path: '%2F'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 2052
+  server: creativecommons.org
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: index.0x14.workers.dev
+    path: /assets
+- name: 美国+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 154.17.8.126
+  port: 443
+  server: 149.104.110.97
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 美国+马里兰州洛克维尔Zenimax+Media公司
-  network: ws
-  port: 443
-  server: 199.107.164.217
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
+    path: /trTelegram🇨🇳 @WangCai2
 - name: '美国+CloudFlare节点 #4'
   network: ws
+  port: 2052
+  server: 104.20.6.134
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: index.0x14.workers.dev
+- name: '美国+CloudFlare节点 #5'
+  network: tcp
+  port: 22
+  server: 172.65.111.43
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 50.62.89.253
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '美国+CloudFlare节点 #6'
+  network: ws
   port: 2096
-  server: 162.159.153.231
+  server: 104.20.6.134
   servername: sni.111000.indevs.in
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #5'
+    path: /
+- name: '美国+CloudFlare节点 #7'
   network: ws
-  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
   port: 443
-  server: 104.20.6.134
-  sni: sni.111000.dynv6.net
-  type: trojan
+  server: 104.17.101.139
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.dynv6.net
-    path: '%2F%3Fproxyip%3Dip.111000.de5.net%3A443'
+    path: '%2F%3Fproxyip%3Dip.111000.de5.net%253A443'
 - name: 美国|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
