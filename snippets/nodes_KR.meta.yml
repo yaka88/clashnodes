@@ -1,9 +1,1 @@
-proxies:
-- name: '🇰🇷KR_1|2.3MB/s | 网盘搜宝: https:/...'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-kr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-002.fastervpn.world
-  tls: false
-  type: hysteria2
+proxies: []

@@ -1,12 +1,4 @@
 proxies:
-- name: '🇹🇼TW_1|1.6MB/s | 更多节点: https:/...'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 160.187.100.109
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
-  tls: false
-  type: hysteria2
 - alpn:
   - ''
   name: TW_speednode_0028
