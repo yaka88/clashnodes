@@ -1,20 +1,21 @@
 proxies:
-- name: 美国+佛罗里达州迈阿密市
+- name: 美国+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 72.56.102.34
+  server: 144.31.246.245
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+- name: '美国+V2CROSS.COM #2'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 172.245.246.110
+  port: 2053
+  server: 129.159.47.168
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -22,11 +23,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+亚利桑那州凤凰城Oracle云计算数据中心
+- name: 美国+教育网
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 129.146.137.214
+  port: 2096
+  server: 140.245.62.90
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -34,23 +35,22 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: v1.dabache.top
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
 - name: 美国+爱荷华州得梅因Microsoft数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
   server: 23.95.34.158
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+华盛顿Cogent通信公司
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 38.146.25.162
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:

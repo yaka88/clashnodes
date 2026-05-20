@@ -1,32 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: 104.18.16.56
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2'
-- name: 美国+佛罗里达州迈阿密市
+- name: 美国+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 72.56.102.34
+  server: 144.31.246.245
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+V2CROSS.COM
+- name: '美国+V2CROSS.COM #1'
   network: ws
   port: 2096
-  server: 167.68.5.191
+  server: 45.131.209.191
   servername: sni.my111000.tech
   skip-cert-verify: true
   tls: true
@@ -35,11 +23,12 @@ proxies:
   ws-opts:
     headers:
       Host: sni.my111000.tech
-- name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%40WangCai2%2F
+- name: '美国+V2CROSS.COM #2'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 172.245.246.110
+  port: 2053
+  server: 129.159.47.168
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -47,11 +36,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+亚利桑那州凤凰城Oracle云计算数据中心
+- name: 美国+教育网
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 129.146.137.214
+  port: 2096
+  server: 140.245.62.90
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -59,45 +48,10 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '美国+CloudFlare节点 #1'
+- name: 美国+CloudFlare节点
   network: ws
-  port: 443
+  port: 8443
   server: 104.20.6.134
-  servername: y6-3cj.PAgES.DEV
-  tls: true
-  type: vless
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
-  ws-opts:
-    headers:
-      Host: y6-3cj.PAgES.DEV
-- name: 美国+加州
-  network: ws
-  port: 2053
-  server: render.com
-  servername: qyi.fqjd663.ggff.net
-  tls: true
-  type: vless
-  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
-  ws-opts:
-    headers:
-      Host: qyi.fqjd663.ggff.net
-    path: '%2F'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: v1.dabache.top
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 2053
-  server: 104.18.16.56
   servername: sni.111000.dynv6.net
   tls: true
   type: vless
@@ -105,11 +59,23 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.dynv6.net
+    path: '%2F%3FTelegram+%40v2rayngzendegimamad'
 - name: 美国+爱荷华州得梅因Microsoft数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
   server: 23.95.34.158
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+华盛顿Cogent通信公司
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 38.146.25.162
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
