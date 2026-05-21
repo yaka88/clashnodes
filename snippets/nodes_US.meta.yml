@@ -2,25 +2,61 @@ proxies:
 - name: 美国+CloudFlare节点
   network: ws
   port: 80
-  server: 104.20.6.134
+  server: 172.64.146.27
   tls: false
   type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
   ws-opts:
     headers:
-      Host: vip.yaml7.ggff.net
-    path: '%2F+%40ProxyVPN11'
-- name: 美国+伊利诺伊州库克与杜佩奇县芝加哥市Nobis技术集团有限...
+      Host: tt.andishehparenting.com
+    path: '%2F'
+- name: 美国+亚利桑那州凤凰城Oracle云计算数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 142.91.108.54
+  port: 8443
+  server: 129.146.121.203
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 172.86.114.80
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.167.241.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 209.102.207.120
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
 - name: '美国+CloudFlare节点 #1'
   network: ws
   port: 8443
@@ -33,33 +69,11 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: '%2F%3FTelegram+%40v2rayngzendegimamad'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 80
-  server: 172.64.146.27
-  tls: false
-  type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  ws-opts:
-    headers:
-      Host: tt.andishehparenting.com
-    path: '%2F'
-- name: 美国+V2CROSS.COM
+- name: 美国+加利福尼亚州洛杉矶Zenlayer数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 45.40.155.253
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 72.167.230.253
+  server: 128.14.196.46
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -67,75 +81,17 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+加利福尼亚州洛杉矶QuadraNet数据中心
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 96.44.149.15
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.152.23
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+新泽西州皮斯卡特维Choopa数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 159.223.79.119
-  skip-cert-verify: true
+  server: 149.28.56.202
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+Digital+Ocean
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 157.245.178.181
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司 #1'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 198.71.188.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 80
-  server: 104.17.15.87
-  tls: false
-  type: vless
-  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
-  ws-opts:
-    headers:
-      Host: germany.xydcqd.workers.dev
-    path: '%2F%40WireXnet'
 - name: 美国|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
