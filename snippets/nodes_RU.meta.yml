@@ -1,20 +1,27 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: FR_speednode_0004
-  network: tcp
-  port: 20567
-  reality-opts:
-    public-key: 1WOtQYIQ-3sJtbrhSA1LW6gAnO-wG0Z5aCnlL_zoiXQ
-    short-id: '!!str b82d7208fe23'
-  server: fr.gryaz-vpn.com
-  servername: cloudflare.com
-  skip-cert-verify: false
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 92.243.75.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 8880
+  server: 213.219.247.50
   tls: false
   type: vless
-  uuid: 40bf709c-4353-4552-ba26-406d2bf7821d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime26.workers.dev
+    path: '%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
 - alpn:
   - ''
   client-fingerprint: ios
