@@ -1,10 +1,42 @@
 proxies:
-- name: 丹麦+V2CROSS.COM
+- name: 美国+CloudFlare节点
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: 日本+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.170.25.96
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 尼日利亚+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 83.229.121.78
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '美国+CloudFlare节点 #1'
   network: ws
   port: 2096
-  server: 195.85.23.138
+  server: 104.20.6.134
   servername: sni.111000.indevs.in
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -12,60 +44,11 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: '%2F'
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 80
-  server: 172.64.146.27
-  tls: false
-  type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  ws-opts:
-    headers:
-      Host: tt.andishehparenting.com
-    path: '%2F'
-- name: 日本+东京xTOM网络
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 172.93.187.184
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 26048
-  server: 195.133.2.45
-  tls: false
-  type: vless
-  uuid: 20afe519-9ef3-4c70-a2cf-5336b1125090
-- name: 伊朗+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.253.187
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🧃61@oneclickvpnkeys
-  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  port: 2056
-  server: flkf3.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 美国+亚利桑那州凤凰城Oracle云计算数据中心
+- name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 129.146.121.203
+  server: 172.245.93.26
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -76,118 +59,31 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 172.86.114.80
-  skip-cert-verify: true
+  server: 64.110.104.30
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 欧盟+V2CROSS.COM
-  network: ws
-  port: 2096
-  server: 45.80.111.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-- name: 日本+V2CROSS.COM
+    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: 美国+惠普HP
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 42841
-  server: 43.165.190.11
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 72.167.241.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '俄罗斯+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: srv181.towersflowerss.com
-  servername: srv181.towersflowerss.com
-  tls: false
-  type: vless
-  uuid: b43a13be-150c-4a6a-8501-b71c1b6476fb
-  ws-opts:
-    headers:
-      Host: srv181.towersflowerss.com
-    path: '%2F'
-- name: '伊朗+V2CROSS.COM #1'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.253.194
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '欧盟+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: 2YrB1VDud3ZDZp-fnEGO7BKsHZQN9NVJuXU_5j-uzVI
-    short-id: 'ddb9'
-  server: 45.15.160.132
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: 0b89c53e-1d55-463f-90d7-f28b0e17b8a7
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 209.102.207.120
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- name: '美国+CloudFlare节点 #1'
-  network: ws
   port: 8443
-  server: 104.20.6.134
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram+%40v2rayngzendegimamad'
-- name: 澳大利亚+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.83.50.165
-  skip-cert-verify: true
+  server: 15.204.173.154
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 美国+加利福尼亚州洛杉矶Zenlayer数据中心
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -200,30 +96,116 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '俄罗斯+V2CROSS.COM #2'
-  network: ws
-  port: 2096
-  server: 176.124.223.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
+- flow: xtls-rprx-vision
+  name: 澳大利亚+新南威尔士州悉尼Amazon数据中心
+  network: tcp
+  port: 57001
+  reality-opts:
+    public-key: aSK0B0bgRalAWw_5d7buTjy4dYLF2WGTZhUojypI618
+    short-id: 'b2dd66706eb2'
+  server: 3.106.54.135
+  servername: yahoo.com
+  tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F'
-- name: 美国+新泽西州皮斯卡特维Choopa数据中心
+  uuid: 30ac5a8b-5022-43c0-b0c2-11b9a98a986e
+- name: '美国+V2CROSS.COM #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 149.28.56.202
+  server: 172.86.114.80
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: 美国+Digital+Ocean
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 157.245.178.181
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 伊朗+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.58.50.114
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 罗马尼亚+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 178.156.148.4
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 香港+电讯盈科有限公司
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 219.76.13.177
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 172.66.3.201
+  servername: juzi.qea.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  ws-opts:
+    headers:
+      Host: juzi.qea.ccwu.cc
+    path: '%2F'
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.223.93.80
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- flow: xtls-rprx-vision
+  name: 保加利亚+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KUD5RiuqMRrhOoN6X2FcXpYZfoN_7z8BcviSBlyxOBw
+    short-id: 'cbd8f4'
+  server: 185.184.70.120
+  servername: time.is
+  tls: false
+  type: vless
+  uuid: 145adeb9-279d-4c1d-a97c-93fe28ca071e
+- name: 挪威+V2CROSS.COM
+  network: tcp
+  port: 64534
+  server: tr1.datatowers.net
+  tls: false
+  type: vless
+  uuid: b43a13be-150c-4a6a-8501-b71c1b6476fb
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
