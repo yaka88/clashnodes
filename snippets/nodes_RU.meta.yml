@@ -1,40 +1,13 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 92.243.75.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '俄罗斯+V2CROSS.COM #1'
-  network: ws
-  port: 8880
-  server: 213.219.247.50
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: '%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
-- alpn:
-  - ''
-  client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: CZ_speednode_0001
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: 8443
+  port: 2040
   reality-opts:
-    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
-    short-id: '!!str b3a1cc510a2001c6'
-  server: 194.58.41.60
+    public-key: b6DZwkKAeXf3wjXrL6iV6dTt1Crpv2o88LRDJRgFglE
+    short-id: '!!str b589db8f02882bae'
+  server: 62.133.60.206
   servername: eh.vk.com
-  skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 26e4d8b5-ee98-4a8d-88c9-7f81b7be3379
+  uuid: aef7716a-d0a5-4a85-9cb0-fda41d9f34b0
