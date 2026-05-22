@@ -1,10 +1,19 @@
 proxies:
+- name: '英国+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 194.164.34.222
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
 - alterId: 0
-  cipher: auto
-  name: GB_speednode_0007
+  cipher: aes-128-gcm
+  name: GB_speednode_0009
   network: tcp
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
@@ -15,6 +24,15 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0007
+  network: tcp
+  port: 180
+  server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
