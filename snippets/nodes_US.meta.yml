@@ -1,9 +1,20 @@
 proxies:
-- name: 美国+加利福尼亚
+- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 64.181.218.67
+  server: 198.71.188.253
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.110.104.30
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -11,67 +22,24 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - name: 美国+CloudFlare节点
   network: ws
-  port: 2052
+  port: 2086
   server: 104.20.6.134
   tls: false
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: index.0x14.workers.dev
-- name: 美国+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 157.230.140.153
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国+Digital+Ocean
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 157.245.178.181
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: '美国+V2CROSS.COM #1'
+      Host: index.0x15.workers.dev
+    path: '%2FPdgTMW8NBNZYo6L23v'
+- name: '美国+V2CROSS.COM #2'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 45.38.139.127
+  server: 45.144.234.149
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: 美国+华盛顿Cogent通信公司
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.143.109.82
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
-- name: '美国+CloudFlare节点 #1'
-  network: tcp
-  port: 22
-  server: 172.65.111.43
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: '%2F%40monacoVPN%40monacoVPN%40monacoVPN%40monacoVPN'
 - name: 美国|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
