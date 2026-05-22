@@ -1,13 +1,19 @@
 proxies:
-- client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 2040
-  reality-opts:
-    public-key: b6DZwkKAeXf3wjXrL6iV6dTt1Crpv2o88LRDJRgFglE
-    short-id: '!!str b589db8f02882bae'
-  server: 62.133.60.206
-  servername: eh.vk.com
-  tls: false
-  type: vless
-  uuid: aef7716a-d0a5-4a85-9cb0-fda41d9f34b0
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 91.196.32.171
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 77.238.230.228
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
