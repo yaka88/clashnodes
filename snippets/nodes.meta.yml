@@ -1,198 +1,196 @@
 proxies:
-- name: 西班牙+V2CROSS.COM
+- name: 罗马尼亚+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 212.34.152.202
+  port: 8443
+  server: 188.215.31.178
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: 美国+V2CROSS.COM
+- name: 英国+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 195.200.17.170
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 荷兰+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2083
+  server: 81.85.77.14
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: '英国+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 5.178.96.130
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 乌克兰+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 89.110.81.13
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- flow: xtls-rprx-vision
+  name: 澳大利亚+新南威尔士州悉尼亚马逊(Amazon)公司数据中心
+  network: tcp
+  port: 55292
+  reality-opts:
+    public-key: kPx16abMZD2x6dv7NW_hn1HSc2P8RsPptytcCT-neQs
+    short-id: 'bd711c02c8dc9955'
+  server: 54.252.231.115
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: aca32055-db88-4634-b623-6429ddbb6c93
+- name: 波兰+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.133.0.159
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 85.193.91.193
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 美国+戴维逊大学
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 152.42.169.132
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: 德国+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 193.23.216.14
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '乌克兰+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 89.110.117.53
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 加拿大+TELUS
   network: ws
   port: 443
-  server: 135.84.73.9
-  servername: sni.111000.v6.navy
+  server: 74.49.214.43
+  servername: sni.111000.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-- flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
+      Host: sni.111000.cc.cd
+- name: 美国+V2CROSS.COM
   network: raw
-  port: 443
+  port: 19352
   reality-opts:
-    public-key: JbxZQuL2t4eews1QuA8O4jpsU_NXPMpmzKwlxSQj5Sk
-    short-id: 'f690c1046814dc9d'
-  server: ru3.banovano.space
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: 137.175.93.121
   servername: www.icloud.com
   tls: false
   type: vless
-  uuid: dc540911-cd1d-41e9-9301-ecb5a507b788
-- flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
-    short-id: 'bdac121c7debdaba'
-  server: swe-8t.freeonline.pro
-  servername: www.microsoft.com
-  tls: false
-  type: vless
-  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
-- name: 俄罗斯+V2CROSS.COM
+  uuid: 07050e47-3484-4062-bd62-845968e062ad
+- name: 挪威+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 77.221.143.81
+  port: 8443
+  server: 138.124.50.47
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: 伊朗+V2CROSS.COM
+- name: 美国+科罗拉多州布隆菲尔德市Level+3通信股份有限公司
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 217.60.62.185
+  port: 443
+  server: 8.34.70.253
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  port: 443
-  server: 167.68.5.191
-  servername: sni.my111000.tech
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.my111000.tech
-    path: '%2F'
-- name: 荷兰+V2CROSS.COM
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 爱尔兰+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 195.123.217.37
+  server: 37.46.19.79
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: '美国+V2CROSS.COM #3'
+- name: '英国+V2CROSS.COM #2'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 129.158.241.2
+  server: 77.239.98.191
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
-- name: 香港+阿里云
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 日本+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 47.82.178.58
+  server: 43.168.16.112
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳
-- name: 法国+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 146.19.168.188
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '俄罗斯+V2CROSS.COM #1'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 62.182.196.202
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '英国+V2CROSS.COM #1'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 194.164.34.222
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 80
-  server: 104.20.6.134
-  tls: false
-  type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  ws-opts:
-    headers:
-      Host: vip.yaml7.ggff.net
-    path: '%2F+%40ProxyVPN11'
-- name: '美国+V2CROSS.COM #4'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 45.144.234.149
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0009
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 科威特+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 89.107.10.22
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
+    path: /trTelegram🇨🇳 @WangCai2
 - flow: xtls-rprx-vision
-  name: '西班牙+V2CROSS.COM #1'
+  name: '德国+V2CROSS.COM #1'
   network: raw
-  port: 8443
+  port: 2443
   reality-opts:
-    public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
-    short-id: 'f7aa9e61197d3ac6'
-  server: 212.34.142.191
-  servername: tradingview.com
+    public-key: Pyn-CZrKJEIoM7mcj__Eosc4F03CpqvwRZEqlJzqOnQ
+    short-id: 'e6df8954df22'
+  server: 193.168.197.76
+  servername: www.ya.ru
   tls: false
   type: vless
-  uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
-- name: '伊朗+V2CROSS.COM #1'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 94.183.189.34
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '俄罗斯+V2CROSS.COM #2'
+  uuid: b198c7e4-b6a5-4309-ac0e-0783cf8b129c
+- name: 欧盟+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 212.113.112.236
+  server: 185.252.177.115
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -308,6 +306,16 @@ proxies:
   network: tcp
   port: '180'
   server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0009
+  network: tcp
+  port: 180
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
