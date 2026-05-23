@@ -37,24 +37,7 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: HK_speednode_0011
-  network: ws
-  port: 32237
-  server: 83.229.126.127
-  servername: dcsrzh.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: dcsrzh.ccwu.cc
-    path: '%2F%3Fed%3D2560'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: HK_speednode_0012
+  name: HK_speednode_0020
   network: ws
   port: 32237
   server: 83.229.126.127
@@ -66,4 +49,4 @@ proxies:
   ws-opts:
     headers:
       Host: dcsrzh.ccwu.cc
-    path: '%2Ffp%3Dchrome'
+    path: '%2Ffp%3Dchromefp%3Dchrome'

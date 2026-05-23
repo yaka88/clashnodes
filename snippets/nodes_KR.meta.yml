@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- name: 韩国+KT电信
+  network: ws
+  port: 18979
+  server: 59.9.104.98
+  servername: vpn2.rnmcnm.com
+  tls: true
+  type: vless
+  uuid: b2b62085-f202-4c49-9f19-a44676a3d76d
+  ws-opts:
+    path: '%2Fray'
+- name: '韩国+KT电信 #1'
+  network: ws
+  port: 38241
+  server: 59.4.161.71
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: '%2F%3Fed%3D2560'

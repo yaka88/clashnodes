@@ -1,39 +1,56 @@
 proxies:
-- name: 印度+V2CROSS.COM
+- name: 沙特阿拉伯+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 113.30.190.244
+  port: 8443
+  server: 77.110.108.196
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: 美国+V2CROSS.COM
+- name: 日本+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 199.34.229.253
-  skip-cert-verify: true
+  port: 42841
+  server: 43.165.190.11
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '沙特阿拉伯+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 77.110.119.35
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /tr+|+免费机场TG@proxyshareCN+|+
-- name: 荷兰+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 46.243.3.200
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
 - name: 伊朗+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 94.183.191.33
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 瑞典+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 83.147.254.168
+  server: 185.130.46.81
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -41,42 +58,27 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 希腊+V2CROSS.COM
+- name: 印度+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 92.118.233.134
+  port: 443
+  server: 14.102.228.253
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 俄罗斯+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 46.8.236.104
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 罗马尼亚+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 188.215.31.36
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
 - name: '伊朗+V2CROSS.COM #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 31.57.27.233
+  port: 2053
+  server: 31.57.92.251
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram🇨🇳+@WangCai2
 - name: 英国+威尔士阿伯斯威大学
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -86,35 +88,39 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: 亚太地区+V2CROSS.COM
+- name: '伊朗+V2CROSS.COM #2'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 103.125.216.22
+  port: 443
+  server: 83.147.253.21
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: /trTelegram
-- name: '俄罗斯+V2CROSS.COM #1'
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 俄罗斯+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 185.233.80.60
+  server: 195.211.124.140
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: 巴西圣保罗+CloudFlare节点
+- name: 美国+得克萨斯州
   network: ws
-  password: humanity
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 188.114.96.3
-  sni: www.calmlunch.com
+  server: 34.132.50.119
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -232,12 +238,21 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0009
+  cipher: auto
+  name: GB_speednode_0008
   network: tcp
   port: 180
   server: 82.198.246.233
   servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0012
+  network: tcp
+  port: 180
+  server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -250,49 +265,17 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0007
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0008
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
-  name: TW_speednode_0028
-  network: tcp
-  password: e5c22f63-e473-496a-beff-fdc5655008c1
-  port: 2096
-  server: tvhinet.lajichang.xyz
-  skip-cert-verify: true
+  name: US_speednode_0048
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: vless.herogoing.top
+  skip-cert-verify: false
   sni: ''
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: TW_speednode_0029
-  network: tcp
-  port: 53229
-  server: 103.127.243.54
-  tls: false
-  type: vmess
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
-- alterId: 2
-  cipher: auto
-  name: US_speednode_0037
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: vless.herogoing.top
+    path: '%2Ftr%3Fed%3D2560'

@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 英国+威尔士阿伯斯威大学
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -10,28 +19,19 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_speednode_0010
+  name: GB_speednode_0012
   network: tcp
   port: 180
-  server: 82.198.246.9
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0007
-  network: tcp
-  port: 180
-  server: 82.198.246.214
+  server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_speednode_0008
+  name: GB_speednode_0010
   network: tcp
   port: 180
-  server: 82.198.246.37
+  server: 82.198.246.9
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
