@@ -1,6 +1,54 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
+  port: 2096
+  server: 104.16.250.22
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 63.141.128.3
+  servername: qyi.fqjd663.ggff.net
+  tls: true
+  type: vless
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+  ws-opts:
+    headers:
+      Host: qyi.fqjd663.ggff.net
+    path: /
+- name: 美国+弗吉尼亚州阿什本Oracle云计算数据中心
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 150.136.219.11
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国加利福尼亚州圣何塞+Cloudflare节点
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 103.21.244.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '美国+CloudFlare节点 #1'
+  network: ws
   port: 2083
   server: ciallo-egb.pages.dev
   servername: cIAllO-EGB.pAGES.dev
@@ -12,61 +60,41 @@ proxies:
     headers:
       Host: cIAllO-EGB.pAGES.dev
     path: '%2F%25252F'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 162.159.33.40
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
-- name: 美国+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 152.53.153.158
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 104.17.48.197
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
-- name: '美国+V2CROSS.COM #2'
+- name: '美国+V2CROSS.COM #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 144.31.79.168
+  server: 192.0.63.253
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '美国+CloudFlare节点 #3'
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
   network: ws
-  password: humanity
-  port: 443
-  server: 172.67.180.92
-  sni: www.multiplydose.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 8.6.112.0
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
-      Host: www.multiplydose.com
-    path: /assignment
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 104.16.58.115
+  servername: sni.latonyamadeline.ndjp.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
 - name: 美国|@ripaojiedian
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
