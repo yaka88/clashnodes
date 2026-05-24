@@ -1,13 +1,4 @@
 proxies:
-- name: 美国+戴维逊大学
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 152.42.169.132
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram
 - name: 美国+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -19,31 +10,41 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #1'
-  network: grpc
-  port: 7443
-  reality-opts:
-    public-key: MbYR2O0XBSeG74gGYpFIofXsILcf5lG2gc36GyURBXQ
-    short-id: '!!str 0199436dd359351b'
-  server: 144.31.233.236
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: b54d36d1-43c3-4b8f-a5f8-cf6504db0562
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: raw
+- name: 美国+CloudFlare节点
+  network: ws
   port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: '!!str ff776ff77be48b88'
-  server: 152.53.80.40
-  servername: sha.helper-internet.com
-  tls: false
+  server: 104.20.6.134
+  servername: y6-3cj.PAgES.DEV
+  tls: true
   type: vless
-  uuid: e6567a1e-260f-4b0e-8de3-e2e12f90e854
+  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
+  ws-opts:
+    headers:
+      Host: y6-3cj.PAgES.DEV
+    path: '%2F'
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 192.0.63.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 198.204.227.171
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
 - name: 美国|@ripaojiedian
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
