@@ -1,25 +1,50 @@
 proxies:
-- name: 拉脱维亚+V2CROSS.COM
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 2096
+  server: 155.46.167.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F'
+- name: 伊朗+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 195.135.252.148
+  port: 2053
+  server: 94.183.189.34
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
 - name: 美国+CloudFlare节点
   network: ws
-  port: 2052
-  server: 104.20.5.134
-  tls: false
+  port: 443
+  server: 104.19.38.35
+  servername: sni.latonyamadeline.ndjp.net
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: index.0x14.workers.dev
-    path: '%2Fassets'
-- name: 伊朗+V2CROSS.COM
+      Host: sni.latonyamadeline.ndjp.net
+    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  server: 104.20.6.134
+  sni: sni.111000.dynv6.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?proxyip=ip.111000.de5.net:443
+- name: '伊朗+V2CROSS.COM #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -28,136 +53,147 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
-  skip-cert-verify: false
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: 'ff776ff77be48b88'
+  server: 152.53.80.40
+  servername: sha.helper-internet.com
   tls: false
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
-    path: /fp=randomized
-- name: 美国+V2CROSS.COM
+  uuid: e6567a1e-260f-4b0e-8de3-e2e12f90e854
+- name: 欧盟+V2CROSS.COM
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 144.31.57.146
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 2086
-  server: creativecommons.org
-  tls: false
+  port: 2096
+  server: 45.85.119.191
+  servername: sni.my111000.tech
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: index.0x15.workers.dev
-    path: '%2FPdgTMW8NBNZYo6L23v'
-- name: 俄罗斯+V2CROSS.COM
+      Host: sni.my111000.tech
+    path: '%2F'
+- name: 罗马尼亚+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 46.8.236.104
+  server: 46.102.156.144
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '俄罗斯+V2CROSS.COM #1'
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0012
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 伊朗+科技研究院
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 94.103.80.218
+  port: 2053
+  server: 62.60.150.140
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  tls: false
-  type: vless
-  uuid: 787b3724-16c8-4e58-a038-2b8013cdc6d9
-  ws-opts:
-    headers:
-      Host: c3linogp4x20x5acoguup217nstesdu1.nobodyface4b13.workers.dev
-    path: /eyJqdW5rIjoiTG1jRlUwNjNwVUxvYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
 - name: 北美地区+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 23.173.104.238
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 瑞士+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 91.108.189.152
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '伊朗+V2CROSS.COM #1'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 217.60.62.185
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 韩国+KT电信
-  network: ws
-  port: 18979
-  server: 59.9.104.98
-  servername: vpn2.rnmcnm.com
-  tls: true
-  type: vless
-  uuid: b2b62085-f202-4c49-9f19-a44676a3d76d
-  ws-opts:
-    path: '%2Fray'
-- name: 美国+科罗拉多州布隆菲尔德市Level+3通信股份有限公司
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.34.70.253
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 141.101.122.253
-  skip-cert-verify: true
+  server: 104.167.196.91
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: '美国+V2CROSS.COM #1'
+    path: /trTelegram🇨🇳+@WangCai2
+- flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: soIvKRHAcDWgye_rZ3zAPUo74ul9yzGImjb1-ykHxh0
+    short-id: 'e66bdb1999097cc4'
+  server: nl1.noesissite.ru
+  servername: www.microsoft.com
+  tls: false
+  type: vless
+  uuid: e74089d6-5ab5-4cfb-b53c-df3ead4a8baa
+- name: 西班牙+V2CROSS.COM
+  network: tcp
+  password: 7aXwJPnpAJ
+  port: 50824
+  server: yespaintstudio.rav-kraski.ru
+  skip-cert-verify: false
+  sni: yespaintstudio.rav-kraski.ru
+  type: trojan
+- name: 加拿大+Bell
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 152.53.153.158
+  server: 142.171.21.164
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: '欧盟+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.84.88.204
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
+- name: '🇫🇷FR_5|2.0MB/s | 网盘搜宝: https:/...'
+  password: 65bc8227-48db-4993-9e9d-68394de672a1
+  port: 443
+  server: 45.92.218.132
+  sni: holz6.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '伊朗+V2CROSS.COM #2'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.57.92.251
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 爱尔兰+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 37.46.19.79
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: GB_speednode_0017
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    short-id: 'bdac121c7debdaba'
+  server: swe-8t.freeonline.pro
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -319,15 +355,6 @@ proxies:
   uuid: b6b2c827-4ac1-4e2c-af28-dfa7edbfeb81
 - alterId: 0
   cipher: aes-128-gcm
-  name: GB_speednode_0012
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
   name: GB_speednode_0010
   network: tcp
   port: 180
@@ -380,21 +407,6 @@ proxies:
   tls: false
   type: vless
   uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: GB_speednode_0017
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
-    short-id: 'bdac121c7debdaba'
-  server: swe-8t.freeonline.pro
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
 - alpn:
   - ''
   flow: ''

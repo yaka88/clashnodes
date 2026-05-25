@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: '🇫🇷FR_5|2.0MB/s | 网盘搜宝: https:/...'
+  password: 65bc8227-48db-4993-9e9d-68394de672a1
+  port: 443
+  server: 45.92.218.132
+  sni: holz6.api3-max.ru
+  tls: false
+  type: hysteria2
