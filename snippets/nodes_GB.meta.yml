@@ -2,8 +2,8 @@ proxies:
 - name: 英国+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 77.239.98.191
+  port: 2053
+  server: 5.178.96.130
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -12,83 +12,7 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: GB_speednode_0014
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
-    short-id: '!!str 5d'
-  server: 194.238.57.104
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0012
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0010
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0015
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
-    short-id: '!!str 67ccfc02'
-  server: 2.26.3.148
-  servername: www.deepl.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d511e429-e32b-46a7-ac07-a0fffa9b634c
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: GB_speednode_0016
-  network: tcp
-  port: 40721
-  reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: '!!str df8611c07d'
-  server: 140.238.100.35
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0017
+  name: GB_speednode_0005
   network: tcp
   port: 443
   reality-opts:
@@ -101,34 +25,36 @@ proxies:
   type: vless
   uuid: 980231fb-4372-5c81-b696-20aa34d33af0
 - alpn:
-  - ''
-  client-fingerprint: chrome
+  - http/1.1
+  client-fingerprint: firefox
   flow: ''
-  name: GB_speednode_0018
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jnlUXqaLeqZSYBQLjk1oUGTrxH0TTmLojXWb1X8vzgE
-    short-id: '!!str 33b973c3'
-  server: hongkong.cloudpath.live
-  servername: microsoft.com
+  name: GB_speednode_0006
+  network: ws
+  port: 2087
+  server: 157.245.34.157
+  servername: c1mxc.api-gateway.fgfw.qzz.io
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 5e1083b9-4d4f-50ef-93e7-6e966dfce1f9
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: '%2Fdanfeng-2cm3%3Fed%3D2560'
 - alpn:
-  - ''
-  client-fingerprint: chrome
+  - http/1.1
+  client-fingerprint: firefox
   flow: ''
-  name: GB_speednode_0019
-  network: tcp
+  name: GB_speednode_0007
+  network: ws
   port: 443
-  reality-opts:
-    public-key: xPEXenK1VOMc2VKmnA8a4VSHb7AjcGIScGG7iy0EiwQ
-    short-id: '!!str 84fc368a'
-  server: singapore.cloudpath.live
-  servername: microsoft.com
+  server: 157.245.33.149
+  servername: c1mxc.api-gateway.fgfw.qzz.io
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 5e1083b9-4d4f-50ef-93e7-6e966dfce1f9
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: '%2Fdanfeng-2cm3%3Fed%3D2560'
