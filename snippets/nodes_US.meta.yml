@@ -1,29 +1,51 @@
 proxies:
-- name: 美国+V2CROSS.COM
+- name: 北美地区+V2CROSS.COM
   network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  sni: epge.muarua.filegear-sg.me
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 198.62.62.253
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
+    path: /trTelegram
+- name: 美国+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 144.31.81.233
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
 - name: 美国+CloudFlare节点
   network: ws
-  port: 80
+  port: 2052
   server: 104.20.6.134
   tls: false
   type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: vip.yaml7.ggff.net
-    path: '%2F+%40ProxyVPN11'
+      Host: index.0x14.workers.dev
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 135.84.74.20
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
 - name: '美国+CloudFlare节点 #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
+  port: 443
+  server: 104.19.229.21
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -31,99 +53,37 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr
-- name: 美国+Microsoft数据中心
+- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 20.16.105.244
-  servername: juzi8186.qea.ccwu.cc
-  tls: true
-  type: vless
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  ws-opts:
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-    path: '%2Fhot%2Fjuzibaipiao'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  port: 443
-  server: 104.20.6.134
-  sni: sni.111000.dynv6.net
+  server: 50.62.89.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: '%252F%253Fproxyip%253Dip.111000.de5.net%253A443'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-  server: 45.141.234.170
-  servername: www.google.com
-  tls: false
-  type: vless
-  uuid: 10e82fcc-94ec-4d09-8855-579bb55b77e4
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 80
-  server: 104.26.13.31
-  tls: false
-  type: vless
-  uuid: fe665bb7-a558-42bc-9ba7-a59288ee4b93
-  ws-opts:
-    headers:
-      Host: floral-term-d21f.wafajax493.workers.dev
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 8443
-  server: 104.20.6.134
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: /?Telegram+@v2rayngzendegimamad
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: 104.17.150.241
-  servername: juzi.qea.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  ws-opts:
-    headers:
-      Host: juzi.qea.ccwu.cc
-    path: '%2F'
+    path: /trTelegram🇨🇳 @WangCai2
 - name: '美国+V2CROSS.COM #2'
   network: ws
-  port: 12306
-  server: 209.38.241.0
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 192.0.63.253
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-    path: /@Marisa_kristifp=chrome
-- name: '美国+CloudFlare节点 #6'
+    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
   ws-opts:
     headers:
-      Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
-    path: /fp=randomized
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
