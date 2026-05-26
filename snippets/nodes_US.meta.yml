@@ -1,89 +1,131 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 23.165.104.123
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
 - name: 北美地区+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 198.62.62.253
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 美国+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 144.31.81.233
+  server: 104.254.140.253
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2052
-  server: 104.20.6.134
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: index.0x14.workers.dev
 - name: '美国+V2CROSS.COM #1'
   network: ws
-  port: 443
-  server: 135.84.74.20
-  servername: sni.111000.dynv6.net
+  port: 2096
+  server: 159.246.55.238
+  servername: sni.jpmj.dev
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.dynv6.net
+      Host: sni.jpmj.dev
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmloud.com
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 172.64.146.143
+  tls: false
+  type: vless
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  ws-opts:
+    headers:
+      Host: tt.andishehparenting.com
+    path: '%2F'
+- name: '美国+V2CROSS.COM #2'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 104.19.229.21
+  server: 155.248.213.201
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 50.62.89.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 192.0.63.253
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+    path: /trTelegram
 - name: '美国+CloudFlare节点 #2'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.12.149
+  port: 8443
+  server: ciallo-egb.pages.dev
+  servername: CiallO-eGb.pAGEs.Dev
   skip-cert-verify: true
-  sni: www.multiplydose.com
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: CiallO-eGb.pAGEs.Dev
+    path: '%2F%25252F'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: ciallo-egb.pages.dev
+  servername: CiaLLO-egb.PAGeS.dEV
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: CiaLLO-egb.PAGeS.dEV
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 141.101.114.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
-      Host: www.multiplydose.com
-    path: '%2Fassignment'
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 2052
+  server: 104.20.5.134
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: index.0x14.workers.dev
+    path: '%2Fassets'
+- name: '北美地区+V2CROSS.COM #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 104.167.196.91
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -130,65 +172,33 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: US_speednode_0021
+  client-fingerprint: chrome
+  flow: ''
+  name: US_speednode_0035
   network: tcp
-  port: 36895
+  port: 443
   reality-opts:
-    public-key: SKJQzoN8Lh8kqrDEyKzevbHHmfRhKe8XmzBxPYXF2A4
-    short-id: '!!str 5a585c3e894bf074'
-  server: 44.242.50.106
-  servername: www.icloud.com
+    public-key: 6NCa8hdmqu3ZpYSQkODtsExGL1M0wR0GI4XZbb3Kdxo
+    short-id: '!!str ce1b'
+  server: 216.57.108.24
+  servername: yahoo.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 5c875449-ae7d-46f8-b919-5a29f271dfce
+  uuid: 61bf6a18-727e-4492-ab5f-01dea4aa2df9
 - alpn:
   - ''
-  client-fingerprint: ''
+  client-fingerprint: chrome
   flow: ''
-  name: US_speednode_0023
-  network: ws
-  port: 2096
-  server: 172.64.47.168
-  servername: jp.aniua.qzz.io
+  name: US_speednode_0036
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: -5-QemzFc7ddcsXFtVEn1ciZmhkdxjnBPmhnqYPJEzM
+    short-id: '!!str 18730e64df45'
+  server: 144.31.30.131
+  servername: eh.vk.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: jp.aniua.qzz.io
-    path: '%2F%3Fed%3D2095'
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: ''
-  name: US_speednode_0024
-  network: ws
-  port: 443
-  server: 92.118.228.113
-  servername: c1mxc.api-gateway.fgfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: '%2Fdanfeng-2cm3%3Fed%3D2560'
-- alpn:
-  - ''
-  name: US_speednode_0026
-  network: ws
-  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gzjx.dpdns.org
-    path: '%2F51.91.253.83%3D8443'
+  uuid: 301a4309-0f4d-42bf-a057-7d60c7a73259

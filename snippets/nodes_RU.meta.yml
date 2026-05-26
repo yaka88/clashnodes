@@ -2,17 +2,20 @@ proxies:
 - name: 俄罗斯+V2CROSS.COM
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 92.246.136.90
+  port: 443
+  server: 185.106.95.125
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
 - alpn:
   - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: RU_speednode_0019
+  name: RU_speednode_0024
   network: tcp
   port: 22231
   server: r1.mizulina.top
@@ -25,12 +28,76 @@ proxies:
   - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: RU_speednode_0017
+  name: RU_speednode_0025
   network: tcp
-  port: 22231
-  server: 85.234.114.30
+  port: 443
+  server: 85.234.114.53
   servername: r1.mizulina.top
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0026
+  network: tcp
+  port: 50556
+  reality-opts:
+    public-key: tqZ-C6M7YzjR_sJ-V3OgU3tLUAv-KnJ9BQfIYfnVOHo
+    short-id: '!!str 23a3dee422d0cd1c'
+  server: 193.163.203.76
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 44fcf3b7-7baf-4b73-9f50-9f47967f7b29
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0027
+  network: tcp
+  port: 50573
+  reality-opts:
+    public-key: NcouT_UbeS3uAcbckd8QXzoTFpiFdlglgHOnhwy76Cg
+    short-id: '!!str 7b873acc934a727d'
+  server: 193.163.203.76
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d18a0f18-d5bd-43c1-bc08-e208473f30d8
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0028
+  network: tcp
+  port: 50592
+  reality-opts:
+    public-key: kATzSBDyNkm6Ee7p8Ad8iPD5CrJmkJ5n1T-l-LCRmXQ
+    short-id: '!!str b7ca855a4763a7ac'
+  server: 193.163.203.76
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 439f353b-b52f-4355-93d8-26e0567d5308
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0029
+  network: tcp
+  port: 50547
+  reality-opts:
+    public-key: ZAqXfcXRYWRBjEYJQInYWkFSKTSbd7NXg66D7MUZ2wg
+    short-id: '!!str 03d0fa9716a73af2'
+  server: 193.163.203.76
+  servername: kinopoisk.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: c5563e04-daff-4fea-a8ce-8741ad0bc2cf
