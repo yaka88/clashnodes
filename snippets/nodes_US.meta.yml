@@ -1,9 +1,43 @@
 proxies:
-- client-fingerprint: firefox
-  name: 美国+CloudFlare节点
+- alterId: 0
+  cipher: auto
+  name: 美国 加利福尼亚州圣何塞IKGlobal
+  network: tcp
+  port: '56738'
+  server: 103.127.243.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+- name: 美国+CloudFlare节点
   network: ws
-  port: 2087
-  server: cf6.danfeng.eu.org
+  port: 2052
+  server: 104.20.5.134
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: index.0x14.workers.dev
+    path: '%2Fassets'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 2053
+  server: ciallo-egb.pages.dev
+  servername: Ciallo-eGB.PageS.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Ciallo-eGB.PageS.dev
+    path: '%2F%25252F'
+- client-fingerprint: firefox
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 2096
+  server: cf9.danfeng.eu.org
   servername: juzi8186.qea.ccwu.cc
   skip-cert-verify: false
   tls: true
@@ -12,119 +46,8 @@ proxies:
   ws-opts:
     headers:
       Host: juzi8186.qea.ccwu.cc
-    path: '%2Finfo%2Freadme%2Fitems%2Fjuzibaipiao%3Fed%3D2560'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2096
-  server: 172.64.146.163
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540WangCai2%3D'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 141.101.120.253
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 美国+V2CROSS.COM
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 165.140.117.193
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0035
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6NCa8hdmqu3ZpYSQkODtsExGL1M0wR0GI4XZbb3Kdxo
-    short-id: '!!str ce1b'
-  server: 216.57.108.24
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 61bf6a18-727e-4492-ab5f-01dea4aa2df9
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  port: 2096
-  server: 159.246.55.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-- name: 美国+弗吉尼亚州阿什本Oracle云计算数据中心
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 150.136.243.175
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+    path: '%2Flib%2Fsoft%2Fpayment%2Fjuzibaipiao%3Fed%3D2560'
 - name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 2083
-  server: ciallo-egb.pages.dev
-  servername: cIAllO-EGB.pAGES.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: cIAllO-EGB.pAGES.dev
-    path: '%2F%25252F'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 2096
-  server: 104.20.6.134
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 104.20.6.134
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: '美国+CloudFlare节点 #6'
   network: ws
   port: 8443
   server: 104.20.6.134
@@ -136,27 +59,41 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: '%2F%3FTelegram+%40v2rayngzendegimamad'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 6604
-  server: 52.199.67.57
+  port: 5224
+  server: 95.40.28.136
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 5224
-  server: 43.207.110.128
+  port: 6604
+  server: 16.163.157.10
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22057
-  server: 13.114.188.23
+  port: 17801
+  server: 18.166.178.81
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -180,6 +117,22 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: US_speednode_0035
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6NCa8hdmqu3ZpYSQkODtsExGL1M0wR0GI4XZbb3Kdxo
+    short-id: '!!str ce1b'
+  server: 216.57.108.24
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 61bf6a18-727e-4492-ab5f-01dea4aa2df9
 - alpn:
   - ''
   client-fingerprint: chrome
