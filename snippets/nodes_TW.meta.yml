@@ -1,4 +1,11 @@
 proxies:
+- name: 台湾省+V2CROSS.COM
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
 - alterId: 0
   cipher: auto
   name: TW_speednode_0031
