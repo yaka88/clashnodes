@@ -1,92 +1,60 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
-  port: 2052
-  server: creativecommons.org
+  password: humanity
+  port: 443
+  server: v1.dabache.top
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #1'
+  network: tcp
+  port: 22
+  server: 172.65.111.43
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.229.75
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 2086
+  server: 104.20.6.134
   tls: false
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: index.0x14.workers.dev
-    path: '%2Fassets'
-- name: '美国+CloudFlare节点 #1'
+      Host: index.0x15.workers.dev
+    path: '%2FPdgTMW8NBNZYo6L23v'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   port: 80
-  server: 104.18.15.19
+  server: 104.18.14.19
   tls: false
   type: vless
   uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
   ws-opts:
     headers:
       Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
-    path: /
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 2086
-  server: creativecommons.org
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: index.0x15.workers.dev
-    path: '%2FPdgTMW8NBNZYo6L23v'
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 2096
-  server: 159.246.55.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 2052
-  server: 104.20.5.134
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: index.0x14.workers.dev
-    path: '%2Fassets'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 104.20.6.134
-  servername: y6-3cj.PAgES.DEV
-  tls: true
-  type: vless
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
-  ws-opts:
-    headers:
-      Host: y6-3cj.PAgES.DEV
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 2086
-  server: 104.20.5.134
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: index.0x15.workers.dev
-    path: '%2FPdgTMW8NBNZYo6L23v'
-- alterId: 0
-  cipher: auto
-  name: 美国 加利福尼亚州圣何塞IKGlobal
-  network: tcp
-  port: '56738'
-  server: 103.127.243.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+    path: '%2F'
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

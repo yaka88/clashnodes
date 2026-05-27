@@ -1,21 +1,4 @@
 proxies:
-- name: 台湾省+V2CROSS.COM
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 亚太地区 V2CROSS.COM
@@ -25,16 +8,66 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: v1.dabache.top
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
 - alterId: 0
   cipher: auto
-  name: 美国 加利福尼亚州圣何塞IKGlobal
+  name: '亚太地区 V2CROSS.COM #1'
   network: tcp
-  port: '56738'
-  server: 103.127.243.59
+  port: 51556
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 台湾省+V2CROSS.COM
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.229.75
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0006
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -157,15 +190,6 @@ proxies:
   port: '180'
   server: 82.198.246.233
   servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0006
-  network: tcp
-  port: 180
-  server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
