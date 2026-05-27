@@ -1,18 +1,7 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: v1.dabache.top
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
 - alpn:
   - http/1.1
-  name: '美国+CloudFlare节点 #2'
+  name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -24,6 +13,17 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: /assignment
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  sni: aa.beijng.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aa.beijng.dpdns.org
+    path: /?ed=2048
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -50,16 +50,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
@@ -68,3 +58,21 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0070
+  network: tcp
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0072
+  network: tcp
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
