@@ -3,8 +3,8 @@ proxies:
   cipher: auto
   name: 亚太地区 V2CROSS.COM
   network: tcp
-  port: 11120
-  server: dotu-jpv1.kunlun03dns.com
+  port: 11145
+  server: dotu-krv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
@@ -13,21 +13,55 @@ proxies:
   cipher: auto
   name: '亚太地区 V2CROSS.COM #1'
   network: tcp
-  port: 11122
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0007
+  network: tcp
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0008
+  network: tcp
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #4'
+  network: tcp
+  port: 11119
   server: dotu-jpv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.18.32.47
+  server: 104.20.6.134
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.calmloud.com
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
@@ -41,30 +75,10 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0021
+  name: '亚太地区 V2CROSS.COM #5'
   network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0004
-  network: tcp
-  port: 11111
-  server: dotu-twv1.kunlun03dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0009
-  network: tcp
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
@@ -176,6 +190,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: GB_speednode_0021
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
@@ -204,6 +228,15 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
+  name: CN_speednode_0004
+  network: tcp
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
   name: CN_speednode_0005
   network: tcp
   port: 11105
@@ -222,18 +255,9 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0007
+  name: CN_speednode_0009
   network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0008
-  network: tcp
-  port: 11128
+  port: 11130
   server: dotu-usv1.kunlun03dns.com
   tls: false
   type: vmess

@@ -1,26 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: EaaPtT7jhK6wTiZKklE7uHMjlege0ZN6TBqgojca2yg
-    short-id: '!!str 5a626ceb'
-  server: 96.47.238.103
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 6b2bd003-b3fd-4208-83f3-197f9a4d2297
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.18.32.47
+  server: 104.20.6.134
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.calmloud.com
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
@@ -32,20 +23,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0047
-  network: tcp
-  port: 8443
-  server: 130.49.219.126
-  servername: at16.fastlanehosting.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -70,6 +47,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0021
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国5|@ripaojiedian
@@ -124,6 +111,20 @@ proxies:
     headers:
       Host: www.app-cloud.ir
     path: '%2F%3Fed%3D2048'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: ''
+  name: US_speednode_0047
+  network: tcp
+  port: 8443
+  server: 130.49.219.126
+  servername: at16.fastlanehosting.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5
 - alpn:
   - ''
   name: US_speednode_0048
