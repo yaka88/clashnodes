@@ -1,6 +1,34 @@
 proxies:
 - alpn:
   - ''
+  client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: RU_speednode_0045
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+    short-id: '!!str '
+  server: 185.139.214.151
+  servername: cloudcdn-m9-15.cdn.yandex.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
+- client-fingerprint: chrome
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 19562
+  reality-opts:
+    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
+    short-id: '!!str 9e'
+  server: 90.156.254.164
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
+- alpn:
+  - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0042
@@ -38,22 +66,6 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alpn:
-  - ''
-  client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: RU_speednode_0045
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-    short-id: '!!str '
-  server: 185.139.214.151
-  servername: cloudcdn-m9-15.cdn.yandex.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
 - alpn:
   - ''
   client-fingerprint: chrome

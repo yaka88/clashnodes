@@ -1,121 +1,56 @@
 proxies:
-- client-fingerprint: firefox
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
-  port: 2096
-  server: cf9.danfeng.eu.org
-  servername: juzi8186.qea.ccwu.cc
-  skip-cert-verify: false
+  port: 443
+  server: 104.20.6.134
+  servername: r.meDiASHOPPp.sbS
   tls: true
   type: vless
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  uuid: 2088ef0d-4d2c-43b3-874b-b6a03531c81b
   ws-opts:
     headers:
-      Host: juzi8186.qea.ccwu.cc
-    path: '%2Flib%2Fsoft%2Fpayment%2Fjuzibaipiao%3Fed%3D2560'
+      Host: r.mediashoppp.sbs
+    path: '%2FeyJqdW5rIjoiVVpPeXNodUFQMHNVcU12aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D'
 - name: '美国+CloudFlare节点 #1'
   network: ws
+  password: humanity
   port: 443
-  server: 104.20.6.134
-  servername: y6-3cj.PAgES.DEV
-  tls: true
-  type: vless
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
+  server: 104.16.147.104
+  sni: www.creationlong.org
+  type: trojan
   ws-opts:
     headers:
-      Host: y6-3cj.PAgES.DEV
+      Host: www.creationlong.org
+    path: '%2Fassignment'
+- name: 美国+Amazon+EC2服务器
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 2096
-  server: 104.20.6.134
-  servername: sni.111000.indevs.in
+  port: 443
+  server: cf.877774.xyz
+  servername: pagescm.freen24.cc.cd
   tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F'
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
 - name: '美国+CloudFlare节点 #3'
   network: ws
-  port: 2052
-  server: creativecommons.org
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: index.0x14.workers.dev
-    path: '%2Fassets'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 2095
-  server: www.epicgames.com
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing-nmsl.cnmfangbinxing-0.workers.dev
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: 美国 加利福尼亚州圣何塞IKGlobal
-  network: tcp
-  port: '56738'
-  server: 103.127.243.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-- name: 美国+Vegasnap公司
-  network: ws
-  port: 8880
-  server: 104.129.164.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime40.workers.dev
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
-- name: 美国+Microsoft数据中心
-  network: ws
   port: 443
-  server: 20.16.105.244
-  servername: juzi8186.qea.ccwu.cc
-  tls: true
-  type: vless
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  ws-opts:
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-    path: '%2Fhot%2Fjuzibaipiao'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 50574
-  reality-opts:
-    public-key: CVJiOkrMyWN6mIX85kT5xqTlzOtW0_d08eoBIHw8Iyg
-    short-id: '!!str cbae7fd41d21563e'
-  server: 144.31.109.243
-  servername: kinopoisk.ru
-  tls: false
-  type: vless
-  uuid: 11697f33-7b99-45ad-ba9d-7e6b3574e916
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 2096
-  server: ciallo-egb.pages.dev
-  servername: CIALlO-EgB.pAGES.dEV
+  server: 104.25.242.61
+  servername: juzi.qea.ccwu.cc
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   ws-opts:
     headers:
-      Host: CIALlO-EgB.pAGES.dEV
+      Host: juzi.qea.ccwu.cc
+    path: '%2F'
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -140,16 +75,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国5|@ripaojiedian
