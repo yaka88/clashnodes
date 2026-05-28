@@ -32,35 +32,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: HK_speednode_0023
-  network: tcp
-  port: 25642
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '!!str 693b25e06841ac7f'
-  server: cdn.jp2.cocoduck.org
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: HK_speednode_0024
-  network: tcp
-  port: 45072
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '!!str 693b25e06841ac7f'
-  server: cdn.ph1.cocoduck.org
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85

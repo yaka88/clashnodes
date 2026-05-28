@@ -1,9 +1,33 @@
 proxies:
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: '!!str b8aa'
+  server: 194.226.169.36
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+- client-fingerprint: chrome
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 16622
+  reality-opts:
+    public-key: E5N_ckakvqgTOjiQ6Rmuwz1fchiT1-J3tH4cbzcH_GQ
+    short-id: '!!str 1c01d60ea915'
+  server: 77.73.238.191
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: f2e9df1b-e0ba-4b37-a301-6aab8662c926
 - alpn:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0042
+  name: RU_speednode_0037
   network: tcp
   port: 22231
   server: r1.mizulina.top
@@ -16,7 +40,7 @@ proxies:
   - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: RU_speednode_0043
+  name: RU_speednode_0036
   network: tcp
   port: 443
   server: 85.234.114.53
@@ -29,7 +53,7 @@ proxies:
   - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: RU_speednode_0044
+  name: RU_speednode_0038
   network: tcp
   port: 22231
   server: 85.234.114.53
@@ -40,33 +64,17 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alpn:
   - ''
-  client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: RU_speednode_0045
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-    short-id: '!!str '
-  server: 185.139.214.151
-  servername: cloudcdn-m9-15.cdn.yandex.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
-- alpn:
-  - ''
   client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0046
+  flow: ''
+  name: RU_speednode_0039
   network: tcp
   port: 443
   reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: '!!str d23e8ff546850d04'
-  server: sw.209qu4892fh8934.live
-  servername: godsjgoijoigofsiuh.com
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: '!!str b8aa'
+  server: 194.226.169.36
+  servername: yahoo.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: bbbdf76b-c952-43bf-aa76-a6dcd10f4ab9
+  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
