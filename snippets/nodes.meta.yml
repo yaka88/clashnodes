@@ -1,58 +1,6 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2095
-  server: www.epicgames.com
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing-nmsl.cnmfangbinxing-0.workers.dev
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- flow: xtls-rprx-vision
-  name: 保加利亚+V2CROSS.COM
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: jfQ43JU-FeRkFdHGJT5NBCX0GZaWTZjC7N23Z2POsh8
-    short-id: '97e4b5f5'
-  server: 87.120.219.103
-  servername: vk.com
-  tls: false
-  type: vless
-  uuid: 5e6242ef-7e51-4f8a-8441-bdd3381b7000
-- name: '美国+CloudFlare节点 #1'
-  network: tcp
-  port: 22
-  server: 172.65.111.43
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-- name: 荷兰+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 188.164.248.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
 - client-fingerprint: firefox
-  name: '美国+CloudFlare节点 #2'
+  name: 美国+CloudFlare节点
   network: ws
   port: 2096
   server: cf9.danfeng.eu.org
@@ -65,30 +13,123 @@ proxies:
     headers:
       Host: juzi8186.qea.ccwu.cc
     path: '%2Flib%2Fsoft%2Fpayment%2Fjuzibaipiao%3Fed%3D2560'
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 8443
+  port: 443
   server: 104.20.6.134
-  servername: sni.111000.dynv6.net
+  servername: y6-3cj.PAgES.DEV
   tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
   ws-opts:
     headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram+%40v2rayngzendegimamad'
-- name: 美国+V2CROSS.COM
+      Host: y6-3cj.PAgES.DEV
+- name: '美国+CloudFlare节点 #2'
   network: ws
   port: 2096
-  server: 45.40.147.138
+  server: 104.20.6.134
   servername: sni.111000.indevs.in
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
+    path: '%2F'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 2052
+  server: creativecommons.org
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: index.0x14.workers.dev
+    path: '%2Fassets'
+- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: 51556
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing-nmsl.cnmfangbinxing-0.workers.dev
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 美国 加利福尼亚州圣何塞IKGlobal
+  network: tcp
+  port: '56738'
+  server: 103.127.243.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+- name: 美国+Vegasnap公司
+  network: ws
+  port: 8880
+  server: 104.129.164.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime40.workers.dev
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
+- name: 英国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 109.176.239.50
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime03.workers.dev
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
+- name: 法国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 94.140.0.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime26.workers.dev
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
+- name: 美国+Microsoft数据中心
+  network: ws
+  port: 443
+  server: 20.16.105.244
+  servername: juzi8186.qea.ccwu.cc
+  tls: true
+  type: vless
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  ws-opts:
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+    path: '%2Fhot%2Fjuzibaipiao'
 - alpn:
   - ''
   flow: xtls-rprx-vision
@@ -104,87 +145,40 @@ proxies:
   tls: false
   type: vless
   uuid: 49f3fec2-1a21-481e-ae65-7c32ae262582
-- name: '美国+CloudFlare节点 #4'
+- flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 50574
+  reality-opts:
+    public-key: CVJiOkrMyWN6mIX85kT5xqTlzOtW0_d08eoBIHw8Iyg
+    short-id: 'cbae7fd41d21563e'
+  server: 144.31.109.243
+  servername: kinopoisk.ru
+  tls: false
+  type: vless
+  uuid: 11697f33-7b99-45ad-ba9d-7e6b3574e916
+- name: 南非+V2CROSS.COM
   network: ws
-  port: 2053
+  port: 8880
+  server: 102.177.189.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime29.workers.dev
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 2096
   server: ciallo-egb.pages.dev
-  servername: Ciallo-eGB.PageS.dev
+  servername: CIALlO-EgB.pAGES.dEV
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: Ciallo-eGB.PageS.dev
-    path: '%2F%25252F'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: 104.18.191.0
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  port: 2096
-  server: 104.26.5.134
-  servername: joey.freen1.de5.net
-  tls: true
-  type: vless
-  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
-  ws-opts:
-    headers:
-      Host: joey.freen1.de5.net
-    path: '%2F%3Fed%3D2048'
-- alterId: 0
-  cipher: auto
-  name: 美国 加利福尼亚州圣何塞IKGlobal
-  network: tcp
-  port: '56738'
-  server: 103.127.243.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 135.84.74.44
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?Telegram🇨🇳+@WangCai2=
-- name: 德国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 91.206.71.50
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime15.workers.dev
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 80
-  server: 104.18.15.19
-  tls: false
-  type: vless
-  uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
-  ws-opts:
-    headers:
-      Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
-    path: /
+      Host: CIALlO-EgB.pAGES.dEV
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -199,14 +193,14 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
-  server: 3.112.12.209
+  server: 52.69.114.14
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4327
-  server: 35.77.230.224
+  server: 54.168.196.137
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -221,16 +215,16 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4633
-  server: 54.248.176.41
+  port: 4099
+  server: 13.231.225.85
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 95.40.49.62
+  port: 8066
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -238,55 +232,55 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
-  server: 3.112.12.209
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3842
-  server: 95.40.28.136
+  port: 4840
+  server: 95.40.114.115
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2511
-  server: 13.115.88.193
+  port: 3842
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 140.235.140.105
+  port: 39756
+  server: 35.78.121.219
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 5224
-  server: 95.40.28.136
+  port: 2663
+  server: 95.40.114.115
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 6604
-  server: 16.163.157.10
+  port: 2663
+  server: 52.69.114.14
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.166.178.81
+  port: 2702
+  server: 43.206.155.159
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

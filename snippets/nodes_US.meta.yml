@@ -1,26 +1,6 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2095
-  server: www.epicgames.com
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing-nmsl.cnmfangbinxing-0.workers.dev
-    path: '%2F'
-- name: '美国+CloudFlare节点 #1'
-  network: tcp
-  port: 22
-  server: 172.65.111.43
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
 - client-fingerprint: firefox
-  name: '美国+CloudFlare节点 #2'
+  name: 美国+CloudFlare节点
   network: ws
   port: 2096
   server: cf9.danfeng.eu.org
@@ -33,68 +13,51 @@ proxies:
     headers:
       Host: juzi8186.qea.ccwu.cc
     path: '%2Flib%2Fsoft%2Fpayment%2Fjuzibaipiao%3Fed%3D2560'
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 8443
+  port: 443
   server: 104.20.6.134
-  servername: sni.111000.dynv6.net
+  servername: y6-3cj.PAgES.DEV
   tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
   ws-opts:
     headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram+%40v2rayngzendegimamad'
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
+      Host: y6-3cj.PAgES.DEV
+- name: '美国+CloudFlare节点 #2'
   network: ws
   port: 2096
-  server: 45.40.147.138
+  server: 104.20.6.134
   servername: sni.111000.indevs.in
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
+    path: '%2F'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 2052
+  server: creativecommons.org
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: index.0x14.workers.dev
+    path: '%2Fassets'
 - name: '美国+CloudFlare节点 #4'
   network: ws
-  port: 2053
-  server: ciallo-egb.pages.dev
-  servername: Ciallo-eGB.PageS.dev
-  skip-cert-verify: true
-  tls: true
+  port: 2095
+  server: www.epicgames.com
+  tls: false
   type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: Ciallo-eGB.PageS.dev
-    path: '%2F%25252F'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: 104.18.191.0
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  port: 2096
-  server: 104.26.5.134
-  servername: joey.freen1.de5.net
-  tls: true
-  type: vless
-  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
-  ws-opts:
-    headers:
-      Host: joey.freen1.de5.net
-    path: '%2F%3Fed%3D2048'
+      Host: cnmfangbinxing-nmsl.cnmfangbinxing-0.workers.dev
+    path: '%2F'
 - alterId: 0
   cipher: auto
   name: 美国 加利福尼亚州圣何塞IKGlobal
@@ -105,50 +68,75 @@ proxies:
   tls: false
   type: vmess
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+Vegasnap公司
   network: ws
-  port: 443
-  server: 135.84.74.44
-  servername: sni.111000.v6.navy
-  tls: true
+  port: 8880
+  server: 104.129.164.30
+  tls: false
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-    path: /?Telegram🇨🇳+@WangCai2=
-- name: '美国+CloudFlare节点 #7'
+      Host: vms.lifetime40.workers.dev
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
+- name: 美国+Microsoft数据中心
   network: ws
-  port: 80
-  server: 104.18.15.19
-  tls: false
+  port: 443
+  server: 20.16.105.244
+  servername: juzi8186.qea.ccwu.cc
+  tls: true
   type: vless
-  uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
   ws-opts:
     headers:
-      Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
-    path: /
+      Host: juzi8186.qea.ccwu.cc
+    path: '%2Fhot%2Fjuzibaipiao'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 50574
+  reality-opts:
+    public-key: CVJiOkrMyWN6mIX85kT5xqTlzOtW0_d08eoBIHw8Iyg
+    short-id: '!!str cbae7fd41d21563e'
+  server: 144.31.109.243
+  servername: kinopoisk.ru
+  tls: false
+  type: vless
+  uuid: 11697f33-7b99-45ad-ba9d-7e6b3574e916
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 2096
+  server: ciallo-egb.pages.dev
+  servername: CIALlO-EgB.pAGES.dEV
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: CIALlO-EgB.pAGES.dEV
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 5224
-  server: 95.40.28.136
+  port: 2663
+  server: 95.40.114.115
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 6604
-  server: 16.163.157.10
+  port: 2663
+  server: 52.69.114.14
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.166.178.81
+  port: 2702
+  server: 43.206.155.159
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

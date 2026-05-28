@@ -1,4 +1,12 @@
 proxies:
+- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: TW_speednode_0048
