@@ -1,23 +1,23 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+South+Cheshire+College
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
+    short-id: '!!str 5d'
+  server: 194.238.57.104
+  servername: www.icloud.com
+  tls: false
+  type: vless
+  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
 - name: 英国+V2CROSS.COM
   port: 47518
   server: de-on-demand.not-a-projects.xyz
   tls: false
   type: vless
   uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: '!!str 6d6f13013d3e1d0c'
-  server: 31.76.104.11
-  servername: g1.steptofreedom.one
-  tls: false
-  type: vless
-  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
 - alpn:
   - ''
   client-fingerprint: chrome
