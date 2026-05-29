@@ -1,32 +1,23 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0024
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
-    short-id: '!!str bdac121c7debdaba'
-  server: 148.253.211.237
-  servername: www.microsoft.com
-  skip-cert-verify: false
+- name: 英国+V2CROSS.COM
+  port: 47518
+  server: de-on-demand.not-a-projects.xyz
   tls: false
   type: vless
-  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
-- client-fingerprint: chrome
+  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
   name: '英国+V2CROSS.COM #1'
   network: tcp
   port: 443
   reality-opts:
-    public-key: enBIOTqlP6CHTvic3CLgpUd_AcJAAbAQIa-oFIk4dVU
-    short-id: '!!str 302e'
-  server: 194.33.34.167
-  servername: yahoo.com
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: '!!str 6d6f13013d3e1d0c'
+  server: 31.76.104.11
+  servername: g1.steptofreedom.one
   tls: false
   type: vless
-  uuid: 391ff971-a901-415e-b0f1-e0c0047e7a24
+  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
 - alpn:
   - ''
   client-fingerprint: chrome
@@ -61,6 +52,22 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0024
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    short-id: '!!str bdac121c7debdaba'
+  server: 148.253.211.237
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
 - alpn:
   - ''
   client-fingerprint: chrome

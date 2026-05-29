@@ -1,41 +1,16 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 19562
   reality-opts:
-    public-key: aQdv6gDmsVZc5dO1WmmEQ6Q_puJhNUurND-TJJjtCSs
-    short-id: '!!str 8f2c0e7a15bd'
-  server: 88.210.9.69
-  servername: images.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: ccbbd3a3-db22-4f82-956e-d65178de2743
-- name: '俄罗斯+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 95.182.97.249
-  tls: false
-  type: vless
-  uuid: a2b81a67-3cd2-42c7-a3f9-fd47ac27d4a1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- client-fingerprint: chrome
-  name: '俄罗斯+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
-    short-id: '!!str b8aa'
-  server: 194.226.169.36
+    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
+    short-id: '!!str 9e'
+  server: 90.156.254.164
   servername: yahoo.com
   tls: false
   type: vless
-  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
 - alpn:
   - ''
   client-fingerprint: chrome

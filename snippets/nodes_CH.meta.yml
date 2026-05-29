@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 瑞士+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: hikHYegxR1O_sGzFctGkQQEz5G8CZrdXxHSidEqSCh0
+    short-id: '!!str a8cb02a2dffa'
+  server: 81.29.156.195
+  servername: www.microsoft.com
+  tls: false
+  type: vless
+  uuid: 731d5e57-4511-4abe-ab01-ec66eb52d6e9
