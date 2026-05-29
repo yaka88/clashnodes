@@ -46,6 +46,24 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
+  name: CN_speednode_0007
+  network: tcp
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0008
+  network: tcp
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
   name: CN_speednode_0009
   network: tcp
   port: 11130

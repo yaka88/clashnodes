@@ -3,86 +3,76 @@ proxies:
   cipher: auto
   name: 亚太地区 V2CROSS.COM
   network: tcp
-  port: 11145
-  server: dotu-krv1.kunlun03dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '亚太地区 V2CROSS.COM #1'
-  network: tcp
-  port: 11143
-  server: dotu-krv1.kunlun03dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0007
-  network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0008
-  network: tcp
-  port: 11128
-  server: dotu-usv1.kunlun03dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '亚太地区 V2CROSS.COM #4'
-  network: tcp
-  port: 11119
+  port: 11121
   server: dotu-jpv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: US_speednode_0043
+  name: 美国 V2CROSS.COM
   network: tcp
-  port: 6001
+  port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   servername: ''
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
-  cipher: auto
-  name: '亚太地区 V2CROSS.COM #5'
+  cipher: aes-128-gcm
+  name: GB_speednode_0023
   network: tcp
-  port: 11135
+  port: 180
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #1'
+  network: tcp
+  port: 11136
   server: dotu-sgv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: 台湾省+V2CROSS.COM
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: 211.76.176.98
+  sni: yazhou10.dynu.net
+  type: trojan
+- name: 韩国+KT电信
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 12345
+  server: 59.30.42.194
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: '%2Ftrojan'
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #2'
+  network: tcp
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: '台湾省+V2CROSS.COM #1'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -255,6 +245,24 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
+  name: CN_speednode_0007
+  network: tcp
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0008
+  network: tcp
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
   name: CN_speednode_0009
   network: tcp
   port: 11130
@@ -328,15 +336,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0023
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   name: SC_speednode_0040
@@ -365,6 +364,15 @@ proxies:
     headers:
       Host: www.app-cloud.ir
     path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0043
+  network: tcp
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alpn:
   - ''
   name: US_speednode_0045
