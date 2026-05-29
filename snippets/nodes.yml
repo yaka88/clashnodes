@@ -2,77 +2,55 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
+  network: ws
+  port: 33201
+  server: yd2.ainivp.com
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0023
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
 - alterId: 0
   cipher: auto
   name: '亚太地区 V2CROSS.COM #1'
   network: tcp
-  port: 11136
+  port: 11135
   server: dotu-sgv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: 台湾省+V2CROSS.COM
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: 211.76.176.98
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: 韩国+KT电信
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 12345
-  server: 59.30.42.194
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
   skip-cert-verify: false
-  sni: vpn.rnmcnm.com
+  sni: 172.237.145.189
   type: trojan
-  ws-opts:
-    headers:
-      Host: vpn.rnmcnm.com
-    path: '%2Ftrojan'
 - alterId: 0
   cipher: auto
-  name: '亚太地区 V2CROSS.COM #2'
+  name: CN_speednode_0007
   network: tcp
-  port: 11112
-  server: dotu-twv1.kunlun03dns.com
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: '台湾省+V2CROSS.COM #1'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #3'
+  network: tcp
+  port: '11143'
+  server: dotu-krv1.kunlun03dns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -245,15 +223,6 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0007
-  network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
   name: CN_speednode_0008
   network: tcp
   port: 11128
@@ -333,6 +302,15 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0023
+  network: tcp
+  port: 180
+  server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

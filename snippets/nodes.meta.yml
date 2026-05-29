@@ -1,210 +1,228 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: tcp
-  port: 22
-  server: 172.65.111.43
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-- alpn:
-  - ''
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: RO_speednode_0032
+- flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
   network: tcp
   port: 443
-  server: 87.120.93.243
+  reality-opts:
+    public-key: aQdv6gDmsVZc5dO1WmmEQ6Q_puJhNUurND-TJJjtCSs
+    short-id: '8f2c0e7a15bd'
+  server: 88.210.9.69
+  servername: images.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: ccbbd3a3-db22-4f82-956e-d65178de2743
+- name: 美国+纽约市DigitalOcean云公司
+  network: ws
+  port: 2087
+  server: 138.68.1.18
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 保加利亚+V2CROSS.COM
+  network: tcp
+  port: 443
+  server: 87.120.93.140
   servername: sub.sbrf-cdn342.ru
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: raw
-  port: 443
-  server: s881.ccgfw.top
-  servername: s881.ccgfw.top
-  tls: true
-  type: vless
-  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
 - alterId: 0
   cipher: auto
   name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
+  network: ws
+  port: 33201
+  server: yd2.ainivp.com
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2095
-  server: cloudflare-dns.com
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
+      Host: yd2.ainivp.com
+    path: /ray
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: GB_speednode_0024
   network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
+  port: 443
+  reality-opts:
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    short-id: 'bdac121c7debdaba'
+  server: 148.253.211.237
+  servername: www.microsoft.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0023
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
+- name: '英国+V2CROSS.COM #1'
   network: tcp
-  port: 180
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-  skip-cert-verify: false
+  port: 443
+  reality-opts:
+    public-key: enBIOTqlP6CHTvic3CLgpUd_AcJAAbAQIa-oFIk4dVU
+    short-id: '302e'
+  server: 194.33.34.167
+  servername: yahoo.com
   tls: false
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 391ff971-a901-415e-b0f1-e0c0047e7a24
+- name: 法国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 81.255.154.10
+  servername: jp.aniua.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
+      Host: jp.aniua.qzz.io
+    path: /
 - alterId: 0
   cipher: auto
   name: '亚太地区 V2CROSS.COM #1'
   network: tcp
-  port: 11136
+  port: 11135
   server: dotu-sgv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 2095
-  server: www.wto.org
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
   skip-cert-verify: false
+  sni: 172.237.145.189
+  type: trojan
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 95.182.97.249
   tls: false
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: a2b81a67-3cd2-42c7-a3f9-fd47ac27d4a1
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
-- name: 台湾省+V2CROSS.COM
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: 211.76.176.98
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 16622
-  reality-opts:
-    public-key: E5N_ckakvqgTOjiQ6Rmuwz1fchiT1-J3tH4cbzcH_GQ
-    short-id: '1c01d60ea915'
-  server: 77.73.238.191
-  servername: yahoo.com
+      Host: ''
+    path: /
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 80
+  server: 199.232.57.91
   tls: false
   type: vless
-  uuid: f2e9df1b-e0ba-4b37-a301-6aab8662c926
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: RU_speednode_0037
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: ''
+  uuid: 04ac1574-583b-408b-a18f-259b62410ee3
+  ws-opts:
+    headers:
+      Host: FIjjI.gloBal.sSl.faStly.NeT.
+    path: /
+- name: 美国+华盛顿Cogent通信公司
+  network: ws
+  port: 443
+  server: 38.46.218.19
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
+- name: 乌克兰+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: MBkIKCORF_f5gqwnugFO7K4HUR8HAKPUuYVIarrQNU0
-    short-id: 'bfc5'
-  server: 31.76.120.162
-  servername: www.sony.com
+    public-key: CnFVrSvJ1Mhl_6QqKCCvXtEdlaJjN4MXWBkSswJ_gX0
+    short-id: '106c'
+  server: 91.225.217.28
+  servername: yahoo.com
   tls: false
   type: vless
-  uuid: 05e9d254-8ea8-4097-9450-d4aefc44bd7e
-- name: 韩国+KT电信
+  uuid: 296bbba2-b100-4d91-b8df-3fe03cc863c4
+- name: '美国+V2CROSS.COM #1'
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 12345
-  server: 59.30.42.194
+  port: 587
+  server: 23.27.126.32
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: vpn.rnmcnm.com
-    path: '%2Ftrojan'
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
 - alterId: 0
   cipher: auto
-  name: '亚太地区 V2CROSS.COM #2'
+  name: CN_speednode_0007
   network: tcp
-  port: 11112
-  server: dotu-twv1.kunlun03dns.com
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: '台湾省+V2CROSS.COM #1'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
+- name: '俄罗斯+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: 'b8aa'
+  server: 194.226.169.36
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+- name: 美国+加利福尼亚
+  network: ws
+  port: 443
+  server: 64.176.36.17
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 2083
+  server: 162.159.36.5
+  servername: newwk1.f1w.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: newwk1.f1w.de5.net
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #3'
+  network: tcp
+  port: '11143'
+  server: dotu-krv1.kunlun03dns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -377,15 +395,6 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0007
-  network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
   name: CN_speednode_0008
   network: tcp
   port: 11128
@@ -498,21 +507,15 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: GB_speednode_0024
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0023
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
-    short-id: 'bdac121c7debdaba'
-  server: 148.253.211.237
-  servername: www.microsoft.com
-  skip-cert-verify: false
+  port: 180
+  server: 82.198.246.37
   tls: false
-  type: vless
-  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   flow: xtls-rprx-vision
@@ -573,6 +576,31 @@ proxies:
   tls: false
   type: vless
   uuid: d78c12c4-6927-40b8-8550-ed9be00334da
+- alpn:
+  - ''
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: RO_speednode_0032
+  network: tcp
+  port: 443
+  server: 87.120.93.243
+  servername: sub.sbrf-cdn342.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: RU_speednode_0037
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alpn:
   - ''
   client-fingerprint: edge

@@ -1,98 +1,88 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: tcp
-  port: 22
-  server: 172.65.111.43
+- name: 美国+纽约市DigitalOcean云公司
+  network: ws
+  port: 2087
+  server: 138.68.1.18
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-- flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: raw
-  port: 443
-  server: s881.ccgfw.top
-  servername: s881.ccgfw.top
   tls: true
   type: vless
-  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2095
-  server: cloudflare-dns.com
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
+- name: 美国+Akamai科技公司CDN网络节点
   network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
   skip-cert-verify: false
+  sni: 172.237.145.189
+  type: trojan
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 80
+  server: 199.232.57.91
   tls: false
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 04ac1574-583b-408b-a18f-259b62410ee3
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
-- name: '美国+CloudFlare节点 #3'
+      Host: FIjjI.gloBal.sSl.faStly.NeT.
+    path: /
+- name: 美国+华盛顿Cogent通信公司
   network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
+  port: 443
+  server: 38.46.218.19
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
-- name: '美国+CloudFlare节点 #4'
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
+- name: '美国+V2CROSS.COM #1'
   network: ws
-  port: 2095
-  server: www.fbi.gov
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
+  port: 587
+  server: 23.27.126.32
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
-- name: '美国+CloudFlare节点 #5'
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
+- name: 美国+加利福尼亚
   network: ws
-  port: 2095
-  server: www.wto.org
-  servername: cnmfangbinxing.cnmfangbinxing-r.workers.dev
+  port: 443
+  server: 64.176.36.17
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-r.workers.dev
-    path: /fp=randomized
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 2083
+  server: 162.159.36.5
+  servername: newwk1.f1w.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: newwk1.f1w.de5.net
+    path: '%2F'
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

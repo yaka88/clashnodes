@@ -1,14 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
+- name: 美国+Akamai科技公司CDN网络节点
   network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  skip-cert-verify: false
+  sni: 172.237.145.189
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

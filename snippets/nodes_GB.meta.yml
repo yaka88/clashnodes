@@ -1,27 +1,32 @@
 proxies:
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0023
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
+- alpn:
+  - ''
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
+  name: GB_speednode_0024
   network: tcp
   port: 443
   reality-opts:
-    public-key: MBkIKCORF_f5gqwnugFO7K4HUR8HAKPUuYVIarrQNU0
-    short-id: '!!str bfc5'
-  server: 31.76.120.162
-  servername: www.sony.com
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    short-id: '!!str bdac121c7debdaba'
+  server: 148.253.211.237
+  servername: www.microsoft.com
+  skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 05e9d254-8ea8-4097-9450-d4aefc44bd7e
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
+- client-fingerprint: chrome
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: enBIOTqlP6CHTvic3CLgpUd_AcJAAbAQIa-oFIk4dVU
+    short-id: '!!str 302e'
+  server: 194.33.34.167
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 391ff971-a901-415e-b0f1-e0c0047e7a24
 - alpn:
   - ''
   client-fingerprint: chrome
@@ -47,22 +52,15 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0024
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0023
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
-    short-id: '!!str bdac121c7debdaba'
-  server: 148.253.211.237
-  servername: www.microsoft.com
-  skip-cert-verify: false
+  port: 180
+  server: 82.198.246.37
   tls: false
-  type: vless
-  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: chrome
