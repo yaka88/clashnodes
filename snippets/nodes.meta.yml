@@ -1,50 +1,47 @@
 proxies:
-- name: 乌克兰+V2CROSS.COM
-  network: raw
-  port: 8443
-  reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: '478dc6'
-  server: 178.215.238.148
-  servername: eh.vk.com
-  tls: false
-  type: vless
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
-- name: 美国+CloudFlare节点
+- alterId: 0
+  cipher: auto
+  name: 匈牙利 V2CROSS.COM
   network: ws
-  port: 443
-  server: 104.25.245.127
-  servername: juzi.qea.ccwu.cc
+  port: 30030
+  server: 109.61.109.204
+  servername: imafake.locker
   tls: true
-  type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  type: vmess
+  uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
   ws-opts:
     headers:
-      Host: juzi.qea.ccwu.cc
-    path: /fp=chrome
-- name: 俄罗斯+V2CROSS.COM
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0043
+  network: tcp
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: 美国+CloudFlare节点
+  network: ws
+  password: trojan
+  port: 2087
+  server: 22b.net
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    path: '%2F%3FBIA_TELEGRAM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29'
+- flow: xtls-rprx-vision
+  name: 保加利亚+V2CROSS.COM
   network: tcp
   port: 443
-  reality-opts:
-    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
-    short-id: 'b8aa'
-  server: 194.226.169.36
-  servername: yahoo.com
-  tls: false
+  server: 87.120.93.131
+  servername: sub.sbrf-cdn342.ru
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
-- flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: 'be0ce047'
-  server: 152.53.224.29
-  servername: stackoverflow.com
-  tls: false
-  type: vless
-  uuid: 4350fd8e-9f5d-47e7-a5f6-6161e0f7db9b
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
 - alpn:
   - ''
   client-fingerprint: edge
@@ -58,71 +55,59 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- flow: xtls-rprx-vision
-  name: 英国+South+Cheshire+College
+- name: 德国+V2CROSS.COM
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
-    short-id: '5d'
-  server: 194.238.57.104
-  servername: www.icloud.com
+  port: 666
+  server: 194.59.183.234
   tls: false
   type: vless
-  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: '匈牙利 V2CROSS.COM #1'
+  network: ws
+  port: 39953
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
 - flow: xtls-rprx-vision
-  name: 保加利亚+V2CROSS.COM
+  name: '保加利亚+V2CROSS.COM #1'
   network: tcp
   port: 443
-  server: 87.120.93.131
+  server: 87.120.93.140
   servername: sub.sbrf-cdn342.ru
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- name: 英国+V2CROSS.COM
-  port: 47518
-  server: de-on-demand.not-a-projects.xyz
-  tls: false
-  type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-- name: '美国+CloudFlare节点 #2'
-  network: ws
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '保加利亚+V2CROSS.COM #2'
   port: 443
-  server: 104.25.242.55
-  servername: juzi.qea.ccwu.cc
-  skip-cert-verify: true
+  server: 87.120.93.147
+  servername: sub.sbrf-cdn342.ru
   tls: true
   type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  ws-opts:
-    headers:
-      Host: juzi.qea.ccwu.cc
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- alpn:
+  - ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0038
   network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -527,19 +512,6 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alpn:
   - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0038
-  network: tcp
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alpn:
-  - ''
   flow: ''
   name: RU_speednode_0039
   network: tcp
@@ -581,15 +553,6 @@ proxies:
     headers:
       Host: www.app-cloud.ir
     path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0043
-  network: tcp
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alpn:
   - ''
   flow: xtls-rprx-vision
