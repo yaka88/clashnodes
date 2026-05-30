@@ -1,22 +1,26 @@
 proxies:
 - name: 美国+Akamai科技公司CDN网络节点
   network: tcp
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  sni: 172.237.145.189
+  type: trojan
+- name: '美国+Akamai科技公司CDN网络节点 #1'
+  network: tcp
   password: G2qM_GHnAEpbuIp1mcZh3mGvVn3+rHrwNe
   port: 443
   server: 172.232.194.147
   skip-cert-verify: false
   sni: 172.232.194.147
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
+- name: 美国+V2CROSS.COM
   network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
+  port: 443
+  server: 65.20.90.225
+  sni: www.sandbox-cloud.click
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -43,16 +47,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0021
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
@@ -61,68 +55,12 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: US_speednode_0043
+  name: US_speednode_0023
   network: tcp
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: 30829
+  server: v29.hdacd.com
   tls: false
   type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alpn:
-  - ''
-  name: US_speednode_0045
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: '%2F%3Fed%3D2048'
-- alpn:
-  - ''
-  name: US_speednode_0046
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 14.102.228.76
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: '%2F%3Fed%3D2048'
-- alpn:
-  - ''
-  name: US_speednode_0048
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 14.102.228.76
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: '%2F'
-- alpn:
-  - ''
-  name: US_speednode_0049
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: '%2F'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

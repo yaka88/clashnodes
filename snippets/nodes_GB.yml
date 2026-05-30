@@ -1,19 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0022
+  name: GB_speednode_0007
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0008
   network: tcp
   port: 180
   server: 82.198.246.214
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0023
+- alterId: 2
+  cipher: auto
+  name: GB_speednode_0009
   network: tcp
-  port: 180
-  server: 82.198.246.37
+  port: 30836
+  server: v36.hdacd.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
