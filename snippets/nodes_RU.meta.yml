@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 19562
+  reality-opts:
+    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
+    short-id: '!!str 9e'
+  server: 90.156.254.164
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3

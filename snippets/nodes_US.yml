@@ -1,25 +1,10 @@
 proxies:
-- name: 美国+Akamai科技公司CDN网络节点
+- name: 北美地区+V2CROSS.COM
   network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  password: AZWY=WAZk5TeVYmMUudr2xmeb00I3ymeMQ
   port: 443
-  server: 172.237.145.189
-  sni: 172.237.145.189
-  type: trojan
-- name: '美国+Akamai科技公司CDN网络节点 #1'
-  network: tcp
-  password: G2qM_GHnAEpbuIp1mcZh3mGvVn3+rHrwNe
-  port: 443
-  server: 172.232.194.147
-  skip-cert-verify: false
-  sni: 172.232.194.147
-  type: trojan
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
-  port: 443
-  server: 65.20.90.225
-  sni: www.sandbox-cloud.click
+  server: 23.227.193.173
+  sni: www.dataset-logger.click
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp

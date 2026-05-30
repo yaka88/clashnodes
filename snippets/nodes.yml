@@ -1,4 +1,21 @@
 proxies:
+- name: 北美地区+V2CROSS.COM
+  network: tcp
+  password: AZWY=WAZk5TeVYmMUudr2xmeb00I3ymeMQ
+  port: 443
+  server: 23.227.193.173
+  sni: www.dataset-logger.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: GB_speednode_0007
@@ -9,38 +26,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '51556'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
-  sni: 172.237.145.189
-  type: trojan
-- name: '美国+Akamai科技公司CDN网络节点 #1'
-  network: tcp
-  password: G2qM_GHnAEpbuIp1mcZh3mGvVn3+rHrwNe
-  port: 443
-  server: 172.232.194.147
-  skip-cert-verify: false
-  sni: 172.232.194.147
-  type: trojan
-- name: 美国+V2CROSS.COM
-  network: tcp
-  password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
-  port: 443
-  server: 65.20.90.225
-  sni: www.sandbox-cloud.click
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

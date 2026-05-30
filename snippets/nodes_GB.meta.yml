@@ -1,4 +1,39 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+社会保险安全部
+  network: tcp
+  port: 44520
+  reality-opts:
+    public-key: MrLRcU_2S2CpUc7VT3ajIavX5NYUiQdP6J5QTDFNGFU
+    short-id: '!!str 8897c56a495b26cc'
+  server: 51.44.25.250
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: acd726d3-0128-44d8-a575-21013ff7740a
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: '360'
+  name: 英国+Level3通信股份有限公司
+  network: ws
+  port: 2083
+  server: 217.163.76.118
+  servername: fl0.lizardshop.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 41f37ced-2021-4111-93a8-82d57ff2eb5b
+  ws-opts:
+    path: '%2F%3Fed'
 - alterId: 0
   cipher: auto
   name: GB_speednode_0007
