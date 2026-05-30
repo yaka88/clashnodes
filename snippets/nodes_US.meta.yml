@@ -1,43 +1,41 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
-  password: humanity
   port: 443
-  server: 104.16.147.104
-  sni: www.creationlong.org
-  type: trojan
+  server: 104.25.252.37
+  servername: juzi.qea.ccwu.cc
+  tls: true
+  type: vless
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   ws-opts:
     headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
+      Host: juzi.qea.ccwu.cc
+    path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 美国+V2CROSS.COM
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
-    short-id: '!!str 92d0c4089b6c1da3'
-  server: 132.243.231.122
-  servername: io.ozone.ru
-  tls: false
+  network: ws
+  port: 2083
+  server: 63.141.128.5
+  servername: mzaxmc.lizardshop.org
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 7625adbb-52f7-4ff4-95f8-677471071a77
+  uuid: 41f37ced-2021-4111-93a8-82d57ff2eb5b
+  ws-opts:
+    path: '%2F%3Fed'
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: G2qM_GHnAEpbuIp1mcZh3mGvVn3+rHrwNe
+  port: 443
+  server: 172.232.194.147
+  skip-cert-verify: false
+  sni: 172.232.194.147
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 美国 V2CROSS.COM
   network: tcp
-  port: '6003'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: tcp
-  port: '6004'
+  port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   servername: ''
   tls: false

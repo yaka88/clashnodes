@@ -1,30 +1,17 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: G2qM_GHnAEpbuIp1mcZh3mGvVn3+rHrwNe
   port: 443
-  server: 104.16.147.104
-  sni: www.creationlong.org
+  server: 172.232.194.147
+  skip-cert-verify: false
+  sni: 172.232.194.147
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
   name: 美国 V2CROSS.COM
   network: tcp
-  port: '6003'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: tcp
-  port: '6004'
+  port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   servername: ''
   tls: false
