@@ -1,14 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+威尔士阿伯斯威大学
   network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
+  port: 443
+  reality-opts:
+    public-key: odHeTqoDcoPA6jeZStmaFPqoFg0ZiWwOKREEB0X-ez4
+    short-id: '!!str e069bfaf9ba2069c'
+  server: 144.124.228.113
+  servername: nl3.panel11.ru
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  type: vless
+  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
 - alterId: 0
   cipher: auto
   name: GB_speednode_0007
@@ -19,29 +22,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 英国+Level3通信股份有限公司
-  network: ws
-  port: 2083
-  server: 217.163.76.118
-  servername: fl0.lizardshop.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 41f37ced-2021-4111-93a8-82d57ff2eb5b
-  ws-opts:
-    path: /?ed
-- name: 英国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 80.93.202.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-    path: /
 - alterId: 0
   cipher: auto
   name: GB_speednode_0008

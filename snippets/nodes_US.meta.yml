@@ -1,41 +1,84 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: GFKdmtxlB5JubXEfTy6PNIeuqN8ys53SPwV3zat3Fzg
-    short-id: '!!str 3c6a5f13df37ed6e'
-  server: long-forest.ru
-  servername: winter-pine.long-forest.ru
-  tls: false
-  type: vless
-  uuid: cca617a2-ede0-4855-a2ef-cc7f218ba75d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
   network: tcp
-  port: 8443
-  reality-opts:
-    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
-    short-id: '!!str 92d0c4089b6c1da3'
-  server: 132.243.231.122
-  servername: io.ozone.ru
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
   tls: false
-  type: vless
-  uuid: 7625adbb-52f7-4ff4-95f8-677471071a77
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - name: 美国+CloudFlare节点
   network: ws
-  port: 80
-  server: 162.159.61.158
+  port: 2086
+  server: creativecommons.org
   tls: false
   type: vless
-  uuid: 97ddf9a6-de5b-4229-bc41-4627321eff43
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: potifar.kravend4.workers.dev
-    path: /?ed=2048
+      Host: index.0x15.workers.dev
+    path: '%2FPdgTMW8NBNZYo6L23v'
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: tcp
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- client-fingerprint: chrome
+  name: 美国+V2CROSS.COM
+  network: ws
+  port: 2083
+  server: 63.141.128.5
+  servername: mzaxmc.lizardshop.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 41f37ced-2021-4111-93a8-82d57ff2eb5b
+  ws-opts:
+    path: /?ed
+- name: 美国+DXC+Technology
+  network: ws
+  port: 443
+  server: 20.103.221.187
+  servername: literate-funicular-xr59q5x9v7g6c995w-443.app.github.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4b616b6f-6f6c-4e65-7773-b8e2c9f3d541
+  ws-opts:
+    path: /
+- name: 美国+Versaweb
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 8443
+  server: 104.143.0.117
+  skip-cert-verify: true
+  sni: vpn.rnmcnm.com
+  type: trojan
+  ws-opts:
+    path: /trojan
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.multiplydose.com
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: raw
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  port: 443
+  server: 130.94.107.171
+  sni: www.logger-guard.click
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

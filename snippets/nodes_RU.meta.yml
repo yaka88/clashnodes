@@ -1,11 +1,15 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  tls: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: grpc
+  port: 40470
+  reality-opts:
+    public-key: kn16KgkUCMVfqSIwKI9fd0yDy6VcavlTt56LqE_7JWI
+    short-id: '!!str 1fad87'
+  server: 85.198.85.193
+  servername: 5post-gate.x5.ru
+  tls: false
   type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: b43c896e-d9b8-4606-b902-b1bf6d10d2f9
