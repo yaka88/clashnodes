@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: raw
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: grpc
+  port: 40470
+  reality-opts:
+    public-key: kn16KgkUCMVfqSIwKI9fd0yDy6VcavlTt56LqE_7JWI
+    short-id: '!!str 1fad87'
+  server: 85.198.85.193
+  servername: 5post-gate.x5.ru
+  tls: false
+  type: vless
+  uuid: b43c896e-d9b8-4606-b902-b1bf6d10d2f9
