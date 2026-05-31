@@ -23,3 +23,16 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: JP_speednode_0008
+  network: ws
+  port: 10055
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  tls: false
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /

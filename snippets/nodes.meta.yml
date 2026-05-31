@@ -1,11 +1,14 @@
 proxies:
-- name: 美国+Akamai科技公司CDN网络节点
+- alterId: 0
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
   network: tcp
-  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
-  port: 443
-  server: 172.236.220.10
-  sni: 172.236.220.10
-  type: trojan
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 美国 V2CROSS.COM
@@ -16,73 +19,20 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alpn:
-  - ''
-  flow: ''
-  name: CH_speednode_0003
-  network: tcp
-  port: 443
+- name: 俄罗斯+V2CROSS.COM
+  network: grpc
+  port: 16146
   reality-opts:
-    public-key: PYX0lu3m0L_h28eW4186s63gRFHXoTc3K9wKeFewDUQ
-    short-id: 'e9a8'
-  server: 138.124.244.248
-  servername: yahoo.com
-  skip-cert-verify: false
+    public-key: lCkGLh6mypATTCMgrwjjqOxWBISCIB9fmdt_5Fff3Ug
+    short-id: 'e7eac240'
+  server: 95.182.80.130
+  servername: www.samsung.com
   tls: false
   type: vless
-  uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66
-- name: 北美地区+V2CROSS.COM
-  network: ws
-  password: rYuChHcwQZskq9E0zdoR
-  port: 443
-  server: 104.152.48.205
-  sni: vpn5.rnmcnm.com
-  type: trojan
-  ws-opts:
-    path: '%2Fws-79dffb8106db'
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: raw
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 德国+V2CROSS.COM
-  network: tcp
-  port: 666
-  server: 194.59.183.234
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: c1e32c6c-9a14-4edf-95c7-b1236a55aa07
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- grpc-opts:
-    grpc-service-name: ''
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: grpc
-  port: 40470
-  reality-opts:
-    public-key: kn16KgkUCMVfqSIwKI9fd0yDy6VcavlTt56LqE_7JWI
-    short-id: '1fad87'
-  server: 85.198.85.193
-  servername: 5post-gate.x5.ru
-  tls: false
-  type: vless
-  uuid: b43c896e-d9b8-4606-b902-b1bf6d10d2f9
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0008
   network: tcp
   port: 180
   server: 82.198.246.214
@@ -90,27 +40,82 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+CloudFlare节点
-  network: tcp
-  port: 22
-  server: 172.65.111.43
+- alpn:
+  - h3
+  name: 荷兰+V2CROSS.COM
+  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
+  port: 443
+  server: 150.129.10.140
+  sni: u712927us614.ccgfw.online
   tls: false
+  type: hysteria2
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 俄罗斯+Rubtsovsk+Branch+of+Altai+...
+  network: tcp
+  port: 443
+  server: s298.okgg.top
+  servername: u712927u3556s298.okgg.top
+  tls: true
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: bc7c7c10-8f24-332e-b303-fb3c8943c24f
   ws-opts:
-    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+    headers:
+      Host: s298.okgg.top
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '亚太地区 V2CROSS.COM #1'
+  network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 美国+Versaweb
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 8443
+  server: 104.143.0.117
+  skip-cert-verify: true
+  sni: vpn.rnmcnm.com
+  type: trojan
+  ws-opts:
+    path: /trojan
+- alterId: 0
+  cipher: auto
+  name: '美国 V2CROSS.COM #1'
+  network: tcp
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
+  port: 443
+  server: 172.235.63.252
+  skip-cert-verify: true
+  sni: 172.235.63.252
+  type: trojan
 - flow: xtls-rprx-vision
-  name: 摩尔多瓦+V2CROSS.COM
+  name: 英国+社会保险安全部
   network: tcp
   port: 443
   reality-opts:
-    public-key: ps7eCLLKAqgSGPFRQl1-R1PhzUeO1Z1EwNl02Ac63UA
-    short-id: '514d02a2addd6476'
-  server: pl.prostosetup.org
-  servername: pl.prostosetup.org
+    public-key: gLwECcibrJ-wErHzfYbPzMDVu6960VNuXUhjOQ3rUQk
+  server: 51.250.106.197
+  servername: max.ru
   tls: false
   type: vless
-  uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -218,9 +223,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0007
+  name: 美国4|@ripaojiedian
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.250
   servername: ''
   tls: false
@@ -239,61 +244,99 @@ proxies:
 - alpn:
   - ''
   flow: ''
-  name: BG_speednode_0001
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: '478dc6'
-  server: 178.215.238.148
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: GB_speednode_0006
+  name: CH_speednode_0001
   network: tcp
   port: 443
   reality-opts:
-    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
-    short-id: '5d'
-  server: 194.238.57.104
-  servername: www.icloud.com
+    public-key: PYX0lu3m0L_h28eW4186s63gRFHXoTc3K9wKeFewDUQ
+    short-id: 'e9a8'
+  server: 138.124.244.248
+  servername: yahoo.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+  uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: CH_speednode_0002
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8
+    short-id: ''
+  server: mzonede.3cloudhost.com
+  servername: mzone.3cloudhost.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f3368578-8389-458d-9aee-08dc350c5230
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: ES_speednode_0004
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4
+    short-id: '8237eb'
+  server: 195.96.132.125
+  servername: www.vk.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
 - alterId: 2
   cipher: auto
-  name: GB_speednode_0009
+  name: GB_speednode_0006
   network: tcp
-  port: 30836
-  server: v36.hdacd.com
+  port: 30806
+  server: v6.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - ''
+  name: HK_speednode_0007
+  network: tcp
+  password: 65fQmPHHbPcBCfvSHt
+  port: 443
+  server: au-4.tr202605.com
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: JP_speednode_0008
+  network: ws
+  port: 10055
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  tls: false
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - ''
   flow: xtls-rprx-vision
-  name: GB_speednode_0010
+  name: MD_speednode_0011
   network: tcp
   port: 443
   reality-opts:
-    public-key: UJSYKOEr3a3V1P_obd9zNBq4Pr3Vbd_a2nHE7-rstRk
-    short-id: '6089640857a72237'
-  server: 217.179.6.84
-  servername: France1cxc.chickenkiller.com
+    public-key: ps7eCLLKAqgSGPFRQl1-R1PhzUeO1Z1EwNl02Ac63UA
+    short-id: '514d02a2addd6476'
+  server: 94.103.0.230
+  servername: pl.prostosetup.org
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
+  uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
 - alpn:
   - ''
   flow: ''
-  name: MD_speednode_0013
+  name: MD_speednode_0012
   network: tcp
   port: 443
   reality-opts:
@@ -308,255 +351,114 @@ proxies:
 - alpn:
   - ''
   flow: xtls-rprx-vision
+  name: MD_speednode_0013
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ps7eCLLKAqgSGPFRQl1-R1PhzUeO1Z1EwNl02Ac63UA
+    short-id: '514d02a2addd6476'
+  server: pl.prostosetup.org
+  servername: pl.prostosetup.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: xtls-rprx-vision
   name: NL_speednode_0014
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: '6d6f13013d3e1d0c'
+  server: g3.steptofsvo.com
+  servername: g3.steptofsvo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: RU_speednode_0022
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - ''
+  flow: ''
+  name: RU_speednode_0020
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: 'b8aa'
+  server: 194.226.169.36
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+- alpn:
+  - ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0023
+  network: tcp
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0026
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - ''
+  flow: ''
+  name: RU_speednode_0025
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: 'b8aa'
+  server: 194.226.169.36
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: US_speednode_0028
   network: tcp
   port: 8443
   reality-opts:
-    public-key: ZxJt0FNyLrIrrd4c1Uehe86Iqk0BBbKjbP1kEJxOAAg
-    short-id: '0f26cb0528'
-  server: 45.66.161.10
-  servername: ya.ru
+    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
+    short-id: '92d0c4089b6c1da3'
+  server: 132.243.231.122
+  servername: io.ozone.ru
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
-- alterId: 0
-  cipher: auto
-  name: NN_speednode_0015
-  network: ws
-  port: 33408
-  server: yd3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alpn:
-  - http/1.1
-  flow: ''
-  name: NZ_speednode_0016
-  network: ws
-  port: 443
-  server: 202.37.33.81
-  servername: m.udemy.com.cyylr.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
-  ws-opts:
-    headers:
-      Host: m.udemy.com.cyylr.eu.cc
-    path: '%2Fid-tksi'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: SG_speednode_0020
-  network: ws
-  port: 80
-  server: cdn.irandoc.info
-  servername: cdn.irandoc.info
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: fb206250-709c-44d7-b887-08f66dd7a974
-  ws-opts:
-    headers:
-      Host: cdn.irandoc.info
-    path: '%2F16475%2Fmci'
-- alterId: 0
-  cipher: auto
-  name: TW_speednode_0022
-  network: tcp
-  port: 53229
-  server: 103.127.243.54
-  tls: false
-  type: vmess
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
-- alterId: 2
-  cipher: auto
-  name: US_speednode_0023
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  flow: ''
-  name: US_speednode_0024
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: ''
-  server: 47.80.14.130
-  servername: api.company-target.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0025
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
-    short-id: '7994d24409820c44'
-  server: r1uvt3.sgvless.yydzx.xyz
-  servername: deb.debian.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0026
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
-    short-id: '7994d24409820c44'
-  server: b2ob8r.sgvless.yydzx.xyz
-  servername: deb.debian.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - ''
-  client-fingerprint: randomized
-  flow: ''
-  name: US_speednode_0027
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  servername: cnmfangbinxing.cnmfangbinxing.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing.workers.dev
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: randomized
-  flow: ''
-  name: US_speednode_0028
-  network: ws
-  port: 2095
-  server: docs.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing.workers.dev
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: randomized
-  flow: ''
-  name: US_speednode_0029
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: cnmfangbinxing.cnmfangbinxing.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing.workers.dev
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: randomized
-  flow: ''
-  name: US_speednode_0030
-  network: ws
-  port: 2095
-  server: itarmy.com.ua
-  servername: cnmfangbinxing.cnmfangbinxing.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing.workers.dev
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: randomized
-  flow: ''
-  name: US_speednode_0031
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing.workers.dev
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: randomized
-  flow: ''
-  name: US_speednode_0032
-  network: ws
-  port: 2095
-  server: cdnjs.com
-  servername: cnmfangbinxing.cnmfangbinxing.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing.workers.dev
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0033
-  network: tcp
-  port: 443
-  server: 155.117.127.137
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 5a20b5d0-3a98-4792-9559-95f4e24277ec
-- alpn:
-  - http/1.1
-  flow: ''
-  name: US_speednode_0034
-  network: ws
-  port: 443
-  server: 162.159.141.236
-  servername: newspeedbypass.wt4p2ppro.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 44a59812-43ff-46ff-8acc-c7fe4dfc4e46
-  ws-opts:
-    headers:
-      Host: newspeedbypass.wt4p2ppro.me
-    path: '%2F'
+  uuid: 7625adbb-52f7-4ff4-95f8-677471071a77

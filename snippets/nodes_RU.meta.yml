@@ -1,25 +1,102 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 俄罗斯+V2CROSS.COM
-  network: raw
+  network: grpc
+  port: 16146
+  reality-opts:
+    public-key: lCkGLh6mypATTCMgrwjjqOxWBISCIB9fmdt_5Fff3Ug
+    short-id: '!!str e7eac240'
+  server: 95.182.80.130
+  servername: www.samsung.com
+  tls: false
+  type: vless
+  uuid: c1e32c6c-9a14-4edf-95c7-b1236a55aa07
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 俄罗斯+Rubtsovsk+Branch+of+Altai+...
+  network: tcp
   port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
+  server: s298.okgg.top
+  servername: u712927u3556s298.okgg.top
+  tls: true
+  type: vless
+  uuid: bc7c7c10-8f24-332e-b303-fb3c8943c24f
+  ws-opts:
+    headers:
+      Host: s298.okgg.top
+    path: ''
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0022
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: ''
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ''
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: grpc
-  port: 40470
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: RU_speednode_0020
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: kn16KgkUCMVfqSIwKI9fd0yDy6VcavlTt56LqE_7JWI
-    short-id: '!!str 1fad87'
-  server: 85.198.85.193
-  servername: 5post-gate.x5.ru
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: '!!str b8aa'
+  server: 194.226.169.36
+  servername: yahoo.com
+  skip-cert-verify: false
   tls: false
   type: vless
-  uuid: b43c896e-d9b8-4606-b902-b1bf6d10d2f9
+  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+- alpn:
+  - ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0023
+  network: tcp
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0026
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: RU_speednode_0025
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: '!!str b8aa'
+  server: 194.226.169.36
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872

@@ -3,60 +3,30 @@ proxies:
   cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0008
-  network: tcp
   port: 180
   server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: GB_speednode_0006
+  name: 英国+社会保险安全部
   network: tcp
   port: 443
   reality-opts:
-    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
-    short-id: '!!str 5d'
-  server: 194.238.57.104
-  servername: www.icloud.com
-  skip-cert-verify: false
+    public-key: gLwECcibrJ-wErHzfYbPzMDVu6960VNuXUhjOQ3rUQk
+  server: 51.250.106.197
+  servername: max.ru
   tls: false
   type: vless
-  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
-  name: GB_speednode_0009
+  name: GB_speednode_0006
   network: tcp
-  port: 30836
-  server: v36.hdacd.com
+  port: 30806
+  server: v6.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0010
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UJSYKOEr3a3V1P_obd9zNBq4Pr3Vbd_a2nHE7-rstRk
-    short-id: '!!str 6089640857a72237'
-  server: 217.179.6.84
-  servername: France1cxc.chickenkiller.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d78c12c4-6927-40b8-8550-ed9be00334da

@@ -1,8 +1,1 @@
-proxies:
-- name: 德国+V2CROSS.COM
-  network: tcp
-  port: 666
-  server: 194.59.183.234
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+proxies: []
