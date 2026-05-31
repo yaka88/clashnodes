@@ -1,23 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+威尔士阿伯斯威大学
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: odHeTqoDcoPA6jeZStmaFPqoFg0ZiWwOKREEB0X-ez4
-    short-id: '!!str e069bfaf9ba2069c'
-  server: 144.124.228.113
-  servername: nl3.panel11.ru
-  tls: false
-  type: vless
-  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0007
+  name: 英国 V2CROSS.COM
   network: tcp
-  port: 180
-  server: 82.198.246.250
+  port: '180'
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
