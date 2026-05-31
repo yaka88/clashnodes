@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 加拿大+魁北克省蒙特利尔Amazon数据中心
-  network: tcp
-  port: 51072
-  reality-opts:
-    public-key: 5KJ1tLErCUEfqxc3IsnY_49p_gWe0mPB8eXJ3MLucgU
-    short-id: '!!str 0675732ab101'
-  server: 35.182.252.92
-  servername: www.sony.com
-  tls: false
-  type: vless
-  uuid: b6b2c827-4ac1-4e2c-af28-dfa7edbfeb81
+proxies: []
