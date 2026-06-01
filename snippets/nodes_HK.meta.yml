@@ -34,11 +34,11 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: HK_speednode_0007
+  name: HK_speednode_0023
   network: tcp
-  password: 65fQmPHHbPcBCfvSHt
-  port: 443
-  server: au-4.tr202605.com
-  skip-cert-verify: false
+  password: BxceQaOe
+  port: 47655
+  server: 43.199.61.178
+  skip-cert-verify: true
   sni: ''
   type: trojan
