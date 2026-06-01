@@ -1,53 +1,107 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 美国+Versaweb
+- name: 美国+V2CROSS.COM
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 8443
-  server: 104.143.0.117
+  port: 8880
+  server: 192.169.223.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 8880
+  server: 45.153.7.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime11.workers.dev
+    path: '%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  port: 15807
+  server: 138.2.112.117
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
   skip-cert-verify: true
-  sni: vpn.rnmcnm.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+    path: /@Marisa_kristifp=chrome
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: /trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: tcp
-  port: '6004'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
-  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
-  port: 443
-  server: 172.235.63.252
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '美国+V2CROSS.COM #3'
+  network: ws
+  port: 56671
+  server: 173.249.210.53
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
   skip-cert-verify: true
-  sni: 172.235.63.252
-  type: trojan
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+    path: /@Marisa_kristifp=chrome
+- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
+  network: ws
+  port: 8880
+  server: 198.71.189.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+- name: '美国+V2CROSS.COM #4'
+  network: ws
+  port: 8880
+  server: 45.131.4.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
 - name: 美国|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
-  server: 175.41.230.39
+  server: 16.163.157.108
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
   server: 54.238.76.39
   skip-cert-verify: true
@@ -56,8 +110,8 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 54.238.206.69
+  port: 2520
+  server: 95.40.4.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

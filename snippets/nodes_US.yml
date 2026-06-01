@@ -1,53 +1,29 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 美国+Versaweb
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 8443
-  server: 104.143.0.117
-  skip-cert-verify: true
-  sni: vpn.rnmcnm.com
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: /trojan
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: tcp
-  port: '6004'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
-  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
-  port: 443
-  server: 172.235.63.252
-  skip-cert-verify: true
-  sni: 172.235.63.252
-  type: trojan
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
-  server: 175.41.230.39
+  server: 16.163.157.108
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
   server: 54.238.76.39
   skip-cert-verify: true
@@ -56,8 +32,8 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 54.238.206.69
+  port: 2520
+  server: 95.40.4.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

@@ -1,16 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  network: grpc
-  port: 16146
-  reality-opts:
-    public-key: lCkGLh6mypATTCMgrwjjqOxWBISCIB9fmdt_5Fff3Ug
-    short-id: '!!str e7eac240'
-  server: 95.182.80.130
-  servername: www.samsung.com
-  tls: false
-  type: vless
-  uuid: c1e32c6c-9a14-4edf-95c7-b1236a55aa07
 - alpn:
   - ''
   client-fingerprint: random
@@ -29,6 +17,29 @@ proxies:
     headers:
       Host: s298.okgg.top
     path: ''
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: grpc
+  port: 16146
+  reality-opts:
+    public-key: lCkGLh6mypATTCMgrwjjqOxWBISCIB9fmdt_5Fff3Ug
+    short-id: '!!str e7eac240'
+  server: 95.182.80.130
+  servername: www.samsung.com
+  tls: false
+  type: vless
+  uuid: c1e32c6c-9a14-4edf-95c7-b1236a55aa07
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 8880
+  server: 194.53.53.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /
 - alpn:
   - ''
   client-fingerprint: chrome

@@ -1,54 +1,49 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: tcp
-  port: '51556'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 俄罗斯+V2CROSS.COM
-  network: grpc
-  port: 16146
-  reality-opts:
-    public-key: lCkGLh6mypATTCMgrwjjqOxWBISCIB9fmdt_5Fff3Ug
-    short-id: 'e7eac240'
-  server: 95.182.80.130
-  servername: www.samsung.com
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 192.169.223.30
   tls: false
   type: vless
-  uuid: c1e32c6c-9a14-4edf-95c7-b1236a55aa07
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  servername: ''
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 8880
+  server: 45.153.7.40
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - h3
-  name: 荷兰+V2CROSS.COM
-  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
-  port: 443
-  server: 150.129.10.140
-  sni: u712927us614.ccgfw.online
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime11.workers.dev
+    path: '%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8880
+  server: 108.162.196.30
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  port: 15807
+  server: 138.2.112.117
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+    path: /@Marisa_kristifp=chrome
 - alpn:
   - ''
   client-fingerprint: random
@@ -67,44 +62,115 @@ proxies:
     headers:
       Host: s298.okgg.top
     path: ''
-- alterId: 0
-  cipher: auto
-  name: '亚太地区 V2CROSS.COM #1'
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 美国+Versaweb
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 8443
-  server: 104.143.0.117
-  skip-cert-verify: true
-  sni: vpn.rnmcnm.com
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: /trojan
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 德国+V2CROSS.COM
+  network: tcp
+  port: 666
+  server: 194.59.183.234
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国+V2CROSS.COM #3'
+  network: ws
+  port: 56671
+  server: 173.249.210.53
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+    path: /@Marisa_kristifp=chrome
 - alterId: 0
   cipher: auto
-  name: '美国 V2CROSS.COM #1'
+  name: 英国 V2CROSS.COM
   network: tcp
-  port: '6004'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: '180'
+  server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 美国+Akamai科技公司CDN网络节点
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- flow: xtls-rprx-vision
+  name: 巴西+圣保罗Host1Plus数据中心
   network: tcp
-  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   port: 443
-  server: 172.235.63.252
-  skip-cert-verify: true
-  sni: 172.235.63.252
-  type: trojan
+  reality-opts:
+    public-key: BoWKSM1aSfcTRgKX_kZYPlauG0jLIqku3zPBAiHpUgs
+    short-id: '5ea7e22e889dabc5'
+  server: pl.fantoff.online
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: b95dd8e5-2758-408f-be99-9362eecee609
+- name: 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司
+  network: ws
+  port: 8880
+  server: 198.71.189.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+- name: 俄罗斯+V2CROSS.COM
+  network: grpc
+  port: 16146
+  reality-opts:
+    public-key: lCkGLh6mypATTCMgrwjjqOxWBISCIB9fmdt_5Fff3Ug
+    short-id: 'e7eac240'
+  server: 95.182.80.130
+  servername: www.samsung.com
+  tls: false
+  type: vless
+  uuid: c1e32c6c-9a14-4edf-95c7-b1236a55aa07
+- name: '美国+V2CROSS.COM #4'
+  network: ws
+  port: 8880
+  server: 45.131.4.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 8880
+  server: 194.53.53.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /
+- name: 荷兰+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 160.153.138.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+    path: /
 - flow: xtls-rprx-vision
   name: 英国+社会保险安全部
   network: tcp
@@ -116,6 +182,42 @@ proxies:
   tls: false
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 立陶宛+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 88.216.66.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+- name: '立陶宛+V2CROSS.COM #1'
+  network: ws
+  port: 8880
+  server: 89.116.180.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  name: 新西兰+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 202.37.33.81
+  servername: m.udemy.com.cyylr.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  ws-opts:
+    headers:
+      Host: m.udemy.com.cyylr.eu.cc
+    path: /id-tksi
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -128,16 +230,16 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 2008
-  server: 43.199.204.59
+  server: 13.115.175.169
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32858
-  server: 16.162.24.151
+  port: 50712
+  server: 13.231.249.183
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -152,62 +254,54 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 3.112.60.98
+  port: 47655
+  server: 43.199.61.178
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 24184
-  server: 18.163.75.132
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 43.199.160.155
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 11541
+  server: 13.115.175.169
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 4840
-  server: 175.41.230.39
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 1180
+  server: 16.163.157.108
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 3842
-  server: 54.178.81.79
+  server: 16.163.157.108
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 42710
-  server: 18.166.225.36
+  port: 29440
+  server: 52.69.79.73
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
-  server: 175.41.230.39
+  server: 16.163.157.108
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
   server: 54.238.76.39
   skip-cert-verify: true
@@ -216,8 +310,8 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 54.238.206.69
+  port: 2520
+  server: 95.40.4.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
