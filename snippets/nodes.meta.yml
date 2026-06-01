@@ -1,129 +1,165 @@
 proxies:
-- name: 美国+CloudFlare节点
+- alterId: 0
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 澳大利亚+V2CROSS.COM
   network: ws
+  password: rYuChHcwQZskq9E0zdoR
   port: 443
-  server: 172.66.47.45
-  servername: octopusss4.com
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: /tsghdws
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
+  server: 125.7.24.251
+  sni: vpn5.rnmcnm.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
+      Host: vpn5.rnmcnm.com
+    path: '%2Fws-79dffb8106db'
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: tcp
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
+  port: 443
+  server: 130.94.92.144
+  skip-cert-verify: true
+  sni: www.node-finder.click
+  type: trojan
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 保加利亚+V2CROSS.COM
+  network: tcp
+  port: 443
+  server: 87.120.93.131
+  servername: sub.sbrf-cdn342.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: a1-tss.pages.dev
+  tls: true
+  type: vless
+  uuid: f86f5a03-3872-46b5-bf03-a50388a0261d
+  ws-opts:
+    path: '%2F'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: ES_speednode_0004
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4
+    short-id: '8237eb'
+  server: 195.96.132.125
+  servername: www.vk.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
 - alterId: 0
   cipher: auto
-  name: 美国4|@ripaojiedian
+  name: 英国 V2CROSS.COM
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 韩国+KT电信
+- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
+  network: tcp
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  port: 443
+  server: 130.94.107.171
+  sni: www.logger-guard.click
+  type: trojan
+- name: 西班牙+V2CROSS.COM
   network: ws
-  password: GKHWMe2R4qwNcNxu6l3KMkdd
-  port: 26214
-  server: 121.178.83.161
-  sni: vpn1.rnmcnm.com
+  port: 2096
+  server: 185.18.250.127
+  servername: 69565ce3109804e7813f98ee.mmdbay.blog
+  tls: true
+  type: vless
+  uuid: 2ee26119-94e5-40b4-ba3a-16354021b600
+  ws-opts:
+    headers:
+      Host: 69565ce3109804e7813f98ee.mmdbay.blog
+    path: '%2Fgraphql'
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  skip-cert-verify: true
+  sni: 172.236.220.10
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '美国+V2CROSS.COM #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Ftrj-ws'
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: trojan
+  port: 2087
+  server: 22b.net
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    path: '%2F%3FBIA_TELEGRAM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29'
+- name: 美国+DXC+Technology
+  network: ws
+  port: 443
+  server: 20.103.221.187
+  servername: studious-bassoon-gx45w7rj6j7jfwp4g-443.app.github.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4b616b6f-6f6c-4e65-7773-b8e2c9f3d541
+  ws-opts:
+    path: /
 - alpn:
   - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: RU_speednode_0026
+  name: RU_speednode_0023
   network: tcp
-  port: 22231
+  port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 荷兰+V2CROSS.COM
-  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
-  port: 443
-  server: 150.129.10.140
-  sni: u712927us614.ccgfw.online
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  skip-cert-verify: false
-  sni: www.logger-guard.click
-  type: trojan
-- flow: xtls-rprx-vision
-  name: 挪威+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qBTTzM-_JJ5NDPfJc8_4StCYqeK4DpiZWEjxCf3KYXA
-    short-id: 'a96e9c98e60fd8d5'
-  server: 138.124.63.126
-  servername: pro.online.prostosetup.org
-  tls: false
-  type: vless
-  uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
-- name: 台湾省+V2CROSS.COM
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: 211.76.176.98
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: 北美地区+V2CROSS.COM
-  network: tcp
-  port: 56947
-  server: 107.161.168.212
-  tls: false
-  type: vless
-  uuid: 48cdcfef-af9c-4eff-888c-cace67ae5881
-- name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+Akamai科技公司CDN网络节点 #1'
-  network: tcp
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
-  port: 443
-  server: 172.238.120.124
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  skip-cert-verify: true
-  sni: www.rolll.click
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -223,6 +259,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 美国5|@ripaojiedian
   network: tcp
   port: '180'
@@ -261,21 +307,6 @@ proxies:
   tls: false
   type: vless
   uuid: f3368578-8389-458d-9aee-08dc350c5230
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: ES_speednode_0004
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4
-    short-id: '8237eb'
-  server: 195.96.132.125
-  servername: www.vk.ru
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
 - alterId: 2
   cipher: auto
   name: GB_speednode_0006
@@ -400,9 +431,9 @@ proxies:
   - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: RU_speednode_0023
+  name: RU_speednode_0026
   network: tcp
-  port: 443
+  port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false

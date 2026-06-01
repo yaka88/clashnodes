@@ -3,9 +3,9 @@ proxies:
   - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: RU_speednode_0026
+  name: RU_speednode_0023
   network: tcp
-  port: 22231
+  port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false
@@ -45,9 +45,9 @@ proxies:
   - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: RU_speednode_0023
+  name: RU_speednode_0026
   network: tcp
-  port: 443
+  port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false

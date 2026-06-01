@@ -1,78 +1,94 @@
 proxies:
-- name: '美国+CloudFlare节点 #1'
+- alterId: 0
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 澳大利亚+V2CROSS.COM
   network: ws
-  password: humanity
+  password: rYuChHcwQZskq9E0zdoR
   port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
+  server: 125.7.24.251
+  sni: vpn5.rnmcnm.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
+      Host: vpn5.rnmcnm.com
+    path: '%2Fws-79dffb8106db'
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 韩国+KT电信
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
+  port: 443
+  server: 130.94.92.144
+  skip-cert-verify: true
+  sni: www.node-finder.click
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
-  password: GKHWMe2R4qwNcNxu6l3KMkdd
-  port: 26214
-  server: 121.178.83.161
-  sni: vpn1.rnmcnm.com
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: '%2Ftrj-ws'
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  name: 英国 V2CROSS.COM
   network: tcp
   port: '180'
-  server: 82.198.246.37
+  server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
+  network: tcp
   password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
   port: 443
   server: 130.94.107.171
-  skip-cert-verify: false
   sni: www.logger-guard.click
-  type: trojan
-- name: 台湾省+V2CROSS.COM
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: 211.76.176.98
-  sni: yazhou10.dynu.net
   type: trojan
 - name: 美国+Akamai科技公司CDN网络节点
   network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
   port: 443
-  server: 172.237.145.189
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+Akamai科技公司CDN网络节点 #1'
-  network: tcp
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
-  port: 443
-  server: 172.238.120.124
-  skip-cert-verify: false
-  type: trojan
-- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
+  server: 172.236.220.10
   skip-cert-verify: true
-  sni: www.rolll.click
+  sni: 172.236.220.10
   type: trojan
+- alpn:
+  - http/1.1
+  name: '美国+V2CROSS.COM #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: trojan
+  port: 2087
+  server: 22b.net
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    path: '%2F%3FBIA_TELEGRAM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -170,6 +186,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国5|@ripaojiedian
