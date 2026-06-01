@@ -1,45 +1,17 @@
 proxies:
 - alpn:
   - ''
-  client-fingerprint: random
+  client-fingerprint: edge
   flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 俄罗斯+Rubtsovsk+Branch+of+Altai+...
+  name: RU_speednode_0026
   network: tcp
-  port: 443
-  server: s298.okgg.top
-  servername: u712927u3556s298.okgg.top
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: bc7c7c10-8f24-332e-b303-fb3c8943c24f
-  ws-opts:
-    headers:
-      Host: s298.okgg.top
-    path: ''
-- client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  network: grpc
-  port: 16146
-  reality-opts:
-    public-key: lCkGLh6mypATTCMgrwjjqOxWBISCIB9fmdt_5Fff3Ug
-    short-id: '!!str e7eac240'
-  server: 95.182.80.130
-  servername: www.samsung.com
-  tls: false
-  type: vless
-  uuid: c1e32c6c-9a14-4edf-95c7-b1236a55aa07
-- name: '俄罗斯+V2CROSS.COM #1'
-  network: ws
-  port: 8880
-  server: 194.53.53.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alpn:
   - ''
   client-fingerprint: chrome
@@ -76,19 +48,6 @@ proxies:
   name: RU_speednode_0023
   network: tcp
   port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alpn:
-  - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0026
-  network: tcp
-  port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false

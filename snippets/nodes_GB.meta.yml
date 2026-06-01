@@ -1,26 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 英国 V2CROSS.COM
+  name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
-  server: 82.198.246.214
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+社会保险安全部
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: gLwECcibrJ-wErHzfYbPzMDVu6960VNuXUhjOQ3rUQk
-  server: 51.250.106.197
-  servername: max.ru
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
   tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: GB_speednode_0006
