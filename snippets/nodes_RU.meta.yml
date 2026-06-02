@@ -1,22 +1,4 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: tunnel-ljlcf
-  port: 8441
-  server: tr-1.stunnel.cc
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: uz1Lb_2451iPvrwWCZ-4I9_WHdYm7ML0yjeJAZwBk3E
-    short-id: '!!str 73b4306eb38fe3d6'
-  server: kz-1.nodes.ac
-  servername: kz-1.nodes.ac
-  tls: false
-  type: vless
-  uuid: 593f4d6c-aff1-4832-87a7-b5d8e71584ea
 - alterId: 0
   cipher: auto
   name: 俄罗斯 V2CROSS.COM
@@ -31,14 +13,31 @@ proxies:
     headers:
       Host: renderer-stream-1-411.mirra.now
     path: /api/v1/gpu-stream/socket
-- name: '俄罗斯+V2CROSS.COM #2'
+- alpn:
+  - ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0046
   network: tcp
-  port: 8443
-  server: cdn9-33.vk-cdnvideo.com
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+  server: 185.139.214.254
+  servername: cloudcdn-m9-15.cdn.yandex.net
+  tls: false
+  type: vless
+  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
 - alpn:
   - ''
   client-fingerprint: chrome
@@ -75,19 +74,6 @@ proxies:
   name: RU_speednode_0043
   network: tcp
   port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alpn:
-  - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0046
-  network: tcp
-  port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false

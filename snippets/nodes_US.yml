@@ -1,38 +1,31 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.40.34
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
 - name: 美国+Akamai科技公司CDN网络节点
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  network: tcp
+  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
   port: 443
-  server: 172.238.120.124
+  server: 172.238.19.11
+  skip-cert-verify: true
+  sni: 172.238.19.11
   type: trojan
 - name: 美国+V2CROSS.COM
-  network: ws
-  password: 386bd471-4e29-4e79-9a3c-6bc6076ce4b6
+  password: BzOx2R8u59SOipHwhIYW-IMyJePBEiUY-m
   port: 443
-  server: 208.103.161.170
-  skip-cert-verify: false
-  sni: edu.ruangguru.com.cyylr.eu.cc
+  server: 149.104.104.101
+  skip-cert-verify: true
+  sni: www.registry-monitor.click
   type: trojan
-  ws-opts:
-    headers:
-      Host: edu.ruangguru.com.cyylr.eu.cc
-    path: '%2Fid-tksi'
-- name: '美国+Akamai科技公司CDN网络节点 #1'
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+- name: '美国+V2CROSS.COM #1'
+  password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
   port: 443
-  server: 172.237.145.189
-  sni: 172.237.145.189
+  server: 65.20.90.225
+  skip-cert-verify: false
+  sni: www.sandbox-cloud.click
+  type: trojan
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
+  port: 443
+  server: 130.94.97.11
+  sni: www.selectnet.click
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
@@ -50,16 +43,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: US_speednode_0050

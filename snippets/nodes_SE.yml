@@ -7,4 +7,6 @@ proxies:
   sni: vpn5.rnmcnm.com
   type: trojan
   ws-opts:
+    headers:
+      Host: vpn5.rnmcnm.com
     path: '%2Fws-79dffb8106db'

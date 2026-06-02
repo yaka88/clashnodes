@@ -1,9 +1,4 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: tunnel-ljlcf
-  port: 8441
-  server: tr-1.stunnel.cc
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 俄罗斯 V2CROSS.COM
