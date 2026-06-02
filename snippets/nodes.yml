@@ -1,66 +1,48 @@
 proxies:
-- name: 亚太地区+V2CROSS.COM
+- name: 美国+CloudFlare节点
   network: ws
-  password: rYuChHcwQZskq9E0zdoR
-  port: 2053
-  server: 103.45.245.208
-  sni: vpn5.rnmcnm.com
+  password: humanity
+  port: 443
+  server: 104.21.40.34
+  skip-cert-verify: true
+  sni: www.gossipglove.com
   type: trojan
   ws-opts:
     headers:
-      Host: vpn5.rnmcnm.com
-    path: '%2Fws-79dffb8106db'
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '6003'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
 - name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
   password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   port: 443
   server: 172.238.120.124
-  skip-cert-verify: false
   type: trojan
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  network: tcp
-  password: d1UH4TrhvCmjc-s4nmChew1qGqX3MNMqel
-  port: 443
-  server: 130.94.29.102
-  skip-cert-verify: true
-  sni: www.ws-converter.click
-  type: trojan
-- name: '韩国+KT电信 #1'
+- name: 美国+V2CROSS.COM
   network: ws
-  password: GKHWMe2R4qwNcNxu6l3KMkdd
-  port: 26214
-  server: 121.178.83.161
-  sni: vpn1.rnmcnm.com
+  password: 386bd471-4e29-4e79-9a3c-6bc6076ce4b6
+  port: 443
+  server: 208.103.161.170
+  skip-cert-verify: false
+  sni: edu.ruangguru.com.cyylr.eu.cc
   type: trojan
   ws-opts:
-    path: '%2Ftrj-ws'
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 德国+黑森州法兰克福Linode数据中心
-  network: tcp
-  password: VPTFm=oZ++SuNT+jMRqGZqrAnWq-r8KJyY
+    headers:
+      Host: edu.ruangguru.com.cyylr.eu.cc
+    path: '%2Fid-tksi'
+- name: 瑞典+V2CROSS.COM
+  network: ws
+  password: rYuChHcwQZskq9E0zdoR
   port: 443
-  server: 172.104.237.100
-  skip-cert-verify: false
-  sni: 172.104.237.100
+  server: 193.180.209.21
+  sni: vpn5.rnmcnm.com
+  type: trojan
+  ws-opts:
+    path: '%2Fws-79dffb8106db'
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+  port: 443
+  server: 185.137.157.254
+  sni: www.directorypipeline.click
   type: trojan
 - name: 台湾省+V2CROSS.COM
   password: gcuCpQfaiVeDBdWG
@@ -68,6 +50,42 @@ proxies:
   server: 211.76.176.98
   sni: yazhou10.dynu.net
   type: trojan
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.98.0
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '美国+Akamai科技公司CDN网络节点 #1'
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  sni: 172.237.145.189
+  type: trojan
+- name: 俄罗斯+V2CROSS.COM
+  password: tunnel-ljlcf
+  port: 8441
+  server: tr-1.stunnel.cc
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 V2CROSS.COM
+  network: ws
+  port: '443'
+  server: renderer-stream-1-411.mirra.now
+  servername: renderer-stream-1-411.mirra.now
+  tls: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: renderer-stream-1-411.mirra.now
+    path: /api/v1/gpu-stream/socket
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

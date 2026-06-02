@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- name: 瑞典+V2CROSS.COM
+  network: ws
+  password: rYuChHcwQZskq9E0zdoR
+  port: 443
+  server: 193.180.209.21
+  sni: vpn5.rnmcnm.com
+  type: trojan
+  ws-opts:
+    path: '%2Fws-79dffb8106db'
