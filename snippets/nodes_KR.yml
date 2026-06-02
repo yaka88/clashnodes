@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- name: '韩国+KT电信 #1'
+  network: ws
+  password: GKHWMe2R4qwNcNxu6l3KMkdd
+  port: 26214
+  server: 121.178.83.161
+  sni: vpn1.rnmcnm.com
+  type: trojan
+  ws-opts:
+    path: '%2Ftrj-ws'
