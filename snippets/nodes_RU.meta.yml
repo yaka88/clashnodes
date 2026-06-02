@@ -1,48 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 V2CROSS.COM
-  network: ws
-  port: '443'
-  server: renderer-stream-1-411.mirra.now
-  servername: renderer-stream-1-411.mirra.now
-  tls: true
-  type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  ws-opts:
-    headers:
-      Host: renderer-stream-1-411.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alpn:
-  - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0046
-  network: tcp
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-  server: 185.139.214.254
-  servername: cloudcdn-m9-15.cdn.yandex.net
-  tls: false
-  type: vless
-  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
 - alpn:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0042
+  name: RU_speednode_0048
   network: tcp
   port: 22231
   server: r1.mizulina.top
@@ -55,7 +16,7 @@ proxies:
   - ''
   client-fingerprint: chrome
   flow: ''
-  name: RU_speednode_0040
+  name: RU_speednode_0041
   network: tcp
   port: 443
   reality-opts:
@@ -82,33 +43,46 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alpn:
   - ''
-  client-fingerprint: chrome
-  flow: ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: RU_speednode_0045
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0046
   network: tcp
   port: 443
   reality-opts:
-    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
-    short-id: '!!str b8aa'
-  server: 194.226.169.36
-  servername: yahoo.com
+    public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
+    short-id: '!!str 226509f017e4c36d'
+  server: vrubg.mostserv.xyz
+  servername: vrubg.mostserv.xyz
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
+  uuid: 0ddc1b7c-ce23-4a30-8ede-8a9e19f02fb7
 - alpn:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0047
   network: tcp
-  port: 23151
+  port: 443
   reality-opts:
-    public-key: eP0MKUFOcNVSVFbHT8GgBLP4LIHZFq8JuVGlCAlH1HI
-    short-id: '!!str '
-  server: 217.26.24.101
-  servername: cms-res-web.online.sberbank.ru
+    public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
+    short-id: '!!str 57cc65bfd5ef7465'
+  server: 185.212.117.34
+  servername: www.scaleway.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3
+  uuid: bb2b0112-577f-4862-886a-3c2ee004ca23

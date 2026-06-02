@@ -9,33 +9,210 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0009
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0008
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0010
+  network: tcp
+  port: 54254
+  reality-opts:
+    public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
+    short-id: '!!str db35ffdc'
+  server: 134.33.73.249
+  servername: apple.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: acba684c-4098-4eca-f519-828b09f96464
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0011
+  network: ws
+  port: 10055
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  tls: false
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0012
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.114
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0013
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.30
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0014
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.122
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0015
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.110
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0016
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.112
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0017
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.26
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: GB_speednode_0018
   network: tcp
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40015
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.126
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - alpn:
   - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: GB_speednode_0019
   network: tcp
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 52225
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.13
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - alpn:
   - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: GB_speednode_0020
   network: tcp
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40017
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.31
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0021
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.113
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de

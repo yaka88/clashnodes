@@ -1,105 +1,42 @@
 proxies:
 - name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
-  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
-  server: 172.238.19.11
-  skip-cert-verify: true
-  sni: 172.238.19.11
+  server: 172.237.145.189
+  sni: 172.237.145.189
   type: trojan
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 北美地区+V2CROSS.COM
   network: ws
-  port: 443
-  server: v1.dabache.top
-  servername: vangoghhh.info
-  tls: true
-  type: vless
-  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: /tixvuws
-- name: 美国+V2CROSS.COM
-  password: BzOx2R8u59SOipHwhIYW-IMyJePBEiUY-m
-  port: 443
-  server: 149.104.104.101
-  skip-cert-verify: true
-  sni: www.registry-monitor.click
-  type: trojan
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 162.159.36.5
-  servername: octopusss4.com
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: /tsghdws
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 108.162.193.217
-  servername: vangoghhh.info
-  tls: true
-  type: vless
-  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: /tixvuws
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI
-    short-id: '!!str 065ee439'
-  server: germany.cloudpath.live
-  servername: microsoft.com
+  port: 2086
+  server: 104.253.43.213
   tls: false
   type: vless
-  uuid: a1fbffe9-8e5a-5a0e-9333-045d32eccd59
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #4'
+  uuid: 8de40603-7364-4b29-86fd-b5b2364d5fc4
+  ws-opts:
+    path: /video
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: dp4zdTaX89_Ls34gM_x8BSBTx50p4X7asR3H1q_jIn4
-    short-id: '!!str b00e098b'
-  server: france.cloudpath.live
-  servername: microsoft.com
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
   tls: false
-  type: vless
-  uuid: a1fbffe9-8e5a-5a0e-9333-045d32eccd59
-- name: '美国+V2CROSS.COM #1'
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: '美国+V2CROSS.COM #2'
   password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
   port: 443
   server: 65.20.90.225
   skip-cert-verify: false
   sni: www.sandbox-cloud.click
   type: trojan
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #5'
-  network: tcp
+- name: '美国+Akamai科技公司CDN网络节点 #1'
+  network: raw
+  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
   port: 443
-  reality-opts:
-    public-key: 34gATkr8QhXe26zX625mas0MbhhG-1XSISJxwLtdt1k
-    short-id: '!!str 17ee7ac1'
-  server: czech.cloudpath.live
-  servername: microsoft.com
-  tls: false
-  type: vless
-  uuid: a1fbffe9-8e5a-5a0e-9333-045d32eccd59
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
-  port: 443
-  server: 130.94.97.11
-  sni: www.selectnet.click
+  server: 172.238.19.11
+  sni: 172.238.19.11
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
@@ -117,23 +54,25 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0050
-  network: ws
-  port: 443
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
-  ws-opts:
-    headers:
-      Host: cg1c02.waimaojd.com
-    path: /api/v1/graphql
 - alpn:
   - ''
-  name: US_speednode_0053
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0049
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+    short-id: '!!str e6d59aff03e5b0'
+  server: tw4.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
+- alpn:
+  - ''
+  name: US_speednode_0052
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -145,7 +84,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: US_speednode_0054
+  name: US_speednode_0051
   network: ws
   port: 443
   server: kobe.ns.cloudflare.com
@@ -158,3 +97,44 @@ proxies:
     headers:
       Host: 35cdnws.frnstatic.info
     path: '%2F35cdnws'
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0053
+  network: ws
+  port: 8443
+  server: yg7.ygkkk.dpdns.org
+  servername: marco-visibility-tops-estimate.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
+  ws-opts:
+    headers:
+      Host: marco-visibility-tops-estimate.trycloudflare.com
+    path: /c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d-vm
+- alpn:
+  - ''
+  name: US_speednode_0054
+  network: tcp
+  password: BxceQaOe
+  port: 17801
+  server: 95.40.68.192
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0055
+  network: ws
+  port: 443
+  server: 172.67.195.79
+  servername: cdn.veilvpn.fans
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    headers:
+      Host: cdn.veilvpn.fans
+    path: '%2Fvpnhu'
