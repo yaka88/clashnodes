@@ -1,17 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: KR_speednode_0029
-  network: tcp
-  port: 8899
-  reality-opts:
-    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
-    short-id: '!!str 11d27eb4'
-  server: 152.67.211.233
-  servername: www.lovelive-anime.jp
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: ed285fbd-528e-4610-9a8d-2ad95767c00b
+proxies: []
