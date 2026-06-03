@@ -1,81 +1,65 @@
 proxies:
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  sni: www.rolll.click
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3TrzFrsFzfZAeYOclG39atVKrsJcN7Beoa4VhN5D-j4
-    short-id: '!!str 19ffa83bd83eb32d'
-  server: 152.53.139.226
-  servername: ads.x5.ru
-  tls: false
-  type: vless
-  uuid: 765e0908-5ec4-41e9-8bd0-6482425e4247
-- name: 美国+Akamai科技公司CDN网络节点
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
-  sni: 172.237.145.189
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
   name: 美国 V2CROSS.COM
   network: tcp
-  port: '6004'
+  port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   servername: ''
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 美国+加利福尼亚
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   port: 443
-  server: 64.176.65.85
+  server: 172.235.63.252
   type: trojan
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8443
+  server: ov-canada1.09vpn.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 08f96221-9b7b-4e6f-8ffe-aee8b9c9b504
+  ws-opts:
+    path: '%2Fvless%2F'
+- alterId: 0
+  cipher: auto
+  name: 美国 亚利桑那州凤凰城Oracle云计算数据中心
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 美国 Akamai科技公司CDN网络节点
+  network: ws
+  port: '2053'
+  server: usaapp1.jisuyun.top
+  servername: usaapp1.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
+  ws-opts:
+    headers:
+      Host: usaapp1.jisuyun.top
+    path: /usavm
 - name: '美国+Akamai科技公司CDN网络节点 #1'
   network: tcp
   password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   port: 443
   server: 172.238.120.124
+  skip-cert-verify: false
   type: trojan
-- name: '美国+V2CROSS.COM #1'
-  password: BzOx2R8u59SOipHwhIYW-IMyJePBEiUY-m
-  port: 443
-  server: 149.104.104.101
-  sni: www.registry-monitor.click
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #3'
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: MbYR2O0XBSeG74gGYpFIofXsILcf5lG2gc36GyURBXQ
-    short-id: '!!str 0199436dd359351b'
-  server: 144.31.135.162
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: b54d36d1-43c3-4b8f-a5f8-cf6504db0562
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44

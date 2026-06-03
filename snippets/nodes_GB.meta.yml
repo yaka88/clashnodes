@@ -1,18 +1,11 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  network: tcp
-  port: 8443
-  server: cdn9-33.vk-cdnvideo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - alterId: 0
   cipher: auto
   name: GB_speednode_0009
   network: tcp
   port: 180
   server: 82.198.246.214
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

@@ -1,17 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: uz1Lb_2451iPvrwWCZ-4I9_WHdYm7ML0yjeJAZwBk3E
-    short-id: '!!str 73b4306eb38fe3d6'
-  server: kz-1.nodes.ac
-  servername: kz-1.nodes.ac
-  tls: false
-  type: vless
-  uuid: 593f4d6c-aff1-4832-87a7-b5d8e71584ea
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 Samara State University
+  network: ws
+  port: '443'
+  server: renderer-stream-1-411.mirra.now
+  servername: renderer-stream-1-411.mirra.now
+  tls: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: renderer-stream-1-411.mirra.now
+    path: /api/v1/gpu-stream/socket
 - alpn:
   - ''
   client-fingerprint: chrome
