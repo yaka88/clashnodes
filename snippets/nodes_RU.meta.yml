@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: uz1Lb_2451iPvrwWCZ-4I9_WHdYm7ML0yjeJAZwBk3E
+    short-id: '!!str 73b4306eb38fe3d6'
+  server: kz-1.nodes.ac
+  servername: kz-1.nodes.ac
+  tls: false
+  type: vless
+  uuid: 593f4d6c-aff1-4832-87a7-b5d8e71584ea
 - alpn:
   - ''
   client-fingerprint: chrome

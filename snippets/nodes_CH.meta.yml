@@ -1,11 +1,16 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 瑞士 V2CROSS.COM
-  network: tcp
-  port: '2510'
-  server: world.t.51guangtaobao.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 瑞士+Oracle+Corporation
+  network: ws
+  port: 38945
+  server: 141.148.181.105
+  servername: us2.wxgqlfx.xyz
+  tls: true
+  type: vless
+  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
+  ws-opts:
+    headers:
+      Host: us2.wxgqlfx.xyz
+    path: /TG@wxgqlfx
