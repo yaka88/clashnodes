@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0001
+  network: tcp
+  port: 11973
+  server: board-04.ddnskunlun.com
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0002
+  network: tcp
+  port: 11885
+  server: board-02.ddnskunlun.com
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
