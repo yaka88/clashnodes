@@ -1,32 +1,18 @@
 proxies:
-- name: 美国+Akamai科技公司CDN网络节点
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
   port: 443
-  server: 172.238.120.124
-  type: trojan
-- name: '美国+Akamai科技公司CDN网络节点 #1'
-  network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
+  server: 130.94.107.171
   skip-cert-verify: false
-  sni: 172.237.145.189
+  sni: www.logger-guard.click
   type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
+- name: 德国+V2CROSS.COM
+  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
   port: 443
-  server: 104.17.121.9
-  skip-cert-verify: true
-  sni: www.calmlunch.com
+  server: 91.233.8.25
+  sni: fra34.tracker-ws.click
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '美国+Akamai科技公司CDN网络节点 #2'
+- name: 美国+Akamai科技公司CDN网络节点
   network: tcp
   password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
   port: 443
@@ -34,31 +20,17 @@ proxies:
   skip-cert-verify: false
   sni: 172.236.220.10
   type: trojan
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  sni: www.rolll.click
+- name: 台湾省+V2CROSS.COM
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
   type: trojan
 - name: 罗马尼亚+V2CROSS.COM
   password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
   port: 443
   server: 185.137.157.254
   sni: www.directorypipeline.click
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+加利福尼亚
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
-- name: 德国+V2CROSS.COM
-  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
-  port: 443
-  server: 91.233.8.138
-  skip-cert-verify: false
-  sni: www.homelywebs.click
   type: trojan
 - alterId: 2
   cipher: auto
