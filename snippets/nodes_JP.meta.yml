@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 日本+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: '!!str 473277e2'
-  server: tw3.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  tls: false
-  type: vless
-  uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

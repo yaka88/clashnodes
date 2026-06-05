@@ -1,46 +1,81 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 美国+加州
-  network: ws
+- name: 美国+Akamai科技公司CDN网络节点
+  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   port: 443
-  server: 216.24.57.1
-  servername: support.zoom.us.cyylr.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 77777777-7777-4777-8777-777777777777
-  ws-opts:
-    headers:
-      Host: support.zoom.us.cyylr.eu.cc
-    path: '%2Fsg-melbi'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
+  server: 172.238.120.124
+  type: trojan
+- name: '美国+Akamai科技公司CDN网络节点 #1'
   network: tcp
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
-  reality-opts:
-    public-key: vegx20Xc9XIkr8nfdEB7LZnficXNURVnDbB8_ND97Dw
-  server: ee.connectv.net
-  servername: ee.connectv.net
-  tls: false
-  type: vless
-  uuid: c4c9bfd7-4bdc-4078-ae64-185ffb553ae6
+  server: 172.237.145.189
+  skip-cert-verify: false
+  sni: 172.237.145.189
+  type: trojan
 - alpn:
   - http/1.1
   name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 162.159.195.173
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
+      Host: www.calmlunch.com
     path: '%2Fassignment'
+- name: '美国+Akamai科技公司CDN网络节点 #2'
+  network: tcp
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  skip-cert-verify: false
+  sni: 172.236.220.10
+  type: trojan
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
+  port: 443
+  server: 130.94.68.100
+  sni: www.rolll.click
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+加利福尼亚
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+佛罗里达州迈阿密市
+  network: tcp
+  port: 443
+  server: 72.56.59.177
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 172.64.146.68
+  servername: octopusss4.com
+  tls: true
+  type: vless
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  ws-opts:
+    headers:
+      Host: octopusss4.com
+    path: '%2Ftsghdws'
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44

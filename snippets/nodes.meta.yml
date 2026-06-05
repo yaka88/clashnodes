@@ -1,62 +1,93 @@
 proxies:
+- name: 美国+Akamai科技公司CDN网络节点
+  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  port: 443
+  server: 172.238.120.124
+  type: trojan
+- name: '美国+Akamai科技公司CDN网络节点 #1'
+  network: tcp
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  skip-cert-verify: false
+  sni: 172.237.145.189
+  type: trojan
 - alpn:
   - http/1.1
-  name: 美国+加州
+  name: 美国+CloudFlare节点
   network: ws
+  password: humanity
   port: 443
-  server: 216.24.57.1
-  servername: support.zoom.us.cyylr.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 77777777-7777-4777-8777-777777777777
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
   ws-opts:
     headers:
-      Host: support.zoom.us.cyylr.eu.cc
-    path: '%2Fsg-melbi'
-- flow: xtls-rprx-vision
-  name: 日本+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: '473277e2'
-  server: tw3.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  tls: false
-  type: vless
-  uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
-- flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vegx20Xc9XIkr8nfdEB7LZnficXNURVnDbB8_ND97Dw
-  server: ee.connectv.net
-  servername: ee.connectv.net
-  tls: false
-  type: vless
-  uuid: c4c9bfd7-4bdc-4078-ae64-185ffb553ae6
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
 - name: 法国+ONLINE+S.A.S.数据中心
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
-  server: 62.210.29.98
+  server: 62.210.26.173
   skip-cert-verify: true
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 德国+V2CROSS.COM
+- name: '美国+Akamai科技公司CDN网络节点 #2'
   network: tcp
-  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
   port: 443
-  server: 91.233.8.25
+  server: 172.236.220.10
   skip-cert-verify: false
-  sni: fra34.tracker-ws.click
+  sni: 172.236.220.10
   type: trojan
-- name: 巴西圣保罗+CloudFlare节点
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
+  port: 443
+  server: 130.94.68.100
+  sni: www.rolll.click
+  type: trojan
+- name: 罗马尼亚+V2CROSS.COM
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+  port: 443
+  server: 185.137.157.254
+  sni: www.directorypipeline.click
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+加利福尼亚
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  flow: xtls-rprx-vision
+  name: 美国+佛罗里达州迈阿密市
+  network: tcp
+  port: 443
+  server: 72.56.59.177
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 德国+V2CROSS.COM
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+  port: 443
+  server: 91.233.8.138
+  skip-cert-verify: false
+  sni: www.homelywebs.click
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 188.114.97.3
+  server: 172.64.146.68
   servername: octopusss4.com
   tls: true
   type: vless
@@ -65,48 +96,6 @@ proxies:
     headers:
       Host: octopusss4.com
     path: '%2Ftsghdws'
-- flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 31.76.113.51
-  servername: it.s3-cloud.xyz
-  tls: false
-  type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.195.173
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '法国+ONLINE+S.A.S.数据中心 #1'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 64772
-  server: 62.210.26.173
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 克罗地亚+V2CROSS.COM
-  network: tcp
-  port: 8443
-  server: 46.229.243.69
-  servername: cdn7-39.vk-cdnvideo.com
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
