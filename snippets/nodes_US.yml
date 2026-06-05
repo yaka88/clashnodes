@@ -3,14 +3,14 @@ proxies:
   password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   port: 443
   server: 64.176.65.85
-  skip-cert-verify: false
   type: trojan
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
-  server: 130.94.68.100
+  server: 172.237.145.189
   skip-cert-verify: false
-  sni: www.rolll.click
+  sni: 172.237.145.189
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp

@@ -3,41 +3,40 @@ proxies:
   password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   port: 443
   server: 64.176.65.85
-  skip-cert-verify: false
   type: trojan
 - name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.17.138.107
-  servername: zyzzzoao.xn--fiqv8j.eu.org
-  tls: true
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: '%2Ffp%3Drandomized'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: adf.ly
-  servername: rAyAn-007.pArViN.DpDnS.OrG
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
-  ws-opts:
-    headers:
-      Host: rayan-007.parvin.dpdns.org
-    path: /?ed%3D2560
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
+  server: gemini.naypaing.shop
+  servername: gemini.naypaing.shop
   skip-cert-verify: false
-  sni: www.rolll.click
+  tls: true
+  type: vless
+  uuid: f6860c67-5613-43f7-b549-221d9d27cb3c
+  ws-opts:
+    headers:
+      Host: gemini.naypaing.shop
+    path: /vip
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  skip-cert-verify: false
+  sni: 172.237.145.189
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+加利福尼亚 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lOCJA77F2V7AfA1aEvq32aYrXXuBoH-TM2q_gAe2b2c
+  server: 64.188.91.26
+  servername: addons.mozilla.org
+  tls: false
+  type: vless
+  uuid: a06565e7-b96a-41f0-91af-dea4dab20e54
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
