@@ -1,25 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 白俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 10444
-  reality-opts:
-    public-key: praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4
-    short-id: '!!str 378086fbdb7c61cd'
-  server: 185.66.68.90
-  servername: max.ru
-  tls: false
-  type: vless
-  uuid: f4df3096-8568-4c86-83d2-985623035724
-- client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  port: 8443
-  server: 89.232.177.114
-  servername: cdn3-87.vk-cdnvideo.com
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - alpn:
   - ''
   client-fingerprint: chrome

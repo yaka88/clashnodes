@@ -7,3 +7,11 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '法国+ONLINE+S.A.S.数据中心 #1'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.26.173
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2

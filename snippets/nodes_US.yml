@@ -1,17 +1,18 @@
 proxies:
-- name: 美国+加利福尼亚
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 64.176.65.85
-  type: trojan
-- name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
+  server: 162.159.195.173
   skip-cert-verify: false
-  sni: 172.237.145.189
+  sni: www.calmloud.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
