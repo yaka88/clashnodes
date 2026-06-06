@@ -1,54 +1,36 @@
 proxies:
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: RU_speednode_0039
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0012
   network: tcp
-  port: 22231
-  server: r1.mizulina.top
+  port: 180
+  server: 82.198.246.250
   servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: '俄罗斯+V2CROSS.COM #1'
-  port: 8443
-  server: 89.232.177.114
-  servername: cdn3-87.vk-cdnvideo.com
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 伊朗+V2CROSS.COM
-  network: tcp
-  port: 34754
-  reality-opts:
-    public-key: eMijZKuJlNEciXbhyzdbewk-ot_JLMZVaA42bxKFcBM
-    short-id: 'c9eb0359fac0c345'
-  server: transparency.cloud-fr.appcore.org
-  servername: yahoo.com
   tls: false
-  type: vless
-  uuid: 35762c02-ff2b-4526-b41b-e96e5d99528b
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #2'
+  name: 沙特阿拉伯+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: EUK_ePvEKUGcezQYHqgJ5P462XxLPXPm9CZWGLaL33k
-    short-id: '3620820fe66d6731'
-  server: greb.loralden.com
-  servername: greb.loralden.com
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: '8ffa160e608bf539'
+  server: as.pink-perfect.ru
+  servername: as.pink-perfect.ru
   tls: false
   type: vless
-  uuid: 2065a8c9-8b3d-4dba-b0ce-90d649aa3da7
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
+  uuid: 5d8fcd24-9634-4dd7-845c-3dc2d6291942
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
@@ -63,6 +45,29 @@ proxies:
   tls: false
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '7a3f9e2b1c8d4f6a'
+  server: 31.76.113.51
+  servername: it.s3-cloud.xyz
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 80
+  server: 172.67.211.74
+  tls: false
+  type: vless
+  uuid: e84064cc-617f-4ba8-aa6f-13e920fd2610
+  ws-opts:
+    headers:
+      Host: main.boobie.eu.cc
+    path: '%2F'
 - name: 亚太地区+V2CROSS.COM
   network: tcp
   port: 443
@@ -70,60 +75,10 @@ proxies:
     public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ
     short-id: '31181028b56c8704'
   server: de01.goodmaximum.com
-  servername: glimmerhouse.com
+  servername: portal.glimmerhouse.com
   tls: false
   type: vless
   uuid: c2401b12-8bb8-0014-abc0-89dbaea88116
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 比利时+V2CROSS.COM
-  network: tcp
-  port: 443
-  server: 150.251.158.76
-  servername: s646.okgg.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: speedtest.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: de2.ping-game.ir
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 美国+加利福尼亚
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
-- name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
-  sni: 172.237.145.189
-  type: trojan
-- alpn:
-  - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0043
-  network: tcp
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - flow: xtls-rprx-vision
   name: 广东省+珠江宽频
   network: tcp
@@ -135,6 +90,28 @@ proxies:
   tls: false
   type: vless
   uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  port: 443
+  server: 172.238.120.124
+  skip-cert-verify: false
+  type: trojan
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: RU_speednode_0039
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  ws-opts:
+    headers:
+      Host: r1.mizulina.top
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -235,16 +212,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0012
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: CN_speednode_0001
   network: tcp
   port: 11973
@@ -339,6 +306,19 @@ proxies:
   name: RU_speednode_0040
   network: tcp
   port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0043
+  network: tcp
+  port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false

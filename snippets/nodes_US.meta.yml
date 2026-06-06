@@ -1,35 +1,21 @@
 proxies:
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 美国 CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
   port: 80
-  server: speedtest.org
-  servername: ''
+  server: 172.67.211.74
   tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  type: vless
+  uuid: e84064cc-617f-4ba8-aa6f-13e920fd2610
   ws-opts:
     headers:
-      Host: de2.ping-game.ir
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 美国+加利福尼亚
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
+      Host: main.boobie.eu.cc
+    path: '%2F'
 - name: 美国+Akamai科技公司CDN网络节点
   network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   port: 443
-  server: 172.237.145.189
-  sni: 172.237.145.189
+  server: 172.238.120.124
+  skip-cert-verify: false
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
@@ -55,16 +41,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0012
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: chrome
