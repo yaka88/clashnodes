@@ -1,25 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美国+纽约DigitalOcean数据中心
-  network: tcp
-  port: 24211
-  server: 174.138.75.30
-  tls: false
-  type: vless
-  uuid: 7d2c6756-8397-426e-bed2-100d9f5da95d
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: /@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray
 - alpn:
   - ''
   flow: xtls-rprx-vision
@@ -32,54 +11,44 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 美国+Interland
-  network: ws
-  port: 4399
-  server: 64.226.109.18
-  servername: ooa858iqkhza12.mesa.ip-ddns.com
+- name: '俄罗斯+V2CROSS.COM #1'
+  port: 8443
+  server: 89.232.177.114
+  servername: cdn3-87.vk-cdnvideo.com
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ooa858iqkhza12.mesa.ip-ddns.com
-    path: /@Marisa_kristifp=chrome
-- name: 美国+CloudFlare节点
-  network: ws
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 伊朗+V2CROSS.COM
+  network: tcp
+  port: 34754
+  reality-opts:
+    public-key: eMijZKuJlNEciXbhyzdbewk-ot_JLMZVaA42bxKFcBM
+    short-id: 'c9eb0359fac0c345'
+  server: transparency.cloud-fr.appcore.org
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 35762c02-ff2b-4526-b41b-e96e5d99528b
+- flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #2'
+  network: tcp
   port: 443
-  server: hyperlink-free.poweredproyuz.com
-  tls: true
+  reality-opts:
+    public-key: EUK_ePvEKUGcezQYHqgJ5P462XxLPXPm9CZWGLaL33k
+    short-id: '3620820fe66d6731'
+  server: greb.loralden.com
+  servername: greb.loralden.com
+  tls: false
   type: vless
-  uuid: 2be7b933-c720-4838-a35a-740ae50987ee
-  ws-opts:
-    headers:
-      Host: hyperlink-free.poweredproyuz.com
-    path: /hyperlink-hyperlink-join-to-hyperlink-hyperlink_ch-hyperlink-hlink_robot-hyperlink
-- name: 台湾省+V2CROSS.COM
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: true
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: 美国+加利福尼亚
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  uuid: 2065a8c9-8b3d-4dba-b0ce-90d649aa3da7
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
   port: 443
-  server: 64.176.65.85
+  server: 130.94.107.171
+  sni: www.logger-guard.click
   type: trojan
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2083
-  server: 172.66.47.45
-  servername: wk1.f1w.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: wk1.f1w.de5.net
-    path: /
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
@@ -88,35 +57,60 @@ proxies:
   reality-opts:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
     short-id: '7a3f9e2b1c8d4f6a'
-  server: 31.76.113.25
+  server: 31.76.113.34
   servername: it.s3-cloud.xyz
   skip-cert-verify: true
   tls: false
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- flow: xtls-rprx-vision
-  name: 广东省+珠江宽频
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
-  server: 122.8.44.3
-  servername: dl.google.com
-  tls: false
-  type: vless
-  uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
-- flow: xtls-rprx-vision
-  name: 挪威+V2CROSS.COM
+- name: 亚太地区+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: '8ffa160e608bf539'
-  server: as.pink-perfect.ru
-  servername: as.pink-perfect.ru
+    public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ
+    short-id: '31181028b56c8704'
+  server: de01.goodmaximum.com
+  servername: glimmerhouse.com
   tls: false
   type: vless
-  uuid: 5d8fcd24-9634-4dd7-845c-3dc2d6291942
+  uuid: c2401b12-8bb8-0014-abc0-89dbaea88116
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 比利时+V2CROSS.COM
+  network: tcp
+  port: 443
+  server: 150.251.158.76
+  servername: s646.okgg.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: speedtest.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: de2.ping-game.ir
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 美国+加利福尼亚
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  sni: 172.237.145.189
+  type: trojan
 - alpn:
   - ''
   client-fingerprint: edge
@@ -130,12 +124,17 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 美国+Akamai科技公司CDN网络节点
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
-  sni: 172.237.145.189
-  type: trojan
+- flow: xtls-rprx-vision
+  name: 广东省+珠江宽频
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
+  server: 122.8.44.3
+  servername: dl.google.com
+  tls: false
+  type: vless
+  uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
