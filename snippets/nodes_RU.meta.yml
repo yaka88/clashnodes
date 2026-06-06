@@ -12,9 +12,6 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  ws-opts:
-    headers:
-      Host: r1.mizulina.top
 - alpn:
   - ''
   client-fingerprint: edge

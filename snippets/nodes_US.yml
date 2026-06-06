@@ -1,10 +1,25 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  network: tcp
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
+  port: 443
+  server: 149.104.87.182
+  skip-cert-verify: true
+  sni: www.jewelapp.click
+  type: trojan
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
+  port: 443
+  server: 130.94.104.210
+  sni: www.cdn-structure.click
+  type: trojan
 - name: 美国+Akamai科技公司CDN网络节点
   network: tcp
   password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   port: 443
   server: 172.238.120.124
   skip-cert-verify: false
+  sni: 172.238.120.124
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
@@ -30,3 +45,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0012
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
