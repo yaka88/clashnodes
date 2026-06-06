@@ -1,29 +1,31 @@
 proxies:
-- name: 德国+V2CROSS.COM
-  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
-  port: 443
-  server: 91.233.8.138
-  skip-cert-verify: false
-  sni: www.homelywebs.click
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 台湾省+V2CROSS.COM
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
   type: trojan
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+- name: 美国+加利福尼亚
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   port: 443
-  server: 130.94.107.171
-  skip-cert-verify: false
-  sni: www.logger-guard.click
+  server: 64.176.65.85
   type: trojan
 - name: 美国+Akamai科技公司CDN网络节点
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
-  server: 172.238.120.124
-  type: trojan
-- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  skip-cert-verify: false
-  sni: www.rolll.click
+  server: 172.237.145.189
+  sni: 172.237.145.189
   type: trojan
 - alterId: 2
   cipher: auto

@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 台湾省+V2CROSS.COM
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  type: trojan

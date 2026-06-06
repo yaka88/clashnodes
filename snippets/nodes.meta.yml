@@ -1,106 +1,140 @@
 proxies:
-- name: 中国+阿里云
-  network: ws
-  port: 33284
-  server: 8.219.2.255
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 美国+纽约DigitalOcean数据中心
+  network: tcp
+  port: 24211
+  server: 174.138.75.30
+  tls: false
+  type: vless
+  uuid: 7d2c6756-8397-426e-bed2-100d9f5da95d
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: RU_speednode_0039
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: ''
   skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 美国+Interland
+  network: ws
+  port: 4399
+  server: 64.226.109.18
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
-    path: '%2F%40Marisa_kristi'
-- name: 德国+V2CROSS.COM
-  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
-  port: 443
-  server: 91.233.8.138
-  skip-cert-verify: false
-  sni: www.homelywebs.click
-  type: trojan
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+    path: /@Marisa_kristifp=chrome
 - name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: youxuan.cf.090227.xyz
-  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  server: hyperlink-free.poweredproyuz.com
+  tls: true
+  type: vless
+  uuid: 2be7b933-c720-4838-a35a-740ae50987ee
+  ws-opts:
+    headers:
+      Host: hyperlink-free.poweredproyuz.com
+    path: /hyperlink-hyperlink-join-to-hyperlink-hyperlink_ch-hyperlink-hlink_robot-hyperlink
+- name: 台湾省+V2CROSS.COM
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  type: trojan
+- name: 美国+加利福尼亚
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 2083
+  server: 172.66.47.45
+  servername: wk1.f1w.de5.net
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
-    path: '%2F%40Marisa_kristi'
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  skip-cert-verify: false
-  sni: www.logger-guard.click
-  type: trojan
-- flow: xtls-rprx-vision
+    headers:
+      Host: wk1.f1w.de5.net
+    path: /
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
     short-id: '7a3f9e2b1c8d4f6a'
-  server: 31.76.113.51
+  server: 31.76.113.25
   servername: it.s3-cloud.xyz
+  skip-cert-verify: true
   tls: false
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- name: 立陶宛+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 89.116.46.210
-  servername: octopusss4.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: /tsghdws
-- name: 法国+ONLINE+S.A.S.数据中心
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 64772
-  server: 62.210.26.173
-  skip-cert-verify: true
-  sni: bing.com
+- flow: xtls-rprx-vision
+  name: 广东省+珠江宽频
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
+  server: 122.8.44.3
+  servername: dl.google.com
   tls: false
-  type: hysteria2
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 30715
-  server: 166.88.167.206
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  type: vless
+  uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
+- flow: xtls-rprx-vision
+  name: 挪威+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: '8ffa160e608bf539'
+  server: as.pink-perfect.ru
+  servername: as.pink-perfect.ru
+  tls: false
+  type: vless
+  uuid: 5d8fcd24-9634-4dd7-845c-3dc2d6291942
+- alpn:
+  - ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0043
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    path: '%2F%40Marisa_kristi'
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - name: 美国+Akamai科技公司CDN网络节点
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
-  server: 172.238.120.124
-  type: trojan
-- name: '德国+V2CROSS.COM #1'
-  network: ws
-  port: 8880
-  server: 31.185.108.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime23.workers.dev
-    path: '%2F'
-- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  skip-cert-verify: false
-  sni: www.rolll.click
+  server: 172.237.145.189
+  sni: 172.237.145.189
   type: trojan
 - alterId: 2
   cipher: auto
@@ -301,36 +335,11 @@ proxies:
     path: '%2F%40Marisa_kristi'
 - alpn:
   - ''
-  flow: xtls-rprx-vision
-  name: RU_speednode_0039
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alpn:
-  - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
   name: RU_speednode_0040
   network: tcp
   port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alpn:
-  - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0043
-  network: tcp
-  port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false

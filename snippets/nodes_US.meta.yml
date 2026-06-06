@@ -1,46 +1,62 @@
 proxies:
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 美国+纽约DigitalOcean数据中心
+  network: tcp
+  port: 24211
+  server: 174.138.75.30
+  tls: false
+  type: vless
+  uuid: 7d2c6756-8397-426e-bed2-100d9f5da95d
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray
+- name: 美国+Interland
   network: ws
-  port: 443
-  server: youxuan.cf.090227.xyz
-  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-  skip-cert-verify: false
+  port: 4399
+  server: 64.226.109.18
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
-    path: '%2F%40Marisa_kristi'
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+    path: /@Marisa_kristifp=chrome
+- name: 美国+CloudFlare节点
+  network: ws
   port: 443
-  server: 130.94.107.171
-  skip-cert-verify: false
-  sni: www.logger-guard.click
+  server: hyperlink-free.poweredproyuz.com
+  tls: true
+  type: vless
+  uuid: 2be7b933-c720-4838-a35a-740ae50987ee
+  ws-opts:
+    headers:
+      Host: hyperlink-free.poweredproyuz.com
+    path: /hyperlink-hyperlink-join-to-hyperlink-hyperlink_ch-hyperlink-hlink_robot-hyperlink
+- name: 美国+加利福尼亚
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
   type: trojan
 - client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
+  name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 30715
-  server: 166.88.167.206
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  port: 2083
+  server: 172.66.47.45
+  servername: wk1.f1w.de5.net
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
-    path: '%2F%40Marisa_kristi'
+    headers:
+      Host: wk1.f1w.de5.net
+    path: /
 - name: 美国+Akamai科技公司CDN网络节点
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
-  server: 172.238.120.124
-  type: trojan
-- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  skip-cert-verify: false
-  sni: www.rolll.click
+  server: 172.237.145.189
+  sni: 172.237.145.189
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
