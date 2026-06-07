@@ -1,25 +1,33 @@
 proxies:
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 日本+东京Fastly节点
+  network: ws
+  port: 443
+  server: 151.101.108.223
+  servername: default.ssl.fastly.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 98c9f668-1f2f-4a6d-bd7a-606fab0ac035
+  ws-opts:
+    headers:
+      Host: jookeji.global.ssl.fastly.net
+    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.176.57.129
+  port: 9731
+  server: 43.199.65.125
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 5701
-  server: 18.167.42.231
-  skip-cert-verify: true
-  sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 37973
-  server: 43.198.226.205
+  server: 43.199.189.134
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
