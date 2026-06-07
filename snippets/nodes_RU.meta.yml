@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 Samara State University
-  network: ws
-  port: '443'
-  server: renderer-stream-1-411.mirra.now
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  ws-opts:
-    headers:
-      Host: renderer-stream-1-411.mirra.now
-    path: /api/v1/gpu-stream/socket
 - alpn:
   - ''
   client-fingerprint: chrome
