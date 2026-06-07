@@ -1,88 +1,59 @@
 proxies:
-- name: 美国+Akamai科技公司CDN网络节点
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
-  skip-cert-verify: false
-  sni: 172.237.145.189
-  type: trojan
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
-  port: 443
-  server: youxuan.cf.090227.xyz
-  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    path: '%2F%40Marisa_kristi'
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  network: ws
-  port: 30715
-  server: 166.88.167.206
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    path: '%2F%40Marisa_kristi'
-- alpn:
-  - http/1.1
-  name: 美国+德克萨斯州达拉斯Linode数据中心
-  network: tcp
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-  port: 443
-  server: 45.79.8.17
-  sni: 45.79.8.17
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+Amazon+EC2服务器
-  network: tcp
-  port: 59403
-  reality-opts:
-    public-key: R87O7j_VmzDlIMXOd7Z6MOpp2wxxw4VZFxOmTAmugVQ
-    short-id: '!!str 55a20409400e71'
-  server: 3.75.194.19
-  servername: yahoo.com
+  port: 80
+  server: 172.67.75.172
   tls: false
   type: vless
-  uuid: acb005a9-29af-437f-ba56-411a8dc9eb56
-- name: 美国+RF+Engineering
-  network: ws
-  port: 443
-  server: 141.193.213.10
-  servername: octopusss4.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  uuid: df301b32-1152-4526-9a63-beedd93d3156
   ws-opts:
     headers:
-      Host: octopusss4.com
-    path: '%2Ftsghdws'
+      Host: vl.dalazhi.cloudns.biz
+    path: /
 - name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  network: tcp
+  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
   port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
+  server: 130.94.104.210
+  sni: www.cdn-structure.click
   type: trojan
-- name: 美国+Interland
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
+  port: 443
+  server: 172.235.63.252
+  sni: 172.235.63.252
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 4399
-  server: 64.226.109.18
-  servername: ooa858iqkhza12.mesa.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  password: humanity
+  port: 443
+  server: 162.159.195.173
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
   ws-opts:
     headers:
-      Host: ooa858iqkhza12.mesa.ip-ddns.com
-    path: /@Marisa_kristifp=chrome
+      Host: www.calmloud.com
+    path: /assignment
+- name: '美国+Akamai科技公司CDN网络节点 #1'
+  network: tcp
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  skip-cert-verify: false
+  sni: 172.236.220.10
+  type: trojan
+- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
+  network: tcp
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
+  port: 443
+  server: 130.94.92.144
+  skip-cert-verify: false
+  sni: www.node-finder.click
+  type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44

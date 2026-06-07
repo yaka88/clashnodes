@@ -1,25 +1,47 @@
 proxies:
-- name: 美国+Akamai科技公司CDN网络节点
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: tcp
+  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
   port: 443
-  server: 172.237.145.189
-  skip-cert-verify: false
-  sni: 172.237.145.189
+  server: 130.94.104.210
+  sni: www.cdn-structure.click
+  type: trojan
+- name: 美国+Akamai科技公司CDN网络节点
+  network: tcp
+  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
+  port: 443
+  server: 172.235.63.252
+  sni: 172.235.63.252
   type: trojan
 - alpn:
   - http/1.1
-  name: 美国+德克萨斯州达拉斯Linode数据中心
-  network: tcp
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
   port: 443
-  server: 45.79.8.17
-  sni: 45.79.8.17
+  server: 162.159.195.173
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: '美国+Akamai科技公司CDN网络节点 #1'
+  network: tcp
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
   port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
+  server: 172.236.220.10
+  skip-cert-verify: false
+  sni: 172.236.220.10
+  type: trojan
+- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
+  network: tcp
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
+  port: 443
+  server: 130.94.92.144
+  skip-cert-verify: false
+  sni: www.node-finder.click
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
