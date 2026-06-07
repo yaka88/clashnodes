@@ -1,23 +1,13 @@
 proxies:
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
+  server: 104.20.6.134
+  sni: www.multiplydose.com
   type: trojan
-- name: 美国+加利福尼亚
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
-- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
-  network: tcp
-  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
-  port: 443
-  server: 130.94.92.144
-  skip-cert-verify: false
-  sni: www.node-finder.click
-  type: trojan
+  ws-opts:
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

@@ -1,6 +1,62 @@
 proxies:
 - alpn:
   - ''
+  flow: xtls-rprx-vision
+  name: RU_speednode_0039
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - ''
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0040
+  network: tcp
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '俄罗斯+V2CROSS.COM #2'
+  network: tcp
+  port: 8443
+  server: 213.171.24.172
+  servername: cdn7-09.vk-cdnvideo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: 日本+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 43.175.169.174
+  servername: sni.mmadcoffee.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 37c8b06a-25cf-42d7-b2ea-31d3c8561998
+  ws-opts:
+    headers:
+      Host: imap.mmadcoffee.info
+    path: /14708/31d3c8561998/
+- alpn:
+  - ''
   client-fingerprint: edge
   flow: xtls-rprx-vision
   name: RU_speednode_0043
@@ -12,74 +68,22 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  ws-opts:
+    headers:
+      Host: r1.mizulina.top
 - flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
+  name: 伊朗+V2CROSS.COM
   network: tcp
   port: 7443
   reality-opts:
     public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: 'd82fb387'
-  server: 167.104.223.57
-  servername: www.microsoft.com
+    short-id: 'be0ce047'
+  server: 31.56.188.90
+  servername: mi.com
+  skip-cert-verify: false
   tls: false
   type: vless
   uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 45.130.125.0
-  servername: octopusss4.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: /tsghdws
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: RU_speednode_0039
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 31.76.113.51
-  servername: it.s3-cloud.xyz
-  tls: false
-  type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- name: 美国+加利福尼亚
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
-- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
-  network: tcp
-  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
-  port: 443
-  server: 130.94.92.144
-  skip-cert-verify: false
-  sni: www.node-finder.click
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -261,19 +265,6 @@ proxies:
     headers:
       Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
     path: '%2F%40Marisa_kristi'
-- alpn:
-  - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0040
-  network: tcp
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alpn:
   - ''
   flow: xtls-rprx-vision

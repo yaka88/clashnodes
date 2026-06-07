@@ -1,50 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str d82fb387'
-  server: 167.104.223.57
-  servername: www.microsoft.com
-  tls: false
-  type: vless
-  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #1'
+- name: 美国+CloudFlare节点
   network: ws
+  password: humanity
   port: 443
-  server: 45.130.125.0
-  servername: octopusss4.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  server: 104.20.6.134
+  sni: www.multiplydose.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: /tsghdws
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- name: 美国+加利福尼亚
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
-- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
-  network: tcp
-  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
-  port: 443
-  server: 130.94.92.144
-  skip-cert-verify: false
-  sni: www.node-finder.click
-  type: trojan
+    path: /assignment
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
