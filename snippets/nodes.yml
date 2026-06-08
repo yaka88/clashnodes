@@ -1,19 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0012
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 罗马尼亚+V2CROSS.COM
   password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
   port: 443
   server: 185.137.157.254
   sni: www.directorypipeline.click
+  type: trojan
+- name: 德国+V2CROSS.COM
+  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+  port: 443
+  server: 91.233.8.25
+  sni: fra34.tracker-ws.click
   type: trojan
 - alterId: 2
   cipher: auto
@@ -123,29 +119,96 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0001
+  name: 美国4|@ripaojiedian
   network: tcp
-  port: 11973
-  server: board-04.ddnskunlun.com
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
   tls: false
   type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0002
-  network: tcp
-  port: 11885
-  server: board-02.ddnskunlun.com
+  name: CN_speednode_0004
+  network: ws
+  port: 10055
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
   tls: false
   type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alpn:
-  - ''
-  name: DE_speednode_0011
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: GB_speednode_0007
   network: tcp
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
+  port: 30808
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: HK_speednode_0009
+  network: tcp
+  port: 56972
+  server: 154.37.223.19
+  tls: false
+  type: vmess
+  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+- alterId: 2
+  cipher: auto
+  name: ID_speednode_0010
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: ID_speednode_0011
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: ID_speednode_0012
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: ID_speednode_0013
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: IR_speednode_0014
+  network: tcp
+  port: 1020
+  server: nlt.reata.ir
+  tls: false
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+- alterId: 0
+  cipher: auto
+  name: TW_speednode_0052
+  network: tcp
+  port: 53229
+  server: 103.127.243.54
+  tls: false
+  type: vmess
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
