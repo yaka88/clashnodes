@@ -1,54 +1,96 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 波兰+V2CROSS.COM
-  network: tcp
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
   port: 443
-  reality-opts:
-    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
-    short-id: 'b76dcf9e1183fe1b'
-  server: pl.riotvpn.eu
-  servername: ads.x5.ru
-  tls: false
-  type: vless
-  uuid: ec5e0aed-c265-4f02-9142-8ec76ee50ceb
-- name: 日本+东京Fastly节点
+  server: 130.94.68.100
+  sni: www.rolll.click
+  type: trojan
+- name: 俄罗斯+Samara+State+University
   network: ws
   port: 443
-  server: 151.101.108.223
+  server: 195.209.87.184
+  servername: s46053.cdn.ngenix.net
+  tls: true
+  type: vless
+  uuid: bfef1a3f-d106-4346-89fa-4f7e369e99de
+  ws-opts:
+    path: /stream/live
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  port: 443
+  server: 130.94.107.171
+  sni: www.logger-guard.click
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.gossipglove.com
+  skip-cert-verify: true
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 199.232.78.158
   servername: default.ssl.fastly.net
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: e7c13fda-6089-41a7-8367-dcbba30ce844
+  uuid: b4a00211-ae46-49bc-8f36-0c4425eb7e86
   ws-opts:
     headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /
-- name: 美国+CloudFlare节点
+      Host: nesfsheshab.global.ssl.fastly.net
+    path: '%2F'
+- name: '美国+CloudFlare节点 #2'
   network: ws
   port: 443
-  server: staticdelivery.nexusmods.com
-  servername: adv2m5gy-wrhiahph85c.ovtc.qzz.io
-  skip-cert-verify: false
+  server: 172.67.185.178
+  servername: hhlfy.twiladaphne.ndjp.net
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: adv2m5gy-wrhiahph85c.ovtc.qzz.io
-    path: '%2F%40Marisa_kristi'
-- name: 美国+Interland
-  network: ws
-  port: 4399
-  server: 64.226.109.18
-  servername: ooa858iqkhza12.mesa.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ooa858iqkhza12.mesa.ip-ddns.com
-    path: '%2F%40Marisa_kristifp%3Dchrome'
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
 - alterId: 0
   cipher: auto
   name: GB_speednode_0012
@@ -59,93 +101,19 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: RU_speednode_0039
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 日本+V2CROSS.COM
+- name: '美国+V2CROSS.COM #1'
   network: ws
   port: 443
-  server: 43.175.169.174
-  servername: sni.mmadcoffee.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 37c8b06a-25cf-42d7-b2ea-31d3c8561998
-  ws-opts:
-    headers:
-      Host: imap.mmadcoffee.info
-    path: /14708/31d3c8561998/
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '俄罗斯+V2CROSS.COM #1'
-  network: ws
-  port: 433
-  server: 91.184.240.106
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    path: '%2F%40Marisa_kristi'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: youxuan.cf.090227.xyz
-  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    path: '%2F%40Marisa_kristi'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.40.34
+  server: 209.46.30.149
+  servername: resources.office.com.r3xxe.eu.cc
   skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
+  tls: true
+  type: vless
+  uuid: 933e8995-3b6d-4d42-8b23-e649f0e7205f
   ws-opts:
     headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  network: tcp
-  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
-  port: 443
-  server: 130.94.92.144
-  skip-cert-verify: false
-  sni: www.node-finder.click
-  type: trojan
-- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  sni: www.rolll.click
-  type: trojan
+      Host: resources.office.com.r3xxe.eu.cc
+    path: /us-gllc
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -341,6 +309,18 @@ proxies:
     headers:
       Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
     path: '%2F%40Marisa_kristi'
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: RU_speednode_0039
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alpn:
   - ''
   client-fingerprint: edge

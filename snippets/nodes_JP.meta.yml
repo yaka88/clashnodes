@@ -1,31 +1,4 @@
 proxies:
-- name: 日本+东京Fastly节点
-  network: ws
-  port: 443
-  server: 151.101.108.223
-  servername: default.ssl.fastly.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: e7c13fda-6089-41a7-8367-dcbba30ce844
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /
-- client-fingerprint: chrome
-  name: 日本+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 43.175.169.174
-  servername: sni.mmadcoffee.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 37c8b06a-25cf-42d7-b2ea-31d3c8561998
-  ws-opts:
-    headers:
-      Host: imap.mmadcoffee.info
-    path: /14708/31d3c8561998/
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
