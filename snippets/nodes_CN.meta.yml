@@ -1,4 +1,16 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 广东省+珠江宽频
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
+  server: 122.8.44.3
+  servername: dl.google.com
+  tls: false
+  type: vless
+  uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
 - alterId: 0
   cipher: auto
   name: CN_speednode_0001

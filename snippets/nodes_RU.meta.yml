@@ -1,15 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 俄罗斯+Samara+State+University
-  network: ws
-  port: 443
-  server: 195.209.87.184
-  servername: s46053.cdn.ngenix.net
-  tls: true
-  type: vless
-  uuid: bfef1a3f-d106-4346-89fa-4f7e369e99de
-  ws-opts:
-    path: /stream/live
 - alpn:
   - ''
   client-fingerprint: chrome
