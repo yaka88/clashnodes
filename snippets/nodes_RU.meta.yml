@@ -12,6 +12,18 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 433
+  server: 91.184.240.106
+  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    path: '%2F%40Marisa_kristi'
 - alpn:
   - ''
   client-fingerprint: edge
@@ -25,15 +37,6 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: '俄罗斯+V2CROSS.COM #2'
-  network: tcp
-  port: 8443
-  server: 213.171.24.172
-  servername: cdn7-09.vk-cdnvideo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - alpn:
   - ''
   client-fingerprint: edge
@@ -47,9 +50,6 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  ws-opts:
-    headers:
-      Host: r1.mizulina.top
 - alpn:
   - ''
   client-fingerprint: chrome

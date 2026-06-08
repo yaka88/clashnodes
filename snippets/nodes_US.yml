@@ -1,18 +1,57 @@
 proxies:
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
   server: 104.20.6.134
-  sni: www.multiplydose.com
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: /assignment
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.40.34
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: tcp
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
+  port: 443
+  server: 130.94.92.144
+  skip-cert-verify: false
+  sni: www.node-finder.click
+  type: trojan
+- name: '美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 #1'
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
+  port: 443
+  server: 130.94.68.100
+  sni: www.rolll.click
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  port: 49277
+  server: 95.40.24.24
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
+  password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
-  server: 43.199.71.149
+  server: 16.163.146.65
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -20,17 +59,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 17801
-  server: 95.40.47.145
+  server: 54.46.2.184
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0012
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
