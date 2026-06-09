@@ -1,21 +1,39 @@
 proxies:
-- name: 美国+加利福尼亚
-  network: tcp
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+- name: 美国+德克萨斯州达拉斯Linode数据中心
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
-  server: 64.176.65.85
-  sni: 64.176.65.85
+  server: 45.79.8.17
+  sni: 45.79.8.17
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: IR_speednode_0014
-  network: tcp
-  port: 1020
-  server: nlt.reata.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  skip-cert-verify: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 美国+V2CROSS.COM
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
+  port: 443
+  server: 149.104.87.182
+  sni: www.jewelapp.click
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -199,6 +217,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: IR_speednode_0014
+  network: tcp
+  port: 1020
+  server: nlt.reata.ir
+  tls: false
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - alterId: 0
   cipher: auto
   name: TW_speednode_0052
