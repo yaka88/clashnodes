@@ -1,4 +1,12 @@
 proxies:
+- name: 德国+V2CROSS.COM
+  password: miaoge110
+  port: 51511
+  server: 5.45.100.100
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: DE_speednode_0005
   obfs: ''
   obfs-password: ''

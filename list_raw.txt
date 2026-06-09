@@ -1,14 +1,11 @@
-vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.80:8443?sni=buh-ro-01.fromblancwithlove.com&security=tls#%E6%8D%B7%E5%85%8B%2BV2CROSS.COM
+hysteria2://miaoge110@5.45.100.100:51511?insecure=1&sni=www.bing.com#%E5%BE%B7%E5%9B%BD%2BV2CROSS.COM
+vless://fc965ad9-bdd7-4815-ad71-b39ec5972dc1@172.66.47.45:443?sni=octopusss4.com&security=tls&type=ws&host=octopusss4.com&path=%2Ftsghdws#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9
+trojan://humanity@www.multiplydose.com:443?allowInsecure=1&sni=www.multiplydose.com&type=ws&path=/assignment#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9%20%231
+vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?allowInsecure=0&sni=r1.mizulina.top&alpn=&flow=xtls-rprx-vision&fp=edge&security=tls#RU_speednode_0048
+trojan://humanity@104.20.6.134:443?allowInsecure=0&sni=www.calmloud.com&alpn=http/1.1&type=ws&host=www.calmloud.com&path=%2Fassignment#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9%20%232
+vmess://eyJ2IjogIjIiLCAicHMiOiAi5Lqa5aSq5Zyw5Yy6IFYyQ1JPU1MuQ09NIiwgImFkZCI6ICI2NjU0YzczNGNjYWI4ZjQ0MGZmMDgyNWViNDQzZGM3Zi5xb3Mub25sIiwgInBvcnQiOiAiMTAxMjMiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICI1MmY5Y2JmYi01YmIzLTNkZDMtYjk0Ny03MjVlMzY1YzU5ZjMiLCAic25pIjogIiIsICJob3N0IjogInYycHI5ZmVvaDB6ODZhbmoyZ3o5b25uamc5dml1ZXYwai5tb2Jnc2xiLnRiY2FjaGUuY29tIiwgInBhdGgiOiAiLyJ9
 trojan://rXyShM8Jni%2B5Sbq3k4gkyr5Lq0zOMRL2Uf@45.79.8.17:443?sni=45.79.8.17#%E7%BE%8E%E5%9B%BD%2B%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF%E5%B7%9E%E8%BE%BE%E6%8B%89%E6%96%AFLinode%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
-vless://bbd67e54-1b4b-488b-a5df-708ef896ecaa@14.102.228.76:443?sni=wof2.cerosmakom.com&alpn=http/1.1&security=tls&type=ws&path=/api/v2/sync/data-stream#%E5%8D%B0%E5%BA%A6%2BV2CROSS.COM
-trojan://humanity@www.calmlunch.com:443?allowInsecure=1&type=ws&host=www.calmlunch.com&path=%2Fassignment#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9
-trojan://humanity@104.16.174.12:443?allowInsecure=0&sni=www.ignitelimit.com&type=ws&host=www.ignitelimit.com&path=%2Fassignment#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9%20%231
-trojan://PtRV8to08i8FMsY.Uw7%3DyMuIaR3eVTGmvA@149.104.87.182:443?sni=www.jewelapp.click#%E7%BE%8E%E5%9B%BD%2BV2CROSS.COM
-vless://888403d1-621b-481a-b5dc-7aca518a787b@5.35.85.51:8443?allowInsecure=0&sni=www.kinopoisk.ru&alpn=&flow=xtls-rprx-vision&fp=qq&security=reality&pbk=BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI&sid=a987b6bd1781daa3#RU_speednode_0050
-vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:22231?allowInsecure=0&sni=r1.mizulina.top&flow=xtls-rprx-vision&fp=chrome&security=tls#%E4%BF%84%E7%BD%97%E6%96%AF%2BV2CROSS.COM%20%231
-vless://e5cc16a6-ea42-46b2-82ae-ad2157e1641b@172.67.185.178:443?sni=hhlfy.twiladaphne.ndjp.net&security=tls&type=ws&host=hhlfy.twiladaphne.ndjp.net&path=/#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9%20%232
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?type=ws&host=max-gb1.global.ssl.fastly.net&path=/#%E7%BE%8E%E5%9B%BD%2BFastly%E5%85%A8%E7%90%83Anycast%E8%8A%82%E7%82%B9
-vless://158d03db-e5d7-4540-a31c-b2daa7aa4964@vpnv1.aspidnet.xyz:443?sni=web.max.ru&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&sid=247fd6dab1a34a48#%E7%BE%8E%E5%9B%BD%2B%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8
+trojan://humanity@141.193.213.10:443?allowInsecure=0&sni=www.calmloud.com&alpn=http/1.1&type=ws&host=www.calmloud.com&path=/assignment#%E7%BE%8E%E5%9B%BD%2BRF%2BEngineering
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://d02e3bb7e6b3333e818d36866d40de6e@43.199.189.110:53018?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@119.246.1.143:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
@@ -38,8 +35,8 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiSURfc3BlZWRub2RlXzAwMTIiLCAiYWRkIjogInYzNS5oZGFj
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSURfc3BlZWRub2RlXzAwMTMiLCAiYWRkIjogInYzMy5oZGFjZC5jb20iLCAicG9ydCI6IDMwODMzLCAiYWlkIjogMiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiSVJfc3BlZWRub2RlXzAwMTQiLCAiYWRkIjogIm5sdC5yZWF0YS5pciIsICJwb3J0IjogMTAyMCwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogIjYyNDRjNDFhLWY0YzEtNDczMy1hNjU0LWMzOGY3NzI5YjEzYyJ9
 vless://f032fd94-715d-4d37-835f-13959a63df14@18.183.94.154:39611?allowInsecure=1&sni=www.icloud.com&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=bffq0wpw2vUOczXypqTqoXzYEzwXAZQzhOut1fvFyWQ&sid=d7627055cafc62#JP_speednode_0015
-vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?allowInsecure=0&sni=r1.mizulina.top&alpn=&flow=xtls-rprx-vision&fp=edge&security=tls#RU_speednode_0048
 vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:443?allowInsecure=0&sni=r1.mizulina.top&alpn=&flow=xtls-rprx-vision&fp=edge&security=tls#RU_speednode_0049
+vless://888403d1-621b-481a-b5dc-7aca518a787b@5.35.85.51:8443?allowInsecure=0&sni=www.kinopoisk.ru&alpn=&flow=xtls-rprx-vision&fp=qq&security=reality&pbk=BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI&sid=a987b6bd1781daa3#RU_speednode_0050
 vless://b8c51058-4378-46d3-b2c9-50b43b5715a0@main.saforia.ru:2086?allowInsecure=0&sni=main.saforia.ru&alpn=&flow=&fp=&type=ws&host=main.saforia.ru&path=%2F#SE_speednode_0051
 vmess://eyJ2IjogIjIiLCAicHMiOiAiVFdfc3BlZWRub2RlXzAwNTIiLCAiYWRkIjogIjEwMy4xMjcuMjQzLjU0IiwgInBvcnQiOiA1MzIyOSwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogIjJmNTBmNWVmLTFhM2EtNDU4NS1hM2M5LTNhODYwZDM3YjEzNCJ9
 vless://ec13d921-3072-4e16-b2cd-af709f7f7894@150.241.83.60:443?allowInsecure=0&sni=www.icloud.com&alpn=&flow=xtls-rprx-vision &fp=chrome&security=reality&pbk=xDFXqfhZ7-IQiFwXpXltNe2Axo5O33k4LAqDfAVtyz4&sid=7b#US_speednode_0062
@@ -47,5 +44,5 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.fbi.gov:2095?allowInsecure=0&sn
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cloudflare-dns.com:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-a.workers.dev&alpn=&flow=&fp=randomized&type=ws&host=cnmfangbinxing.cnmfangbinxing-a.workers.dev&path=%2F#US_speednode_0057
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.whatismyip.net:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-a.workers.dev&alpn=&flow=&fp=randomized&type=ws&host=cnmfangbinxing.cnmfangbinxing-a.workers.dev&path=%2F#US_speednode_0058
 vless://ad961404-6249-4a11-9577-d1e81f6b198f@150.241.90.13:443?allowInsecure=0&sni=monolithgate.com&alpn=&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=0d6fEYI5nZ_puQdJ5J9Sn7ExAs53DZzbpfxghHt_u2E&sid=7c81a04a4b20#US_speednode_0060
-socks://T2clM0QlM0RAMTIxLjE2OS40Ni4xMTY6MTA5MA==#KR_speednode_0018
 socks://VDJjbE0wUWxNMFE2QDEyMS4xNjkuNDYuMTE2OjEwOTA=#KR_speednode_0017
+socks://T2clM0QlM0RAMTIxLjE2OS40Ni4xMTY6MTA5MA==#KR_speednode_0018

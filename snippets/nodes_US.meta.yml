@@ -1,75 +1,61 @@
 proxies:
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 172.66.47.45
+  servername: octopusss4.com
+  tls: true
+  type: vless
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  ws-opts:
+    headers:
+      Host: octopusss4.com
+    path: '%2Ftsghdws'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.multiplydose.com
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - name: 美国+德克萨斯州达拉斯Linode数据中心
+  network: tcp
   password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
   server: 45.79.8.17
   sni: 45.79.8.17
   type: trojan
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+RF+Engineering
   network: ws
   password: humanity
   port: 443
-  server: www.calmlunch.com
-  skip-cert-verify: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
+  server: 141.193.213.10
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: 美国+V2CROSS.COM
-  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
-  port: 443
-  server: 149.104.87.182
-  sni: www.jewelapp.click
-  type: trojan
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 172.67.185.178
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-- name: 美国+Fastly全球Anycast节点
-  network: ws
-  port: 80
-  server: 151.101.0.1
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s
-    short-id: '!!str 247fd6dab1a34a48'
-  server: vpnv1.aspidnet.xyz
-  servername: web.max.ru
-  tls: false
-  type: vless
-  uuid: 158d03db-e5d7-4540-a31c-b2daa7aa4964
+      Host: www.calmloud.com
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
