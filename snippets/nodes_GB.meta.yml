@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY
+    short-id: '!!str 73'
+  server: 2.26.135.131
+  servername: lada.mycdn-me.ru
+  tls: false
+  type: vless
+  uuid: 0a963275-4865-452b-8d65-ac67344f913a
 - alterId: 2
   cipher: auto
   name: GB_speednode_0007
