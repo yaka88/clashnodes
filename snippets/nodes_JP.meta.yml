@@ -23,19 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: JP_speednode_0015
-  network: tcp
-  port: 39611
-  reality-opts:
-    public-key: bffq0wpw2vUOczXypqTqoXzYEzwXAZQzhOut1fvFyWQ
-    short-id: '!!str d7627055cafc62'
-  server: 18.183.94.154
-  servername: www.icloud.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: f032fd94-715d-4d37-835f-13959a63df14

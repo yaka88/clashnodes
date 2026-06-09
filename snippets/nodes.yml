@@ -1,63 +1,35 @@
 proxies:
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
+- name: 罗马尼亚+V2CROSS.COM
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
   port: 443
-  server: www.multiplydose.com
+  server: 185.137.157.254
+  sni: www.directorypipeline.click
+  type: trojan
+- name: '美国+V2CROSS.COM #1'
+  network: tcp
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
+  port: 443
+  server: 149.104.87.182
   skip-cert-verify: true
-  sni: www.multiplydose.com
+  sni: www.jewelapp.click
   type: trojan
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: ws
-  port: '10123'
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 美国+德克萨斯州达拉斯Linode数据中心
-  network: tcp
   password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
   server: 45.79.8.17
+  skip-cert-verify: false
   sni: 45.79.8.17
   type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+RF+Engineering
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.10
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -164,98 +136,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0004
+- alpn:
+  - ''
+  name: KR_speednode_0008
   network: ws
-  port: 10055
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  tls: false
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  password: pUkVhYVSnjbEy4xbkNJ2QvXTSSLHxRN6sRbdSnnwpbMSXTbC
+  port: 443
+  server: node3.bw8848.org
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
   ws-opts:
     headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: GB_speednode_0007
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: HK_speednode_0009
-  network: tcp
-  port: 56972
-  server: 154.37.223.19
-  tls: false
-  type: vmess
-  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
-- alterId: 2
-  cipher: auto
-  name: ID_speednode_0010
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: ID_speednode_0011
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: ID_speednode_0012
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: ID_speednode_0013
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: IR_speednode_0014
-  network: tcp
-  port: 1020
-  server: nlt.reata.ir
-  tls: false
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- alterId: 0
-  cipher: auto
-  name: TW_speednode_0052
-  network: tcp
-  port: 53229
-  server: 103.127.243.54
-  tls: false
-  type: vmess
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+      Host: node3.bw8848.org
+    path: '%2Fnode3-node3-jgnkjy'

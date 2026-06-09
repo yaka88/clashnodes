@@ -1,16 +1,25 @@
 proxies:
-- name: 德国+V2CROSS.COM
-  password: miaoge110
-  port: 51511
-  server: 5.45.100.100
-  skip-cert-verify: true
-  sni: www.bing.com
+- name: 罗马尼亚+V2CROSS.COM
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+  port: 443
+  server: 185.137.157.254
+  sni: www.directorypipeline.click
+  type: trojan
+- name: 美国+Fastly全球Anycast节点
+  network: ws
+  port: 80
+  server: 151.101.0.1
   tls: false
-  type: hysteria2
-- name: 美国+CloudFlare节点
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 美国+V2CROSS.COM
   network: ws
   port: 443
-  server: 172.66.47.45
+  server: 45.130.125.0
   servername: octopusss4.com
   tls: true
   type: vless
@@ -18,79 +27,32 @@ proxies:
   ws-opts:
     headers:
       Host: octopusss4.com
-    path: '%2Ftsghdws'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- alpn:
-  - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0048
+    path: /tsghdws
+- name: '美国+V2CROSS.COM #1'
   network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
   port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: 149.104.87.182
+  skip-cert-verify: true
+  sni: www.jewelapp.click
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: 亚太地区 V2CROSS.COM
-  network: ws
-  port: '10123'
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 美国+德克萨斯州达拉斯Linode数据中心
-  network: tcp
   password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
   server: 45.79.8.17
+  skip-cert-verify: false
   sni: 45.79.8.17
   type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+RF+Engineering
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.10
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -197,317 +159,165 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
-  flow: xtls-rprx-vision
-  name: CN_speednode_0001
-  network: tcp
-  port: 45072
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '693b25e06841ac7f'
-  server: cdn.ph1.cocoduck.org
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: CN_speednode_0002
-  network: tcp
-  port: 30086
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '693b25e06841ac7f'
-  server: cdn.hk2.cocoduck.org
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: CN_speednode_0003
-  network: tcp
-  port: 15803
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '693b25e06841ac7f'
-  server: cdn.sg1.cocoduck.org
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0004
+  flow: ''
+  name: DO_speednode_0001
   network: ws
-  port: 10055
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  tls: false
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
-- name: DE_speednode_0005
-  obfs: ''
-  obfs-password: ''
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 202.61.205.86
+  port: 443
+  server: 181.36.229.212
+  servername: linek.perry.us.kg
   skip-cert-verify: true
-  sni: de1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: DE_speednode_0006
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: gch4w4OXSvfllKqDfUuk4S-waCqmPfKvLaqnu0qKkiI
-    short-id: '5eb59ee7bbb4b114'
-  server: 213.202.223.72
-  servername: www.booking.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-- alterId: 2
-  cipher: auto
-  name: GB_speednode_0007
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: GB_speednode_0008
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6bKr3dHLP8VjrlVFBNTAM3Bj0j0iGubvzTDPTmK08FI
-    short-id: 'ecf07d87f0521a0e'
-  server: 212.135.211.105
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 99e50b7b-e551-46b3-b74f-d39806835b10
-- alterId: 0
-  cipher: auto
-  name: HK_speednode_0009
-  network: tcp
-  port: 56972
-  server: 154.37.223.19
-  tls: false
-  type: vmess
-  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
-- alterId: 2
-  cipher: auto
-  name: ID_speednode_0010
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: ID_speednode_0011
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: ID_speednode_0012
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: ID_speednode_0013
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: IR_speednode_0014
-  network: tcp
-  port: 1020
-  server: nlt.reata.ir
-  tls: false
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: JP_speednode_0015
-  network: tcp
-  port: 39611
-  reality-opts:
-    public-key: bffq0wpw2vUOczXypqTqoXzYEzwXAZQzhOut1fvFyWQ
-    short-id: 'd7627055cafc62'
-  server: 18.183.94.154
-  servername: www.icloud.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: f032fd94-715d-4d37-835f-13959a63df14
-- alpn:
-  - ''
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0049
-  network: tcp
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Furls'
 - alpn:
   - ''
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: RU_speednode_0050
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
-    short-id: 'a987b6bd1781daa3'
-  server: 5.35.85.51
-  servername: www.kinopoisk.ru
-  skip-cert-verify: false
-  tls: false
+  flow: ''
+  name: DO_speednode_0002
+  network: ws
+  port: 2083
+  server: 181.36.229.212
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 888403d1-621b-481a-b5dc-7aca518a787b
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fgo.php'
+- alpn:
+  - ''
+  flow: ''
+  name: DO_speednode_0003
+  network: ws
+  port: 8443
+  server: 181.36.229.212
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fgames%2Fm%2Fmag'
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: SE_speednode_0051
+  name: DO_speednode_0004
   network: ws
-  port: 2086
-  server: main.saforia.ru
-  servername: main.saforia.ru
-  skip-cert-verify: false
-  tls: false
+  port: 2096
+  server: 181.36.229.212
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: b8c51058-4378-46d3-b2c9-50b43b5715a0
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
   ws-opts:
     headers:
-      Host: main.saforia.ru
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: TW_speednode_0052
-  network: tcp
-  port: 53229
-  server: 103.127.243.54
-  tls: false
-  type: vmess
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+      Host: linek.perry.us.kg
+    path: '%2Fm%2Farticles'
 - alpn:
   - ''
-  flow: 'xtls-rprx-vision '
-  name: US_speednode_0062
-  network: tcp
+  flow: ''
+  name: DO_speednode_0005
+  network: ws
+  port: 2053
+  server: 181.36.229.212
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fuploads%2Fitem'
+- alpn:
+  - ''
+  flow: ''
+  name: DO_speednode_0006
+  network: ws
+  port: 2087
+  server: 181.36.229.212
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fplaylist%2Fabout%2Fjump.php'
+- alpn:
+  - ''
+  name: KR_speednode_0008
+  network: ws
+  password: pUkVhYVSnjbEy4xbkNJ2QvXTSSLHxRN6sRbdSnnwpbMSXTbC
   port: 443
-  reality-opts:
-    public-key: xDFXqfhZ7-IQiFwXpXltNe2Axo5O33k4LAqDfAVtyz4
-    short-id: '7b'
-  server: 150.241.83.60
-  servername: www.icloud.com
+  server: node3.bw8848.org
   skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: ec13d921-3072-4e16-b2cd-af709f7f7894
-- alpn:
-  - ''
-  client-fingerprint: randomized
-  flow: ''
-  name: US_speednode_0056
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  servername: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  sni: ''
+  type: trojan
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-    path: '%2F'
+      Host: node3.bw8848.org
+    path: '%2Fnode3-node3-jgnkjy'
 - alpn:
   - ''
-  client-fingerprint: randomized
+  client-fingerprint: ''
   flow: ''
-  name: US_speednode_0057
+  name: NL_speednode_0009
   network: ws
-  port: 2095
-  server: cloudflare-dns.com
-  servername: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: 185.125.100.160
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-    path: '%2F'
+      Host: linek.perry.us.kg
+    path: '%2Fretrieve'
+- name: RU_speednode_0053
+  obfs: ''
+  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
+  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
+  port: 9443
+  server: 80.66.81.78
+  skip-cert-verify: true
+  sni: tunel1.washing.help
+  tls: false
+  type: hysteria2
 - alpn:
   - ''
-  client-fingerprint: randomized
+  client-fingerprint: ''
   flow: ''
-  name: US_speednode_0058
+  name: UA_speednode_0054
   network: ws
-  port: 2095
-  server: www.whatismyip.net
-  servername: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: 92.113.146.87
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-    path: '%2F'
+      Host: linek.perry.us.kg
+    path: '%2Ftrade'
 - alpn:
   - ''
   flow: xtls-rprx-vision
-  name: US_speednode_0060
+  name: US_speednode_0055
   network: tcp
   port: 443
   reality-opts:
@@ -519,3 +329,103 @@ proxies:
   tls: false
   type: vless
   uuid: ad961404-6249-4a11-9577-d1e81f6b198f
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0057
+  network: ws
+  port: 8443
+  server: 132.243.203.218
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fseller%2Fnovel'
+- alpn:
+  - ''
+  flow: ''
+  name: US_speednode_0058
+  network: ws
+  port: 8443
+  server: 132.243.203.221
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fuploads%2Fevents'
+- alpn:
+  - ''
+  flow: ''
+  name: US_speednode_0059
+  network: ws
+  port: 8443
+  server: 132.243.203.193
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fshow'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0060
+  network: ws
+  port: 8443
+  server: 132.243.203.210
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fapp%2Fcity'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0061
+  network: ws
+  port: 8443
+  server: 132.243.203.211
+  servername: linek.perry.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  ws-opts:
+    headers:
+      Host: linek.perry.us.kg
+    path: '%2Fprograms'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0062
+  network: ws
+  port: 443
+  server: 172.67.195.79
+  servername: cdn.veilvpn.fans
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    headers:
+      Host: cdn.veilvpn.fans
+    path: '%2Fvpnhu'

@@ -1,49 +1,19 @@
 proxies:
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 美国+德克萨斯州达拉斯Linode数据中心
+- name: '美国+V2CROSS.COM #1'
   network: tcp
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
+  port: 443
+  server: 149.104.87.182
+  skip-cert-verify: true
+  sni: www.jewelapp.click
+  type: trojan
+- name: 美国+德克萨斯州达拉斯Linode数据中心
   password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
   server: 45.79.8.17
+  skip-cert-verify: false
   sni: 45.79.8.17
   type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+RF+Engineering
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.10
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
@@ -68,13 +38,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
