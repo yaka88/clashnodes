@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 德国+V2CROSS.COM
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+  port: 443
+  server: 91.233.8.138
+  sni: www.homelywebs.click
+  type: trojan

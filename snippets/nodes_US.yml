@@ -1,22 +1,22 @@
 proxies:
-- name: 美国+加利福尼亚
+- name: 美国+V2CROSS.COM
   network: tcp
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
   port: 443
-  server: 64.176.65.85
-  skip-cert-verify: false
+  server: 149.104.87.182
+  skip-cert-verify: true
+  sni: www.jewelapp.click
   type: trojan
 - name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
   server: 104.20.6.134
-  sni: www.calmloud.com
+  skip-cert-verify: false
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2F%252Fassignment'
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e

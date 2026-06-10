@@ -1,22 +1,24 @@
 proxies:
-- client-fingerprint: edge
+- alpn:
+  - ''
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
+  name: RU_speednode_0062
   network: tcp
   port: 22231
   server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: true
+  servername: ''
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: RU_speednode_0053
-  obfs: ''
-  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
-  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
-  port: 9443
-  server: 80.66.81.78
-  skip-cert-verify: true
-  sni: tunel1.washing.help
-  tls: false
-  type: hysteria2
+- flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  server: cloud.cdnru.net
+  servername: cloud.cdnru.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 33612cbf-0639-4285-81da-f88eba1d4f85

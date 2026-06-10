@@ -1,29 +1,11 @@
 proxies:
-- name: 美国+加利福尼亚
+- name: 美国+V2CROSS.COM
   network: tcp
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
   port: 443
-  server: 64.176.65.85
-  skip-cert-verify: false
-  type: trojan
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2F%252Fassignment'
-- name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
-  port: 443
-  server: 185.137.157.254
-  skip-cert-verify: false
-  sni: www.directorypipeline.click
+  server: 149.104.87.182
+  skip-cert-verify: true
+  sni: www.jewelapp.click
   type: trojan
 - alterId: 0
   cipher: auto
@@ -35,6 +17,32 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 V2CROSS.COM #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 德国+V2CROSS.COM
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+  port: 443
+  server: 91.233.8.138
+  sni: www.homelywebs.click
+  type: trojan
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -141,17 +149,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  name: KR_speednode_0008
-  network: ws
-  password: pUkVhYVSnjbEy4xbkNJ2QvXTSSLHxRN6sRbdSnnwpbMSXTbC
-  port: 443
-  server: node3.bw8848.org
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: node3.bw8848.org
-    path: '%2Fnode3-node3-jgnkjy'
