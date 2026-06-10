@@ -1,21 +1,26 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
   network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: '!!str d82fb387'
+  server: 31.77.201.3
+  servername: icloud.com
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '英国 V2CROSS.COM #1'
+  type: vless
+  uuid: 10484bee-8516-400a-9b1e-efb5144ad324
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
   network: tcp
-  port: '180'
-  server: 82.198.246.214
-  servername: ''
+  port: 753
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-fi.emrata.top
+  servername: www.amd.com
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  type: vless
+  uuid: 9ad4f937-6366-474b-9d7e-e2a694deb4e2

@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港+特别行政区
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE
+    short-id: '!!str fcd9787f'
+  server: 103.119.18.158
+  servername: www.microsoft.com
+  tls: false
+  type: vless
+  uuid: 8bbf020e-653f-4a82-9900-1214e4e37dab
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
