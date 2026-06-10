@@ -1,58 +1,27 @@
 proxies:
-- name: 美国+德克萨斯州达拉斯Linode数据中心
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-  port: 443
-  server: 45.79.8.17
-  skip-cert-verify: false
-  sni: 45.79.8.17
-  type: trojan
-- name: 美国+Fastly全球Anycast节点
-  network: ws
-  port: 80
-  server: 151.101.194.219
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: default.ssl.fastly.net
-  tls: true
-  type: vless
-  uuid: 82fb089e-fb9b-4acf-ac27-feaeece9962c
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /
-- name: '美国+Fastly全球Anycast节点 #1'
-  network: ws
-  port: 80
-  server: 151.101.2.219
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
 - name: 美国+CloudFlare节点
   network: ws
+  password: humanity
   port: 443
-  server: 172.64.147.137
-  servername: octopusss4.com
+  server: 104.20.6.134
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  sni: www.multiplydose.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: /tsghdws
+    path: /assignment
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
+    short-id: '!!str d037f6f67cc90016'
+  server: ch-gt-01.com
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 3b7950ed-e076-4a51-8df2-222a88689700
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e

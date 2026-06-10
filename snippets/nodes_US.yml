@@ -1,11 +1,14 @@
 proxies:
-- name: 美国+德克萨斯州达拉斯Linode数据中心
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 45.79.8.17
+  server: 104.20.6.134
   skip-cert-verify: false
-  sni: 45.79.8.17
+  sni: www.multiplydose.com
   type: trojan
+  ws-opts:
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
