@@ -1,24 +1,36 @@
 proxies:
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: 美国+加利福尼亚
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  sni: ''
+  type: trojan
 - name: '美国+V2CROSS.COM #1'
-  network: tcp
   password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
   port: 443
   server: 149.104.87.182
   skip-cert-verify: true
   sni: www.jewelapp.click
   type: trojan
-- name: 美国+德克萨斯州达拉斯Linode数据中心
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-  port: 443
-  server: 45.79.8.17
-  skip-cert-verify: false
-  sni: 45.79.8.17
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 17005
-  server: 18.162.124.37
+  port: 49277
+  server: 43.198.203.3
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -26,15 +38,15 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
-  server: 43.198.98.40
+  server: 18.166.223.23
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39959
-  server: 43.199.217.233
+  port: 17801
+  server: 18.163.120.29
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
