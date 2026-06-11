@@ -1,31 +1,73 @@
 proxies:
-- name: 北美地区+V2CROSS.COM
+- name: 美国+V2CROSS.COM
+  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
+  port: 10086
+  server: jp01.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- name: '美国+V2CROSS.COM #1'
   network: ws
-  port: 8880
-  server: 104.254.140.30
+  port: 80
+  server: 167.82.0.1
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
   ws-opts:
     headers:
-      Host: vms.lifetime54.workers.dev
+      Host: max-gb1.global.ssl.fastly.net
     path: /
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: RU_speednode_0062
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #2'
   network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: ''
-  skip-cert-verify: false
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: 5HItszJ7XSKexeNn6F9BSdJLXTfSiCDwUSqLi1Hxd2Q
+    short-id: '3287e9988ca1e611'
+  server: nl.tgru.in
+  servername: tgru.in
+  tls: false
   type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 33bd7d64-2b03-4b19-82e5-9610afde3c3d
 - name: 美国+Fastly全球Anycast节点
   network: ws
   port: 80
-  server: 151.101.2.219
+  server: speedtest.net
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5oHKiTEb9_EUxj2vODi3EWCxhh7gXgFYDw4Sf6JYvEc
+    short-id: '25'
+  server: 84.201.139.114
+  servername: ads.x5.ru
+  tls: false
+  type: vless
+  uuid: d205ae68-0819-473c-b425-6c5947ac2f8d
+- flow: xtls-rprx-vision
+  name: 保加利亚+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+  server: ne999.sonicservice.digital
+  servername: ne999.sonicservice.digital
+  tls: false
+  type: vless
+  uuid: 76b220dc-df21-4299-aa41-f0c056912e68
+- name: '美国+Fastly全球Anycast节点 #1'
+  network: ws
+  port: 80
+  server: 151.101.0.1
   tls: false
   type: vless
   uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
@@ -36,69 +78,45 @@ proxies:
 - flow: xtls-rprx-vision
   name: '俄罗斯+V2CROSS.COM #1'
   network: tcp
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
+  port: 443
+  server: cloud.cdnru.net
+  servername: cloud.cdnru.net
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 33612cbf-0639-4285-81da-f88eba1d4f85
 - name: 美国+CloudFlare节点
   network: tcp
   port: 22
   server: 172.65.111.43
   tls: false
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
   ws-opts:
-    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: '美国+Fastly全球Anycast节点 #1'
+    path: '%2F%40monacoVPN%40monacoVPN%40monacoVPN%40monacoVPN'
+- name: '美国+Fastly全球Anycast节点 #2'
   network: ws
   port: 80
-  server: speedtest.net
+  server: 151.101.2.219
   tls: false
   type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 罗马尼亚+V2CROSS.COM
-  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+- flow: xtls-rprx-vision
+  name: 沙特阿拉伯+V2CROSS.COM
+  network: tcp
   port: 443
-  server: 185.137.157.254
-  sni: www.directorypipeline.click
-  type: trojan
+  reality-opts:
+    public-key: A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g
+    short-id: 'c8813f516bbb12c4'
+  server: 213.165.56.102
+  servername: freede.aiage.work
+  tls: false
+  type: vless
+  uuid: 0a12381a-e241-4b63-a03c-1a5a45a95977
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -205,6 +223,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   flow: xtls-rprx-vision
@@ -250,6 +278,18 @@ proxies:
   tls: false
   type: vless
   uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: RU_speednode_0062
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alpn:
   - ''
   client-fingerprint: ''

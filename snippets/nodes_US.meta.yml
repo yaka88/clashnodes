@@ -1,20 +1,16 @@
 proxies:
-- name: 北美地区+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 104.254.140.30
+- name: 美国+V2CROSS.COM
+  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
+  port: 10086
+  server: jp01.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
   tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime54.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: 美国+Fastly全球Anycast节点
+  type: hysteria2
+- name: '美国+V2CROSS.COM #1'
   network: ws
   port: 80
-  server: 151.101.2.219
+  server: 167.82.0.1
   tls: false
   type: vless
   uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
@@ -22,34 +18,58 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 155.46.167.30
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5HItszJ7XSKexeNn6F9BSdJLXTfSiCDwUSqLi1Hxd2Q
+    short-id: '!!str 3287e9988ca1e611'
+  server: nl.tgru.in
+  servername: tgru.in
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 33bd7d64-2b03-4b19-82e5-9610afde3c3d
+- client-fingerprint: chrome
+  name: 美国+Fastly全球Anycast节点
+  network: ws
+  port: 80
+  server: speedtest.net
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
-      Host: vms.lifetime50.workers.dev
-    path: ''
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: '美国+Fastly全球Anycast节点 #1'
+  network: ws
+  port: 80
+  server: 151.101.0.1
+  tls: false
+  type: vless
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
 - name: 美国+CloudFlare节点
   network: tcp
   port: 22
   server: 172.65.111.43
   tls: false
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
   ws-opts:
-    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-- client-fingerprint: chrome
-  name: '美国+Fastly全球Anycast节点 #1'
+    path: '%2F%40monacoVPN%40monacoVPN%40monacoVPN%40monacoVPN'
+- name: '美国+Fastly全球Anycast节点 #2'
   network: ws
   port: 80
-  server: speedtest.net
+  server: 151.101.2.219
   tls: false
   type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
@@ -78,6 +98,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   client-fingerprint: ''

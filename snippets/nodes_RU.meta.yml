@@ -1,4 +1,27 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5oHKiTEb9_EUxj2vODi3EWCxhh7gXgFYDw4Sf6JYvEc
+    short-id: '!!str 25'
+  server: 84.201.139.114
+  servername: ads.x5.ru
+  tls: false
+  type: vless
+  uuid: d205ae68-0819-473c-b425-6c5947ac2f8d
+- flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  server: cloud.cdnru.net
+  servername: cloud.cdnru.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 33612cbf-0639-4285-81da-f88eba1d4f85
 - alpn:
   - ''
   client-fingerprint: chrome
@@ -9,26 +32,6 @@ proxies:
   server: r1.mizulina.top
   servername: ''
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
