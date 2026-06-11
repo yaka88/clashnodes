@@ -1,18 +1,4 @@
 proxies:
-- name: 德国+V2CROSS.COM
-  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
-  port: 443
-  server: 91.233.8.25
-  sni: fra34.tracker-ws.click
-  type: trojan
-- name: 美国+加利福尼亚
-  network: tcp
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  skip-cert-verify: false
-  sni: 64.176.65.85
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -129,3 +115,22 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  name: DE_speednode_0001
+  network: tcp
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: TW_speednode_0048
+  network: tcp
+  port: 53229
+  server: 103.127.243.54
+  tls: false
+  type: vmess
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
