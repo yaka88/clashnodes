@@ -1,59 +1,25 @@
 proxies:
 - name: 美国+V2CROSS.COM
-  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
-  port: 10086
-  server: jp01.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- name: '美国+V2CROSS.COM #1'
   network: ws
-  port: 80
-  server: 167.82.0.1
-  tls: false
-  type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: tcp
   port: 443
-  reality-opts:
-    public-key: 5HItszJ7XSKexeNn6F9BSdJLXTfSiCDwUSqLi1Hxd2Q
-    short-id: '!!str 3287e9988ca1e611'
-  server: nl.tgru.in
-  servername: tgru.in
-  tls: false
+  server: 199.232.78.159
+  servername: default.ssl.fastly.net
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 33bd7d64-2b03-4b19-82e5-9610afde3c3d
-- client-fingerprint: chrome
-  name: 美国+Fastly全球Anycast节点
-  network: ws
-  port: 80
-  server: speedtest.net
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  uuid: bd6f4e13-80fd-4dd6-8de8-21f23f8c4cdf
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
+      Host: pan1.global.ssl.fastly.net
     path: /
-- name: '美国+Fastly全球Anycast节点 #1'
-  network: ws
-  port: 80
-  server: 151.101.0.1
-  tls: false
-  type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
+- name: 美国+加利福尼亚
+  network: tcp
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  skip-cert-verify: false
+  sni: 64.176.65.85
+  type: trojan
 - name: 美国+CloudFlare节点
   network: tcp
   port: 22
@@ -63,10 +29,12 @@ proxies:
   uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
   ws-opts:
     path: '%2F%40monacoVPN%40monacoVPN%40monacoVPN%40monacoVPN'
-- name: '美国+Fastly全球Anycast节点 #2'
+- name: 美国+Fastly全球Anycast节点
   network: ws
   port: 80
-  server: 151.101.2.219
+  server: 151.101.194.219
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846

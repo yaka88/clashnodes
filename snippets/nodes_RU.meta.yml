@@ -3,6 +3,19 @@ proxies:
   flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
   network: tcp
+  port: 8443
+  reality-opts:
+    public-key: eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI
+    short-id: '!!str ad7dab462a323acb'
+  server: 185.229.9.8
+  servername: ads.x5.ru
+  tls: false
+  type: vless
+  uuid: 3a836fe1-8de7-489b-b189-8f0d3bf31ec9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
   port: 443
   reality-opts:
     public-key: 5oHKiTEb9_EUxj2vODi3EWCxhh7gXgFYDw4Sf6JYvEc
@@ -12,16 +25,19 @@ proxies:
   tls: false
   type: vless
   uuid: d205ae68-0819-473c-b425-6c5947ac2f8d
-- flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #2'
   network: tcp
   port: 443
-  server: cloud.cdnru.net
-  servername: cloud.cdnru.net
-  skip-cert-verify: false
-  tls: true
+  reality-opts:
+    public-key: FaFJaC1LA4xpzdDY1e0suuH8IBDYdRbjUFH3c-BgRBY
+    short-id: '!!str c8b5e9595f818d04'
+  server: ru2.cdn-global.pro
+  servername: ru2.cdn-global.pro
+  tls: false
   type: vless
-  uuid: 33612cbf-0639-4285-81da-f88eba1d4f85
+  uuid: d4d234ea-80ea-4820-ac5e-05d653960579
 - alpn:
   - ''
   client-fingerprint: chrome
