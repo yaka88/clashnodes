@@ -1,58 +1,59 @@
 proxies:
-- name: 美国+CloudFlare节点
+- flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
   network: tcp
-  port: 22
-  server: 172.65.111.43
+  port: 443
+  reality-opts:
+    public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
+    short-id: '86b80f1e713a33ad'
+  server: sw.pink-perfect.ru
+  servername: yandex.net
   tls: false
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db
+- name: '英国+V2CROSS.COM #1'
   network: tcp
-  password: d1UH4TrhvCmjc-s4nmChew1qGqX3MNMqel
+  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
   port: 443
-  server: 130.94.29.102
+  server: 185.126.236.44
   skip-cert-verify: true
-  sni: www.ws-converter.click
+  sni: www.mesaly.click
   type: trojan
-- name: 美国+Linode数据中心
-  password: lTLVIqIvFqp+es9giS.0o77ztLrCQLaxVh
+- name: '英国+V2CROSS.COM #2'
+  port: 8443
+  server: cdn3-87.vk-cdnvideo.com
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: 美国+CloudFlare
+  network: ws
+  password: humanity
   port: 443
-  server: 172.105.9.126
+  server: 162.159.17.189
+  skip-cert-verify: true
+  sni: www.multiplydose.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
+- name: 美国+V2CROSS.COM
+  network: tcp
+  port: 2040
+  reality-opts:
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: '53197c66aef53c44'
+  server: 96.126.129.195
+  servername: tradingview.com
+  tls: false
+  type: vless
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
 - name: 德国+V2CROSS.COM
-  network: tcp
-  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
   port: 443
-  server: 91.233.8.25
+  server: 91.233.8.138
   skip-cert-verify: false
-  sni: fra34.tracker-ws.click
-  type: trojan
-- name: 克罗地亚+V2CROSS.COM
-  network: tcp
-  port: 8443
-  server: 46.229.243.137
-  servername: cdn3-87.vk-cdnvideo.com
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: '克罗地亚+V2CROSS.COM #1'
-  network: tcp
-  port: 8443
-  server: cdn7-09.vk-cdnvideo.com
-  servername: cdn7-09.vk-cdnvideo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
-  port: 443
-  server: 185.137.157.254
-  skip-cert-verify: false
-  sni: www.directorypipeline.click
+  sni: www.homelywebs.click
   type: trojan
 - alterId: 2
   cipher: auto

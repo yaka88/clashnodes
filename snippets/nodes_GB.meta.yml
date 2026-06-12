@@ -1,4 +1,31 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
+    short-id: '!!str 86b80f1e713a33ad'
+  server: sw.pink-perfect.ru
+  servername: yandex.net
+  tls: false
+  type: vless
+  uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db
+- name: '英国+V2CROSS.COM #1'
+  network: tcp
+  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
+  port: 443
+  server: 185.126.236.44
+  skip-cert-verify: true
+  sni: www.mesaly.click
+  type: trojan
+- name: '英国+V2CROSS.COM #2'
+  port: 8443
+  server: cdn3-87.vk-cdnvideo.com
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - alpn:
   - ''
   client-fingerprint: firefox
