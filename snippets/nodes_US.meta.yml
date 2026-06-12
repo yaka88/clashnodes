@@ -1,78 +1,80 @@
 proxies:
-- name: 美国+Fastly全球Anycast节点
-  network: ws
-  port: 80
-  server: 151.101.194.219
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: '美国+Fastly全球Anycast节点 #1'
-  network: ws
-  port: 80
-  server: 151.101.2.219
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: '美国+Fastly全球Anycast节点 #2'
-  network: ws
-  port: 80
-  server: 151.101.130.219
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 美国+Nokia
-  password: d1db0080-669a-4357-ab9f-ab16719ed736
-  port: 51000
-  server: 192.9.179.140
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
 - name: 美国+CloudFlare节点
-  network: tcp
-  port: 22
-  server: 172.65.111.43
+  network: ws
+  port: 80
+  server: 104.24.45.247
   tls: false
   type: vless
-  uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
+  uuid: 2e71d8fc-d2e8-44fc-89bd-c8a449a193aa
   ws-opts:
-    path: '%2F%40monacoVPN%40monacoVPN%40monacoVPN%40monacoVPN'
+    headers:
+      Host: odd-bread-435d.ahmadrezasteamacc.workers.dev
+    path: '%2F'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 162.159.81.104
+  tls: false
+  type: vless
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  ws-opts:
+    headers:
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560
+- name: 北美地区+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 104.254.140.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime54.workers.dev
+    path: '%2F'
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 45.40.149.50
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: /?ed=2560
+- name: 美国+加州
+  network: ws
+  port: 8880
+  server: 216.24.57.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime28.workers.dev
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 17005
-  server: 43.199.62.44
+  port: 48277
+  server: 18.162.244.255
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 95.40.109.247
+  port: 17005
+  server: 16.162.163.189
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 54240
-  server: 16.162.220.245
+  port: 17801
+  server: 18.166.30.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
