@@ -1,18 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.9
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e

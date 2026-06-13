@@ -1,8 +1,22 @@
 proxies:
+- name: 德国+V2CROSS.COM
+  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+  port: 443
+  server: 91.233.8.25
+  sni: fra34.tracker-ws.click
+  type: trojan
+- name: 美国+V2CROSS.COM
+  network: tcp
+  port: 8443
+  server: cdn7-39.vk-cdnvideo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - name: 美国+Fastly全球Anycast节点
   network: ws
   port: 80
-  server: 151.101.66.219
+  server: 151.101.2.219
   tls: false
   type: vless
   uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
@@ -10,42 +24,33 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 德国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: nl08.abvpn.ru
-  servername: nl08.abvpn.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
-  ws-opts:
-    path: '%2Fwebsocket'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 丹麦+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vTtRZ_FeFQoAigFr_pmVc_O85RaE9H8aVL0SitFYcmI
-    short-id: '53cd45d26d7b53fe'
-  server: 159.195.60.65
-  servername: free1.anotherboring.top
-  tls: false
-  type: vless
-  uuid: c897facf-2836-4538-be6e-25386fb49284
-- name: 克罗地亚+V2CROSS.COM
-  port: 8443
-  server: 46.229.243.144
-  servername: cdn3-87.vk-cdnvideo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - name: '美国+Fastly全球Anycast节点 #1'
   network: ws
   port: 80
-  server: speedtest.net
+  server: 151.101.0.1
+  tls: false
+  type: vless
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 拉脱维亚+V2CROSS.COM
+  network: tcp
+  port: 29800
+  reality-opts:
+    public-key: 8Ct5aCwudtGt9MtmAP1kPmoWgaHyrb0iBzmINPHRgSo
+    short-id: 'b7d4820f3f'
+  server: 213.21.246.51
+  servername: dl.google.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 3120446f-78e3-4974-8a00-42b718382bda
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 80
+  server: 199.232.197.131
   servername: max-gb1.global.ssl.fastly.net
   tls: false
   type: vless
@@ -54,67 +59,17 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 美国+CloudFlare节点
+- name: 日本+东京Fastly节点
   network: ws
-  port: 2087
-  server: 172.64.145.166
-  servername: fgnix832fx.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
-    path: '%2F'
-- name: 英国+V2CROSS.COM
-  network: tcp
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  port: 443
-  server: 185.126.236.44
-  skip-cert-verify: false
-  sni: www.mesaly.click
-  type: trojan
-- name: '德国+V2CROSS.COM #1'
-  network: tcp
-  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
-  port: 443
-  server: 91.233.8.138
-  sni: www.homelywebs.click
-  type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
-  port: 443
-  server: 185.137.157.254
-  skip-cert-verify: false
-  sni: www.directorypipeline.click
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.9
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
-    short-id: '86b80f1e713a33ad'
-  server: sw.pink-perfect.ru
-  servername: yandex.net
+  port: 80
+  server: 151.101.109.223
   tls: false
   type: vless
-  uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

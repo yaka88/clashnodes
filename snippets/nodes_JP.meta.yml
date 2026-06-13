@@ -1,4 +1,15 @@
 proxies:
+- name: 日本+东京Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.109.223
+  tls: false
+  type: vless
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
