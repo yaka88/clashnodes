@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: 瑞士+V2CROSS.COM
+  network: ws
+  port: 8080
+  server: 169.40.32.242
+  tls: false
+  type: vless
+  uuid: 5a4ef156-7139-4922-9198-f88a9ccaf3dc
+  ws-opts:
+    headers:
+      Host: 169.40.32.242
+    path: /Path

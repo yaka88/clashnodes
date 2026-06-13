@@ -1,4 +1,22 @@
 proxies:
+- name: 德国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: nl08.abvpn.ru
+  servername: nl08.abvpn.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 95e118b4-4352-4218-8493-f20cc7fc467a
+  ws-opts:
+    path: '%2Fwebsocket'
+- name: '德国+V2CROSS.COM #1'
+  network: tcp
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+  port: 443
+  server: 91.233.8.138
+  sni: www.homelywebs.click
+  type: trojan
 - alpn:
   - ''
   name: DE_speednode_0001

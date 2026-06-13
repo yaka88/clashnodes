@@ -1,4 +1,11 @@
 proxies:
+- name: '德国+V2CROSS.COM #1'
+  network: tcp
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+  port: 443
+  server: 91.233.8.138
+  sni: www.homelywebs.click
+  type: trojan
 - alpn:
   - ''
   name: DE_speednode_0001
