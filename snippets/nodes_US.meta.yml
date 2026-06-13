@@ -1,18 +1,26 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str d82fb387'
-  server: 167.104.223.68
-  servername: www.microsoft.com
-  skip-cert-verify: false
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 80
+  server: 104.21.80.180
   tls: false
   type: vless
-  uuid: 1c0277ad-bb4d-496f-bc0c-40ccee03fca5
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: '%2F'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 172.64.147.29
+  tls: false
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: '%2F'
 - name: 美国+Fastly全球Anycast节点
   network: ws
   port: 80
@@ -24,10 +32,21 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 80
+  server: 172.64.147.175
+  tls: false
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: '%2F'
 - name: '美国+Fastly全球Anycast节点 #1'
   network: ws
   port: 80
-  server: speedtest.net
+  server: 151.101.194.219
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -38,10 +57,10 @@ proxies:
 - name: '美国+Fastly全球Anycast节点 #2'
   network: ws
   port: 80
-  server: 151.101.130.219
+  server: 151.101.0.1
   tls: false
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
@@ -49,8 +68,8 @@ proxies:
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 48277
-  server: 18.162.244.255
+  port: 17005
+  server: 95.40.55.96
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -58,7 +77,7 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
-  server: 16.162.163.189
+  server: 16.163.144.103
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -66,7 +85,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 17801
-  server: 18.166.30.83
+  server: 43.198.12.196
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
