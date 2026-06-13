@@ -1,10 +1,36 @@
 proxies:
-- name: '德国+V2CROSS.COM #1'
-  network: tcp
-  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 91.233.8.138
-  sni: www.homelywebs.click
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 英国+V2CROSS.COM
+  network: tcp
+  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
+  port: 443
+  server: 185.126.236.44
+  skip-cert-verify: false
+  sni: www.mesaly.click
   type: trojan
 - alterId: 2
   cipher: auto
