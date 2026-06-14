@@ -1,18 +1,69 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
+- name: 乌克兰+V2CROSS.COM
+  password: e3a5bb40be52de65
+  port: 55555
+  server: 89.251.26.111
+  skip-cert-verify: true
+  sni: apps.apple.com
+  tls: false
+  type: hysteria2
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
   port: 443
-  server: 173.245.58.75
-  servername: octopusss4.com
+  server: 185.137.157.254
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  sni: www.directorypipeline.click
+  type: trojan
   ws-opts:
     headers:
-      Host: octopusss4.com
-    path: /tsghdws
-- name: 乌克兰+V2CROSS.COM
+      Host: v2rayNplus-v2rayNplus-v2rayNplus
+- name: 英国+V2CROSS.COM
+  port: 8443
+  server: cdn9-33.vk-cdnvideo.com
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: 美国+Fastly全球Anycast节点
+  network: ws
+  port: 80
+  server: 151.101.2.219
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F'
+- flow: ''
+  name: 荷兰+V2CROSS.COM
+  network: tcp
+  port: 8443
+  server: 185.229.191.10
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 美国+V2CROSS.COM
+  network: tcp
+  port: 8443
+  server: cdn3-87.vk-cdnvideo.com
+  servername: cdn3-87.vk-cdnvideo.com
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: 日本+东京Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.109.223
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: '美国+V2CROSS.COM #1'
   network: tcp
   port: 8443
   server: cdn7-39.vk-cdnvideo.com
@@ -20,108 +71,17 @@ proxies:
   tls: true
   type: vless
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 80
-  server: 167.82.0.1
-  tls: false
-  type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 108.162.192.75
-  servername: octopusss4.com
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: '%2Ftsghdws'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 162.159.44.195
-  servername: hhlfy.twiladaphne.ndjp.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: '%2Ffp%3Drandom'
-- name: '乌克兰+V2CROSS.COM #1'
-  network: tcp
-  port: 8443
-  server: 95.133.245.165
-  servername: cdn3-87.vk-cdnvideo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: 美国+洛杉矶
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
   network: ws
   password: humanity
   port: 443
-  server: 66.81.247.155
-  sni: www.calmloud.com
+  server: 8.6.112.0
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 美国+教育网
-  password: 940f51d6-e0a4-4add-b96b-328e4a84b642
-  port: 51000
-  server: 140.245.27.220
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 108.162.195.45
-  servername: picassooo.info
-  tls: true
-  type: vless
-  uuid: 7270612b-49f6-4b04-999c-34d8263da767
-  ws-opts:
-    headers:
-      Host: picassooo.info
-    path: '%2Faymdlws'
-- alpn:
-  - http/1.1
-  name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: 2ee.we.wwww.swsl.glowbal.diwgi.mwy.mitivpn.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 2ee.we.wwww.swsl.glowbal.diwgi.mwy.mitivpn.xyz
-    path: /ed=mitivpn
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 2053
-  server: josni.hoyes.cloudns.ch
-  servername: josni.hoyes.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: '%2F'
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

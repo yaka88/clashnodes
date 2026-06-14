@@ -1,29 +1,26 @@
 proxies:
-- name: 美国+洛杉矶
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+  port: 443
+  server: 185.137.157.254
+  skip-cert-verify: false
+  sni: www.directorypipeline.click
+  type: trojan
+  ws-opts:
+    headers:
+      Host: v2rayNplus-v2rayNplus-v2rayNplus
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
   network: ws
   password: humanity
   port: 443
-  server: 66.81.247.155
-  sni: www.calmloud.com
+  server: 8.6.112.0
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: 2ee.we.wwww.swsl.glowbal.diwgi.mwy.mitivpn.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 2ee.we.wwww.swsl.glowbal.diwgi.mwy.mitivpn.xyz
-    path: /ed=mitivpn
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
