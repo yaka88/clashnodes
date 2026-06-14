@@ -1,22 +1,40 @@
 proxies:
-- name: 德国+V2CROSS.COM
-  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+- name: 美国+Fastly全球Anycast节点
+  network: ws
+  port: 80
+  server: 151.101.66.219
+  tls: false
+  type: vless
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F'
+- name: 美国+CloudFlare节点
+  network: ws
   port: 443
-  server: 91.233.8.25
-  sni: fra34.tracker-ws.click
-  type: trojan
-- name: 美国+V2CROSS.COM
-  network: tcp
+  server: adf.ly
+  servername: rAyAn-007.pArViN.DpDnS.OrG
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  ws-opts:
+    headers:
+      Host: rayan-007.parvin.dpdns.org
+    path: /?ed%3D2560
+- name: 克罗地亚+V2CROSS.COM
   port: 8443
-  server: cdn7-39.vk-cdnvideo.com
+  server: 46.229.243.144
+  servername: cdn3-87.vk-cdnvideo.com
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: 美国+Fastly全球Anycast节点
+- name: 美国+V2CROSS.COM
   network: ws
   port: 80
-  server: 151.101.2.219
+  server: 167.82.0.1
   tls: false
   type: vless
   uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
@@ -24,52 +42,43 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: '美国+Fastly全球Anycast节点 #1'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   port: 80
-  server: 151.101.0.1
+  server: 104.17.72.206
   tls: false
   type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  uuid: 1de37726-744b-46e1-9101-c926b3402e82
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
+      Host: v2.v2configlab.workers.dev
     path: /
-- name: 拉脱维亚+V2CROSS.COM
-  network: tcp
-  port: 29800
-  reality-opts:
-    public-key: 8Ct5aCwudtGt9MtmAP1kPmoWgaHyrb0iBzmINPHRgSo
-    short-id: 'b7d4820f3f'
-  server: 213.21.246.51
-  servername: dl.google.com
-  skip-cert-verify: true
-  tls: false
+- name: 乌克兰+V2CROSS.COM
+  port: 8443
+  server: 95.133.245.106
+  servername: cdn9-33.vk-cdnvideo.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 3120446f-78e3-4974-8a00-42b718382bda
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: 德国+V2CROSS.COM
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+  port: 443
+  server: 91.233.8.138
+  skip-cert-verify: false
+  sni: www.homelywebs.click
+  type: trojan
 - name: '美国+V2CROSS.COM #1'
   network: ws
   port: 80
   server: 199.232.197.131
-  servername: max-gb1.global.ssl.fastly.net
   tls: false
   type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 日本+东京Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.109.223
-  tls: false
-  type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
