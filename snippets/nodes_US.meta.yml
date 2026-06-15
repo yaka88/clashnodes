@@ -1,57 +1,30 @@
 proxies:
-- name: 美国+教育网
-  password: 940f51d6-e0a4-4add-b96b-328e4a84b642
-  port: 51000
-  server: 140.245.27.220
-  skip-cert-verify: true
-  sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
-- name: 美国+V2CROSS.COM
+- client-fingerprint: chrome
+  name: 美国+加州
   network: ws
-  port: 80
-  server: 167.82.0.1
-  tls: false
+  port: 443
+  server: 216.24.57.195
+  servername: sanjiopmin.dpdns.org
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
+      Host: sanjiopmin.dpdns.org
     path: /
 - name: 美国+CloudFlare节点
   network: ws
-  port: 80
-  server: 162.159.40.49
-  tls: false
+  port: 443
+  server: 108.162.195.45
+  servername: picassooo.info
+  tls: true
   type: vless
-  uuid: 57bd62cf-5550-4075-8fa3-d4519aae8df0
+  uuid: 7270612b-49f6-4b04-999c-34d8263da767
   ws-opts:
     headers:
-      Host: silent-feather-8539.sddadad2233122eew.workers.dev
-    path: '%2FeyJqdW5rIjoiRURaNEp6YUhMbVlqdzQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0%3D'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: 104.21.46.80
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: aed8656b-6479-4c04-9437-c7e16aa52a06
-  ws-opts:
-    headers:
-      Host: jolly-base-0bce.hamedpop2.workers.dev
-    path: /eyJqdW5rIjoidXlXRjN1SVB6MllockoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=?ed=2560
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 2095
-  server: www.wto.org
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
-    path: /
+      Host: picassooo.info
+    path: /aymdlws
 - name: 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
