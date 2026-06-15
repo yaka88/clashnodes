@@ -1,18 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
