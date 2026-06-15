@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 法国+国际航空电讯集团公司(SITA)
-  network: tcp
-  port: 59826
-  reality-opts:
-    public-key: H-Ule2FFFI4MFSowspFPAC5SYb_gW9IE0isIZY8Ix3w
-    short-id: '!!str 2c35f2ac05bf15a0'
-  server: 57.181.38.2
-  servername: www.nvidia.com
-  tls: false
-  type: vless
-  uuid: aa24026d-9542-4357-8625-3f04653fc4bd
+proxies: []

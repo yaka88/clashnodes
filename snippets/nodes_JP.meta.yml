@@ -1,4 +1,16 @@
 proxies:
+- name: 日本+东京Fastly节点
+  network: ws
+  port: 443
+  server: 151.101.109.223
+  servername: default.ssl.fastly.net
+  tls: true
+  type: vless
+  uuid: 5daab9b5-c9a0-47a6-a5c6-0977c6631c14
+  ws-opts:
+    headers:
+      Host: bazaryabab.global.ssl.fastly.net
+    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

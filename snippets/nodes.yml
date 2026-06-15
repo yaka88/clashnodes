@@ -1,17 +1,30 @@
 proxies:
-- name: 德国+V2CROSS.COM
-  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+- name: 英国+V2CROSS.COM
+  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
   port: 443
-  server: 91.233.8.25
-  skip-cert-verify: false
-  sni: fra34.tracker-ws.click
+  server: 185.126.236.44
+  sni: www.mesaly.click
   type: trojan
-- name: '德国+V2CROSS.COM #1'
-  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 91.233.8.138
+  server: 104.20.6.134
   skip-cert-verify: false
-  sni: www.homelywebs.click
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+  port: 443
+  server: 185.137.157.254
+  sni: www.directorypipeline.click
   type: trojan
 - alterId: 2
   cipher: auto

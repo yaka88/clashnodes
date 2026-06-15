@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 1020
+  reality-opts:
+    public-key: ULEKhRXed87x1kNaVVq4l8ANWDwmcoxetjclnShfhWM
+    short-id: '!!str 4374d295a4f9dd83'
+  server: 185.212.117.118
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bc
