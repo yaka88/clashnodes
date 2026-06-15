@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 26048
+  server: 193.233.23.196
+  tls: false
+  type: vless
+  uuid: 3007b043-acdf-43a4-900e-c7c015406f89

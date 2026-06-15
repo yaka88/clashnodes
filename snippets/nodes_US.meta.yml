@@ -1,15 +1,4 @@
 proxies:
-- name: 美国+Fastly全球Anycast节点
-  network: ws
-  port: 80
-  server: 151.101.66.219
-  tls: false
-  type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
 - name: 美国+教育网
   password: 940f51d6-e0a4-4add-b96b-328e4a84b642
   port: 51000
@@ -18,35 +7,72 @@ proxies:
   sni: cn.cremedelamer.com
   tls: false
   type: hysteria2
-- name: 美国+南卡罗来纳州
-  network: tcp
-  port: 8443
-  server: 169.150.228.24
-  servername: bog-co-01.fromblancwithlove.com
-  tls: true
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 80
+  server: 167.82.0.1
+  tls: false
   type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 80
+  server: 162.159.40.49
+  tls: false
+  type: vless
+  uuid: 57bd62cf-5550-4075-8fa3-d4519aae8df0
+  ws-opts:
+    headers:
+      Host: silent-feather-8539.sddadad2233122eew.workers.dev
+    path: '%2FeyJqdW5rIjoiRURaNEp6YUhMbVlqdzQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0%3D'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: 104.21.46.80
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: aed8656b-6479-4c04-9437-c7e16aa52a06
+  ws-opts:
+    headers:
+      Host: jolly-base-0bce.hamedpop2.workers.dev
+    path: /eyJqdW5rIjoidXlXRjN1SVB6MllockoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=?ed=2560
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 2095
+  server: www.wto.org
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
-  password: d02e3bb7e6b3333e818d36866d40de6e
+  password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
-  server: 95.40.55.96
+  server: 18.162.187.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 17005
-  server: 16.163.144.103
+  password: e0195c73018d597b1c2f0ea89d8676ae
+  port: 49277
+  server: 18.183.118.126
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 43.198.12.196
+  port: 22057
+  server: 18.166.228.198
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

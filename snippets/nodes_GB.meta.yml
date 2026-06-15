@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+社会保险安全部
+  network: tcp
+  port: 44520
+  reality-opts:
+    public-key: MrLRcU_2S2CpUc7VT3ajIavX5NYUiQdP6J5QTDFNGFU
+    short-id: '!!str 8897c56a495b26cc'
+  server: 51.44.25.250
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: acd726d3-0128-44d8-a575-21013ff7740a
 - alpn:
   - ''
   client-fingerprint: firefox
