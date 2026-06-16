@@ -1,90 +1,132 @@
 proxies:
-- flow: ''
-  name: 荷兰+V2CROSS.COM
+- flow: xtls-rprx-vision
+  name: 捷克+V2CROSS.COM
   network: tcp
-  port: 8443
-  server: 185.229.191.10
-  servername: ams1.fromblancwithlove.com
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: O94s7biQ2O5Q66OI3jlT4megGOIqwLbRw81-6S5t4Q8
+    short-id: 'a1b2c3d4'
+  server: 95.85.245.211
+  servername: es.launch.tel
+  tls: false
   type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: 82dbc26e-2dcc-436a-84ee-f57d098209cd
+- flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wpZDT_592emHu309qN-7-qceofbMJzoAdIx9m9RFJGg
+    short-id: '0c1eca51bd6ddfde'
+  server: 152.53.45.123
+  servername: at-c1.buycloud.app
+  tls: false
+  type: vless
+  uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249
+- flow: xtls-rprx-vision
+  name: 欧盟+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ElEALiFaDTMj9lYwMPYaCVnbMkz22pvzD10dGW61kyc
+    short-id: 'be7507528658cc98'
+  server: 45.82.13.20
+  servername: alb00.sidecloud.ru
+  tls: false
+  type: vless
+  uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249
 - name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 172.66.47.69
-  sni: www.multiplydose.com
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2095
-  server: www.whatismyip.net
-  servername: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-    path: /fp=randomized
-- flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 罗马尼亚+V2CROSS.COM
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
-    short-id: 'd515d6cfdfe60b02'
-  server: 45.197.134.89
-  servername: storage.yandex.net
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 109.236.57.63
+  servername: sellflow.org
   tls: false
   type: vless
-  uuid: 4fdec620-73bb-40a7-a8d5-2570a59f1832
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 80
-  server: 104.21.46.80
-  skip-cert-verify: false
+  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: tcp
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  skip-cert-verify: true
+  sni: 130.94.94.15
+  type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '罗马尼亚+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 109.236.57.68
+  servername: sellflow.org
   tls: false
   type: vless
-  uuid: aed8656b-6479-4c04-9437-c7e16aa52a06
-  ws-opts:
-    headers:
-      Host: jolly-base-0bce.hamedpop2.workers.dev
-    path: /eyJqdW5rIjoidXlXRjN1SVB6MllockoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=?ed=2560
+  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
+- flow: xtls-rprx-vision
+  name: '欧盟+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: h2dJU4U9vJd5hxxrtjbW0pkn2B4h2w7IkheY_BHtlkM
+  server: 45.89.63.95
+  servername: node1.food38.ru
+  tls: false
+  type: vless
+  uuid: 0c29e923-168d-46f2-baab-eaad11c15f69
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OwcO1frlUKi0De7XLo3OmD1qK8Y2HYgJ19WZV8Xzk2E
+    short-id: '711f03b16c322124'
+  server: 144.31.131.3
+  servername: by.buycloud.app
+  tls: false
+  type: vless
+  uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249
 - alterId: 0
   cipher: auto
-  name: 德国 V2CROSS.COM
-  network: tcp
-  port: '1020'
-  server: nlt.reata.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- name: 马来西亚+吉隆坡阿里云
-  network: tcp
-  port: 20393
-  server: 47.250.195.135
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国弗吉尼亚州阿什本+CloudFlare节点
+  name: 美国 CloudFlare节点
   network: ws
-  port: 8880
-  server: 173.245.49.22
-  tls: false
-  type: vless
-  uuid: b6e42688-3076-47aa-9345-6ff10fe1a36b
+  port: '443'
+  server: 104.16.0.0
+  servername: gongyilm.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 95d2c461-61f5-4dae-bc74-4d10ce1f6236
   ws-opts:
     headers:
-      Host: wandering-rice-1ac4.cloudfelar.workers.dev
-    path: /sync
+      Host: gongyilm.dpdns.org
+    path: /ws-gongyi
+- flow: xtls-rprx-vision
+  name: '欧盟+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ElEALiFaDTMj9lYwMPYaCVnbMkz22pvzD10dGW61kyc
+    short-id: 'd98613f3853a7c26'
+  server: 45.82.13.5
+  servername: alb00.sidecloud.ru
+  tls: false
+  type: vless
+  uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

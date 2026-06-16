@@ -1,64 +1,63 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.47.69
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2095
-  server: www.whatismyip.net
-  servername: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-    path: /fp=randomized
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 美国+V2CROSS.COM
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
-    short-id: '!!str d515d6cfdfe60b02'
-  server: 45.197.134.89
-  servername: storage.yandex.net
+    public-key: wpZDT_592emHu309qN-7-qceofbMJzoAdIx9m9RFJGg
+    short-id: '!!str 0c1eca51bd6ddfde'
+  server: 152.53.45.123
+  servername: at-c1.buycloud.app
   tls: false
   type: vless
-  uuid: 4fdec620-73bb-40a7-a8d5-2570a59f1832
-- name: '美国+CloudFlare节点 #2'
+  uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249
+- name: 美国+CloudFlare节点
   network: ws
-  port: 80
-  server: 104.21.46.80
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: aed8656b-6479-4c04-9437-c7e16aa52a06
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: jolly-base-0bce.hamedpop2.workers.dev
-    path: /eyJqdW5rIjoidXlXRjN1SVB6MllockoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=?ed=2560
-- name: 美国弗吉尼亚州阿什本+CloudFlare节点
-  network: ws
-  port: 8880
-  server: 173.245.49.22
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: tcp
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  skip-cert-verify: true
+  sni: 130.94.94.15
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OwcO1frlUKi0De7XLo3OmD1qK8Y2HYgJ19WZV8Xzk2E
+    short-id: '!!str 711f03b16c322124'
+  server: 144.31.131.3
+  servername: by.buycloud.app
   tls: false
   type: vless
-  uuid: b6e42688-3076-47aa-9345-6ff10fe1a36b
+  uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: 104.16.0.0
+  servername: gongyilm.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 95d2c461-61f5-4dae-bc74-4d10ce1f6236
   ws-opts:
     headers:
-      Host: wandering-rice-1ac4.cloudfelar.workers.dev
-    path: /sync
+      Host: gongyilm.dpdns.org
+    path: /ws-gongyi
 - name: 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
