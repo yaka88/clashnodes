@@ -1,1 +1,92 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: SE_speednode_0055
+  network: tcp
+  port: 8443
+  server: 45.159.12.191
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: SE_speednode_0056
+  network: tcp
+  port: 8443
+  server: 79.127.249.221
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: SE_speednode_0057
+  network: tcp
+  port: 8443
+  server: 45.159.12.9
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: SE_speednode_0058
+  network: tcp
+  port: 8443
+  server: 45.159.12.3
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: SE_speednode_0059
+  network: tcp
+  port: 8443
+  server: 45.159.12.34
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: SE_speednode_0060
+  network: tcp
+  port: 8443
+  server: 79.127.249.197
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: SE_speednode_0061
+  network: tcp
+  port: 8443
+  server: 45.159.12.134
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93

@@ -1,11 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  name: DE_speednode_0001
-  network: tcp
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
+proxies: []

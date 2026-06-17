@@ -33,3 +33,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK_speednode_0002
+  network: tcp
+  port: 443
+  server: assets.trorays.com
+  servername: assets.trorays.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
