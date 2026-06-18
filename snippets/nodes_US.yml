@@ -1,12 +1,25 @@
 proxies:
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+- alterId: 0
+  cipher: auto
+  name: 北美地区 V2CROSS.COM
   network: tcp
-  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: '29633'
+  server: 23.141.204.132
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+  network: ws
+  password: humanity
   port: 443
-  server: 130.94.94.15
-  skip-cert-verify: true
-  sni: 130.94.94.15
+  server: 8.6.112.0
+  sni: www.multiplydose.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
