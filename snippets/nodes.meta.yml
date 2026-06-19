@@ -1,30 +1,28 @@
 proxies:
-- name: 美国+V2CROSS.COM
+- name: 捷克+V2CROSS.COM
   network: tcp
-  port: 58687
-  reality-opts:
-    public-key: vtF4x5YlLy7A-Ts1-mCZkXwqL7QFaapPxVRXdh1j_Qg
-    short-id: '4e37f3eeee73fc'
-  server: zorovpn.xubi.org
-  servername: www.yahoo.com
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.7.147
+  port: 8443
+  server: 87.249.139.244
+  servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #1'
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 美国+南卡罗来纳州
+  network: tcp
+  port: 8443
+  server: 169.150.215.77
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 美国+V2CROSS.COM
   network: ws
   port: 443
-  server: 167.82.101.251
+  server: 140.248.185.253
   servername: default.ssl.fastly.net
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 9a1ca418-134f-4750-b97a-55ea81135742
@@ -32,31 +30,26 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: /
+- name: '美国+V2CROSS.COM #1'
+  password: c-SRHpnT4DGR3W3W639LbOUKHYR.Ls71kU
+  port: 10295
+  server: 144.31.55.10
+  skip-cert-verify: true
+  sni: www.spotwebs.click
+  type: trojan
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: TR_speednode_0064
+  name: NL_speednode_0014
   network: tcp
   port: 8443
-  server: 87.249.139.236
+  server: 185.229.191.111
   servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- flow: xtls-rprx-vision
-  name: 英国+惠普HP
-  network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  server: 15.204.97.219
-  servername: fuck.rkn
-  tls: false
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
 - alpn:
   - ''
   client-fingerprint: ''
@@ -74,34 +67,32 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: NL_speednode_0019
+  name: NL_speednode_0013
   network: tcp
   port: 8443
-  server: 185.229.191.93
+  server: 185.229.191.184
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 美国+南卡罗来纳州
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  network: tcp
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
+  type: trojan
+- name: '美国+南卡罗来纳州 #1'
   network: tcp
   port: 8443
-  server: 169.150.215.77
+  server: 169.150.215.72
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: '捷克+V2CROSS.COM #1'
-  network: tcp
-  port: 8443
-  server: 95.173.199.106
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: '荷兰+V2CROSS.COM #2'
+- name: '荷兰+V2CROSS.COM #3'
   network: tcp
   port: 8443
   server: 185.229.191.12
@@ -111,96 +102,98 @@ proxies:
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - alpn:
-  - http/1.1
-  name: 美国+洛杉矶
-  network: ws
-  password: humanity
-  port: 443
-  server: 66.81.247.155
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: NL_speednode_0006
+  network: tcp
+  port: 8443
+  server: 185.229.191.96
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: '美国+V2CROSS.COM #2'
+  network: tcp
+  port: 8443
+  server: 45.159.12.196
+  servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  network: tcp
-  password: BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V
-  port: 443
-  server: 130.94.114.217
-  sni: 130.94.114.217
-  type: trojan
-- name: 亚太地区+V2CROSS.COM
-  network: tcp
-  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
-  port: 443
-  server: 103.125.216.169
-  sni: 103.125.216.169
-  type: trojan
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: TR_speednode_0062
+  name: NL_speednode_0007
   network: tcp
   port: 8443
-  server: 169.150.215.80
+  server: 185.229.191.49
   servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: '捷克+V2CROSS.COM #2'
-  network: tcp
-  port: 8443
-  server: 87.249.139.247
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: '亚太地区+V2CROSS.COM #1'
-  network: tcp
-  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
-  port: 443
-  server: 103.125.219.70
-  sni: 103.125.219.70
-  type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
-  port: 443
-  server: 185.137.157.59
   skip-cert-verify: true
-  sni: www.lateralio.click
-  type: trojan
-- name: '荷兰+V2CROSS.COM #3'
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: '美国+V2CROSS.COM #3'
   network: tcp
   port: 8443
-  server: 185.229.191.69
+  server: 143.244.45.54
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: 'd82fb387'
-  server: 31.76.38.18
-  servername: icloud.com
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
   skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 6e41151e-ae07-4ea6-910e-7a3986b7bc0d
-- name: '捷克+V2CROSS.COM #3'
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.223
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 日本+东京Fastly节点
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: global.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+    path: /ed=mitivpn
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '捷克+V2CROSS.COM #1'
   network: tcp
   port: 8443
-  server: 87.249.139.237
+  server: 95.173.199.82
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true
@@ -387,32 +380,6 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: NL_speednode_0006
-  network: tcp
-  port: 8443
-  server: 185.229.191.96
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: NL_speednode_0007
-  network: tcp
-  port: 8443
-  server: 185.229.191.49
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
   name: NL_speednode_0008
   network: tcp
   port: 8443
@@ -455,32 +422,6 @@ proxies:
   network: tcp
   port: 8443
   server: 185.229.191.157
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: NL_speednode_0013
-  network: tcp
-  port: 8443
-  server: 185.229.191.184
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: NL_speednode_0014
-  network: tcp
-  port: 8443
-  server: 185.229.191.111
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: true
   tls: true
@@ -533,6 +474,19 @@ proxies:
   network: tcp
   port: 8443
   server: 185.229.191.95
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: NL_speednode_0019
+  network: tcp
+  port: 8443
+  server: 185.229.191.93
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: true
   tls: true
@@ -771,10 +725,36 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
+  name: TR_speednode_0062
+  network: tcp
+  port: 8443
+  server: 169.150.215.80
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
   name: TR_speednode_0063
   network: tcp
   port: 8443
   server: 87.249.139.248
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: TR_speednode_0064
+  network: tcp
+  port: 8443
+  server: 87.249.139.236
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true
