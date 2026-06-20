@@ -1,41 +1,25 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+佛罗里达州迈阿密市
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: gFP8-P4r8FKkN10b0q1keHgL7jjmUOpY9qPAem_3z34
-    short-id: '!!str 5201'
-  server: 72.56.112.226
-  servername: deepl.com
-  tls: false
-  type: vless
-  uuid: 8c158c22-ecaf-441e-8653-91f1a5a4fd15
-- name: 美国+CloudFlare节点
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  name: 美国+CloudFlare节点
   network: ws
-  port: 443
-  server: biato.sayevpni.store
-  skip-cert-verify: false
+  port: 2053
+  server: po.fastbrokencompony.com
+  servername: po.fastbrokencompony.com
   tls: true
   type: vless
-  uuid: b0af1bed-2c43-440c-90bc-4f737fb037ec
+  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
   ws-opts:
     headers:
-      Host: biato.sayevpni.store
-    path: /SayeVPNi
-- name: 美国+华盛顿Cogent通信公司
-  password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
-  port: 443
-  server: 38.54.13.189
-  sni: 38.54.13.189
-  type: trojan
+      Host: po.fastbrokencompony.com
+    path: /
 - name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 172.64.152.241
+  server: yx.cloudflare.182682.xyz
   servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -44,29 +28,15 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: /
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  name: 美国+佛罗里达州迈阿密市
+  network: tcp
+  port: 22231
+  server: 72.56.59.223
+  servername: r1.mizulina.top
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: /assignment
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - name: 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae

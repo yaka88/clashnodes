@@ -1,27 +1,17 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
-  port: 443
-  server: 38.54.13.189
-  sni: 38.54.13.189
-  type: trojan
-- name: 亚太地区+V2CROSS.COM
-  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
-  port: 443
-  server: 103.125.219.70
-  skip-cert-verify: false
-  sni: 103.125.219.70
-  type: trojan
-- name: '美国+CloudFlare节点 #3'
+- alpn:
+  - http/1.1
+  name: 日本+东京Fastly节点
   network: ws
-  password: humanity
+  password: MiTiVPN
   port: 443
-  server: 104.18.12.149
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 151.101.110.219
+  sni: global.fastly.com
   type: trojan
   ws-opts:
-    path: /assignment
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+    path: /ed=mitivpn
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

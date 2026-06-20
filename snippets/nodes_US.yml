@@ -1,20 +1,4 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
-  port: 443
-  server: 38.54.13.189
-  sni: 38.54.13.189
-  type: trojan
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
