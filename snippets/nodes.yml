@@ -1,79 +1,27 @@
 proxies:
-- name: 美国+CloudFlare节点
+- name: 美国+华盛顿Cogent通信公司
+  password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
+  port: 443
+  server: 38.54.13.189
+  sni: 38.54.13.189
+  type: trojan
+- name: 亚太地区+V2CROSS.COM
+  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
+  port: 443
+  server: 103.125.219.70
+  skip-cert-verify: false
+  sni: 103.125.219.70
+  type: trojan
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: www.calmloud.com
+  server: 104.18.12.149
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
-  port: '80'
-  server: 69.84.182.49
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-- name: '美国+V2CROSS.COM #1'
-  password: c-SRHpnT4DGR3W3W639LbOUKHYR.Ls71kU
-  port: 10295
-  server: 144.31.55.10
-  sni: www.spotwebs.click
-  type: trojan
-- alpn:
-  - h3
-  - h2
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.54
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+V2CROSS.COM #2'
-  network: tcp
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
-  port: 443
-  server: 45.61.52.243
-  sni: 45.61.52.243
-  type: trojan
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.208.184
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2F%252Fassignment'
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
