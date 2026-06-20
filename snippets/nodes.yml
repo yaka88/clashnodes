@@ -1,17 +1,52 @@
 proxies:
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V
+  port: 443
+  server: 130.94.114.217
+  type: trojan
 - alpn:
   - http/1.1
-  name: 日本+东京Fastly节点
+  name: 美国+CloudFlare节点
   network: ws
-  password: MiTiVPN
+  password: humanity
   port: 443
-  server: 151.101.110.219
-  sni: global.fastly.com
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
-      Host: mitivpn.global.ssl.fastly.net
-    path: /ed=mitivpn
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 亚太地区+V2CROSS.COM
+  network: tcp
+  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
+  port: 443
+  server: 103.125.216.169
+  sni: 103.125.216.169
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: '80'
+  server: 69.84.182.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- name: 美国+华盛顿Cogent通信公司
+  network: tcp
+  password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
+  port: 443
+  server: 38.54.13.189
+  skip-cert-verify: true
+  sni: 38.54.13.189
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
