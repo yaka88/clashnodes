@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 加拿大+V2CROSS.COM
+  network: tcp
+  port: 2040
+  reality-opts:
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: '!!str 53197c66aef53c44'
+  server: 108.165.236.144
+  servername: tradingview.com
+  tls: false
+  type: vless
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
