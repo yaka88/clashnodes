@@ -23,3 +23,13 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- alpn:
+  - ''
+  name: JP_speednode_0011
+  network: tcp
+  password: BxceQaOe
+  port: 5408
+  server: 54.65.32.119
+  skip-cert-verify: true
+  sni: ''
+  type: trojan

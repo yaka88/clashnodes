@@ -1,17 +1,4 @@
 proxies:
-- name: 日本+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 43.164.191.65
-  servername: s5.868001.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /proxyip=tw.william.us.cifp=chrome
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -35,4 +22,14 @@ proxies:
   server: 35.77.34.38
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- alpn:
+  - ''
+  name: JP_speednode_0011
+  network: tcp
+  password: BxceQaOe
+  port: 5408
+  server: 54.65.32.119
+  skip-cert-verify: true
+  sni: ''
   type: trojan
