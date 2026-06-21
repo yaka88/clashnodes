@@ -2,40 +2,37 @@ proxies:
 - alpn:
   - ''
   flow: ''
-  name: TR_speednode_0105
+  name: TR_speednode_0104
   network: tcp
   port: 8443
-  server: 87.249.139.247
+  server: 87.249.139.235
   servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: yx.cloudflare.182682.xyz
-  servername: t1s1.rittbo.kdns.fr
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: tcp
+  port: '1546'
+  server: vip3.sanaiehdasti.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
+- alpn:
+  - ''
+  flow: ''
+  name: NL_speednode_0019
+  network: tcp
+  port: 8443
+  server: 185.229.191.12
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.21.227.134
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - alpn:
   - ''
   flow: ''
@@ -48,10 +45,141 @@ proxies:
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: NL_speednode_0012
+  network: tcp
+  port: 8443
+  server: 185.229.191.68
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  flow: ''
+  name: NL_speednode_0017
+  network: tcp
+  port: 8443
+  server: 185.229.191.22
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.17.9.5
+  servername: newgit.jisucf.cloudns.biz
+  tls: true
+  type: vless
+  uuid: 5fbbf263-0518-446c-8ef2-13b2001aa69d
+  ws-opts:
+    headers:
+      Host: newgit.jisucf.cloudns.biz
+    path: '%2F'
+- alpn:
+  - ''
+  flow: ''
+  name: UA_speednode_0109
+  network: tcp
+  port: 8443
+  server: 143.244.45.50
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 罗马尼亚+V2CROSS.COM
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  port: 443
+  server: 185.137.157.250
+  sni: fra250.clientfirewall.click
+  type: trojan
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 8443
+  server: 104.17.108.69
+  servername: ssl.mellora.app.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a1b2c3d4-e5f6-4789-9a0b-1c2d3e4f5a6b
+  ws-opts:
+    headers:
+      Host: scale55-cdn.mellora.app.
+    path: /
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: PoSQBShqwNV9wKX4WHxDoLxbvp4eQYnD8v
+  port: 443
+  server: 130.94.78.17
+  type: trojan
+- name: 韩国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 211.49.57.179
+  servername: s5.868001.xyz
+  tls: true
+  type: vless
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
+- alpn:
+  - ''
+  flow: ''
+  name: NL_speednode_0015
+  network: tcp
+  port: 8443
+  server: 185.229.191.14
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  flow: ''
+  name: RO_speednode_0070
+  network: tcp
+  port: 8443
+  server: 95.173.199.83
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 亚太地区+V2CROSS.COM
+  network: tcp
+  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
+  port: 443
+  server: 103.125.216.169
+  skip-cert-verify: true
+  type: trojan
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: RO_speednode_0058
+  network: tcp
+  port: 8443
+  server: 95.173.199.116
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - name: '美国+CloudFlare节点 #2'
   network: ws
   port: 443
-  server: cf.090227.xyz
+  server: youxuan.cf.090227.xyz
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   tls: true
@@ -61,173 +189,14 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
-- alpn:
-  - ''
-  flow: ''
-  name: TR_speednode_0104
+- name: '罗马尼亚+V2CROSS.COM #1'
   network: tcp
-  port: 8443
-  server: 87.249.139.235
-  servername: ams1.fromblancwithlove.com
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  port: 443
+  server: 185.137.157.154
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- flow: xtls-rprx-vision
-  name: 西班牙+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '6ba85179e30d4fc2'
-  server: 217.217.244.130
-  servername: enterprisekitten.com
-  tls: false
-  type: vless
-  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: dx.mmhh.eu.cc
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp=chrome
-- alpn:
-  - ''
-  flow: ''
-  name: RO_speednode_0063
-  network: tcp
-  port: 8443
-  server: 95.173.199.84
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: da.mfa.gov.ua
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  sni: www.ignitelimit.com
+  sni: fra154.clientfirewall.click
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
-  network: tcp
-  port: 22
-  server: 172.65.111.43
-  tls: false
-  type: vless
-  uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
-  ws-opts:
-    path: '%2F%40monacoVPN%40monacoVPN%40monacoVPN%40monacoVPN'
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0129
-  network: tcp
-  port: 443
-  server: assets.trorays.com
-  servername: assets.trorays.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: NL_speednode_0020
-  network: tcp
-  port: 8443
-  server: 185.229.191.180
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- flow: xtls-rprx-vision
-  name: 保加利亚+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: YD3G553bQP0uWuyYDY9ZvhLCmfF9tmKUo8MRuALEFUw
-    short-id: 'deee73'
-  server: 62.60.155.0
-  servername: telegraph.co.uk
-  tls: false
-  type: vless
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-- alpn:
-  - ''
-  flow: ''
-  name: RO_speednode_0061
-  network: tcp
-  port: 8443
-  server: 95.173.199.85
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alpn:
-  - ''
-  flow: ''
-  name: TR_speednode_0108
-  network: tcp
-  port: 8443
-  server: 87.249.139.233
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 亚太地区+V2CROSS.COM
-  password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
-  port: 443
-  server: 103.125.216.169
-  sni: 103.125.216.169
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 德国 V2CROSS.COM
-  network: tcp
-  port: '1020'
-  server: nlt.reata.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 159.112.235.52
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -478,19 +447,6 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: NL_speednode_0012
-  network: tcp
-  port: 8443
-  server: 185.229.191.68
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
   name: NL_speednode_0013
   network: tcp
   port: 8443
@@ -515,18 +471,6 @@ proxies:
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - alpn:
   - ''
-  flow: ''
-  name: NL_speednode_0015
-  network: tcp
-  port: 8443
-  server: 185.229.191.14
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alpn:
-  - ''
   client-fingerprint: ''
   flow: ''
   name: NL_speednode_0016
@@ -535,18 +479,6 @@ proxies:
   server: 185.229.191.93
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alpn:
-  - ''
-  flow: ''
-  name: NL_speednode_0017
-  network: tcp
-  port: 8443
-  server: 185.229.191.22
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -564,13 +496,14 @@ proxies:
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - alpn:
   - ''
+  client-fingerprint: ''
   flow: ''
-  name: NL_speednode_0019
+  name: NL_speednode_0020
   network: tcp
   port: 8443
-  server: 185.229.191.12
+  server: 185.229.191.180
   servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -652,10 +585,22 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: RO_speednode_0058
+  name: RO_speednode_0060
   network: tcp
   port: 8443
-  server: 95.173.199.116
+  server: 95.173.199.104
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - ''
+  flow: ''
+  name: RO_speednode_0061
+  network: tcp
+  port: 8443
+  server: 95.173.199.85
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true
@@ -663,12 +608,11 @@ proxies:
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - alpn:
   - ''
-  client-fingerprint: ''
   flow: ''
-  name: RO_speednode_0060
+  name: RO_speednode_0063
   network: tcp
   port: 8443
-  server: 95.173.199.104
+  server: 95.173.199.84
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: true
   tls: true
@@ -702,10 +646,10 @@ proxies:
 - alpn:
   - ''
   flow: ''
-  name: RO_speednode_0070
+  name: SE_speednode_0103
   network: tcp
   port: 8443
-  server: 95.173.199.83
+  server: 79.127.249.221
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true
@@ -714,12 +658,12 @@ proxies:
 - alpn:
   - ''
   flow: ''
-  name: SE_speednode_0103
+  name: TR_speednode_0105
   network: tcp
   port: 8443
-  server: 79.127.249.221
+  server: 87.249.139.247
   servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -752,10 +696,10 @@ proxies:
 - alpn:
   - ''
   flow: ''
-  name: UA_speednode_0109
+  name: TR_speednode_0108
   network: tcp
   port: 8443
-  server: 143.244.45.50
+  server: 87.249.139.233
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true
@@ -1062,6 +1006,18 @@ proxies:
     headers:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: '%2F'
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: US_speednode_0129
+  network: tcp
+  port: 443
+  server: assets.trorays.com
+  servername: assets.trorays.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
 - alpn:
   - ''
   flow: ''

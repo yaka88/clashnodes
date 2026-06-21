@@ -1,25 +1,19 @@
 proxies:
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: tcp
+  port: '1546'
+  server: vip3.sanaiehdasti.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: PoSQBShqwNV9wKX4WHxDoLxbvp4eQYnD8v
   port: 443
-  server: 104.16.174.12
-  sni: www.ignitelimit.com
+  server: 130.94.78.17
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 159.112.235.52
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
