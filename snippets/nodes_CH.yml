@@ -1,11 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  name: CH_speednode_0005
-  network: tcp
-  password: SoftNetConnect
-  port: 42549
-  server: 83.228.224.161
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
+proxies: []

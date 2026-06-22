@@ -1,44 +1,53 @@
 proxies:
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  network: tcp
-  password: Bt-qzyomC7g37TaHwvPSV0.YrNSxFmlvIP
-  port: 443
-  server: 130.94.107.242
-  skip-cert-verify: true
-  type: trojan
-- name: '美国+CloudFlare节点 #3'
+- name: 美国+RF+Engineering
   network: ws
-  password: humanity
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
   port: 443
-  server: 104.18.152.97
+  server: 141.193.213.30
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
-  port: 443
-  server: 38.60.202.163
-  sni: 38.60.202.163
-  type: trojan
-  ws-opts:
-    path: '%2f'
-- name: '美国+CloudFlare节点 #4'
+      Host: space.byu.id.yxls.eu.cc
+    path: /br-orcl
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.46
+  server: 104.18.152.233
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      Host: www.calmloud.com
     path: /assignment
+- name: 美国+加州
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: '美国+V2CROSS.COM #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.170
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -144,34 +153,4 @@ proxies:
   server: 95.40.92.87
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- alpn:
-  - ''
-  name: CH_speednode_0005
-  network: tcp
-  password: SoftNetConnect
-  port: 42549
-  server: 83.228.224.161
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: IN_speednode_0009
-  network: tcp
-  password: M7v%w11Se*
-  port: 443
-  server: hyfuuf6.wsone.icu
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: JP_speednode_0011
-  network: tcp
-  password: BxceQaOe
-  port: 5408
-  server: 54.65.32.119
-  skip-cert-verify: true
-  sni: ''
   type: trojan
