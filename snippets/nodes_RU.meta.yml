@@ -1,14 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0129
-  network: tcp
-  port: 443
-  server: assets.trorays.com
-  servername: assets.trorays.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
+proxies: []
