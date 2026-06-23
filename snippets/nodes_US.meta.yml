@@ -1,26 +1,67 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  sni: ''
+  type: trojan
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: 172.64.155.209
+  sni: www.gossipglove.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 美国+华盛顿Cogent通信公司
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+      Host: www.gossipglove.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #1'
+  network: ws
   port: 443
-  server: 38.60.202.163
+  server: 108.162.194.135
+  servername: nbhhh.mrcool.kdns.fr
   skip-cert-verify: false
-  sni: 38.60.202.163
-  type: trojan
-- name: 美国+V2CROSS.COM
+  tls: true
+  type: vless
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  ws-opts:
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: 80
+  server: 69.84.182.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 美国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 140.248.185.253
+  servername: global.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6e7ebc40-58a6-c567-4ae8-51b7605a272b
+  ws-opts:
+    headers:
+      Host: nesfzzeshab.global.ssl.fastly.net
+    path: /
+- name: '美国+V2CROSS.COM #1'
   network: ws
   port: 80
   server: 199.232.197.131
@@ -33,54 +74,26 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: '美国+CloudFlare节点 #1'
+- name: 北美地区+V2CROSS.COM
   network: ws
-  port: 443
-  server: 173.245.59.35
-  servername: ld.235231.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
-  ws-opts:
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: ws
-  port: '80'
-  server: 69.84.182.49
-  servername: ''
+  port: 80
+  server: hentai-cdn.apruxdomain.xyz
   tls: false
-  type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  type: vless
+  uuid: 32dffb35-9b53-4b62-8694-a8fa9dc999ed
   ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
-- name: '美国+CloudFlare节点 #2'
+- name: 美国+Fastly全球Anycast节点
   network: ws
-  port: 443
-  server: 108.162.194.135
-  servername: nbhhh.mrcool.kdns.fr
-  skip-cert-verify: false
-  tls: true
+  port: 80
+  server: speedtest.net
+  tls: false
   type: vless
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
-      Host: nbhhh.mrcool.kdns.fr
-    path: '%2Fproxyip%3Ddc844a1f.tp15333.ip.090227.xyz'
-- alterId: 0
-  cipher: auto
-  name: '美国 V2CROSS.COM #1'
-  network: tcp
-  port: '43203'
-  server: 154.37.223.56
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 68bd04a1-0547-46a6-cdb2-c8ac3fce1e67
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: 2009158055b4d37156cee7082c50ffde
@@ -107,9 +120,196 @@ proxies:
   type: trojan
 - alpn:
   - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0055
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0056
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0057
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0058
+  network: ws
+  port: 2095
+  server: support.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0059
+  network: ws
+  port: 2095
+  server: cloudflare-dns.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0060
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0061
+  network: ws
+  port: 2095
+  server: itarmy.com.ua
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0062
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0063
+  network: ws
+  port: 2095
+  server: www.udemy.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0064
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: randomized
+  flow: ''
+  name: US_speednode_0065
+  network: ws
+  port: 2095
+  server: docs.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: '%2F'
+- alpn:
+  - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0087
+  name: US_speednode_0066
   network: ws
   port: 80
   server: 199.232.197.131
@@ -124,80 +324,79 @@ proxies:
     path: '%2F'
 - alpn:
   - ''
-  client-fingerprint: ''
+  client-fingerprint: randomized
   flow: ''
-  name: US_speednode_0091
+  name: US_speednode_0067
   network: ws
-  port: 80
-  server: 151.101.2.219
-  servername: max-gb1.global.ssl.fastly.net
+  port: 2095
+  server: cf.090227.xyz
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
     path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0068
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: '!!str 473277e2'
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0092
-  network: ws
-  port: 80
-  server: 151.101.194.219
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0093
-  network: ws
-  port: 80
-  server: 151.101.0.1
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0094
-  network: ws
-  port: 80
-  server: 167.82.0.1
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0095
+  name: US_speednode_0071
   network: ws
   port: 80
   server: speedtest.net
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0072
+  network: ws
+  port: 80
+  server: 151.101.130.219
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0073
+  network: ws
+  port: 80
+  server: 151.101.194.219
   servername: max-gb1.global.ssl.fastly.net
   skip-cert-verify: false
   tls: false
