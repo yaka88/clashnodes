@@ -1,52 +1,82 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: UA_speednode_0085
-  network: tcp
-  port: 8443
-  server: 143.244.45.50
-  servername: ams1.fromblancwithlove.com
+- name: 美国+V2CROSS.COM
+  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
+  port: 443
+  server: 45.61.52.243
+  sni: 45.61.52.243
+  type: trojan
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: yd.mmhh.eu.cc
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: '%2F'
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  sni: ''
+  type: trojan
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 172.64.33.162
+  servername: octopusss5.info
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: '%2Fudfyfws'
 - name: '美国+V2CROSS.COM #1'
-  network: tcp
-  port: 8443
-  server: 143.244.45.53
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
+  network: ws
+  port: 80
+  server: 167.82.0.1
+  tls: false
   type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: UA_speednode_0086
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   network: tcp
-  port: 8443
-  server: 143.244.45.55
-  servername: ams1.fromblancwithlove.com
+  password: BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V
+  port: 443
+  server: 130.94.114.217
   skip-cert-verify: false
-  tls: true
+  type: trojan
+- name: '美国+CloudFlare节点 #2'
+  network: tcp
+  port: 22
+  server: 172.65.111.43
+  tls: false
   type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: '%2F%40monacoVPN%40monacoVPN%40monacoVPN%40monacoVPN'
 - name: 美国|@ripaojiedian
   network: tcp
-  password: 860c3c2c89a1c7515792be1c5295d21e
+  password: 2009158055b4d37156cee7082c50ffde
   port: 49277
-  server: 18.162.41.225
+  server: 57.183.13.23
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 860c3c2c89a1c7515792be1c5295d21e
+  password: 2009158055b4d37156cee7082c50ffde
   port: 17005
-  server: 95.40.53.232
+  server: 57.183.13.23
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
