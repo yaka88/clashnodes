@@ -5,14 +5,14 @@ proxies:
   server: 185.126.236.44
   sni: www.mesaly.click
   type: trojan
-- name: 英国+伯克郡斯劳Fastly节点
+- name: 英国+伦敦Fastly节点
   network: ws
   port: 80
-  server: 151.101.63.151
+  server: 151.101.17.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+    path: '%2F'

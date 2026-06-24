@@ -1,8 +1,8 @@
 proxies:
-- name: 加拿大+安大略省多伦多Fastly节点
+- name: 加拿大+魁北克省蒙特利尔Fastly节点
   network: ws
   port: 80
-  server: 151.101.127.151
+  server: 151.101.139.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
