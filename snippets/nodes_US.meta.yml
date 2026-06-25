@@ -1,45 +1,15 @@
 proxies:
-- name: 美国+华盛顿州西雅图Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.55.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 美国+明尼苏达州明尼阿波利斯Fastly节点
-  network: ws
-  port: 80
-  server: 151.101.151.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
+- name: 美国+华盛顿Cogent通信公司
+  network: tcp
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
   port: 443
-  server: 104.20.6.134
+  server: 38.60.168.129
   skip-cert-verify: false
-  sni: www.calmloud.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 美国+佛罗里达州迈阿密Fastly节点
+- name: 美国+纽约Fastly节点
   network: ws
   port: 80
-  server: 151.101.6.151
+  server: 151.101.21.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -47,15 +17,76 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: 美国+俄亥俄州都柏林Amazon数据中心
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
   port: 443
-  server: vpn-us-004.fastervpn.world
+  server: adf.ly
+  servername: rAyAn-007.pArViN.DpDnS.OrG
   skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  tls: false
-  type: hysteria2
+  tls: true
+  type: vless
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  ws-opts:
+    headers:
+      Host: rayan-007.parvin.dpdns.org
+    path: /?ed%3D2560
 - name: 美国+Fastly全球Anycast节点
+  network: ws
+  port: 80
+  server: 151.101.2.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F'
+- name: '美国+Fastly全球Anycast节点 #1'
+  network: ws
+  port: 80
+  server: 151.101.66.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 美国+Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.188.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 美国+明尼苏达州明尼阿波利斯Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.149.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+Fastly全球Anycast节点 #2'
+  network: ws
+  port: 80
+  server: 151.101.130.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '美国+Fastly全球Anycast节点 #3'
   network: ws
   port: 80
   server: 151.101.0.151
@@ -68,17 +99,17 @@ proxies:
     path: '%2F'
 - name: 美国|@ripaojiedian
   network: tcp
-  password: ba5b6f1d3a9da87096165da523fb4375
+  password: a844e75e40134ee742e80ced8509b310
   port: 17005
-  server: 16.162.120.149
+  server: 95.40.109.13
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: ba5b6f1d3a9da87096165da523fb4375
+  password: a844e75e40134ee742e80ced8509b310
   port: 17005
-  server: 57.183.13.23
+  server: 43.198.98.136
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -86,7 +117,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 43.199.44.33
+  server: 18.166.177.233
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
