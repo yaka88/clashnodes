@@ -1,4 +1,24 @@
 proxies:
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.6
+  skip-cert-verify: true
+  sni: global.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cdn-mitivpn.global.ssl.fastly.net
+    path: /de=mitivpn
 - name: 美国|@ripaojiedian
   network: tcp
   password: a844e75e40134ee742e80ced8509b310
