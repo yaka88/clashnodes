@@ -1,24 +1,30 @@
 proxies:
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
-  port: 443
-  server: 130.94.94.15
-  sni: 130.94.94.15
-  type: trojan
 - alpn:
   - http/1.1
-  name: 美国+乔治亚洲亚特兰大Fastly节点
+  name: 美国+CloudFlare节点
   network: ws
-  password: MiTiVPN
+  password: humanity
   port: 443
-  server: 151.101.56.6
-  skip-cert-verify: true
-  sni: global.fastly.com
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
-      Host: cdn-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: a844e75e40134ee742e80ced8509b310

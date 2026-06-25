@@ -1,8 +1,12 @@
 proxies:
-- name: 英国+伦敦Choopa数据中心
-  network: tcp
-  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
-  port: 443
-  server: 45.77.227.183
-  skip-cert-verify: false
-  type: trojan
+- name: 英国+伯克郡斯劳Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.60.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
