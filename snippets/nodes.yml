@@ -1,35 +1,37 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
+- name: 美国+华盛顿Cogent通信公司
+  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
   port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: 38.60.220.65
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
+- name: 香港+电讯盈科有限公司
+  network: tcp
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: yazhou10.dynu.net
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 希腊+V2CROSS.COM
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+- alterId: 0
+  cipher: auto
+  name: 亚太地区 V2CROSS.COM
+  network: tcp
+  port: '49178'
+  server: 160.250.247.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
+- name: '美国+V2CROSS.COM #1'
+  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
   port: 443
-  server: 92.119.35.105
-  sni: ''
+  server: 207.126.167.162
+  type: trojan
+- name: '美国+华盛顿Cogent通信公司 #1'
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  port: 443
+  server: 38.60.202.163
+  sni: 38.60.202.163
   type: trojan
 - alterId: 2
   cipher: auto
