@@ -1,8 +1,10 @@
 proxies:
-- name: 英国+伦敦Choopa数据中心
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0002
   network: tcp
-  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
-  port: 443
-  server: 45.77.227.183
-  skip-cert-verify: false
-  type: trojan
+  port: 180
+  server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

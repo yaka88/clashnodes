@@ -1,8 +1,26 @@
 proxies:
-- name: 英国+伦敦Choopa数据中心
+- alterId: 0
+  cipher: auto
+  name: GB_speednode_0002
   network: tcp
-  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
-  port: 443
-  server: 45.77.227.183
+  port: 180
+  server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0003
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: '!!str d82fb387'
+  server: 31.76.38.18
+  servername: icloud.com
   skip-cert-verify: false
-  type: trojan
+  tls: false
+  type: vless
+  uuid: 6e41151e-ae07-4ea6-910e-7a3986b7bc0d
