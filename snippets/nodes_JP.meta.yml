@@ -1,18 +1,16 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 日本+V2CROSS.COM
-  network: ws
-  port: 4443
-  server: 43.163.225.68
-  servername: c.eoa.ccwu.cc
-  skip-cert-verify: false
-  tls: true
+  network: tcp
+  port: 39975
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: 116.80.58.239
+  servername: cloudcircus.jp
+  tls: false
   type: vless
-  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
-  ws-opts:
-    headers:
-      Host: c.eoa.ccwu.cc
-    path: '%2F'
+  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
