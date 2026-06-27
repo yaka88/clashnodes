@@ -1,10 +1,15 @@
 proxies:
-- name: 英国+Technicolor+SA
-  password: 63872b0d-87dd-4474-b690-92773af2922e
-  port: 20035
-  server: kkvlvvq-a.catcat321.com
-  sni: hk.catxstar.com
+- name: 英国+V2CROSS.COM
+  network: tcp
+  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
+  port: 443
+  server: 185.126.236.190
+  skip-cert-verify: false
+  sni: 185.126.236.190
   type: trojan
+  ws-opts:
+    headers:
+      Host: v2rayNplus--v2rayNplus--v2rayNplus
 - alterId: 0
   cipher: auto
   name: GB_speednode_0002
