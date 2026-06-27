@@ -1,15 +1,38 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
+- alpn:
+  - h2
+  name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  password: Mitivpn
   port: 443
-  server: 207.126.167.162
+  server: 151.101.56.6
   skip-cert-verify: false
+  sni: ssl.fastly.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: 4-4-3-mitivpn.global.ssl.fastly.net
+    path: /
 - name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
   port: 443
-  server: 38.60.168.129
+  server: 38.60.202.163
+  sni: 38.60.202.163
+  type: trojan
+- name: 美国+Fastly全球Anycast节点
+  network: ws
+  password: Mitivpn
+  port: 80
+  server: 151.101.0.0
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /ed=mitivpn
+- name: '美国+华盛顿Cogent通信公司 #1'
+  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
+  port: 443
+  server: 38.60.136.156
   skip-cert-verify: false
   type: trojan
 - name: 美国2|@ripaojiedian
@@ -28,3 +51,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0054
+  network: tcp
+  port: 13932
+  server: 104.253.134.92
+  tls: false
+  type: vmess
+  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+- alpn:
+  - ''
+  name: US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: '%2Fusa%3Dmitivpn'

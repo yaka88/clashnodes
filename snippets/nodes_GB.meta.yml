@@ -1,37 +1,15 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  network: tcp
-  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
+- alpn:
+  - ''
+  name: GB_speednode_0005
+  network: ws
+  password: MITIVPN
   port: 443
-  server: 185.126.236.190
+  server: 164.38.155.135
   skip-cert-verify: false
-  sni: 185.126.236.190
+  sni: ''
   type: trojan
   ws-opts:
     headers:
-      Host: v2rayNplus--v2rayNplus--v2rayNplus
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0002
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0003
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str d82fb387'
-  server: 31.76.38.18
-  servername: icloud.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 6e41151e-ae07-4ea6-910e-7a3986b7bc0d
+      Host: 95r.ir
+    path: '%2FMiTiVPN%3DDe'
