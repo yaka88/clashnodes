@@ -1,44 +1,31 @@
 proxies:
 - name: 希腊+V2CROSS.COM
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.93
-  skip-cert-verify: false
-  sni: 92.119.35.93
-  type: trojan
-- name: 英国+V2CROSS.COM
-  network: tcp
-  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
-  port: 443
-  server: 185.126.236.190
-  sni: 185.126.236.190
-  type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.142
-  type: trojan
-- name: '希腊+V2CROSS.COM #1'
   password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 92.119.35.125
+  server: 92.119.35.120
   type: trojan
-- name: '美国+V2CROSS.COM #1'
-  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
+- name: '希腊+V2CROSS.COM #1'
+  network: tcp
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 207.126.167.162
+  server: 92.119.35.117
   skip-cert-verify: false
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #2'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
   port: 443
-  server: 185.137.157.151
+  server: 104.20.6.134
+  sni: www.calmloud.com
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #3'
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
   port: 443
-  server: 185.137.157.145
+  server: 103.125.216.68
   type: trojan
 - alterId: 2
   cipher: auto

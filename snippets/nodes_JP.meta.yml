@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  name: 日本+V2CROSS.COM
+  network: ws
+  port: 3389
+  server: 43.163.89.186
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: '%2F'
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
