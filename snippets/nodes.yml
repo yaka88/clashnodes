@@ -1,77 +1,44 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
-  port: 443
-  server: 185.137.157.59
-  skip-cert-verify: false
-  sni: www.lateralio.click
-  type: trojan
 - name: 希腊+V2CROSS.COM
+  network: tcp
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 92.119.35.71
+  server: 92.119.35.93
+  skip-cert-verify: false
+  sni: 92.119.35.93
+  type: trojan
+- name: 英国+V2CROSS.COM
+  network: tcp
+  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
+  port: 443
+  server: 185.126.236.190
+  sni: 185.126.236.190
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #1'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.142
   type: trojan
 - name: '希腊+V2CROSS.COM #1'
   password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 92.119.35.117
+  server: 92.119.35.125
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
-  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+- name: '美国+V2CROSS.COM #1'
+  password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
   port: 443
-  server: 185.137.157.250
-  sni: fra250.clientfirewall.click
-  type: trojan
-- alpn:
-  - h2
-  name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: 151.101.56.6
+  server: 207.126.167.162
   skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4-4-3-mitivpn.global.ssl.fastly.net
-    path: /
-- name: 美国+华盛顿Cogent通信公司
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
-  port: 443
-  server: 38.60.202.163
-  sni: 38.60.202.163
   type: trojan
 - name: '罗马尼亚+V2CROSS.COM #2'
-  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.154
-  sni: fra154.clientfirewall.click
+  server: 185.137.157.151
   type: trojan
-- name: 美国+Fastly全球Anycast节点
-  network: ws
-  password: Mitivpn
-  port: 80
-  server: 151.101.0.0
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /ed=mitivpn
-- name: '美国+华盛顿Cogent通信公司 #1'
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
+- name: '罗马尼亚+V2CROSS.COM #3'
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 38.60.136.156
-  skip-cert-verify: false
-  type: trojan
-- name: '希腊+V2CROSS.COM #2'
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.131
+  server: 185.137.157.145
   type: trojan
 - alterId: 2
   cipher: auto
@@ -94,24 +61,24 @@ proxies:
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50116
-  server: 18.166.59.96
+  port: 3941
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 20744
-  server: 54.46.109.132
+  port: 3941
+  server: 18.163.56.230
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 52.196.252.9
+  port: 18021
+  server: 18.183.83.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -143,7 +110,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 9149
-  server: 18.162.53.161
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -159,7 +126,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 54.46.109.132
+  server: 16.163.142.40
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
