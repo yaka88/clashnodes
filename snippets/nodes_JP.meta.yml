@@ -1,4 +1,16 @@
 proxies:
+- name: 日本+东京Fastly节点
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /boost
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
