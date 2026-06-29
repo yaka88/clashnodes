@@ -1,25 +1,51 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 日本+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: '!!str 473277e2'
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  tls: false
+  type: vless
+  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
+- alpn:
+  - http/1.1
+  name: 日本+东京Fastly节点
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
+  sni: global.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: '%2Fde%3Dmitivpn'
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 18021
-  server: 18.183.83.131
+  port: 10624
+  server: 13.115.183.122
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
-  port: 3743
-  server: 54.46.30.217
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 5701
+  server: 18.181.172.59
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
+  password: 4e4910ec52552e36aa43a870a179da83
   port: 5701
-  server: 54.46.30.217
+  server: 13.230.33.22
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
