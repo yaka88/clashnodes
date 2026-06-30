@@ -1,78 +1,16 @@
 proxies:
-- name: 希腊+V2CROSS.COM
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.97
-  skip-cert-verify: false
-  type: trojan
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
-  port: 443
-  server: 130.94.94.15
-  type: trojan
-- name: 新加坡+亚马逊(Amazon)公司数据中心
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-sg-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-003.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: 罗马尼亚+V2CROSS.COM
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.140
+  server: 185.137.157.142
   type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
+- name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 162.159.13.71
-  servername: nbhhh.mrcool.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-  ws-opts:
-    headers:
-      Host: nbhhh.mrcool.kdns.fr
-    path: /
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: support.zoom.us
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
-  ws-opts:
-    path: '%2Fus-gllc'
-- name: 亚太地区+V2CROSS.COM
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.18
-  type: trojan
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 104.26.5.60
+  server: 172.64.144.82
   servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -80,40 +18,189 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
-- name: '罗马尼亚+V2CROSS.COM #1'
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.149
-  sni: 185.137.157.149
-  type: trojan
-- name: '希腊+V2CROSS.COM #1'
+- name: 希腊+V2CROSS.COM
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 92.119.35.87
+  server: 92.119.35.71
   type: trojan
-- name: '美国+华盛顿Cogent通信公司 #1'
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  port: 8443
+  server: 188.114.97.6
+  servername: srv71.perfectbulk.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93
+  ws-opts:
+    headers:
+      Host: srv71.perfectbulk.info
+    path: '%2F'
+- name: '罗马尼亚+V2CROSS.COM #1'
   network: tcp
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
   port: 443
-  server: 38.60.202.163
-  sni: 38.60.202.163
+  server: 185.137.157.59
+  skip-cert-verify: false
+  sni: www.lateralio.click
+  type: trojan
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 日本+V2CROSS.COM
+  network: tcp
+  port: 14001
+  reality-opts:
+    public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
+    short-id: '16'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  tls: false
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- name: 美国+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 199.181.197.143
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
-    path: '%2f'
-- name: '罗马尼亚+V2CROSS.COM #2'
-  network: tcp
-  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #1'
+  network: ws
   port: 443
-  server: 185.137.157.154
-  skip-cert-verify: true
-  sni: fra154.clientfirewall.click
+  server: 108.162.192.75
+  servername: shegeftihaaa.net
+  tls: true
+  type: vless
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  ws-opts:
+    headers:
+      Host: shegeftihaaa.net
+    path: '%2Frsedgws'
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
   type: trojan
-- name: '亚太地区+V2CROSS.COM #1'
+- name: '希腊+V2CROSS.COM #1'
   network: tcp
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 103.125.216.68
+  server: 92.119.35.125
+  skip-cert-verify: false
+  type: trojan
+- name: 俄罗斯+V2CROSS.COM
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  port: 8451
+  server: wlte9.nimarko.org
+  skip-cert-verify: false
+  sni: testing7.nimarko.org
+  tls: false
+  type: hysteria2
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '日本+V2CROSS.COM #1'
+  network: tcp
+  port: 14010
+  reality-opts:
+    public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
+    short-id: '1ebaa8ea57a71ffc'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  tls: false
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: 104.26.12.222
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 162.159.36.20
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    path: /
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 443
+  server: elliot.ns.cloudflare.com
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- name: 美国+CloudFlare
+  network: ws
+  port: 443
+  server: 162.159.16.154
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /fp=chrome
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  port: 443
+  server: cf3.466688.xyz
+  servername: cfoo-146.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  ws-opts:
+    headers:
+      Host: cfoo-146.pages.dev
+    path: /QiangLieTuiJian?ed=2560
+- name: '希腊+V2CROSS.COM #2'
+  network: tcp
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.97
   skip-cert-verify: false
   type: trojan
 - alterId: 2
