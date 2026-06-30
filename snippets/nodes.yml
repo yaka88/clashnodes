@@ -1,93 +1,76 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.44.211
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2Fassignment'
-- name: 美国+CloudFlare
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.17.189
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
-  port: 443
-  server: 38.60.202.163
-  skip-cert-verify: false
-  sni: 38.60.202.163
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 日本+东京Fastly节点
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: 151.101.110.219
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
 - name: 希腊+V2CROSS.COM
+  network: tcp
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
   server: 92.119.35.97
-  type: trojan
-- name: '希腊+V2CROSS.COM #1'
-  network: tcp
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  port: 443
-  server: 92.119.35.117
   skip-cert-verify: false
+  type: trojan
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
   type: trojan
 - name: 罗马尼亚+V2CROSS.COM
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.138
-  sni: 185.137.157.138
+  server: 185.137.157.140
   type: trojan
 - alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '罗马尼亚+V2CROSS.COM #1'
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
+- name: '罗马尼亚+V2CROSS.COM #1'
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.149
+  sni: 185.137.157.149
+  type: trojan
+- name: '希腊+V2CROSS.COM #1'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.87
+  type: trojan
+- name: '美国+华盛顿Cogent通信公司 #1'
+  network: tcp
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  port: 443
+  server: 38.60.202.163
+  sni: 38.60.202.163
+  type: trojan
+  ws-opts:
+    path: '%2f'
+- name: '罗马尼亚+V2CROSS.COM #2'
   network: tcp
   password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
   port: 443
-  server: 185.137.157.250
+  server: 185.137.157.154
+  skip-cert-verify: true
+  sni: fra154.clientfirewall.click
+  type: trojan
+- name: '亚太地区+V2CROSS.COM #1'
+  network: tcp
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.68
   skip-cert-verify: false
-  sni: fra250.clientfirewall.click
   type: trojan
 - alterId: 2
   cipher: auto

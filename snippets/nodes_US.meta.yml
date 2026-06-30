@@ -1,67 +1,51 @@
 proxies:
-- name: 美国+CloudFlare节点
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
-  port: 80
-  server: 104.25.118.238
-  tls: false
-  type: vless
-  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
+  password: humanity
+  port: 443
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
   ws-opts:
     headers:
-      Host: billowing-cloud-d339.sospanel.workers.dev
-    path: /eyJqdW5rIjoiOFRwTjlPWHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #1'
   network: ws
-  password: humanity
   port: 443
-  server: 172.66.44.211
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2Fassignment'
-- name: 美国+CloudFlare
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.17.189
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: 美国+华盛顿Cogent通信公司
-  network: tcp
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
-  port: 443
-  server: 38.60.202.163
-  skip-cert-verify: false
-  sni: 38.60.202.163
-  type: trojan
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: cf4.466688.xyz
-  servername: cfoo-146.pages.dev
+  server: 162.159.13.71
+  servername: nbhhh.mrcool.kdns.fr
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
   ws-opts:
     headers:
-      Host: cfoo-146.pages.dev
-    path: /QiangLieTuiJian?ed=2560
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
+      Host: nbhhh.mrcool.kdns.fr
+    path: /
+- name: 美国+V2CROSS.COM
   network: ws
   port: 443
-  server: 172.64.53.34
+  server: support.zoom.us
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
+  ws-opts:
+    path: '%2Fus-gllc'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 104.26.5.60
   servername: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
@@ -69,18 +53,16 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 8880
-  server: 104.16.107.139
-  tls: false
-  type: vless
-  uuid: f5c01a38-a92a-46a1-8968-a0582f4e2f2a
+    path: '%2F'
+- name: '美国+华盛顿Cogent通信公司 #1'
+  network: tcp
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  port: 443
+  server: 38.60.202.163
+  sni: 38.60.202.163
+  type: trojan
   ws-opts:
-    headers:
-      Host: steep-frost-8b18.350-c77.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: '%2f'
 - name: 美国|@ripaojiedian
   network: tcp
   password: 82c038b55e40ca2613b76bb98c7f6d1f

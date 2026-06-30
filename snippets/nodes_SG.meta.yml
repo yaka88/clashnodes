@@ -1,4 +1,12 @@
 proxies:
+- name: 新加坡+亚马逊(Amazon)公司数据中心
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-sg-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-003.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 82c038b55e40ca2613b76bb98c7f6d1f
