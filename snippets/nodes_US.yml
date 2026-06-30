@@ -1,32 +1,36 @@
 proxies:
-- name: 美国+V2CROSS.COM
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 45.130.125.112
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 172.66.44.211
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: '%2Fassignment'
+- name: 美国+CloudFlare
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.17.189
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
     path: /assignment
-- name: 美国+华盛顿Cogent通信公司
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: 美国+华盛顿Cogent通信公司
   network: tcp
   password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
   port: 443
   server: 38.60.202.163
+  skip-cert-verify: false
   sni: 38.60.202.163
-  type: trojan
-  ws-opts:
-    path: /
-- name: '美国+华盛顿Cogent通信公司 #1'
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  port: 443
-  server: 38.60.136.156
-  type: trojan
-- name: '美国+华盛顿Cogent通信公司 #2'
-  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
-  port: 443
-  server: 38.60.220.65
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
